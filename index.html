@@ -8,7 +8,7 @@
 <meta name="description" content="Descubra restaurantes, veja o cardápio e peça direto pelo WhatsApp. Simples, rápido e feito para a sua cidade.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add('js')</script>
 <style>
 :root{--red:#e51b2b;--wine:#671019;--wine-2:#33080e;--cream:#f8f5ef;--paper:#fffdf9;--ink:#221719;--muted:#75696b;--line:rgba(51,8,14,.11);--green:#23864a;--sans:'DM Sans',sans-serif;--serif:'Instrument Serif',serif}*{box-sizing:border-box;margin:0;padding:0}html{scroll-behavior:smooth;scroll-padding-top:138px;-webkit-text-size-adjust:100%}body{background:var(--cream);color:var(--ink);font-family:var(--sans);overflow-x:hidden;-webkit-font-smoothing:antialiased}button,input{font:inherit}button,a{color:inherit}a{text-decoration:none}img{display:block;width:100%;height:100%;object-fit:cover}.wrap{width:min(100% - 32px,1180px);margin-inline:auto}::selection{background:var(--red);color:#fff}:focus-visible{outline:3px solid #ef5360;outline-offset:2px}.icon{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
@@ -67,6 +67,16 @@
 @media(hover:hover){.footer-v5-cta:hover{transform:translateY(-3px);border-color:rgba(229,27,43,.28);background:#fff}.footer-v5-cta:hover b{transform:translate(2px,-2px)}.footer-v5-nav a:hover{color:#e51b2b;transform:translateX(2px)}}
 @media(min-width:760px){.site-footer-v5{padding-bottom:38px}.footer-v5-intro{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:72px;align-items:end;padding-top:68px;padding-bottom:52px}.footer-v5-story h2{font-size:64px}.footer-v5-story>p{font-size:16px}.footer-v5-cta{margin-top:0;min-height:84px}.footer-v5-highlights{grid-template-columns:repeat(3,1fr);border-inline:1px solid rgba(56,24,28,.1)}.footer-v5-highlights>div{min-height:156px;padding:29px 31px;border-right:1px solid rgba(56,24,28,.1);border-bottom:0}.footer-v5-highlights>div:last-child{border-right:0}.footer-v5-main{padding-top:40px}.footer-v5-meta{display:grid;grid-template-columns:1fr 1.1fr auto;gap:32px;align-items:center;padding-bottom:34px}.footer-v5-meta p,.footer-v5-meta>a{margin-top:0}.footer-v5-nav{grid-template-columns:repeat(4,1fr);gap:40px;padding:36px 0}.footer-v5-bottom{align-items:center}.footer-v5-bottom p{max-width:none}.footer-v5-wordmark{font-size:min(13vw,172px);margin-top:50px;margin-bottom:-39px}}
 @media(prefers-reduced-motion:reduce){.footer-v5-cta,.footer-v5-cta b,.footer-v5-nav a{transition:none}}
+/* Footer v6 — sharper brand system and motion */
+.site-footer-v5{--footer-display:'Space Grotesk',var(--sans)}
+.footer-v5-kicker{width:max-content;gap:0;padding:0;border:1px solid rgba(103,16,25,.18);border-radius:7px;overflow:hidden;background:rgba(255,255,255,.55);font-family:var(--footer-display);letter-spacing:0;color:#671019}.footer-v5-kicker b,.footer-v5-kicker small{display:block;padding:7px 10px;font-size:9px;font-weight:700;line-height:1;letter-spacing:.13em;text-transform:uppercase}.footer-v5-kicker small{border-left:1px solid rgba(103,16,25,.14);background:#671019;color:#fff;font-size:8px}.footer-v5-kicker i{display:none}
+.footer-v5-story h2{max-width:11ch;font-family:var(--footer-display);font-weight:700;line-height:.92;letter-spacing:-.065em}.footer-v5-story h2 em{display:block;margin-top:3px;font-family:inherit;font-weight:700;font-style:normal;color:#e51b2b;letter-spacing:-.065em}.footer-v5-story>p{font-family:var(--sans)}
+.footer-v5-highlights{counter-reset:footer-feature}.footer-v5-highlights>div{isolation:isolate;overflow:hidden;min-height:174px;padding:25px 22px!important;border:1px solid rgba(56,24,28,.11)!important;border-bottom:0!important;background:rgba(255,255,255,.42);transition:opacity .7s,transform .7s cubic-bezier(.16,1,.3,1),background .25s,border-color .25s!important}.footer-v5-highlights>div:first-child{border-radius:16px 16px 0 0}.footer-v5-highlights>div:last-child{border-bottom:1px solid rgba(56,24,28,.11)!important;border-radius:0 0 16px 16px}.footer-v5-highlights>div:nth-child(2){transition-delay:.11s!important}.footer-v5-highlights>div:nth-child(3){transition-delay:.22s!important}.footer-v5-highlights>div:before{content:"";position:absolute;z-index:-1;right:-55px;top:-55px;width:150px;height:150px;border-radius:50%;background:radial-gradient(circle,rgba(229,27,43,.09),transparent 68%);transform:scale(.55);opacity:0;transition:transform .75s cubic-bezier(.16,1,.3,1),opacity .75s}.footer-v5-highlights>div.visible:before{transform:scale(1);opacity:1}.footer-v5-highlights span{display:grid;place-items:center;width:33px;height:25px;margin-bottom:28px;border:1px solid rgba(103,16,25,.18);border-radius:6px;background:#fff;font-family:var(--footer-display);font-size:9px;font-weight:700;letter-spacing:.08em;color:#671019;box-shadow:0 5px 14px rgba(51,8,14,.05)}.footer-v5-highlights strong{max-width:15ch;font-family:var(--footer-display);font-size:18px;font-weight:650;line-height:1.08;letter-spacing:-.045em}.footer-v5-highlights p{margin-top:11px;font-size:13px;line-height:1.55}
+.footer-v5-name{font-family:var(--footer-display);font-weight:700}.footer-v5-whatsapp{width:max-content;max-width:100%;display:flex!important;align-items:center;gap:10px;margin-top:18px!important;padding:0!important;border:0!important;color:#3d3032!important}.footer-v5-whatsapp>svg{width:32px;height:32px;flex:none;padding:7px;border:1px solid rgba(35,134,74,.2);border-radius:9px;background:rgba(35,134,74,.07);fill:none;stroke:#23864a;stroke-width:1.65;stroke-linecap:round;stroke-linejoin:round}.footer-v5-whatsapp span,.footer-v5-whatsapp small,.footer-v5-whatsapp strong{display:block}.footer-v5-whatsapp small{margin-bottom:2px;font-family:var(--sans);font-size:9px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:#9a8e8f}.footer-v5-whatsapp strong{font-family:var(--footer-display);font-size:12px;font-weight:650;letter-spacing:-.015em;color:#3d3032}
+.footer-v5-nav h3{font-family:var(--footer-display);font-weight:700}.footer-v5-wordmark{width:100%;margin-inline:auto;text-align:center;font-family:var(--footer-display);font-weight:700;letter-spacing:-.09em;color:transparent!important;-webkit-text-stroke:1px rgba(39,28,29,.2);opacity:1;transform-origin:center}.footer-v5-wordmark span{color:transparent!important;-webkit-text-stroke:1px rgba(229,27,43,.34)}
+@media(hover:hover){.footer-v5-highlights>div:hover{background:#fff;border-color:rgba(229,27,43,.2)!important}.footer-v5-whatsapp:hover strong{color:#e51b2b}}
+@media(min-width:760px){.footer-v5-highlights{gap:0;border:0}.footer-v5-highlights>div{border-right:0!important;border-bottom:1px solid rgba(56,24,28,.11)!important;border-radius:0!important}.footer-v5-highlights>div:first-child{border-radius:16px 0 0 16px!important}.footer-v5-highlights>div:last-child{border-right:1px solid rgba(56,24,28,.11)!important;border-radius:0 16px 16px 0!important}.footer-v5-meta>a{margin-top:0!important}.footer-v5-wordmark{transform:translateX(-1.5%)}}
+@media(prefers-reduced-motion:reduce){.footer-v5-highlights>div,.footer-v5-highlights>div:before{transition:none!important}}
 </style>
 </head>
 <body>
@@ -81,7 +91,7 @@
 <footer class="site-footer-v5" aria-label="Rodapé PedeAi Delivery">
   <div class="wrap footer-v5-intro">
     <div class="footer-v5-story reveal">
-      <span class="footer-v5-kicker"><i aria-hidden="true"></i>Chegamos ao Vale do Araguaia</span>
+      <span class="footer-v5-kicker"><b>Vale do Araguaia</b><small>Chegamos</small></span>
       <h2>O delivery da <em>nossa região.</em></h2>
       <p>O PedeAi conecta pessoas aos sabores locais, simplifica pedidos e ajuda restaurantes da região a transformar visibilidade em vendas.</p>
     </div>
@@ -91,17 +101,17 @@
     </a>
   </div>
   <div class="footer-v5-band">
-    <div class="wrap footer-v5-highlights reveal">
-      <div><span>01</span><strong>Sem baixar aplicativo</strong><p>Escolha, veja o cardápio e peça direto pelo WhatsApp.</p></div>
-      <div><span>02</span><strong>Feito para negócios locais</strong><p>Mais presença digital e um novo canal para receber pedidos.</p></div>
-      <div><span>03</span><strong>Presença regional</strong><p>Conectando cidades e sabores em todo o Vale do Araguaia.</p></div>
+    <div class="wrap footer-v5-highlights">
+      <div class="reveal"><span>01</span><strong>Sem baixar aplicativo</strong><p>Escolha, veja o cardápio e peça direto pelo WhatsApp.</p></div>
+      <div class="reveal"><span>02</span><strong>Feito para negócios locais</strong><p>Mais presença digital e um novo canal para receber pedidos.</p></div>
+      <div class="reveal"><span>03</span><strong>Presença regional</strong><p>Conectando cidades e sabores em todo o Vale do Araguaia.</p></div>
     </div>
   </div>
   <div class="wrap footer-v5-main">
     <div class="footer-v5-meta reveal">
       <div class="footer-v5-name">PedeAi <span>Delivery</span></div>
       <p>Comida local, descoberta simples e conexão direta com quem prepara.</p>
-      <a href="https://wa.me/5512936290045" target="_blank" rel="noopener">WhatsApp: +55 12 93629-0045</a>
+      <a class="footer-v5-whatsapp" href="https://wa.me/5512936290045" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11.5a8 8 0 0 1-11.8 7L4 19.5l1.1-4A8 8 0 1 1 20 11.5Z"/><path d="M8.7 8.2c.2-.4.4-.4.7-.4h.4l.8 1.8c.1.3 0 .5-.2.7l-.6.7c-.2.2-.1.4 0 .6.7 1.2 1.6 2 2.8 2.6.2.1.4.1.6-.1l.8-1c.2-.2.4-.3.7-.2l1.8.8c.3.1.4.3.4.5 0 .4-.2 1.2-.7 1.6-.5.5-1.3.7-2.1.6-1.2-.1-2.7-.7-4.2-2-1.8-1.5-2.8-3.3-3-4.5-.1-.7.2-1.3.5-1.7Z"/></svg><span><small>Atendimento comercial</small><strong>+55 12 93629-0045</strong></span></a>
     </div>
     <nav class="footer-v5-nav reveal" aria-label="Links do rodapé">
       <div><h3>Descobrir</h3><a href="#restaurantes">Restaurantes</a><a href="#categories">Categorias</a><a href="#">Início</a></div>

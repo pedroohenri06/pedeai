@@ -6,7 +6,10 @@
     "data": "node scripts/build-data.js",
     "validate": "node scripts/build-data.js --check",
     "test": "node scripts/build-data.js --check && node --test \"tests/*.test.js\"",
-    "serve": "node scripts/serve.js"
+    "serve": "node scripts/serve.js",
+    "photos": "node scripts/collect-photos.js fotos-coletadas && python3 scripts/add-photos.py fotos-coletadas && node scripts/build-data.js"
   },
-  "engines": { "node": ">=18" }
+  "engines": {
+    "node": ">=18"
+  }
 }

@@ -7,6 +7,8 @@ Cada arquivo (.jpg, .jpeg, .png, .webp) deve ter como nome o id do estabelecimen
 (ex.: dantes-barra-do-garcas.jpg) ou o nome do estabelecimento (ex.: Dantes.jpg);
 se o nome existir em mais de uma cidade, use o id. A foto é recortada em 3:2,
 reduzida para 960x640, salva em assets/stores/<id>.webp e ligada ao cadastro.
+Se a pasta tiver manifest.json (gerado por scripts/collect-photos.js), a página de
+origem de cada foto é registrada em image.sourceUrl.
 Depois rode: node scripts/build-data.js && npm test
 """
 import json
@@ -39,6 +41,8 @@ def main():
     by_name = {}
     for s in stores:
         by_name.setdefault(slug(s["name"]), []).append(s)
+    manifest_file = src / "manifest.json"
+    manifest = json.loads(manifest_file.read_text(encoding="utf-8")) if manifest_file.exists() else {}
     OUT.mkdir(parents=True, exist_ok=True)
     done, problems = 0, []
     for f in sorted(src.iterdir()):
@@ -66,6 +70,8 @@ def main():
             "credit": store["name"],
             "license": LICENSE,
         }
+        if store["id"] in manifest:
+            store["image"]["sourceUrl"] = manifest[store["id"]]["sourceUrl"]
         done += 1
         print(f"ok  {f.name} -> {dest.relative_to(ROOT)} ({dest.stat().st_size // 1024} KB)")
     DB.write_text(json.dumps(db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

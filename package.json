@@ -1,0 +1,12 @@
+{
+  "name": "pedeai-delivery",
+  "private": true,
+  "description": "PedeAi Delivery — site estático com cadastro de estabelecimentos do Vale do Araguaia",
+  "scripts": {
+    "data": "node scripts/build-data.js",
+    "validate": "node scripts/build-data.js --check",
+    "test": "node scripts/build-data.js --check && node --test \"tests/*.test.js\"",
+    "serve": "node scripts/serve.js"
+  },
+  "engines": { "node": ">=18" }
+}

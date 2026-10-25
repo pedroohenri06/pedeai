@@ -77,7 +77,7 @@ test('reconcileCart atualiza preços e descarta itens removidos/quantidades inv�
     { itemId: 'refri', name: 'z', unitCents: 1250, qty: -4 }
   ] };
   const c = core.reconcileCart(saved, store);
-  assert.deepEqual(c.lines, [{ itemId: 'calabresa', name: 'Calabresa G', unitCents: 5990, qty: 2 }]);
+  assert.deepEqual(c.lines, [{ key: 'calabresa', itemId: 'calabresa', name: 'Calabresa G', unitCents: 5990, qty: 2, choices: [], note: '' }]);
   assert.deepEqual(core.reconcileCart(null, store), core.emptyCart(store.id));
   assert.deepEqual(core.reconcileCart({ storeId: 'outra', lines: [] }, store), core.emptyCart(store.id));
 });
@@ -146,4 +146,60 @@ test('escapeHtml neutraliza HTML', () => {
 test('cidades e categorias originais preservadas', () => {
   assert.equal(core.CITIES.length, 10);
   assert.deepEqual(core.CATEGORIES, ['Hambúrguer', 'Pizza', 'Sushi', 'Açaí', 'Brasileira', 'Pastel', 'Churrasco', 'Doces', 'Saudável', 'Café']);
+});
+
+const pizza = {
+  id: 'loja-opcoes', name: 'Loja Opções', whatsapp: '5566999998888', whatsappSource: 'https://x.com', deliveryFeeCents: null,
+  menu: [{
+    id: 'pizza', name: 'Pizza', priceCents: 4000,
+    options: [
+      { id: 'tamanho', name: 'Tamanho', min: 1, max: 1, choices: [{ id: 'm', name: 'Média', priceCents: 0 }, { id: 'g', name: 'Grande', priceCents: 1500 }] },
+      { id: 'extra', name: 'Adicionais', min: 0, max: 2, choices: [{ id: 'bacon', name: 'Bacon', priceCents: 500 }, { id: 'borda', name: 'Borda', priceCents: 800 }, { id: 'milho', name: 'Milho', priceCents: 300 }] }
+    ]
+  }]
+};
+
+test('opções obrigatórias e limites são validados', () => {
+  const item = pizza.menu[0];
+  assert.match(core.validateSelection(item, {}).join(), /Escolha uma opção em Tamanho/);
+  assert.match(core.validateSelection(item, { choices: { tamanho: ['g'], extra: ['bacon', 'borda', 'milho'] } }).join(), /no máximo 2/);
+  assert.match(core.validateSelection(item, { choices: { tamanho: ['xx'] } }).join(), /opção inválida/);
+  assert.deepEqual(core.validateSelection(item, { choices: { tamanho: ['m'] } }), []);
+  assert.throws(() => core.addItem(core.emptyCart(pizza.id), pizza, 'pizza', 1, {}), /Tamanho/);
+});
+
+test('preço soma acréscimos e combinações diferentes viram linhas separadas', () => {
+  let cart = core.emptyCart(pizza.id);
+  cart = core.addItem(cart, pizza, 'pizza', 1, { choices: { tamanho: ['g'], extra: ['bacon', 'borda'] } });
+  cart = core.addItem(cart, pizza, 'pizza', 2, { choices: { tamanho: ['m'] }, note: 'sem cebola' });
+  cart = core.addItem(cart, pizza, 'pizza', 1, { choices: { extra: ['borda', 'bacon'], tamanho: ['g'] } });
+  assert.equal(cart.lines.length, 2);
+  assert.equal(cart.lines[0].unitCents, 4000 + 1500 + 500 + 800);
+  assert.equal(cart.lines[0].qty, 2);
+  assert.equal(cart.lines[1].unitCents, 4000);
+  assert.equal(core.itemQty(cart, 'pizza'), 4);
+  assert.equal(core.cartTotals(cart, pizza).subtotal, 6800 * 2 + 4000 * 2);
+  cart = core.setQty(cart, cart.lines[1].key, 0);
+  assert.equal(cart.lines.length, 1);
+});
+
+test('mensagem do WhatsApp inclui opções e observação de cada item', () => {
+  const cart = core.addItem(core.emptyCart(pizza.id), pizza, 'pizza', 1, { choices: { tamanho: ['g'], extra: ['bacon'] }, note: 'bem assada' });
+  const msg = core.buildOrderMessage(pizza, cart, { mode: 'retirada', name: 'Ana' });
+  assert.match(msg, /1x Pizza — R\$ 60,00/);
+  assert.match(msg, /• Tamanho: Grande \(\+R\$ 15,00\)/);
+  assert.match(msg, /• Adicionais: Bacon \(\+R\$ 5,00\)/);
+  assert.match(msg, /Obs\.: bem assada/);
+  assert.match(msg, /Total: R\$ 60,00/);
+});
+
+test('reconcileCart preserva opções e descarta opção que deixou de existir', () => {
+  const cart = core.addItem(core.emptyCart(pizza.id), pizza, 'pizza', 1, { choices: { tamanho: ['g'], extra: ['milho'] } });
+  assert.deepEqual(core.reconcileCart(JSON.parse(JSON.stringify(cart)), pizza), cart);
+  const changed = JSON.parse(JSON.stringify(pizza));
+  changed.menu[0].options[1].choices.pop();
+  assert.equal(core.reconcileCart(cart, changed).lines.length, 0);
+  const pricier = JSON.parse(JSON.stringify(pizza));
+  pricier.menu[0].priceCents = 4500;
+  assert.equal(core.reconcileCart(cart, pricier).lines[0].unitCents, 4500 + 1500 + 300);
 });

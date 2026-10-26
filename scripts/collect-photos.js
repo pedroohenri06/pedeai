@@ -2,7 +2,8 @@
 /* Coleta a foto oficial (og:image / twitter:image) das páginas próprias de cada estabelecimento
    (site, cardápio digital, iFood, aiqfome, Instagram, Facebook) e salva em <pasta>/<id>.<ext>,
    com manifest.json registrando a página de origem. Depois: python3 scripts/add-photos.py <pasta>
-   Uso: node scripts/collect-photos.js <pasta> [--all] [--only=<id>,<id>] */
+   Uso: node scripts/collect-photos.js <pasta> [--all] [--only=<id>,<id>] [--extra=<arquivo.json>]
+   --extra: JSON [{ "id": "<id>", "officialUrls": ["https://..."] }] com páginas oficiais encontradas na pesquisa. */
 'use strict';
 const fs = require('fs');
 const path = require('path');
@@ -13,9 +14,10 @@ const OFFICIAL_HOSTS = /(^|\.)(instagram\.com|facebook\.com|threads\.(net|com)|i
 const GENERIC_IMAGE = /(static\.xx\.fbcdn\.net\/rsrc|\/rsrc\.php|instagram\.com\/static\/|ifood\.com\.br\/static\/images\/(logo|default)|og[-_]default|default[-_]og|placeholder)/i;
 const MIN_BYTES = 8 * 1024;
 
-function candidatePages(s) {
+function candidatePages(s, extra) {
   const urls = [];
   const push = u => { if (u && !urls.includes(u)) urls.push(u); };
+  (extra || []).forEach(push);
   push(s.website);
   push(s.orderUrl);
   s.sources.forEach(u => { try { if (OFFICIAL_HOSTS.test(new URL(u).hostname)) push(u); } catch (e) { /* url inválida */ } });
@@ -67,6 +69,9 @@ async function main() {
   const outDir = args.find(a => !a.startsWith('--'));
   if (!outDir) { console.error('Uso: node scripts/collect-photos.js <pasta> [--all] [--only=id,id]'); process.exit(1); }
   const only = (args.find(a => a.startsWith('--only=')) || '').slice(7).split(',').filter(Boolean);
+  const extraFile = (args.find(a => a.startsWith('--extra=')) || '').slice(8);
+  const extra = {};
+  if (extraFile) JSON.parse(fs.readFileSync(extraFile, 'utf8')).forEach(r => { extra[r.id] = (extra[r.id] || []).concat(r.officialUrls || []); });
   const db = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'establishments.json'), 'utf8'));
   const stores = db.establishments.filter(s => (only.length ? only.includes(s.id) : (args.includes('--all') || !s.image)));
   fs.mkdirSync(outDir, { recursive: true });
@@ -81,7 +86,7 @@ async function main() {
   const blockedHosts = new Set();
 
   for (const s of stores) {
-    const pages = candidatePages(s);
+    const pages = candidatePages(s, extra[s.id]);
     if (!pages.length) { tally.noPage++; console.log(`--  ${s.id}: sem página oficial no cadastro`); continue; }
     let saved = false, reasons = [];
     for (const url of pages) {

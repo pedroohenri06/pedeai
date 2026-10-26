@@ -6,7 +6,8 @@ Uso: python3 scripts/add-photos.py <pasta-com-fotos>
 Cada arquivo (.jpg, .jpeg, .png, .webp) deve ter como nome o id do estabelecimento
 (ex.: dantes-barra-do-garcas.jpg) ou o nome do estabelecimento (ex.: Dantes.jpg);
 se o nome existir em mais de uma cidade, use o id. A foto é recortada em 3:2,
-reduzida para 960x640, salva em assets/stores/<id>.webp e ligada ao cadastro.
+reduzida para 960x640 (logotipos e artes quadradas são centralizados sem corte
+sobre a cor da própria borda), salva em assets/stores/<id>.webp e ligada ao cadastro.
 Se a pasta tiver manifest.json (gerado por scripts/collect-photos.js), a página de
 origem de cada foto é registrada em image.sourceUrl.
 Depois rode: node scripts/build-data.js && npm test
@@ -29,6 +30,23 @@ LICENSE = "Uso autorizado pelo estabelecimento parceiro"
 def slug(value):
     value = unicodedata.normalize("NFD", value).encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+
+
+def border_color(img):
+    """Cor mediana da borda da imagem, usada para estender o fundo de logotipos."""
+    w, h = img.size
+    px = [img.getpixel((x, y)) for x in range(0, w, max(1, w // 40)) for y in (0, h - 1)]
+    px += [img.getpixel((x, y)) for y in range(0, h, max(1, h // 40)) for x in (0, w - 1)]
+    return tuple(sorted(c[i] for c in px)[len(px) // 2] for i in range(3))
+
+
+def framed(img):
+    """Logotipos e artes quadradas: centraliza sem cortar, sobre a cor da própria borda."""
+    canvas = Image.new("RGB", SIZE, border_color(img))
+    inner = img.copy()
+    inner.thumbnail((int(SIZE[0] * 0.9), int(SIZE[1] * 0.9)), Image.LANCZOS)
+    canvas.paste(inner, ((SIZE[0] - inner.width) // 2, (SIZE[1] - inner.height) // 2))
+    return canvas
 
 
 def main():
@@ -61,7 +79,8 @@ def main():
                 problems.append(f"{f.name}: estabelecimento não encontrado")
                 continue
         img = ImageOps.exif_transpose(Image.open(f)).convert("RGB")
-        img = ImageOps.fit(img, SIZE, Image.LANCZOS)
+        logo = img.width / img.height < 1.3
+        img = framed(img) if logo else ImageOps.fit(img, SIZE, Image.LANCZOS)
         dest = OUT / f"{store['id']}.webp"
         img.save(dest, "WEBP", quality=80, method=6)
         store["image"] = {
@@ -69,6 +88,7 @@ def main():
             "alt": f"{store['kind']} — {store['name']}",
             "credit": store["name"],
             "license": LICENSE,
+            "kind": "logo" if logo else "foto",
         }
         if store["id"] in manifest:
             store["image"]["sourceUrl"] = manifest[store["id"]]["sourceUrl"]

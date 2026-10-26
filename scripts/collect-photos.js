@@ -6,6 +6,7 @@
 'use strict';
 const fs = require('fs');
 const path = require('path');
+const { execFileSync } = require('child_process');
 
 const OFFICIAL_HOSTS = /(^|\.)(instagram\.com|facebook\.com|threads\.(net|com)|ifood\.com\.br|aiqfome\.com|anota\.ai|foodsapp\.com\.br|goomer\.app|cardapioweb\.com|menudino\.com|ola\.click)$/;
 /* Imagens padrão das plataformas, que não representam o estabelecimento. */
@@ -46,6 +47,21 @@ function extFor(type) {
   return { 'image/jpeg': '.jpg', 'image/png': '.png', 'image/webp': '.webp' }[String(type).split(';')[0].trim()] || null;
 }
 
+/* Baixa com curl, que respeita o proxy HTTPS do ambiente (o cliente de requisições do Playwright não o usa). */
+function download(url) {
+  const tmp = path.join(require('os').tmpdir(), 'pedeai-photo-' + process.pid);
+  try {
+    const out = execFileSync('curl', ['-sL', '-m', '25', '-o', tmp, '-w', '%{http_code} %{content_type}', url], { encoding: 'utf8' });
+    const [code, type] = out.split(' ');
+    const body = fs.readFileSync(tmp);
+    return { ok: code === '200', type, body };
+  } catch (e) {
+    return { ok: false, type: '', body: Buffer.alloc(0) };
+  } finally {
+    fs.rmSync(tmp, { force: true });
+  }
+}
+
 async function main() {
   const args = process.argv.slice(2);
   const outDir = args.find(a => !a.startsWith('--'));
@@ -74,10 +90,9 @@ async function main() {
         if (!res || !res.ok()) { reasons.push(`${new URL(url).hostname} HTTP ${res ? res.status() : '?'}`); continue; }
         const img = extractShareImage(await page.content(), page.url());
         if (!img) { reasons.push(`${new URL(url).hostname} sem og:image`); continue; }
-        const r = await context.request.get(img, { timeout: 25000 });
-        const ext = extFor(r.headers()['content-type']);
-        const body = await r.body();
-        if (!r.ok() || !ext || body.length < MIN_BYTES) { reasons.push(`${new URL(img).hostname} imagem inválida`); continue; }
+        const { ok, type, body } = download(img);
+        const ext = extFor(type);
+        if (!ok || !ext || body.length < MIN_BYTES) { reasons.push(`${new URL(img).hostname} imagem inválida`); continue; }
         fs.writeFileSync(path.join(outDir, s.id + ext), body);
         manifest[s.id] = { sourceUrl: url, imageUrl: img, collectedAt: new Date().toISOString().slice(0, 10) };
         saved = true;

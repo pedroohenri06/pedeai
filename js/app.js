@@ -24,7 +24,7 @@
 
   function readStorage(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 
-  function photoOf(s) { return s.image ? s.image.src : CATEGORY_PHOTOS[s.category]; }
+  function photoOf(s) { return s.image ? s.image.thumb || s.image.src : CATEGORY_PHOTOS[s.category]; }
 
   /* ---------------- Listagem ---------------- */
   function storesInCity() { return C.filterStores(STORES, { city: state.city }); }

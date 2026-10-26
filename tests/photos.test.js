@@ -18,3 +18,26 @@ test('candidatas: site, cardápio, fontes oficiais e Instagram, sem diretórios'
   const s = { website: 'https://loja.com/', orderUrl: null, instagram: 'loja', sources: ['https://www.solutudo.com.br/x', 'https://www.ifood.com.br/delivery/x', 'https://www.facebook.com/loja/'] };
   assert.deepEqual(candidatePages(s), ['https://loja.com/', 'https://www.ifood.com.br/delivery/x', 'https://www.facebook.com/loja/', 'https://www.instagram.com/loja/']);
 });
+
+const { highRes, parseList, rankPhotos } = require('../scripts/import-photo-urls.js');
+
+test('fotos do Google são pedidas em alta resolução', () => {
+  assert.equal(highRes('https://lh3.googleusercontent.com/p/AF1QipX=w408-h306-k-no'), 'https://lh3.googleusercontent.com/p/AF1QipX=s2048');
+  assert.equal(highRes('https://lh5.googleusercontent.com/p/AF1QipY'), 'https://lh5.googleusercontent.com/p/AF1QipY=s2048');
+  assert.equal(highRes('https://exemplo.com/foto.jpg'), 'https://exemplo.com/foto.jpg');
+});
+
+test('capa prioriza foto do proprietário e fachada/prato sobre logotipo', () => {
+  const r = rankPhotos([
+    { url: 'https://a/1', tipo: 'logo', origem: 'proprietario' },
+    { url: 'https://a/2', tipo: 'prato', origem: 'visitante' },
+    { url: 'https://a/3', tipo: 'fachada', origem: 'proprietario' },
+    { url: 'http://inseguro/4', tipo: 'fachada', origem: 'proprietario' }
+  ]);
+  assert.deepEqual(r.map(f => f.url), ['https://a/3', 'https://a/1', 'https://a/2']);
+});
+
+test('lista aceita JSON e JSON Lines (com texto solto entre as linhas)', () => {
+  assert.equal(parseList('[{"id":"a"}]')[0].id, 'a');
+  assert.deepEqual(parseList('Lote 1\n{"id":"a"}\n{"id":"b"}\n').map(r => r.id), ['a', 'b']);
+});

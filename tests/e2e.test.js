@@ -11,14 +11,7 @@ try { playwright = require('playwright'); } catch (e) {
   try { playwright = require(path.join(require('child_process').execSync('npm root -g').toString().trim(), 'playwright')); } catch (e2) { playwright = null; }
 }
 
-const FIXTURE = {
-  updatedAt: '2026-10-25', targetPerCity: 20,
-  establishments: [
-    { id: 'pizzaria-teste-barra-do-garcas', name: 'Pizzaria Teste', city: 'Barra do Garças', category: 'Pizza', kind: 'Pizzaria (dados de teste)', address: 'Rua A, 1 - Centro', neighborhood: 'Centro', whatsapp: '5566999990000', whatsappSource: 'https://exemplo.com/teste', phone: null, instagram: null, website: null, orderUrl: null, hours: null, deliveryFeeCents: null, image: null, menuSource: 'https://exemplo.com/teste', menu: [{ id: 'calabresa', section: 'Pizzas', name: 'Calabresa G', description: '', priceCents: 5990 }, { id: 'refri', section: 'Bebidas', name: 'Refri 2L', description: '', priceCents: 1250 }], sources: ['https://exemplo.com/teste'], confidence: 'alta', verifiedAt: '2026-10-25', notes: null },
-    { id: 'lanche-sem-zap-barra-do-garcas', name: 'Lanche Sem Zap', city: 'Barra do Garças', category: 'Hambúrguer', kind: 'Lanchonete (dados de teste)', address: null, neighborhood: null, whatsapp: null, whatsappSource: null, phone: null, instagram: null, website: null, orderUrl: null, hours: null, deliveryFeeCents: null, image: null, menuSource: 'https://exemplo.com/teste', menu: [{ id: 'x', section: 'Lanches', name: 'X-Tudo', description: '', priceCents: 2500 }], sources: ['https://exemplo.com/teste'], confidence: 'baixa', verifiedAt: '2026-10-25', notes: null },
-    { id: 'acai-canarana', name: 'Açaí Canarana Teste', city: 'Canarana', category: 'Açaí', kind: 'Açaiteria (dados de teste)', address: null, neighborhood: null, whatsapp: null, whatsappSource: null, phone: null, instagram: null, website: null, orderUrl: null, hours: null, deliveryFeeCents: null, image: null, menuSource: null, menu: [], sources: ['https://exemplo.com/teste'], confidence: 'media', verifiedAt: '2026-10-25', notes: null }
-  ]
-};
+const FIXTURE = require('./fixtures/stores.json');
 
 test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' }, async t => {
   const server = createServer().listen(0);
@@ -46,6 +39,8 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       await page.fill('#search', 'xtudo');
       assert.equal(await page.locator('.restaurant').count(), 0);
       await page.fill('#search', 'x-tudo');
+      assert.equal(await page.locator('.restaurant').count(), 2);
+      await page.fill('#search', 'monte a sua');
       assert.equal(await page.locator('.restaurant').count(), 1);
       await page.fill('#search', '');
       await page.dispatchEvent('#search', 'input');
@@ -73,49 +68,109 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.equal(await page.textContent('#storeName'), 'Pizzaria Teste');
     });
 
-    await t.test('carrinho soma corretamente e persiste', async () => {
-      await page.click('[data-qty="calabresa"] .qty-add');
-      await page.click('[data-qty="calabresa"] [data-act="add"]');
-      await page.click('[data-qty="refri"] .qty-add');
+    await t.test('categorias levam à seção e acompanham a rolagem', async () => {
+      assert.equal(await page.locator('.sp-cat').count(), 5);
+      await page.click('.sp-cat:has-text("Bebidas")');
+      await page.waitForTimeout(900);
+      assert.equal(await page.getAttribute('.sp-cat:has-text("Bebidas")', 'aria-current'), 'true');
+      const top = await page.evaluate(() => document.querySelector('#sp-sec-3').getBoundingClientRect().top);
+      assert.ok(top > 60 && top < 200, 'seção visível logo abaixo das categorias: ' + top);
+      await page.locator('#storeScroll').evaluate(e => e.scrollTo(0, 0));
+      await page.waitForTimeout(300);
+      assert.equal(await page.getAttribute('.sp-cat:has-text("Pizzas")', 'aria-current'), 'true');
+    });
+
+    await t.test('busca filtra o cardápio e mostra estado vazio', async () => {
+      await page.fill('#spSearch', 'suco');
+      assert.equal(await page.locator('.sp-li:not([hidden])').count(), 1);
+      await page.fill('#spSearch', 'nada disso');
+      assert.equal(await page.isVisible('#spNoResult'), true);
+      await page.fill('#spSearch', '');
+      assert.equal(await page.locator('.sp-li:not([hidden])').count(), 14);
+    });
+
+    await t.test('produtos com e sem foto mantêm a área de imagem', async () => {
+      assert.equal(await page.locator('.sp-item-media img').count(), 4);
+      assert.equal(await page.locator('.sp-item-media .sp-ph').count(), 10);
+      const sizes = await page.$$eval('.sp-item-media', els => [...new Set(els.map(e => Math.round(e.getBoundingClientRect().width)))]);
+      assert.equal(sizes.length, 1);
+    });
+
+    await t.test('sacola soma corretamente e persiste', async () => {
+      await page.click('[data-add="calabresa"]');
+      await page.click('[data-add="calabresa"]');
+      await page.click('[data-add="refri"]');
+      assert.equal(await page.textContent('[data-badge="calabresa"]'), '2');
       assert.match(await page.textContent('#cartBar'), /3.*R\$ 132,30/);
       await page.reload();
       assert.match(await page.textContent('#cartBar'), /3.*R\$ 132,30/);
       await page.click('#cartBar');
       assert.equal(await page.textContent('#cartSubtotal'), 'R$ 132,30');
       assert.equal(await page.textContent('#cartFee'), 'A confirmar');
-      await page.click('#cartLines [data-qty="refri"] [data-act="sub"]');
+      await page.click('#cartLines [data-key="refri"][data-delta="-1"]');
       assert.equal(await page.textContent('#cartSubtotal'), 'R$ 119,80');
+      await page.keyboard.press('Escape');
+      assert.equal(await page.isVisible('#storeName'), true, 'Esc fecha só a sacola');
+    });
+
+    await t.test('opções obrigatórias são validadas e o preço é atualizado', async () => {
+      await page.click('[data-add="pizza"]');
+      await page.waitForSelector('#spSheet.open');
+      assert.equal(await page.getAttribute('#spConfirm', 'aria-disabled'), 'true');
+      assert.match(await page.textContent('#spConfirm'), /Escolha uma opção em Tamanho/);
+      await page.click('#spConfirm', { force: true });
+      assert.equal(await page.locator('#spSheet.open').count(), 1, 'não adiciona combinação incompleta');
+      await page.click('.sp-choice:has(input[value="g"])');
+      await page.click('.sp-choice:has(input[value="bacon"])');
+      await page.click('.sp-choice:has(input[value="borda"])');
+      assert.equal(await page.isDisabled('.sp-choice input[value="milho"]'), true, 'limite de 2 adicionais');
+      await page.click('[data-step="1"]');
+      assert.match(await page.textContent('#spConfirm'), /R\$ 136,00/);
+      await page.fill('#spNote', 'bem assada');
+      await page.click('#spConfirm');
+      await page.waitForSelector('#spSheet:not(.open)', { state: 'attached' });
+      assert.equal(await page.textContent('[data-badge="pizza"]'), '2');
+      assert.match(await page.textContent('#cartBar'), /4.*R\$ 255,80/);
     });
 
     await t.test('valida dados e envia para o WhatsApp do estabelecimento', async () => {
+      await page.click('#cartBar');
+      assert.match(await page.textContent('#cartLines'), /Grande \(8 fatias\)[\s\S]*Bacon[\s\S]*Obs\.: bem assada/);
+      await page.fill('#cartName', '');
       await page.click('#cartSend');
       assert.equal(await page.evaluate(() => document.activeElement.id), 'cartName');
       await page.fill('#cartName', 'Maria');
       await page.fill('#cartAddress', 'Rua das Flores, 10');
       await page.selectOption('#cartPayment', 'Dinheiro');
-      await page.fill('#cartChange', 'R$ 150');
+      await page.fill('#cartChange', 'R$ 300');
       await page.evaluate(() => { window.open = url => { window.__opened = url; }; });
       await page.click('#cartSend');
       const href = await page.evaluate(() => window.__opened);
       assert.match(href, /^https:\/\/wa\.me\/5566999990000\?text=/);
       const text = decodeURIComponent(href.split('text=')[1]);
       assert.match(text, /2x Calabresa G — R\$ 119,80/);
+      assert.match(text, /2x Pizza Monte a Sua — R\$ 136,00\n   • Tamanho: Grande \(8 fatias\) \(\+R\$ 15,00\)\n   • Adicionais: Bacon \(\+R\$ 5,00\)\n   • Adicionais: Borda recheada \(\+R\$ 8,00\)\n   Obs\.: bem assada/);
+      assert.match(text, /Subtotal: R\$ 255,80/);
       assert.match(text, /Nome: Maria/);
-      assert.match(text, /troco para R\$ 150/);
+      assert.match(text, /troco para R\$ 300/);
+      await page.keyboard.press('Escape');
     });
 
     await t.test('sem WhatsApp verificado o envio fica bloqueado', async () => {
       await page.goto(base + '#/loja/lanche-sem-zap-barra-do-garcas');
-      await page.click('[data-qty="x"] .qty-add');
+      await page.click('[data-add="x"]');
       await page.click('#cartBar');
       assert.equal(await page.isDisabled('#cartSend'), true);
       assert.match(await page.textContent('#cartNote'), /não foi verificado/);
       assert.match(await page.textContent('.store-warning'), /em verificação/i);
+      assert.equal(await page.locator('.sp-hero--empty').count(), 1, 'sem foto: capa tipográfica, sem imagem inventada');
+      await page.keyboard.press('Escape');
     });
 
-    await t.test('loja sem cardápio mostra pendência e não tem carrinho', async () => {
+    await t.test('loja sem cardápio mostra pendência e não tem sacola', async () => {
       await page.goto(base + '#/loja/acai-canarana');
       assert.match(await page.textContent('.menu-pending'), /Cardápio em preparação/);
+      assert.match(await page.getAttribute('.sp-empty-actions a', 'href'), /^https:\/\/wa\.me\/5566999991111/);
       assert.equal(await page.locator('#cartBar').count(), 0);
     });
 

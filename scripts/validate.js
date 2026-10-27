@@ -44,6 +44,13 @@ function validateEstablishments(list) {
         itemIds.add(m.id);
         if (!m.name) err(`item ${j} sem nome`);
         if (!Number.isInteger(m.priceCents) || m.priceCents <= 0) err(`item ${j} preço inválido`);
+        if (m.image != null && (!m.image.src || !m.image.credit || !m.image.license)) err(`item ${j} imagem sem src/crédito/licença`);
+        (m.options || []).forEach((g, k) => {
+          if (!/^[a-z0-9-]+$/.test(g.id || '') || !g.name || !Array.isArray(g.choices) || !g.choices.length) return err(`item ${j} grupo ${k} inválido`);
+          const min = g.min || 0, max = g.max == null ? g.choices.length : g.max;
+          if (!Number.isInteger(min) || !Number.isInteger(max) || min < 0 || max < Math.max(1, min) || min > g.choices.length) err(`item ${j} grupo ${g.id} limites inválidos`);
+          g.choices.forEach(c => { if (!/^[a-z0-9-]+$/.test(c.id || '') || !c.name || !Number.isInteger(c.priceCents || 0) || (c.priceCents || 0) < 0) err(`item ${j} grupo ${g.id} opção inválida`); });
+        });
       });
     }
   });

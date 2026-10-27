@@ -32,6 +32,16 @@ Só preencha `whatsapp` quando o número aparece **no canal do próprio estabele
 ```
 Categorias permitidas: Hambúrguer, Pizza, Sushi, Açaí, Brasileira, Pastel, Churrasco, Doces, Saudável, Café. Lanchonete vai em Hambúrguer, restaurante ou marmita em Brasileira, padaria em Café, sorveteria em Doces.
 
+## Fotos dos estabelecimentos
+Os parceiros autorizam o uso das próprias fotos. Coloque os arquivos numa pasta, com o nome do estabelecimento ou o `id` como nome do arquivo, e rode:
+```bash
+python3 scripts/add-photos.py <pasta>   # recorta em 960x640, salva em assets/stores/<id>.webp e preenche `image`
+node scripts/build-data.js && npm test
+```
+Não versione os originais, só os `.webp` gerados.
+
+Coleta automática: `npm run photos`. O comando visita as páginas oficiais de cada loja sem foto (site, cardápio digital, iFood, aiqfome, Instagram, Facebook), baixa a imagem de compartilhamento (og:image), processa e associa. Exige que o ambiente libere esses domínios. Ao terminar, mostra os domínios bloqueados. Confira as fotos visualmente antes de publicar: a og:image pode ser um logo ou um banner.
+
 ## Importar e conferir
 ```bash
 node scripts/import-research.js caminho/da/pasta-ou-arquivo.json   # deduplica por nome+cidade

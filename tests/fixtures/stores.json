@@ -1,0 +1,263 @@
+{
+ "updatedAt": "2026-10-25",
+ "targetPerCity": 20,
+ "establishments": [
+  {
+   "neighborhood": null,
+   "phone": null,
+   "instagram": "pizzariateste",
+   "website": null,
+   "orderUrl": null,
+   "deliveryFeeCents": null,
+   "sources": [
+    "https://exemplo.com/teste"
+   ],
+   "verifiedAt": "2026-10-25",
+   "notes": "dados de teste",
+   "id": "pizzaria-teste-barra-do-garcas",
+   "name": "Pizzaria Teste",
+   "city": "Barra do Garças",
+   "category": "Pizza",
+   "kind": "Pizzaria e lanchonete (dados de teste)",
+   "address": "Rua A, 1 - Centro",
+   "hours": "Todos os dias, 18h às 23h",
+   "whatsapp": "5566999990000",
+   "whatsappSource": "https://exemplo.com/teste",
+   "image": {
+    "src": "assets/restaurant-24d02d921c16.webp",
+    "alt": "Foto de teste",
+    "credit": "Dados de teste",
+    "license": "Somente testes"
+   },
+   "menuSource": "https://exemplo.com/teste",
+   "menu": [
+    {
+     "id": "pizza",
+     "section": "Pizzas",
+     "name": "Pizza Monte a Sua",
+     "description": "Escolha o tamanho e até dois adicionais. Massa de fermentação natural e molho de tomate da casa.",
+     "priceCents": 4000,
+     "image": {
+      "src": "assets/restaurant-24d02d921c16.webp",
+      "alt": "Foto de teste",
+      "credit": "Dados de teste",
+      "license": "Somente testes"
+     },
+     "options": [
+      {
+       "id": "tamanho",
+       "name": "Tamanho",
+       "min": 1,
+       "max": 1,
+       "choices": [
+        {
+         "id": "m",
+         "name": "Média (6 fatias)",
+         "priceCents": 0
+        },
+        {
+         "id": "g",
+         "name": "Grande (8 fatias)",
+         "priceCents": 1500
+        }
+       ]
+      },
+      {
+       "id": "extra",
+       "name": "Adicionais",
+       "min": 0,
+       "max": 2,
+       "choices": [
+        {
+         "id": "bacon",
+         "name": "Bacon",
+         "priceCents": 500
+        },
+        {
+         "id": "borda",
+         "name": "Borda recheada",
+         "priceCents": 800
+        },
+        {
+         "id": "milho",
+         "name": "Milho",
+         "priceCents": 300
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "id": "calabresa",
+     "section": "Pizzas",
+     "name": "Calabresa G",
+     "description": "Calabresa fatiada, cebola e azeitonas.",
+     "priceCents": 5990
+    },
+    {
+     "id": "marguerita",
+     "section": "Pizzas",
+     "name": "Marguerita com nome bem comprido para testar quebra de linha no cartão",
+     "description": "Muçarela, tomate e manjericão fresco, finalizada com azeite extravirgem e uma descrição longa o suficiente para ocupar mais de duas linhas no celular.",
+     "priceCents": 5490,
+     "image": {
+      "src": "assets/restaurant-9b67528e7ae2.webp",
+      "alt": "Foto de teste",
+      "credit": "Dados de teste",
+      "license": "Somente testes"
+     }
+    },
+    {
+     "id": "xtudo",
+     "section": "Lanches",
+     "name": "X-Tudo",
+     "description": "Pão, hambúrguer, ovo, bacon, presunto, queijo e salada.",
+     "priceCents": 2800,
+     "image": {
+      "src": "assets/restaurant-be2bd7c5c2fc.webp",
+      "alt": "Foto de teste",
+      "credit": "Dados de teste",
+      "license": "Somente testes"
+     }
+    },
+    {
+     "id": "xsalada",
+     "section": "Lanches",
+     "name": "X-Salada",
+     "description": "",
+     "priceCents": 2200
+    },
+    {
+     "id": "misto",
+     "section": "Lanches",
+     "name": "Misto quente",
+     "description": "Presunto e queijo.",
+     "priceCents": 1200
+    },
+    {
+     "id": "batata",
+     "section": "Porções",
+     "name": "Batata frita",
+     "description": "Porção de 400 g.",
+     "priceCents": 2500
+    },
+    {
+     "id": "mandioca",
+     "section": "Porções",
+     "name": "Mandioca frita",
+     "description": "Porção de 400 g.",
+     "priceCents": 2300
+    },
+    {
+     "id": "refri",
+     "section": "Bebidas",
+     "name": "Refri 2L",
+     "description": "",
+     "priceCents": 1250
+    },
+    {
+     "id": "suco",
+     "section": "Bebidas",
+     "name": "Suco natural 500 ml",
+     "description": "Laranja, limão ou maracujá.",
+     "priceCents": 900
+    },
+    {
+     "id": "agua",
+     "section": "Bebidas",
+     "name": "Água mineral",
+     "description": "",
+     "priceCents": 400
+    },
+    {
+     "id": "brownie",
+     "section": "Sobremesas",
+     "name": "Brownie",
+     "description": "Chocolate meio amargo.",
+     "priceCents": 1400,
+     "image": {
+      "src": "assets/restaurant-295265dcbf3c.webp",
+      "alt": "Foto de teste",
+      "credit": "Dados de teste",
+      "license": "Somente testes"
+     }
+    },
+    {
+     "id": "pudim",
+     "section": "Sobremesas",
+     "name": "Pudim",
+     "description": "",
+     "priceCents": 1100
+    },
+    {
+     "id": "acai",
+     "section": "Sobremesas",
+     "name": "Açaí 300 ml",
+     "description": "",
+     "priceCents": 1500
+    }
+   ],
+   "confidence": "alta"
+  },
+  {
+   "neighborhood": null,
+   "phone": null,
+   "instagram": null,
+   "website": null,
+   "orderUrl": null,
+   "deliveryFeeCents": null,
+   "sources": [
+    "https://exemplo.com/teste"
+   ],
+   "verifiedAt": "2026-10-25",
+   "notes": "dados de teste",
+   "id": "lanche-sem-zap-barra-do-garcas",
+   "name": "Lanche Sem Zap",
+   "city": "Barra do Garças",
+   "category": "Hambúrguer",
+   "kind": "Lanchonete (dados de teste)",
+   "address": null,
+   "hours": null,
+   "whatsapp": null,
+   "whatsappSource": null,
+   "image": null,
+   "menuSource": "https://exemplo.com/teste",
+   "menu": [
+    {
+     "id": "x",
+     "section": "Lanches",
+     "name": "X-Tudo",
+     "description": "",
+     "priceCents": 2500
+    }
+   ],
+   "confidence": "baixa"
+  },
+  {
+   "neighborhood": null,
+   "phone": null,
+   "instagram": null,
+   "website": null,
+   "orderUrl": null,
+   "deliveryFeeCents": null,
+   "sources": [
+    "https://exemplo.com/teste"
+   ],
+   "verifiedAt": "2026-10-25",
+   "notes": "dados de teste",
+   "id": "acai-canarana",
+   "name": "Açaí Canarana Teste",
+   "city": "Canarana",
+   "category": "Açaí",
+   "kind": "Açaiteria (dados de teste)",
+   "address": null,
+   "hours": null,
+   "whatsapp": "5566999991111",
+   "whatsappSource": "https://exemplo.com/teste",
+   "image": null,
+   "menuSource": null,
+   "menu": [],
+   "confidence": "media"
+  }
+ ]
+}

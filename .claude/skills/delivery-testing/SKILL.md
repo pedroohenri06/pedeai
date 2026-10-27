@@ -17,7 +17,7 @@ Não há dependências npm. O E2E usa o Playwright instalado globalmente no ambi
 ## O que cada suíte cobre
 - `tests/core.test.js`: centavos (`0.1+0.2`), formatação BRL, carrinho imutável, limites de quantidade, reconciliação de carrinho salvo, mensagem do WhatsApp (entrega, retirada, troco), validação de número, filtros sem acento e rotas.
 - `tests/data.test.js`: cadastro real válido, cidades e meta, WhatsApp com fonte, validador e importador.
-- `tests/e2e.test.js`: usa um **cadastro de teste** (intercepta `data/establishments.js`) para exercitar a listagem por cidade, categorias, busca, estado vazio, página por URL, carrinho persistente, validação do formulário, URL `wa.me` com o número da loja, bloqueio sem WhatsApp verificado e ausência de rolagem horizontal.
+- `tests/e2e.test.js`: usa o **cadastro de teste** `tests/fixtures/stores.json` (intercepta `data/establishments.js`): loja com 5 categorias, 14 itens, produto com opções obrigatórias e opcionais, produtos com e sem foto, nomes longos, loja sem WhatsApp e loja sem cardápio. Cobre a listagem por cidade, navegação por categorias, busca no cardápio, opções obrigatórias e limite de adicionais, categorias, busca, estado vazio, página por URL, carrinho persistente, validação do formulário, URL `wa.me` com o número da loja, bloqueio sem WhatsApp verificado e ausência de rolagem horizontal.
 
 ## Regras
 - Bug de valor ou de pedido: escreva primeiro o teste em `core.test.js` que reproduz o bug, depois corrija.

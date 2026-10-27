@@ -1,0 +1,14 @@
+{
+  "_sobre": "Imagens da faixa de categorias da home: prato real de um estabelecimento parceiro (foto publicada pelo próprio estabelecimento ou por cliente no Google Maps, uso autorizado pelo parceiro). 'foto' é o índice em google-maps-fotos.jsonl; cx/cy/zoom definem o recorte quadrado. Gerado por scripts/build-category-images.py.",
+  "categorias": {
+    "Pizza":      { "id": "pizzaria-bendita-agua-boa", "foto": 0, "cx": 0.5, "cy": 0.5, "zoom": 0.98 },
+    "Brasileira": { "id": "lanchonete-e-restaurante-mega-querencia", "foto": 1, "cx": 0.5, "cy": 0.5, "zoom": 0.92 },
+    "Hambúrguer": { "id": "saboritos-burguer-sorveteria-canarana", "foto": 2, "cx": 0.5, "cy": 0.53, "zoom": 0.86 },
+    "Churrasco":  { "id": "tenda-restaurant-and-grill-agua-boa", "foto": 2, "cx": 0.5, "cy": 0.5, "zoom": 1.0 },
+    "Doces":      { "id": "panificadora-sao-paulo-barra-do-garcas", "foto": 3, "cx": 0.5, "cy": 0.5, "zoom": 0.96 },
+    "Café":       { "id": "panificadora-sao-paulo-barra-do-garcas", "foto": 2, "cx": 0.5, "cy": 0.5, "zoom": 1.0 },
+    "Açaí":       { "id": "acai-mana-s-barra-do-garcas", "foto": 1, "cx": 0.5, "cy": 0.5, "zoom": 1.0 },
+    "Sushi":      { "id": "lotus-sushi-barra-do-garcas", "foto": 1, "cx": 0.5, "cy": 0.5, "zoom": 0.86 },
+    "Pastel":     { "id": "pastelaria-porto-barra-do-garcas", "foto": 2, "cx": 0.5, "cy": 0.56, "zoom": 0.92 }
+  }
+}

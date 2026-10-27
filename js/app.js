@@ -30,15 +30,40 @@
   /* ---------------- Listagem ---------------- */
   function storesInCity() { return C.filterStores(STORES, { city: state.city }); }
 
+  /* Faixa de categorias: prato real de um parceiro da região em cada círculo (scripts/build-category-images.py).
+     Mostra só as categorias com lugares na cidade, da maior para a menor. */
+  var CATEGORY_ICONS = {
+    'Hambúrguer': 'hamburguer', 'Pizza': 'pizza', 'Sushi': 'sushi', 'Açaí': 'acai', 'Brasileira': 'brasileira',
+    'Pastel': 'pastel', 'Churrasco': 'churrasco', 'Doces': 'doces', 'Café': 'cafe'
+  };
+  var BRAND_MARK = 'assets/media-eec8624c4b7f.png';
+
+  function placesLabel(n) { return n + (n === 1 ? ' lugar' : ' lugares'); }
+
+  function categoriesInCity() {
+    var stores = storesInCity(), counts = {};
+    stores.forEach(function (s) { counts[s.category] = (counts[s.category] || 0) + 1; });
+    var cats = C.CATEGORIES.filter(function (c) { return counts[c] && CATEGORY_ICONS[c]; })
+      .sort(function (x, y) { return counts[y] - counts[x] || C.CATEGORIES.indexOf(x) - C.CATEGORIES.indexOf(y); });
+    return [{ name: 'Todos', count: stores.length }].concat(cats.map(function (c) { return { name: c, count: counts[c] }; }));
+  }
+
   function renderCats() {
-    var cats = ['Todos'].concat(C.CATEGORIES);
-    if (!catBox.children.length) {
-      catBox.innerHTML = cats.map(function (n, index) {
-        var photos = n === 'Todos' ? ['Hambúrguer', 'Pizza', 'Sushi', 'Açaí'].map(function (c) { return CATEGORY_PHOTOS[c]; }) : [CATEGORY_PHOTOS[n]];
-        return '<button class="cat" data-cat="' + esc(n) + '" type="button" aria-label="Ver ' + esc(n) + '" aria-pressed="false"><span class="cat-photo ' + (n === 'Todos' ? 'cat-photo-all' : '') + '">' + photos.map(function (src) { return '<img src="' + src + '" alt="" width="960" height="640" loading="' + (index < 2 ? 'eager' : 'lazy') + '" decoding="async">'; }).join('') + '</span><span class="cat-caption">' + esc(n) + '</span></button>';
+    var cats = categoriesInCity(), key = state.city + '|' + cats.map(function (c) { return c.name + c.count; }).join(',');
+    if (!cats.some(function (c) { return c.name === state.category; })) state.category = 'Todos';
+    if (catBox.dataset.key !== key) {
+      catBox.dataset.key = key;
+      catBox.innerHTML = cats.map(function (c, i) {
+        var all = c.name === 'Todos';
+        var img = all
+          ? '<img src="' + BRAND_MARK + '" alt="" width="64" height="64" decoding="async">'
+          : '<img src="assets/categories/' + CATEGORY_ICONS[c.name] + '.webp" alt="" width="240" height="240" loading="' + (i < 6 ? 'eager' : 'lazy') + '" decoding="async">';
+        return '<button class="cat' + (all ? ' cat--all' : '') + '" data-cat="' + esc(c.name) + '" type="button" aria-pressed="false" aria-label="' + esc(c.name + ', ' + placesLabel(c.count)) + '">' +
+          '<span class="cat-disc' + (all ? ' cat-disc--brand' : '') + '">' + img + '</span>' +
+          '<span class="cat-caption">' + esc(c.name) + '</span><span class="cat-count" aria-hidden="true">' + placesLabel(c.count) + '</span></button>';
       }).join('');
       catBox.querySelectorAll('.cat').forEach(function (b) {
-        b.onclick = function () { state.category = b.dataset.cat; renderCats(); renderCampaign(); render(); b.scrollIntoView({ behavior: reduceMotion, inline: 'center', block: 'nearest' }); };
+        b.onclick = function () { state.category = b.dataset.cat; renderCats(); renderCampaign(); render(); b.scrollIntoView({ behavior: reduceMotion, inline: 'nearest', block: 'nearest' }); };
       });
     }
     catBox.querySelectorAll('.cat').forEach(function (b) {
@@ -46,15 +71,6 @@
       b.classList.toggle('active', selected);
       b.setAttribute('aria-pressed', String(selected));
     });
-    requestAnimationFrame(updateCategoryProgress);
-  }
-
-  function updateCategoryProgress() {
-    var thumb = $('categoryProgress');
-    if (!thumb) return;
-    var available = catBox.clientWidth, total = catBox.scrollWidth, size = Math.min(available, Math.max(32, available * available / Math.max(total, 1)));
-    thumb.style.width = size + 'px';
-    thumb.style.transform = 'translateX(' + (total > available ? (catBox.scrollLeft / (total - available)) * (available - size) : 0) + 'px)';
   }
 
   function renderCampaign() {
@@ -133,9 +149,7 @@
   search.oninput = function () { clear.style.display = search.value ? 'grid' : 'none'; render(); };
   clear.onclick = function () { search.value = ''; clear.style.display = 'none'; search.focus(); render(); };
   $('allCats').onclick = function () { state.category = 'Todos'; renderCats(); catBox.scrollTo({ left: 0, behavior: reduceMotion }); renderCampaign(); render(); };
-  catBox.addEventListener('scroll', function () { requestAnimationFrame(updateCategoryProgress); }, { passive: true });
-  addEventListener('resize', function () { requestAnimationFrame(updateCategoryProgress); }, { passive: true });
-  document.addEventListener('pedeai:city', function (e) { state.city = e.detail; render(); });
+  document.addEventListener('pedeai:city', function (e) { state.city = e.detail; renderCats(); renderCampaign(); render(); });
   $('partnerBtn').onclick = function () { window.open('https://wa.me/5512936290045?text=' + encodeURIComponent('Olá! Quero cadastrar meu restaurante no PedeAi Delivery.'), '_blank', 'noopener'); };
   document.querySelectorAll('.nav-item').forEach(function (b) {
     b.onclick = function () {

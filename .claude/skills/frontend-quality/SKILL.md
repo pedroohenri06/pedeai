@@ -62,3 +62,9 @@ A página da loja herda os sinais da home, sem mudar o layout do PR #4:
 - **Ilustração oficial** do entregador (`assets/pedeai-courier-3d-v2.webp`) no "Cardápio em preparação", no lugar de ícone genérico.
 - **Profundidade:** sombras em camadas (`--sp-lift`) e luz na borda superior dos cartões; preços em Montserrat 800 tabular.
 - O foco inicial vai para o próprio diálogo (`tabindex=-1`), sem anel vermelho no botão voltar ao abrir.
+
+### Home: faixa de categorias v2 (aprovada a partir do estudo de mercado de 16 plataformas)
+- Atalhos **redondos** (68 px celular, 92 px desktop) com nome e contagem ("36 lugares") embaixo; "Todos" usa o símbolo PedeAi no degradê da marca; ativo = anel vermelho com folga creme + nome em vinho.
+- Imagem = **prato real de parceiro** (nada de IA nem emoji), gerada por `scripts/build-category-images.py` a partir de `data/research/categorias-imagens.json` (240 px, harmonizada).
+- Só categorias com lugares na cidade, ordenadas por quantidade; sem barra de progresso. Título "Escolha por categoria / O que bateu vontade?" é o aprovado e não muda.
+- O CSS legado de `.cat` (opacity 0, filtros, animações) ainda existe no `index.html`: o bloco "Categorias v2" reseta tudo com escopo `.categories`.

@@ -24,6 +24,9 @@
     search: '<circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/>', bag: '<path d="M6 7h12l1 14H5L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/>', dish: '<path d="M3 17h18"/><path d="M5 17a7 7 0 0 1 14 0"/><path d="M12 8V6"/><path d="M10 6h4"/>'
   };
 
+  /* Glifo oficial do WhatsApp (marca registrada da Meta), usado só nos botões que abrem o WhatsApp. */
+  var WA_LOGO = '<svg class="wa-logo" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>';
+
   function hostOf(url) { try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url; } }
   function formatDate(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : iso; }
   function findItem(id) { return state.store.menu.find(function (m) { return m.id === id; }); }
@@ -80,7 +83,7 @@
 
   function actionsHtml(s) {
     var a = [];
-    if (s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery.')) + '" target="_blank" rel="noopener">' + icon(I.chat) + 'Falar no WhatsApp</a>');
+    if (s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Falar no WhatsApp</a>');
     if (s.phone) a.push('<a class="sp-btn" href="tel:+' + esc(s.phone) + '">' + icon(I.phone) + 'Ligar</a>');
     if (s.orderUrl) a.push('<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Cardápio online</a>');
     if (s.instagram) a.push('<a class="sp-btn" href="https://www.instagram.com/' + encodeURIComponent(s.instagram) + '/" target="_blank" rel="noopener">' + icon(I.link) + 'Instagram</a>');
@@ -157,9 +160,18 @@
       '</article></li>';
   }
 
+  /* Instrução do pedido, logo abaixo do título do cardápio. */
+  function guideHtml(s) {
+    if (!C.canOrder(s)) return '<p class="sp-guide">Monte seu pedido para conferir os valores. O envio pelo WhatsApp é liberado assim que <strong>' + esc(s.name) + '</strong> confirmar o número.</p>';
+    return '<ol class="sp-guide sp-guide--steps">' +
+      '<li><b>Monte seu pedido</b><span>Escolha os itens e as quantidades.</span></li>' +
+      '<li><b>Informe o endereço</b><span>Ou escolha retirar no local.</span></li>' +
+      '<li><b>Finalize no WhatsApp</b><span>O pedido chega pronto para ' + esc(s.name) + '. O pagamento você combina direto com o estabelecimento.</span></li></ol>';
+  }
+
   function menuHtml(s) {
     if (!s.menu.length) {
-      var actions = (s.whatsapp ? '<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.')) + '" target="_blank" rel="noopener">' + icon(I.chat) + 'Pedir pelo WhatsApp</a>' : '') +
+      var actions = (s.whatsapp ? '<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Pedir pelo WhatsApp</a>' : '') +
         (s.orderUrl ? '<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '');
       return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2></div>' +
         '<div class="sp-card sp-empty menu-pending"><span class="sp-empty-icon">' + icon(I.menu) + '</span><h3>Cardápio em preparação</h3><p>Ainda não temos um cardápio com preços confirmados para ' + esc(s.name) + '.' +
@@ -168,7 +180,7 @@
     }
     var secs = sectionsOf(s.menu), many = s.menu.length >= 12;
     return '<section class="sp-menu" aria-labelledby="storeMenuTitle">' +
-      '<div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2><p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
+      '<div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2>' + guideHtml(s) + '<p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
       (secs.length > 1 || many ? '<div class="sp-sticky">' +
         (secs.length > 1 ? '<nav class="sp-cats" aria-label="Categorias do cardápio"><div class="sp-cats-track">' + secs.map(function (sec, i) {
           return '<a class="sp-cat" href="#sp-sec-' + i + '" data-sec="' + i + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + esc(sec.name) + '</a>';
@@ -178,7 +190,8 @@
       secs.map(function (sec, i) {
         return '<section class="sp-section" id="sp-sec-' + i + '" data-sec="' + i + '" aria-labelledby="sp-sec-t-' + i + '"><h3 class="sp-section-title" id="sp-sec-t-' + i + '">' + esc(sec.name) + ' <small>' + sec.items.length + '</small></h3><ul class="sp-items" role="list">' + sec.items.map(itemHtml).join('') + '</ul></section>';
       }).join('') +
-      '<p class="sp-noresult" id="spNoResult" hidden>Nenhum item encontrado no cardápio.</p></section>';
+      '<p class="sp-noresult" id="spNoResult" hidden>Nenhum item encontrado no cardápio.</p>' +
+      '<section class="sp-order" id="spOrder" aria-labelledby="spOrderTitle"></section></section>';
   }
 
   function aboutHtml(s) {
@@ -246,6 +259,18 @@
     if (cats) bindCategories(scroller, cats);
     var search = $('spSearch');
     if (search) search.oninput = function () { filterMenu(search.value); };
+    revealItems(scroller);
+  }
+
+  /* Itens do cardápio entram com um leve deslocamento quando chegam à tela (uma vez, em cascata curta). */
+  function revealItems(scroller) {
+    if (motion.matches || !('IntersectionObserver' in window)) return;
+    var items = [].slice.call(page.querySelectorAll('.sp-item'));
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } });
+    }, { root: scroller, rootMargin: '0px 0px -8% 0px' });
+    items.forEach(function (el, i) { el.style.setProperty('--i', i % 4); el.classList.add('sp-reveal'); io.observe(el); });
+    state.observers.push(io);
   }
 
   function onPageClick(e) {
@@ -348,6 +373,7 @@
       b.closest('.sp-item').classList.toggle('in-cart', !!n);
     });
     renderSummary();
+    renderOrder();
     var bar = $('cartBar');
     if (!bar) return;
     var n = C.cartCount(state.cart), t = C.cartTotals(state.cart, state.store, state.mode);
@@ -360,6 +386,34 @@
   }
 
   /* Resumo do pedido na coluna lateral (telas largas). */
+  /* Painel "Seu pedido" no fim do cardápio: itens, subtotal e endereço, sincronizados com a sacola. */
+  function renderOrder() {
+    var box = $('spOrder');
+    if (!box) return;
+    var s = state.store, ordering = C.canOrder(s), pickup = state.mode === 'retirada';
+    if (!state.cart.lines.length) {
+      box.innerHTML = '<h3 id="spOrderTitle">Seu pedido</h3><p class="sp-order-empty">' + icon(I.bag) + '<span>Toque em <b>+</b> nos itens do cardápio para montar seu pedido.</span></p>';
+      return;
+    }
+    var t = C.cartTotals(state.cart, s, state.mode);
+    box.innerHTML = '<h3 id="spOrderTitle">Seu pedido</h3><ul class="sp-order-lines">' + state.cart.lines.map(function (l) {
+      return '<li><span><b>' + l.qty + '×</b> ' + esc(l.name) + '</span><span>' + C.formatBRL(l.unitCents * l.qty) + '</span></li>';
+    }).join('') + '</ul><p class="sp-order-total"><span>Subtotal</span><strong>' + C.formatBRL(t.subtotal) + '</strong></p>' +
+      '<div class="sp-order-mode" role="group" aria-label="Como você quer receber?"><button type="button" data-mode="entrega" aria-pressed="' + !pickup + '">Entrega</button><button type="button" data-mode="retirada" aria-pressed="' + pickup + '">Retirar no local</button></div>' +
+      (pickup ? '' : '<label class="sp-order-field"><span>Endereço de entrega</span><textarea id="spAddress" rows="2" maxlength="200" autocomplete="street-address" placeholder="Rua, número, bairro e ponto de referência…"></textarea></label>') +
+      '<button class="sp-order-cta" type="button" data-order-finish>' + (ordering ? WA_LOGO + 'Finalizar no WhatsApp' : 'Revisar pedido') + '<strong>' + C.formatBRL(t.total) + '</strong></button>' +
+      '<p class="sp-order-note">' + (ordering ? 'Na próxima etapa você confirma nome e forma de pagamento. Depois, o pedido abre pronto no WhatsApp de ' + esc(s.name) + '.' : 'O envio pelo WhatsApp é liberado quando o estabelecimento confirmar o número.') + '</p>';
+    var addr = $('spAddress');
+    if (addr) {
+      addr.value = $('cartAddress').value;
+      addr.oninput = function () { $('cartAddress').value = addr.value; };
+    }
+    box.querySelectorAll('[data-mode]').forEach(function (b) {
+      b.onclick = function () { state.mode = b.dataset.mode; renderQty(false); };
+    });
+    box.querySelector('[data-order-finish]').onclick = openCart;
+  }
+
   function renderSummary() {
     var box = $('spSummary');
     if (!box) return;
@@ -550,6 +604,8 @@
   $('cartPayment').onchange = renderCart;
   $('cartForm').onsubmit = sendOrder;
   drawer.onkeydown = trapFocus;
+  $('cartAddress').addEventListener('input', function () { var a = $('spAddress'); if (a) a.value = $('cartAddress').value; });
+  $('cartSend').insertAdjacentHTML('afterbegin', WA_LOGO);
   (function restoreCustomer() {
     try { var c = JSON.parse(readStorage('pedeai-customer') || 'null'); if (c) { $('cartName').value = c.name || ''; $('cartAddress').value = c.address || ''; } } catch (e) { /* ignora */ }
   })();

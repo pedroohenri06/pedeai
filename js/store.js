@@ -58,9 +58,9 @@
     return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.name + ', ' + (s.address ? s.address + ', ' : '') + s.city + ' - MT');
   }
 
-  /* Selo da loja: o logotipo, quando a imagem cadastrada é um logo; senão, as iniciais sobre o degradê da marca. */
+  /* Selo da loja: o logotipo oficial, quando existe; senão, as iniciais sobre o degradê da marca. */
   function badgeTile(s) {
-    if (s.image && s.image.kind === 'logo') return '<span class="sp-tile sp-tile--logo"><img src="' + esc(s.image.thumb || s.image.src) + '" alt="" width="120" height="80" decoding="async"></span>';
+    if (s.logo) return '<span class="sp-tile sp-tile--logo"><img src="' + esc(s.logo.tile || s.logo.thumb || s.logo.src) + '" alt="" width="120" height="120" decoding="async"></span>';
     return '<span class="sp-tile" aria-hidden="true">' + esc(initials(s.name)) + '</span>';
   }
 
@@ -74,7 +74,7 @@
 
   /* Capa: foto com degradê vinho, ou o degradê da marca com o símbolo do PedeAi em marca d'água. */
   function coverHtml(s) {
-    var photo = s.image && s.image.kind !== 'logo';
+    var photo = !!s.image;
     return '<section class="sp-cover' + (photo ? ' sp-cover--photo' : ' sp-cover--brand sp-hero--empty') + '" aria-labelledby="storeName">' +
       (photo ? '<img class="sp-cover-img" src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="' + (s.image.width || 960) + '" height="' + (s.image.height || 640) + '" fetchpriority="high" decoding="async" onerror="this.remove()">' : '<span class="sp-cover-mark" aria-hidden="true"></span>') +
       '<div class="sp-cover-body">' + badgeTile(s) + '<div class="sp-cover-text"><h1 id="storeName" class="sp-name">' + esc(s.name) + '</h1><p class="sp-lede">' + esc(lede(s)) + '</p>' + chips(s) + '</div></div>' +
@@ -211,7 +211,7 @@
     disconnect();
     state.store = s;
     state.cart = loadCart(s);
-    page.classList.toggle('sp-has-photo', !!(s.image && s.image.kind !== 'logo'));
+    page.classList.toggle('sp-has-photo', !!s.image);
     /* Sem nenhuma foto de produto, cartões só de texto; com ao menos uma, todos reservam a área de imagem. */
     page.classList.toggle('sp-noimg', !s.menu.some(function (m) { return m.image; }));
     page.classList.toggle('sp-has-menu', s.menu.length > 0);

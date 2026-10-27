@@ -36,7 +36,8 @@ function renderStatus(db) {
       const p = [];
       if (!s.whatsapp) p.push('WhatsApp não verificado');
       if (!s.menu.length) p.push('cardápio pendente');
-      if (!s.image) p.push('foto própria pendente (usa imagem ilustrativa da categoria)');
+      if (!s.image && !s.logo) p.push('foto própria pendente (usa imagem ilustrativa da categoria)');
+      else if (!s.image) p.push('foto de capa pendente (página usa o logotipo sobre o degradê da marca)');
       if (!s.address) p.push('endereço pendente');
       if (s.notes) p.push(s.notes);
       return p.length ? `- **${s.name}** — ${p.join('; ')}` : null;

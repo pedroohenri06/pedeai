@@ -92,13 +92,16 @@ def main():
         logo = tipo == "logo" if tipo else img.width / img.height < 1.3
         size = target_size(img)
         img = framed(img, size) if logo else ImageOps.fit(img, size, Image.LANCZOS, centering=(0.5, 0.45))
-        dest = OUT / f"{store['id']}.webp"
+        stem = f"{store['id']}-logo" if logo else store["id"]
+        dest = OUT / f"{stem}.webp"
         img.save(dest, "WEBP", quality=82, method=6)
-        thumb = OUT / f"{store['id']}-card.webp"
+        thumb = OUT / f"{stem}-card.webp"
         img.resize(THUMB, Image.LANCZOS).save(thumb, "WEBP", quality=78, method=6)
-        store["image"] = {
-            "src": f"assets/stores/{store['id']}.webp",
-            "thumb": f"assets/stores/{store['id']}-card.webp",
+        # Logotipo vai para o campo próprio (card e selo da página); foto vira a capa.
+        field = "logo" if logo else "image"
+        store[field] = {
+            "src": f"assets/stores/{stem}.webp",
+            "thumb": f"assets/stores/{stem}-card.webp",
             "width": img.width,
             "height": img.height,
             "alt": f"{store['kind']} — {store['name']}",
@@ -107,11 +110,11 @@ def main():
             "kind": "logo" if logo else "foto",
         }
         if store["id"] in manifest:
-            store["image"]["sourceUrl"] = manifest[store["id"]]["sourceUrl"]
+            store[field]["sourceUrl"] = manifest[store["id"]]["sourceUrl"]
             if manifest[store["id"]].get("tipo"):
-                store["image"]["kind"] = manifest[store["id"]]["tipo"]
+                store[field]["kind"] = manifest[store["id"]]["tipo"]
             if manifest[store["id"]].get("credit"):
-                store["image"]["credit"] = manifest[store["id"]]["credit"]
+                store[field]["credit"] = manifest[store["id"]]["credit"]
         done += 1
         print(f"ok  {f.name} -> {dest.relative_to(ROOT)} ({dest.stat().st_size // 1024} KB)")
     DB.write_text(json.dumps(db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

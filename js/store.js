@@ -46,7 +46,7 @@
   /* ---------------- Apresentação ---------------- */
   function heroHtml(s) {
     if (s.image) {
-      return '<figure class="sp-hero"><img src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="960" height="640" fetchpriority="high" decoding="async"><figcaption class="sp-credit">Foto: ' + esc(s.image.credit) + '</figcaption></figure>';
+      return '<figure class="sp-hero"><img src="' + esc(s.image.src) + '" onerror="this.parentNode.style.display=\'none\'" alt="' + esc(s.image.alt || s.name) + '" width="960" height="640" fetchpriority="high" decoding="async"><figcaption class="sp-credit">Foto: ' + esc(s.image.credit) + '</figcaption></figure>';
     }
     /* Sem fotografia: identidade tipográfica em vez de uma imagem que não pertence ao estabelecimento. */
     return '<div class="sp-hero sp-hero--empty" aria-hidden="true"><span class="sp-monogram">' + esc(initials(s.name)) + '</span><span class="sp-hero-note">' + esc(s.category) + ' · ' + esc(s.city) + '</span></div>';

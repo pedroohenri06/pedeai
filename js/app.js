@@ -67,11 +67,9 @@
     if (rail) rail.hidden = true;
   }
 
+  /* Nos cards, só o aviso de cadastro em verificação; contatos e pedido ficam na página da loja. */
   function badgeOf(s) {
-    if (C.canOrder(s)) return '<span class="badge badge-order">Pedido pelo WhatsApp</span>';
-    if (s.whatsapp) return '<span class="badge badge-order">WhatsApp</span>';
-    if (s.confidence === 'baixa') return '<span class="badge badge-pending">Em verificação</span>';
-    return '';
+    return s.confidence === 'baixa' ? '<span class="badge badge-pending">Em verificação</span>' : '';
   }
 
   function render() {

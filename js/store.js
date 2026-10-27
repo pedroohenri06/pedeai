@@ -26,10 +26,6 @@
 
   function hostOf(url) { try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url; } }
   function formatDate(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : iso; }
-  function initials(name) {
-    var words = String(name).replace(/[^\p{L}\p{N} ]/gu, ' ').split(/\s+/).filter(function (w) { return w.length > 2 || /^\p{Lu}/u.test(w); });
-    return (words.slice(0, 2).map(function (w) { return w[0]; }).join('') || String(name)[0] || '').toUpperCase();
-  }
   function findItem(id) { return state.store.menu.find(function (m) { return m.id === id; }); }
   function hasRequired(item) { return (item.options || []).some(function (g) { return (g.min || 0) > 0; }); }
   function hasPricedOptions(item) { return (item.options || []).some(function (g) { return g.choices.some(function (c) { return c.priceCents > 0; }); }); }
@@ -44,34 +40,82 @@
   function saveCart() { if (state.store) writeStorage(cartKey(state.store.id), state.cart.lines.length ? JSON.stringify(state.cart) : null); }
 
   /* ---------------- Apresentação ---------------- */
-  function heroHtml(s) {
-    if (s.image) {
-      return '<figure class="sp-hero"><img src="' + esc(s.image.src) + '" onerror="this.parentNode.style.display=\'none\'" alt="' + esc(s.image.alt || s.name) + '" width="960" height="640" fetchpriority="high" decoding="async"><figcaption class="sp-credit">Foto: ' + esc(s.image.credit) + '</figcaption></figure>';
-    }
-    /* Sem fotografia: identidade tipográfica em vez de uma imagem que não pertence ao estabelecimento. */
-    return '<div class="sp-hero sp-hero--empty" aria-hidden="true"><span class="sp-monogram">' + esc(initials(s.name)) + '</span><span class="sp-hero-note">' + esc(s.category) + ' · ' + esc(s.city) + '</span></div>';
+  /* Frase de apresentação em linguagem natural: "Pizzaria e lanchonete em Barra do Garças". */
+  function lede(s) {
+    var kind = String(s.kind || s.category).replace(/\s*\(.*?\)\s*$/, '');
+    return kind.charAt(0).toUpperCase() + kind.slice(1) + ' em ' + s.city;
+  }
+
+  function initials(name) {
+    var words = String(name).split(/\s+/).filter(function (w) { return /^[\p{L}\p{N}]/u.test(w) && (w.length > 2 || /^\p{Lu}/u.test(w)); });
+    return (words.slice(0, 2).map(function (w) { return w[0]; }).join('') || String(name)[0] || '').toUpperCase();
+  }
+
+  function mapsUrl(s) {
+    return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(s.name + ', ' + (s.address ? s.address + ', ' : '') + s.city + ' - MT');
+  }
+
+  /* Selo da loja: o logotipo, quando a imagem cadastrada é um logo; senão, as iniciais sobre o degradê da marca. */
+  function badgeTile(s) {
+    if (s.image && s.image.kind === 'logo') return '<span class="sp-tile sp-tile--logo"><img src="' + esc(s.image.thumb || s.image.src) + '" alt="" width="120" height="80" decoding="async"></span>';
+    return '<span class="sp-tile" aria-hidden="true">' + esc(initials(s.name)) + '</span>';
+  }
+
+  function chips(s) {
+    var c = ['<span class="sp-chip">' + esc(s.category) + '</span>', '<span class="sp-chip">' + icon(I.pin) + esc(s.city) + '</span>'];
+    if (C.canOrder(s)) c.push('<span class="sp-chip sp-chip--on">Pedido online</span>');
+    else if (s.menu.length) c.push('<span class="sp-chip">' + s.menu.length + (s.menu.length === 1 ? ' item' : ' itens') + ' no cardápio</span>');
+    if (s.confidence === 'baixa') c.push('<span class="sp-chip sp-chip--muted">Em verificação</span>');
+    return '<div class="sp-chips">' + c.join('') + '</div>';
+  }
+
+  /* Capa: foto com degradê vinho, ou o degradê da marca com o símbolo do PedeAi em marca d'água. */
+  function coverHtml(s) {
+    var photo = s.image && s.image.kind !== 'logo';
+    return '<section class="sp-cover' + (photo ? ' sp-cover--photo' : ' sp-cover--brand sp-hero--empty') + '" aria-labelledby="storeName">' +
+      (photo ? '<img class="sp-cover-img" src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="' + (s.image.width || 960) + '" height="' + (s.image.height || 640) + '" fetchpriority="high" decoding="async" onerror="this.remove()">' : '<span class="sp-cover-mark" aria-hidden="true"></span>') +
+      '<div class="sp-cover-body">' + badgeTile(s) + '<div class="sp-cover-text"><h1 id="storeName" class="sp-name">' + esc(s.name) + '</h1><p class="sp-lede">' + esc(lede(s)) + '</p>' + chips(s) + '</div></div>' +
+      (photo && s.image.credit ? '<span class="sp-credit">Foto: ' + esc(s.image.credit) + '</span>' : '') + '</section>';
   }
 
   function actionsHtml(s) {
     var a = [];
-    if (s.whatsapp) a.push('<a class="sp-action sp-action--wa" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery.')) + '" target="_blank" rel="noopener">' + icon(I.chat) + '<span>WhatsApp</span></a>');
-    if (s.phone) a.push('<a class="sp-action" href="tel:+' + esc(s.phone) + '" aria-label="Ligar para ' + esc(C.formatPhone(s.phone)) + '">' + icon(I.phone) + '<span>' + esc(C.formatPhone(s.phone)) + '</span></a>');
-    if (s.orderUrl) a.push('<a class="sp-action" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + '<span>Cardápio online</span></a>');
-    if (s.instagram) a.push('<a class="sp-action" href="https://www.instagram.com/' + encodeURIComponent(s.instagram) + '/" target="_blank" rel="noopener">' + icon(I.link) + '<span>@' + esc(s.instagram) + '</span></a>');
-    if (s.website) a.push('<a class="sp-action" href="' + esc(s.website) + '" target="_blank" rel="noopener">' + icon(I.link) + '<span>' + esc(hostOf(s.website)) + '</span></a>');
+    if (s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery.')) + '" target="_blank" rel="noopener">' + icon(I.chat) + 'Falar no WhatsApp</a>');
+    if (s.phone) a.push('<a class="sp-btn" href="tel:+' + esc(s.phone) + '">' + icon(I.phone) + 'Ligar</a>');
+    if (s.orderUrl) a.push('<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Cardápio online</a>');
+    if (s.instagram) a.push('<a class="sp-btn" href="https://www.instagram.com/' + encodeURIComponent(s.instagram) + '/" target="_blank" rel="noopener">' + icon(I.link) + 'Instagram</a>');
+    if (s.website) a.push('<a class="sp-btn" href="' + esc(s.website) + '" target="_blank" rel="noopener">' + icon(I.link) + 'Site</a>');
     return a.length ? '<div class="sp-actions">' + a.join('') + '</div>' : '';
   }
 
-  function identityHtml(s) {
-    var facts = '<li>' + icon(I.pin) + '<span>' + (s.address ? esc(s.address) + ' · ' + esc(s.city) + ', MT' : esc(s.city) + ', MT · endereço a confirmar') + '</span></li>' +
-      (s.hours ? '<li>' + icon(I.clock) + '<span>' + esc(s.hours) + '</span></li>' : '');
-    return '<div class="sp-identity">' +
-      '<p class="sp-eyebrow">' + esc(s.category) + '<span aria-hidden="true">·</span>' + esc(s.city) + (s.confidence === 'baixa' ? '<span class="sp-pill">Em verificação</span>' : '') + '</p>' +
-      '<h1 id="storeName" class="sp-name">' + esc(s.name) + '</h1>' +
-      (s.kind && s.kind !== s.category ? '<p class="sp-kind">' + esc(s.kind) + '</p>' : '') +
-      '<ul class="sp-facts">' + facts + '</ul>' + actionsHtml(s) +
-      (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação: dados obtidos em fontes públicas e ainda não confirmados pelo estabelecimento.</span></p>' : '') +
-      '</div>';
+  function infoHtml(s) {
+    return '<section class="sp-card sp-info" aria-label="Informações do estabelecimento"><ul class="sp-facts">' +
+      '<li>' + icon(I.pin) + '<div><strong>' + (s.address ? esc(s.address) : 'Endereço a confirmar') + '</strong><span>' + esc(s.city) + ', MT</span><a href="' + esc(mapsUrl(s)) + '" target="_blank" rel="noopener">Ver no mapa</a></div></li>' +
+      (s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário</strong><span>' + esc(s.hours) + '</span></div></li>' : '') +
+      '</ul>' + actionsHtml(s) +
+      (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação. Os dados vêm de fontes públicas e ainda não foram confirmados pelo estabelecimento.</span></p>' : '') +
+      '</section>';
+  }
+
+  function summaryHtml(s) {
+    return s.menu.length ? '<section class="sp-card sp-summary" aria-labelledby="spSummaryTitle"><h2 id="spSummaryTitle">Seu pedido</h2><div id="spSummary"></div></section>' : '';
+  }
+
+  function topHtml(s) {
+    return '<header class="sp-top"><div class="sp-top-inner">' +
+      '<button class="sp-icon-btn store-back" type="button" data-store-close aria-label="Voltar">' + icon(I.back) + '</button>' +
+      '<a class="brand sp-brand" href="#" data-home aria-label="PedeAi Delivery, ir para o início"><span class="logo-box"><img src="assets/media-778d926eb50d.png" alt=""></span><span class="wordmark"><b>PedeAi</b><small>Delivery</small></span></a>' +
+      '<span class="sp-top-title" aria-hidden="true">' + esc(s.name) + '</span>' +
+      '<span class="sp-top-city">' + icon(I.pin) + esc(s.city) + '</span>' +
+      '<button class="sp-icon-btn" type="button" data-share aria-label="Compartilhar ' + esc(s.name) + '">' + icon(I.share) + '</button>' +
+      '</div></header>';
+  }
+
+  function footerHtml() {
+    return '<footer class="sp-footer"><div class="sp-footer-inner">' +
+      '<div class="sp-footer-brand"><span class="brand"><span class="logo-box"><img src="assets/media-778d926eb50d.png" alt=""></span><span class="wordmark"><b>PedeAi</b><small>Delivery</small></span></span><p>O melhor da sua cidade, direto no WhatsApp do restaurante. Sem baixar nada.</p></div>' +
+      '<nav class="sp-footer-nav" aria-label="Links do PedeAi"><a href="#" data-home>Início</a><a href="https://wa.me/5512936290045?text=' + encodeURIComponent('Olá! Quero cadastrar meu restaurante no PedeAi Delivery.') + '" target="_blank" rel="noopener">Seja parceiro</a><button type="button" data-legal-open="terms">Termos de uso</button><button type="button" data-legal-open="privacy">Privacidade</button></nav>' +
+      '<p class="sp-footer-copy">© ' + new Date().getFullYear() + ' PedeAi Delivery</p></div></footer>';
   }
 
   /* ---------------- Cardápio ---------------- */
@@ -96,31 +140,32 @@
     return '<li class="sp-li"><article class="sp-item" data-item="' + esc(m.id) + '">' +
       '<button class="sp-item-main" type="button" data-open="' + esc(m.id) + '" aria-haspopup="dialog"><span class="sp-item-name">' + esc(m.name) + '</span>' +
       (m.description ? '<span class="sp-item-desc">' + esc(m.description) + '</span>' : '') +
-      '<span class="sp-item-foot"><span class="sp-item-price">' + priceLabel(m) + '</span>' + ((m.options || []).length ? '<span class="sp-item-tag">Personalizável</span>' : '') + '</span></button>' +
+      '<span class="sp-item-meta"><span class="sp-item-price">' + priceLabel(m) + '</span>' + ((m.options || []).length ? '<span class="sp-item-tag">Com opções</span>' : '') + '</span></button>' +
       '<div class="sp-item-media" data-open="' + esc(m.id) + '">' + media + '<span class="sp-badge" data-badge="' + esc(m.id) + '" hidden></span>' +
-      '<button class="sp-add" type="button" data-add="' + esc(m.id) + '" aria-label="Adicionar ' + esc(m.name) + ' à sacola">' + icon(I.plus, 'sp-add-plus') + icon(I.check, 'sp-add-check') + '</button></div>' +
+      '<button class="sp-add" type="button" data-add="' + esc(m.id) + '" aria-label="Adicionar ' + esc(m.name) + ' ao pedido">' + icon(I.plus, 'sp-add-plus') + icon(I.check, 'sp-add-check') + '</button></div>' +
       '</article></li>';
   }
 
   function menuHtml(s) {
     if (!s.menu.length) {
-      var actions = (s.whatsapp ? '<a class="sp-btn sp-btn--wa" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.')) + '" target="_blank" rel="noopener">' + icon(I.chat) + 'Pedir pelo WhatsApp</a>' : '') +
-        (s.orderUrl ? '<a class="sp-btn sp-btn--ghost" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '');
+      var actions = (s.whatsapp ? '<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.')) + '" target="_blank" rel="noopener">' + icon(I.chat) + 'Pedir pelo WhatsApp</a>' : '') +
+        (s.orderUrl ? '<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '');
       return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2></div>' +
-        '<div class="sp-empty menu-pending"><span class="sp-empty-icon">' + icon(I.menu) + '</span><h3>Cardápio em preparação</h3><p>Ainda não temos um cardápio com preços confirmados para este estabelecimento.' +
-        (s.whatsapp ? ' Você pode pedir direto pelo WhatsApp.' : s.orderUrl ? ' Consulte o cardápio online oficial.' : ' Assim que o estabelecimento confirmar as informações, o pedido online será liberado.') + '</p>' +
+        '<div class="sp-card sp-empty menu-pending"><span class="sp-empty-icon">' + icon(I.menu) + '</span><h3>Cardápio em preparação</h3><p>Ainda não temos um cardápio com preços confirmados para ' + esc(s.name) + '.' +
+        (s.whatsapp ? ' Você pode fazer seu pedido direto pelo WhatsApp.' : s.orderUrl ? ' Consulte o cardápio online oficial.' : ' Assim que o estabelecimento confirmar as informações, o pedido online é liberado aqui.') + '</p>' +
         (actions ? '<div class="sp-empty-actions">' + actions + '</div>' : '') + '</div></section>';
     }
     var secs = sectionsOf(s.menu), many = s.menu.length >= 12;
     return '<section class="sp-menu" aria-labelledby="storeMenuTitle">' +
-      '<div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2><span>' + s.menu.length + (s.menu.length === 1 ? ' item' : ' itens') + '</span></div>' +
-      '<p class="sp-source">' + icon(I.info) + '<span>Preços conforme <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultado em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</span></p>' +
-      (many ? '<label class="sp-search">' + icon(I.search) + '<span class="sr-only">Buscar no cardápio</span><input type="search" id="spSearch" placeholder="Buscar no cardápio" autocomplete="off" enterkeyhint="search"></label>' : '') +
-      (secs.length > 1 ? '<div class="sp-sticky"><nav class="sp-cats" aria-label="Categorias do cardápio"><div class="sp-cats-track">' + secs.map(function (sec, i) {
-        return '<a class="sp-cat" href="#sp-sec-' + i + '" data-sec="' + i + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + esc(sec.name) + '</a>';
-      }).join('') + '<span class="sp-cats-ink" aria-hidden="true"></span></div></nav></div>' : '') +
+      '<div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2><p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
+      (secs.length > 1 || many ? '<div class="sp-sticky">' +
+        (secs.length > 1 ? '<nav class="sp-cats" aria-label="Categorias do cardápio"><div class="sp-cats-track">' + secs.map(function (sec, i) {
+          return '<a class="sp-cat" href="#sp-sec-' + i + '" data-sec="' + i + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + esc(sec.name) + '</a>';
+        }).join('') + '<span class="sp-cats-ink" aria-hidden="true"></span></div></nav>' : '') +
+        (many ? '<label class="sp-search">' + icon(I.search) + '<span class="sr-only">Buscar no cardápio</span><input type="search" id="spSearch" placeholder="Buscar no cardápio" autocomplete="off" enterkeyhint="search"></label>' : '') +
+        '</div>' : '') +
       secs.map(function (sec, i) {
-        return '<section class="sp-section" id="sp-sec-' + i + '" data-sec="' + i + '" aria-labelledby="sp-sec-t-' + i + '"><h3 class="sp-section-title" id="sp-sec-t-' + i + '">' + esc(sec.name) + '</h3><ul class="sp-items" role="list">' + sec.items.map(itemHtml).join('') + '</ul></section>';
+        return '<section class="sp-section" id="sp-sec-' + i + '" data-sec="' + i + '" aria-labelledby="sp-sec-t-' + i + '"><h3 class="sp-section-title" id="sp-sec-t-' + i + '">' + esc(sec.name) + ' <small>' + sec.items.length + '</small></h3><ul class="sp-items" role="list">' + sec.items.map(itemHtml).join('') + '</ul></section>';
       }).join('') +
       '<p class="sp-noresult" id="spNoResult" hidden>Nenhum item encontrado no cardápio.</p></section>';
   }
@@ -137,13 +182,14 @@
     disconnect();
     state.store = s;
     state.cart = loadCart(s);
-    page.classList.toggle('sp-has-photo', !!s.image);
-    /* Sem nenhuma foto de produto, linhas compactas; com ao menos uma, todos reservam a área de imagem. */
+    page.classList.toggle('sp-has-photo', !!(s.image && s.image.kind !== 'logo'));
+    /* Sem nenhuma foto de produto, cartões só de texto; com ao menos uma, todos reservam a área de imagem. */
     page.classList.toggle('sp-noimg', !s.menu.some(function (m) { return m.image; }));
-    page.innerHTML = '<div class="sp-scroll" id="storeScroll">' +
-      '<header class="sp-top"><button class="sp-icon-btn store-back" type="button" data-store-close aria-label="Voltar">' + icon(I.back) + '</button><span class="sp-top-title" aria-hidden="true">' + esc(s.name) + '</span>' +
-      '<button class="sp-icon-btn" type="button" data-share aria-label="Compartilhar ' + esc(s.name) + '">' + icon(I.share) + '</button></header>' +
-      heroHtml(s) + '<div class="sp-wrap">' + identityHtml(s) + menuHtml(s) + aboutHtml(s) + '</div></div>' +
+    page.classList.toggle('sp-has-menu', s.menu.length > 0);
+    page.innerHTML = '<div class="sp-scroll" id="storeScroll">' + topHtml(s) +
+      '<div class="sp-page">' + coverHtml(s) +
+      '<div class="sp-layout"><aside class="sp-aside">' + infoHtml(s) + summaryHtml(s) + '</aside>' +
+      '<div class="sp-main">' + menuHtml(s) + aboutHtml(s) + '</div></div></div>' + footerHtml() + '</div>' +
       (s.menu.length ? '<button class="sp-cartbar" id="cartBar" type="button" hidden aria-haspopup="dialog"></button>' : '') +
       '<p class="sr-only" id="spLive" aria-live="polite"></p><div class="sp-sheet" id="spSheet" aria-hidden="true"></div>';
     bind();
@@ -174,6 +220,11 @@
     var scroller = $('storeScroll'), top = page.querySelector('.sp-top');
     page.querySelector('[data-store-close]').onclick = function () { window.PedeAiStore.onBack(); };
     page.querySelector('[data-share]').onclick = share;
+    page.querySelectorAll('[data-home]').forEach(function (a) { a.onclick = function (e) { e.preventDefault(); window.PedeAiStore.onBack(); }; });
+    /* Termos e privacidade: reaproveita os documentos legais da home. */
+    page.querySelectorAll('[data-legal-open]').forEach(function (b) {
+      b.onclick = function () { var t = document.querySelector('.site-footer-v5 [data-legal="' + b.dataset.legalOpen + '"]') || document.querySelector('[data-legal="' + b.dataset.legalOpen + '"]'); if (t) t.click(); };
+    });
     var bar = $('cartBar');
     if (bar) bar.onclick = openCart;
 
@@ -204,6 +255,8 @@
   }
 
   /* ---------------- Categorias: navegação e realce da seção visível ---------------- */
+  function offsetIn(scroller, el) { return el.getBoundingClientRect().top - scroller.getBoundingClientRect().top + scroller.scrollTop; }
+
   function bindCategories(scroller, nav) {
     var track = nav.querySelector('.sp-cats-track'), ink = nav.querySelector('.sp-cats-ink'), links = [].slice.call(nav.querySelectorAll('.sp-cat'));
     var sections = [].slice.call(page.querySelectorAll('.sp-section')), locked = 0;
@@ -221,7 +274,7 @@
         locked = Date.now() + 900;
         current = i;
         activate(i);
-        scroller.scrollTo({ top: sec.offsetTop - page.querySelector('.sp-top').offsetHeight - (sticky ? sticky.offsetHeight : 0) + 1, behavior: behavior() });
+        scroller.scrollTo({ top: offsetIn(scroller, sec) - page.querySelector('.sp-top').offsetHeight - (sticky ? sticky.offsetHeight : 0) - 8, behavior: behavior() });
         sec.querySelector('.sp-section-title').setAttribute('tabindex', '-1');
         sec.querySelector('.sp-section-title').focus({ preventScroll: true });
       };
@@ -231,8 +284,8 @@
     function spy() {
       ticking = false;
       if (Date.now() < locked) return;
-      var line = scroller.scrollTop + page.querySelector('.sp-top').offsetHeight + nav.offsetHeight + 24, i = 0;
-      sections.forEach(function (sec, j) { if (!sec.hidden && sec.offsetTop <= line) i = j; });
+      var sticky = page.querySelector('.sp-sticky'), line = scroller.scrollTop + page.querySelector('.sp-top').offsetHeight + (sticky ? sticky.offsetHeight : nav.offsetHeight) + 24, i = 0;
+      sections.forEach(function (sec, j) { if (!sec.hidden && offsetIn(scroller, sec) <= line) i = j; });
       if (i !== current) { current = i; activate(i); }
     }
     function onScroll() { if (!ticking) { ticking = true; requestAnimationFrame(spy); } }
@@ -254,7 +307,7 @@
       if (shown) any = true;
     });
     $('spNoResult').hidden = any;
-    var nav = page.querySelector('.sp-sticky');
+    var nav = page.querySelector('.sp-cats');
     if (nav) nav.hidden = !!query;
   }
 
@@ -274,7 +327,7 @@
       clearTimeout(btn._t);
       btn._t = setTimeout(function () { btn.classList.remove('is-added'); }, 900);
     }
-    $('spLive').textContent = qty + 'x ' + item.name + ' adicionado à sacola. ' + C.cartCount(state.cart) + ' itens, ' + C.formatBRL(C.cartTotals(state.cart, state.store, state.mode).subtotal) + '.';
+    $('spLive').textContent = qty + 'x ' + item.name + ' adicionado ao pedido. ' + C.cartCount(state.cart) + ' itens, ' + C.formatBRL(C.cartTotals(state.cart, state.store, state.mode).subtotal) + '.';
     if (drawer.classList.contains('open')) renderCart();
   }
 
@@ -286,15 +339,32 @@
       if (n && b.textContent !== String(n)) { b.textContent = n; if (bump) pop(b); }
       b.closest('.sp-item').classList.toggle('in-cart', !!n);
     });
+    renderSummary();
     var bar = $('cartBar');
     if (!bar) return;
     var n = C.cartCount(state.cart), t = C.cartTotals(state.cart, state.store, state.mode);
     var wasHidden = bar.hidden;
     bar.hidden = n === 0;
     page.classList.toggle('sp-cart-active', n > 0);
-    bar.setAttribute('aria-label', 'Ver sacola: ' + n + (n === 1 ? ' item' : ' itens') + ', subtotal ' + C.formatBRL(t.subtotal));
-    bar.innerHTML = '<span class="sp-cartbar-count">' + icon(I.bag) + '<b>' + n + '</b></span><span class="sp-cartbar-label">Ver sacola</span><strong>' + C.formatBRL(t.subtotal) + '</strong>';
+    bar.setAttribute('aria-label', 'Ver pedido: ' + n + (n === 1 ? ' item' : ' itens') + ', subtotal ' + C.formatBRL(t.subtotal));
+    bar.innerHTML = '<span class="sp-cartbar-count">' + icon(I.bag) + '<b>' + n + '</b></span><span class="sp-cartbar-label">Ver pedido</span><strong>' + C.formatBRL(t.subtotal) + '</strong>';
     if (bump && n && !wasHidden) pop(bar, 'translateX(-50%)');
+  }
+
+  /* Resumo do pedido na coluna lateral (telas largas). */
+  function renderSummary() {
+    var box = $('spSummary');
+    if (!box) return;
+    if (!state.cart.lines.length) {
+      box.innerHTML = '<p class="sp-summary-empty">' + icon(I.bag) + '<span>Seu pedido está vazio. Toque em + nos itens do cardápio para começar.</span></p>';
+      return;
+    }
+    var t = C.cartTotals(state.cart, state.store, state.mode);
+    box.innerHTML = '<ul class="sp-summary-lines">' + state.cart.lines.map(function (l) {
+      return '<li><span><b>' + l.qty + '×</b> ' + esc(l.name) + '</span><span>' + C.formatBRL(l.unitCents * l.qty) + '</span></li>';
+    }).join('') + '</ul><p class="sp-summary-total"><span>Subtotal</span><strong>' + C.formatBRL(t.subtotal) + '</strong></p>' +
+      '<button class="sp-btn sp-btn--cta" type="button" data-summary-open>Ver pedido</button>';
+    box.querySelector('[data-summary-open]').onclick = openCart;
   }
 
   /* Pulso curto para confirmar uma mudança (Web Animations: não força recálculo de layout). */
@@ -424,12 +494,11 @@
     var s = state.store, t = C.cartTotals(state.cart, s, state.mode), ordering = C.canOrder(s), lines = $('cartLines');
     $('cartStore').textContent = s.name;
     lines.innerHTML = state.cart.lines.length ? state.cart.lines.map(function (l) {
-      return '<li class="cart-line"><div class="cart-line-info"><strong>' + esc(l.name) + '</strong>' +
+      return '<li class="cart-line"><div class="cart-line-top"><strong><span class="cart-qty">' + l.qty + '×</span> ' + esc(l.name) + '</strong><span class="sp-leader" aria-hidden="true"></span><b>' + C.formatBRL(l.unitCents * l.qty) + '</b></div>' +
         ((l.choices || []).length ? '<ul class="cart-line-opts">' + l.choices.map(function (c) { return '<li>' + esc(c.name) + (c.priceCents ? ' <span>+ ' + C.formatBRL(c.priceCents) + '</span>' : '') + '</li>'; }).join('') + '</ul>' : '') +
-        (l.note ? '<p class="cart-line-note">Obs.: ' + esc(l.note) + '</p>' : '') + '<span>' + C.formatBRL(l.unitCents) + ' cada</span></div>' +
-        '<div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div>' +
-        '<b>' + C.formatBRL(l.unitCents * l.qty) + '</b></li>';
-    }).join('') : '<li class="cart-empty"><span>' + icon(I.bag) + '</span><strong>Sua sacola está vazia</strong><p>Adicione itens do cardápio para montar seu pedido.</p><button type="button" class="sp-btn sp-btn--ghost" data-cart-close>Voltar ao cardápio</button></li>';
+        (l.note ? '<p class="cart-line-note">Obs.: ' + esc(l.note) + '</p>' : '') +
+        '<div class="cart-line-ctrl"><span>' + C.formatBRL(l.unitCents) + ' cada</span><div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div></div></li>';
+    }).join('') : '<li class="cart-empty"><span>' + icon(I.bag) + '</span><strong>Seu pedido está vazio</strong><p>Toque em + nos itens do cardápio para começar.</p><button type="button" class="sp-btn sp-btn--ghost" data-cart-close>Voltar ao cardápio</button></li>';
     lines.querySelectorAll('[data-key]').forEach(function (b) {
       b.onclick = function () {
         var key = b.dataset.key, line = state.cart.lines.find(function (l) { return l.key === key; });

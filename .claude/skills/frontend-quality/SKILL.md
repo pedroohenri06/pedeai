@@ -34,3 +34,20 @@ description: Padrões visuais, de acessibilidade e de responsividade do PedeAi D
 npm run serve   # http://localhost:4173
 ```
 Capture telas com Playwright (`chromium.launch()` já funciona no ambiente em nuvem) em 390×844 e 1280×800, nas páginas inicial, da loja e do carrinho.
+
+## Página do estabelecimento: direção de arte
+Referências: skill oficial `frontend-design` (github.com/anthropics/skills) e base de UX `ui-ux-pro-max-skill` (MIT), aplicadas dentro da identidade aprovada.
+- **Elemento memorável: o cardápio impresso.** Nas lojas sem fotos de produto, cada item é "nome ........ preço" com pontilhado (`.sp-leader`); títulos de seção e o nome da loja em Instrument Serif. Não acrescente outro elemento chamativo: o resto fica contido.
+- **Topo:** foto em largura total com o cartão subindo sobre ela (`.sp-head`, raio só no topo). Sem foto, o nome é o letreiro sobre `--wine` (`.sp-sign`). Nunca uma foto de categoria apresentada como do lugar.
+- **Pedido como comanda:** papel `--paper`, borda serrilhada, linhas e totais com pontilhado.
+- **Texto:** frase natural ("Pizzaria e lanchonete em Barra do Garças"). Evite rótulos em CAIXA ALTA acima de títulos, metadados unidos por "·" e "→" em botões. A mesma ação mantém o mesmo nome no fluxo inteiro ("Ver pedido", "Seu pedido", "Enviar pedido no WhatsApp").
+- **Movimento:** um único momento de entrada (a foto assenta e o cartão sobe), mais as respostas a toques. Nada de animação de entrada em cada seção.
+
+### Revisão v3 (feedback do dono: "amador, sem marca")
+A versão "cardápio impresso" foi reprovada. O padrão atual segue as plataformas validadas (Rappi e Wolt, capturadas em 390px e 1366px; iFood, Uber Eats, DoorDash e Deliveroo bloqueiam navegador automatizado):
+- **Cabeçalho oficial do PedeAi** (logo e marca iguais aos da home), voltar, cidade e compartilhar. **Rodapé da plataforma** com termos e privacidade.
+- **Capa:** foto com degradê vinho, ou o degradê da marca com o símbolo do PedeAi em marca d'água. Nome em Montserrat 800, selo da loja (logo ou iniciais sobre o degradê) e chips de informação.
+- **Cartão de informações** com sombra: endereço com "Ver no mapa", horário e contatos.
+- **Categorias em pílulas** fixas, com a ativa preenchida. **Produtos em cartões** com sombra; duas colunas a partir de 760px.
+- **Desktop (≥1024px):** coluna lateral fixa com informações e o resumo "Seu pedido"; a barra inferior some.
+- **Listagem da home:** sem selo de WhatsApp nos cards; só o aviso "Em verificação".

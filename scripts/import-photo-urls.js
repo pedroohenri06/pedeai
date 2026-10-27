@@ -69,7 +69,7 @@ function main() {
       if (!cover) {
         cover = path.join(outDir, r.id + ext);
         fs.copyFileSync(tmp + ext, cover);
-        manifest[r.id] = { sourceUrl: r.maps_url || f.url, imageUrl: f.url, tipo: f.tipo || null, origem: f.origem || null };
+        manifest[r.id] = { sourceUrl: r.maps_url || f.url, imageUrl: f.url, tipo: f.tipo || null, origem: f.origem || null, credit: f.credit || null };
       }
     });
     if (cover) { tally.ok++; console.log(`ok  ${r.id} (${fotos.length} foto(s) na lista)`); }

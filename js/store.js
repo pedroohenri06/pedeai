@@ -160,6 +160,11 @@
       '</article></li>';
   }
 
+  /* Sobretítulo da marca: as linhas de velocidade do logo PedeAi + texto em versalete vermelho, como na home. */
+  function eyebrow(text) {
+    return '<p class="sp-eyebrow"><span class="sp-speed" aria-hidden="true"><i></i><i></i><i></i></span>' + esc(text) + '</p>';
+  }
+
   /* Instrução do pedido, logo abaixo do título do cardápio. */
   function guideHtml(s) {
     if (!C.canOrder(s)) return '<p class="sp-guide">Monte seu pedido para conferir os valores. O envio pelo WhatsApp é liberado assim que <strong>' + esc(s.name) + '</strong> confirmar o número.</p>';
@@ -173,14 +178,14 @@
     if (!s.menu.length) {
       var actions = (s.whatsapp ? '<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Pedir pelo WhatsApp</a>' : '') +
         (s.orderUrl ? '<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '');
-      return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2></div>' +
-        '<div class="sp-card sp-empty menu-pending"><span class="sp-empty-icon">' + icon(I.menu) + '</span><h3>Cardápio em preparação</h3><p>Ainda não temos um cardápio com preços confirmados para ' + esc(s.name) + '.' +
+      return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head">' + eyebrow(s.whatsapp ? 'Peça direto' : 'Em breve') + '<h2 id="storeMenuTitle">Cardápio</h2></div>' +
+        '<div class="sp-card sp-empty menu-pending"><img class="sp-empty-art" src="assets/pedeai-courier-3d-v2.webp" width="160" height="149" alt="" loading="lazy" decoding="async"><h3>Cardápio em preparação</h3><p>Ainda não temos um cardápio com preços confirmados para ' + esc(s.name) + '.' +
         (s.whatsapp ? ' Você pode fazer seu pedido direto pelo WhatsApp.' : s.orderUrl ? ' Consulte o cardápio online oficial.' : ' Assim que o estabelecimento confirmar as informações, o pedido online é liberado aqui.') + '</p>' +
         (actions ? '<div class="sp-empty-actions">' + actions + '</div>' : '') + '</div></section>';
     }
     var secs = sectionsOf(s.menu), many = s.menu.length >= 12;
     return '<section class="sp-menu" aria-labelledby="storeMenuTitle">' +
-      '<div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2>' + guideHtml(s) + '<p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
+      '<div class="sp-menu-head">' + eyebrow('Escolha seus itens') + '<h2 id="storeMenuTitle">Cardápio</h2>' + guideHtml(s) + '<p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
       (secs.length > 1 || many ? '<div class="sp-sticky">' +
         (secs.length > 1 ? '<nav class="sp-cats" aria-label="Categorias do cardápio"><div class="sp-cats-track">' + secs.map(function (sec, i) {
           return '<a class="sp-cat" href="#sp-sec-' + i + '" data-sec="' + i + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + esc(sec.name) + '</a>';
@@ -224,7 +229,9 @@
     document.body.classList.add('store-open');
     document.title = s.name + ' em ' + s.city + ' | PedeAi Delivery';
     $('storeScroll').scrollTop = 0;
-    requestAnimationFrame(function () { page.querySelector('.store-back').focus({ preventScroll: true }); });
+    // Foco no próprio diálogo: leitores de tela anunciam a loja e nenhum anel de foco aparece no botão voltar ao abrir.
+    page.setAttribute('tabindex', '-1');
+    requestAnimationFrame(function () { page.focus({ preventScroll: true }); });
   }
 
   function close(silent) {

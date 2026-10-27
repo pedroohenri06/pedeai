@@ -54,3 +54,11 @@ A versão "cardápio impresso" foi reprovada. O padrão atual segue as plataform
 
 ### Lição da v4 (revertida no PR #6)
 A versão 4 (PR #5) reestruturou o layout: capa enorme, linha de indicadores, faixa "Como funciona", cartões planos. O dono a reprovou como regressão, e ela foi revertida por completo. **O layout atual da página da loja (PR #4) está aprovado.** Pedidos de "melhorar o brand" significam refinar identidade **dentro desse layout**: tipografia, cor, degradê, marca e acabamento. Nunca mudar a estrutura, a ordem das seções ou o tamanho dos blocos sem pedido explícito. Faça mudanças pequenas, mostre e só então avance.
+
+### Estudo de marca v2 (aprovado em direção: "progredindo, essa é a ideia")
+A página da loja herda os sinais da home, sem mudar o layout do PR #4:
+- **Assinatura do logo:** as linhas de velocidade do "P" viram o sobretítulo (`.sp-eyebrow` + `.sp-speed`) em versalete vermelho, o mesmo estilo de "ESCOLHA POR CATEGORIA" da home.
+- **Vermelho → vinho:** degradê `#f2404c → #d61a2a → #a3111d` em ações (botão +, categoria ativa, barra e botão do pedido); títulos com leve virada para vinho, como "vontade?" na home.
+- **Ilustração oficial** do entregador (`assets/pedeai-courier-3d-v2.webp`) no "Cardápio em preparação", no lugar de ícone genérico.
+- **Profundidade:** sombras em camadas (`--sp-lift`) e luz na borda superior dos cartões; preços em Montserrat 800 tabular.
+- O foco inicial vai para o próprio diálogo (`tabindex=-1`), sem anel vermelho no botão voltar ao abrir.

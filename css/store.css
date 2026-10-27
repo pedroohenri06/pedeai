@@ -438,3 +438,27 @@ body.store-open .bottom-nav{display:none}
   .sp-reveal{opacity:1;transform:none}
   .sp-item,.sp-about summary::after{transition:none}
 }
+
+/* =====================================================================================
+   Estudo de marca v2: assinatura do logo (linhas de velocidade), versalete vermelho da home,
+   ilustração oficial do entregador e estados ativos na cor da marca.
+   ===================================================================================== */
+.store-page:focus{outline:0}
+.sp-brand-tag{font-size:9px}
+.sp-eyebrow{display:flex;align-items:center;gap:8px;margin-bottom:6px;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--red)}
+.sp-speed{display:inline-grid;gap:2px;justify-items:end}
+.sp-speed i{display:block;height:2px;border-radius:2px;background:currentColor}
+.sp-speed i:nth-child(1){width:14px}
+.sp-speed i:nth-child(2){width:10px;opacity:.75}
+.sp-speed i:nth-child(3){width:6px;opacity:.5}
+.sp-menu-head h2{background:linear-gradient(100deg,var(--ink) 0%,var(--ink) 55%,#7a1420 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+@supports not (background-clip:text){.sp-menu-head h2{color:var(--ink)}}
+.sp-cat[aria-current]{background:linear-gradient(160deg,#f2404c 0%,#d61a2a 55%,#a3111d 100%);border-color:transparent;color:#fff;box-shadow:0 8px 18px -8px rgba(229,27,43,.7),inset 0 1px 0 rgba(255,255,255,.25)}
+.sp-empty-art{display:block;width:150px;height:auto;margin:0 auto 4px;filter:drop-shadow(0 14px 18px rgba(122,20,32,.22))}
+.sp-empty{background:radial-gradient(90% 60% at 50% 0%,#fff1f2 0%,rgba(255,241,242,0) 70%),var(--paper)}
+.sp-empty h3{letter-spacing:-.02em}
+.sp-order h3::before{content:"";display:block;width:28px;height:3px;margin-bottom:10px;border-radius:3px;background:linear-gradient(90deg,var(--red),#7a1420)}
+.sp-item-price{font-family:var(--sp-display);font-weight:800;font-size:15px;font-variant-numeric:tabular-nums}
+.sp-tile{font-family:var(--sp-display);font-weight:800;letter-spacing:.02em}
+.sp-facts .icon{color:var(--red)}
+@media(min-width:760px){.sp-brand-tag{font-size:9.5px}.sp-eyebrow{font-size:10.5px}}

@@ -324,3 +324,117 @@ body.store-open .bottom-nav{display:none}
   .store-page,.sp-top,.sp-top-title,.sp-cat,.sp-item,.sp-add,.sp-add .icon,.sp-sheet-panel,.sp-sheet-backdrop,.cart-panel,.cart-backdrop{transition:none}
   .sp-item:hover{transform:none}
 }
+
+/* =====================================================================================
+   Refino de marca (sobre o layout aprovado do PR #4, sem mudar a estrutura).
+   Tipografia, iluminação, sombras em camadas, ícones oficiais e microdetalhes.
+   ===================================================================================== */
+/* Tracinhos sob endereços e telefones: detecção automática do iOS desligada (meta format-detection) e neutralizada aqui. */
+.store-page a[x-apple-data-detectors]{color:inherit!important;text-decoration:none!important;font:inherit!important}
+
+/* Cabeçalho: slogan em versalete espaçado, discreto. */
+.sp-brand-tag{text-transform:uppercase;font-size:8.5px;font-weight:600;letter-spacing:.2em;color:rgba(34,23,25,.42);margin-top:1px}
+.sp-brand-name{letter-spacing:-.035em}
+.sp-top{background:rgba(248,245,239,.86);backdrop-filter:saturate(1.4) blur(20px)}
+.sp-icon-btn{border-color:rgba(51,8,14,.08);box-shadow:0 1px 2px rgba(51,8,14,.06),inset 0 1px 0 rgba(255,255,255,.9)}
+
+/* Capa: luz vinda do alto, vinheta suave e base vinho profunda onde fica o nome. */
+.sp-cover--photo::before{background:
+  radial-gradient(120% 70% at 50% 0%,rgba(255,255,255,.08),transparent 60%),
+  linear-gradient(180deg,rgba(24,6,9,.25) 0%,rgba(24,6,9,0) 26%,rgba(24,6,9,.06) 46%,rgba(62,9,17,.74) 80%,rgba(40,6,11,.94) 100%)}
+.sp-cover--photo::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;box-shadow:inset 0 -80px 120px -60px rgba(229,27,43,.28),inset 0 0 0 1px rgba(255,255,255,.06)}
+.sp-cover--brand{background:radial-gradient(130% 120% at 0% 0%,#f2404c 0%,#d01a28 30%,#9a1220 62%,#4d0a13 100%)}
+.sp-cover--brand::before{background:radial-gradient(55% 70% at 85% 10%,rgba(255,255,255,.22),transparent 60%),radial-gradient(70% 60% at 0% 100%,rgba(30,4,8,.45),transparent 70%),linear-gradient(180deg,transparent 55%,rgba(40,6,11,.35))}
+.sp-name{letter-spacing:-.012em;line-height:1.06;text-shadow:0 1px 1px rgba(0,0,0,.25),0 6px 30px rgba(0,0,0,.35)}
+.sp-lede{letter-spacing:.005em;color:rgba(255,255,255,.9)}
+.sp-tile{background:linear-gradient(160deg,#f2404c 0%,#d61a2a 45%,#8f1020 100%);box-shadow:0 0 0 3px rgba(255,255,255,.95),0 1px 0 4px rgba(0,0,0,.06),0 18px 34px -10px rgba(0,0,0,.55),inset 0 1px 0 rgba(255,255,255,.35);letter-spacing:.01em}
+.sp-chip{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.26);box-shadow:inset 0 1px 0 rgba(255,255,255,.18)}
+.sp-credit{background:rgba(0,0,0,.34);backdrop-filter:blur(8px);letter-spacing:.01em}
+
+/* Cartões: borda fina translúcida + sombra em camadas (ambiente e direta) + luz na borda superior. */
+.store-page{--sp-ring:rgba(51,8,14,.08);--sp-lift:0 1px 1px rgba(51,8,14,.04),0 2px 4px rgba(51,8,14,.04),0 12px 28px -12px rgba(51,8,14,.18)}
+.sp-card{border-color:var(--sp-ring);box-shadow:var(--sp-lift),inset 0 1px 0 rgba(255,255,255,.8)}
+.sp-info{box-shadow:0 1px 1px rgba(51,8,14,.04),0 4px 10px rgba(51,8,14,.04),0 26px 50px -22px rgba(51,8,14,.32),inset 0 1px 0 rgba(255,255,255,.9)}
+.sp-facts .icon{background:linear-gradient(160deg,#fff1f2,#fbdde1);box-shadow:inset 0 0 0 1px rgba(229,27,43,.12)}
+.sp-facts strong{letter-spacing:-.005em}
+.sp-facts a{display:inline-flex;align-items:center;gap:4px;text-decoration:none}
+.sp-facts a::after{content:"";width:6px;height:6px;border-top:1.6px solid currentColor;border-right:1.6px solid currentColor;transform:rotate(45deg);margin-left:2px}
+
+/* Botões: WhatsApp com o logo oficial na cor da marca; ação principal com luz e sombra colorida. */
+.wa-logo{width:19px;height:19px;flex:none}
+.sp-btn--primary{background:linear-gradient(180deg,#2b2023,#1b1214);border-color:#1b1214;box-shadow:0 1px 0 rgba(255,255,255,.08) inset,0 10px 22px -10px rgba(27,18,20,.7)}
+.sp-btn--primary .wa-logo,.sp-empty .sp-btn--primary .wa-logo{color:#25d366}
+.sp-btn{border-color:rgba(51,8,14,.12);box-shadow:0 1px 2px rgba(51,8,14,.05)}
+.cart-foot .order-btn .wa-logo{width:20px;height:20px;margin-right:8px;vertical-align:-4px;color:#fff}
+
+/* Seção do cardápio: título e instrução de pedido. */
+.sp-menu-head h2{letter-spacing:-.03em}
+.sp-guide{margin-top:10px;font-size:14px;line-height:1.55;color:var(--ink);max-width:60ch}
+.sp-guide--steps{list-style:none;display:grid;gap:10px;margin-top:14px;padding:16px 16px 16px 14px;border-radius:18px;background:linear-gradient(180deg,#fffdf9,#fbf5ef);border:1px solid var(--sp-ring);box-shadow:var(--sp-lift);counter-reset:sp-step}
+.sp-guide--steps li{counter-increment:sp-step;display:grid;grid-template-columns:28px 1fr;column-gap:12px;align-items:start}
+.sp-guide--steps li::before{content:counter(sp-step);grid-row:1/3;width:28px;height:28px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(160deg,#f2404c,#b3121f);color:#fff;font-family:var(--sp-display);font-size:13px;font-weight:800;box-shadow:0 6px 14px -6px rgba(229,27,43,.7)}
+.sp-guide--steps b{font-family:var(--sp-display);font-size:14px;font-weight:800;letter-spacing:-.02em}
+.sp-guide--steps span{font-size:13px;line-height:1.45;color:var(--muted)}
+.sp-source{margin-top:12px;font-size:11.5px}
+.sp-section-title{letter-spacing:-.025em}
+.sp-section-title small{background:linear-gradient(160deg,#fbe9eb,#f4dcdf);box-shadow:inset 0 0 0 1px rgba(229,27,43,.1)}
+.sp-cat{border-color:rgba(51,8,14,.1);box-shadow:0 1px 2px rgba(51,8,14,.05)}
+.sp-cat[aria-current]{background:linear-gradient(180deg,#2b2023,#1b1214);box-shadow:0 8px 18px -8px rgba(27,18,20,.6)}
+
+/* Cards de produto: mais respiro, sombra em camadas e elevação no toque/hover. */
+.sp-items{gap:12px}
+.sp-item{padding:16px;border-color:var(--sp-ring);box-shadow:0 1px 1px rgba(51,8,14,.03),0 8px 20px -14px rgba(51,8,14,.22),inset 0 1px 0 rgba(255,255,255,.8);transition:transform .25s cubic-bezier(.2,.8,.2,1),box-shadow .25s,border-color .25s}
+.sp-item-name{letter-spacing:-.012em;font-size:15.5px}
+.sp-item-price{letter-spacing:-.01em}
+.sp-item-media img{box-shadow:0 10px 22px -10px rgba(51,8,14,.4)}
+.sp-add{background:linear-gradient(160deg,#f2404c 0%,#d61a2a 55%,#a3111d 100%);box-shadow:0 0 0 3px var(--paper),0 10px 18px -8px rgba(229,27,43,.75),inset 0 1px 0 rgba(255,255,255,.3)}
+.sp-noimg .sp-add{box-shadow:0 10px 18px -8px rgba(229,27,43,.75),inset 0 1px 0 rgba(255,255,255,.3)}
+.sp-add.is-added{background:linear-gradient(160deg,#2fb565,#1f8a4b)}
+.sp-item.in-cart{border-color:rgba(229,27,43,.4);box-shadow:0 0 0 3px rgba(229,27,43,.08),0 8px 20px -14px rgba(229,27,43,.5)}
+/* Entrada suave ao rolar (transform/opacity apenas). */
+.sp-reveal{opacity:0;transform:translateY(14px)}
+.sp-reveal.is-in{opacity:1;transform:none;transition:opacity .5s cubic-bezier(.2,.8,.2,1) calc(var(--i,0) * 60ms),transform .5s cubic-bezier(.2,.8,.2,1) calc(var(--i,0) * 60ms),box-shadow .25s,border-color .25s}
+
+/* Painel "Seu pedido" no fim do cardápio. */
+.sp-order{margin-top:22px;padding:18px;border-radius:22px;background:var(--paper);border:1px solid var(--sp-ring);box-shadow:var(--sp-lift),inset 0 1px 0 rgba(255,255,255,.8)}
+.sp-order h3{font-family:var(--sp-display);font-size:19px;font-weight:800;letter-spacing:-.025em}
+.sp-order-empty{display:flex;gap:10px;align-items:center;margin-top:10px;font-size:13.5px;color:var(--muted)}
+.sp-order-empty .icon{width:22px;height:22px;flex:none;color:var(--red)}
+.sp-order-empty b{color:var(--red)}
+.sp-order-lines{list-style:none;display:grid;gap:9px;margin-top:14px}
+.sp-order-lines li{display:flex;justify-content:space-between;gap:12px;font-size:14px}
+.sp-order-lines b{color:var(--red);font-variant-numeric:tabular-nums}
+.sp-order-lines span:last-child{font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
+.sp-order-total{display:flex;justify-content:space-between;align-items:baseline;margin-top:14px;padding-top:14px;border-top:1px dashed rgba(51,8,14,.18);font-size:14px}
+.sp-order-total strong{font-family:var(--sp-display);font-size:21px;font-weight:800;font-variant-numeric:tabular-nums}
+.sp-order-mode{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:16px}
+.sp-order-mode button{height:44px;border-radius:14px;border:1px solid rgba(51,8,14,.12);background:var(--cream);font-size:13px;font-weight:700;color:var(--ink);cursor:pointer;touch-action:manipulation;transition:background-color .15s,border-color .15s,color .15s}
+.sp-order-mode button[aria-pressed=true]{background:#fde9ea;border-color:rgba(229,27,43,.55);color:var(--wine)}
+.sp-order-field{display:grid;gap:6px;margin-top:12px;font-size:13px;font-weight:700}
+.sp-order-field textarea{width:100%;min-height:62px;padding:12px 14px;border:1px solid rgba(51,8,14,.12);border-radius:14px;background:var(--cream);font:inherit;font-size:16px;font-weight:400;color:var(--ink);resize:vertical}
+.sp-order-field textarea:focus{outline:0;border-color:rgba(229,27,43,.45);box-shadow:0 0 0 4px rgba(229,27,43,.1)}
+.sp-order-cta{display:flex;align-items:center;gap:10px;width:100%;min-height:54px;margin-top:14px;padding:0 18px;border:0;border-radius:16px;background:linear-gradient(160deg,#f2404c 0%,#d61a2a 55%,#a3111d 100%);color:#fff;font-size:15px;font-weight:700;cursor:pointer;touch-action:manipulation;box-shadow:0 14px 28px -12px rgba(229,27,43,.8),inset 0 1px 0 rgba(255,255,255,.3)}
+.sp-order-cta strong{margin-left:auto;font-variant-numeric:tabular-nums}
+.sp-order-cta .wa-logo{width:21px;height:21px}
+.sp-order-note{margin-top:10px;font-size:12px;line-height:1.5;color:var(--muted)}
+
+/* "Sobre este cadastro": sem o triângulo nativo; seta discreta que gira ao abrir. */
+.sp-about summary{list-style:none;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.sp-about summary::-webkit-details-marker{display:none}
+.sp-about summary::after{content:"";width:8px;height:8px;border-right:1.8px solid var(--muted);border-bottom:1.8px solid var(--muted);transform:rotate(45deg) translateY(-2px);transition:transform .2s}
+.sp-about[open] summary::after{transform:rotate(-135deg) translateY(-2px)}
+
+/* Barra do pedido: luz superior e sombra colorida. */
+.sp-cartbar{background:linear-gradient(160deg,#f2404c 0%,#d61a2a 55%,#a3111d 100%);box-shadow:0 18px 40px -12px rgba(229,27,43,.75),inset 0 1px 0 rgba(255,255,255,.28)}
+
+@media(min-width:1024px){
+  .sp-order{display:none}
+}
+@media(hover:hover){
+  .sp-item:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(51,8,14,.05),0 18px 34px -16px rgba(51,8,14,.3),inset 0 1px 0 rgba(255,255,255,.8)}
+  .sp-order-cta:hover{filter:brightness(1.05)}
+}
+@media(prefers-reduced-motion:reduce){
+  .sp-reveal{opacity:1;transform:none}
+  .sp-item,.sp-about summary::after{transition:none}
+}

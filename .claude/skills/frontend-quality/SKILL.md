@@ -51,6 +51,3 @@ A versão "cardápio impresso" foi reprovada. O padrão atual segue as plataform
 - **Categorias em pílulas** fixas, com a ativa preenchida. **Produtos em cartões** com sombra; duas colunas a partir de 760px.
 - **Desktop (≥1024px):** coluna lateral fixa com informações e o resumo "Seu pedido"; a barra inferior some.
 - **Listagem da home:** sem selo de WhatsApp nos cards; só o aviso "Em verificação".
-
-### Revisão v4 (estudo denso)
-O estudo completo e as decisões estão em `docs/design/pagina-do-estabelecimento.md`. Resumo: capa fotográfica com mais da metade da primeira tela; linha de indicadores (padrão aiqfome) no lugar de ícones em quadradinho; faixa vinho "Do cardápio ao WhatsApp" com o entregador 3D como elemento assinatura; cartões planos (sem sombra cinza); botões em cor sólida, com o degradê só na capa; rodapé clonado da home.

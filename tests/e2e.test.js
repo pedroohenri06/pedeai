@@ -68,13 +68,23 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.equal(await page.textContent('#storeName'), 'Pizzaria Teste');
     });
 
+    await t.test('página da loja tem a marca da plataforma no topo e o rodapé oficial', async () => {
+      assert.equal(await page.textContent('.sp-brand-tag'), 'A plataforma de delivery do interior');
+      assert.equal(await page.locator('#storePage .site-footer-v5').count(), 1);
+      await page.click('#storePage .site-footer-v5 [data-legal="terms"]');
+      await page.waitForSelector('#legalDialog.open');
+      await page.keyboard.press('Escape');
+      await page.waitForSelector('#legalDialog:not(.open)', { state: 'attached' });
+      assert.equal(await page.isVisible('#storeName'), true, 'Esc fecha só o documento legal');
+    });
+
     await t.test('categorias levam à seção e acompanham a rolagem', async () => {
       assert.equal(await page.locator('.sp-cat').count(), 5);
       await page.click('.sp-cat:has-text("Bebidas")');
       await page.waitForTimeout(900);
       assert.equal(await page.getAttribute('.sp-cat:has-text("Bebidas")', 'aria-current'), 'true');
-      const top = await page.evaluate(() => document.querySelector('#sp-sec-3').getBoundingClientRect().top);
-      assert.ok(top > 60 && top < 200, 'seção visível logo abaixo das categorias: ' + top);
+      const [top, barBottom] = await page.evaluate(() => [document.querySelector('#sp-sec-3').getBoundingClientRect().top, document.querySelector('.sp-sticky').getBoundingClientRect().bottom]);
+      assert.ok(top >= barBottom - 2 && top < barBottom + 40, `seção logo abaixo da barra fixa: seção ${top}, barra ${barBottom}`);
       await page.locator('#storeScroll').evaluate(e => e.scrollTo(0, 0));
       await page.waitForTimeout(300);
       assert.equal(await page.getAttribute('.sp-cat:has-text("Pizzas")', 'aria-current'), 'true');

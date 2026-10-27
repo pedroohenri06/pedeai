@@ -150,6 +150,7 @@
   });
   addEventListener('keydown', function (e) {
     if (e.key !== 'Escape' || !Store.isOpen() || document.body.classList.contains('city-modal-open')) return;
+    if (e.target.closest && e.target.closest('#legalDialog')) return; /* o documento legal trata o próprio Esc */
     if (!Store.handleEscape()) goHome();
   });
   addEventListener('scroll', function () { $('header').classList.toggle('scrolled', scrollY > 12); }, { passive: true });

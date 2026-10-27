@@ -101,21 +101,32 @@
     return s.menu.length ? '<section class="sp-card sp-summary" aria-labelledby="spSummaryTitle"><h2 id="spSummaryTitle">Seu pedido</h2><div id="spSummary"></div></section>' : '';
   }
 
+  /* Cabeçalho da plataforma: marca centralizada com o slogan discreto; voltar e compartilhar nas laterais. */
   function topHtml(s) {
     return '<header class="sp-top"><div class="sp-top-inner">' +
       '<button class="sp-icon-btn store-back" type="button" data-store-close aria-label="Voltar">' + icon(I.back) + '</button>' +
-      '<a class="brand sp-brand" href="#" data-home aria-label="PedeAi Delivery, ir para o início"><span class="logo-box"><img src="assets/media-778d926eb50d.png" alt=""></span><span class="wordmark"><b>PedeAi</b><small>Delivery</small></span></a>' +
-      '<span class="sp-top-title" aria-hidden="true">' + esc(s.name) + '</span>' +
-      '<span class="sp-top-city">' + icon(I.pin) + esc(s.city) + '</span>' +
-      '<button class="sp-icon-btn" type="button" data-share aria-label="Compartilhar ' + esc(s.name) + '">' + icon(I.share) + '</button>' +
+      '<a class="sp-brand" href="#" data-home aria-label="PedeAi Delivery, ir para o início"><span class="sp-brand-row"><span class="logo-box"><img src="assets/media-778d926eb50d.png" alt=""></span><span class="sp-brand-name">PedeAi</span></span><span class="sp-brand-tag">A plataforma de delivery do interior</span></a>' +
+      '<div class="sp-top-end"><span class="sp-top-city">' + icon(I.pin) + esc(s.city) + '</span>' +
+      '<button class="sp-icon-btn" type="button" data-share aria-label="Compartilhar ' + esc(s.name) + '">' + icon(I.share) + '</button></div>' +
       '</div></header>';
   }
 
-  function footerHtml() {
-    return '<footer class="sp-footer"><div class="sp-footer-inner">' +
-      '<div class="sp-footer-brand"><span class="brand"><span class="logo-box"><img src="assets/media-778d926eb50d.png" alt=""></span><span class="wordmark"><b>PedeAi</b><small>Delivery</small></span></span><p>O melhor da sua cidade, direto no WhatsApp do restaurante. Sem baixar nada.</p></div>' +
-      '<nav class="sp-footer-nav" aria-label="Links do PedeAi"><a href="#" data-home>Início</a><a href="https://wa.me/5512936290045?text=' + encodeURIComponent('Olá! Quero cadastrar meu restaurante no PedeAi Delivery.') + '" target="_blank" rel="noopener">Seja parceiro</a><button type="button" data-legal-open="terms">Termos de uso</button><button type="button" data-legal-open="privacy">Privacidade</button></nav>' +
-      '<p class="sp-footer-copy">© ' + new Date().getFullYear() + ' PedeAi Delivery</p></div></footer>';
+  /* Rodapé: o mesmo rodapé aprovado da home, clonado para manter a identidade idêntica. */
+  function mountFooter() {
+    var slot = $('spFooter'), src = document.querySelector('.site-footer-v5');
+    if (!slot || !src) return;
+    var f = src.cloneNode(true);
+    f.querySelectorAll('.reveal').forEach(function (el) { el.classList.add('visible'); });
+    f.querySelectorAll('[data-legal]').forEach(function (b) {
+      b.onclick = function () { var o = src.querySelector('[data-legal="' + b.dataset.legal + '"]'); if (o) o.click(); };
+    });
+    f.querySelectorAll('a[href="#"]').forEach(function (a) {
+      a.onclick = function (e) { e.preventDefault(); $('storeScroll').scrollTo({ top: 0, behavior: behavior() }); };
+    });
+    f.querySelectorAll('a[href^="#"]:not([href="#"])').forEach(function (a) {
+      a.onclick = function (e) { e.preventDefault(); var target = a.getAttribute('href'); window.PedeAiStore.onBack(); setTimeout(function () { var el = document.querySelector(target === '#categories' ? '.categories' : target); if (el) el.scrollIntoView({ behavior: behavior() }); }, 60); };
+    });
+    slot.replaceWith(f);
   }
 
   /* ---------------- Cardápio ---------------- */
@@ -189,9 +200,10 @@
     page.innerHTML = '<div class="sp-scroll" id="storeScroll">' + topHtml(s) +
       '<div class="sp-page">' + coverHtml(s) +
       '<div class="sp-layout"><aside class="sp-aside">' + infoHtml(s) + summaryHtml(s) + '</aside>' +
-      '<div class="sp-main">' + menuHtml(s) + aboutHtml(s) + '</div></div></div>' + footerHtml() + '</div>' +
+      '<div class="sp-main">' + menuHtml(s) + aboutHtml(s) + '</div></div></div><div id="spFooter"></div></div>' +
       (s.menu.length ? '<button class="sp-cartbar" id="cartBar" type="button" hidden aria-haspopup="dialog"></button>' : '') +
       '<p class="sr-only" id="spLive" aria-live="polite"></p><div class="sp-sheet" id="spSheet" aria-hidden="true"></div>';
+    mountFooter();
     bind();
     renderQty(false);
     page.classList.add('open');
@@ -221,10 +233,6 @@
     page.querySelector('[data-store-close]').onclick = function () { window.PedeAiStore.onBack(); };
     page.querySelector('[data-share]').onclick = share;
     page.querySelectorAll('[data-home]').forEach(function (a) { a.onclick = function (e) { e.preventDefault(); window.PedeAiStore.onBack(); }; });
-    /* Termos e privacidade: reaproveita os documentos legais da home. */
-    page.querySelectorAll('[data-legal-open]').forEach(function (b) {
-      b.onclick = function () { var t = document.querySelector('.site-footer-v5 [data-legal="' + b.dataset.legalOpen + '"]') || document.querySelector('[data-legal="' + b.dataset.legalOpen + '"]'); if (t) t.click(); };
-    });
     var bar = $('cartBar');
     if (bar) bar.onclick = openCart;
 

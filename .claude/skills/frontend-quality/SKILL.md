@@ -51,3 +51,6 @@ A versão "cardápio impresso" foi reprovada. O padrão atual segue as plataform
 - **Categorias em pílulas** fixas, com a ativa preenchida. **Produtos em cartões** com sombra; duas colunas a partir de 760px.
 - **Desktop (≥1024px):** coluna lateral fixa com informações e o resumo "Seu pedido"; a barra inferior some.
 - **Listagem da home:** sem selo de WhatsApp nos cards; só o aviso "Em verificação".
+
+### Lição da v4 (revertida no PR #6)
+A versão 4 (PR #5) reestruturou o layout: capa enorme, linha de indicadores, faixa "Como funciona", cartões planos. O dono a reprovou como regressão, e ela foi revertida por completo. **O layout atual da página da loja (PR #4) está aprovado.** Pedidos de "melhorar o brand" significam refinar identidade **dentro desse layout**: tipografia, cor, degradê, marca e acabamento. Nunca mudar a estrutura, a ordem das seções ou o tamanho dos blocos sem pedido explícito. Faça mudanças pequenas, mostre e só então avance.

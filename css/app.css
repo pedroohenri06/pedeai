@@ -1,5 +1,4 @@
 /* PedeAi — ajustes da listagem de estabelecimentos (cards e selos). A página do estabelecimento fica em css/store.css. */
 a.restaurant{display:block;color:inherit}
 .restaurant-media .photo-tag{position:absolute;right:9px;bottom:9px;z-index:2;background:rgba(20,5,8,.62);color:#fff;border-radius:99px;padding:4px 8px;font-size:8px;font-weight:600;letter-spacing:.01em;backdrop-filter:blur(6px)}
-.badge-order{background:var(--green);color:#fff}
 .badge-pending{background:rgba(255,253,249,.92);color:var(--muted)}

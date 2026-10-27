@@ -1,0 +1,43 @@
+{
+  "_sobre": "Escolha revisada visualmente (27/10/2026). logo: 'oficial' = logotipo coletado no canal oficial do estabelecimento (commit b492135, ver logoSourceUrl); número = índice da foto em google-maps-fotos.jsonl. foto: índice da foto em google-maps-fotos.jsonl que vira a capa; ausente = mantém a capa atual. Regra: quem tem logotipo oficial usa o logotipo no card e no selo da página; a capa é sempre a foto real mais bonita e harmônica.",
+  "logos": {
+    "acai-super-top-vila-rica": "oficial",
+    "big-pizza-delivery-nx-nova-xavantina": "oficial",
+    "casa-da-pizza-de-querencia-querencia": "oficial",
+    "dantes-barra-do-garcas": "oficial",
+    "la-casa-de-acai-agua-boa": "oficial",
+    "palladar-restaurante-e-pizzaria-nova-xavantina": "oficial",
+    "restaurante-e-pizzaria-chopinho-canarana": "oficial",
+    "sorveteria-e-lanchonete-paloma-canarana": "oficial",
+    "suprema-pizza-nova-xavantina": "oficial",
+    "beliskos-lanchonete-e-restaurante-novo-sao-joaquim": 0,
+    "bocao-lanches-ab-agua-boa": 2,
+    "casa-massa-nova-xavantina": 2,
+    "creme-mania-sorvetes-novo-sao-joaquim": 2,
+    "dad-burger-barra-do-garcas": 1,
+    "okane-sushi-agua-boa": 2,
+    "pastelaria-do-grima-canarana": 2,
+    "pizzaria-imperial-delivery-querencia": 3,
+    "restaurante-solar-das-aguas-sao-felix-do-araguaia": 3
+  },
+  "fotos": {
+    "acai-mana-s-barra-do-garcas": 1,
+    "beef-point-sao-felix-do-araguaia": 2,
+    "buxadinha-lanches-canarana": 1,
+    "churrascaria-retiros-rocha-querencia": 1,
+    "churrascaria-silva-vila-rica": 2,
+    "f3-acai-e-sorvete-barra-do-garcas": 1,
+    "hatsuki-nova-xavantina-nova-xavantina": 2,
+    "lanchonete-e-restaurante-mega-querencia": 1,
+    "mistro-massas-marmitas-pizzaria-barra-do-garcas": 1,
+    "oishi-sushi-agua-boa-agua-boa": 2,
+    "palladar-restaurante-e-pizzaria-nova-xavantina": 1,
+    "sorveteria-e-lanchonete-paloma-canarana": 2,
+    "panificadora-sao-paulo-barra-do-garcas": 2,
+    "restaurante-ponto-certo-e-conveniencia-canarana": 1,
+    "rocha-restaurante-e-lanchonete-ribeirao-cascalheira": 2,
+    "saboritos-burguer-sorveteria-canarana": 2,
+    "sorveteria-d-acai-ribeirao-cascalheira": 1,
+    "suprema-pizza-nova-xavantina": 3
+  }
+}

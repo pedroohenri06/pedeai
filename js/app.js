@@ -24,7 +24,8 @@
 
   function readStorage(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 
-  function photoOf(s) { return s.image ? s.image.thumb || s.image.src : CATEGORY_PHOTOS[s.category]; }
+  /* Card: logotipo oficial quando existe; senão, a foto da loja; senão, a imagem da categoria. */
+  function photoOf(s) { var i = s.logo || s.image; return i ? i.thumb || i.src : CATEGORY_PHOTOS[s.category]; }
 
   /* ---------------- Listagem ---------------- */
   function storesInCity() { return C.filterStores(STORES, { city: state.city }); }
@@ -79,7 +80,7 @@
     count.textContent = list.length + ' ' + (list.length === 1 ? 'lugar' : 'lugares');
     grid.innerHTML = list.map(function (s) {
       var meta = [s.kind];
-      return '<a class="restaurant reveal visible" href="#/loja/' + s.id + '" data-id="' + s.id + '"><div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.image ? esc(s.image.alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div><div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta"><span>' + esc(s.category) + '</span>' + (s.menu.length ? '<i class="dot"></i><span class="delivery-free">Cardápio</span>' : '') + '</div></div></a>';
+      return '<a class="restaurant reveal visible" href="#/loja/' + s.id + '" data-id="' + s.id + '"><div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div><div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta"><span>' + esc(s.category) + '</span>' + (s.menu.length ? '<i class="dot"></i><span class="delivery-free">Cardápio</span>' : '') + '</div></div></a>';
     }).join('');
     empty.style.display = list.length ? 'none' : 'block';
     empty.querySelector('h3').textContent = inCity ? 'Nada por aqui ainda' : 'Chegando em ' + state.city;

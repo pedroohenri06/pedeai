@@ -32,11 +32,10 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.equal(await page.textContent('#resultTitle'), 'Em Barra do Garças');
     });
 
-    await t.test('categorias só da cidade, em círculos com contagem', async () => {
+    await t.test('categorias só da cidade, em círculos', async () => {
       const cats = await page.$$eval('.cat', els => els.map(e => e.dataset.cat));
       assert.equal(cats[0], 'Todos');
       assert.ok(!cats.includes('Saudável'), 'categoria sem lugares na cidade não aparece');
-      assert.equal(await page.textContent('.cat[data-cat="Todos"] .cat-count'), '2 lugares');
       assert.equal(await page.getAttribute('.cat[data-cat="Todos"]', 'aria-pressed'), 'true');
     });
 

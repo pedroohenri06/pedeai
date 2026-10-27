@@ -1,14 +1,77 @@
 {
-  "_sobre": "Imagens da faixa de categorias da home: prato real de um estabelecimento parceiro (foto publicada pelo próprio estabelecimento ou por cliente no Google Maps, uso autorizado pelo parceiro). 'foto' é o índice em google-maps-fotos.jsonl; cx/cy/zoom definem o recorte quadrado. Gerado por scripts/build-category-images.py.",
+  "_sobre": "Faixa de categorias da home: foto real de comida do Wikimedia Commons (licença livre para uso comercial), recortada do fundo (rembg, modelo isnet-general-use) e composta sobre um círculo no tom da categoria por scripts/build-category-images.py. O recorte fica em data/research/categorias-recortes/. Créditos exibidos no rodapé (Créditos das imagens).",
   "categorias": {
-    "Pizza":      { "id": "pizzaria-bendita-agua-boa", "foto": 0, "cx": 0.5, "cy": 0.5, "zoom": 0.98 },
-    "Brasileira": { "id": "lanchonete-e-restaurante-mega-querencia", "foto": 1, "cx": 0.5, "cy": 0.5, "zoom": 0.92 },
-    "Hambúrguer": { "id": "saboritos-burguer-sorveteria-canarana", "foto": 2, "cx": 0.5, "cy": 0.53, "zoom": 0.86 },
-    "Churrasco":  { "id": "tenda-restaurant-and-grill-agua-boa", "foto": 2, "cx": 0.5, "cy": 0.5, "zoom": 1.0 },
-    "Doces":      { "id": "panificadora-sao-paulo-barra-do-garcas", "foto": 3, "cx": 0.5, "cy": 0.5, "zoom": 0.96 },
-    "Café":       { "id": "panificadora-sao-paulo-barra-do-garcas", "foto": 2, "cx": 0.5, "cy": 0.5, "zoom": 1.0 },
-    "Açaí":       { "id": "acai-mana-s-barra-do-garcas", "foto": 1, "cx": 0.5, "cy": 0.5, "zoom": 1.0 },
-    "Sushi":      { "id": "lotus-sushi-barra-do-garcas", "foto": 1, "cx": 0.5, "cy": 0.5, "zoom": 0.86 },
-    "Pastel":     { "id": "pastelaria-porto-barra-do-garcas", "foto": 2, "cx": 0.5, "cy": 0.56, "zoom": 0.92 }
+    "Pizza": {
+      "arquivo": "pizza",
+      "cor": "#fcd9b8",
+      "titulo": "All Good pizza (38501728345).jpg",
+      "autor": "Dale Cruse from San Francisco, CA, USA",
+      "licenca": "CC BY 2.0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:All_Good_pizza_(38501728345).jpg"
+    },
+    "Hambúrguer": {
+      "arquivo": "hamburguer",
+      "cor": "#fbd3c3",
+      "titulo": "Cheeseburger.jpg",
+      "autor": "Renee Comet (photographer)",
+      "licenca": "Public domain",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Cheeseburger.jpg"
+    },
+    "Brasileira": {
+      "arquivo": "brasileira",
+      "cor": "#ecdcc6",
+      "titulo": "Feijoada à brasileira -02.jpg",
+      "autor": "Bradleyzm",
+      "licenca": "CC BY-SA 4.0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Feijoada_%C3%A0_brasileira_-02.jpg"
+    },
+    "Churrasco": {
+      "arquivo": "churrasco",
+      "cor": "#f1cdc3",
+      "titulo": "Steak served with sauce greens and garnishes on a dark plate.jpg",
+      "autor": "Shixart1985",
+      "licenca": "CC BY 2.0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Steak_served_with_sauce_greens_and_garnishes_on_a_dark_plate.jpg"
+    },
+    "Doces": {
+      "arquivo": "doces",
+      "cor": "#f6d3dc",
+      "titulo": "Slice of chocolate cloud cake at Tous les Jours.jpg",
+      "autor": "Ser Amantio di Nicolao",
+      "licenca": "CC0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Slice_of_chocolate_cloud_cake_at_Tous_les_Jours.jpg"
+    },
+    "Café": {
+      "arquivo": "cafe",
+      "cor": "#e8d6c3",
+      "titulo": "A cup of cappuccino.jpg",
+      "autor": "Vee Satayamas",
+      "licenca": "CC BY 4.0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:A_cup_of_cappuccino.jpg"
+    },
+    "Açaí": {
+      "arquivo": "acai",
+      "cor": "#e2d0ec",
+      "titulo": "Açaí na tigela - Acai bowl.jpg",
+      "autor": "Joe Crawford from San Diego, California, USA",
+      "licenca": "CC BY 2.0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:A%C3%A7a%C3%AD_na_tigela_-_Acai_bowl.jpg"
+    },
+    "Sushi": {
+      "arquivo": "sushi",
+      "cor": "#fdd6c9",
+      "titulo": "Sushi platter.jpg",
+      "autor": "chidorian from Japan",
+      "licenca": "CC BY-SA 2.0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg"
+    },
+    "Pastel": {
+      "arquivo": "pastel",
+      "cor": "#fbe6b4",
+      "titulo": "Pastel isi sayur daging.JPG",
+      "autor": "Midori",
+      "licenca": "CC BY 3.0",
+      "fonte": "https://commons.wikimedia.org/wiki/File:Pastel_isi_sayur_daging.JPG"
+    }
   }
 }

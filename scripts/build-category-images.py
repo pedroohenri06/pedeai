@@ -1,63 +1,71 @@
 #!/usr/bin/env python3
-"""Gera as imagens da faixa de categorias da home a partir de pratos reais dos parceiros.
+"""Gera as imagens da faixa de categorias da home.
 
 Uso: python3 scripts/build-category-images.py
-Lê data/research/categorias-imagens.json, baixa cada foto escolhida de
-data/research/google-maps-fotos.jsonl em 2048 px, recorta em quadrado e harmoniza
-(brilho, contraste e saturação na mesma faixa para as fotos parecerem uma família).
-Saída: assets/categories/<slug>.webp em 240x240 (nítido no círculo de 68 a 92 px).
+Para cada categoria em data/research/categorias-imagens.json, pega o recorte da comida
+(data/research/categorias-recortes/<arquivo>.webp, fundo transparente), centraliza sobre um
+círculo no tom da categoria com luz suave no alto e sombra projetada, e salva
+assets/categories/<arquivo>.webp em 240x240 (nítido no círculo de 68 a 92 px).
+Recortes novos: foto de licença livre (Wikimedia Commons), fundo removido com
+`rembg` (modelo isnet-general-use); registre autor, licença e fonte no JSON para os créditos.
 """
-import io
 import json
-import re
-import subprocess
-import unicodedata
 from pathlib import Path
 
-from PIL import Image, ImageEnhance, ImageOps, ImageStat
+import numpy as np
+from PIL import Image, ImageDraw, ImageEnhance, ImageFilter
+from scipy import ndimage
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG = ROOT / "data" / "research" / "categorias-imagens.json"
-MAPS = ROOT / "data" / "research" / "google-maps-fotos.jsonl"
+CUTS = ROOT / "data" / "research" / "categorias-recortes"
 OUT = ROOT / "assets" / "categories"
-SIDE = 240
-TARGET_LUMA = 128  # brilho médio alvo (0–255)
+WORK, SIDE, FILL = 720, 240, 0.80
 
 
-def slug(value):
-    value = unicodedata.normalize("NFD", value).encode("ascii", "ignore").decode().lower()
-    return re.sub(r"[^a-z0-9]+", "-", value).strip("-")
+def rgb(hex_color):
+    return tuple(int(hex_color[i:i + 2], 16) for i in (1, 3, 5))
 
 
-def fetch(url):
-    url = re.sub(r"=[^/=]*$", "", url) + "=s2048"
-    data = subprocess.run(["curl", "-sfL", "-m", "40", url], capture_output=True, check=True).stdout
-    return ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert("RGB")
+def clean(food):
+    """Mantém só o objeto principal do recorte (descarta respingos soltos) e corta rente a ele."""
+    alpha = np.array(food.split()[3])
+    labels, n = ndimage.label(alpha > 96)
+    if n > 1:
+        sizes = ndimage.sum(np.ones_like(alpha), labels, range(1, n + 1))
+        keep = np.isin(labels, [i + 1 for i, v in enumerate(sizes) if v >= sizes.max() * 0.08])
+        keep = ndimage.binary_dilation(keep, iterations=3)
+        food.putalpha(Image.fromarray((alpha * keep).astype("uint8")))
+    box = Image.fromarray(((np.array(food.split()[3]) > 96) * 255).astype("uint8")).getbbox()
+    return food.crop(box)
 
 
-def harmonize(img):
-    luma = ImageStat.Stat(img.convert("L")).mean[0]
-    img = ImageEnhance.Brightness(img).enhance(max(0.85, min(1.25, (TARGET_LUMA / luma) ** 0.6)))
-    img = ImageEnhance.Contrast(img).enhance(1.06)
-    return ImageEnhance.Color(img).enhance(1.12)
+def compose(food, tint):
+    food = clean(food)
+    food = ImageEnhance.Contrast(ImageEnhance.Color(food).enhance(1.08)).enhance(1.04)
+    canvas = Image.new("RGBA", (WORK, WORK), rgb(tint) + (255,))
+    light = Image.new("RGBA", (WORK, WORK), (0, 0, 0, 0))
+    ImageDraw.Draw(light).ellipse((-WORK * .1, -WORK * .2, WORK * .75, WORK * .6), fill=(255, 255, 255, 120))
+    canvas.alpha_composite(light.filter(ImageFilter.GaussianBlur(WORK * .12)))
+    scale = WORK * FILL / max(food.size)
+    food = food.resize((round(food.width * scale), round(food.height * scale)), Image.LANCZOS)
+    x, y = (WORK - food.width) // 2, (WORK - food.height) // 2 + int(WORK * .02)
+    shadow = Image.new("RGBA", food.size, (70, 20, 25, 255))
+    shadow.putalpha(food.split()[3].point(lambda v: int(v * .45)))
+    layer = Image.new("RGBA", (WORK, WORK), (0, 0, 0, 0))
+    layer.paste(shadow, (x, y + int(WORK * .035)), shadow)
+    canvas.alpha_composite(layer.filter(ImageFilter.GaussianBlur(WORK * .03)))
+    canvas.alpha_composite(food, (x, y))
+    return canvas.convert("RGB").resize((SIDE, SIDE), Image.LANCZOS)
 
 
 def main():
     cfg = json.loads(CONFIG.read_text(encoding="utf-8"))["categorias"]
-    maps = {}
-    for line in MAPS.read_text(encoding="utf-8").splitlines():
-        if line.strip().startswith("{"):
-            r = json.loads(line)
-            maps[r["id"]] = r
     for name, c in cfg.items():
-        img = fetch(maps[c["id"]]["fotos"][c["foto"]]["url"])
-        s = int(min(img.size) * c["zoom"])
-        x = max(0, min(int(img.width * c["cx"] - s / 2), img.width - s))
-        y = max(0, min(int(img.height * c["cy"] - s / 2), img.height - s))
-        tile = harmonize(img.crop((x, y, x + s, y + s)).resize((SIDE, SIDE), Image.LANCZOS))
-        dest = OUT / f"{slug(name)}.webp"
-        tile.save(dest, "WEBP", quality=84, method=6)
-        print(f"{name:11} {c['id']} -> {dest.relative_to(ROOT)} ({dest.stat().st_size // 1024} KB)")
+        img = compose(Image.open(CUTS / f"{c['arquivo']}.webp").convert("RGBA"), c["cor"])
+        dest = OUT / f"{c['arquivo']}.webp"
+        img.save(dest, "WEBP", quality=86, method=6)
+        print(f"{name:11} -> {dest.relative_to(ROOT)} ({dest.stat().st_size // 1024} KB)")
 
 
 if __name__ == "__main__":

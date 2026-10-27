@@ -64,7 +64,7 @@ A página da loja herda os sinais da home, sem mudar o layout do PR #4:
 - O foco inicial vai para o próprio diálogo (`tabindex=-1`), sem anel vermelho no botão voltar ao abrir.
 
 ### Home: faixa de categorias v2 (aprovada a partir do estudo de mercado de 16 plataformas)
-- Atalhos **redondos** (68 px celular, 92 px desktop) com nome e contagem ("36 lugares") embaixo; "Todos" usa o símbolo PedeAi no degradê da marca; ativo = anel vermelho com folga creme + nome em vinho.
-- Imagem = **prato real de parceiro** (nada de IA nem emoji), gerada por `scripts/build-category-images.py` a partir de `data/research/categorias-imagens.json` (240 px, harmonizada).
+- Atalhos **redondos** (68 px celular, 92 px desktop) só com o nome embaixo (a contagem de lugares foi reprovada); "Todos" usa o símbolo PedeAi no degradê da marca; ativo = anel vermelho com folga creme + nome em vinho.
+- Imagem = **comida recortada sobre círculo no tom da categoria** (padrão Swiggy/Zomato/Glovo). Fotos de parceiros e fotos de IA foram reprovadas como "feias". Fonte: fotos com licença livre do Wikimedia Commons, fundo removido com rembg; `scripts/build-category-images.py` compõe a partir de `data/research/categorias-recortes/` e `data/research/categorias-imagens.json`. Créditos obrigatórios no rodapé ("Créditos das imagens").
 - Só categorias com lugares na cidade, ordenadas por quantidade; sem barra de progresso. Título "Escolha por categoria / O que bateu vontade?" é o aprovado e não muda.
 - O CSS legado de `.cat` (opacity 0, filtros, animações) ainda existe no `index.html`: o bloco "Categorias v2" reseta tudo com escopo `.categories`.

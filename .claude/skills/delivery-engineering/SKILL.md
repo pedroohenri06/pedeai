@@ -8,7 +8,8 @@ description: Arquitetura e regras de negócio do PedeAi Delivery (site estático
 ## Arquitetura (site estático, sem build)
 - `index.html`: layout, CSS principal inline, faixa de categorias, seletor de cidades (script inline) e textos legais. O design visual foi aprovado peça a peça pelo dono do projeto: **não altere artes, banners, mapa ou modal de cidades sem pedido explícito**.
 - `css/app.css`: só os ajustes dos cards da listagem e dos selos.
-- `css/store.css` e `js/store.js`: **toda** a experiência após o clique num estabelecimento (rota `#/loja/<id>`): apresentação, cardápio, painel do produto com opções, sacola e envio. Classes com prefixo `sp-`. Expõe só `window.PedeAiStore` (`open`, `close`, `isOpen`, `handleEscape`, `onBack`). Alterações nessa página não devem tocar `index.html` nem `app.js` além dessa interface. Reutilize os tokens de `:root` (`--red`, `--wine`, `--cream`, `--paper`, `--ink`, `--muted`, `--line`, `--green`).
+- `js/store-view.js`: templates **puros** da página do estabelecimento (dados → HTML escapado, JSON-LD), testados em `tests/store-view.test.js`. Mudança visual de estrutura começa aqui.
+- `css/store.css` e `js/store.js` (controlador: estado, eventos, foco): **toda** a experiência após o clique num estabelecimento (rota `#/loja/<id>`): apresentação, cardápio, painel do produto com opções, sacola e envio. Classes com prefixo `sp-`. Expõe só `window.PedeAiStore` (`open`, `close`, `isOpen`, `handleEscape`, `onBack`). Alterações nessa página não devem tocar `index.html` nem `app.js` além dessa interface. Reutilize os tokens de `:root` (`--red`, `--wine`, `--cream`, `--paper`, `--ink`, `--muted`, `--line`, `--green`).
 - `js/core.js`: lógica pura (UMD, roda no navegador e no Node): normalização, filtros, centavos, carrinho, mensagem e URL do WhatsApp, rotas. **Toda regra de negócio nova entra aqui, com teste em `tests/core.test.js`.**
 - `js/app.js`: home, listagem, filtros e rotas. Escuta o evento `pedeai:city`, disparado pelo seletor de cidades em `index.html`.
 - `data/establishments.json`: **fonte da verdade** do cadastro. `data/establishments.js` e `data/STATUS.md` são gerados por `node scripts/build-data.js`; nunca edite os gerados à mão.
@@ -34,3 +35,6 @@ description: Arquitetura e regras de negócio do PedeAi Delivery (site estático
 3. `node scripts/build-data.js` se o cadastro mudou.
 4. `npm test` (unitários, dados e E2E com Playwright) precisa passar.
 5. Teste visualmente em 390px e 1280px (`npm run serve`).
+
+## Página do estabelecimento
+Antes de mexer, leia `docs/design/pagina-do-estabelecimento.md`: referências estudadas, regras das skills e o motivo de cada decisão. A diretriz do dono é só evolução, sem regressão.

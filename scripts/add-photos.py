@@ -27,6 +27,7 @@ OUT = ROOT / "assets" / "stores"
 SIZE = (960, 640)
 LARGE = (1600, 1067)
 THUMB = (480, 320)
+MEDIUM = (960, 640)
 LICENSE = "Uso autorizado pelo estabelecimento parceiro"
 
 
@@ -96,9 +97,13 @@ def main():
         img.save(dest, "WEBP", quality=82, method=6)
         thumb = OUT / f"{store['id']}-card.webp"
         img.resize(THUMB, Image.LANCZOS).save(thumb, "WEBP", quality=78, method=6)
+        medium = OUT / f"{store['id']}-md.webp"
+        if img.width > MEDIUM[0]:
+            img.resize(MEDIUM, Image.LANCZOS).save(medium, "WEBP", quality=80, method=6)
         store["image"] = {
             "src": f"assets/stores/{store['id']}.webp",
             "thumb": f"assets/stores/{store['id']}-card.webp",
+            **({"medium": f"assets/stores/{store['id']}-md.webp"} if img.width > MEDIUM[0] else {}),
             "width": img.width,
             "height": img.height,
             "alt": f"{store['kind']} — {store['name']}",

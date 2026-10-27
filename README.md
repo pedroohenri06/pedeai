@@ -7,7 +7,9 @@ Site estático publicado na Vercel. Mostra restaurantes das 10 cidades do Vale d
 |---|---|
 | `index.html` | Layout aprovado, faixa de categorias, seletor de cidades e textos legais |
 | `css/app.css` | Ajustes dos cards da listagem e selos |
-| `css/store.css`, `js/store.js` | Página do estabelecimento: apresentação, cardápio, opções, sacola e envio |
+| `js/store-view.js` | Templates puros da página do estabelecimento (testados no Node) |
+| `css/store.css`, `js/store.js` | Página do estabelecimento: estilos e controlador (cardápio, opções, sacola e envio) |
+| `docs/design/` | Estudo de referências e decisões de design |
 | `js/core.js` | Regras de negócio puras: filtros, centavos, carrinho, mensagem do WhatsApp e rotas |
 | `js/app.js` | Home, listagem, filtros e rotas |
 | `data/establishments.json` | **Cadastro (fonte da verdade)** |

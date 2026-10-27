@@ -65,7 +65,7 @@
     var body = '<ul class="sp-facts">' + facts + '</ul>' + actionsHtml(s) +
       (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação. Os dados vêm de fontes públicas e ainda não foram confirmados pelo estabelecimento.</span></p>' : '');
     if (s.image) {
-      return '<figure class="sp-hero' + (s.image.kind === 'logo' ? ' sp-hero--logo' : '') + '"><img src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="' + (s.image.width || 960) + '" height="' + (s.image.height || 640) + '" fetchpriority="high" decoding="async"></figure>' +
+      return '<figure class="sp-hero' + (s.image.kind === 'logo' ? ' sp-hero--logo' : '') + '"><img src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="' + (s.image.width || 960) + '" height="' + (s.image.height || 640) + '" fetchpriority="high" decoding="async" onerror="this.parentNode.hidden=true"></figure>' +
         '<div class="sp-head"><div class="sp-wrap">' + title + body + '</div></div>';
     }
     return '<div class="sp-sign sp-hero--empty"><div class="sp-wrap">' + title + '</div></div><div class="sp-head sp-head--flat"><div class="sp-wrap">' + body + '</div></div>';

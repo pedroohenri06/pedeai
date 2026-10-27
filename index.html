@@ -173,15 +173,13 @@ body.city-modal-open{overflow:hidden;touch-action:none}.city-backdrop{z-index:94
 .categories .cat.active{background:none;color:var(--category-ink);border:0;box-shadow:none;transform:none}
 .cat-disc{position:relative;display:block;width:var(--disc);height:var(--disc);padding:3px;border-radius:50%;background:linear-gradient(155deg,#fff 0%,#f6ece8 55%,#ead9d3 100%);box-shadow:0 1px 1px rgba(51,8,14,.06),0 10px 18px -12px rgba(51,8,14,.55),inset 0 1px 0 rgba(255,255,255,.9);transition:transform .28s cubic-bezier(.2,.8,.2,1),box-shadow .28s}
 .cat-disc img{display:block;width:100%;height:100%;border-radius:50%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
-.cat-disc::after{content:"";position:absolute;inset:3px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(34,23,25,.06),inset 0 -10px 18px -12px rgba(34,23,25,.35);pointer-events:none}
+.cat-disc::after{content:"";position:absolute;inset:3px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(34,23,25,.05);pointer-events:none}
 .cat-disc--brand{display:grid;place-items:center;background:radial-gradient(120% 120% at 25% 15%,#f6505c 0%,#e51b2b 38%,#a3111d 78%,#6e0b15 100%);box-shadow:0 1px 1px rgba(51,8,14,.08),0 12px 20px -12px rgba(229,27,43,.75),inset 0 1px 0 rgba(255,255,255,.28)}
 .cat-disc--brand img{width:54%;height:54%;border-radius:0;object-fit:contain;filter:drop-shadow(0 2px 3px rgba(60,4,10,.35))}
 .cat-disc--brand::after{inset:0;box-shadow:inset 0 0 0 1px rgba(255,255,255,.14)}
 .categories .cat .cat-caption{display:block;max-width:calc(var(--disc) + 14px);margin-top:9px;font-size:12px;font-weight:600;line-height:1.2;letter-spacing:-.01em;white-space:nowrap;color:inherit;transition:color .2s}
-.categories .cat .cat-count{display:block;margin-top:2px;font-family:'DM Sans',sans-serif;font-size:10px;font-weight:500;line-height:1.2;color:#8a7c7e;font-variant-numeric:tabular-nums;white-space:nowrap}
 .categories .cat.active .cat-disc{box-shadow:0 0 0 2px var(--cream,#f8f5ef),0 0 0 4px var(--category-red),0 12px 22px -12px rgba(229,27,43,.8)}
 .categories .cat.active .cat-caption{color:var(--category-wine);font-weight:700}
-.categories .cat.active .cat-count{color:#a2525c}
 .categories .cat:active .cat-disc{transform:scale(.95)}
 .categories .cat:focus-visible{outline:0}
 .categories .cat:focus-visible .cat-disc{box-shadow:0 0 0 2px var(--cream,#f8f5ef),0 0 0 4px #ef5360}
@@ -197,8 +195,7 @@ body.city-modal-open{overflow:hidden;touch-action:none}.city-backdrop{z-index:94
   .categories .category-scroll{gap:24px;margin:0;padding:8px 2px 6px;scroll-padding-inline:2px}
   .categories .cat{--disc:92px}
   .categories .cat .cat-caption{margin-top:12px;font-size:13.5px}
-  .categories .cat .cat-count{font-size:11px}
-}
+  }
 @media(prefers-reduced-motion:reduce){.categories .cat,.cat-disc,.cat-disc img{animation:none;transition:none}.categories .cat:hover .cat-disc,.categories .cat:hover .cat-disc img{transform:none}}
 
 /* Approved commercial contact card: official identity and food at the edges. */
@@ -288,7 +285,7 @@ body.city-modal-open{overflow:hidden;touch-action:none}.city-backdrop{z-index:94
       <div><h3>Descobrir</h3><a href="#restaurantes">Restaurantes</a><a href="#categories">Categorias</a><a href="#">Início</a></div>
       <div><h3>Para negócios</h3><a class="footer-external" href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Quero%20cadastrar%20meu%20restaurante%20no%20PedeAi%20Delivery." target="_blank" rel="noopener">Seja parceiro</a><a class="footer-external" href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Quero%20falar%20com%20a%20equipe%20do%20PedeAi%20Delivery." target="_blank" rel="noopener">Falar com a equipe</a></div>
       <div><h3>Atendimento</h3><a class="footer-external" href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Quero%20atendimento%20do%20PedeAi%20no%20Vale%20do%20Araguaia." target="_blank" rel="noopener">Vale do Araguaia</a><a class="footer-external" href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Quero%20saber%20quais%20cidades%20s%C3%A3o%20atendidas%20pelo%20PedeAi." target="_blank" rel="noopener">Cidades atendidas</a><a class="footer-external" href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Preciso%20de%20suporte%20no%20PedeAi%20Delivery." target="_blank" rel="noopener">Suporte e atendimento</a></div>
-      <div><h3>Institucional</h3><button type="button" data-legal="terms" aria-haspopup="dialog">Termos de uso</button><button type="button" data-legal="privacy" aria-haspopup="dialog">Privacidade</button><a class="footer-external" href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Quero%20falar%20com%20o%20PedeAi%20Delivery." target="_blank" rel="noopener">Contato institucional</a></div>
+      <div><h3>Institucional</h3><button type="button" data-legal="terms" aria-haspopup="dialog">Termos de uso</button><button type="button" data-legal="privacy" aria-haspopup="dialog">Privacidade</button><button type="button" data-legal="credits" aria-haspopup="dialog">Créditos das imagens</button><a class="footer-external" href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Quero%20falar%20com%20o%20PedeAi%20Delivery." target="_blank" rel="noopener">Contato institucional</a></div>
     </nav>
     <div class="footer-v5-bottom"><p>© 2026 PedeAi Delivery. Todos os direitos reservados.</p><a href="#" aria-label="Voltar ao início">Voltar ao topo <svg viewBox="0 0 24 24"><path d="m6 15 6-6 6 6"/></svg></a></div>
     <div class="footer-v5-wordmark" aria-hidden="true">PEDE<span>AI</span></div>
@@ -328,6 +325,11 @@ body.city-modal-open{overflow:hidden;touch-action:none}.city-backdrop{z-index:94
     <section><h3>8. Contato</h3><p>Para exercer seus direitos ou tirar dúvidas sobre privacidade, fale com o PedeAi pelo canal oficial informado nesta página.</p></section>
   </div>
   <div class="legal-support"><span>Quer falar sobre privacidade ou seus dados?</span><a href="https://wa.me/5512936290045?text=Ol%C3%A1%21%20Tenho%20uma%20d%C3%BAvida%20sobre%20privacidade%20e%20dados%20no%20PedeAi." target="_blank" rel="noopener">Falar com a equipe</a></div>
+</template>
+<template id="creditsTemplate">
+  <div class="legal-content">
+    <section><h3>Categorias da página inicial</h3><p>As imagens das categorias são fotos com licença livre do Wikimedia Commons. Recortamos o fundo e compusemos cada prato sobre um círculo nas cores do PedeAi. As fotos dos estabelecimentos são dos próprios parceiros.</p><ul><li><b>Pizza</b>: “All Good pizza (38501728345)”, de Dale Cruse from San Francisco, CA, USA. Licença CC BY 2.0. <a href="https://commons.wikimedia.org/wiki/File:All_Good_pizza_(38501728345).jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Hambúrguer</b>: “Cheeseburger”, de Renee Comet (photographer). Licença Public domain. <a href="https://commons.wikimedia.org/wiki/File:Cheeseburger.jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Brasileira</b>: “Feijoada à brasileira -02”, de Bradleyzm. Licença CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Feijoada_%C3%A0_brasileira_-02.jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Churrasco</b>: “Steak served with sauce greens and garnishes on a dark plate”, de Shixart1985. Licença CC BY 2.0. <a href="https://commons.wikimedia.org/wiki/File:Steak_served_with_sauce_greens_and_garnishes_on_a_dark_plate.jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Doces</b>: “Slice of chocolate cloud cake at Tous les Jours”, de Ser Amantio di Nicolao. Licença CC0. <a href="https://commons.wikimedia.org/wiki/File:Slice_of_chocolate_cloud_cake_at_Tous_les_Jours.jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Café</b>: “A cup of cappuccino”, de Vee Satayamas. Licença CC BY 4.0. <a href="https://commons.wikimedia.org/wiki/File:A_cup_of_cappuccino.jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Açaí</b>: “Açaí na tigela - Acai bowl”, de Joe Crawford from San Diego, California, USA. Licença CC BY 2.0. <a href="https://commons.wikimedia.org/wiki/File:A%C3%A7a%C3%AD_na_tigela_-_Acai_bowl.jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Sushi</b>: “Sushi platter”, de chidorian from Japan. Licença CC BY-SA 2.0. <a href="https://commons.wikimedia.org/wiki/File:Sushi_platter.jpg" target="_blank" rel="noopener">Ver original</a>.</li><li><b>Pastel</b>: “Pastel isi sayur daging”, de Midori. Licença CC BY 3.0. <a href="https://commons.wikimedia.org/wiki/File:Pastel_isi_sayur_daging.JPG" target="_blank" rel="noopener">Ver original</a>.</li></ul></section>
+  </div>
 </template>
 <nav class="bottom-nav" aria-label="Navegação principal"><button class="nav-item active" data-nav="home"><svg class="icon" viewBox="0 0 24 24"><path d="m3 11 9-8 9 8v9H3v-9Z"/><path d="M9 20v-6h6v6"/></svg>Início</button><button class="nav-item" data-nav="search"><svg class="icon" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>Buscar</button><button class="nav-item" data-nav="categories"><svg class="icon" viewBox="0 0 24 24"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg>Categorias</button><button class="nav-item" data-nav="partner"><svg class="icon" viewBox="0 0 24 24"><path d="M4 10h16l-1-6H5l-1 6Z"/><path d="M5 10v10h14V10M9 20v-6h6v6"/></svg>Parceiros</button></nav>
 <div class="store-page" id="storePage" role="dialog" aria-modal="true" aria-labelledby="storeName" aria-hidden="true"></div>
@@ -377,7 +379,7 @@ let savedCity=null;try{savedCity=localStorage.getItem('pedeai-city')}catch(e){}i
 </script>
 <script>
 const legalDialog=document.getElementById('legalDialog'),legalPanel=legalDialog.querySelector('.legal-panel'),legalTitle=document.getElementById('legalTitle'),legalContent=document.getElementById('legalContent');
-const legalDocuments={terms:{title:'Termos de uso',template:'termsTemplate'},privacy:{title:'Política de privacidade',template:'privacyTemplate'}};let legalTrigger=null;
+const legalDocuments={terms:{title:'Termos de uso',template:'termsTemplate'},privacy:{title:'Política de privacidade',template:'privacyTemplate'},credits:{title:'Créditos das imagens',template:'creditsTemplate'}};let legalTrigger=null;
 function openLegal(type,trigger){const documentData=legalDocuments[type];if(!documentData)return;legalTrigger=trigger;legalTitle.textContent=documentData.title;legalContent.replaceChildren(document.getElementById(documentData.template).content.cloneNode(true));legalContent.scrollTop=0;legalDialog.classList.add('open');legalDialog.setAttribute('aria-hidden','false');document.body.classList.add('legal-open');requestAnimationFrame(()=>legalDialog.querySelector('.legal-close').focus({preventScroll:true}))}
 function closeLegal(){if(!legalDialog.classList.contains('open'))return;legalDialog.classList.remove('open');legalDialog.setAttribute('aria-hidden','true');document.body.classList.remove('legal-open');if(legalTrigger)legalTrigger.focus({preventScroll:true})}
 document.querySelectorAll('[data-legal]').forEach(button=>button.addEventListener('click',()=>openLegal(button.dataset.legal,button)));

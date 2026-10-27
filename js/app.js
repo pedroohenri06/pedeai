@@ -38,8 +38,6 @@
   };
   var BRAND_MARK = 'assets/media-eec8624c4b7f.png';
 
-  function placesLabel(n) { return n + (n === 1 ? ' lugar' : ' lugares'); }
-
   function categoriesInCity() {
     var stores = storesInCity(), counts = {};
     stores.forEach(function (s) { counts[s.category] = (counts[s.category] || 0) + 1; });
@@ -58,9 +56,9 @@
         var img = all
           ? '<img src="' + BRAND_MARK + '" alt="" width="64" height="64" decoding="async">'
           : '<img src="assets/categories/' + CATEGORY_ICONS[c.name] + '.webp" alt="" width="240" height="240" loading="' + (i < 6 ? 'eager' : 'lazy') + '" decoding="async">';
-        return '<button class="cat' + (all ? ' cat--all' : '') + '" data-cat="' + esc(c.name) + '" type="button" aria-pressed="false" aria-label="' + esc(c.name + ', ' + placesLabel(c.count)) + '">' +
+        return '<button class="cat' + (all ? ' cat--all' : '') + '" data-cat="' + esc(c.name) + '" type="button" aria-pressed="false">' +
           '<span class="cat-disc' + (all ? ' cat-disc--brand' : '') + '">' + img + '</span>' +
-          '<span class="cat-caption">' + esc(c.name) + '</span><span class="cat-count" aria-hidden="true">' + placesLabel(c.count) + '</span></button>';
+          '<span class="cat-caption">' + esc(c.name) + '</span></button>';
       }).join('');
       catBox.querySelectorAll('.cat').forEach(function (b) {
         b.onclick = function () { state.category = b.dataset.cat; renderCats(); renderCampaign(); render(); b.scrollIntoView({ behavior: reduceMotion, inline: 'nearest', block: 'nearest' }); };

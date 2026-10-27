@@ -34,3 +34,11 @@ description: Padrões visuais, de acessibilidade e de responsividade do PedeAi D
 npm run serve   # http://localhost:4173
 ```
 Capture telas com Playwright (`chromium.launch()` já funciona no ambiente em nuvem) em 390×844 e 1280×800, nas páginas inicial, da loja e do carrinho.
+
+## Página do estabelecimento: direção de arte
+Referências: skill oficial `frontend-design` (github.com/anthropics/skills) e base de UX `ui-ux-pro-max-skill` (MIT), aplicadas dentro da identidade aprovada.
+- **Elemento memorável: o cardápio impresso.** Nas lojas sem fotos de produto, cada item é "nome ........ preço" com pontilhado (`.sp-leader`); títulos de seção e o nome da loja em Instrument Serif. Não acrescente outro elemento chamativo: o resto fica contido.
+- **Topo:** foto em largura total com o cartão subindo sobre ela (`.sp-head`, raio só no topo). Sem foto, o nome é o letreiro sobre `--wine` (`.sp-sign`). Nunca uma foto de categoria apresentada como do lugar.
+- **Pedido como comanda:** papel `--paper`, borda serrilhada, linhas e totais com pontilhado.
+- **Texto:** frase natural ("Pizzaria e lanchonete em Barra do Garças"). Evite rótulos em CAIXA ALTA acima de títulos, metadados unidos por "·" e "→" em botões. A mesma ação mantém o mesmo nome no fluxo inteiro ("Ver pedido", "Seu pedido", "Enviar pedido no WhatsApp").
+- **Movimento:** um único momento de entrada (a foto assenta e o cartão sobe), mais as respostas a toques. Nada de animação de entrada em cada seção.

@@ -26,10 +26,6 @@
 
   function hostOf(url) { try { return new URL(url).hostname.replace(/^www\./, ''); } catch (e) { return url; } }
   function formatDate(iso) { var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); return m ? m[3] + '/' + m[2] + '/' + m[1] : iso; }
-  function initials(name) {
-    var words = String(name).replace(/[^\p{L}\p{N} ]/gu, ' ').split(/\s+/).filter(function (w) { return w.length > 2 || /^\p{Lu}/u.test(w); });
-    return (words.slice(0, 2).map(function (w) { return w[0]; }).join('') || String(name)[0] || '').toUpperCase();
-  }
   function findItem(id) { return state.store.menu.find(function (m) { return m.id === id; }); }
   function hasRequired(item) { return (item.options || []).some(function (g) { return (g.min || 0) > 0; }); }
   function hasPricedOptions(item) { return (item.options || []).some(function (g) { return g.choices.some(function (c) { return c.priceCents > 0; }); }); }
@@ -44,34 +40,35 @@
   function saveCart() { if (state.store) writeStorage(cartKey(state.store.id), state.cart.lines.length ? JSON.stringify(state.cart) : null); }
 
   /* ---------------- Apresentação ---------------- */
-  function heroHtml(s) {
-    if (s.image) {
-      return '<figure class="sp-hero"><img src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="960" height="640" fetchpriority="high" decoding="async"><figcaption class="sp-credit">Foto: ' + esc(s.image.credit) + '</figcaption></figure>';
-    }
-    /* Sem fotografia: identidade tipográfica em vez de uma imagem que não pertence ao estabelecimento. */
-    return '<div class="sp-hero sp-hero--empty" aria-hidden="true"><span class="sp-monogram">' + esc(initials(s.name)) + '</span><span class="sp-hero-note">' + esc(s.category) + ' · ' + esc(s.city) + '</span></div>';
+  /* Frase de apresentação em linguagem natural: "Pizzaria e lanchonete em Barra do Garças". */
+  function lede(s) {
+    var kind = String(s.kind || s.category).replace(/\s*\(.*?\)\s*$/, '');
+    return kind.charAt(0).toUpperCase() + kind.slice(1) + ' em ' + s.city;
   }
 
   function actionsHtml(s) {
     var a = [];
     if (s.whatsapp) a.push('<a class="sp-action sp-action--wa" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery.')) + '" target="_blank" rel="noopener">' + icon(I.chat) + '<span>WhatsApp</span></a>');
-    if (s.phone) a.push('<a class="sp-action" href="tel:+' + esc(s.phone) + '" aria-label="Ligar para ' + esc(C.formatPhone(s.phone)) + '">' + icon(I.phone) + '<span>' + esc(C.formatPhone(s.phone)) + '</span></a>');
+    if (s.phone) a.push('<a class="sp-action" href="tel:+' + esc(s.phone) + '" aria-label="Ligar para ' + esc(C.formatPhone(s.phone)) + '">' + icon(I.phone) + '<span>Ligar</span></a>');
     if (s.orderUrl) a.push('<a class="sp-action" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + '<span>Cardápio online</span></a>');
-    if (s.instagram) a.push('<a class="sp-action" href="https://www.instagram.com/' + encodeURIComponent(s.instagram) + '/" target="_blank" rel="noopener">' + icon(I.link) + '<span>@' + esc(s.instagram) + '</span></a>');
-    if (s.website) a.push('<a class="sp-action" href="' + esc(s.website) + '" target="_blank" rel="noopener">' + icon(I.link) + '<span>' + esc(hostOf(s.website)) + '</span></a>');
+    if (s.instagram) a.push('<a class="sp-action" href="https://www.instagram.com/' + encodeURIComponent(s.instagram) + '/" target="_blank" rel="noopener">' + icon(I.link) + '<span>Instagram</span></a>');
+    if (s.website) a.push('<a class="sp-action" href="' + esc(s.website) + '" target="_blank" rel="noopener">' + icon(I.link) + '<span>Site</span></a>');
     return a.length ? '<div class="sp-actions">' + a.join('') + '</div>' : '';
   }
 
-  function identityHtml(s) {
-    var facts = '<li>' + icon(I.pin) + '<span>' + (s.address ? esc(s.address) + ' · ' + esc(s.city) + ', MT' : esc(s.city) + ', MT · endereço a confirmar') + '</span></li>' +
+  /* Com foto: a imagem ocupa a largura e o cartão de informações sobe sobre ela.
+     Sem foto: o próprio nome vira o letreiro, sobre o vinho da marca (nunca uma foto que não é do lugar). */
+  function headHtml(s) {
+    var facts = '<li>' + icon(I.pin) + '<span>' + (s.address ? esc(s.address) + ', ' + esc(s.city) : esc(s.city) + ', MT. Endereço a confirmar.') + '</span></li>' +
       (s.hours ? '<li>' + icon(I.clock) + '<span>' + esc(s.hours) + '</span></li>' : '');
-    return '<div class="sp-identity">' +
-      '<p class="sp-eyebrow">' + esc(s.category) + '<span aria-hidden="true">·</span>' + esc(s.city) + (s.confidence === 'baixa' ? '<span class="sp-pill">Em verificação</span>' : '') + '</p>' +
-      '<h1 id="storeName" class="sp-name">' + esc(s.name) + '</h1>' +
-      (s.kind && s.kind !== s.category ? '<p class="sp-kind">' + esc(s.kind) + '</p>' : '') +
-      '<ul class="sp-facts">' + facts + '</ul>' + actionsHtml(s) +
-      (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação: dados obtidos em fontes públicas e ainda não confirmados pelo estabelecimento.</span></p>' : '') +
-      '</div>';
+    var title = '<h1 id="storeName" class="sp-name' + (s.name.length > 26 ? ' sp-name--long' : '') + '">' + esc(s.name) + '</h1><p class="sp-lede">' + esc(lede(s)) + '</p>';
+    var body = '<ul class="sp-facts">' + facts + '</ul>' + actionsHtml(s) +
+      (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação. Os dados vêm de fontes públicas e ainda não foram confirmados pelo estabelecimento.</span></p>' : '');
+    if (s.image) {
+      return '<figure class="sp-hero' + (s.image.kind === 'logo' ? ' sp-hero--logo' : '') + '"><img src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="' + (s.image.width || 960) + '" height="' + (s.image.height || 640) + '" fetchpriority="high" decoding="async"></figure>' +
+        '<div class="sp-head"><div class="sp-wrap">' + title + body + '</div></div>';
+    }
+    return '<div class="sp-sign sp-hero--empty"><div class="sp-wrap">' + title + '</div></div><div class="sp-head sp-head--flat"><div class="sp-wrap">' + body + '</div></div>';
   }
 
   /* ---------------- Cardápio ---------------- */
@@ -94,11 +91,11 @@
       ? '<img src="' + esc(m.image.src) + '" alt="" width="240" height="240" loading="lazy" decoding="async">'
       : '<span class="sp-ph" aria-hidden="true">' + icon(I.dish) + '</span>';
     return '<li class="sp-li"><article class="sp-item" data-item="' + esc(m.id) + '">' +
-      '<button class="sp-item-main" type="button" data-open="' + esc(m.id) + '" aria-haspopup="dialog"><span class="sp-item-name">' + esc(m.name) + '</span>' +
+      '<button class="sp-item-main" type="button" data-open="' + esc(m.id) + '" aria-haspopup="dialog"><span class="sp-item-line"><span class="sp-item-name">' + esc(m.name) + '</span><span class="sp-leader" aria-hidden="true"></span><span class="sp-item-price">' + priceLabel(m) + '</span></span>' +
       (m.description ? '<span class="sp-item-desc">' + esc(m.description) + '</span>' : '') +
-      '<span class="sp-item-foot"><span class="sp-item-price">' + priceLabel(m) + '</span>' + ((m.options || []).length ? '<span class="sp-item-tag">Personalizável</span>' : '') + '</span></button>' +
+      ((m.options || []).length ? '<span class="sp-item-tag">Com opções</span>' : '') + '</button>' +
       '<div class="sp-item-media" data-open="' + esc(m.id) + '">' + media + '<span class="sp-badge" data-badge="' + esc(m.id) + '" hidden></span>' +
-      '<button class="sp-add" type="button" data-add="' + esc(m.id) + '" aria-label="Adicionar ' + esc(m.name) + ' à sacola">' + icon(I.plus, 'sp-add-plus') + icon(I.check, 'sp-add-check') + '</button></div>' +
+      '<button class="sp-add" type="button" data-add="' + esc(m.id) + '" aria-label="Adicionar ' + esc(m.name) + ' ao pedido">' + icon(I.plus, 'sp-add-plus') + icon(I.check, 'sp-add-check') + '</button></div>' +
       '</article></li>';
   }
 
@@ -113,14 +110,13 @@
     }
     var secs = sectionsOf(s.menu), many = s.menu.length >= 12;
     return '<section class="sp-menu" aria-labelledby="storeMenuTitle">' +
-      '<div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2><span>' + s.menu.length + (s.menu.length === 1 ? ' item' : ' itens') + '</span></div>' +
-      '<p class="sp-source">' + icon(I.info) + '<span>Preços conforme <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultado em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</span></p>' +
+      '<div class="sp-menu-head"><h2 id="storeMenuTitle">Cardápio</h2><p class="sp-source">' + s.menu.length + (s.menu.length === 1 ? ' item' : ' itens') + ', com preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a> em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
       (many ? '<label class="sp-search">' + icon(I.search) + '<span class="sr-only">Buscar no cardápio</span><input type="search" id="spSearch" placeholder="Buscar no cardápio" autocomplete="off" enterkeyhint="search"></label>' : '') +
       (secs.length > 1 ? '<div class="sp-sticky"><nav class="sp-cats" aria-label="Categorias do cardápio"><div class="sp-cats-track">' + secs.map(function (sec, i) {
         return '<a class="sp-cat" href="#sp-sec-' + i + '" data-sec="' + i + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + esc(sec.name) + '</a>';
       }).join('') + '<span class="sp-cats-ink" aria-hidden="true"></span></div></nav></div>' : '') +
       secs.map(function (sec, i) {
-        return '<section class="sp-section" id="sp-sec-' + i + '" data-sec="' + i + '" aria-labelledby="sp-sec-t-' + i + '"><h3 class="sp-section-title" id="sp-sec-t-' + i + '">' + esc(sec.name) + '</h3><ul class="sp-items" role="list">' + sec.items.map(itemHtml).join('') + '</ul></section>';
+        return '<section class="sp-section" id="sp-sec-' + i + '" data-sec="' + i + '" aria-labelledby="sp-sec-t-' + i + '"><h3 class="sp-section-title" id="sp-sec-t-' + i + '">' + esc(sec.name) + ' <small>' + sec.items.length + '</small></h3><ul class="sp-items" role="list">' + sec.items.map(itemHtml).join('') + '</ul></section>';
       }).join('') +
       '<p class="sp-noresult" id="spNoResult" hidden>Nenhum item encontrado no cardápio.</p></section>';
   }
@@ -143,7 +139,7 @@
     page.innerHTML = '<div class="sp-scroll" id="storeScroll">' +
       '<header class="sp-top"><button class="sp-icon-btn store-back" type="button" data-store-close aria-label="Voltar">' + icon(I.back) + '</button><span class="sp-top-title" aria-hidden="true">' + esc(s.name) + '</span>' +
       '<button class="sp-icon-btn" type="button" data-share aria-label="Compartilhar ' + esc(s.name) + '">' + icon(I.share) + '</button></header>' +
-      heroHtml(s) + '<div class="sp-wrap">' + identityHtml(s) + menuHtml(s) + aboutHtml(s) + '</div></div>' +
+      headHtml(s) + '<div class="sp-wrap">' + menuHtml(s) + aboutHtml(s) + '</div></div>' +
       (s.menu.length ? '<button class="sp-cartbar" id="cartBar" type="button" hidden aria-haspopup="dialog"></button>' : '') +
       '<p class="sr-only" id="spLive" aria-live="polite"></p><div class="sp-sheet" id="spSheet" aria-hidden="true"></div>';
     bind();
@@ -274,7 +270,7 @@
       clearTimeout(btn._t);
       btn._t = setTimeout(function () { btn.classList.remove('is-added'); }, 900);
     }
-    $('spLive').textContent = qty + 'x ' + item.name + ' adicionado à sacola. ' + C.cartCount(state.cart) + ' itens, ' + C.formatBRL(C.cartTotals(state.cart, state.store, state.mode).subtotal) + '.';
+    $('spLive').textContent = qty + 'x ' + item.name + ' adicionado ao pedido. ' + C.cartCount(state.cart) + ' itens, ' + C.formatBRL(C.cartTotals(state.cart, state.store, state.mode).subtotal) + '.';
     if (drawer.classList.contains('open')) renderCart();
   }
 
@@ -292,8 +288,8 @@
     var wasHidden = bar.hidden;
     bar.hidden = n === 0;
     page.classList.toggle('sp-cart-active', n > 0);
-    bar.setAttribute('aria-label', 'Ver sacola: ' + n + (n === 1 ? ' item' : ' itens') + ', subtotal ' + C.formatBRL(t.subtotal));
-    bar.innerHTML = '<span class="sp-cartbar-count">' + icon(I.bag) + '<b>' + n + '</b></span><span class="sp-cartbar-label">Ver sacola</span><strong>' + C.formatBRL(t.subtotal) + '</strong>';
+    bar.setAttribute('aria-label', 'Ver pedido: ' + n + (n === 1 ? ' item' : ' itens') + ', subtotal ' + C.formatBRL(t.subtotal));
+    bar.innerHTML = '<span class="sp-cartbar-count">' + icon(I.bag) + '<b>' + n + '</b></span><span class="sp-cartbar-label">Ver pedido</span><strong>' + C.formatBRL(t.subtotal) + '</strong>';
     if (bump && n && !wasHidden) pop(bar, 'translateX(-50%)');
   }
 
@@ -424,12 +420,11 @@
     var s = state.store, t = C.cartTotals(state.cart, s, state.mode), ordering = C.canOrder(s), lines = $('cartLines');
     $('cartStore').textContent = s.name;
     lines.innerHTML = state.cart.lines.length ? state.cart.lines.map(function (l) {
-      return '<li class="cart-line"><div class="cart-line-info"><strong>' + esc(l.name) + '</strong>' +
+      return '<li class="cart-line"><div class="cart-line-top"><strong><span class="cart-qty">' + l.qty + '×</span> ' + esc(l.name) + '</strong><span class="sp-leader" aria-hidden="true"></span><b>' + C.formatBRL(l.unitCents * l.qty) + '</b></div>' +
         ((l.choices || []).length ? '<ul class="cart-line-opts">' + l.choices.map(function (c) { return '<li>' + esc(c.name) + (c.priceCents ? ' <span>+ ' + C.formatBRL(c.priceCents) + '</span>' : '') + '</li>'; }).join('') + '</ul>' : '') +
-        (l.note ? '<p class="cart-line-note">Obs.: ' + esc(l.note) + '</p>' : '') + '<span>' + C.formatBRL(l.unitCents) + ' cada</span></div>' +
-        '<div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div>' +
-        '<b>' + C.formatBRL(l.unitCents * l.qty) + '</b></li>';
-    }).join('') : '<li class="cart-empty"><span>' + icon(I.bag) + '</span><strong>Sua sacola está vazia</strong><p>Adicione itens do cardápio para montar seu pedido.</p><button type="button" class="sp-btn sp-btn--ghost" data-cart-close>Voltar ao cardápio</button></li>';
+        (l.note ? '<p class="cart-line-note">Obs.: ' + esc(l.note) + '</p>' : '') +
+        '<div class="cart-line-ctrl"><span>' + C.formatBRL(l.unitCents) + ' cada</span><div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div></div></li>';
+    }).join('') : '<li class="cart-empty"><span>' + icon(I.bag) + '</span><strong>Seu pedido está vazio</strong><p>Toque em + nos itens do cardápio para começar.</p><button type="button" class="sp-btn sp-btn--ghost" data-cart-close>Voltar ao cardápio</button></li>';
     lines.querySelectorAll('[data-key]').forEach(function (b) {
       b.onclick = function () {
         var key = b.dataset.key, line = state.cart.lines.find(function (l) { return l.key === key; });

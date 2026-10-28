@@ -1,0 +1,13 @@
+{
+  "_sobre": "Logotipos oficiais tirados da foto de perfil do Instagram de cada loja (prints enviados pelo dono do projeto em 28/10/2026). Arquivos-fonte: recorte circular da foto de perfil ampliada; 'portal-vetor.png' é a renderização do vetor data/research/logos/portal-burguer-grill.svg (o perfil usa uma foto do letreiro). Aplicar com: python3 scripts/apply-logos.py <pasta-com-os-arquivos>",
+  "logos": {
+    "sabor-na-brasa-nova-xavantina": {"file": "sabor.png", "instagram": "sabor.na.brasa.26"},
+    "bitus-burguer-nova-xavantina": {"file": "bitus.png", "instagram": "bitusburguer"},
+    "suntzu-sushi-nova-xavantina": {"file": "suntzu.png", "instagram": "suntzusushi"},
+    "1-opcao-lanches-nova-xavantina": {"file": "opcao.png", "instagram": "primeiraopcaolanchesnx"},
+    "portal-burguer-grill-nova-xavantina": {"file": "portal-vetor.png", "instagram": "portalburguergril"},
+    "araguaia-sushi-nx-nova-xavantina": {"file": "araguaia.png", "instagram": "araguaiasushinx"},
+    "sorveteria-creme-mania-nova-xavantina": {"file": "cremamania.png", "instagram": "crememania.nx"},
+    "hatsuki-nova-xavantina-nova-xavantina": {"file": "hatsuki.png", "instagram": "hatsukinovaxavantina"}
+  }
+}

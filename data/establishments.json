@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25",
-  "targetPerCity": 20,
+  "updatedAt": "2026-10-28",
+  "targetPerCity": 30,
   "establishments": [
     {
       "id": "acai-super-top-vila-rica",
@@ -4294,6 +4294,83 @@
       "notes": "O diretório traz endereço incompleto ('Rua, SN - Centro'). Sem telefone e sem confirmação de que segue ativa."
     },
     {
+      "id": "1-opcao-lanches-nova-xavantina",
+      "name": "1º Opção Lanches",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Lanchonete (lanches feitos na hora)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": "5566981459296",
+      "whatsappSource": "https://www.instagram.com/primeiraopcaolanchesnx/",
+      "phone": null,
+      "instagram": "primeiraopcaolanchesnx",
+      "website": null,
+      "orderUrl": null,
+      "hours": "Fechado às quintas-feiras",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/primeiraopcaolanchesnx/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Perfil '1º Opção Lanches' (print do Instagram, 28/10/2026). Bio: 'Lanches do jeitinho que você ama. Feitos na hora, com muito sabor e recheio. Fechado nas quintas. Faça seu pedido' + wa.link/i1cxx6. O WhatsApp (66) 98145-9296 aparece com o ícone do WhatsApp no primeiro post do próprio perfil. Endereço não aparece.",
+      "logo": {
+        "src": "assets/stores/1-opcao-lanches-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/1-opcao-lanches-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — 1º Opção Lanches",
+        "credit": "1º Opção Lanches",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/primeiraopcaolanchesnx/",
+        "tile": "assets/stores/1-opcao-lanches-nova-xavantina-logo-tile.webp"
+      }
+    },
+    {
+      "id": "araguaia-sushi-nx-nova-xavantina",
+      "name": "Araguaia Sushi NX",
+      "city": "Nova Xavantina",
+      "category": "Sushi",
+      "kind": "Restaurante japonês (rodízio e delivery)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "araguaiasushinx",
+      "website": "https://linktr.ee/araguaiasushinx",
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/araguaiasushinx/",
+        "https://linktr.ee/araguaiasushinx"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Perfil 'Araguaia Sushi NX' (print do Instagram, 28/10/2026). Bio: 'A alta gastronomia oriental em Nova Xavantina.' Posts divulgam rodízio (Rodízio Universitário por R$ 69,90) e delivery. Telefone e endereço aparecem nos posts em letra ilegível no print; confirmar pelo Linktree.",
+      "logo": {
+        "src": "assets/stores/araguaia-sushi-nx-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/araguaia-sushi-nx-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Araguaia Sushi NX",
+        "credit": "Araguaia Sushi NX",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/araguaiasushinx/",
+        "tile": "assets/stores/araguaia-sushi-nx-nova-xavantina-logo-tile.webp"
+      }
+    },
+    {
       "id": "big-pizza-delivery-nx-nova-xavantina",
       "name": "Big Pizza Delivery NX",
       "city": "Nova Xavantina",
@@ -4339,6 +4416,44 @@
         "kind": "logo",
         "sourceUrl": "https://www.facebook.com/bigpizzanx/",
         "tile": "assets/stores/big-pizza-delivery-nx-nova-xavantina-logo-tile.webp"
+      }
+    },
+    {
+      "id": "bitus-burguer-nova-xavantina",
+      "name": "Bitus Burguer",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria smash e cookies",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "bitusburguer",
+      "website": null,
+      "orderUrl": null,
+      "hours": "Quarta a sábado, 19h às 22h (às vezes abre domingo)",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/bitusburguer/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Perfil 'Bitus Burguer | Hambúrguer & Cookies' (print do Instagram, 28/10/2026). Bio: 'Nova Xavantina. O Smash que faltava. Vem comer meu cookie. Qua à sab (19:00 às 22:00). As vezes abre domingo'. Pedidos por cardápio digital Brendi (pedido.brendi.com.br/bitu…), mas o link aparece cortado no print: completar orderUrl. Sem WhatsApp e endereço visíveis.",
+      "logo": {
+        "src": "assets/stores/bitus-burguer-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/bitus-burguer-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Bitus Burguer",
+        "credit": "Bitus Burguer",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/bitusburguer/",
+        "tile": "assets/stores/bitus-burguer-nova-xavantina-logo-tile.webp"
       }
     },
     {
@@ -4459,12 +4574,12 @@
       "city": "Nova Xavantina",
       "category": "Sushi",
       "kind": "Restaurante japonês",
-      "address": null,
-      "neighborhood": null,
+      "address": "Avenida Mato Grosso, 397 - Centro",
+      "neighborhood": "Centro",
       "whatsapp": "5566999643722",
       "whatsappSource": "https://www.facebook.com/hatsukinovaxavantina/",
       "phone": null,
-      "instagram": null,
+      "instagram": "hatsukinovaxavantina",
       "website": null,
       "orderUrl": null,
       "hours": null,
@@ -4483,11 +4598,24 @@
       "menuSource": null,
       "menu": [],
       "sources": [
-        "https://www.facebook.com/hatsukinovaxavantina/"
+        "https://www.facebook.com/hatsukinovaxavantina/",
+        "https://www.instagram.com/hatsukinovaxavantina/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-25",
-      "notes": "O Facebook traz '(66) 999643722 contato para pedidos e reservas'. Não confirmei se o negócio está ativo hoje. Sem endereço."
+      "verifiedAt": "2026-10-28",
+      "notes": "Instagram próprio (print de 28/10/2026): 'Primeiro restaurante japonês de Nova Xavantina-MT', Avenida Mato Grosso, 397, Centro, (66) 99964-3722 e wa.me/5566999643722 para pedidos — confirma o número do Facebook ('contato para pedidos e reservas').",
+      "logo": {
+        "src": "assets/stores/hatsuki-nova-xavantina-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/hatsuki-nova-xavantina-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Hatsuki Nova Xavantina",
+        "credit": "Hatsuki Nova Xavantina",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/hatsukinovaxavantina/",
+        "tile": "assets/stores/hatsuki-nova-xavantina-nova-xavantina-logo-tile.webp"
+      }
     },
     {
       "id": "lanchonete-e-chopp-do-luizao-nova-xavantina",
@@ -4664,6 +4792,45 @@
       "notes": "O número do endereço diverge: o perfil social diz 701 e o Trip.com diz 339. Delivery não confirmado."
     },
     {
+      "id": "portal-burguer-grill-nova-xavantina",
+      "name": "Portal Burguer & Grill",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria artesanal, pratos à la carte e porções",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "portalburguergril",
+      "website": "https://linktr.ee/portalburguergrill",
+      "orderUrl": null,
+      "hours": "Cozinha: segunda a sábado, 18h30 às 23h. Delivery: segunda a quinta, 19h às 22h",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/portalburguergril/",
+        "https://linktr.ee/portalburguergrill"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Perfil 'Portal Burguer | Nova Xavantina' (print do Instagram, 28/10/2026). Bio: 'Hambúrguer artesanal. Pratos à la carte, Porções Diversas. Seg a Sáb 18:30h às 23h Cozinha. Segunda a Quinta 19h às 22h…' (cortado). Logo do perfil é foto do letreiro luminoso: redesenhado em vetor (data/research/logos/portal-burguer-grill.svg). WhatsApp e endereço não visíveis; devem estar no Linktree.",
+      "logo": {
+        "src": "assets/stores/portal-burguer-grill-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/portal-burguer-grill-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Portal Burguer & Grill",
+        "credit": "Portal Burguer & Grill",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/portalburguergril/",
+        "tile": "assets/stores/portal-burguer-grill-nova-xavantina-logo-tile.webp"
+      }
+    },
+    {
       "id": "portuga-pizzaria-nova-xavantina",
       "name": "Portuga Pizzaria",
       "city": "Nova Xavantina",
@@ -4768,20 +4935,58 @@
       "notes": "O Tripadvisor mostra o telefone como (34) 3438-1987. O DDD 34 parece errado (o prefixo 3438 é de Nova Xavantina, DDD 66), então deixei phone em branco. Foto do Street View indisponível fora do Google Maps; pendente."
     },
     {
+      "id": "sabor-na-brasa-nova-xavantina",
+      "name": "Sabor na Brasa",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria artesanal na brasa",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": "5566997119984",
+      "whatsappSource": "https://www.instagram.com/sabor.na.brasa.26/",
+      "phone": null,
+      "instagram": "sabor.na.brasa.26",
+      "website": null,
+      "orderUrl": null,
+      "hours": "Delivery todos os dias",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/sabor.na.brasa.26/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Perfil 'Hamburgueria Sabor na Brasa' (print do Instagram enviado pelo dono do projeto em 28/10/2026). Bio: 'Hambúrguer artesanal na brasa. Sabor mais comentado de Nova Xavantina. Delivery todos os dias. Faça seu pedido no WhatsApp' + wa.me/5566997119984. Endereço não aparece no perfil. Cardápio está nos destaques, sem preços legíveis no print.",
+      "logo": {
+        "src": "assets/stores/sabor-na-brasa-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/sabor-na-brasa-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Sabor na Brasa",
+        "credit": "Sabor na Brasa",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/sabor.na.brasa.26/",
+        "tile": "assets/stores/sabor-na-brasa-nova-xavantina-logo-tile.webp"
+      }
+    },
+    {
       "id": "sorveteria-creme-mania-nova-xavantina",
       "name": "Sorveteria Creme Mania",
       "city": "Nova Xavantina",
       "category": "Doces",
       "kind": "Sorveteria",
-      "address": "Avenida Mato Grosso, 433 - Centro",
+      "address": "Av. Mato Grosso, 406 - Centro (em frente aos Correios)",
       "neighborhood": "Centro",
       "whatsapp": null,
       "whatsappSource": null,
       "phone": null,
-      "instagram": null,
+      "instagram": "crememania.nx",
       "website": null,
       "orderUrl": null,
-      "hours": null,
+      "hours": "Delivery: 13h às 21h30. Balcão: 13h às 22h",
       "deliveryFeeCents": null,
       "image": {
         "src": "assets/stores/sorveteria-creme-mania-nova-xavantina.webp",
@@ -4797,11 +5002,62 @@
       "menuSource": null,
       "menu": [],
       "sources": [
+        "https://www.instagram.com/crememania.nx/",
         "https://www.solutudo.com.br/empresas/mt/nova-xavantina/lanches-lanchonetes/sorveteria-creme-mania-ltda-23948080"
       ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Só o diretório Solutudo (razão social Sorveteria Creme Mania Ltda). Telefone não obtido."
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Instagram próprio 'Creme Mania - Nova Xavantina/MT' (print de 28/10/2026): Av Mato Grosso, 406, Centro, em frente aos Correios; delivery 13h–21h30, balcão 13h–22h; pedidos por link, app Zero1 ou WhatsApp (link api.whatsapp.com cortado no print, número não visível). O diretório Solutudo trazia o nº 433; vale o endereço do perfil oficial.",
+      "logo": {
+        "src": "assets/stores/sorveteria-creme-mania-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/sorveteria-creme-mania-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Sorveteria Creme Mania",
+        "credit": "Sorveteria Creme Mania",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/crememania.nx/",
+        "tile": "assets/stores/sorveteria-creme-mania-nova-xavantina-logo-tile.webp"
+      }
+    },
+    {
+      "id": "suntzu-sushi-nova-xavantina",
+      "name": "SuntZu Sushi",
+      "city": "Nova Xavantina",
+      "category": "Sushi",
+      "kind": "Restaurante oriental (delivery e retirada)",
+      "address": "Av. Rio Grande do Sul, 1180 - Centro",
+      "neighborhood": "Centro",
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": "5566997255993",
+      "instagram": "suntzusushi",
+      "website": "https://canva.link/suntzusushi-clique-aqui",
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/suntzusushi/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Perfil 'Restaurante oriental em nova xavantina' / SuntZu Culinária Oriental (print do Instagram, 28/10/2026). Bio: 'Sushi fresco, pratos japoneses e culinária oriental. Nova Xavantina – MT | Delivery e retirada' + endereço Av. Rio Grande do Sul, 1180 - Centro. O número (66) 9 9725-5993 aparece com ícone de WhatsApp num post fixado ('Sushi em casa – Delivery SuntZu Sushi'), mas em letra pequena no print: ficou em phone até confirmar.",
+      "logo": {
+        "src": "assets/stores/suntzu-sushi-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/suntzu-sushi-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — SuntZu Sushi",
+        "credit": "SuntZu Sushi",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/suntzusushi/",
+        "tile": "assets/stores/suntzu-sushi-nova-xavantina-logo-tile.webp"
+      }
     },
     {
       "id": "suprema-pizza-nova-xavantina",

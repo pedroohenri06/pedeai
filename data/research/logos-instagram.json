@@ -1,0 +1,133 @@
+{
+  "_sobre": "Logotipos oficiais tirados da foto de perfil do Instagram de cada loja (prints enviados pelo dono do projeto em 28/10/2026). Arquivos-fonte: recorte circular da foto de perfil ampliada; 'portal-vetor.png' é a renderização do vetor data/research/logos/portal-burguer-grill.svg (o perfil usa uma foto do letreiro). Aplicar com: python3 scripts/apply-logos.py <pasta-com-os-arquivos>",
+  "logos": {
+    "sabor-na-brasa-nova-xavantina": {
+      "file": "sabor.png",
+      "instagram": "sabor.na.brasa.26"
+    },
+    "bitus-burguer-nova-xavantina": {
+      "file": "bitus.png",
+      "instagram": "bitusburguer"
+    },
+    "suntzu-sushi-nova-xavantina": {
+      "file": "suntzu.png",
+      "instagram": "suntzusushi"
+    },
+    "1-opcao-lanches-nova-xavantina": {
+      "file": "opcao.png",
+      "instagram": "primeiraopcaolanchesnx"
+    },
+    "portal-burguer-grill-nova-xavantina": {
+      "file": "portal-vetor.png",
+      "instagram": "portalburguergril"
+    },
+    "araguaia-sushi-nx-nova-xavantina": {
+      "file": "araguaia.png",
+      "instagram": "araguaiasushinx"
+    },
+    "sorveteria-creme-mania-nova-xavantina": {
+      "file": "cremamania.png",
+      "instagram": "crememania.nx"
+    },
+    "hatsuki-nova-xavantina-nova-xavantina": {
+      "file": "hatsuki.png",
+      "instagram": "hatsukinovaxavantina"
+    },
+    "kanoa-beach-nova-xavantina": {
+      "file": "kanoa.png",
+      "instagram": "kanoa.nx"
+    },
+    "big-belly-burguer-nova-xavantina": {
+      "file": "bigbelly.png",
+      "instagram": "bigbelly_burgernx"
+    },
+    "tribo-do-acai-nova-xavantina": {
+      "file": "tribo.png",
+      "instagram": "tribodoacainx"
+    },
+    "nexy-acai-nova-xavantina": {
+      "file": "nexy.png",
+      "instagram": "nexyacai"
+    },
+    "pizza-grill-delivery-nova-xavantina": {
+      "file": "pizzagrill.png",
+      "instagram": "pizza_grilldelivery"
+    },
+    "gran-pizza-nova-xavantina": {
+      "file": "granpizza.png",
+      "instagram": "granpizzanx"
+    },
+    "frescor-acaiteria-nova-xavantina": {
+      "file": "frescor.png",
+      "instagram": "frescoracaiterianx"
+    },
+    "acai-raiz-do-para-nova-xavantina": {
+      "file": "acairaiz.png",
+      "instagram": "souacairaiz"
+    },
+    "acai-foods-crepe-mania-nova-xavantina": {
+      "file": "crepemania.png",
+      "instagram": "acaifoods.crepemania"
+    },
+    "the-best-acai-nova-xavantina": {
+      "file": "thebest.png",
+      "instagram": "franqueado_the_best_acai_nx"
+    },
+    "bocao-lanches-ab-agua-boa": {
+      "file": "bocao.png",
+      "instagram": "bocaolanches.ab"
+    },
+    "okane-sushi-agua-boa": {
+      "file": "okane.png",
+      "instagram": "okanesushi.ab"
+    },
+    "caipirao-restaurante-agua-boa": {
+      "file": "caipirao.png",
+      "instagram": "caipiraoaguaboa"
+    },
+    "du-matuto-bar-cozinha-agua-boa": {
+      "file": "dumatuto.png",
+      "instagram": "dumatuto"
+    },
+    "mordidela-food-agua-boa": {
+      "file": "mordidela.png",
+      "instagram": "mordidelaaguaboamt"
+    },
+    "brasa-som-agua-boa": {
+      "file": "brasaesom.png",
+      "instagram": "brasaesom"
+    },
+    "kaingo-acai-agua-boa": {
+      "file": "kaingo.png",
+      "instagram": "kaingo.aguaboa"
+    },
+    "eskimo-sorvetes-agua-boa": {
+      "file": "eskimo.png",
+      "instagram": "eskimosorvetesaguaboa"
+    },
+    "la-casa-de-acai-agua-boa": {
+      "file": "lacasa.png",
+      "instagram": "lacasadeacaiab"
+    },
+    "lanchonete-e-sorveteria-rodoviaria-agua-boa": {
+      "file": "rodoviaria.png",
+      "instagram": "lanchonete_rodoviariaab"
+    },
+    "ms-espeto-burguer-grill-agua-boa": {
+      "file": "msespeto.png",
+      "instagram": "msespertoeburguergrillab"
+    },
+    "oishi-sushi-nova-xavantina-nova-xavantina": {
+      "file": "oishinx.png",
+      "instagram": "oishisushinx"
+    },
+    "pizzaria-bendita-agua-boa": {
+      "file": "bendita.png",
+      "instagram": "pizzariabendita"
+    },
+    "tia-do-lanche-agua-boa": {
+      "file": "tiadolanche.png",
+      "instagram": "tiadolancheab"
+    }
+  }
+}

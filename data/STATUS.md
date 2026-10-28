@@ -2,7 +2,7 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-28.
 
-Meta: 40 por cidade (400 no total). Cadastrados: **184**.
+Meta: 40 por cidade (400 no total). Cadastrados: **188**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
@@ -11,12 +11,12 @@ Meta: 40 por cidade (400 no total). Cadastrados: **184**.
 | Querência | 19 | 21 | 0 | 0 | 0 |
 | Ribeirão Cascalheira | 20 | 20 | 0 | 0 | 0 |
 | Canarana | 20 | 20 | 1 | 0 | 0 |
-| Água Boa | 15 | 25 | 0 | 0 | 0 |
+| Água Boa | 19 | 21 | 1 | 0 | 0 |
 | Novo São Joaquim | 11 | 29 | 0 | 0 | 0 |
 | Campinápolis | 8 | 32 | 0 | 0 | 0 |
 | Nova Xavantina | 33 | 7 | 12 | 0 | 0 |
 | Barra do Garças | 20 | 20 | 0 | 4 | 0 |
-| **Total** | **184** | **216** | **13** | **4** | **0** |
+| **Total** | **188** | **212** | **14** | **4** | **0** |
 
 ## Pendências por estabelecimento
 
@@ -134,16 +134,20 @@ Meta: 40 por cidade (400 no total). Cadastrados: **184**.
 
 ### Água Boa
 
-- **Bocão Lanches AB** — WhatsApp não verificado; cardápio pendente; endereço pendente; Bio informa pedidos somente pelo telefone fixo (número não capturado). Cardápio não localizado.
-- **Caipirão Restaurante** — WhatsApp não verificado; cardápio pendente; Somente fonte de diretório/agregador (conteúdo parcialmente gerado por IA); nome também aparece em lista de restaurantes da Buser. Confirmar se ativo.
+- **Bocão Lanches AB** — WhatsApp não verificado; cardápio pendente; Bio informa pedidos somente pelo telefone fixo (número não capturado). Cardápio não localizado. Instagram próprio @bocaolanches.ab (print de 28/10/2026): 'Melhor lanche do Vale do Araguaia. Mais de 30 anos de tradição e qualidade. Lanches, porções e bebidas! Wpp- 66 3468-3355', Rua 03 nº 212, Centro. O número é fixo (3468) marcado como 'Wpp': ficou em phone. Logo trocada pela do perfil atual (a anterior era a arte antiga do Google Maps).
+- **Brasa & Som** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Brasa & Som | Festival de Churrasco' (print do Instagram, 28/10/2026). Bio: 'Nascemos de um evento. Viramos o seu hambúrguer favorito. Água Boa - MT. Atendemos por delivery…' + wa.me/556281380990. Esse número é DDD 62 (Goiás) e tem só 8 dígitos depois do DDD: não registrado; confirmar com o estabelecimento. Combos nos posts (ex.: Combo Só Meu R$ 44,99; Combo Lovers Premium R$ 78,90), não lançados como cardápio.
+- **Caipirão Restaurante** — cardápio pendente; Somente fonte de diretório/agregador (conteúdo parcialmente gerado por IA); nome também aparece em lista de restaurantes da Buser. Confirmar se ativo. Instagram próprio @caipiraoaguaboa (print de 28/10/2026): 'Restaurante caseiro. Água boa MT. Segunda à sábado das 11:00 às 13:30', Av Julio Campos 350 + wa.me/5566984293464 (o mesmo número aparece no letreiro da fachada nos posts). Destaques: disk marmita, churrasco, espetinho.
+- **Du Matuto Bar & Cozinha** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Du Matuto | Bar & Cozinha' (print do Instagram, 28/10/2026). Bio: 'Por família Stafen. Comida de verdade, jeito matuto! APENAS DELIVERY E RETIRADA. Água Boa' + wa.me/message/EOEA5S266KFAM1 (link de conversa do WhatsApp Business, sem o número visível). Pratos: picanha na chapa, feijoada, torresmo, mandioca.
 - **Eskimó Sorvetes** — WhatsApp não verificado; cardápio pendente; endereço pendente; Endereço e telefone não localizados. WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
 - **Galeria Espeto** — WhatsApp não verificado; cardápio pendente; Bio do Instagram traz WhatsApp e menciona entregas, mas o número não apareceu no trecho da busca. WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
+- **Kaingó Açaí** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'KAINGÓ' (print do Instagram, 28/10/2026). Bio: 'Produto de qualidade pai d'égua, 100% criado no chão do Pará Manoa! Nem vem que é 100% Pará. Estamos abertos todos os dias das 13h às 23h' + bio.site/Acaikaingo. Posts marcam 'Água Boa-MT'. Sem WhatsApp e endereço visíveis.
 - **La Casa de Açaí** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Página do Facebook associada a Água Boa (sufixo 'ab'); estado (MT) não confirmado explicitamente no trecho. Sem telefone/endereço.
 - **Lanchonete Água Boa MT** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Bio diz que pedidos são 'pelo Whats', mas o número não foi capturado no trecho da busca. Nome genérico. WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
 - **Lanchonete e Sorveteria Rodoviária** — WhatsApp não verificado; cardápio pendente; endereço pendente; Apenas registro de CNPJ 04.899.412/0001-66 como ativo; sem canal próprio encontrado. Endereço provável na rodoviária, não confirmado.
+- **Mordidela Food** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'Mordidela Food - Água Boa MT' (print do Instagram, 28/10/2026). Bio: 'Paixão à Primeira Mordida! Av. Araguaia, 829 - Centro II. Seg a Sáb das 7h as 22h30. Faça já o seu pedido!' + wa.me/556681168538. O link do WhatsApp está no formato antigo de 8 dígitos (sem o nono dígito): registrado em phone como publicado; confirmar o número atual.
 - **Ms Espeto & Burguer Grill** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Bio cita 'nova direção' e contato por WhatsApp, número não capturado. WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado. Foto do Street View indisponível fora do Google Maps; pendente.
 - **Oishi Sushi Água Boa** — WhatsApp não verificado; cardápio pendente; endereço pendente; Pedidos via link na bio do Instagram (link não capturado). WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
-- **Okane Sushi** — WhatsApp não verificado; cardápio pendente; endereço pendente; CNPJ 54.699.833/0001-11 (aberto em abr/2024, Água Boa). WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
+- **Okane Sushi** — WhatsApp não verificado; cardápio pendente; endereço pendente; CNPJ 54.699.833/0001-11 (aberto em abr/2024, Água Boa). WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado. Instagram (print de 28/10/2026): 'Okane Sushi | Seu Japa em Água Boa. Festival, Combos, À la carte. Ter a Dom 18:30 às 23h' + wa.me/message/YGCS7RDFMTHFG1 (sem número visível). Logo refeita a partir da foto de perfil (a anterior tinha moldura com fundo diferente).
 - **Pizzaria Bendita** — WhatsApp não verificado; cardápio pendente; Perfil do Instagram identifica 'Água Boa-MT'. Telefone não localizado. WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
 - **Pizzaria Fornalha** — WhatsApp não verificado; cardápio pendente; Telefone fixo vem do Restaurant Guru (diretório), não conta como WhatsApp. Bio do Instagram cita delivery. WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
 - **Restaurante Martinão** — WhatsApp não verificado; cardápio pendente; Somente Restaurant Guru (143 avaliações). Telefone, horário e cardápio não localizados.

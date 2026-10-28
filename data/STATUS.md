@@ -2,21 +2,21 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-28.
 
-Meta: 30 por cidade (300 no total). Cadastrados: **174**.
+Meta: 40 por cidade (400 no total). Cadastrados: **180**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
-| Vila Rica | 18 | 12 | 0 | 0 | 0 |
-| São Félix do Araguaia | 20 | 10 | 0 | 0 | 0 |
-| Querência | 19 | 11 | 0 | 0 | 0 |
-| Ribeirão Cascalheira | 20 | 10 | 0 | 0 | 0 |
-| Canarana | 20 | 10 | 1 | 0 | 0 |
-| Água Boa | 15 | 15 | 0 | 0 | 0 |
-| Novo São Joaquim | 11 | 19 | 0 | 0 | 0 |
-| Campinápolis | 8 | 22 | 0 | 0 | 0 |
-| Nova Xavantina | 23 | 7 | 6 | 0 | 0 |
-| Barra do Garças | 20 | 10 | 0 | 4 | 0 |
-| **Total** | **174** | **126** | **7** | **4** | **0** |
+| Vila Rica | 18 | 22 | 0 | 0 | 0 |
+| São Félix do Araguaia | 20 | 20 | 0 | 0 | 0 |
+| Querência | 19 | 21 | 0 | 0 | 0 |
+| Ribeirão Cascalheira | 20 | 20 | 0 | 0 | 0 |
+| Canarana | 20 | 20 | 1 | 0 | 0 |
+| Água Boa | 15 | 25 | 0 | 0 | 0 |
+| Novo São Joaquim | 11 | 29 | 0 | 0 | 0 |
+| Campinápolis | 8 | 32 | 0 | 0 | 0 |
+| Nova Xavantina | 29 | 11 | 9 | 0 | 0 |
+| Barra do Garças | 20 | 20 | 0 | 4 | 0 |
+| **Total** | **180** | **220** | **10** | **4** | **0** |
 
 ## Pendências por estabelecimento
 
@@ -178,16 +178,21 @@ Meta: 30 por cidade (300 no total). Cadastrados: **174**.
 ### Nova Xavantina
 
 - **1º Opção Lanches** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil '1º Opção Lanches' (print do Instagram, 28/10/2026). Bio: 'Lanches do jeitinho que você ama. Feitos na hora, com muito sabor e recheio. Fechado nas quintas. Faça seu pedido' + wa.link/i1cxx6. O WhatsApp (66) 98145-9296 aparece com o ícone do WhatsApp no primeiro post do próprio perfil. Endereço não aparece.
-- **Araguaia Sushi NX** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Araguaia Sushi NX' (print do Instagram, 28/10/2026). Bio: 'A alta gastronomia oriental em Nova Xavantina.' Posts divulgam rodízio (Rodízio Universitário por R$ 69,90) e delivery. Telefone e endereço aparecem nos posts em letra ilegível no print; confirmar pelo Linktree.
+- **Araguaia Sushi NX** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'Araguaia Sushi NX' (print do Instagram, 28/10/2026). Bio: 'A alta gastronomia oriental em Nova Xavantina.' Posts divulgam rodízio (Rodízio Universitário por R$ 69,90) e delivery. Telefone e endereço aparecem nos posts em letra ilegível no print; confirmar pelo Linktree. Atualização (2º lote de prints): o rodapé dos posts traz Av. Beira Rio - Santa Mônica e (66) 9 9272-3832, os mesmos do Kanoa Beach (provavelmente funciona no mesmo local). Número em phone até confirmar se é WhatsApp.
+- **Big Belly Burguer** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Big Belly Burguer' (print do Instagram, 28/10/2026). Bio: 'Nova Xavantina-MT. Delivery seg a dom 19h às 23h. Não abrimos às quintas-feiras. Faça seu pedido' + wa.me/5566992552569. Endereço não aparece.
 - **Big Pizza Delivery NX** — cardápio pendente; Página de delivery no Facebook lista o celular e um link de cardápio. O link não pôde ser aberto (WebFetch indisponível). Endereço sem número. O 'WhatsApp' vem de celular de delivery na própria página, sem a palavra WhatsApp confirmada.
 - **Bitus Burguer** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Bitus Burguer | Hambúrguer & Cookies' (print do Instagram, 28/10/2026). Bio: 'Nova Xavantina. O Smash que faltava. Vem comer meu cookie. Qua à sab (19:00 às 22:00). As vezes abre domingo'. Pedidos por cardápio digital Brendi (pedido.brendi.com.br/bitu…), mas o link aparece cortado no print: completar orderUrl. Sem WhatsApp e endereço visíveis.
 - **Casa Massa** — cardápio pendente; O número e o pedido online aparecem na bio do Instagram (trecho do resultado de busca), mas o trecho não diz explicitamente 'WhatsApp'. Endereço só com nome da rua (Trip.com), sem número. O cardápio (pizzas, calzones, massas) é citado no Facebook, mas sem preços acessíveis.
 - **Flutua Beach** — WhatsApp não verificado; cardápio pendente; endereço pendente; A bio lista dois contatos, 66984130600 e 66984007202, sem dizer qual é WhatsApp. É um bar/restaurante no rio, e o delivery não foi confirmado.
+- **Gran Pizza** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'GranpizzaNx' (print do Instagram, 28/10/2026). Bio: 'Delivery de pizza. Nova Xavantina-MT. 19h as 22:30h. Sabor e qualidade em cada fatia!' + wa.me/5566999442840 (o mesmo número aparece nas capas dos destaques). Endereço não aparece.
 - **Hamburgueria América NX** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Facebook geolocalizado em 'Xavantina, Mato Grosso'. Sem contato nem status atual.
 - **Hatsuki Nova Xavantina** — cardápio pendente; Instagram próprio (print de 28/10/2026): 'Primeiro restaurante japonês de Nova Xavantina-MT', Avenida Mato Grosso, 397, Centro, (66) 99964-3722 e wa.me/5566999643722 para pedidos — confirma o número do Facebook ('contato para pedidos e reservas').
+- **Kanoa Beach** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'Kanoa Beach' (print do Instagram, 28/10/2026). Bio: 'Bar e Restaurante Flutuante! Cerveja gelada, comida gostosa e música boa, abertos todos os dias!'. Posts: rodízio de peixe a partir de R$ 79,90 (quartas e sábados); destaque 'Delivery'. Endereço (Av. Beira Rio - Santa Mônica) e (66) 9 9272-3832 com ícone de WhatsApp aparecem em letra pequena no rodapé do post fixado; o mesmo número e endereço aparecem nos posts do Araguaia Sushi NX (provavelmente mesmo local). Número ficou em phone até confirmar. Não confundir com o Flutua Beach (@flutuabeach.nx), outro flutuante da cidade.
 - **Lanchonete e Chopp do Luizão** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; A bio diz 'Delivery pelo Whatsapp', mas o número não aparece no trecho da busca. Veio de uma busca com 'Nova Xavantina', sem confirmação explícita da cidade. Foto do Street View indisponível fora do Google Maps; pendente.
+- **Nexy Açaí** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'NEXYAÇAÍ' (print do Instagram, 28/10/2026). Bio: 'Ative sua energia. Nova Xavantina - MT. Delivery hoje 14:00 às 23:00. Acesse nosso cardápio digital' + nexyacai26.ola.click/prod… (link cortado no print: completar orderUrl). Sem WhatsApp e endereço visíveis.
 - **Oscar Bar e Restaurante** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Guia antigo (Coisas de Mato Grosso). Não confirmei se ainda funciona.
 - **Palladar Restaurante e Pizzaria** — WhatsApp não verificado; cardápio pendente; Fixo com prefixo 3438 (Nova Xavantina). Endereço sem número. Delivery não confirmado.
+- **Pizza Grill Delivery** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Delivery Pizza Grill' (print do Instagram, 28/10/2026). Bio: 'Seu sabor favorito na sua porta! Nova Xavantina - MT. Pedidos todos os dias das 16:00 às 23:00. Peça aqui' + wa.me/5566996550165 e botão WhatsApp. Endereço não aparece.
 - **Pizzaria Gaúcha** — WhatsApp não verificado; cardápio pendente; O Instagram mostra o fixo (066) 3438-2872 e menciona um WhatsApp, mas o número não aparece no trecho. A página parece antiga.
 - **Pizzaria Sinal Verde** — WhatsApp não verificado; cardápio pendente; O número do endereço diverge: o perfil social diz 701 e o Trip.com diz 339. Delivery não confirmado.
 - **Portal Burguer & Grill** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Portal Burguer | Nova Xavantina' (print do Instagram, 28/10/2026). Bio: 'Hambúrguer artesanal. Pratos à la carte, Porções Diversas. Seg a Sáb 18:30h às 23h Cozinha. Segunda a Quinta 19h às 22h…' (cortado). Logo do perfil é foto do letreiro luminoso: redesenhado em vetor (data/research/logos/portal-burguer-grill.svg). WhatsApp e endereço não visíveis; devem estar no Linktree.
@@ -199,6 +204,7 @@ Meta: 30 por cidade (300 no total). Cadastrados: **174**.
 - **Sorveteria Creme Mania** — WhatsApp não verificado; cardápio pendente; Instagram próprio 'Creme Mania - Nova Xavantina/MT' (print de 28/10/2026): Av Mato Grosso, 406, Centro, em frente aos Correios; delivery 13h–21h30, balcão 13h–22h; pedidos por link, app Zero1 ou WhatsApp (link api.whatsapp.com cortado no print, número não visível). O diretório Solutudo trazia o nº 433; vale o endereço do perfil oficial.
 - **SuntZu Sushi** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'Restaurante oriental em nova xavantina' / SuntZu Culinária Oriental (print do Instagram, 28/10/2026). Bio: 'Sushi fresco, pratos japoneses e culinária oriental. Nova Xavantina – MT | Delivery e retirada' + endereço Av. Rio Grande do Sul, 1180 - Centro. O número (66) 9 9725-5993 aparece com ícone de WhatsApp num post fixado ('Sushi em casa – Delivery SuntZu Sushi'), mas em letra pequena no print: ficou em phone até confirmar.
 - **Suprema Pizza** — cardápio pendente; Facebook geolocalizado como 'Xavantina, MT' (setor de Nova Xavantina). Provavelmente é a mesma 'Suprema Pizzaria' listada no Econodata. Endereço sem número.
+- **Tribo do Açaí** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Tribo Do Açaí Nova Xavantina' (print do Instagram, 28/10/2026). Bio: 'O melhor açaí da cidade. Monte do seu jeito! Açaí, Sundae, Milkshake, Vitaminas & muito mais. Delivery. Peça agora' + cardápio digital tribodoacainx.meucardapio… (link cortado no print: completar orderUrl). Tem página no Facebook 'Tribo do Açaí'. Sem WhatsApp e endereço visíveis.
 - **Tuiuiu Restaurante & Hamburgueria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Só a página do Facebook (cerca de 479 curtidas), sem contato, horário ou status atual.
 
 ### Barra do Garças

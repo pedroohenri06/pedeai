@@ -66,6 +66,19 @@
     });
   }
 
+  /* Ordem da listagem: primeiro onde dá para pedir, depois com cardápio, com foto ou logo própria e mais verificados;
+     cadastros "Em verificação" vão para o fim. Empate: ordem alfabética. Não altera a lista recebida. */
+  var CONFIDENCE_RANK = { alta: 0, media: 1, baixa: 2 };
+  function storeRank(s) {
+    return [canOrder(s) ? 0 : 1, s.menu && s.menu.length ? 0 : 1, s.image || s.logo ? 0 : 1, s.confidence in CONFIDENCE_RANK ? CONFIDENCE_RANK[s.confidence] : 1];
+  }
+  function rankStores(stores) {
+    return stores.map(function (s) { return { s: s, r: storeRank(s) }; }).sort(function (a, b) {
+      for (var i = 0; i < a.r.length; i++) if (a.r[i] !== b.r[i]) return a.r[i] - b.r[i];
+      return a.s.name.localeCompare(b.s.name, 'pt-BR');
+    }).map(function (x) { return x.s; });
+  }
+
   function countByCity(stores) {
     var out = {};
     CITIES.forEach(function (c) { out[c] = 0; });
@@ -219,7 +232,7 @@
     CITIES: CITIES, CATEGORIES: CATEGORIES, MAX_QTY: MAX_QTY,
     normalize: normalize, slugify: slugify, escapeHtml: escapeHtml,
     toCents: toCents, formatBRL: formatBRL, isValidWhatsApp: isValidWhatsApp, formatPhone: formatPhone,
-    canOrder: canOrder, filterStores: filterStores, countByCity: countByCity,
+    canOrder: canOrder, filterStores: filterStores, rankStores: rankStores, countByCity: countByCity,
     emptyCart: emptyCart, addItem: addItem, setQty: setQty, reconcileCart: reconcileCart, itemQty: itemQty,
     validateSelection: validateSelection, unitPrice: unitPrice, lineKey: lineKey,
     cartCount: cartCount, cartTotals: cartTotals, buildOrderMessage: buildOrderMessage,

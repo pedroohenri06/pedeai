@@ -1,5 +1,5 @@
 {
-  "_sobre": "Logotipos oficiais tirados da foto de perfil do Instagram de cada loja (prints enviados pelo dono do projeto em 28/10/2026). Arquivos-fonte: recorte circular da foto de perfil ampliada; 'portal-vetor.png' é a renderização do vetor data/research/logos/portal-burguer-grill.svg (o perfil usa uma foto do letreiro). Aplicar com: python3 scripts/apply-logos.py <pasta-com-os-arquivos>",
+  "_sobre": "Logotipos oficiais tirados da foto de perfil do Instagram de cada loja (prints enviados pelo dono do projeto em 28/10/2026). Arquivos-fonte: recorte circular da foto de perfil ampliada; 'portal-vetor.png' é a renderização do vetor data/research/logos/portal-burguer-grill.svg (o perfil usa uma foto do letreiro). Aplicar com: python3 scripts/apply-logos.py <pasta-com-os-arquivos> Lote de 29/10/2026 (10 cidades): foto de perfil recortada dos prints de data/research/instagram-2026-10-29, ampliada 4x com super-resolução (EDSR) e sem o círculo do Instagram.",
   "logos": {
     "sabor-na-brasa-nova-xavantina": {
       "file": "sabor.png",
@@ -128,6 +128,682 @@
     "tia-do-lanche-agua-boa": {
       "file": "tiadolanche.png",
       "instagram": "tiadolancheab"
+    },
+    "tenda-restaurant-and-grill-agua-boa": {
+      "file": "tenda-restaurant-and-grill-agua-boa.png",
+      "instagram": "tendaaguaboa"
+    },
+    "galeria-espeto-agua-boa": {
+      "file": "galeria-espeto-agua-boa.png",
+      "instagram": "galeria_espeto"
+    },
+    "oishi-sushi-agua-boa-agua-boa": {
+      "file": "oishi-sushi-agua-boa-agua-boa.png",
+      "instagram": "oishisushiab"
+    },
+    "pizzaria-fornalha-agua-boa": {
+      "file": "pizzaria-fornalha-agua-boa.png",
+      "instagram": "fornalha_ab"
+    },
+    "ds-burguer-agua-boa": {
+      "file": "ds-burguer-agua-boa.png",
+      "instagram": "ds_burguer_"
+    },
+    "frutos-de-goias-agua-boa-agua-boa": {
+      "file": "frutos-de-goias-agua-boa-agua-boa.png",
+      "instagram": "frutosdegoiasaguaboa"
+    },
+    "magnolia-confeitaria-e-cafe-agua-boa": {
+      "file": "magnolia-confeitaria-e-cafe-agua-boa.png",
+      "instagram": "magnoliaconfeitariaa"
+    },
+    "hamburgueria-raiz-agua-boa": {
+      "file": "hamburgueria-raiz-agua-boa.png",
+      "instagram": "hamburgueriaraiz_"
+    },
+    "d-talia-agua-boa-agua-boa": {
+      "file": "d-talia-agua-boa-agua-boa.png",
+      "instagram": "dtaliaaguaboa"
+    },
+    "o-grego-lanches-agua-boa": {
+      "file": "o-grego-lanches-agua-boa.png",
+      "instagram": "ogrego_lanches"
+    },
+    "atlas-sorveteria-e-acai-agua-boa": {
+      "file": "atlas-sorveteria-e-acai-agua-boa.png",
+      "instagram": "atlassorveteria"
+    },
+    "booba-sorveteria-doceria-agua-boa": {
+      "file": "booba-sorveteria-doceria-agua-boa.png",
+      "instagram": "booba_sorvete"
+    },
+    "cantina-das-massas-agua-boa": {
+      "file": "cantina-das-massas-agua-boa.png",
+      "instagram": "cantina_dass_massas"
+    },
+    "bom-manjare-agua-boa": {
+      "file": "bom-manjare-agua-boa.png",
+      "instagram": "bom_manjare_ab"
+    },
+    "golden-bird-agua-boa": {
+      "file": "golden-bird-agua-boa.png",
+      "instagram": "goldenbirdab"
+    },
+    "the-best-acai-agua-boa-agua-boa": {
+      "file": "the-best-acai-agua-boa-agua-boa.png",
+      "instagram": "thebestacaiaguaboa_mt"
+    },
+    "rei-burguer-agua-boa": {
+      "file": "rei-burguer-agua-boa.png",
+      "instagram": "reiburguerr"
+    },
+    "karamello-s-confeitaria-cafe-agua-boa": {
+      "file": "karamello-s-confeitaria-cafe-agua-boa.png",
+      "instagram": "karamellosab"
+    },
+    "jah-acai-e-sorvetes-agua-boa": {
+      "file": "jah-acai-e-sorvetes-agua-boa.png",
+      "instagram": "jah_aguaboa"
+    },
+    "golden-hamburgueria-agua-boa": {
+      "file": "golden-hamburgueria-agua-boa.png",
+      "instagram": "goldenhamburgueriaab"
+    },
+    "pub-goiano-agua-boa": {
+      "file": "pub-goiano-agua-boa.png",
+      "instagram": "pubgoianoab"
+    },
+    "doces-do-vale-agua-boa": {
+      "file": "doces-do-vale-agua-boa.png",
+      "instagram": "doce.sdovale"
+    },
+    "delicias-da-jujuzinha-agua-boa": {
+      "file": "delicias-da-jujuzinha-agua-boa.png",
+      "instagram": "deliciasdajujuzinhaa"
+    },
+    "caseiro-s-marmitaria-agua-boa": {
+      "file": "caseiro-s-marmitaria-agua-boa.png",
+      "instagram": "caseiros_marmitaria"
+    },
+    "espetinho-do-jorge-agua-boa": {
+      "file": "espetinho-do-jorge-agua-boa.png",
+      "instagram": "espetinhodojorgeab"
+    },
+    "chiquinho-sorvetes-agua-boa-agua-boa": {
+      "file": "chiquinho-sorvetes-agua-boa-agua-boa.png",
+      "instagram": "chiquinhoaguaboa"
+    },
+    "burguerzia-agua-boa": {
+      "file": "burguerzia-agua-boa.png",
+      "instagram": "burguerzia.ab"
+    },
+    "restaurante-alecrim-agua-boa": {
+      "file": "restaurante-alecrim-agua-boa.png",
+      "instagram": "restaurante_alecrimab"
+    },
+    "creme-mania-sorvetes-agua-boa": {
+      "file": "creme-mania-sorvetes-agua-boa.png",
+      "instagram": "crememaniaab"
+    },
+    "agua-verde-espetaria-e-terere-delivery-barra-do-garcas": {
+      "file": "agua-verde-espetaria-e-terere-delivery-barra-do-garcas.png",
+      "instagram": "aguaverdee"
+    },
+    "dantes-barra-do-garcas": {
+      "file": "dantes-barra-do-garcas.png",
+      "instagram": "dantes.bg"
+    },
+    "emporio-pizzaria-barra-barra-do-garcas": {
+      "file": "emporio-pizzaria-barra-barra-do-garcas.png",
+      "instagram": "emporiopizzariabarra"
+    },
+    "le-monde-burguer-hamburgueria-barra-do-garcas": {
+      "file": "le-monde-burguer-hamburgueria-barra-do-garcas.png",
+      "instagram": "lemondeburguer"
+    },
+    "marmitaria-da-barra-barra-do-garcas": {
+      "file": "marmitaria-da-barra-barra-do-garcas.png",
+      "instagram": "marmitariadabarra"
+    },
+    "pizzaria-coqueiros-barra-do-garcas": {
+      "file": "pizzaria-coqueiros-barra-do-garcas.png",
+      "instagram": "pizzariacoqueiros"
+    },
+    "sushi-loko-barra-do-garcas-barra-do-garcas": {
+      "file": "sushi-loko-barra-do-garcas-barra-do-garcas.png",
+      "instagram": "sushilokomt"
+    },
+    "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas": {
+      "file": "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas.png",
+      "instagram": "zhu.marmitas"
+    },
+    "panificadora-sao-paulo-barra-do-garcas": {
+      "file": "panificadora-sao-paulo-barra-do-garcas.png",
+      "instagram": "panificadora.saopaulo"
+    },
+    "madrugordao-lanches-barra-do-garcas": {
+      "file": "madrugordao-lanches-barra-do-garcas.png",
+      "instagram": "madrugordao_bg"
+    },
+    "jose-lanches-barra-do-garcas": {
+      "file": "jose-lanches-barra-do-garcas.png",
+      "instagram": "jose_lanches_bg"
+    },
+    "ponto-burguer-ponto-do-hamburguer-barra-do-garcas": {
+      "file": "ponto-burguer-ponto-do-hamburguer-barra-do-garcas.png",
+      "instagram": "ponto.burguerbg"
+    },
+    "062-burguer-barra-do-garcas": {
+      "file": "062-burguer-barra-do-garcas.png",
+      "instagram": "062burguer"
+    },
+    "ponto-do-acai-barra-do-garcas": {
+      "file": "ponto-do-acai-barra-do-garcas.png",
+      "instagram": "acaipontobg"
+    },
+    "acai-royal-delivery-barra-do-garcas": {
+      "file": "acai-royal-delivery-barra-do-garcas.png",
+      "instagram": "acairoyal__"
+    },
+    "leo-pasteis-saltenhas-barra-do-garcas": {
+      "file": "leo-pasteis-saltenhas-barra-do-garcas.png",
+      "instagram": "pastelariadoleobg"
+    },
+    "frutos-de-goias-sorveteria-barra-do-garcas": {
+      "file": "frutos-de-goias-sorveteria-barra-do-garcas.png",
+      "instagram": "frutosdegoiasbgoficial"
+    },
+    "ana-docura-confeitaria-barra-do-garcas": {
+      "file": "ana-docura-confeitaria-barra-do-garcas.png",
+      "instagram": "ana.docura"
+    },
+    "maria-filo-barra-do-garcas": {
+      "file": "maria-filo-barra-do-garcas.png",
+      "instagram": "mariafilo_bg"
+    },
+    "bolos-do-sitio-emporio-barra-do-garcas": {
+      "file": "bolos-do-sitio-emporio-barra-do-garcas.png",
+      "instagram": "bolosdositiobarra"
+    },
+    "doces-da-ana-barra-do-garcas": {
+      "file": "doces-da-ana-barra-do-garcas.png",
+      "instagram": "docesdaanabg"
+    },
+    "pizzaria-sabor-carioca-barra-do-garcas": {
+      "file": "pizzaria-sabor-carioca-barra-do-garcas.png",
+      "instagram": "pizzariasaborcariocabg"
+    },
+    "cheff-do-espeto-barra-do-garcas": {
+      "file": "cheff-do-espeto-barra-do-garcas.png",
+      "instagram": "cheffdoespeto_"
+    },
+    "restaurante-buteco-do-bicudo-barra-do-garcas": {
+      "file": "restaurante-buteco-do-bicudo-barra-do-garcas.png",
+      "instagram": "butecodobicudobg"
+    },
+    "casarao-beer-churrascaria-barra-do-garcas": {
+      "file": "casarao-beer-churrascaria-barra-do-garcas.png",
+      "instagram": "casaraobeer.bg"
+    },
+    "sintonia-hamburgueria-e-pizzaria-campinapolis": {
+      "file": "sintonia-hamburgueria-e-pizzaria-campinapolis.png",
+      "instagram": "sintoniahamburgueepizzas"
+    },
+    "eclipse-lanchonete-e-pizzaria-campinapolis": {
+      "file": "eclipse-lanchonete-e-pizzaria-campinapolis.png",
+      "instagram": "eclipse.lanchonete"
+    },
+    "pizzaria-d-italia-canarana": {
+      "file": "pizzaria-d-italia-canarana.png",
+      "instagram": "dtalia.canarana"
+    },
+    "chicken-box-canarana-canarana": {
+      "file": "chicken-box-canarana-canarana.png",
+      "instagram": "chickenbox.canarana"
+    },
+    "saboritos-burguer-sorveteria-canarana": {
+      "file": "saboritos-burguer-sorveteria-canarana.png",
+      "instagram": "saboritosburguer"
+    },
+    "buxadinha-lanches-canarana": {
+      "file": "buxadinha-lanches-canarana.png",
+      "instagram": "buxadinhaa"
+    },
+    "restaurante-ponto-certo-e-conveniencia-canarana": {
+      "file": "restaurante-ponto-certo-e-conveniencia-canarana.png",
+      "instagram": "restaurantepontocerto2026"
+    },
+    "rossi-batataria-e-pizzaria-canarana": {
+      "file": "rossi-batataria-e-pizzaria-canarana.png",
+      "instagram": "rossibatatariacanarana"
+    },
+    "mordatto-canarana": {
+      "file": "mordatto-canarana.png",
+      "instagram": "mordattohamburgueria"
+    },
+    "casa-da-pizza-delivery-canarana": {
+      "file": "casa-da-pizza-delivery-canarana.png",
+      "instagram": "casadapizzacanarana"
+    },
+    "poke-poke-ao-quadrado-canarana": {
+      "file": "poke-poke-ao-quadrado-canarana.png",
+      "instagram": "pokeriacanarana"
+    },
+    "suprema-pizza-pastelaria-canarana": {
+      "file": "suprema-pizza-pastelaria-canarana.png",
+      "instagram": "suprema_cnn"
+    },
+    "o-mestre-da-pizza-canarana": {
+      "file": "o-mestre-da-pizza-canarana.png",
+      "instagram": "omestredapizzadelivery"
+    },
+    "massas-delivery-canarana-canarana": {
+      "file": "massas-delivery-canarana-canarana.png",
+      "instagram": "massas_deliverycanarana"
+    },
+    "bruto-espetaria-canarana": {
+      "file": "bruto-espetaria-canarana.png",
+      "instagram": "bruto_espetaria"
+    },
+    "churrascaria-do-jiovani-canarana": {
+      "file": "churrascaria-do-jiovani-canarana.png",
+      "instagram": "churrascariadojiovani_canarana"
+    },
+    "dona-sonia-restaurante-canarana": {
+      "file": "dona-sonia-restaurante-canarana.png",
+      "instagram": "donasoniarestaurante8"
+    },
+    "acai-das-meninas-canarana": {
+      "file": "acai-das-meninas-canarana.png",
+      "instagram": "acai.das.meninas.ofc"
+    },
+    "la-pastelli-canarana": {
+      "file": "la-pastelli-canarana.png",
+      "instagram": "la_pastellicanarana"
+    },
+    "ale-cafe-emporio-canarana": {
+      "file": "ale-cafe-emporio-canarana.png",
+      "instagram": "alecafeeemporio"
+    },
+    "jah-acai-e-sorvetes-canarana": {
+      "file": "jah-acai-e-sorvetes-canarana.png",
+      "instagram": "jahcanarana"
+    },
+    "flomas-burguer-canarana": {
+      "file": "flomas-burguer-canarana.png",
+      "instagram": "flomas_burguer"
+    },
+    "chapa-quente-lanches-canarana": {
+      "file": "chapa-quente-lanches-canarana.png",
+      "instagram": "chapaquente_cnn"
+    },
+    "paulus-cafe-central-canarana": {
+      "file": "paulus-cafe-central-canarana.png",
+      "instagram": "pauluscafecentral"
+    },
+    "real-gelados-canarana-canarana": {
+      "file": "real-gelados-canarana-canarana.png",
+      "instagram": "realgeladoscanarana"
+    },
+    "delicias-da-keylla-canarana": {
+      "file": "delicias-da-keylla-canarana.png",
+      "instagram": "delicias_da_keillla"
+    },
+    "frangolino-canarana": {
+      "file": "frangolino-canarana.png",
+      "instagram": "frangolinocanarana"
+    },
+    "texas-burger-grill-canarana": {
+      "file": "texas-burger-grill-canarana.png",
+      "instagram": "texasburgeregrill24"
+    },
+    "bolo-bom-canarana": {
+      "file": "bolo-bom-canarana.png",
+      "instagram": "bolo_bomboloedoces"
+    },
+    "casa-do-acai-pastel-canarana": {
+      "file": "casa-do-acai-pastel-canarana.png",
+      "instagram": "casadoacaiepastel2024"
+    },
+    "la-no-tche-churrascaria-canarana": {
+      "file": "la-no-tche-churrascaria-canarana.png",
+      "instagram": "lanotche_churrascaria"
+    },
+    "restaurante-tempero-baiano-canarana": {
+      "file": "restaurante-tempero-baiano-canarana.png",
+      "instagram": "restaurante_temperobaianolu"
+    },
+    "gabriela-cakes-canarana": {
+      "file": "gabriela-cakes-canarana.png",
+      "instagram": "gabrielacakes.canarana"
+    },
+    "hora-do-lanche-canarana": {
+      "file": "hora-do-lanche-canarana.png",
+      "instagram": "horadolanche.66"
+    },
+    "lanchonete-e-chopp-do-luizao-nova-xavantina": {
+      "file": "lanchonete-e-chopp-do-luizao-nova-xavantina.png",
+      "instagram": "lanchonete__e_chopp_do_luizao"
+    },
+    "pizzaria-sinal-verde-nova-xavantina": {
+      "file": "pizzaria-sinal-verde-nova-xavantina.png",
+      "instagram": "pizzaria_sinal_verde"
+    },
+    "casa-do-espeto-nova-xavantina": {
+      "file": "casa-do-espeto-nova-xavantina.png",
+      "instagram": "casadoespetonx"
+    },
+    "magnifico-burguer-nx-nova-xavantina": {
+      "file": "magnifico-burguer-nx-nova-xavantina.png",
+      "instagram": "magnificoburguernx"
+    },
+    "magnifico-hot-dog-nx-nova-xavantina": {
+      "file": "magnifico-hot-dog-nx-nova-xavantina.png",
+      "instagram": "magnificohotdognx"
+    },
+    "celeiro-panificadora-e-confeitaria-nova-xavantina": {
+      "file": "celeiro-panificadora-e-confeitaria-nova-xavantina.png",
+      "instagram": "celeiropanificadoranx"
+    },
+    "forja-burguer-nova-xavantina": {
+      "file": "forja-burguer-nova-xavantina.png",
+      "instagram": "forjaburguer_nxa"
+    },
+    "casa-da-pizza-de-querencia-querencia": {
+      "file": "casa-da-pizza-de-querencia-querencia.png",
+      "instagram": "casadapizzaquerencia"
+    },
+    "casa-do-sushi-querencia": {
+      "file": "casa-do-sushi-querencia.png",
+      "instagram": "casadosushi.querencia"
+    },
+    "chiquinho-sorvetes-querencia": {
+      "file": "chiquinho-sorvetes-querencia.png",
+      "instagram": "chiquinhoquerenciamt"
+    },
+    "dtalia-pizzaria-querencia-querencia": {
+      "file": "dtalia-pizzaria-querencia-querencia.png",
+      "instagram": "dtaliaquerencia"
+    },
+    "go-burger-delivery-querencia": {
+      "file": "go-burger-delivery-querencia.png",
+      "instagram": "goburger_querencia"
+    },
+    "takaki-sushi-querencia": {
+      "file": "takaki-sushi-querencia.png",
+      "instagram": "takakisushi"
+    },
+    "coral-sushi-delivery-querencia": {
+      "file": "coral-sushi-delivery-querencia.png",
+      "instagram": "coral_sushi_"
+    },
+    "gg-burguer-querencia": {
+      "file": "gg-burguer-querencia.png",
+      "instagram": "ggburguer_quer"
+    },
+    "rei-do-hamburguer-querencia": {
+      "file": "rei-do-hamburguer-querencia.png",
+      "instagram": "rei_do_hamburguer_qrc"
+    },
+    "dolce-affetto-confeitaria-querencia": {
+      "file": "dolce-affetto-confeitaria-querencia.png",
+      "instagram": "dolce_affettoconfeitaria"
+    },
+    "quintal-sorveteria-querencia": {
+      "file": "quintal-sorveteria-querencia.png",
+      "instagram": "quintalsorveteria"
+    },
+    "restaurante-toque-caseiro-querencia": {
+      "file": "restaurante-toque-caseiro-querencia.png",
+      "instagram": "toquecaseiroquerencia"
+    },
+    "real-gelados-querencia": {
+      "file": "real-gelados-querencia.png",
+      "instagram": "real_geladosquerencia"
+    },
+    "santo-espeto-pao-de-alho-s-e-querencia": {
+      "file": "santo-espeto-pao-de-alho-s-e-querencia.png",
+      "instagram": "santo_.espeto"
+    },
+    "sabor-na-caixa-querencia": {
+      "file": "sabor-na-caixa-querencia.png",
+      "instagram": "delivery_sabor_na_caixa"
+    },
+    "encanto-de-sabores-querencia": {
+      "file": "encanto-de-sabores-querencia.png",
+      "instagram": "encantodesabores_26"
+    },
+    "bom-sabor-sorveteria-e-acaiteria-querencia": {
+      "file": "bom-sabor-sorveteria-e-acaiteria-querencia.png",
+      "instagram": "bom.sabor_querencia"
+    },
+    "60-sabores-artesanal-querencia-querencia": {
+      "file": "60-sabores-artesanal-querencia-querencia.png",
+      "instagram": "60sabores_querencia"
+    },
+    "degust-massas-querencia": {
+      "file": "degust-massas-querencia.png",
+      "instagram": "degustquerencia"
+    },
+    "kali-doces-querencia": {
+      "file": "kali-doces-querencia.png",
+      "instagram": "kali_doces27"
+    },
+    "nini-gelato-artesanal-querencia": {
+      "file": "nini-gelato-artesanal-querencia.png",
+      "instagram": "ninigelatoartesanal_"
+    },
+    "tia-do-lanche-querencia": {
+      "file": "tia-do-lanche-querencia.png",
+      "instagram": "tiadolancheee"
+    },
+    "hot-dog-family-querencia": {
+      "file": "hot-dog-family-querencia.png",
+      "instagram": "hotdogfamilyy"
+    },
+    "cuscuz-da-mainha-querencia": {
+      "file": "cuscuz-da-mainha-querencia.png",
+      "instagram": "cuscuzdamainha"
+    },
+    "mp-sabor-e-docura-querencia": {
+      "file": "mp-sabor-e-docura-querencia.png",
+      "instagram": "mpsaboredocura"
+    },
+    "espetinho-do-gordinho-querencia": {
+      "file": "espetinho-do-gordinho-querencia.png",
+      "instagram": "espetinhodogordinhomt"
+    },
+    "owzi-burger-querencia": {
+      "file": "owzi-burger-querencia.png",
+      "instagram": "owziburger"
+    },
+    "panificadora-central-querencia": {
+      "file": "panificadora-central-querencia.png",
+      "instagram": "panificadora_central_"
+    },
+    "campero-grill-querencia": {
+      "file": "campero-grill-querencia.png",
+      "instagram": "campero.grill"
+    },
+    "churrascaria-rancho-do-vale-querencia": {
+      "file": "churrascaria-rancho-do-vale-querencia.png",
+      "instagram": "churrascariaranchodovale"
+    },
+    "geladinhos-prisci-querencia": {
+      "file": "geladinhos-prisci-querencia.png",
+      "instagram": "geladinhosprisci"
+    },
+    "leidy-cakes-querencia": {
+      "file": "leidy-cakes-querencia.png",
+      "instagram": "coelho.leidycakes"
+    },
+    "prii-pipocas-gourmet-querencia": {
+      "file": "prii-pipocas-gourmet-querencia.png",
+      "instagram": "priipipocas.gourmet"
+    },
+    "armazem-pizzaria-artesanal-querencia": {
+      "file": "armazem-pizzaria-artesanal-querencia.png",
+      "instagram": "artesanal_armazem"
+    },
+    "picanhas-grill-querencia": {
+      "file": "picanhas-grill-querencia.png",
+      "instagram": "picanhasgrillmt"
+    },
+    "pizzaria-kabanas-ribeirao-cascalheira": {
+      "file": "pizzaria-kabanas-ribeirao-cascalheira.png",
+      "instagram": "pizzariakabanas20"
+    },
+    "sorveteria-d-acai-ribeirao-cascalheira": {
+      "file": "sorveteria-d-acai-ribeirao-cascalheira.png",
+      "instagram": "d.mais.acai"
+    },
+    "amor-sabor-ribeirao-cascalheira": {
+      "file": "amor-sabor-ribeirao-cascalheira.png",
+      "instagram": "amoresaborrc"
+    },
+    "delicias-da-nutri-ribeirao-cascalheira": {
+      "file": "delicias-da-nutri-ribeirao-cascalheira.png",
+      "instagram": "deliciasdanutri_rc"
+    },
+    "vania-confeitaria-sao-felix-do-araguaia": {
+      "file": "vania-confeitaria-sao-felix-do-araguaia.png",
+      "instagram": "vania_confeitaria_oficial"
+    },
+    "ice-mix-gelados-vila-rica": {
+      "file": "ice-mix-gelados-vila-rica.png",
+      "instagram": "icemix.gelados"
+    },
+    "britzke-magia-vila-rica": {
+      "file": "britzke-magia-vila-rica.png",
+      "instagram": "britzke_magia"
+    },
+    "tche-hamburgueria-e-sorveteria-vila-rica": {
+      "file": "tche-hamburgueria-e-sorveteria-vila-rica.png",
+      "instagram": "tcheburgueresorvetevr"
+    },
+    "tare-sushi-vila-rica": {
+      "file": "tare-sushi-vila-rica.png",
+      "instagram": "taresushi2024"
+    },
+    "fort-sabor-vila-rica-vila-rica": {
+      "file": "fort-sabor-vila-rica-vila-rica.png",
+      "instagram": "fortsabor_vr"
+    },
+    "flavio-brasa-burger-vila-rica": {
+      "file": "flavio-brasa-burger-vila-rica.png",
+      "instagram": "flaviobrasa_burger"
+    },
+    "pastelar-vila-rica": {
+      "file": "pastelar-vila-rica.png",
+      "instagram": "pastelar2026"
+    },
+    "villa-grill-churrascaria-e-restaurante-vila-rica": {
+      "file": "villa-grill-churrascaria-e-restaurante-vila-rica.png",
+      "instagram": "villagrill2026"
+    },
+    "bia-lanches-vila-rica": {
+      "file": "bia-lanches-vila-rica.png",
+      "instagram": "bia_lanches_oficial"
+    },
+    "churra-s-grego-vila-rica": {
+      "file": "churra-s-grego-vila-rica.png",
+      "instagram": "churras_gregovr"
+    },
+    "creme-mania-vila-rica-vila-rica": {
+      "file": "creme-mania-vila-rica-vila-rica.png",
+      "instagram": "crememania_vr"
+    },
+    "mily-doces-vila-rica": {
+      "file": "mily-doces-vila-rica.png",
+      "instagram": "mily.doces_"
+    },
+    "ke-pudim-vila-rica": {
+      "file": "ke-pudim-vila-rica.png",
+      "instagram": "pudim_ke"
+    },
+    "crep-s-da-mari-vila-rica": {
+      "file": "crep-s-da-mari-vila-rica.png",
+      "instagram": "creps_dmari"
+    },
+    "doce-estouro-pipocas-gourmet-vila-rica": {
+      "file": "doce-estouro-pipocas-gourmet-vila-rica.png",
+      "instagram": "doceesttouro"
+    },
+    "cforno-cia-artesanal-vila-rica": {
+      "file": "cforno-cia-artesanal-vila-rica.png",
+      "instagram": "cfornoecia.artesanal"
+    },
+    "rs-confeitaria-vila-rica": {
+      "file": "rs-confeitaria-vila-rica.png",
+      "instagram": "rsconfeitaria374"
+    },
+    "minis-da-michele-vila-rica": {
+      "file": "minis-da-michele-vila-rica.png",
+      "instagram": "minisdamichele"
+    },
+    "brownieria-vila-rica": {
+      "file": "brownieria-vila-rica.png",
+      "instagram": "sbrownieartesanal"
+    },
+    "savianinha-sorveteria-e-acaiteria-vila-rica": {
+      "file": "savianinha-sorveteria-e-acaiteria-vila-rica.png",
+      "instagram": "savianinhasorveteria"
+    },
+    "alberita-s-hamburguer-e-massas-vila-rica": {
+      "file": "alberita-s-hamburguer-e-massas-vila-rica.png",
+      "instagram": "alberitasoficial"
+    },
+    "pizzaria-gomes-vila-rica": {
+      "file": "pizzaria-gomes-vila-rica.png",
+      "instagram": "gomespizzaria_vr"
+    },
+    "morango-moreno-sorvetes-vila-rica": {
+      "file": "morango-moreno-sorvetes-vila-rica.png",
+      "instagram": "dio_morangomoreno_sorvetes"
+    },
+    "pizzaria-bella-vila-rica": {
+      "file": "pizzaria-bella-vila-rica.png",
+      "instagram": "bellapizzaria_vilarica"
+    },
+    "emporio-do-chocolate-e-brigadeiria-canarana": {
+      "file": "emporio-do-chocolate-e-brigadeiria-canarana.png",
+      "instagram": "emporiodochocolateebrigadeiria",
+      "tipo": "foto de perfil (sem logo própria)"
+    },
+    "rancho-dos-sabores-querencia": {
+      "file": "rancho-dos-sabores-querencia.png",
+      "instagram": "rancho_dos__sabores",
+      "tipo": "foto de perfil (sem logo própria)"
+    },
+    "janaina-lorrainy-doces-querencia": {
+      "file": "janaina-lorrainy-doces-querencia.png",
+      "instagram": "janaina_lorrainy_doces",
+      "tipo": "foto de perfil (sem logo própria)"
+    },
+    "karol-doces-querencia": {
+      "file": "karol-doces-querencia.png",
+      "instagram": "karoldocesg",
+      "tipo": "foto de perfil (sem logo própria)"
+    },
+    "kendyy-lanches-ribeirao-cascalheira": {
+      "file": "kendyy-lanches-ribeirao-cascalheira.png",
+      "instagram": "kendylla_lanches_2.0",
+      "tipo": "foto de perfil (sem logo própria)"
+    },
+    "mayhara-cakes-novo-sao-joaquim": {
+      "file": "mayhara-cakes-novo-sao-joaquim.png",
+      "instagram": "mayhara.cakes",
+      "tipo": "foto de perfil (sem logo própria)"
+    },
+    "maia-s-brigadeiria-artesanal-nova-xavantina": {
+      "file": "maia-s-brigadeiria-artesanal-nova-xavantina.png",
+      "instagram": "maiasbrigadeiriaartesanal",
+      "tipo": "foto de perfil (sem logo própria)"
+    },
+    "burguer-s-house-gourmet-nova-xavantina": {
+      "file": "burguer-s-house-gourmet-nova-xavantina.png",
+      "instagram": "burguershouse_nx",
+      "tipo": "foto de perfil (sem logo própria)"
     }
   }
 }

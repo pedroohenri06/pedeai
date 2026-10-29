@@ -66,16 +66,16 @@
     });
   }
 
-  /* Ordem da listagem: destaques escolhidos pelo dono do projeto (featured: true) primeiro, depois onde dá para pedir,
-     com cardápio, com foto ou logo própria e mais verificados; cadastros "Em verificação" vão para o fim.
-     Empate: ordem alfabética. Não altera a lista recebida. */
+  /* Ordem da listagem: "rank" calculado por scripts/rank-stores.js (destaques, qualidade da imagem e popularidade);
+     sem rank, destaques (featured) primeiro, depois onde dá para pedir, com cardápio, com foto ou logo própria e mais
+     verificados; cadastros "Em verificação" vão para o fim. Empate: ordem alfabética. Não altera a lista recebida. */
   var CONFIDENCE_RANK = { alta: 0, media: 1, baixa: 2 };
   function storeRank(s) {
-    return [s.featured ? 0 : 1, canOrder(s) ? 0 : 1, s.menu && s.menu.length ? 0 : 1, s.image || s.logo ? 0 : 1, s.confidence in CONFIDENCE_RANK ? CONFIDENCE_RANK[s.confidence] : 1];
+    return [s.rank > 0 ? s.rank : Infinity, s.featured ? 0 : 1, canOrder(s) ? 0 : 1, s.menu && s.menu.length ? 0 : 1, s.image || s.logo ? 0 : 1, s.confidence in CONFIDENCE_RANK ? CONFIDENCE_RANK[s.confidence] : 1];
   }
   function rankStores(stores) {
     return stores.map(function (s) { return { s: s, r: storeRank(s) }; }).sort(function (a, b) {
-      for (var i = 0; i < a.r.length; i++) if (a.r[i] !== b.r[i]) return a.r[i] - b.r[i];
+      for (var i = 0; i < a.r.length; i++) if (a.r[i] !== b.r[i]) return a.r[i] < b.r[i] ? -1 : 1;
       return a.s.name.localeCompare(b.s.name, 'pt-BR');
     }).map(function (x) { return x.s; });
   }

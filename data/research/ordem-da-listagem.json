@@ -1,0 +1,137 @@
+{
+  "_sobre": "Ordem da listagem, escolhida com o Pedro (29/10/2026). 'destaques': aparecem primeiro, nesta ordem (nomes mais conhecidos, com logo forte). 'imagemFraca': logo ou foto de pouca qualidade; não entra nas primeiras posições, mas se mistura ao resto em vez de ir toda para o fim. O resto da ordem é calculado por scripts/rank-stores.js.",
+  "destaques": {
+    "Nova Xavantina": [
+      "hatsuki-nova-xavantina-nova-xavantina",
+      "refugio-do-chopp-nova-xavantina",
+      "suprema-pizza-nova-xavantina",
+      "sorveteria-creme-mania-nova-xavantina"
+    ],
+    "Barra do Garças": [
+      "dad-burger-barra-do-garcas",
+      "dantes-barra-do-garcas",
+      "le-monde-burguer-hamburgueria-barra-do-garcas",
+      "madrugordao-lanches-barra-do-garcas",
+      "acai-royal-delivery-barra-do-garcas",
+      "ponto-burguer-ponto-do-hamburguer-barra-do-garcas"
+    ],
+    "Água Boa": [
+      "creme-mania-sorvetes-agua-boa",
+      "oishi-sushi-agua-boa-agua-boa",
+      "pizzaria-fornalha-agua-boa",
+      "d-talia-agua-boa-agua-boa",
+      "bocao-lanches-ab-agua-boa",
+      "golden-bird-agua-boa"
+    ],
+    "Canarana": [
+      "restaurante-e-pizzaria-chopinho-canarana",
+      "suprema-pizza-pastelaria-canarana",
+      "pizzaria-d-italia-canarana",
+      "frangolino-canarana",
+      "acai-das-meninas-canarana",
+      "poke-poke-ao-quadrado-canarana"
+    ],
+    "Querência": [
+      "pizzaria-imperial-delivery-querencia",
+      "dtalia-pizzaria-querencia-querencia",
+      "owzi-burger-querencia",
+      "go-burger-delivery-querencia",
+      "quintal-sorveteria-querencia",
+      "chiquinho-sorvetes-querencia"
+    ],
+    "Vila Rica": [
+      "acai-super-top-vila-rica",
+      "tare-sushi-vila-rica",
+      "britzke-magia-vila-rica",
+      "churra-s-grego-vila-rica",
+      "flavio-brasa-burger-vila-rica",
+      "ice-mix-gelados-vila-rica"
+    ],
+    "São Félix do Araguaia": [
+      "restaurante-solar-das-aguas-sao-felix-do-araguaia"
+    ],
+    "Ribeirão Cascalheira": [
+      "pizzaria-kabanas-ribeirao-cascalheira",
+      "sorveteria-d-acai-ribeirao-cascalheira"
+    ],
+    "Novo São Joaquim": [
+      "creme-mania-sorvetes-novo-sao-joaquim",
+      "beliskos-lanchonete-e-restaurante-novo-sao-joaquim"
+    ],
+    "Campinápolis": [
+      "restaurante-casa-da-vovo-campinapolis",
+      "eclipse-lanchonete-e-pizzaria-campinapolis"
+    ]
+  },
+  "imagemFraca": {
+    "Barra do Garças": [
+      "062-burguer-barra-do-garcas",
+      "ana-docura-confeitaria-barra-do-garcas",
+      "bolos-do-sitio-emporio-barra-do-garcas",
+      "doces-da-ana-barra-do-garcas",
+      "emporio-pizzaria-barra-barra-do-garcas",
+      "maria-filo-barra-do-garcas",
+      "restaurante-buteco-do-bicudo-barra-do-garcas",
+      "sushi-loko-barra-do-garcas-barra-do-garcas",
+      "agua-verde-espetaria-e-terere-delivery-barra-do-garcas"
+    ],
+    "Água Boa": [
+      "bom-manjare-agua-boa",
+      "brasa-som-agua-boa",
+      "doces-do-vale-agua-boa",
+      "espetinho-do-jorge-agua-boa",
+      "karamello-s-confeitaria-cafe-agua-boa",
+      "restaurante-alecrim-agua-boa"
+    ],
+    "Canarana": [
+      "bolo-bom-canarana",
+      "bruto-espetaria-canarana",
+      "chicken-box-canarana-canarana",
+      "emporio-do-chocolate-e-brigadeiria-canarana",
+      "flomas-burguer-canarana",
+      "gabriela-cakes-canarana",
+      "la-pastelli-canarana",
+      "mordatto-canarana",
+      "marcio-lanches-canarana",
+      "o-mestre-da-pizza-canarana",
+      "pastelaria-do-grima-canarana",
+      "restaurante-ponto-certo-e-conveniencia-canarana",
+      "saboritos-burguer-sorveteria-canarana",
+      "texas-burger-grill-canarana"
+    ],
+    "Querência": [
+      "armazem-pizzaria-artesanal-querencia",
+      "campero-grill-querencia",
+      "casa-da-pizza-de-querencia-querencia",
+      "casa-do-sushi-querencia",
+      "cuscuz-da-mainha-querencia",
+      "degust-massas-querencia",
+      "encanto-de-sabores-querencia",
+      "gg-burguer-querencia",
+      "leidy-cakes-querencia",
+      "mp-sabor-e-docura-querencia",
+      "nini-gelato-artesanal-querencia",
+      "panificadora-central-querencia",
+      "santo-espeto-pao-de-alho-s-e-querencia",
+      "takaki-sushi-querencia"
+    ],
+    "Vila Rica": [
+      "alberita-s-hamburguer-e-massas-vila-rica",
+      "brownieria-vila-rica",
+      "cforno-cia-artesanal-vila-rica",
+      "creme-mania-vila-rica-vila-rica",
+      "pastelar-vila-rica",
+      "pizzaria-bella-vila-rica",
+      "rs-confeitaria-vila-rica",
+      "savianinha-sorveteria-e-acaiteria-vila-rica",
+      "tche-hamburgueria-e-sorveteria-vila-rica"
+    ],
+    "Ribeirão Cascalheira": [
+      "amor-sabor-ribeirao-cascalheira",
+      "delicias-da-nutri-ribeirao-cascalheira"
+    ],
+    "São Félix do Araguaia": [
+      "vania-confeitaria-sao-felix-do-araguaia"
+    ]
+  }
+}

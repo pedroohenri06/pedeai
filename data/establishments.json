@@ -6185,6 +6185,58 @@
       }
     },
     {
+      "id": "burguer-s-house-gourmet-nova-xavantina",
+      "name": "Burguer's House Gourmet",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria",
+      "address": "Rua Bahia, 80, Centro",
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "burguershouse_nx",
+      "website": "https://linktr.ee/burguershouse",
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/burguershouse_nx/"
+      ],
+      "confidence": "baixa",
+      "verifiedAt": "2026-10-29",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @burguershouse_nx (118 posts, 2047 seguidores, último post 2026-07-12). Último post ~3,5 meses; entra por 118 posts e 2 mil seguidores. Foto de perfil é um hambúrguer (logoTipo foto)."
+    },
+    {
+      "id": "casa-do-espeto-nova-xavantina",
+      "name": "Casa do Espeto",
+      "city": "Nova Xavantina",
+      "category": "Churrasco",
+      "kind": "Churrascaria (carneiro)",
+      "address": "Avenida Paraná, 391, Centro",
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "casadoespetonx",
+      "website": null,
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/casadoespetonx/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-29",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @casadoespetonx (6 posts, 972 seguidores, último post 2026-10-20). Desde 2014. Bio diz \"Peça pelo WhatsApp\" mas o link não carregou no cabeçalho."
+    },
+    {
       "id": "casa-massa-nova-xavantina",
       "name": "Casa Massa",
       "city": "Nova Xavantina",
@@ -6235,6 +6287,32 @@
       }
     },
     {
+      "id": "celeiro-panificadora-e-confeitaria-nova-xavantina",
+      "name": "Celeiro Panificadora e Confeitaria",
+      "city": "Nova Xavantina",
+      "category": "Café",
+      "kind": "Padaria e confeitaria",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": "5566996590557",
+      "whatsappSource": "https://www.instagram.com/celeiropanificadoranx/",
+      "phone": null,
+      "instagram": "celeiropanificadoranx",
+      "website": null,
+      "orderUrl": null,
+      "hours": "Segunda a segunda",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/celeiropanificadoranx/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-29",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @celeiropanificadoranx (281 posts, 1764 seguidores, último post 2026-10-24). Bio \"Nova Xavantina\"."
+    },
+    {
       "id": "flutua-beach-nova-xavantina",
       "name": "Flutua Beach",
       "city": "Nova Xavantina",
@@ -6269,6 +6347,32 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "A bio lista dois contatos, 66984130600 e 66984007202, sem dizer qual é WhatsApp. É um bar/restaurante no rio, e o delivery não foi confirmado."
+    },
+    {
+      "id": "forja-burguer-nova-xavantina",
+      "name": "Forja Burguer",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria (só delivery)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "forjaburguer_nxa",
+      "website": null,
+      "orderUrl": "https://wa.me/message/TOXY47JLK5NBG1",
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/forjaburguer_nxa/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-29",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @forjaburguer_nxa (5 posts, 189 seguidores, último post 2026-10-03). Perfil novo. Bio \"📍Nova Xavantina\", apenas delivery."
     },
     {
       "id": "frescor-acaiteria-nova-xavantina",
@@ -6468,8 +6572,8 @@
       "kind": "Lanchonete e chopperia",
       "address": null,
       "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
+      "whatsapp": "5566981507707",
+      "whatsappSource": "https://www.instagram.com/lanchonete__e_chopp_do_luizao/",
       "phone": null,
       "instagram": "lanchonete__e_chopp_do_luizao",
       "website": null,
@@ -6483,8 +6587,86 @@
         "https://www.instagram.com/lanchonete__e_chopp_do_luizao/"
       ],
       "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "A bio diz 'Delivery pelo Whatsapp', mas o número não aparece no trecho da busca. Veio de uma busca com 'Nova Xavantina', sem confirmação explícita da cidade. Foto do Street View indisponível fora do Google Maps; pendente."
+      "verifiedAt": "2026-10-29",
+      "notes": "A bio diz 'Delivery pelo Whatsapp', mas o número não aparece no trecho da busca. Veio de uma busca com 'Nova Xavantina', sem confirmação explícita da cidade. Foto do Street View indisponível fora do Google Maps; pendente. Instagram @lanchonete__e_chopp_do_luizao conferido em 2026-10-29 (pesquisa via Claude no Chrome)."
+    },
+    {
+      "id": "magnifico-burguer-nx-nova-xavantina",
+      "name": "Magnífico Burguer NX",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria",
+      "address": "Centro",
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "magnificoburguernx",
+      "website": null,
+      "orderUrl": "https://contate.me/magnificoburguer",
+      "hours": "Seg a dom, 18h às 23h",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/magnificoburguernx/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-29",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @magnificoburguernx (74 posts, 1005 seguidores, último post 2026-10-23)."
+    },
+    {
+      "id": "magnifico-hot-dog-nx-nova-xavantina",
+      "name": "Magnífico Hot Dog NX",
+      "city": "Nova Xavantina",
+      "category": "Hambúrguer",
+      "kind": "Hot dog",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": "5566996088363",
+      "whatsappSource": "https://www.instagram.com/magnificohotdognx/",
+      "phone": null,
+      "instagram": "magnificohotdognx",
+      "website": null,
+      "orderUrl": null,
+      "hours": "Seg a dom, 18h às 23h",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/magnificohotdognx/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-29",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @magnificohotdognx (60 posts, 884 seguidores, último post 2026-10-23). Mesmo grupo do Magnífico Burguer."
+    },
+    {
+      "id": "maia-s-brigadeiria-artesanal-nova-xavantina",
+      "name": "Maia's Brigadeiria Artesanal",
+      "city": "Nova Xavantina",
+      "category": "Doces",
+      "kind": "Brigadeiria / bolos sob encomenda",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "maiasbrigadeiriaartesanal",
+      "website": null,
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/maiasbrigadeiriaartesanal/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-29",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @maiasbrigadeiriaartesanal (694 posts, 3211 seguidores, último post 2026-09-26). Bio \"Nova Xavantina-MT\", \"Encomendas | Sem loja física\" — dúvida se serve para delivery. Foto de perfil é da dona (logoTipo foto)."
     },
     {
       "id": "nexy-acai-nova-xavantina",
@@ -6687,7 +6869,7 @@
       "phone": "556634382872",
       "instagram": "pizzariagaucha",
       "website": null,
-      "orderUrl": null,
+      "orderUrl": "https://wa.me/message/CCJJ636IDWPCF1",
       "hours": null,
       "deliveryFeeCents": null,
       "image": {
@@ -6708,8 +6890,8 @@
         "https://cardapio.menu/restaurants/nova-xavantina/lanchonete-e-pizzaria-gaucha-2"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-25",
-      "notes": "O Instagram mostra o fixo (066) 3438-2872 e menciona um WhatsApp, mas o número não aparece no trecho. A página parece antiga."
+      "verifiedAt": "2026-10-29",
+      "notes": "O Instagram mostra o fixo (066) 3438-2872 e menciona um WhatsApp, mas o número não aparece no trecho. A página parece antiga. Instagram @pizzariagaucha conferido em 2026-10-29 (pesquisa via Claude no Chrome). O perfil informa telefone \"5566996236586\", diferente do cadastro."
     },
     {
       "id": "pizzaria-sinal-verde-nova-xavantina",
@@ -6719,8 +6901,8 @@
       "kind": "Pizzaria",
       "address": "Av. Ministro João Alberto, 701 - Centro",
       "neighborhood": "Centro",
-      "whatsapp": null,
-      "whatsappSource": null,
+      "whatsapp": "5566981362223",
+      "whatsappSource": "https://www.instagram.com/pizzaria_sinal_verde/",
       "phone": "556634382941",
       "instagram": "pizzaria_sinal_verde",
       "website": null,
@@ -6745,8 +6927,8 @@
         "https://uk.trip.com/travel-guide/foods/Nova%20Xavantina-1951712-restaurant/Pizzaria%20Sinal%20Verde-47749336"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-25",
-      "notes": "O número do endereço diverge: o perfil social diz 701 e o Trip.com diz 339. Delivery não confirmado."
+      "verifiedAt": "2026-10-29",
+      "notes": "O número do endereço diverge: o perfil social diz 701 e o Trip.com diz 339. Delivery não confirmado. Instagram @pizzaria_sinal_verde conferido em 2026-10-29 (pesquisa via Claude no Chrome)."
     },
     {
       "id": "portal-burguer-grill-nova-xavantina",
@@ -7027,10 +7209,10 @@
       "whatsapp": "5566997142956",
       "whatsappSource": "https://www.facebook.com/people/Suprema-pizza/100063809479205/",
       "phone": null,
-      "instagram": null,
-      "website": null,
+      "instagram": "supremapizza.delivery",
+      "website": "https://linktr.ee/supremapizzanx",
       "orderUrl": null,
-      "hours": null,
+      "hours": "Todos os dias",
       "deliveryFeeCents": null,
       "image": {
         "src": "assets/stores/suprema-pizza-nova-xavantina.webp",
@@ -7046,11 +7228,12 @@
       "menuSource": null,
       "menu": [],
       "sources": [
-        "https://www.facebook.com/people/Suprema-pizza/100063809479205/"
+        "https://www.facebook.com/people/Suprema-pizza/100063809479205/",
+        "https://www.instagram.com/supremapizza.delivery/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-25",
-      "notes": "Facebook geolocalizado como 'Xavantina, MT' (setor de Nova Xavantina). Provavelmente é a mesma 'Suprema Pizzaria' listada no Econodata. Endereço sem número.",
+      "verifiedAt": "2026-10-29",
+      "notes": "Facebook geolocalizado como 'Xavantina, MT' (setor de Nova Xavantina). Provavelmente é a mesma 'Suprema Pizzaria' listada no Econodata. Endereço sem número. Instagram @supremapizza.delivery conferido em 2026-10-29 (pesquisa via Claude no Chrome).",
       "logo": {
         "src": "assets/stores/suprema-pizza-nova-xavantina-logo.webp",
         "thumb": "assets/stores/suprema-pizza-nova-xavantina-logo-card.webp",

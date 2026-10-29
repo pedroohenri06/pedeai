@@ -4972,11 +4972,11 @@
       "kind": "Lanchonete e pizzaria",
       "address": "Rua Laudelino Domingos de Araujo, S/N - Setor Bela Vista",
       "neighborhood": "Setor Bela Vista",
-      "whatsapp": null,
-      "whatsappSource": null,
+      "whatsapp": "5566992120997",
+      "whatsappSource": "https://www.instagram.com/eclipse.lanchonete/",
       "phone": "556681372890",
-      "instagram": null,
-      "website": null,
+      "instagram": "eclipse.lanchonete",
+      "website": "https://drive.google.com/file/d/1aQfCv6OA31qhrmbLrRqnOvezsMUHvoFe/view",
       "orderUrl": null,
       "hours": null,
       "deliveryFeeCents": null,
@@ -4996,11 +4996,12 @@
       "sources": [
         "https://www.diariocidade.com/mt/campinapolis/guia/bares-e-lanchonetes/",
         "https://pizzapertodemim.com.br/cidade/pizza-em-campinapolis-mt",
-        "https://www.facebook.com/p/Eclipse-lanchonete-e-pizzaria-100068135173885/"
+        "https://www.facebook.com/p/Eclipse-lanchonete-e-pizzaria-100068135173885/",
+        "https://www.instagram.com/eclipse.lanchonete/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-25",
-      "notes": "Telefone de diretório (Diário Cidade e Pizza Perto de Mim batem), no formato antigo de 8 dígitos, provavelmente hoje (66) 9 8137-2890, mas isso não foi confirmado. A página do Facebook mostra outro número com DDD 27 (+55 27 98810-5379), divergente e não usado. Sem WhatsApp verificado nem cardápio público. Não foi possível abrir as páginas (fetch bloqueado); os dados vêm dos trechos dos resultados de busca."
+      "verifiedAt": "2026-10-28",
+      "notes": "Telefone de diretório (Diário Cidade e Pizza Perto de Mim batem), no formato antigo de 8 dígitos, provavelmente hoje (66) 9 8137-2890, mas isso não foi confirmado. A página do Facebook mostra outro número com DDD 27 (+55 27 98810-5379), divergente e não usado. Sem WhatsApp verificado nem cardápio público. Não foi possível abrir as páginas (fetch bloqueado); os dados vêm dos trechos dos resultados de busca. Instagram @eclipse.lanchonete conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa endereço \"Av. Benonio José Lourenço esq. c/ Rua Laudelino D. Araújo (acima da escola Couto Magalhães)\", diferente do cadastro."
     },
     {
       "id": "la-paraguaya-restaurante-e-pizzaria-campinapolis",
@@ -5145,6 +5146,32 @@
         "sourceUrl": "https://www.facebook.com/restaurantecasadavovocamp/",
         "tile": "assets/stores/restaurante-casa-da-vovo-campinapolis-logo-tile.webp"
       }
+    },
+    {
+      "id": "sintonia-hamburgueria-e-pizzaria-campinapolis",
+      "name": "Sintonia Hamburgueria e Pizzaria",
+      "city": "Campinápolis",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria e pizzaria (delivery)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": "556692590651",
+      "instagram": "sintoniahamburgueepizzas",
+      "website": null,
+      "orderUrl": "https://hamburgueriasintonia.saipos.com/home",
+      "hours": "Qua a seg, 18h às 23h",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/sintoniahamburgueepizzas/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @sintoniahamburgueepizzas (24 posts, 1486 seguidores, último post 2026-10-28). Bio: \"Hamburgueria & Pizzaria | Sintonia Campinápolis. 🍕 Pizza e hambúrguer artesanal de verdade 🚀 Entrega rápida em Campinapolis ⭐️ +3.000 pedidos com nota máxima 👇🏻Peça agora no link abaixo 👇🏻\". Perfil verificado. Links da bio: 'WhatsApp Hamburgueria' = wa.me/556692590651 (sem o 9, por isso em phone, não em whatsapp); 'WhatsApp Distribuidora' = wa.me/5566981282732 (é da distribuidora de bebidas @sintoniabebidas, não da hamburgueria); 'Cardápio Digital' = saipos. Horário lido do destaque 'Aberto de qua a seg 18 às 23h'. logoUrl: URL do CDN do Instagram é assinada e expira; use o .jpg."
     },
     {
       "id": "sorveteria-maranata-campinapolis",

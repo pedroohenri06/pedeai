@@ -2,7 +2,7 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-29.
 
-Meta: 60 por cidade (600 no total). Cadastrados: **230**.
+Meta: 60 por cidade (600 no total). Cadastrados: **231**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
@@ -13,10 +13,10 @@ Meta: 60 por cidade (600 no total). Cadastrados: **230**.
 | Canarana | 20 | 40 | 1 | 0 | 0 |
 | Água Boa | 44 | 16 | 12 | 0 | 0 |
 | Novo São Joaquim | 11 | 49 | 0 | 0 | 0 |
-| Campinápolis | 8 | 52 | 0 | 0 | 0 |
+| Campinápolis | 9 | 51 | 1 | 0 | 0 |
 | Nova Xavantina | 34 | 26 | 12 | 0 | 0 |
 | Barra do Garças | 36 | 24 | 6 | 4 | 1 |
-| **Total** | **230** | **370** | **31** | **4** | **1** |
+| **Total** | **231** | **369** | **32** | **4** | **1** |
 
 ## Pendências por estabelecimento
 
@@ -196,12 +196,13 @@ Meta: 60 por cidade (600 no total). Cadastrados: **230**.
 ### Campinápolis
 
 - **Buffalos Grill** — WhatsApp não verificado; cardápio pendente; Fonte única (diretório GP Guia), que também lista a Avenida Benônio José Lourenço, 01. O Instagram @buffalos.grill usa DDD 47 (SC) e NÃO é este estabelecimento. Não foi confirmado que segue ativo.
-- **Eclipse Lanchonete e Pizzaria** — WhatsApp não verificado; cardápio pendente; Telefone de diretório (Diário Cidade e Pizza Perto de Mim batem), no formato antigo de 8 dígitos, provavelmente hoje (66) 9 8137-2890, mas isso não foi confirmado. A página do Facebook mostra outro número com DDD 27 (+55 27 98810-5379), divergente e não usado. Sem WhatsApp verificado nem cardápio público. Não foi possível abrir as páginas (fetch bloqueado); os dados vêm dos trechos dos resultados de busca.
+- **Eclipse Lanchonete e Pizzaria** — cardápio pendente; Telefone de diretório (Diário Cidade e Pizza Perto de Mim batem), no formato antigo de 8 dígitos, provavelmente hoje (66) 9 8137-2890, mas isso não foi confirmado. A página do Facebook mostra outro número com DDD 27 (+55 27 98810-5379), divergente e não usado. Sem WhatsApp verificado nem cardápio público. Não foi possível abrir as páginas (fetch bloqueado); os dados vêm dos trechos dos resultados de busca. Instagram @eclipse.lanchonete conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa endereço "Av. Benonio José Lourenço esq. c/ Rua Laudelino D. Araújo (acima da escola Couto Magalhães)", diferente do cadastro.
 - **La Paraguaya Restaurante e Pizzaria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); CNPJ 07.718.019/0001-17, aberto em 24/11/2005 e com situação 'ativa' segundo o trecho do resultado de busca. Não há número do endereço, telefone nem presença online própria. Pode ser só a razão social, com outro nome comercial.
 - **Panificadora Pão Dourado** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Nome fantasia de J. Bento Filho, CNAE 4721-1/02 (padaria e confeitaria), aberta em 28/01/2014 em Campinápolis segundo trecho de busca. Sem endereço nem telefone.
 - **Pastelaria e Lanchonete Predileta** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Fonte única (diretório). O mesmo telefone fixo aparece para outra empresa (Rf Blocos) no mesmo diretório, então pode estar errado. Não foi confirmado que segue ativa.
 - **Pizzaria Ponto Livre** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Só aparece em diretórios. O telefone está no formato antigo de 8 dígitos. Não há canal próprio nem confirmação de que segue ativa.
 - **Restaurante Casa da Vovó** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Tem página própria no Facebook (Campinápolis), com poucos seguidores. O GP Guia lista 3 endereços: Rua Alves Ferreira, 1430; Rua Alves Ferreira, 1382; e Rua Vicente José de Oliveira, 800. O endereço atual não foi confirmado. Sem telefone nem WhatsApp verificados.
+- **Sintonia Hamburgueria e Pizzaria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @sintoniahamburgueepizzas (24 posts, 1486 seguidores, último post 2026-10-28). Bio: "Hamburgueria & Pizzaria | Sintonia Campinápolis. 🍕 Pizza e hambúrguer artesanal de verdade 🚀 Entrega rápida em Campinapolis ⭐️ +3.000 pedidos com nota máxima 👇🏻Peça agora no link abaixo 👇🏻". Perfil verificado. Links da bio: 'WhatsApp Hamburgueria' = wa.me/556692590651 (sem o 9, por isso em phone, não em whatsapp); 'WhatsApp Distribuidora' = wa.me/5566981282732 (é da distribuidora de bebidas @sintoniabebidas, não da hamburgueria); 'Cardápio Digital' = saipos. Horário lido do destaque 'Aberto de qua a seg 18 às 23h'. logoUrl: URL do CDN do Instagram é assinada e expira; use o .jpg.
 - **Sorveteria Maranata** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; O diretório traz endereço incompleto ('Rua, SN - Centro'). Sem telefone e sem confirmação de que segue ativa.
 
 ### Nova Xavantina

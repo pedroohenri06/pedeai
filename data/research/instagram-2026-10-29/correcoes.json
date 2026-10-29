@@ -1,0 +1,96 @@
+{
+  "_sobre": "Correções feitas ao conferir cada loja com o print do perfil (29/10/2026). Indexadas pelo @ do Instagram; aplicadas por scripts/import-instagram.js por cima do JSON da cidade. 'nota' é acrescentada às notes; 'soLogo' completa só o instagram (os contatos do perfil não são da unidade). 'substituir' lista os campos (endereço, horário) em que o perfil, canal próprio e mais recente, substitui o cadastro; o valor antigo vai para notes.",
+  "lojas": {
+    "pastelar2026": {
+      "whatsapp": null,
+      "phone": "5566984032636",
+      "confidence": "baixa",
+      "nota": "O número escrito na bio (66 98483-2636) difere do link wa.me (66 98403-2636): ficou em phone o do link e o WhatsApp só entra depois de confirmar com a loja."
+    },
+    "60sabores_querencia": {
+      "confidence": "baixa",
+      "kind": "Sorvetes artesanais (franquia, inauguração em breve)",
+      "nota": "A bio diz 'Em Breve!' e o site é a página de inauguração: confirmar a abertura antes de liberar pedidos."
+    },
+    "coelho.leidycakes": {
+      "kind": "Confeitaria sob encomenda (retirada no local)",
+      "nota": "A bio diz 'Não fazemos entrega': só retirada."
+    },
+    "panificadora.saopaulo": {
+      "nota": "A bio também mostra o celular (66) 99988-2421, sem marcação de WhatsApp.",
+      "substituir": [
+        "address"
+      ],
+      "address": "Rua Mato Grosso, 121 - Centro"
+    },
+    "zhu.marmitas": {
+      "soLogo": true,
+      "nota": "O @zhu.marmitas é o perfil nacional da marca: logo serve, contatos não são da unidade de Barra do Garças."
+    },
+    "d.mais.acai": {
+      "nota": "O nº 2600 da Av. Padre João Bosco é o mesmo do cadastro da Sorveteria e Lanchonete Gelo Doce: pode ser o mesmo ponto (Gelo Doce virou D+ Açaí?) ou vizinho; conferir.",
+      "substituir": [
+        "address"
+      ],
+      "address": "Av. Padre João Bosco, 2600"
+    },
+    "sabordoaraguaia": {
+      "nota": "E-mail na bio: sabordoaraguaiarc@gmail.com."
+    },
+    "galeria_espeto": {
+      "substituir": [
+        "address"
+      ],
+      "address": "Av. Coopercana, 415 - Rodoviário"
+    },
+    "dtalia.canarana": {
+      "substituir": [
+        "address"
+      ],
+      "nota": "O endereço da bio (Rua Miraguai, 201) é o mesmo do CNPJ da D'talia Pizzaria Canarana."
+    },
+    "marmitariadabarra": {
+      "substituir": [
+        "address"
+      ],
+      "address": "Avenida Goiabeiras, 1254 - Jardim das Mangueiras"
+    },
+    "pizzariacoqueiros": {
+      "substituir": [
+        "address"
+      ],
+      "address": "Rua dos Coqueiros, 905 - Recanto das Acácias",
+      "hours": null
+    },
+    "alberitasoficial": {
+      "substituir": [
+        "address"
+      ],
+      "address": "Av. Perimetral Leste, 343"
+    },
+    "dio_morangomoreno_sorvetes": {
+      "substituir": [
+        "address"
+      ],
+      "address": "Avenida Brasil, 380 - Centro"
+    },
+    "casadapizzaquerencia": {
+      "substituir": [
+        "hours"
+      ]
+    },
+    "oishisushiab": {
+      "substituir": [
+        "hours"
+      ]
+    },
+    "sushilokomt": {
+      "substituir": [
+        "hours"
+      ]
+    },
+    "creme_maniasorvetesnsj": {
+      "hours": null
+    }
+  }
+}

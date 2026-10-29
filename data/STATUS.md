@@ -2,21 +2,21 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-28.
 
-Meta: 40 por cidade (400 no total). Cadastrados: **189**.
+Meta: 60 por cidade (600 no total). Cadastrados: **189**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
-| Vila Rica | 18 | 22 | 0 | 0 | 0 |
-| São Félix do Araguaia | 20 | 20 | 0 | 0 | 0 |
-| Querência | 19 | 21 | 0 | 0 | 0 |
-| Ribeirão Cascalheira | 20 | 20 | 0 | 0 | 0 |
-| Canarana | 20 | 20 | 1 | 0 | 0 |
-| Água Boa | 19 | 21 | 3 | 0 | 0 |
-| Novo São Joaquim | 11 | 29 | 0 | 0 | 0 |
-| Campinápolis | 8 | 32 | 0 | 0 | 0 |
-| Nova Xavantina | 34 | 6 | 12 | 0 | 0 |
-| Barra do Garças | 20 | 20 | 0 | 4 | 0 |
-| **Total** | **189** | **211** | **16** | **4** | **0** |
+| Vila Rica | 18 | 42 | 0 | 0 | 0 |
+| São Félix do Araguaia | 20 | 40 | 0 | 0 | 0 |
+| Querência | 19 | 41 | 0 | 0 | 0 |
+| Ribeirão Cascalheira | 20 | 40 | 0 | 0 | 0 |
+| Canarana | 20 | 40 | 1 | 0 | 0 |
+| Água Boa | 19 | 41 | 3 | 0 | 0 |
+| Novo São Joaquim | 11 | 49 | 0 | 0 | 0 |
+| Campinápolis | 8 | 52 | 0 | 0 | 0 |
+| Nova Xavantina | 34 | 26 | 12 | 0 | 0 |
+| Barra do Garças | 20 | 40 | 0 | 4 | 0 |
+| **Total** | **189** | **411** | **16** | **4** | **0** |
 
 ## Pendências por estabelecimento
 

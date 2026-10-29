@@ -5,7 +5,7 @@ description: Pesquisa, verificação, deduplicação e importação de estabelec
 
 # Pesquisa de estabelecimentos
 
-Cidades: Vila Rica, São Félix do Araguaia, Querência, Ribeirão Cascalheira, Canarana, Água Boa, Novo São Joaquim, Campinápolis, Nova Xavantina e Barra do Garças, todas em MT, DDD 66. Meta: 20 por cidade. **Qualidade vale mais que quantidade: nunca complete a meta com dados inventados.**
+Cidades: Vila Rica, São Félix do Araguaia, Querência, Ribeirão Cascalheira, Canarana, Água Boa, Novo São Joaquim, Campinápolis, Nova Xavantina e Barra do Garças, todas em MT, DDD 66. Meta: até 60 por cidade (`targetPerCity`). **Qualidade vale mais que quantidade: nunca complete a meta com dados inventados.**
 
 ## Hierarquia de fontes
 1. **Canal próprio**: site, cardápio digital (anota.ai, goomer, cardapioweb, menudino, foodsapp, saipos), iFood, aiqfome, Instagram ou Facebook do próprio estabelecimento.

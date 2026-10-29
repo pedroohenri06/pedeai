@@ -12,9 +12,11 @@ const src = path.join(root, 'data', 'establishments.json');
 const outJs = path.join(root, 'data', 'establishments.js');
 const outMd = path.join(root, 'data', 'STATUS.md');
 
+/* O navegador não usa as notas internas de pesquisa (só o STATUS.md usa): ficam fora do arquivo carregado pelo site. */
 function renderJs(db) {
+  const establishments = db.establishments.map(({ notes, ...s }) => s);
   return '/* Gerado por scripts/build-data.js a partir de data/establishments.json — não edite à mão. */\n' +
-    'window.PEDEAI_DATA=' + JSON.stringify(db) + ';\n';
+    'window.PEDEAI_DATA=' + JSON.stringify(Object.assign({}, db, { establishments })) + ';\n';
 }
 
 function renderStatus(db) {

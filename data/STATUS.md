@@ -2,7 +2,7 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-29.
 
-Meta: 60 por cidade (600 no total). Cadastrados: **316**.
+Meta: 60 por cidade (600 no total). Cadastrados: **317**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
@@ -14,9 +14,9 @@ Meta: 60 por cidade (600 no total). Cadastrados: **316**.
 | Água Boa | 44 | 16 | 12 | 0 | 0 |
 | Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 0 | 0 |
-| Nova Xavantina | 33 | 27 | 16 | 0 | 0 |
+| Nova Xavantina | 34 | 26 | 16 | 0 | 0 |
 | Barra do Garças | 36 | 24 | 6 | 4 | 1 |
-| **Total** | **316** | **284** | **73** | **4** | **1** |
+| **Total** | **317** | **283** | **73** | **4** | **1** |
 
 ## Pendências por estabelecimento
 
@@ -320,6 +320,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **316**.
 - **Pizzaria Gaúcha** — WhatsApp não verificado; cardápio pendente; O Instagram mostra o fixo (066) 3438-2872 e menciona um WhatsApp, mas o número não aparece no trecho. A página parece antiga. Instagram @pizzariagaucha conferido em 2026-10-29 (pesquisa via Claude no Chrome). O perfil informa telefone "5566996236586", diferente do cadastro.
 - **Pizzaria Sinal Verde** — cardápio pendente; O número do endereço diverge: o perfil social diz 701 e o Trip.com diz 339. Delivery não confirmado. Instagram @pizzaria_sinal_verde conferido em 2026-10-29 (pesquisa via Claude no Chrome).
 - **Portal Burguer & Grill** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Portal Burguer | Nova Xavantina' (print do Instagram, 28/10/2026). Bio: 'Hambúrguer artesanal. Pratos à la carte, Porções Diversas. Seg a Sáb 18:30h às 23h Cozinha. Segunda a Quinta 19h às 22h…' (cortado). Logo do perfil é foto do letreiro luminoso: redesenhado em vetor (data/research/logos/portal-burguer-grill.svg). WhatsApp e endereço não visíveis; devem estar no Linktree.
+- **Refúgio do Chopp** — WhatsApp não verificado; cardápio pendente; Indicado pelo Pedro (29/10/2026) como um dos melhores hambúrgueres da cidade. Instagram @refugiodochoppnx, localização marcada 'Xavantina, Mato Grosso'. Telefone (66) 99999-8284 e endereço 'Av. Ministro João Alberto, Nova Xavantina' tirados de um post de 28/04 (sem link de WhatsApp na bio visto, por isso em phone). Número do endereço e horário a confirmar.
 - **Sabor na Brasa** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Hamburgueria Sabor na Brasa' (print do Instagram enviado pelo dono do projeto em 28/10/2026). Bio: 'Hambúrguer artesanal na brasa. Sabor mais comentado de Nova Xavantina. Delivery todos os dias. Faça seu pedido no WhatsApp' + wa.me/5566997119984. Endereço não aparece no perfil. Cardápio está nos destaques, sem preços legíveis no print.
 - **Sorveteria Creme Mania** — WhatsApp não verificado; cardápio pendente; Instagram próprio 'Creme Mania - Nova Xavantina/MT' (print de 28/10/2026): Av Mato Grosso, 406, Centro, em frente aos Correios; delivery 13h–21h30, balcão 13h–22h; pedidos por link, app Zero1 ou WhatsApp (link api.whatsapp.com cortado no print, número não visível). O diretório Solutudo trazia o nº 433; vale o endereço do perfil oficial.
 - **SuntZu Sushi** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'Restaurante oriental em nova xavantina' / SuntZu Culinária Oriental (print do Instagram, 28/10/2026). Bio: 'Sushi fresco, pratos japoneses e culinária oriental. Nova Xavantina – MT | Delivery e retirada' + endereço Av. Rio Grande do Sul, 1180 - Centro. O número (66) 9 9725-5993 aparece com ícone de WhatsApp num post fixado ('Sushi em casa – Delivery SuntZu Sushi'), mas em letra pequena no print: ficou em phone até confirmar.

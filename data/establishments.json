@@ -9481,42 +9481,6 @@
       }
     },
     {
-      "id": "flutua-beach-nova-xavantina",
-      "name": "Flutua Beach",
-      "city": "Nova Xavantina",
-      "category": "Brasileira",
-      "kind": "Bar e restaurante flutuante",
-      "address": null,
-      "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": "5566984130600",
-      "instagram": "flutuabeach.nx",
-      "website": null,
-      "orderUrl": null,
-      "hours": "Quarta a domingo",
-      "deliveryFeeCents": null,
-      "image": {
-        "src": "assets/stores/flutua-beach-nova-xavantina.webp",
-        "thumb": "assets/stores/flutua-beach-nova-xavantina-card.webp",
-        "width": 960,
-        "height": 640,
-        "alt": "Bar e restaurante flutuante — Flutua Beach",
-        "credit": "Flutua Beach",
-        "license": "Uso autorizado pelo estabelecimento parceiro",
-        "kind": "fachada",
-        "sourceUrl": "https://www.google.com/maps/place/Flutua+Beach/@-14.6700014,-52.3551847,17z"
-      },
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.instagram.com/flutuabeach.nx/"
-      ],
-      "confidence": "media",
-      "verifiedAt": "2026-10-25",
-      "notes": "A bio lista dois contatos, 66984130600 e 66984007202, sem dizer qual é WhatsApp. É um bar/restaurante no rio, e o delivery não foi confirmado."
-    },
-    {
       "id": "forja-burguer-nova-xavantina",
       "name": "Forja Burguer",
       "city": "Nova Xavantina",
@@ -9629,32 +9593,6 @@
         "sourceUrl": "https://www.instagram.com/granpizzanx/",
         "tile": "assets/stores/gran-pizza-nova-xavantina-logo-tile.webp"
       }
-    },
-    {
-      "id": "hamburgueria-america-nx-nova-xavantina",
-      "name": "Hamburgueria América NX",
-      "city": "Nova Xavantina",
-      "category": "Hambúrguer",
-      "kind": "Hamburgueria",
-      "address": null,
-      "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
-      "website": null,
-      "orderUrl": null,
-      "hours": null,
-      "deliveryFeeCents": null,
-      "image": null,
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.facebook.com/hamburgueriaamericanx/"
-      ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Facebook geolocalizado em 'Xavantina, Mato Grosso'. Sem contato nem status atual."
     },
     {
       "id": "hatsuki-nova-xavantina-nova-xavantina",
@@ -9973,32 +9911,6 @@
       }
     },
     {
-      "id": "oscar-bar-e-restaurante-nova-xavantina",
-      "name": "Oscar Bar e Restaurante",
-      "city": "Nova Xavantina",
-      "category": "Brasileira",
-      "kind": "Bar e restaurante",
-      "address": "Praia da Lua - Setor Xavantina",
-      "neighborhood": "Setor Xavantina",
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": "556634381700",
-      "instagram": null,
-      "website": null,
-      "orderUrl": null,
-      "hours": null,
-      "deliveryFeeCents": null,
-      "image": null,
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.coisasdematogrosso.com.br/cidades/guia-da-cidade/exibir.asp?cid=122&id=5&guia=Bares_e_Restaurantes"
-      ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Guia antigo (Coisas de Mato Grosso). Não confirmei se ainda funciona."
-    },
-    {
       "id": "palladar-restaurante-e-pizzaria-nova-xavantina",
       "name": "Palladar Restaurante e Pizzaria",
       "city": "Nova Xavantina",
@@ -10119,7 +10031,19 @@
       ],
       "confidence": "media",
       "verifiedAt": "2026-10-29",
-      "notes": "O Instagram mostra o fixo (066) 3438-2872 e menciona um WhatsApp, mas o número não aparece no trecho. A página parece antiga. Instagram @pizzariagaucha conferido em 2026-10-29 (pesquisa via Claude no Chrome). O perfil informa telefone \"5566996236586\", diferente do cadastro."
+      "notes": "O Instagram mostra o fixo (066) 3438-2872 e menciona um WhatsApp, mas o número não aparece no trecho. A página parece antiga. Instagram @pizzariagaucha conferido em 2026-10-29 (pesquisa via Claude no Chrome). O perfil informa telefone \"5566996236586\", diferente do cadastro.",
+      "logo": {
+        "src": "assets/stores/pizzaria-gaucha-nova-xavantina-logo.webp",
+        "thumb": "assets/stores/pizzaria-gaucha-nova-xavantina-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Pizzaria Gaúcha",
+        "credit": "Pizzaria Gaúcha",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/pizzariagaucha/",
+        "tile": "assets/stores/pizzaria-gaucha-nova-xavantina-logo-tile.webp"
+      }
     },
     {
       "id": "pizzaria-sinal-verde-nova-xavantina",
@@ -10208,110 +10132,6 @@
         "sourceUrl": "https://www.instagram.com/portalburguergril/",
         "tile": "assets/stores/portal-burguer-grill-nova-xavantina-logo-tile.webp"
       }
-    },
-    {
-      "id": "portuga-pizzaria-nova-xavantina",
-      "name": "Portuga Pizzaria",
-      "city": "Nova Xavantina",
-      "category": "Pizza",
-      "kind": "Pizzaria",
-      "address": "Av. Mato Grosso, 534 - Centro",
-      "neighborhood": "Centro",
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
-      "website": null,
-      "orderUrl": null,
-      "hours": null,
-      "deliveryFeeCents": null,
-      "image": null,
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.solutudo.com.br/empresas/mt/nova-xavantina/restaurantes/listas/10-restaurantes-que-voce-deveria-conhecer-em-nova-xavantina-mt"
-      ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Só o diretório Solutudo. Uma busca direta pelo nome não trouxe nenhum canal próprio."
-    },
-    {
-      "id": "restaurante-da-cleuza-nova-xavantina",
-      "name": "Restaurante da Cleuza",
-      "city": "Nova Xavantina",
-      "category": "Brasileira",
-      "kind": "Restaurante",
-      "address": "Av. Mato Grosso, 309 - Centro",
-      "neighborhood": "Centro",
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
-      "website": null,
-      "orderUrl": null,
-      "hours": null,
-      "deliveryFeeCents": null,
-      "image": null,
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.solutudo.com.br/empresas/mt/nova-xavantina/restaurantes?pagina=1"
-      ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Só o diretório Solutudo (via trecho de busca). Sem contato nem confirmação de atividade."
-    },
-    {
-      "id": "restaurante-da-dona-eva-nova-xavantina",
-      "name": "Restaurante da Dona Eva",
-      "city": "Nova Xavantina",
-      "category": "Brasileira",
-      "kind": "Restaurante",
-      "address": "Av. Mato Grosso, 859 - Centro",
-      "neighborhood": "Centro",
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
-      "website": null,
-      "orderUrl": null,
-      "hours": null,
-      "deliveryFeeCents": null,
-      "image": null,
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.solutudo.com.br/empresas/mt/nova-xavantina/restaurantes?pagina=1"
-      ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Só o diretório Solutudo (via trecho de busca). Sem contato nem confirmação de atividade."
-    },
-    {
-      "id": "restaurante-e-hotel-vitoria-nova-xavantina",
-      "name": "Restaurante e Hotel Vitória",
-      "city": "Nova Xavantina",
-      "category": "Brasileira",
-      "kind": "Restaurante de hotel",
-      "address": "Avenida Couto Magalhães, 287",
-      "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
-      "website": null,
-      "orderUrl": null,
-      "hours": null,
-      "deliveryFeeCents": null,
-      "image": null,
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.tripadvisor.com/Restaurant_Review-g2572366-d9717626-Reviews-Restaurante_e_Hotel_Vitoria-Nova_Xavantina_State_of_Mato_Grosso.html"
-      ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "O Tripadvisor mostra o telefone como (34) 3438-1987. O DDD 34 parece errado (o prefixo 3438 é de Nova Xavantina, DDD 66), então deixei phone em branco. Foto do Street View indisponível fora do Google Maps; pendente."
     },
     {
       "id": "sabor-na-brasa-nova-xavantina",
@@ -10562,32 +10382,6 @@
         "sourceUrl": "https://www.instagram.com/tribodoacainx/",
         "tile": "assets/stores/tribo-do-acai-nova-xavantina-logo-tile.webp"
       }
-    },
-    {
-      "id": "tuiuiu-restaurante-hamburgueria-nova-xavantina",
-      "name": "Tuiuiu Restaurante & Hamburgueria",
-      "city": "Nova Xavantina",
-      "category": "Hambúrguer",
-      "kind": "Restaurante e hamburgueria",
-      "address": null,
-      "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
-      "website": null,
-      "orderUrl": null,
-      "hours": null,
-      "deliveryFeeCents": null,
-      "image": null,
-      "menuSource": null,
-      "menu": [],
-      "sources": [
-        "https://www.facebook.com/tuiuiuhamburguerianx/"
-      ],
-      "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Só a página do Facebook (cerca de 479 curtidas), sem contato, horário ou status atual."
     },
     {
       "id": "062-burguer-barra-do-garcas",

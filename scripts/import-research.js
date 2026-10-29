@@ -8,6 +8,8 @@ const path = require('path');
 const core = require('../js/core.js');
 
 const dbFile = path.join(__dirname, '..', 'data', 'establishments.json');
+const removedFile = path.join(__dirname, '..', 'data', 'research', 'removidos.json');
+const removed = () => new Set(Object.keys(fs.existsSync(removedFile) ? JSON.parse(fs.readFileSync(removedFile, 'utf8')).removidos : {}));
 
 function digits(v) { return v == null ? null : String(v).replace(/\D/g, '') || null; }
 
@@ -67,6 +69,7 @@ function main() {
   const db = fs.existsSync(dbFile) ? JSON.parse(fs.readFileSync(dbFile, 'utf8')) : { updatedAt: null, targetPerCity: 20, establishments: [] };
   const byKey = new Map(db.establishments.map(s => [core.slugify(s.name) + '|' + s.city, s]));
   let added = 0, skipped = 0;
+  const gone = removed();
   inputs.forEach(file => {
     const rows = JSON.parse(fs.readFileSync(file, 'utf8'));
     rows.forEach(r => {
@@ -74,7 +77,7 @@ function main() {
       try { s = convert(r); } catch (e) { console.warn(`[${path.basename(file)}] ignorado: ${e.message}`); skipped++; return; }
       if (!s.sources.length) { console.warn(`[${path.basename(file)}] ignorado sem fonte: ${s.name}`); skipped++; return; }
       const key = core.slugify(s.name) + '|' + s.city;
-      if (byKey.has(key)) { skipped++; return; }
+      if (byKey.has(key) || gone.has(s.id)) { skipped++; return; }
       byKey.set(key, s); added++;
     });
   });
@@ -85,4 +88,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { convert, normPhone };
+module.exports = { convert, normPhone, removed };

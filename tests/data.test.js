@@ -57,3 +57,9 @@ test('arquivo carregado pelo site não leva as notas internas de pesquisa', () =
   assert.equal(data.establishments.length, db.establishments.length);
   assert.ok(data.establishments.every(s => !('notes' in s)));
 });
+
+test('lojas removidas da plataforma não voltam ao cadastro', () => {
+  const gone = Object.keys(require('../data/research/removidos.json').removidos);
+  const ids = new Set(db.establishments.map(s => s.id));
+  assert.deepEqual(gone.filter(id => ids.has(id)), []);
+});

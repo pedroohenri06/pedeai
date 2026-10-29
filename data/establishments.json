@@ -5344,12 +5344,12 @@
       "city": "Novo São Joaquim",
       "category": "Hambúrguer",
       "kind": "Lanchonete e restaurante",
-      "address": null,
+      "address": "Saída para Campinápolis",
       "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
+      "whatsapp": "5566981317677",
+      "whatsappSource": "https://www.instagram.com/beliskos_lanchonete_beliskos_/",
       "phone": null,
-      "instagram": null,
+      "instagram": "beliskos_lanchonete_beliskos_",
       "website": null,
       "orderUrl": null,
       "hours": null,
@@ -5358,11 +5358,12 @@
       "menuSource": null,
       "menu": [],
       "sources": [
-        "https://www.sluurpy.com/en/novo-s%C3%A3o-joaquim/restaurants"
+        "https://www.sluurpy.com/en/novo-s%C3%A3o-joaquim/restaurants",
+        "https://www.instagram.com/beliskos_lanchonete_beliskos_/"
       ],
       "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Listada no Sluurpy (agregador atualizado em abril de 2026) como a mais bem avaliada da cidade. Não há endereço nem contato no trecho obtido.",
+      "verifiedAt": "2026-10-28",
+      "notes": "Listada no Sluurpy (agregador atualizado em abril de 2026) como a mais bem avaliada da cidade. Não há endereço nem contato no trecho obtido. Instagram @beliskos_lanchonete_beliskos_ conferido em 2026-10-28 (pesquisa via Claude no Chrome).",
       "logo": {
         "src": "assets/stores/beliskos-lanchonete-e-restaurante-novo-sao-joaquim-logo.webp",
         "thumb": "assets/stores/beliskos-lanchonete-e-restaurante-novo-sao-joaquim-logo-card.webp",
@@ -5408,7 +5409,7 @@
       "city": "Novo São Joaquim",
       "category": "Doces",
       "kind": "Sorveteria",
-      "address": null,
+      "address": "Avenida Oscar Zaidem de Menezes",
       "neighborhood": null,
       "whatsapp": null,
       "whatsappSource": null,
@@ -5435,8 +5436,8 @@
         "https://www.instagram.com/creme_maniasorvetesnsj/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-25",
-      "notes": "O telefone (66) 98129-8424 e o horário aparecem na bio do Instagram do próprio estabelecimento (visto no trecho do resultado de busca; a página não pôde ser aberta). A bio não diz explicitamente que é WhatsApp, por isso o número ficou em phone. Endereço não encontrado.",
+      "verifiedAt": "2026-10-28",
+      "notes": "O telefone (66) 98129-8424 e o horário aparecem na bio do Instagram do próprio estabelecimento (visto no trecho do resultado de busca; a página não pôde ser aberta). A bio não diz explicitamente que é WhatsApp, por isso o número ficou em phone. Endereço não encontrado. Instagram @creme_maniasorvetesnsj conferido em 2026-10-28 (pesquisa via Claude no Chrome).",
       "logo": {
         "src": "assets/stores/creme-mania-sorvetes-novo-sao-joaquim-logo.webp",
         "thumb": "assets/stores/creme-mania-sorvetes-novo-sao-joaquim-logo-card.webp",
@@ -5528,6 +5529,32 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única: agregador Sluurpy. Sem contato."
+    },
+    {
+      "id": "mayhara-cakes-novo-sao-joaquim",
+      "name": "Mayhara Cakes",
+      "city": "Novo São Joaquim",
+      "category": "Doces",
+      "kind": "Confeitaria artesanal (bolos e doces personalizados, sob encomenda)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "mayhara.cakes",
+      "website": null,
+      "orderUrl": "https://wa.me/message/3OQ4BGEA3PW3A1",
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/mayhara.cakes/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @mayhara.cakes (525 posts, 1605 seguidores, último post 2026-09-23). Bio: \"Mayhara Cakes- Novo São Joaquim/MT. Produto/serviço. 🎂Confeitaria Artesanal 🍥Doces Personalizados Exclusivos 🍰Qualidade e Sabor em cada mordida 🌍Novo São Joaquim- MT. Faça seu pedido pelo Whats 📲💻\". Foto de perfil é da confeiteira (pessoa), não há logo: logoTipo foto. O link de WhatsApp é do tipo wa.me/message (não mostra o número), por isso whatsapp=null e o link vai em orderUrl. Confeitaria sob encomenda (pode não ser delivery de pronta-entrega). Último post sem alfinete: 2026-09-23 (3 fixados de mai-jul/2026)."
     },
     {
       "id": "panificadora-sonho-vivo-novo-sao-joaquim",

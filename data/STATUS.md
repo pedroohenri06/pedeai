@@ -2,7 +2,7 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-29.
 
-Meta: 60 por cidade (600 no total). Cadastrados: **265**.
+Meta: 60 por cidade (600 no total). Cadastrados: **266**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
@@ -12,11 +12,11 @@ Meta: 60 por cidade (600 no total). Cadastrados: **265**.
 | Ribeirão Cascalheira | 20 | 40 | 0 | 0 | 0 |
 | Canarana | 47 | 13 | 13 | 0 | 0 |
 | Água Boa | 44 | 16 | 12 | 0 | 0 |
-| Novo São Joaquim | 11 | 49 | 0 | 0 | 0 |
+| Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 0 | 0 |
 | Nova Xavantina | 41 | 19 | 16 | 0 | 0 |
 | Barra do Garças | 36 | 24 | 6 | 4 | 1 |
-| **Total** | **265** | **335** | **48** | **4** | **1** |
+| **Total** | **266** | **334** | **49** | **4** | **1** |
 
 ## Pendências por estabelecimento
 
@@ -209,12 +209,13 @@ Meta: 60 por cidade (600 no total). Cadastrados: **265**.
 ### Novo São Joaquim
 
 - **Açaí Delivery** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Diretório Solutudo, categoria Lanches - Lanchonetes, registrada desde 2018. O nome parece genérico (possivelmente nome fantasia de cadastro). Sem contato, e não consegui confirmar se está ativa.
-- **Beliskos Lanchonete e Restaurante** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Listada no Sluurpy (agregador atualizado em abril de 2026) como a mais bem avaliada da cidade. Não há endereço nem contato no trecho obtido.
+- **Beliskos Lanchonete e Restaurante** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Listada no Sluurpy (agregador atualizado em abril de 2026) como a mais bem avaliada da cidade. Não há endereço nem contato no trecho obtido. Instagram @beliskos_lanchonete_beliskos_ conferido em 2026-10-28 (pesquisa via Claude no Chrome).
 - **Brancos Lanchonete e Sorveteria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Fonte única: agregador Sluurpy. Sem contato.
-- **Creme Mania Sorvetes** — WhatsApp não verificado; cardápio pendente; endereço pendente; O telefone (66) 98129-8424 e o horário aparecem na bio do Instagram do próprio estabelecimento (visto no trecho do resultado de busca; a página não pôde ser aberta). A bio não diz explicitamente que é WhatsApp, por isso o número ficou em phone. Endereço não encontrado.
+- **Creme Mania Sorvetes** — WhatsApp não verificado; cardápio pendente; O telefone (66) 98129-8424 e o horário aparecem na bio do Instagram do próprio estabelecimento (visto no trecho do resultado de busca; a página não pôde ser aberta). A bio não diz explicitamente que é WhatsApp, por isso o número ficou em phone. Endereço não encontrado. Instagram @creme_maniasorvetesnsj conferido em 2026-10-28 (pesquisa via Claude no Chrome).
 - **Fran Pizzaria e Doceria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Dados só de diretórios (trecho do resultado de busca; as páginas não puderam ser abertas). O telefone foi listado como (66) 9915-2811, no formato antigo de 8 dígitos; pode faltar o 9 inicial, mas isso não foi verificado. O endereço está incompleto.
 - **Lanchonete e Restaurante Vereda Tropical** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Fonte única: agregador Sluurpy. Sem contato. A categoria Brasileira foi escolhida por ser também restaurante.
 - **Lanchonete Salgado Filho** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Fonte única: agregador Sluurpy. Sem contato.
+- **Mayhara Cakes** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @mayhara.cakes (525 posts, 1605 seguidores, último post 2026-09-23). Bio: "Mayhara Cakes- Novo São Joaquim/MT. Produto/serviço. 🎂Confeitaria Artesanal 🍥Doces Personalizados Exclusivos 🍰Qualidade e Sabor em cada mordida 🌍Novo São Joaquim- MT. Faça seu pedido pelo Whats 📲💻". Foto de perfil é da confeiteira (pessoa), não há logo: logoTipo foto. O link de WhatsApp é do tipo wa.me/message (não mostra o número), por isso whatsapp=null e o link vai em orderUrl. Confeitaria sob encomenda (pode não ser delivery de pronta-entrega). Último post sem alfinete: 2026-09-23 (3 fixados de mai-jul/2026).
 - **Panificadora Sonho Vivo** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Aparece na lista de estabelecimentos de Novo São Joaquim na rede credenciada da Ticket para Mato Grosso (maio de 2025), segundo o trecho do resultado de busca. Sem endereço nem contato.
 - **Pizzaria Napolitana** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Aparece no Tripadvisor (uma avaliação só) e no Sluurpy. Não há contato publicado e não consegui confirmar se ainda está aberta.
 - **Pizzaria Paladar** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Dados só de diretórios. O telefone fixo é (66) 3479-1560, e o endereço vem como 'Rua, 05 - Casa - Jardim Das Palmeiras'. Não consegui confirmar se ainda funciona.

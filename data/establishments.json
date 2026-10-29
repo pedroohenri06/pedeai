@@ -2737,6 +2737,32 @@
       "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @tiadolancheee (22 posts, 45 seguidores, último post 2026-10-14). Bio: \"Tia do Lanche. ⏰18:30 a 00:00 📱Fone : 66984126931 📌 QUERENCIA MT Desde 2011 atendendo vc cliente\". Desde 2011. Número sem link de WhatsApp na bio (post mostra ícone de WhatsApp com (66) 98412-6931): deixei em phone."
     },
     {
+      "id": "amor-sabor-ribeirao-cascalheira",
+      "name": "Amor & Sabor",
+      "city": "Ribeirão Cascalheira",
+      "category": "Doces",
+      "kind": "Doceria (docinhos, ovos de Páscoa e encomendas)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": "5566999716416",
+      "whatsappSource": "https://www.instagram.com/amoresaborrc/",
+      "phone": null,
+      "instagram": "amoresaborrc",
+      "website": null,
+      "orderUrl": null,
+      "hours": "Delivery seg a sex 9h às 11h; sábado o dia todo",
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/amoresaborrc/"
+      ],
+      "confidence": "baixa",
+      "verifiedAt": "2026-10-28",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @amoresaborrc (113 posts, 914 seguidores, último post 2026-04-06). Bio: \"Amor & Sabor. Empreendedor(a). Amor em forma de doce 🍭 Ribeirão Cascalheira - MT. Delivery:segunda a sexta das 9:00 às 11:00 da manhã e sábado o dia todo. Peça seu docinho pelo link 👇\". Último post sem alfinete há ~6,7 meses (Páscoa 2026); entra por sinais fortes: 113 posts, perfil antigo (destaques de Natal/Páscoa desde 2022), bio com cidade, horário de delivery e link de WhatsApp (api.whatsapp.com/send?phone=5566999716416). Parece sazonal (Páscoa/Natal)."
+    },
+    {
       "id": "carnes-petiscos-bar-s-ribeirao-cascalheira",
       "name": "Carnes & Petiscos Bar's",
       "city": "Ribeirão Cascalheira",
@@ -2761,6 +2787,32 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só no guia Coisas de Mato Grosso (pode estar desatualizado). Telefone fixo de diretório."
+    },
+    {
+      "id": "delicias-da-nutri-ribeirao-cascalheira",
+      "name": "Delícias da Nutri",
+      "city": "Ribeirão Cascalheira",
+      "category": "Saudável",
+      "kind": "Comida saudável / detox (nutricionista)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "deliciasdanutri_rc",
+      "website": null,
+      "orderUrl": "https://wa.me/qr/SE372HKPKXLTM1",
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/deliciasdanutri_rc/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @deliciasdanutri_rc (23 posts, 467 seguidores, último post 2026-10-25). Bio: \"Delícias da Nutri | Detox. Nutricionista: @kelismarnogueira. Ribeirão Cascalheira - MT. Faça seu pedido no link abaixo ⬇️\". Link de pedido é wa.me/qr (não mostra o número): whatsapp=null e o link vai em orderUrl."
     },
     {
       "id": "jatobars-lanchonete-restaurante-bar-ribeirao-cascalheira",
@@ -2851,6 +2903,32 @@
       "notes": "Telefone (66) 9725-7771 de diretório, formato antigo de 8 dígitos; não verificado como WhatsApp."
     },
     {
+      "id": "kendyy-lanches-ribeirao-cascalheira",
+      "name": "Kendyy Lanches",
+      "city": "Ribeirão Cascalheira",
+      "category": "Hambúrguer",
+      "kind": "Lanches artesanais (mini lanches e salgados)",
+      "address": "Rua Adilina Martins Correa, casa 33",
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "kendylla_lanches_2.0",
+      "website": null,
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/kendylla_lanches_2.0/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @kendylla_lanches_2.0 (12 posts, 130 seguidores, último post 2026-10-14). Bio: \"Kendyy Lanches. Lanchonete. Trabalho com lanches artesanais a 5 anos e sempre feitos com dedicação, cuidado e amor em cada detalhe. Aqui não existe produção sem capricho. Adilina martins correa casa 33, Ribeirão Cascalheira 78675-000\". Foto de perfil é a dona com os lanches (sem logo). Sem telefone nem WhatsApp na bio (só destaque 'cardapio'). Perfil pequeno, mas postou em 14/10/2026."
+    },
+    {
       "id": "lanchonete-e-restaurante-rodoviario-ribeirao-cascalheira",
       "name": "Lanchonete e Restaurante Rodoviário",
       "city": "Ribeirão Cascalheira",
@@ -2895,13 +2973,13 @@
       "kind": "Lanchonete e restaurante",
       "address": "Avenida Padre João Bosco, 209",
       "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
+      "whatsapp": "5566999990144",
+      "whatsappSource": "https://www.instagram.com/sabordoaraguaia/",
       "phone": null,
-      "instagram": null,
+      "instagram": "sabordoaraguaia",
       "website": null,
       "orderUrl": null,
-      "hours": null,
+      "hours": "Almoço seg a sáb 10h30 às 14h; jantar seg a sex 18h às 22h",
       "deliveryFeeCents": null,
       "image": {
         "src": "assets/stores/lanchonete-e-restaurante-sabor-do-araguaia-ribeirao-cascalheira.webp",
@@ -2918,11 +2996,12 @@
       "menu": [],
       "sources": [
         "https://cnpj.biz/41409447000104",
-        "https://www.econodata.com.br/maiores-empresas/mt-ribeirao-cascalheira/busca-restaurante"
+        "https://www.econodata.com.br/maiores-empresas/mt-ribeirao-cascalheira/busca-restaurante",
+        "https://www.instagram.com/sabordoaraguaia/"
       ],
       "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "CNPJ 41.409.447/0001-04 (aberto c. 2021). Telefone oculto nos diretórios."
+      "verifiedAt": "2026-10-28",
+      "notes": "CNPJ 41.409.447/0001-04 (aberto c. 2021). Telefone oculto nos diretórios. Instagram @sabordoaraguaia conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa endereço \"Av. Padre João Bosco\", diferente do cadastro. E-mail na bio: sabordoaraguaiarc@gmail.com."
     },
     {
       "id": "lanchonete-xingu-ribeirao-cascalheira",
@@ -3048,8 +3127,8 @@
       "neighborhood": null,
       "whatsapp": null,
       "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
+      "phone": "5566996699125",
+      "instagram": "pizzariakabanas20",
       "website": null,
       "orderUrl": null,
       "hours": null,
@@ -3068,11 +3147,12 @@
       "menuSource": null,
       "menu": [],
       "sources": [
-        "https://menustic.com/brazil/restaurant-menus-in-state-of-mato-grosso"
+        "https://menustic.com/brazil/restaurant-menus-in-state-of-mato-grosso",
+        "https://www.instagram.com/pizzariakabanas20/"
       ],
       "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Aparece em diretório de restaurantes (nota 4,1 com 11 avaliações) no endereço Av. D, 33, CEP 78675-000. Sem telefone, redes sociais ou cardápio confirmados; a fonte exata do trecho não pôde ser aberta (WebFetch indisponível)."
+      "verifiedAt": "2026-10-28",
+      "notes": "Aparece em diretório de restaurantes (nota 4,1 com 11 avaliações) no endereço Av. D, 33, CEP 78675-000. Sem telefone, redes sociais ou cardápio confirmados; a fonte exata do trecho não pôde ser aberta (WebFetch indisponível). Instagram @pizzariakabanas20 conferido em 2026-10-28 (pesquisa via Claude no Chrome)."
     },
     {
       "id": "rei-do-lanche-mt-ribeirao-cascalheira",
@@ -3295,15 +3375,15 @@
       "city": "Ribeirão Cascalheira",
       "category": "Açaí",
       "kind": "Açaiteria e sorveteria",
-      "address": "Avenida Padre João Bosco - Centro",
-      "neighborhood": "Centro",
+      "address": "Av. Padre João Bosco, 2600",
+      "neighborhood": null,
       "whatsapp": null,
       "whatsappSource": null,
       "phone": null,
-      "instagram": null,
+      "instagram": "d.mais.acai",
       "website": null,
       "orderUrl": null,
-      "hours": null,
+      "hours": "14h às 22h30",
       "deliveryFeeCents": null,
       "image": {
         "src": "assets/stores/sorveteria-d-acai-ribeirao-cascalheira.webp",
@@ -3320,11 +3400,12 @@
       "menu": [],
       "sources": [
         "https://www.diariocidade.com/mt/ribeirao-cascalheira/guia/mercados/",
-        "https://cardapio.datacaixa.com.br/index.php"
+        "https://cardapio.datacaixa.com.br/index.php",
+        "https://www.instagram.com/d.mais.acai/"
       ],
       "confidence": "baixa",
-      "verifiedAt": "2026-10-25",
-      "notes": "Citada em diretório (Diário Cidade) e em lista de clientes de cardápio digital (Datacaixa) como 'SORVETERIA D+ ACAI, RIBEIRÃO CASCALHEIRA-MT'. Diretório traz telefone (62) 9243-8343 (DDD de Goiás, formato antigo) — não incluído por ser duvidoso. Link do cardápio digital específico não localizado."
+      "verifiedAt": "2026-10-28",
+      "notes": "Citada em diretório (Diário Cidade) e em lista de clientes de cardápio digital (Datacaixa) como 'SORVETERIA D+ ACAI, RIBEIRÃO CASCALHEIRA-MT'. Diretório traz telefone (62) 9243-8343 (DDD de Goiás, formato antigo) — não incluído por ser duvidoso. Link do cardápio digital específico não localizado. Instagram @d.mais.acai conferido em 2026-10-28 (pesquisa via Claude no Chrome). Atualizado pelo perfil; antes: endereço \"Avenida Padre João Bosco - Centro\". O nº 2600 da Av. Padre João Bosco é o mesmo do cadastro da Sorveteria e Lanchonete Gelo Doce: pode ser o mesmo ponto (Gelo Doce virou D+ Açaí?) ou vizinho; conferir."
     },
     {
       "id": "sorveteria-vitoria-ribeirao-cascalheira",

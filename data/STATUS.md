@@ -2,21 +2,21 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-29.
 
-Meta: 60 por cidade (600 no total). Cadastrados: **300**.
+Meta: 60 por cidade (600 no total). Cadastrados: **303**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
 | Vila Rica | 18 | 42 | 0 | 0 | 0 |
 | São Félix do Araguaia | 20 | 40 | 0 | 0 | 0 |
 | Querência | 53 | 7 | 14 | 0 | 0 |
-| Ribeirão Cascalheira | 20 | 40 | 0 | 0 | 0 |
+| Ribeirão Cascalheira | 23 | 37 | 2 | 0 | 0 |
 | Canarana | 47 | 13 | 13 | 0 | 0 |
 | Água Boa | 44 | 16 | 12 | 0 | 0 |
 | Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 0 | 0 |
 | Nova Xavantina | 41 | 19 | 16 | 0 | 0 |
 | Barra do Garças | 36 | 24 | 6 | 4 | 1 |
-| **Total** | **300** | **300** | **63** | **4** | **1** |
+| **Total** | **303** | **297** | **65** | **4** | **1** |
 
 ## Pendências por estabelecimento
 
@@ -122,17 +122,20 @@ Meta: 60 por cidade (600 no total). Cadastrados: **300**.
 
 ### Ribeirão Cascalheira
 
+- **Amor & Sabor** — cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @amoresaborrc (113 posts, 914 seguidores, último post 2026-04-06). Bio: "Amor & Sabor. Empreendedor(a). Amor em forma de doce 🍭 Ribeirão Cascalheira - MT. Delivery:segunda a sexta das 9:00 às 11:00 da manhã e sábado o dia todo. Peça seu docinho pelo link 👇". Último post sem alfinete há ~6,7 meses (Páscoa 2026); entra por sinais fortes: 113 posts, perfil antigo (destaques de Natal/Páscoa desde 2022), bio com cidade, horário de delivery e link de WhatsApp (api.whatsapp.com/send?phone=5566999716416). Parece sazonal (Páscoa/Natal).
 - **Carnes & Petiscos Bar's** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Só no guia Coisas de Mato Grosso (pode estar desatualizado). Telefone fixo de diretório.
+- **Delícias da Nutri** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @deliciasdanutri_rc (23 posts, 467 seguidores, último post 2026-10-25). Bio: "Delícias da Nutri | Detox. Nutricionista: @kelismarnogueira. Ribeirão Cascalheira - MT. Faça seu pedido no link abaixo ⬇️". Link de pedido é wa.me/qr (não mostra o número): whatsapp=null e o link vai em orderUrl.
 - **Jatobars Lanchonete Restaurante Bar** — WhatsApp não verificado; cardápio pendente; endereço pendente; Só cadastro CNPJ 18.324.660/0001-93; endereço e contato não obtidos (WebFetch indisponível).
 - **Jeriva Hotel & Lanchonete** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Listado no Tripadvisor como hotel; lanchonete não confirmada como operação independente/delivery.
 - **K'delicia** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Telefone (66) 9725-7771 de diretório, formato antigo de 8 dígitos; não verificado como WhatsApp.
+- **Kendyy Lanches** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Pesquisa Instagram via Claude no Chrome (2026-10-28): @kendylla_lanches_2.0 (12 posts, 130 seguidores, último post 2026-10-14). Bio: "Kendyy Lanches. Lanchonete. Trabalho com lanches artesanais a 5 anos e sempre feitos com dedicação, cuidado e amor em cada detalhe. Aqui não existe produção sem capricho. Adilina martins correa casa 33, Ribeirão Cascalheira 78675-000". Foto de perfil é a dona com os lanches (sem logo). Sem telefone nem WhatsApp na bio (só destaque 'cardapio'). Perfil pequeno, mas postou em 14/10/2026.
 - **Lanchonete e Restaurante Rodoviário** — WhatsApp não verificado; cardápio pendente; Telefone fixo só de diretório (Yelp). cardapio.menu indica nota 4/5 com 62 avaliações, sugerindo atividade, mas não foi possível abrir as páginas para ver cardápio.
-- **Lanchonete e Restaurante Sabor do Araguaia** — WhatsApp não verificado; cardápio pendente; CNPJ 41.409.447/0001-04 (aberto c. 2021). Telefone oculto nos diretórios.
+- **Lanchonete e Restaurante Sabor do Araguaia** — cardápio pendente; CNPJ 41.409.447/0001-04 (aberto c. 2021). Telefone oculto nos diretórios. Instagram @sabordoaraguaia conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa endereço "Av. Padre João Bosco", diferente do cadastro. E-mail na bio: sabordoaraguaiarc@gmail.com.
 - **Lanchonete Xingu** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Só citada na lista do Tripadvisor da cidade; sem endereço/contato.
 - **Panificadora Mana** — WhatsApp não verificado; cardápio pendente; Listada no Tripadvisor (avaliação de 2014 elogia pães e quitandas). Não há confirmação recente de funcionamento nem telefone.
 - **Panificadora Novo Sabor** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Telefone (66) 9912-7145 publicado em diretório no formato antigo de 8 dígitos (sem o nono dígito); não verificado como WhatsApp.
 - **Panificadora Sabor do Povo** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Só citada na lista do Tripadvisor da cidade. Sem telefone ou confirmação de atividade.
-- **Pizzaria Kabanas** — WhatsApp não verificado; cardápio pendente; Aparece em diretório de restaurantes (nota 4,1 com 11 avaliações) no endereço Av. D, 33, CEP 78675-000. Sem telefone, redes sociais ou cardápio confirmados; a fonte exata do trecho não pôde ser aberta (WebFetch indisponível).
+- **Pizzaria Kabanas** — WhatsApp não verificado; cardápio pendente; Aparece em diretório de restaurantes (nota 4,1 com 11 avaliações) no endereço Av. D, 33, CEP 78675-000. Sem telefone, redes sociais ou cardápio confirmados; a fonte exata do trecho não pôde ser aberta (WebFetch indisponível). Instagram @pizzariakabanas20 conferido em 2026-10-28 (pesquisa via Claude no Chrome).
 - **Rei do Lanche MT** — WhatsApp não verificado; cardápio pendente; endereço pendente; Só citado na lista do Tripadvisor da cidade; sem endereço/contato.
 - **Restaurante e Churrascaria Serve Bem** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); CNPJ 20.048.736/0001-47 (MEI). Telefone (66) 9608-8442 do cadastro CNPJ, formato antigo de 8 dígitos; não verificado como WhatsApp. Situação atual não confirmada.
 - **Restaurante Nossa Senhora de Fátima** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Só no guia Coisas de Mato Grosso (pode estar desatualizado). Telefone fixo de diretório.
@@ -140,7 +143,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **300**.
 - **Rocha Restaurante e Lanchonete** — WhatsApp não verificado; cardápio pendente; Telefone fixo (66) 3489-1307 vem do Cadastur (dados abertos do Ministério do Turismo, 2019) como 'Churrascaria Rocha'; o Tripadvisor mostra um número corrompido. O Guia Cidade menciona WhatsApp, mas não foi possível abrir a página para conferir. Nenhum WhatsApp verificado no canal próprio. Foto do Google Maps não representava o estabelecimento; pendente.
 - **Sorveteria & Lanchonete Gelo Doce** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); CNPJ 33.756.493/0001-43, aberto em 28/05/2019 (fabricação de sorvetes). Sem contato confirmado.
 - **Sorveteria Betel** — WhatsApp não verificado; cardápio pendente; Só no Guia Cidade; contato não obtido (página não pôde ser aberta).
-- **Sorveteria D+ Açaí** — WhatsApp não verificado; cardápio pendente; Citada em diretório (Diário Cidade) e em lista de clientes de cardápio digital (Datacaixa) como 'SORVETERIA D+ ACAI, RIBEIRÃO CASCALHEIRA-MT'. Diretório traz telefone (62) 9243-8343 (DDD de Goiás, formato antigo) — não incluído por ser duvidoso. Link do cardápio digital específico não localizado.
+- **Sorveteria D+ Açaí** — WhatsApp não verificado; cardápio pendente; Citada em diretório (Diário Cidade) e em lista de clientes de cardápio digital (Datacaixa) como 'SORVETERIA D+ ACAI, RIBEIRÃO CASCALHEIRA-MT'. Diretório traz telefone (62) 9243-8343 (DDD de Goiás, formato antigo) — não incluído por ser duvidoso. Link do cardápio digital específico não localizado. Instagram @d.mais.acai conferido em 2026-10-28 (pesquisa via Claude no Chrome). Atualizado pelo perfil; antes: endereço "Avenida Padre João Bosco - Centro". O nº 2600 da Av. Padre João Bosco é o mesmo do cadastro da Sorveteria e Lanchonete Gelo Doce: pode ser o mesmo ponto (Gelo Doce virou D+ Açaí?) ou vizinho; conferir.
 - **Sorveteria Vitoria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Listada no diretório Numzap (categoria Sorvete e Açaí); número não visível no trecho e, sendo diretório, não contaria como WhatsApp verificado.
 
 ### Canarana

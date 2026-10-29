@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 1000" width="1500" height="1000">
+  <!-- Lanchonete e Chopperia do Luizão (Nova Xavantina): redesenho em vetor da placa da foto de perfil do Instagram
+       @lanchonete__e_chopp_do_luizao — fundo preto, letras amarelas, "LUIZÃO" serifado e copo de chope. -->
+  <defs>
+    <linearGradient id="chope" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffc634"/>
+      <stop offset="1" stop-color="#d98a0b"/>
+    </linearGradient>
+    <linearGradient id="vidro" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity=".55"/>
+      <stop offset=".25" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1500" height="1000" fill="#111"/>
+  <!-- faixas claras da placa -->
+  <rect x="70" y="190" width="1360" height="14" rx="7" fill="#d9d4c7"/>
+  <rect x="70" y="796" width="1360" height="14" rx="7" fill="#d9d4c7"/>
+  <!-- copo de chope -->
+  <g transform="translate(130 430)">
+    <path d="M150 70 h48 a42 42 0 0 1 42 42 v120 a42 42 0 0 1 -42 42 h-48" fill="none" stroke="#e9e4d8" stroke-width="22"/>
+    <path d="M0 40 h160 l-10 290 a18 18 0 0 1 -18 17 h-104 a18 18 0 0 1 -18 -17 z" fill="url(#chope)"/>
+    <path d="M0 40 h160 l-10 290 a18 18 0 0 1 -18 17 h-104 a18 18 0 0 1 -18 -17 z" fill="url(#vidro)"/>
+    <path d="M-12 46 c-10 -40 24 -64 52 -50 c10 -30 60 -34 76 -6 c26 -16 62 4 56 40 c0 14 -8 22 -22 22 h-140 c-14 0 -20 -2 -22 -6 z" fill="#fffaf0"/>
+    <circle cx="48" cy="150" r="7" fill="#fff4c4" opacity=".8"/>
+    <circle cx="96" cy="210" r="5" fill="#fff4c4" opacity=".8"/>
+    <circle cx="66" cy="262" r="6" fill="#fff4c4" opacity=".8"/>
+  </g>
+  <g fill="#f4e21c" font-family="'Liberation Sans', Arial, sans-serif" font-weight="700">
+    <text x="470" y="345" font-size="96" letter-spacing="2" transform="scale(.9 1)" transform-origin="470 345">LANCHONETE E</text>
+    <text x="560" y="455" font-size="96" letter-spacing="2" transform="scale(.9 1)" transform-origin="560 455">CHOPERIA DO</text>
+  </g>
+  <text x="430" y="720" fill="#f4e21c" font-family="'Liberation Serif', 'Times New Roman', serif" font-weight="700" font-size="250" letter-spacing="6">LUIZÃO</text>
+</svg>

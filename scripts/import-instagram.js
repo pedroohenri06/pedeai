@@ -10,7 +10,7 @@
 const fs = require('fs');
 const path = require('path');
 const core = require('../js/core.js');
-const { convert, normPhone } = require('./import-research.js');
+const { convert, normPhone, removed } = require('./import-research.js');
 
 const dbFile = path.join(__dirname, '..', 'data', 'establishments.json');
 const FILL = ['address', 'hours', 'phone', 'instagram', 'website', 'orderUrl'];
@@ -101,6 +101,7 @@ function importCity(db, file, fixes, log) {
         verifiedAt: doc.data, notes: research(l, doc.data) + nota
       });
       if (byId.has(s.id)) { log.push(`ignorado (id repetido ${s.id}): ${l.name}`); return; }
+      if (removed().has(s.id)) { log.push(`ignorado (removido da plataforma): ${s.id}`); return; }
       db.establishments.push(s);
       byId.set(s.id, s); byIg.set(ig, s); byKey.set(core.slugify(s.name) + '|' + city, s);
       log.push(`novo        ${s.id}`);

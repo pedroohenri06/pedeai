@@ -216,4 +216,5 @@ test('rankStores põe primeiro onde dá para pedir e deixa "Em verificação" po
   ];
   assert.deepEqual(core.rankStores(list).map(x => x.name), ['Davi Pede', 'Caio Com Logo', 'Ana Sem Foto', 'Bia Sem Foto', 'Ana Baixa']);
   assert.equal(list[0].name, 'Ana Baixa');
+  assert.equal(core.rankStores(list.concat(s('Zé Destaque', { featured: true, confidence: 'baixa' })))[0].name, 'Zé Destaque');
 });

@@ -66,11 +66,12 @@
     });
   }
 
-  /* Ordem da listagem: primeiro onde dá para pedir, depois com cardápio, com foto ou logo própria e mais verificados;
-     cadastros "Em verificação" vão para o fim. Empate: ordem alfabética. Não altera a lista recebida. */
+  /* Ordem da listagem: destaques escolhidos pelo dono do projeto (featured: true) primeiro, depois onde dá para pedir,
+     com cardápio, com foto ou logo própria e mais verificados; cadastros "Em verificação" vão para o fim.
+     Empate: ordem alfabética. Não altera a lista recebida. */
   var CONFIDENCE_RANK = { alta: 0, media: 1, baixa: 2 };
   function storeRank(s) {
-    return [canOrder(s) ? 0 : 1, s.menu && s.menu.length ? 0 : 1, s.image || s.logo ? 0 : 1, s.confidence in CONFIDENCE_RANK ? CONFIDENCE_RANK[s.confidence] : 1];
+    return [s.featured ? 0 : 1, canOrder(s) ? 0 : 1, s.menu && s.menu.length ? 0 : 1, s.image || s.logo ? 0 : 1, s.confidence in CONFIDENCE_RANK ? CONFIDENCE_RANK[s.confidence] : 1];
   }
   function rankStores(stores) {
     return stores.map(function (s) { return { s: s, r: storeRank(s) }; }).sort(function (a, b) {

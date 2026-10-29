@@ -203,3 +203,17 @@ test('reconcileCart preserva opções e descarta opção que deixou de existir',
   pricier.menu[0].priceCents = 4500;
   assert.equal(core.reconcileCart(cart, pricier).lines[0].unitCents, 4500 + 1500 + 300);
 });
+
+test('rankStores põe primeiro onde dá para pedir e deixa "Em verificação" por último', () => {
+  const base = { menu: [], image: null, logo: null, whatsapp: null, whatsappSource: null, confidence: 'media' };
+  const s = (name, extra) => Object.assign({ name }, base, extra);
+  const list = [
+    s('Ana Baixa', { confidence: 'baixa' }),
+    s('Bia Sem Foto'),
+    s('Caio Com Logo', { logo: { src: 'x.webp' } }),
+    s('Davi Pede', { whatsapp: '5566999990000', whatsappSource: 'https://x.com', menu: [{ id: 'a', name: 'A', priceCents: 100 }] }),
+    s('Ana Sem Foto')
+  ];
+  assert.deepEqual(core.rankStores(list).map(x => x.name), ['Davi Pede', 'Caio Com Logo', 'Ana Sem Foto', 'Bia Sem Foto', 'Ana Baixa']);
+  assert.equal(list[0].name, 'Ana Baixa');
+});

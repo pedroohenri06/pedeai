@@ -50,3 +50,10 @@ test('importação rebaixa WhatsApp sem fonte para telefone e converte preços',
   assert.deepEqual(s.menu.map(m => [m.id, m.priceCents]), [['pizza', 4990], ['pizza-2', 1000]]);
   assert.ok(s.sources.includes('https://x.com/a'));
 });
+
+test('arquivo carregado pelo site não leva as notas internas de pesquisa', () => {
+  const js = fs.readFileSync(path.join(__dirname, '..', 'data', 'establishments.js'), 'utf8');
+  const data = JSON.parse(js.slice(js.indexOf('=') + 1, js.lastIndexOf(';')));
+  assert.equal(data.establishments.length, db.establishments.length);
+  assert.ok(data.establishments.every(s => !('notes' in s)));
+});

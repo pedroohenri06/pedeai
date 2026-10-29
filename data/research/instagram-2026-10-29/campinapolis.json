@@ -1,0 +1,85 @@
+{
+  "cidade": "Campinápolis",
+  "data": "2026-10-28",
+  "lojas": [
+    {
+      "acao": "novo",
+      "idExistente": null,
+      "name": "Sintonia Hamburgueria e Pizzaria",
+      "city": "Campinápolis",
+      "category": "Hambúrguer",
+      "kind": "Hamburgueria e pizzaria (delivery)",
+      "instagram": "sintoniahamburgueepizzas",
+      "profileUrl": "https://www.instagram.com/sintoniahamburgueepizzas/",
+      "address": null,
+      "hours": "Qua a seg, 18h às 23h (destaque HORÁRIOS)",
+      "whatsapp": null,
+      "phone": "556692590651",
+      "orderUrl": "https://hamburgueriasintonia.saipos.com/home",
+      "website": null,
+      "bio": "Hamburgueria & Pizzaria | Sintonia Campinápolis. 🍕 Pizza e hambúrguer artesanal de verdade 🚀 Entrega rápida em Campinapolis ⭐️ +3.000 pedidos com nota máxima 👇🏻Peça agora no link abaixo 👇🏻",
+      "ultimoPost": "2026-10-28",
+      "posts": 24,
+      "seguidores": 1486,
+      "vida": "ativo",
+      "logoArquivo": "campinapolis__hamburguer__sintonia-hamburgueria-e-pizzaria.jpg",
+      "printArquivo": "campinapolis__hamburguer__sintonia-hamburgueria-e-pizzaria__perfil.png",
+      "logoUrl": null,
+      "logoTipo": "logo",
+      "observacoes": "Perfil verificado. Links da bio: 'WhatsApp Hamburgueria' = wa.me/556692590651 (sem o 9, por isso em phone, não em whatsapp); 'WhatsApp Distribuidora' = wa.me/5566981282732 (é da distribuidora de bebidas @sintoniabebidas, não da hamburgueria); 'Cardápio Digital' = saipos. Horário lido do destaque 'Aberto de qua a seg 18 às 23h'. Foto de perfil 1080px. logoUrl: URL do CDN do Instagram é assinada e expira; use o .jpg."
+    },
+    {
+      "acao": "trocar_logo",
+      "idExistente": "eclipse-lanchonete-e-pizzaria-campinapolis",
+      "name": "Eclipse Lanchonete e Pizzaria",
+      "city": "Campinápolis",
+      "category": "Pizza",
+      "kind": "Lanchonete e pizzaria",
+      "instagram": "eclipse.lanchonete",
+      "profileUrl": "https://www.instagram.com/eclipse.lanchonete/",
+      "address": "Av. Benonio José Lourenço esq. c/ Rua Laudelino D. Araújo (acima da escola Couto Magalhães)",
+      "hours": null,
+      "whatsapp": "5566992120997",
+      "phone": null,
+      "orderUrl": null,
+      "website": "https://drive.google.com/file/d/1aQfCv6OA31qhrmbLrRqnOvezsMUHvoFe/view",
+      "bio": "Restaurante. ▪️PERFIL OFICIAL 🚨 ▪️O pôr do sol mais charmoso da city☀️ ▪️Acima da escola Couto Magalhães📍 ▪️Fazemos entregas 🏠 🖤 SIMPLICIDADE & QUALIDADE 💛",
+      "ultimoPost": "2026-07-16",
+      "posts": 78,
+      "seguidores": 2190,
+      "vida": "provavel_aberto",
+      "logoArquivo": "campinapolis__pizza__eclipse-lanchonete-e-pizzaria.jpg",
+      "printArquivo": "campinapolis__pizza__eclipse-lanchonete-e-pizzaria__perfil.png",
+      "logoUrl": null,
+      "logoTipo": "logo",
+      "observacoes": "Troca a logo (hoje é foto do Maps) E completa: instagram, whatsapp (wa.me na bio), cardápio (link 'Cardápio' do Google Drive na bio, posto em website). Cidade confirmada pela localização marcada nos posts ('Eclipse Lanchonete e Pizzaria', Av. Benonio Jose Lourenço esq. c/ Rua Laudelino D. Araujo, Campinápolis - MT), que bate com o endereço cadastrado. A página de localização mostra +55 66 8116-7502 (sem o 9, não usado). Último post sem alfinete há ~3,5 meses; entra por sinais fortes (78 posts, 2,2 mil seguidores, 'PERFIL OFICIAL', faz entregas). O perfil antigo @lanchonete.eclipse (fone (66) 9 8137-2890, o mesmo do cadastro) parou em 2023. Foto de perfil 1024px."
+    }
+  ],
+  "descartados": [
+    {
+      "name": "Lanchonete e Pizzaria Eclipse (perfil antigo)",
+      "instagram": "lanchonete.eclipse",
+      "motivo": "Último post em 2023-03-16. É o perfil antigo da Eclipse (fone (66) 9 8137-2890 / (66) 9 8128-2059, seg a sáb 17h às 00h30); o ativo é @eclipse.lanchonete."
+    },
+    {
+      "name": "Pizzaria Ponto Livre",
+      "instagram": "moissanpizzaria",
+      "motivo": "Último post em 2022-10-06 (6 posts, 185 seguidores). Whatsapp 066981267101 bate com o cadastro pizzaria-ponto-livre-campinapolis, mas o perfil está parado."
+    },
+    {
+      "name": "Pizzaria Ponto Livre",
+      "instagram": "pizzaria_ponto_livre",
+      "motivo": "0 posts, 9 seguidores. Bio: R. Paranaíba, acima do campo de futebol; whatsapp 66981267101 (mesmo do cadastro)."
+    },
+    {
+      "name": "Marmitaria Bom Sabor",
+      "instagram": "bom_sabor_marmitaria.01",
+      "motivo": "0 posts (só destaques 'Cardápio' e 'Preços'), 126 seguidores: sem como datar atividade. Bio: Campinápolis-MT, delivery seg a sáb 11h às 13h, wa.me/+5566981192744. Vale confirmar por fora."
+    },
+    {
+      "name": "Sintonia Delivery (distribuidora)",
+      "instagram": "sintoniabebidas",
+      "motivo": "Distribuidora de bebidas, não é comida."
+    }
+  ]
+}

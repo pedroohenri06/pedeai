@@ -88,7 +88,7 @@
   }
 
   function render() {
-    var q = search.value, list = C.filterStores(STORES, { city: state.city, category: state.category, query: q });
+    var q = search.value, list = C.rankStores(C.filterStores(STORES, { city: state.city, category: state.category, query: q }));
     var inCity = storesInCity().length;
     title.textContent = q ? 'Resultado da busca' : state.category === 'Todos' ? 'Em ' + state.city : state.category + ' em ' + state.city;
     count.textContent = list.length + ' ' + (list.length === 1 ? 'lugar' : 'lugares');

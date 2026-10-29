@@ -1100,8 +1100,8 @@
       "kind": "Restaurante de peixes à beira do Rio Araguaia (também hotel/pousada)",
       "address": "Av. Araguaia, 1 - Centro",
       "neighborhood": "Centro",
-      "whatsapp": null,
-      "whatsappSource": null,
+      "whatsapp": "5566984328362",
+      "whatsappSource": "https://www.instagram.com/_solardasaguas/",
       "phone": "556635221038",
       "instagram": "_solardasaguas",
       "website": null,
@@ -1130,8 +1130,8 @@
         "https://www.tripadvisor.com/Restaurant_Review-g2578167-d5357799-Reviews-Flutuante_Solar_Das_Aguas-Sao_Felix_do_Araguaia_State_of_Mato_Grosso.html"
       ],
       "confidence": "alta",
-      "verifiedAt": "2026-10-25",
-      "notes": "Fixo (66) 3522-1038 via Yelp/Guia Fácil. O trecho do Instagram na busca mostrou o celular (66) 98432-8362, mas sem confirmar que é WhatsApp, por isso whatsapp=null. Pratos citados na imprensa (moqueca de pintado, ventrecha de caranha, pirarucu à parmegiana) sem preços. O 'Flutuante Solar das Águas' do Tripadvisor parece ser o mesmo negócio ou estar ligado a ele (não confirmado).",
+      "verifiedAt": "2026-10-28",
+      "notes": "Fixo (66) 3522-1038 via Yelp/Guia Fácil. O trecho do Instagram na busca mostrou o celular (66) 98432-8362, mas sem confirmar que é WhatsApp, por isso whatsapp=null. Pratos citados na imprensa (moqueca de pintado, ventrecha de caranha, pirarucu à parmegiana) sem preços. O 'Flutuante Solar das Águas' do Tripadvisor parece ser o mesmo negócio ou estar ligado a ele (não confirmado). Instagram @_solardasaguas conferido em 2026-10-28 (pesquisa via Claude no Chrome).",
       "logo": {
         "src": "assets/stores/restaurante-solar-das-aguas-sao-felix-do-araguaia-logo.webp",
         "thumb": "assets/stores/restaurante-solar-das-aguas-sao-felix-do-araguaia-logo-card.webp",
@@ -1144,6 +1144,32 @@
         "sourceUrl": "https://www.google.com/maps/place/Restaurante+Solar+das+%C3%81guas/@-11.6181749,-50.6628498,17z/data=!3m1!4b1!4m6!3m5!1s0x93167d7414d17e91:0xdf6af44d2971e77c!8m2!3d-11.6181749!4d-50.6628498!16s%2Fg%2F1tzl_0y4",
         "tile": "assets/stores/restaurante-solar-das-aguas-sao-felix-do-araguaia-logo-tile.webp"
       }
+    },
+    {
+      "id": "vania-confeitaria-sao-felix-do-araguaia",
+      "name": "Vânia Confeitaria",
+      "city": "São Félix do Araguaia",
+      "category": "Doces",
+      "kind": "Confeitaria (bolos e doces sob encomenda e pronta entrega)",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": "vania_confeitaria_oficial",
+      "website": null,
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": null,
+      "menu": [],
+      "sources": [
+        "https://www.instagram.com/vania_confeitaria_oficial/"
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-10-28",
+      "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @vania_confeitaria_oficial (160 posts, 288 seguidores, último post 2026-09-21). Bio: \"Vânia confeitaria. Fazemos encomendas e a pronta entrega 💫 são Félix do Araguaia MT. produtos feitos por: @vaniacarvalhofaria @joyce_faria_oficial.\". Sem telefone/WhatsApp na bio; a logo (foto de perfil) parece ter um telefone escrito, ilegível na miniatura: conferir no .jpg 1080px antes de usar (e só como phone, já que não é link de WhatsApp). Último post sem alfinete 2026-09-21 (3 fixados de 2025)."
     },
     {
       "id": "vitoria-lanchonete-e-pizzaria-sao-felix-do-araguaia",

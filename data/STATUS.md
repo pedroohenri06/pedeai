@@ -2,12 +2,12 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-29.
 
-Meta: 60 por cidade (600 no total). Cadastrados: **303**.
+Meta: 60 por cidade (600 no total). Cadastrados: **304**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
 | Vila Rica | 18 | 42 | 0 | 0 | 0 |
-| São Félix do Araguaia | 20 | 40 | 0 | 0 | 0 |
+| São Félix do Araguaia | 21 | 39 | 1 | 0 | 0 |
 | Querência | 53 | 7 | 14 | 0 | 0 |
 | Ribeirão Cascalheira | 23 | 37 | 2 | 0 | 0 |
 | Canarana | 47 | 13 | 13 | 0 | 0 |
@@ -16,7 +16,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **303**.
 | Campinápolis | 9 | 51 | 1 | 0 | 0 |
 | Nova Xavantina | 41 | 19 | 16 | 0 | 0 |
 | Barra do Garças | 36 | 24 | 6 | 4 | 1 |
-| **Total** | **303** | **297** | **65** | **4** | **1** |
+| **Total** | **304** | **296** | **66** | **4** | **1** |
 
 ## Pendências por estabelecimento
 
@@ -61,7 +61,8 @@ Meta: 60 por cidade (600 no total). Cadastrados: **303**.
 - **Restaurante Água na Boca** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Só aparece no Tripadvisor. Sem telefone, e funcionamento atual não confirmado.
 - **Restaurante do Jean** — WhatsApp não verificado; cardápio pendente; Os dados vêm só de diretórios. O Econodata mostra o CNPJ 10.603.316/0001-21 como 'Inapta', então pode estar fechado.
 - **Restaurante Encontro das Águas** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Listado no Tripadvisor com uma única avaliação. Sem telefone, e funcionamento atual não confirmado.
-- **Restaurante Solar das Águas** — WhatsApp não verificado; cardápio pendente; Fixo (66) 3522-1038 via Yelp/Guia Fácil. O trecho do Instagram na busca mostrou o celular (66) 98432-8362, mas sem confirmar que é WhatsApp, por isso whatsapp=null. Pratos citados na imprensa (moqueca de pintado, ventrecha de caranha, pirarucu à parmegiana) sem preços. O 'Flutuante Solar das Águas' do Tripadvisor parece ser o mesmo negócio ou estar ligado a ele (não confirmado).
+- **Restaurante Solar das Águas** — cardápio pendente; Fixo (66) 3522-1038 via Yelp/Guia Fácil. O trecho do Instagram na busca mostrou o celular (66) 98432-8362, mas sem confirmar que é WhatsApp, por isso whatsapp=null. Pratos citados na imprensa (moqueca de pintado, ventrecha de caranha, pirarucu à parmegiana) sem preços. O 'Flutuante Solar das Águas' do Tripadvisor parece ser o mesmo negócio ou estar ligado a ele (não confirmado). Instagram @_solardasaguas conferido em 2026-10-28 (pesquisa via Claude no Chrome).
+- **Vânia Confeitaria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @vania_confeitaria_oficial (160 posts, 288 seguidores, último post 2026-09-21). Bio: "Vânia confeitaria. Fazemos encomendas e a pronta entrega 💫 são Félix do Araguaia MT. produtos feitos por: @vaniacarvalhofaria @joyce_faria_oficial.". Sem telefone/WhatsApp na bio; a logo (foto de perfil) parece ter um telefone escrito, ilegível na miniatura: conferir no .jpg 1080px antes de usar (e só como phone, já que não é link de WhatsApp). Último post sem alfinete 2026-09-21 (3 fixados de 2025).
 - **Vitória Lanchonete e Pizzaria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Nome no diretório: 'Vitória Lanchonete, pizzaria e publicidades'. Só aparece em diretório.
 
 ### Querência

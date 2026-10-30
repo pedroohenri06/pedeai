@@ -2,7 +2,7 @@
 
 Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-29.
 
-Meta: 60 por cidade (600 no total). Cadastrados: **311**.
+Meta: 60 por cidade (600 no total). Cadastrados: **310**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
@@ -11,12 +11,12 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 | Querência | 53 | 7 | 14 | 0 | 0 |
 | Ribeirão Cascalheira | 23 | 37 | 2 | 0 | 0 |
 | Canarana | 47 | 13 | 13 | 0 | 0 |
-| Água Boa | 44 | 16 | 12 | 0 | 0 |
+| Água Boa | 43 | 17 | 12 | 0 | 0 |
 | Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 0 | 0 |
 | Nova Xavantina | 34 | 26 | 16 | 0 | 0 |
 | Barra do Garças | 30 | 30 | 7 | 3 | 1 |
-| **Total** | **311** | **289** | **74** | **3** | **1** |
+| **Total** | **310** | **290** | **74** | **3** | **1** |
 
 ## Pendências por estabelecimento
 
@@ -246,7 +246,6 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 - **Kaingó Açaí** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'KAINGÓ' (print do Instagram, 28/10/2026). Bio: 'Produto de qualidade pai d'égua, 100% criado no chão do Pará Manoa! Nem vem que é 100% Pará. Estamos abertos todos os dias das 13h às 23h' + bio.site/Acaikaingo. Posts marcam 'Água Boa-MT'. Sem WhatsApp e endereço visíveis.
 - **Karamello's Confeitaria & Café** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @karamellosab (842 posts, 5575 seguidores, último post 2026-10-28). Bio "Água Boa - MT", cafés especiais e confeitaria.
 - **La Casa de Açaí** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Página do Facebook associada a Água Boa (sufixo 'ab'); estado (MT) não confirmado explicitamente no trecho. Sem telefone/endereço. Instagram próprio @lacasadeacaiab (print de 28/10/2026): 'Já experimentou o melhor açaí de Água Boa? (66) 99934-6916. Peça já o seu' + wa.me/5566999346916. Logo trocada pela do perfil atual.
-- **Lanchonete Água Boa MT** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Bio diz que pedidos são 'pelo Whats', mas o número não foi capturado no trecho da busca. Nome genérico. WhatsApp não verificado (WebFetch indisponível e cota de buscas esgotada); cardápio público não localizado.
 - **Lanchonete Rodoviária** — WhatsApp não verificado; cardápio pendente; endereço pendente; Apenas registro de CNPJ 04.899.412/0001-66 como ativo; sem canal próprio encontrado. Endereço provável na rodoviária, não confirmado. Instagram próprio 'Lanchonete Rodoviária' (print de 28/10/2026): 'Pastéis, Sucos, Caldos, Refrigerantes. Aberto 24 horas. Sob nova direção' (post: Maurão e Helaine). Nome atualizado para o do perfil. Sem telefone visível.
 - **Magnólia Confeitaria e Café** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @magnoliaconfeitariaa (293 posts, 4590 seguidores, último post 2026-10-27). Nome do perfil "Magnólia Confeitaria e Café | Água Boa - MT".
 - **Mordidela Food** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'Mordidela Food - Água Boa MT' (print do Instagram, 28/10/2026). Bio: 'Paixão à Primeira Mordida! Av. Araguaia, 829 - Centro II. Seg a Sáb das 7h as 22h30. Faça já o seu pedido!' + wa.me/556681168538. O link do WhatsApp está no formato antigo de 8 dígitos (sem o nono dígito): registrado em phone como publicado; confirmar o número atual.

@@ -39,7 +39,7 @@ def main(folder):
         s["logo"] = {"src": f"assets/stores/{sid}-logo.webp", "thumb": f"assets/stores/{sid}-logo-card.webp",
                      "width": img.width, "height": img.height, "alt": f"Logotipo — {s['name']}",
                      "credit": s["name"], "license": base.LICENSE, "kind": "logo",
-                     "sourceUrl": f"https://www.instagram.com/{cfg['instagram']}/",
+                     "sourceUrl": f"https://www.instagram.com/{cfg['instagram']}/" if cfg.get("instagram") else s["sources"][0],
                      "tile": f"assets/stores/{sid}-logo-tile.webp"}
         print(f"logo  {sid}")
     DB.write_text(json.dumps(db, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

@@ -8,7 +8,7 @@
   var motion = matchMedia('(prefers-reduced-motion: reduce)');
   var behavior = function () { return motion.matches ? 'instant' : 'smooth'; };
 
-  var state = { store: null, cart: null, mode: 'entrega', lastFocus: null, sheet: null, observers: [] };
+  var state = { store: null, cart: null, mode: 'entrega', lastFocus: null, sheet: null, observers: [], loading: {} };
 
   function readStorage(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function writeStorage(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch (e) { /* armazenamento indisponível */ } }
@@ -67,7 +67,7 @@
   function chips(s) {
     var c = ['<span class="sp-chip">' + esc(s.category) + '</span>', '<span class="sp-chip">' + icon(I.pin) + esc(s.city) + '</span>'];
     if (C.canOrder(s)) c.push('<span class="sp-chip sp-chip--on">Pedido online</span>');
-    else if (s.menu.length) c.push('<span class="sp-chip">' + s.menu.length + (s.menu.length === 1 ? ' item' : ' itens') + ' no cardápio</span>');
+    else if (C.menuSize(s)) c.push('<span class="sp-chip">' + C.menuSize(s) + (C.menuSize(s) === 1 ? ' item' : ' itens') + ' no cardápio</span>');
     if (s.confidence === 'baixa') c.push('<span class="sp-chip sp-chip--muted">Em verificação</span>');
     return '<div class="sp-chips">' + c.join('') + '</div>';
   }
@@ -174,7 +174,20 @@
       '<li><b>Finalize no WhatsApp</b><span>O pedido chega pronto para ' + esc(s.name) + '. O pagamento você combina direto com o estabelecimento.</span></li></ol>';
   }
 
+  /* Cardápio sob demanda: enquanto data/menus/<id>.json chega, a página mostra a estrutura do cardápio (sem conteúdo
+     inventado); se a rede falhar, oferece tentar de novo e o cardápio online oficial. */
+  function pendingMenuHtml(s) {
+    var failed = state.loading[s.id] === 'erro';
+    return '<section class="sp-menu" aria-labelledby="storeMenuTitle" aria-busy="' + !failed + '"><div class="sp-menu-head">' + eyebrow('Escolha seus itens') + '<h2 id="storeMenuTitle">Cardápio</h2></div>' +
+      (failed
+        ? '<div class="sp-card sp-empty"><h3>Não foi possível carregar o cardápio</h3><p>Verifique sua conexão e tente de novo.</p><div class="sp-empty-actions"><button class="sp-btn sp-btn--primary" type="button" data-menu-retry>Tentar de novo</button>' +
+          (s.orderUrl ? '<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '') + '</div></div>'
+        : '<div class="sp-skel" aria-hidden="true">' + '<span class="sp-skel-cats"><i></i><i></i><i></i></span>' + new Array(5).join('<span class="sp-skel-item"><i></i><i></i><i></i><b></b></span>') + '</div><p class="sr-only">Carregando o cardápio…</p>') +
+      '</section>';
+  }
+
   function menuHtml(s) {
+    if (s.menuFile && !s.menu.length) return pendingMenuHtml(s);
     if (!s.menu.length) {
       var actions = (s.whatsapp ? '<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Pedir pelo WhatsApp</a>' : '') +
         (s.orderUrl ? '<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '');
@@ -204,8 +217,28 @@
   }
 
   /* ---------------- Abertura e fechamento ---------------- */
+  /* Estado do carregamento por loja: 'carregando' ou 'erro' (sem entrada = ainda não pedido ou já carregado). */
+  function loadMenu(s) {
+    state.loading[s.id] = 'carregando';
+    fetch(s.menuFile).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (menu) {
+      s.menu = menu;
+      delete state.loading[s.id];
+      if (state.store === s) render(s);
+    }).catch(function () {
+      state.loading[s.id] = 'erro';
+      if (state.store === s) render(s);
+    });
+  }
+
   function open(s) {
     if (!page.classList.contains('open')) state.lastFocus = document.activeElement;
+    if (s.menuFile && !s.menu.length && state.loading[s.id] !== 'carregando') loadMenu(s);
+    render(s);
+  }
+
+  /* Monta a página (de novo quando o cardápio sob demanda chega, mantendo a rolagem). */
+  function render(s) {
+    var again = state.store === s && page.classList.contains('open'), keep = again && $('storeScroll') ? $('storeScroll').scrollTop : 0;
     closeSheet(false);
     closeCart(false);
     disconnect();
@@ -214,7 +247,7 @@
     page.classList.toggle('sp-has-photo', !!s.image);
     /* Sem nenhuma foto de produto, cartões só de texto; com ao menos uma, todos reservam a área de imagem. */
     page.classList.toggle('sp-noimg', !s.menu.some(function (m) { return m.image; }));
-    page.classList.toggle('sp-has-menu', s.menu.length > 0);
+    page.classList.toggle('sp-has-menu', C.menuSize(s) > 0);
     page.innerHTML = '<div class="sp-scroll" id="storeScroll">' + topHtml(s) +
       '<div class="sp-page">' + coverHtml(s) +
       '<div class="sp-layout"><aside class="sp-aside">' + infoHtml(s) + summaryHtml(s) + '</aside>' +
@@ -228,7 +261,10 @@
     page.setAttribute('aria-hidden', 'false');
     document.body.classList.add('store-open');
     document.title = s.name + ' em ' + s.city + ' | PedeAi Delivery';
-    $('storeScroll').scrollTop = 0;
+    $('storeScroll').scrollTop = keep;
+    var retry = page.querySelector('[data-menu-retry]');
+    if (retry) retry.onclick = function () { loadMenu(s); render(s); };
+    if (again) return;
     // Foco no próprio diálogo: leitores de tela anunciam a loja e nenhum anel de foco aparece no botão voltar ao abrir.
     page.setAttribute('tabindex', '-1');
     requestAnimationFrame(function () { page.focus({ preventScroll: true }); });

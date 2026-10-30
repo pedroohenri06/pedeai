@@ -1,0 +1,3452 @@
+{
+  "id": "casarao-beer-churrascaria-barra-do-garcas",
+  "platform": "brendi",
+  "source": "https://menu.brendi.com.br/casarao",
+  "capturedAt": "2026-10-30T22:03:07.000Z",
+  "hours": "Seg 17:00–22:00 · Ter 17:00–22:00 · Qua 17:00–22:00 · Qui 17:00–22:00 · Sex 17:00–22:00 · Sáb 17:00–22:00 · Dom 17:00–22:00",
+  "sections": [
+    {
+      "name": "Combo turbo com churras",
+      "items": [
+        {
+          "sourceId": "m3KcrvN4nQg14Kc5MyQ0",
+          "name": "SERENADA + Batata + sobremesa",
+          "description": "Carne serenada macia com Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 6190,
+          "originalPriceCents": 6990,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fm3KcrvN4nQg14Kc5MyQ0-1777992136653.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "K0j0fQUvxKORSxJmn96M",
+          "name": "PICANHA + Batata + Sobremesa",
+          "description": "Picanha macia com Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 8600,
+          "originalPriceCents": 10200,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FK0j0fQUvxKORSxJmn96M-1777991692127.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5fT7HuVDxQAUayWITaCN",
+          "name": "FILÉ + Batata + Sobremesa",
+          "description": "Filé Mignon Bovino + Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 7300,
+          "originalPriceCents": 8500,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F5fT7HuVDxQAUayWITaCN-1777991825459.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "8Hx3jxpCM9Z9SJ9cNvaj",
+          "name": "CONTRA Filé + Batata + Sobremesa",
+          "description": "Contra File + Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 6390,
+          "originalPriceCents": 7500,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F8Hx3jxpCM9Z9SJ9cNvaj-1777991899698.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "H7IV2C5GsyjtHVHF616o",
+          "name": "CUPIM + Batata + Sobremesa",
+          "description": "Cupim Tradicional + Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 6290,
+          "originalPriceCents": 7390,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FH7IV2C5GsyjtHVHF616o-1777991977756.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2i9zfbeeWkD0nnJAgF4p",
+          "name": "CUPIM do Sertão + Batata + Sobremesa",
+          "description": "Cupim com creme de queijo e farinha + Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 6590,
+          "originalPriceCents": 7790,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F2i9zfbeeWkD0nnJAgF4p-1777992028177.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "P9CFpYliPr1eee4qRXWl",
+          "name": "CUPIM do Chef + Batata + Sobremesa",
+          "description": "Cupim na Mostarda + Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 6490,
+          "originalPriceCents": 7790,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FP9CFpYliPr1eee4qRXWl-1777992062662.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Gf4pYjl5NpuE7dFVzpqN",
+          "name": "MAMINHA + Batata + Sobremesa",
+          "description": "Maminha + Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 6790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FGf4pYjl5NpuE7dFVzpqN-1777992099809.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "DoHWx88lweWYLW716u28",
+          "name": "CARNEIRO + Batata + Sobremesa",
+          "description": "Carneiro + Arroz Branco + 3 guarnições + sobremesa (mouse de maracujá ou limão) + batata frita com maionese defumada (imagem ilustrativa).",
+          "priceCents": 6390,
+          "originalPriceCents": 7590,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FDoHWx88lweWYLW716u28-1777991940980.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos (INDIVIDUAL)",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Petisco para beliscar",
+      "items": [
+        {
+          "sourceId": "gLtogYjTKKJsJs6mwPta",
+          "name": "Combo supremo 1",
+          "description": "PORÇÃO GENEROSA PARA QUEM QUER VARIEDADE, 1,2Kg FILÉ DE TILÁPIA FRITA COM TEMPERO ESPECIAL, PEITO DE FRANCO CORTADO EM ISCA E BEM DOURADINHO, MANDIOCA FRITA, SEQUINHA E CROCANTE, SERVE DE 4 A 5 PESSOAS",
+          "priceCents": 11090,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FgLtogYjTKKJsJs6mwPta.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "CFN0afFzn9rNEpEJWnr8",
+          "name": "Isca filé de peixe",
+          "description": "350Gr DE TIRAS DE FILÉ DE PEIXE EMPANADOS NA PANKO, SERVIDO COM MOLHO DE ERVAS.",
+          "priceCents": 8990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FCFN0afFzn9rNEpEJWnr8.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Escolha o molho ou geléia de sua preferência",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia Agridoce de Maçã com Pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho de Ervas da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pasta de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "fXNk7REsomE388k5W15v",
+          "name": "BATATA SIMPLES 400g",
+          "description": "Acompanha maionese de alho",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FfXNk7REsomE388k5W15v.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "VNYK9OPjlDa6fRVLIb9h",
+          "name": "FRITAS CASARÃO 550g",
+          "description": "Fritas com creme de queijo, carne de primeira desfiada, parmesão e oregano.",
+          "priceCents": 7290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FVNYK9OPjlDa6fRVLIb9h.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "IkXfLPPY0Q4swP3QfG3m",
+          "name": "MINI FRITAS 100g",
+          "description": "Fritas fininhas e crocantes,",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FIkXfLPPY0Q4swP3QfG3m.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "Y7UJ8eyw0b8WAvrcVDNn",
+          "name": "Mix de dadinhos de tapioca",
+          "description": "Dadinhos de tapioca crocantes e macios, com carne desfiada e cream cheese, banana terra e salaminho",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FY7UJ8eyw0b8WAvrcVDNn.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "DjHWW71q2Svacd2Js0Ih",
+          "name": "Queijo assado 2 bolas",
+          "description": "",
+          "priceCents": 3950,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FDjHWW71q2Svacd2Js0Ih.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "FsyQMxiBNEMFsjERyOBd",
+          "name": "Crocante de carne casarão",
+          "description": "Carne desfiada com duplo queijo, explosão de sabor",
+          "priceCents": 6790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FFsyQMxiBNEMFsjERyOBd.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "ykTDVyvEwf1sdSuAuQQA",
+          "name": "Crocante de frango",
+          "description": "Carne de frango desfiada com duplo queijo, explosão de sabor,",
+          "priceCents": 6290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FykTDVyvEwf1sdSuAuQQA.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "9L5M4SWZ1k1PP8JCkwwc",
+          "name": "Pastelzinho carne desfiada com mussarela",
+          "description": "08 un acompanha delicioso molho levemente picante",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F9L5M4SWZ1k1PP8JCkwwc.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "utJtfh2eV2Io9FZHmSZl",
+          "name": "Pastelzinho carne desfiada com banana",
+          "description": "08 un acompanha delicioso molho levemente picante",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F9L5M4SWZ1k1PP8JCkwwc.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "oqMN6R41OQmj6dqxWlLE",
+          "name": "Pastelzinho porção mista",
+          "description": "Misto com 2 pastelzinhos de cada sabor, acompanha molho levemente apimentado",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F9L5M4SWZ1k1PP8JCkwwc.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "HbpdgbHUmZAlN85rnvsY",
+          "name": "Pastelzinho de queijo",
+          "description": "Acompanha molho levemente apimentado",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F9L5M4SWZ1k1PP8JCkwwc.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "Y2zFH5cfgxXKhAiFIIVt",
+          "name": "Pastelzinho carne desfiada com cheddar",
+          "description": "08 un acompanha molho levemente apimentado",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F9L5M4SWZ1k1PP8JCkwwc.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Churrasco",
+      "items": [
+        {
+          "sourceId": "twVVPJWaBmuLgbBRAl5e",
+          "name": "Picanha premium",
+          "description": "",
+          "priceCents": 17000,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FtwVVPJWaBmuLgbBRAl5e.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Picanha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 12000
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "HbWVBPFMZAFhR1fVJkGu",
+          "name": "Filé Bovino",
+          "description": "",
+          "priceCents": 14200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FHbWVBPFMZAFhR1fVJkGu.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Filé",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 8000
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5h6zLywbpp6T5Q5yX5he",
+          "name": "Carneiro do Chef",
+          "description": "",
+          "priceCents": 12600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F5h6zLywbpp6T5Q5yX5he.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Carneiro",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 7200
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "BM3wvWQ67DtM24PqjNu8",
+          "name": "Cupim Tradicional",
+          "description": "",
+          "priceCents": 12290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FBM3wvWQ67DtM24PqjNu8.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Cupim Tradicional",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 7500
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "63afusNIchVx2OTMcfuo",
+          "name": "Cupim do Sertão",
+          "description": "Com creme de queijo e farinha crocante",
+          "priceCents": 12690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F63afusNIchVx2OTMcfuo.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Cupim do Sertão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 7300
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "UtG1yGlf0w1By2IeFiGR",
+          "name": "Cupim do Chef",
+          "description": "Com mostarda",
+          "priceCents": 12490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FUtG1yGlf0w1By2IeFiGR.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Cupim do Cheff",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 7200
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "S6oYgMOtcLJEJdMRsVNt",
+          "name": "Contra filé",
+          "description": "",
+          "priceCents": 12290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FS6oYgMOtcLJEJdMRsVNt.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Contra-Filé",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 7400
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "EkocTlGDQzYIsd1qH5RW",
+          "name": "Maminha",
+          "description": "",
+          "priceCents": 11890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FEkocTlGDQzYIsd1qH5RW.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções Maminha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 6200
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "IHHcYGujggqpN4aEzD83",
+          "name": "Serenada",
+          "description": "",
+          "priceCents": 11890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FEkocTlGDQzYIsd1qH5RW.jpeg?alt=media",
+          "options": [
+            {
+              "name": "Porções SERENADA",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1Kg",
+                  "priceCents": 6200
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus acompanhamentos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz ao Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz com Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão Tropeiro “Turbinado”",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa de Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Churrasco",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Creme De Queijo",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Mostarda",
+                  "priceCents": 1699
+                },
+                {
+                  "name": "Creme De Queijo Com Alho",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Arroz Branco",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Arroz Com Brócolis",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Arroz Ao Alho",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Feijão Tropeiro Turbinado",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 1099
+                },
+                {
+                  "name": "Maionese",
+                  "priceCents": 899
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Geleia Com Pimenta",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho Da Casa",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Molho De Alho",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pratos individuais",
+      "items": [
+        {
+          "sourceId": "jrNkPHiGqM64MmfAdBxu",
+          "name": "Camarão internacional",
+          "description": "O clássico que você ama: arroz cremoso com camarão, presunto, ervilhas e muito queijo gratinado e batata palha artesanal da casa",
+          "priceCents": 9790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FjrNkPHiGqM64MmfAdBxu.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "uHZlds9VxfQ9EtFYnU96",
+          "name": "Picanha no arroz de queijos",
+          "description": "Combo Irresistível: Picanha + Arroz Cremoso Sabor intenso e textura perfeita! Nossa picanha na brasa acompanhada de um arroz generoso no queijo, que estica a cada garfada.",
+          "priceCents": 7690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FuHZlds9VxfQ9EtFYnU96.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "jWNEZniHe3TGoKbtE4vy",
+          "name": "Picanha à brasileira premium",
+          "description": "Picanha grelhada na brasa, arroz branco, fritas farofa e vinagrete.",
+          "priceCents": 7790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FjWNEZniHe3TGoKbtE4vy.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "oGiBCLwUG9eFXT4v5rtl",
+          "name": "Parmegiana de mignon",
+          "description": "A Queridinha da Casa! Filé à Parmegiana super macio, com muito molho de tomate natural e queijo gratinado. Acompanha arroz e batata palha caseira. O prato que é puro conforto e chega quentinho no seu endereço!",
+          "priceCents": 7790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FoGiBCLwUG9eFXT4v5rtl.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pratos duplos (2 pessoas)",
+      "items": [
+        {
+          "sourceId": "kiCaGJCrTwUHOCmWdqKL",
+          "name": "Tilápia a delícia",
+          "description": "Filé de Tilápia grelhado com creme branco e Banana da Terra seladas. Acompanha arroz branco e salada mista.",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FkiCaGJCrTwUHOCmWdqKL.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "2FJU54KjXV2orD8hjnkh",
+          "name": "Supremo de mignon com penne ao creme",
+          "description": "Massa Penne ao dente envolvida em creme de leite fresco com Queijo, servido com suculentas isca de mignon seladas na manteiga.",
+          "priceCents": 9790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F2FJU54KjXV2orD8hjnkh.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "SbDgnbyJDPeOavh1dwUX",
+          "name": "Parmegiana de mignon",
+          "description": "A Queridinha da Casa! Filé à Parmegiana super macio, com muito molho de tomate natural e queijo gratinado. Acompanha arroz e batata palha caseira. O prato que é puro conforto e chega quentinho no seu endereço!",
+          "priceCents": 17990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FSbDgnbyJDPeOavh1dwUX.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "R3wsf8rSlH28pe9iaDtG",
+          "name": "Picanha no arroz de queijo",
+          "description": "Picanha assada na brasa, servida com arroz cremoso de queijo e alho frito.",
+          "priceCents": 17990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FR3wsf8rSlH28pe9iaDtG.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "ltTmX0wLhZnZlbniKXJa",
+          "name": "Camarão internacional",
+          "description": "O clássico que você ama: arroz cremoso com camarão, presunto, ervilhas e muito queijo gratinado e batata palha artesanal da casa",
+          "priceCents": 18890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FltTmX0wLhZnZlbniKXJa.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "cSQXyHHjclHEU8y3tXL2",
+          "name": "Panelinha de carne seca",
+          "description": "Arroz cremoso com carne seca, banana da terra, queijo e especiárias, acompanha farofa de banana.",
+          "priceCents": 11200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FcSQXyHHjclHEU8y3tXL2.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "sourceId": "PLjjP262fjie5Ct39T8z",
+          "name": "Banoffe",
+          "description": "",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FPLjjP262fjie5Ct39T8z-1777990309659.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "92ajuokFVEAlk4pwxlbZ",
+          "name": "Bolo brigadeiro",
+          "description": "Pedaço",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F92ajuokFVEAlk4pwxlbZ-1777990336553.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "2rOTQYODolq7jVWzX3nT",
+          "name": "Bolo casadinho",
+          "description": "Pedaço",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F2rOTQYODolq7jVWzX3nT-1777990365596.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "Vggk1FTApoZtvuJLhMGX",
+          "name": "Mouse de limão",
+          "description": "Delicioso mouse artesanal com raspas de limão",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FVggk1FTApoZtvuJLhMGX-1777990408209.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "C8hDBC3BLILfYkEfFGQq",
+          "name": "Mouse de maracujá",
+          "description": "Delicioso mouse com geleia de maracujá artesanal.",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FC8hDBC3BLILfYkEfFGQq-1777990433836.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "h88VQssGfnmAEZiEbh4b",
+          "name": "Bolo de maracujá",
+          "description": "Pedaço",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fh88VQssGfnmAEZiEbh4b-1777990464255.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "1Mia6ahP4NL5OwBg6RqK",
+          "name": "Pavê",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F1Mia6ahP4NL5OwBg6RqK-1777990494122.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "sjvVDk8efc8Y9KnwpU9j",
+          "name": "Sonho de valsa",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FsjvVDk8efc8Y9KnwpU9j-1777990540428.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "6mvLieaXmFisF2NAWxmB",
+          "name": "Pudim",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F6mvLieaXmFisF2NAWxmB.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "DLo5KEvMJWck73CBpetY",
+          "name": "Bolo frutas vermelhas",
+          "description": "Pedaço",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FDLo5KEvMJWck73CBpetY-1777990284299.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Saladas",
+      "items": [
+        {
+          "sourceId": "k0W9tFMF7aSDp94zbfci",
+          "name": "SALADA MIGNON (individual)",
+          "description": "Alface, maionese de alho, tiras de mignon, ovo cozido, batata palha e queijo em cubos",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fk0W9tFMF7aSDp94zbfci-1786626994310.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "kYMnBmOfU8DBpntce9PV",
+          "name": "Salada Caesar (INDIVIDUAL)",
+          "description": "Alface, tiras de frango, croutons, maionese de alho, parmesão",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FkYMnBmOfU8DBpntce9PV-1786627036210.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "YGXGcmHAFpTzwMrtZh2Z",
+          "name": "LEVÍSSIMA DE TILÁPIA (individual)",
+          "description": "Filé de tilápia grelhada e crocante, grão de bico, couve-flor, brócolis, alface e molho.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FYGXGcmHAFpTzwMrtZh2Z.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Infantil",
+      "items": [
+        {
+          "sourceId": "gGqaUt997HOPVY3N9J72",
+          "name": "Filé kids",
+          "description": "A FAVORITA DA CRIANÇADA, \"Combo Kids: Filézinho com Fritas e arroz filé mignon em porção ideal para os pequenos, muito suculento e fácil de mastigar",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FgGqaUt997HOPVY3N9J72.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "97eYSduYo8HpFnux7Ki2",
+          "name": "Filé com spaguetti",
+          "description": "Pratinho da Energia: Super Espaguete com Filé! Iscas suculentas de filé mignon que derretem na boca, acompanhadas de uma generosa porção de espaguete com queijo parmesão ralado por cima e ervilhas",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F97eYSduYo8HpFnux7Ki2.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Acompanhamentos",
+      "items": [
+        {
+          "sourceId": "sZxD4ciJlqPoZIVbtywx",
+          "name": "Arroz Com Brócolis",
+          "description": "",
+          "priceCents": 1499,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FsZxD4ciJlqPoZIVbtywx-1783564441733.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "2VyQBBZGK78T6XWYS1VA",
+          "name": "Arroz Branco",
+          "description": "",
+          "priceCents": 899,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F2VyQBBZGK78T6XWYS1VA-1783564456580.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "RCjYeE6HcSxWN5A9KUNy",
+          "name": "Arroz Ao Alho",
+          "description": "",
+          "priceCents": 1099,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FRCjYeE6HcSxWN5A9KUNy-1783564470767.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "LmwXNqwAvzFgWyqFtgw3",
+          "name": "Mandioca",
+          "description": "",
+          "priceCents": 699,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FLmwXNqwAvzFgWyqFtgw3-1783564862001.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "C9CKifDblE9EaH0bDST7",
+          "name": "Feijão Tropeiro",
+          "description": "",
+          "priceCents": 1099,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FC9CKifDblE9EaH0bDST7-1783564603044.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "0wmFfjAOB7mkHNtqy1yq",
+          "name": "Feijão Tropeiro Turbinado",
+          "description": "",
+          "priceCents": 1499,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F0wmFfjAOB7mkHNtqy1yq-1783564619765.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "iYoad11cJJXURsSe4JZI",
+          "name": "Farofa De Banana",
+          "description": "",
+          "priceCents": 1099,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FiYoad11cJJXURsSe4JZI-1783564880313.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "Fmb47rdVyKLeRX16WSD5",
+          "name": "Vinagrete",
+          "description": "",
+          "priceCents": 699,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FFmb47rdVyKLeRX16WSD5-1783564897324.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "er4QTieQBBQ1K9hhDjPo",
+          "name": "Maionese",
+          "description": "",
+          "priceCents": 899,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fer4QTieQBBQ1K9hhDjPo-1783564914074.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "uI8t0wOIgzn8nUzRYV81",
+          "name": "Creme De Queijo",
+          "description": "",
+          "priceCents": 1699,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FuI8t0wOIgzn8nUzRYV81-1783564933580.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "uXC7ra4taeHo8Nvwv43D",
+          "name": "Creme De Mostarda",
+          "description": "",
+          "priceCents": 1699,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FuXC7ra4taeHo8Nvwv43D-1783565061444.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "T8lI1gvVgfdm0oYz9JgJ",
+          "name": "Barbecue",
+          "description": "",
+          "priceCents": 1699,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FT8lI1gvVgfdm0oYz9JgJ-1783565104814.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "6ZF4pOaHL19Zu9YuZyyh",
+          "name": "Creme De Queijo Com Alho",
+          "description": "",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F6ZF4pOaHL19Zu9YuZyyh-1783565086733.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "a9EAp9HGSJ5kvkulD0jy",
+          "name": "Geléia de Pimenta",
+          "description": "",
+          "priceCents": 1699,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fa9EAp9HGSJ5kvkulD0jy-1783565172404.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "5XS0KEyVDJnqIT9GeRWm",
+          "name": "Sprite",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F5XS0KEyVDJnqIT9GeRWm.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "2Wkt0ChiaKjhz6eNzkYf",
+          "name": "Água Tônica 350 ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F2Wkt0ChiaKjhz6eNzkYf.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "kCB0rVk8zg1E3H4WdhUx",
+          "name": "Fanta uva",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FkCB0rVk8zg1E3H4WdhUx.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "O3t7VjzVPpyHiznRlyLC",
+          "name": "Coca-Cola",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FO3t7VjzVPpyHiznRlyLC.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "r6VSXrKYjulkLrXJ2fBq",
+          "name": "Água com Gás",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fr6VSXrKYjulkLrXJ2fBq.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "Grb9dvYtd5lf1oiBMQwh",
+          "name": "Schweppes Citrus",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FGrb9dvYtd5lf1oiBMQwh.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "QphRnokB7FD8IdkCONJW",
+          "name": "Coca-Cola 1,5L",
+          "description": "",
+          "priceCents": 1399,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FQphRnokB7FD8IdkCONJW.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "G0yaQvxnD56XAF4p1lyw",
+          "name": "H2OH! Limoneto",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FG0yaQvxnD56XAF4p1lyw.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "20a272IDzpeMRpIYkjqT",
+          "name": "Guaraná Antártica",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F20a272IDzpeMRpIYkjqT.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "F8UEcIweWnzW2ICO9I9F",
+          "name": "H2OH! Limão",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FF8UEcIweWnzW2ICO9I9F.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "4vveXIGImX8F8xlQZYY3",
+          "name": "Fanta Laranja 310 ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F4vveXIGImX8F8xlQZYY3.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "KSAI7DU1nvRSDCMSAzKZ",
+          "name": "Guaraná Antartica 1,5l",
+          "description": "",
+          "priceCents": 1399,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FKSAI7DU1nvRSDCMSAzKZ.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "4mzGjOM5HUyauvlkCc4E",
+          "name": "Água sem Gás",
+          "description": "",
+          "priceCents": 499,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F4mzGjOM5HUyauvlkCc4E.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "oCSD0IZWzzlNohdSVdDB",
+          "name": "Tônica Zero Lata",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FoCSD0IZWzzlNohdSVdDB.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "9NYgt4slDbRhoj2xRCa2",
+          "name": "Sprite Zero",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F9NYgt4slDbRhoj2xRCa2.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "pqZA41CsmQQA8q1bcs9g",
+          "name": "Coca-Cola Zero",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FpqZA41CsmQQA8q1bcs9g.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "s86AK7Vh712iex1PATq0",
+          "name": "Red Bull 250ml",
+          "description": "",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fs86AK7Vh712iex1PATq0.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "1e4F6dacqZuiwlPZmfAf",
+          "name": "Coca Zero 1,5lts",
+          "description": "",
+          "priceCents": 1399,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F1e4F6dacqZuiwlPZmfAf.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas alcoolicas",
+      "items": [
+        {
+          "sourceId": "iaKEX7OMqiNEL3q02gSs",
+          "name": "CHOPP BRAHMA GROWLER 1Lt",
+          "description": "Geladíssimo em embalagem propria para conservção",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FiaKEX7OMqiNEL3q02gSs.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "C7JqDtwo0b3C9YgLvR1M",
+          "name": "CHOPP IPA GROWLER 1Lt",
+          "description": "Geladíssimo em embalagem propria para conservção",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FC7JqDtwo0b3C9YgLvR1M.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "P4a5WzDjlXMoIiEsGRJH",
+          "name": "CHOPP VINHO GROWLER 1Lt",
+          "description": "Geladíssimo em embalagem propria para conservção",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FP4a5WzDjlXMoIiEsGRJH.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "Uqz04XB2bKNgk7oFkOCh",
+          "name": "CHOPP MALTE LAGER GROWLER 1Lt",
+          "description": "Geladíssimo em embalagem propria para conservção",
+          "priceCents": 2690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FUqz04XB2bKNgk7oFkOCh.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "1b37QWGEDT7Qyxy5a2BO",
+          "name": "CHOPP LOUVADA GROWLER 1Lt",
+          "description": "Geladíssimo em embalagem propria para conservção",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F1b37QWGEDT7Qyxy5a2BO.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "UhwtJl7YPBJZ5DPzwcha",
+          "name": "CORONA EXTRA 330ml",
+          "description": "",
+          "priceCents": 1499,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FUhwtJl7YPBJZ5DPzwcha.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "DKwl3Gj8Ani197gm5Pt2",
+          "name": "CORONA ZERO 330ml",
+          "description": "",
+          "priceCents": 1499,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FDKwl3Gj8Ani197gm5Pt2.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "oXRKuSKyzHzCjS4Oo79W",
+          "name": "Heineken Long Neck 330 ML",
+          "description": "",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FoXRKuSKyzHzCjS4Oo79W.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "jHHC0bZk8QH0vZXA8psZ",
+          "name": "Suco de Polpa 1L Maracujá",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FSUT5l8YoeSgvUVGCoDCl.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "ca6lHdLVGaFzeUOPAv2W",
+          "name": "Suco de Polpa 1L Abacaxi com Hortelã",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fca6lHdLVGaFzeUOPAv2W.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "L2v07OofdsKjXan2WSFo",
+          "name": "Suco de Polpa 1L Morango",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FL2v07OofdsKjXan2WSFo.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "6ANEYGiAvPZxa3c6r1QB",
+          "name": "Suco de Polpa 1L Acerola",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F6ANEYGiAvPZxa3c6r1QB.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Adega casarão",
+      "items": [
+        {
+          "sourceId": "oneaMkj4lv7mcLbupfK5",
+          "name": "Rito Sauvignon Blanc",
+          "description": "Vinho Branco Sauvignon Blanc | 13,6% | 750ml",
+          "priceCents": 13900,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FoneaMkj4lv7mcLbupfK5.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "sHpZ07wgBNibv55Ym0ob",
+          "name": "Eulen Identidad Malbec",
+          "description": "Vinho Tinto Malbec | 13,6% | 750ml",
+          "priceCents": 15900,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FsHpZ07wgBNibv55Ym0ob.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "3aKHMnw49kBcGpBfMxBp",
+          "name": "Chandon Réserve Brut",
+          "description": "",
+          "priceCents": 26990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2F3aKHMnw49kBcGpBfMxBp.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "X7rdXA5Bct3Xew3f8Aas",
+          "name": "Rito Carmenére",
+          "description": "Vinho Tinto Carmenére | 13,5% | 750ml",
+          "priceCents": 17900,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FX7rdXA5Bct3Xew3f8Aas.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "rGMiyC3TkHZ7bNdeCdeV",
+          "name": "Malbec Família Eulen",
+          "description": "Vinho Tinto Malbec | Cabernet Sauvignon | 14% | 750ml",
+          "priceCents": 26900,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FrGMiyC3TkHZ7bNdeCdeV.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "uKeCD0YsP2ak7SINF0HC",
+          "name": "Bobbejaan Red Blend",
+          "description": "Vinho Tinto Shiraz | Mourvedre | Viognier | 14% | 750m",
+          "priceCents": 15500,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FuKeCD0YsP2ak7SINF0HC.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "MMmB6JdmHXjw8RCB8jcU",
+          "name": "Malbec Eulen Syrah",
+          "description": "Vinho Tinto Malbec | Syrah | 14,2% | 750ml",
+          "priceCents": 16900,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2FMMmB6JdmHXjw8RCB8jcU.jpeg?alt=media",
+          "options": []
+        },
+        {
+          "sourceId": "s7yCRgLSAaxImUPuqWXC",
+          "name": "Bresesti Linha Hist. Cab. Sauv.",
+          "description": "Vinho Tinto Cabernet Sauvignon | 12,5% | 750ml",
+          "priceCents": 16900,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FBfjelx03WpwpZDdu0XFv%2Fimages%2Fproducts%2Fs7yCRgLSAaxImUPuqWXC.jpeg?alt=media",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

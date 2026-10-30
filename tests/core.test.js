@@ -220,3 +220,14 @@ test('rankStores põe primeiro onde dá para pedir e deixa "Em verificação" po
   const ranked = [s('B', { rank: 2 }), s('Sem rank', { featured: true }), s('A', { rank: 1 })];
   assert.deepEqual(core.rankStores(ranked).map(x => x.name), ['A', 'B', 'Sem rank']);
 });
+
+test('cardápio sob demanda: contagem, pedido online e busca por prato sem o menu carregado', () => {
+  const lazy = Object.assign({}, store, { menu: [], menuCount: 12, menuSearch: 'Pizza calabresa Coca-cola lata' });
+  assert.equal(core.menuSize(lazy), 12);
+  assert.equal(core.menuSize(store), store.menu.length);
+  assert.equal(core.menuSize({ menu: [] }), 0);
+  assert.ok(core.canOrder(lazy));
+  assert.ok(!core.canOrder(Object.assign({}, lazy, { menuCount: 0 })));
+  assert.deepEqual(core.filterStores([lazy], { query: 'coca-cola' }).map(s => s.id), [store.id]);
+  assert.deepEqual(core.filterStores([lazy], { query: 'sushi' }), []);
+});

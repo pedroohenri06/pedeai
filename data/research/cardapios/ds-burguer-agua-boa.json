@@ -1,0 +1,406 @@
+{
+  "id": "ds-burguer-agua-boa",
+  "platform": "vendanozap",
+  "source": "https://vendanozap.app/loja/dsburguer",
+  "capturedAt": "2026-10-30T22:02:42.221Z",
+  "hours": "Dom 18:00–23:59 · Seg 18:00–23:59 · Qua 18:00–23:59 · Qui 18:00–23:59 · Sex 18:00–23:59 · Sáb 18:00–23:59",
+  "sections": [
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "77da9642-eccb-43fe-a9a2-b7f365da094b",
+          "name": "X-burguer",
+          "description": "Pão, molho, hambúrguer, presunto, mussarela, alface, tomate e cebola caramelizada.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792520012425.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "10c02185-b41c-443f-8727-0cfcc3e0443e",
+          "name": "X-salada",
+          "description": "Pão, molho, hambúrguer, presunto, mussarela, ovo, milho, alface e tomate.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792520074028.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "48795b36-cf70-4e51-923f-a75f22de28ad",
+          "name": "X-bacon",
+          "description": "Pão, molho, hambúrguer, bacon, cheddar, presunto, mussarela, salsicha, tomate e alface.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792520141472.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f6b4e5e5-8e35-41c4-9346-a70f4e8dc410",
+          "name": "X-tudo",
+          "description": "Pão, molho, hambúrguer, bacon, salsicha, presunto, mussarela, cheddar, ovo, batata palha, milho, cebola caramelizada, alface e tomate.",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792520187833.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a318173f-2dce-438c-87e6-43e1b3d7b107",
+          "name": "X-costela",
+          "description": "Pão, molho, requeijão cremoso, hambúrguer, costela, mussarela, tomate e picles.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792520212573.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cb0898a3-4bee-45ad-a5b9-901225849f2b",
+          "name": "X-Especial",
+          "description": "Pão, molho, 2 hambúrgueres, 2 bacon, 2 salsichas, 2 presuntos, 2 mussarelas, 2 ovos, batata palha, milho, cebola caramelizada, alface e tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1791256511674.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "4c288480-dc2d-4057-b718-ac4072f33715",
+          "name": "Água sem Gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792560325232.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ea3836a3-4e47-4454-ade9-069a4593a310",
+          "name": "Água com Gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548639390.webp",
+          "options": []
+        },
+        {
+          "sourceId": "1ea086e7-8a04-4b03-98d9-2410a5dbddb4",
+          "name": "Coca-cola Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548606771.webp",
+          "options": []
+        },
+        {
+          "sourceId": "f797a0c9-c229-4c54-bd98-9a62f2ebee8d",
+          "name": "Coca-cola 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548575240.webp",
+          "options": []
+        },
+        {
+          "sourceId": "f31d2971-663f-4c78-b5d3-63fec6a8cf6a",
+          "name": "Coca-cola Zero 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548548694.webp",
+          "options": []
+        },
+        {
+          "sourceId": "88450c32-87a9-4702-8e00-93609a856cc9",
+          "name": "Guaraná 1L",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548510344.webp",
+          "options": []
+        },
+        {
+          "sourceId": "67f90837-fc67-4927-a7a5-e9b976098137",
+          "name": "Coca-cola 1,5L",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548487164.webp",
+          "options": []
+        },
+        {
+          "sourceId": "6269d2cc-8345-422d-9a30-ec5b356386f8",
+          "name": "Coca-cola Zero 1,5L",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548421353.webp",
+          "options": []
+        },
+        {
+          "sourceId": "fa1c4f3f-3467-4a68-80d3-14f85d1561c1",
+          "name": "Coca-cola 2L",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548370691.webp",
+          "options": []
+        },
+        {
+          "sourceId": "37d8f0d7-9d42-4697-95d1-e8ed5a86d1af",
+          "name": "Coca-cola Zero 2L",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792548284648.webp",
+          "options": []
+        },
+        {
+          "sourceId": "9df2282c-0bbf-4ccb-a728-0e6cb10ba850",
+          "name": "Suco de Laranja Natural",
+          "description": "500ml e 1l",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://cdn.vendanozap.app/uploads/72213f6b-b4d7-42e7-a4bf-e8d38913abf0-img-1792798642432.webp",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1 litro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

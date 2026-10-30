@@ -1,0 +1,1669 @@
+{
+  "id": "bia-lanches-vila-rica",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDMyMjk=",
+  "capturedAt": "2026-10-30T22:01:02.258Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "2150806",
+          "name": "Batata frita novo sabor",
+          "description": "Batata,calabresa, Bacon, mussarela, cheddar",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/995390512_1358004533.png",
+          "options": []
+        },
+        {
+          "sourceId": "2150804",
+          "name": "Batata frita simples",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/699130391_1361710707.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cuscuz",
+      "items": [
+        {
+          "sourceId": "2613401",
+          "name": "Monte seu cuscuz",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "1 ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Padaria",
+      "items": [
+        {
+          "sourceId": "2019271",
+          "name": "Carne e queijo",
+          "description": "Massa cozida",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1096768366_704195248.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2441885",
+          "name": "Enrolado salsicha frito",
+          "description": "Massa cozida",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/715571216_1510950105.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2019343",
+          "name": "Misto quente completo",
+          "description": "Pão, presunto, mussarela, ovo, tomate, alface",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2005258344_997089447.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2986509",
+          "name": "Misto quente especial",
+          "description": "Pão, ovo,presunto, mussarela, salsicha, tomate,alface,",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2048781433_893371481.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2019337",
+          "name": "Misto quente simples",
+          "description": "Pão, alface,presunto e mussarela",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/797795138_214231198.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4364371",
+          "name": "Pastel presunto e queijo",
+          "description": "10 unidades",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/880039550_1193581427.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2019259",
+          "name": "Presunto e mussarela",
+          "description": "Massa cozida",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/509774287_1005181182.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Enroladinho",
+      "items": [
+        {
+          "sourceId": "2019179",
+          "name": "Enroladinho de salsicha",
+          "description": "",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/312838542_739484582.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Tapioca",
+      "items": [
+        {
+          "sourceId": "2287374",
+          "name": "Tapioca carne moida e mussarela",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1957028772_285478401.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2287432",
+          "name": "Tapioca com manteiga",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/642012319_1600482173.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2287428",
+          "name": "Tapioca com ovo e mussarela",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1954118715_1013652226.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2287406",
+          "name": "Tapioca de mussarela",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/16478759_852381984.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "5007531",
+          "name": "Tapioca doce",
+          "description": "Chocolate e queijo",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2287974",
+          "name": "Tapioca Frango com catupiry",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/215785924_839238867.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2287422",
+          "name": "Tapioca pizza",
+          "description": "Mussarela, presunto, calabresa, orégano e catupiry",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1039391440_1876477594.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2287448",
+          "name": "Tapioca tudão",
+          "description": "Presunto, mussarela, frango, carne,orégano e catupiry",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1362433167_1113433645.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hamburguer",
+      "items": [
+        {
+          "sourceId": "2540155",
+          "name": "Combo casal",
+          "description": "2 X-Tudo molho da casa",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2396707",
+          "name": "Duplo Burger + batata",
+          "description": "",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2282328",
+          "name": "Duplo burguer",
+          "description": "Pão, 2 hambúrguer,bacon,2 mussarela 2 ovos,salada e molho da casa",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1620928992_735488407.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2342914",
+          "name": "Hambúrguer da casa",
+          "description": "Pão, hambúrguer, ovo,mussarela,alface, tomate e molho verde",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2342934",
+          "name": "Hurger simples",
+          "description": "Pão, presunto, ovo,mussarela, catupiry, frango, alface e tomate",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2396673",
+          "name": "X- tudo",
+          "description": "Pão, hambúrguer, ovo, tomate, alface, bacon, calabresa, milho,presunto, mussarela, salsicha, e batata palha",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1225730482_1045209739.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2396701",
+          "name": "X-bacon",
+          "description": "Pão,hambúrguer, ovo, mussarela, bacon,,tomate e alface",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4322693",
+          "name": "X-calabresa",
+          "description": "Pão, hambúrguer, ovo,calabresa,mussarela, alface e tomate",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/600070403_1319981953.png",
+          "options": []
+        },
+        {
+          "sourceId": "2333630",
+          "name": "X-salada",
+          "description": "Pão, hambúrguer,ovo, alface, tomate,mussarela, milho,cebola caramelizada",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pastel",
+      "items": [
+        {
+          "sourceId": "4358309",
+          "name": "Apimentado",
+          "description": "Presunto,mussarela, pimenta calabresa,tomate,catupiry, e orégano",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/797933102_1682739514.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4344575",
+          "name": "Monte seu pastel",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2051591",
+          "name": "Mussarela",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/6741236_608290597.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2467271",
+          "name": "Mussarela e cheddar",
+          "description": "Frito na hora",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1816570071_739226383.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2467269",
+          "name": "Mussarela, catupiry e orégano",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1819308110_1672726628.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2467257",
+          "name": "Pastel misto",
+          "description": "Carne,presunto e mussarela",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2080045023_1211879761.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2278308",
+          "name": "Pastel pizza frito na hora",
+          "description": "Presunto, mussarela, orégano, catupiry e tomate",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1526368928_301748238.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4358305",
+          "name": "Portuguesa",
+          "description": "Presunto, mussarela, tomate,milho,calabresa,cebola,orégano, ovo cozido,e azeitona",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/376012804_2096909285.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2051583",
+          "name": "Presunto e mussarela",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/347589722_1374654831.avif",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2351162",
+          "name": "Presunto e queijo grande",
+          "description": "Frito na hora",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1469326988_1146382130.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2351168",
+          "name": "X tudo",
+          "description": "Carne,presunto, frango, mussarela, catupiry e orégano(Frito na hora)",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1670686166_1152086859.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2055183",
+          "name": "X tudo grande",
+          "description": "Carne,frango, Catupry, presunto queijo,Orégano (FRITO NA HORA)",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1738710196_1504912165.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2051619",
+          "name": "Carne",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2130866116_2066992655.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2132731",
+          "name": "Carne com queijo e gueroba",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2101754271_407117484.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2051613",
+          "name": "Carne e queijo",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1640633123_1985705170.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2351160",
+          "name": "Carne e queijo grande",
+          "description": "Frito na hora",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/417278101_1819547783.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2351164",
+          "name": "Frango,catupiry e queijo grande",
+          "description": "Frito na hora",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/701234613_1473536357.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2051603",
+          "name": "Frango c/ catupiry",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1715500082_1610880075.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2071627",
+          "name": "Frango com queijo e gueroba",
+          "description": "Frito na hora",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1877477175_725608782.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "2107904",
+          "name": "Abóbora com carne",
+          "description": "Torrada, queijo, cebolinha",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/951325036_1567633967.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2107780",
+          "name": "Chambar",
+          "description": "Torrada, queijo, cebolinha",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1517011518_1579179313.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2073989",
+          "name": "Frango",
+          "description": "Queijo,torrada, cebolinha",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/962427474_1728347141.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Caldo de cana",
+      "items": [
+        {
+          "sourceId": "4397537",
+          "name": "Caldo cana",
+          "description": "2 litros",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1903167194_734410932.png",
+          "options": []
+        },
+        {
+          "sourceId": "4397539",
+          "name": "Caldo cana",
+          "description": "500 ml",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/334577582_1355375380.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "2051565",
+          "name": "Laranja 500ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1536009788_1448641094.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

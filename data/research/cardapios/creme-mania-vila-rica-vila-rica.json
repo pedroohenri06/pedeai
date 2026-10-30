@@ -1,0 +1,1365 @@
+{
+  "id": "creme-mania-vila-rica-vila-rica",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODcxNg==",
+  "capturedAt": "2026-10-30T22:01:12.250Z",
+  "hours": "Dom 11:00–22:00 · Seg 13:30–22:00 · Ter 13:30–22:00 · Qua 13:30–22:00 · Qui 13:30–22:00 · Sex 13:30–22:00 · Sáb 14:00–22:00",
+  "sections": [
+    {
+      "name": "Brownies",
+      "items": [
+        {
+          "sourceId": "4514485",
+          "name": "Chocolate ao leite",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1871759714_5578974.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4514497",
+          "name": "Chocolate Meio Amargo",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/593809453_212091703.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4514489",
+          "name": "Creme de Avelã",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/425053293_1592984624.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4514493",
+          "name": "Doce de Leite",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/575773653_1716515724.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Novidades",
+      "items": [
+        {
+          "sourceId": "4661679",
+          "name": "Sundae morango trufado",
+          "description": "Creme de morango, castanha, sorvete, e tub-hool",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/78495287_838400754.jpeg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "180ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "330ml",
+                  "priceCents": 1250
+                },
+                {
+                  "name": "440ml",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "550ml",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4661359",
+          "name": "Sundae de doce de leite",
+          "description": "Creme de doce de leite, castanha, sorvete, e tub-hool",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "180ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "330ml",
+                  "priceCents": 1250
+                },
+                {
+                  "name": "440ml",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "550ml",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí - creme mania",
+      "items": [
+        {
+          "sourceId": "3764679",
+          "name": "Mais Vendido - AÇAÍ 550ML",
+          "description": "Com direito a 3 acompanhamentos grátis (Somente os que estiverem disponíveis no aplicativo)",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2095123603_1812888382.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deixe seu açai ainda mais especial",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Brownie chocolate ao leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie chocolate meio amargo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie doce de leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de doce de leite",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme morango trufado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Trento bites ao leite",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2294027",
+          "name": "AÇAÍ 440ml",
+          "description": "Com direito a 3 acompanhamentos grátis (Somente os que estiverem disponíveis no aplicativo)",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1983388331_656366411.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deixe seu açai ainda mais especial",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Brownie chocolate ao leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie chocolate meio amargo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie doce de leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de doce de leite",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme morango trufado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Trento bites ao leite",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3392716",
+          "name": "AÇAÍ 330ml",
+          "description": "Com direito a 3 acompanhamentos grátis ( Somente os que estiverem disponíveis no aplicativo)",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1983388331_656366411.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deixe seu açai ainda mais especial",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Brownie chocolate ao leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie chocolate meio amargo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie doce de leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de doce de leite",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme morango trufado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Trento bites ao leite",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2294029",
+          "name": "AÇAÍ 700ml",
+          "description": "Com direito a 3 acompanhamentos grátis (Somente os que estiverem disponíveis no aplicativo)",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1983388331_656366411.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deixe seu açai ainda mais especial",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Brownie chocolate ao leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie chocolate meio amargo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brownie doce de leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de doce de leite",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme morango trufado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Misto com sorvete",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Trento bites ao leite",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milk shake de açai",
+      "items": [
+        {
+          "sourceId": "374266",
+          "name": "Milk shake açaí",
+          "description": "De mais energia ao seu dia",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/568466938_993374749.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "330ml",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "440ml",
+                  "priceCents": 2400
+                },
+                {
+                  "name": "550ml",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 3500
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu adicional gratis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Misto c/sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine pó",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu adicional extra",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Morango frut",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Sorvete",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milk-shake de Colher",
+      "items": [
+        {
+          "sourceId": "2187072",
+          "name": "Milk shake de colher",
+          "description": "330 ML",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/767924736_1871382167.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Milk shake tradicional",
+      "items": [
+        {
+          "sourceId": "293090",
+          "name": "Milk shake",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1294446257_1685745253.jpg",
+          "options": [
+            {
+              "name": "Escolha seu tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "MILK SHAKE 330ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "MILK SHAKE 440ml",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "MILK SHAKE 550ml",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "MILK SHAKE 700ml",
+                  "priceCents": 2500
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Café gelado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cerejá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionar sabor extra",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Café gelado",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Avalanche",
+      "items": [
+        {
+          "sourceId": "1120265",
+          "name": "Avalanche",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1933228261_1680883244.png",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "440ml",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Trento mix",
+      "items": [
+        {
+          "sourceId": "437675",
+          "name": "Trento",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1995092349_753554065.jpeg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "440ml",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Top sundae",
+      "items": [
+        {
+          "sourceId": "234206",
+          "name": "Top sundae",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/663561690_2069950863.jpg",
+          "options": [
+            {
+              "name": "Tamanho top sundae",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "180ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "330ml",
+                  "priceCents": 1250
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 3000
+                }
+              ]
+            },
+            {
+              "name": "Escolha a cobertura",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kids/chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kids/morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deixe seu top sundae mais especial",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "01 sonho de valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "02 sonho de valsa",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gotas de chocolate",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Top sundae creme de ninho",
+      "items": [
+        {
+          "sourceId": "4661381",
+          "name": "Top sundae de ninho",
+          "description": "Creme de ninho,paçoca, cereja e tub-hool",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/269236026_1559253098.jpeg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "180ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "330ml",
+                  "priceCents": 1250
+                },
+                {
+                  "name": "440ml",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "550ml",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae creme de ninho",
+      "items": [
+        {
+          "sourceId": "2921153",
+          "name": "Sundae de ninho",
+          "description": "Creme de ninho, castanha, sorvete, e tub-hool",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/235433193_365763017.jpeg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "180ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "330ml",
+                  "priceCents": 1250
+                },
+                {
+                  "name": "440ml",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "550ml",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae",
+      "items": [
+        {
+          "sourceId": "234203",
+          "name": "Sundae",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1877548239_1330327446.jpg",
+          "options": [
+            {
+              "name": "Tamanho sundae",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "180ml",
+                  "priceCents": 750
+                },
+                {
+                  "name": "330ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 2500
+                }
+              ]
+            },
+            {
+              "name": "Escolha a cobertura sundae",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem cobertura",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deixe seu sundae mais especial",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Creme de doce de leite",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de morango trufado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine pó",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4895587",
+          "name": "SUNDAE DE CREME DE MORANGO 300ml",
+          "description": "",
+          "priceCents": 1250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4895595",
+          "name": "Sundae de doce de leite 300 ml",
+          "description": "",
+          "priceCents": 1250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cascão",
+      "items": [
+        {
+          "sourceId": "4338373",
+          "name": "Cascão",
+          "description": "Virado no copo.",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/290775586_1594877461.jpeg",
+          "options": [
+            {
+              "name": "Escolha seu Cascão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Açaí",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baunilha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Misto com Açaí",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja alguma cobertura?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

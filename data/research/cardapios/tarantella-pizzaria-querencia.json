@@ -1,0 +1,2773 @@
+{
+  "id": "tarantella-pizzaria-querencia",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/querencia/tarantella-pizzaria",
+  "capturedAt": "2026-10-30T22:02:33.393Z",
+  "hours": "Seg 10:00–12:00 | 18:00–22:00 · Ter 10:00–12:00 | 18:00–22:00 · Qua 10:00–12:00 | 18:00–22:00 · Qui 10:00–12:00 | 18:00–22:00 · Sex 10:00–12:00 | 18:00–22:00 · Sáb 10:00–12:00 | 18:00–22:00",
+  "sections": [
+    {
+      "name": "Pizzas salgadas",
+      "items": [
+        {
+          "sourceId": "12945539",
+          "name": "Alho e óleo",
+          "description": "Molho de tomate, mussarela, catupiry, cheddar, alho crocante, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945540",
+          "name": "Atum",
+          "description": "Molho de tomate, mussarela, atum, batata palha, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945541",
+          "name": "Bacon",
+          "description": "Molho de tomate, mussarela, catupiry, bacon, tomate, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945542",
+          "name": "Bacon c/ alho",
+          "description": "Molho de tomate, mussarela, bacon, alho frito, tomate e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945543",
+          "name": "Baiana",
+          "description": "Molho de tomate, mussarela, calabresa ralada, catupiry, pimenta vermelha e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945544",
+          "name": "Brasileirinha",
+          "description": "Molho de tomate, presunto, mussarela, calabresa, bacon, palmito, ervilha, tomate picado e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945545",
+          "name": "Calabresa",
+          "description": "Molho de tomate, presunto, mussarela, tomate, calabresa, cebola, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945546",
+          "name": "Colonial",
+          "description": "Molho de tomate, mussarela, catupiry, salame, cebola, tomate, ovo, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945547",
+          "name": "Cremosa",
+          "description": "Molho de tomate, mussarela, calabresa, creme de leite, champignon, alho crocante, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945549",
+          "name": "Do gaúcho",
+          "description": "Molho de tomate, mussarela, creme de leite, filé, bacon, tomate picado, cebola e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945550",
+          "name": "Fornalha",
+          "description": "Molho de tomate, presunto, mussarela, tomate, calabresa, catupiry, bacon, milho e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945551",
+          "name": "Frango",
+          "description": "Molho de tomate, presunto, mussarela, frango, milho, ervilha, tomate, palmito, azeitona e orégano.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945552",
+          "name": "Frango c/ catupiry",
+          "description": "Molho de tomate, mussarela, frango, catupiry e orégano.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945553",
+          "name": "Frango c/ catupiry e bacon",
+          "description": "Molho de tomate, mussarela, frango, bacon, catupiry e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945554",
+          "name": "Lisboa",
+          "description": "Molho de tomate, mussarela, catupiry, ovos, ervilha, bacon, azeitona, cebola e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945555",
+          "name": "Lombo c/ abacaxi",
+          "description": "Molho de tomate, mussarela, catupiry, tomate, lombo, abacaxi, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945556",
+          "name": "Lombo especial",
+          "description": "Molho de tomate, mussarela, catupiry, tomate, lombo, champignon, cebola, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945557",
+          "name": "Marguerita",
+          "description": "Molho de tomate, mussarela, catupiry, tomate, cheddar, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945558",
+          "name": "Mexicana",
+          "description": "Molho de tomate, mussarela, tomate, bacon, calabresa, pimentão, cebola e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945559",
+          "name": "Milho",
+          "description": "Molho de tomate, mussarela, creme de leite, milho, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945560",
+          "name": "Milho especial",
+          "description": "Molho de tomate, mussarela, milho, bacon, creme de leite, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945561",
+          "name": "Moda da casa",
+          "description": "Molho de tomate, presunto, mussarela, ovos, calabresa, milho, ervilha, palmito, cebola, tomate, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945562",
+          "name": "Napolitana",
+          "description": "Molho de tomate, presunto, mussarela, catupiry, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945563",
+          "name": "Palmito",
+          "description": "Molho de tomate, mussarela, creme de leite, palmito, azeitona e orégano",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945564",
+          "name": "Portuguesa",
+          "description": "Molho de tomate, presunto, mussarela, catupiry, tomate, pimentão, ovo, cebola, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945565",
+          "name": "Portuguesa calabresa",
+          "description": "Molho de tomate, presunto, calabresa, mussarela, catupiry, tomate, pimentão, ovo, cebola, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945566",
+          "name": "Quatro queijos",
+          "description": "Molho de tomate, mussarela, catupiry, cheddar, provolone e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945567",
+          "name": "Romanesca",
+          "description": "Molho de tomate, mussarela, calabresa, palmito, ervilha, cebola, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945568",
+          "name": "Rúcula c/ tomate seco",
+          "description": "Molho de tomate, mussarela, rúcula, azeitona, tomate seco e alho.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945569",
+          "name": "Strogonoff de filé",
+          "description": "Molho de tomate, mussarela, filé bovino, creme de leite e orégano.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945570",
+          "name": "Strogonoff de frango",
+          "description": "Molho de tomate, mussarela, frango, creme de leite e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945571",
+          "name": "Tarantella",
+          "description": "Molho de tomate, mussarela, catupiry, tomate, abacaxi, calabresa, milho, bacon e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945572",
+          "name": "Tropical",
+          "description": "Molho de tomate, mussarela, palmito, milho, ervilha, cebola, azeitona e orégano.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6600
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas doces",
+      "items": [
+        {
+          "sourceId": "12945573",
+          "name": "Abacaxi c/ canela",
+          "description": "Mussarela, creme de leite, abacaxi com canela e leite condensado.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6050
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945574",
+          "name": "Califórnia",
+          "description": "Creme de leite, mussarela, leite condensado, pêssego, cereja e figo.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6050
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945575",
+          "name": "Chocolate branco",
+          "description": "Creme de leite, mussarela, chocolate branco, coco ralado e cereja.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6050
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945576",
+          "name": "Chocolate preto",
+          "description": "Creme de leite, mussarela, chocolate preto, granulado e cereja.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6050
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12945577",
+          "name": "Floresta negra",
+          "description": "Creme de leite, mussarela, chocolate preto, confete e cereja em calda.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza mini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza broto",
+                  "priceCents": 3080
+                },
+                {
+                  "name": "Pizza média",
+                  "priceCents": 6050
+                },
+                {
+                  "name": "Pizza grande",
+                  "priceCents": 7150
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "13751215",
+          "name": "Caldo de frango",
+          "description": "Acompanha torrada, queijo e cebolinha.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "13751216",
+          "name": "Caldo de franjão",
+          "description": "Acompanha torrada, queijo e cebolinha.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "13751217",
+          "name": "Caldo verde",
+          "description": "Acompanha torrada, queijo e cebolinha.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "13751218",
+          "name": "Caldo de feijão",
+          "description": "Acompanha torrada, queijo e cebolinha.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "12945529",
+          "name": "Alcatra com mandioca",
+          "description": "Acompanha molho",
+          "priceCents": 8250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945530",
+          "name": "Batata frita",
+          "description": "Acompanha molho",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945531",
+          "name": "Batata com queijo e bacon",
+          "description": "Acompanha molho",
+          "priceCents": 4950,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945532",
+          "name": "Calabresa acebolada",
+          "description": "Acompanha molho",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945533",
+          "name": "Filé com mandioca",
+          "description": "Acompanha molho",
+          "priceCents": 8800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945534",
+          "name": "Frango",
+          "description": "Acompanha molho",
+          "priceCents": 4950,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945535",
+          "name": "Frios",
+          "description": "Presunto, mussarela, ovo de codorna, pepino, azeitona e palmito (acompanha molho)",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945536",
+          "name": "Mandioca com bacon",
+          "description": "",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945537",
+          "name": "Peixe",
+          "description": "Acompanha molho",
+          "priceCents": 6600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12945538",
+          "name": "Picanha com mandioca",
+          "description": "Acompanha molho",
+          "priceCents": 8800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "12952251",
+          "name": "X-calabresa",
+          "description": "Hambúrguer, presunto, mussarela, salsicha, calabresa, milho, ervilha, tomate, alface e ovo.",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952252",
+          "name": "Misto quente",
+          "description": "Presunto, mussarela, ovo, tomate e alface.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952253",
+          "name": "X-burguer",
+          "description": "2 hambúrgueres, presunto, mussarela e ovo.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952254",
+          "name": "X-bacon",
+          "description": "Hambúrguer, presunto, mussarela, bacon, milho, ervilha, tomate, alface e ovo.",
+          "priceCents": 2648,
+          "originalPriceCents": 3200,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952255",
+          "name": "X-egg",
+          "description": "Hambúrguer, presunto, mussarela, milho, ervilha, tomate, alface e 2 ovos.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952256",
+          "name": "X-filé",
+          "description": "Filé bovino, presunto, mussarela, tomate, milho, ervilha, ovo e alface.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952257",
+          "name": "X-frango",
+          "description": "Filé de frango, presunto, mussarela, tomate, milho, ervilha, ovo e alface.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952258",
+          "name": "X-salada",
+          "description": "Hambúrguer, presunto, mussarela, milho, ervilha, tomate, alface e ovo.",
+          "priceCents": 2199,
+          "originalPriceCents": 2600,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952259",
+          "name": "X-tarantella",
+          "description": "Hambúrguer, presunto, mussarela, abacaxi, bacon, calabresa, tomate, alface, milho e ovo.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952260",
+          "name": "X-tudo",
+          "description": "Hambúrguer, presunto, mussarela, milho, ervilha, tomate, alface, ovo, bacon.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Almoço",
+      "items": [
+        {
+          "sourceId": "12955605",
+          "name": "Parmegiana individual",
+          "description": "Arroz, molho vermelho, batata frita, tomate e alface.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955608",
+          "name": "Marmita g",
+          "description": "Arroz - feijão (preto ou carioca) - ovo - carnes (bife acebolado, frango e bisteca de porco) - batata frita - tomate - alface",
+          "priceCents": 3080,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m97qsvq4yhflhfbc35xsr/7658134df24868e580e6d0ebe9790cd36939b17b.png",
+          "options": []
+        },
+        {
+          "sourceId": "12955610",
+          "name": "Panqueca",
+          "description": "Arroz, molho vermelho, alface, tomate e batata frita.",
+          "priceCents": 2860,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o sabor do seu prato!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne e queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto e queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12955607",
+          "name": "Filé á parmegiana (4 pessoas)",
+          "description": "Filé, molho vermelho, arroz, batata frita e salada.",
+          "priceCents": 14500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955606",
+          "name": "Filé á 4 queijos (4 pessoas)",
+          "description": "Filé, molho branco, arroz, batata frita e salada.",
+          "priceCents": 14500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "13091389",
+          "name": "Prato feito strogonoff de carne",
+          "description": "Arroz, batata frita e salada.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "13091390",
+          "name": "Prato feito strogonoff de frango",
+          "description": "Arroz, batata frita e salada.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "13091391",
+          "name": "Prato feito de tilápia",
+          "description": "Arroz, batata frita e salada.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cremes",
+      "items": [
+        {
+          "sourceId": "12952271",
+          "name": "Abacaxi",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952272",
+          "name": "Abacaxi c/ hortelã",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952273",
+          "name": "Acerola",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952274",
+          "name": "Açaí",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952275",
+          "name": "Caju",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952276",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952277",
+          "name": "Goiaba",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952278",
+          "name": "Laranja",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952279",
+          "name": "Manga",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952280",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952281",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952282",
+          "name": "Tamarindo",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952283",
+          "name": "Uva",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "12952284",
+          "name": "Abacaxi",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952285",
+          "name": "Abacaxi c/ hortelã",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952286",
+          "name": "Acerola",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952287",
+          "name": "Açaí",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952288",
+          "name": "Caju",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952289",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952290",
+          "name": "Goiaba",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952291",
+          "name": "Laranja",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952292",
+          "name": "Manga",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952293",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952294",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952295",
+          "name": "Tamarindo",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12952296",
+          "name": "Uva",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Jarra grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Jarra média",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Jarra pequena",
+                  "priceCents": 780
+                },
+                {
+                  "name": "Copo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "12952681",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952682",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952683",
+          "name": "Água tônica",
+          "description": "",
+          "priceCents": 660,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952684",
+          "name": "Coca-cola 2 litros",
+          "description": "",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952685",
+          "name": "Coca-cola 1,5 litros",
+          "description": "",
+          "priceCents": 1450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952686",
+          "name": "Coca-cola zero 1,5 litros",
+          "description": "",
+          "priceCents": 1450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952687",
+          "name": "Coca-cola lata",
+          "description": "",
+          "priceCents": 660,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12952688",
+          "name": "Coca-cola zero lata",
+          "description": "",
+          "priceCents": 660,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955157",
+          "name": "Guaraná antarctica 2 litros",
+          "description": "",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955158",
+          "name": "Guaraná antarctica 1,5 litros",
+          "description": "",
+          "priceCents": 1450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955160",
+          "name": "Guaraná antarctica 1 litro",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955162",
+          "name": "Guaraná antarctica lata",
+          "description": "",
+          "priceCents": 660,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955163",
+          "name": "H2oh!",
+          "description": "",
+          "priceCents": 770,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955164",
+          "name": "Energético monster",
+          "description": "",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955166",
+          "name": "Sukita laranja 2 litros",
+          "description": "",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955167",
+          "name": "Pepsi 2 litros",
+          "description": "",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955169",
+          "name": "Sukita 1 litro",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955171",
+          "name": "Fanta uva lata",
+          "description": "",
+          "priceCents": 660,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955172",
+          "name": "Sprite 2 litros",
+          "description": "",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955173",
+          "name": "Sprite lata",
+          "description": "",
+          "priceCents": 660,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cervejas",
+      "items": [
+        {
+          "sourceId": "12955569",
+          "name": "Cerveja lata",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955570",
+          "name": "Budweiser long neck",
+          "description": "",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955571",
+          "name": "Corona long neck",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12955572",
+          "name": "Heineken long neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combo com coca",
+      "items": [
+        {
+          "sourceId": "13101441",
+          "name": "X-salada + coca cola lata",
+          "description": "",
+          "priceCents": 3260,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação."
+  ]
+}

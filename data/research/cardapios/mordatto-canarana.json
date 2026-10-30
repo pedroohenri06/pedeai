@@ -1,0 +1,217 @@
+{
+  "id": "mordatto-canarana",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTI0NDE1",
+  "capturedAt": "2026-10-30T22:02:35.689Z",
+  "hours": "Dom 18:30–22:30 · Ter 18:30–22:30 · Qua 18:30–22:30 · Qui 18:30–22:30 · Sex 18:30–22:30 · Sáb 19:00–22:30",
+  "sections": [
+    {
+      "name": "Mordatto burguer´s",
+      "items": [
+        {
+          "sourceId": "4879177",
+          "name": "Mordatto duplo",
+          "description": "Pão de Brioche, Maionese da casa, 2 Hambúrgueres, Cheddar, Muçarela, Cebola Caramelizada",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/278717910_234227130.png",
+          "options": [
+            {
+              "name": "Adicionais (Opcional)",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Cebola Caramelizada Extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hamburguer Extra",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Molho Extra",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Muçarela Extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4879203",
+          "name": "Mordatto supremo",
+          "description": "Pão de Brioche, Maionese da casa, 2 Hambúrguer, 2 Cheddar, 2 Muçarela, 2 Cebola Caramelizada",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1481967629_570487437.jpeg",
+          "options": [
+            {
+              "name": "Adicionais (Opcional)",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Cebola Caramelizada Extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hamburguer Extra",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Molho Extra",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Muçarela Extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4879157",
+          "name": "Mordatto tradicional",
+          "description": "Pão de Brioche, Maionese da casa, Hambúrguer, Cheddar, Muçarela, Cebola Caramelizada",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/126275757_1053498485.png",
+          "options": [
+            {
+              "name": "Adicionais (Opcional)",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Cebola Caramelizada Extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hamburguer Extra",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Molho Extra",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Muçarela Extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monte seu mordatto",
+      "items": [
+        {
+          "sourceId": "4879275",
+          "name": "Monte aqui",
+          "description": "Clique e selecione os Igredientes do seu Mordatto Já inicia com Pão",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1141674850_1186944198.png",
+          "options": [
+            {
+              "name": "Adicionais (Minimo 2)",
+              "min": 2,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Molho da Casa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "4879213",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/728667434_788988391.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4879205",
+          "name": "Coca-cola zero - lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1199101779_1633939061.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4879219",
+          "name": "Guaraná 1lt",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1465733946_61471558.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

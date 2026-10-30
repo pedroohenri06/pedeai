@@ -1,0 +1,1432 @@
+{
+  "id": "bolos-do-sitio-emporio-barra-do-garcas",
+  "platform": "bigdim",
+  "source": "https://bolosdositioemporio.bigd.im/wapp/bolosdositioemporio/store/#/delivery/loja/bolosdositioemporio",
+  "capturedAt": "2026-10-30T22:03:03.584Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Especial do Chefe",
+      "items": [
+        {
+          "sourceId": "685241",
+          "name": "Maromba",
+          "description": "Uma combinação irresistível de três ovos, frango desfiado bem temperado, cubinhos de tomates fresquinhos e bacon crocante, acompanhado com um pão crocante por fora e macio por dentro!",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2794246/img/ccaae58d-158c-473d-9c28-42c17f34833f.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Promoções!",
+      "items": [
+        {
+          "sourceId": "753192",
+          "name": "Bolo com cobertura",
+          "description": "",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/1a0f6049-3dc9-44d3-a32e-64ba9ab9ca42.jpg",
+          "options": [
+            {
+              "name": "Bolo c/cobertura",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mesclado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cenoura com gotas de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Formigueiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cenoura",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "608210",
+          "name": "Combo salgado (Assado ou Frito)+ Suco laranja 300ml",
+          "description": "Salgado frito ou assado+suco de laranja 300ml!!!",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2664433/img/f175eaa6-6c4c-4fd6-a198-eff8d324dcb3.png",
+          "options": [
+            {
+              "name": "Sabores!!!",
+              "min": 1,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Napolitano",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Carretão",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Americano",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Coxinha de frango",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Coxinha de carne",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Risole de carne",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Risole de strogonoff de frango",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Enroladinho de salsicha",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Enroladinho presunto e queijo",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487706",
+          "name": "Salgado (frito ou assado) + refrigerante lata",
+          "description": "Escolha seu Salgado e seu Refrigerante Lata!",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2040513/img/865b7a04-29a3-43f6-b87e-9c1a9b2b5811.png",
+          "options": [
+            {
+              "name": "Escolha seu salgado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Napolitano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carretão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto queijo e tomate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto queijo e catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Esfirra de carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de carne desfiada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de frango com catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Risole de carne moida",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Risole de strogonof de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Enroladinho de salsicha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu refrigerante lata",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta uva lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Schweppes citrus lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bolos caseiros",
+      "items": [
+        {
+          "sourceId": "487415",
+          "name": "Bolo de laranja",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039850/img/8fe95df8-1fdf-417b-b68f-28afc046e97e.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577565",
+          "name": "BOLO DE LARANJA (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500327/img/44cbea4c-466d-42de-8bfa-d62b4a95e9db.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487416",
+          "name": "Bolo de limão",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056279/img/c7f27d7e-cb65-4fc4-b8ba-0ba045da391b.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "577566",
+          "name": "BOLO DE LIMÃO (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500328/img/c3dea63f-a6bb-4f3b-8a18-aaa7320a3781.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487419",
+          "name": "Bolo mesclado",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039862/img/ce864131-13a3-4e64-a253-bb9612f8433a.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487421",
+          "name": "Bolo de chocolate",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2061610/img/0bcc3484-6a88-47ea-93bc-7d790ea8ac4a.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "577567",
+          "name": "BOLO DE CHOCOLATE (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500331/img/a872087e-fed7-4fcd-895c-557b696c1fba.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487422",
+          "name": "Bolo de fubá com erva doce",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039866/img/2f89a449-4477-4dba-bf95-98165762f391.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577568",
+          "name": "BOLO DE FUBÁ COM ERVA DOCE (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500332/img/ce6a6c6f-62bf-4c35-ba6b-689b5e3594ba.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487424",
+          "name": "Bolo de fubá com goiabada",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039869/img/3277dc29-0917-4d64-b388-2fb8ee67c445.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577569",
+          "name": "BOLO DE FUBÁ COM GOIABADA (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500333/img/282766c1-0b45-454e-b135-b9e59d8e3d22.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487425",
+          "name": "Bolo de cenoura",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039871/img/04d122c5-8339-4a42-b0d9-4fb3ca4ffbb0.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577570",
+          "name": "BOLO DE CENOURA (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500337/img/ce3506db-7035-461f-9abb-91eb3246c5a5.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487426",
+          "name": "Bolo formigueiro",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039872/img/529b8252-2f34-4de4-aca8-6fd75ace6d2e.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577571",
+          "name": "BOLO FORMIGUEIRO (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500338/img/86cb3337-2892-4ccc-a9e8-587e1821b2db.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487427",
+          "name": "Bolo de milho",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2061623/img/b7accd81-ba10-4a8c-95bd-ba628bf33178.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "580564",
+          "name": "BOLO DE MILHO (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2515110/img/e1724733-4ba0-4808-89a6-c53ade287a83.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487429",
+          "name": "Bolo de coco",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039878/img/d5d59821-5dcf-4c78-8d66-f65aadfc5c19.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577572",
+          "name": "BOLO DE COCO (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500339/img/9f4eab85-c467-4cd5-8af1-3664aba438a5.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487433",
+          "name": "Bolo de cenoura com gotas de chocolate",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039879/img/7ca30406-c428-440b-bdab-9e83f7ab18b7.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "580563",
+          "name": "BOLO DE CENOURA COM GOTAS DE CHOCOLATE (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2515107/img/86de04bf-b10a-4ee5-ba50-c87a82dc7693.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487434",
+          "name": "Bolo de milho com requeijão",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039881/img/efe65e62-86d5-422e-a558-ce7e31b7614f.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577573",
+          "name": "BOLO DE MILHO COM REQUEIJÃO (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500341/img/aef34d1a-7af9-4e40-a4cf-c9d8df1dcdc1.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487435",
+          "name": "Bolo de arroz",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039882/img/5dcb6ba6-7dfe-42ec-92b2-f32d2c41f00a.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "577574",
+          "name": "BOLO DE ARROZ (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2500342/img/f3fa48b5-f73a-4beb-b833-9320141fd742.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487439",
+          "name": "Bolo de maçã com castanhas",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039885/img/c0e16ddc-b8f3-45c9-8854-d13cab195e8b.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "580560",
+          "name": "BOLO DE MAÇÃ COM CASTANHAS (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2515105/img/9491cdcc-460a-4aeb-af0e-bcb6fde10cba.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "825952",
+          "name": "Bolo mesclado (metade)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Salgados assados",
+      "items": [
+        {
+          "sourceId": "487320",
+          "name": "Carretão",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039592/img/85425187-75fd-480c-934a-ba91582fca07.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487318",
+          "name": "Esfirra de carne",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039583/img/4eac6ab2-fe28-4361-85b8-be755b7937e5.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487314",
+          "name": "Napolitano",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039567/img/75d348d4-b884-4132-9522-f3e9c309ba70.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487315",
+          "name": "Presunto queijo e catupiry",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039575/img/730c3a1a-49a6-438d-a14f-daa41a12eeb2.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487316",
+          "name": "Presunto queijo e tomate",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039661/img/5b5f9f3c-89f5-4e67-a9eb-8d67f594f1bb.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Salgados fritos",
+      "items": [
+        {
+          "sourceId": "487325",
+          "name": "Coxinha de carne desfiada",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039599/img/d7c97a13-f785-4f58-9c0c-77c75677981f.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487326",
+          "name": "Coxinha de frango com catupiry",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039599/img/d7c97a13-f785-4f58-9c0c-77c75677981f.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487330",
+          "name": "Enroladinho de salsicha",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039605/img/42a5fe62-ab52-43f7-9a5d-700a96a8bd80.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487327",
+          "name": "Risole de carne moida",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039602/img/2f403d5b-19fa-4b6b-bc75-751c775367c4.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "487329",
+          "name": "Risole de strogonof de frango",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039603/img/f91df56a-a364-4c37-a3b5-4cb7cd208baf.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Tortas",
+      "items": [
+        {
+          "sourceId": "487308",
+          "name": "Torta de carne seca (fatia)",
+          "description": "",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039554/img/e48e3f1d-f65f-43cd-92f7-a67a50a6404d.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "491005",
+          "name": "Torta de frango (fatia)",
+          "description": "",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056941/img/894a730d-2fa1-4ef2-9d0c-aa0650696574.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487282",
+          "name": "Torta strogonoff de frango (fatia)",
+          "description": "",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056914/img/d8b4cdee-51ae-4a44-ba10-b2b92b45ecf9.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mistos",
+      "items": [
+        {
+          "sourceId": "487284",
+          "name": "Misto simples",
+          "description": "Pão, queijo mussarela, presunto, tomate e manteiga de leite",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039655/img/a79418ed-7b67-4500-adea-2e6a526abbd6.jpeg",
+          "options": [
+            {
+              "name": "Escolha seus adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487287",
+          "name": "Misto duplo",
+          "description": "Pão, 2 fatias de queijo mussarela, 2 fatias de presunto, ovo e manteiga de leite",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039657/img/b33f0016-5e3e-40f2-8f6c-2a746bbfd287.jpeg",
+          "options": [
+            {
+              "name": "Escolha seus adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487286",
+          "name": "Misto especial",
+          "description": "Pão, queijo mussarela, presunto, ovo e manteiga de leite.",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039658/img/c63ca809-0ab0-4fae-994f-3090d227ec62.jpeg",
+          "options": [
+            {
+              "name": "Escolha seus adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pão na chapa",
+      "items": [
+        {
+          "sourceId": "487271",
+          "name": "Pão na chapa com manteiga",
+          "description": "Pão na Chapa com Manteiga de Leite. Imagem Ilustrativa.",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039636/img/6cf00cf1-c5ac-4f05-b419-a7dbd932493c.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487272",
+          "name": "Pão na chapa com mussarela",
+          "description": "Pão na Chapa com Queijo Mussarela. Imagem Ilustrativa.",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039634/img/ec0a251f-2ea6-4e68-8e6b-f68be1c65994.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Omeletes",
+      "items": [
+        {
+          "sourceId": "487339",
+          "name": "Omelete tradicional",
+          "description": "2 ovos, queijo mussarela e cebolinha verde.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039738/img/8848621b-1013-42ce-ba6f-13f8847fd504.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487341",
+          "name": "Omelete de presunto e tomate",
+          "description": "2 ovos, queijo mussarela, presunto e frango desfiado.",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039734/img/6f280bab-e72f-4f47-b6d6-4253e9f40e43.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487342",
+          "name": "Omelete recheado",
+          "description": "2 ovos, presunto, queijo mussarela, tomate e bacon.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039736/img/dd301338-c371-4dba-ac08-2e41e08f2fa6.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tapiocas",
+      "items": [
+        {
+          "sourceId": "487295",
+          "name": "Tapioca tradicional com queijo",
+          "description": "Manteiga e queijo mussarela.",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039728/img/f3e890a8-6ede-48bd-b136-ea1ad35720e7.jpeg",
+          "options": [
+            {
+              "name": "Escolha seus adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487296",
+          "name": "Tapioca pizza",
+          "description": "Tapioca, queijo mussarela, presunto, tomate e orégano",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039729/img/52a52c9b-6fb0-4220-8960-95cb8fe9c908.jpeg",
+          "options": [
+            {
+              "name": "Escolha seus adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487298",
+          "name": "Tapioca frango com catupiry",
+          "description": "Tapioca, queijo mussarela, frango desfiado e catupiry",
+          "priceCents": 2290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039730/img/3dd4c6b3-5ee0-492d-8657-4c8df7b40eba.jpeg",
+          "options": [
+            {
+              "name": "Escolha seus adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487299",
+          "name": "Tapioca de carne desfiada",
+          "description": "Tapioca, carne desfiada, queijo mussarela e catupiry",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039733/img/9b22eebc-48c8-4b8b-8d07-31ed8aaa2ddb.jpeg",
+          "options": [
+            {
+              "name": "Escolha seus adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne desfiada",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango desfiado",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biscoito",
+      "items": [
+        {
+          "sourceId": "496613",
+          "name": "Pão de queijo",
+          "description": "Pão de queijo!",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2081800/img/56be7e45-bf12-47e0-a156-850083c7b19f.jpg",
+          "options": [
+            {
+              "name": "Quilogramas",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "0,102",
+                  "priceCents": 713
+                },
+                {
+                  "name": "0,156",
+                  "priceCents": 1076
+                },
+                {
+                  "name": "0,208",
+                  "priceCents": 1412
+                },
+                {
+                  "name": "0,260",
+                  "priceCents": 1761
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "sourceId": "487446",
+          "name": "Refrigerantes lata",
+          "description": "Escolha seu Refrigerante Lata.",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039920/img/c25f0254-1383-491c-97ca-a78e4834ef07.jpg",
+          "options": [
+            {
+              "name": "Escolha seu refrigerante lata",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487447",
+          "name": "Refrigerantes litro",
+          "description": "Escolha seu Refrigerante Litro.",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039926/img/96192711-54ad-43d7-9737-decc02ddfd1b.jpg",
+          "options": [
+            {
+              "name": "Escolha seu refrigerante",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana 1lt",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana 1,5l",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Coca cola 1,5l",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Coca cola zero 1,5l",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "487458",
+          "name": "Suco de laranja 300 ml",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/265350/img/f55208e2-1817-41c6-9479-a6f78addf08e.jfif",
+          "options": []
+        },
+        {
+          "sourceId": "490994",
+          "name": "SUCO DE LARANJA 600 ML (jarra)",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/265350/img/f55208e2-1817-41c6-9479-a6f78addf08e.jfif",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Suco da polpa",
+      "items": [
+        {
+          "sourceId": "487492",
+          "name": "Suco de cajù (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2040471/img/3d11120d-27d0-43ce-bcfd-45e4a428a433.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "490991",
+          "name": "Suco de cupuaçu (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056879/img/68da5fa5-494f-462a-83ae-e1eaecf26335.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "490990",
+          "name": "Suco de goiaba (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056877/img/9cbb1d1b-cd41-4df0-b78b-d9dac5b967a9.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "490988",
+          "name": "Suco de graviola (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056869/img/1edda12f-b908-4adb-b4c4-a3d307b1d14f.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "490987",
+          "name": "Suco de uva (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056866/img/d74743a2-25d4-411d-be92-ccd0df532401.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "490992",
+          "name": "Suco de abacaxi c/ hortelâ (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056885/img/1a07a39f-0a0a-4b31-9a19-510cc387b82f.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487748",
+          "name": "Suco de abacaxi (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2056888/img/818bea5a-d2ae-4c83-b640-473df5e5d83d.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "487746",
+          "name": "Suco de morango (polpa)",
+          "description": "300ml. Imagem Ilustrativa.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2040473/img/0edaf105-6fa0-4af1-8e2b-9034ccf4c6e3.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mini pudim",
+      "items": [
+        {
+          "sourceId": "487441",
+          "name": "Mini pudim",
+          "description": "Escolha uma Opção.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039902/img/72a764f6-d6e7-45ce-a5c6-38f5e579cf5e.jpeg",
+          "options": [
+            {
+              "name": "Escolha uma Opção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mini pudim",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "sourceId": "487406",
+          "name": "Bolo gelado",
+          "description": "Escolha o sabor do seu Bolo Gelado!",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039815/img/c3bc6f66-0f9d-4383-96a2-fc064d92d751.jpeg",
+          "options": [
+            {
+              "name": "Escolha o sabor do seu bolo gelado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "487398",
+          "name": "Bolos no pote",
+          "description": "Escolha o sabor do seu Bolo no Pote!",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2039798/img/6b3fd889-14bd-4121-a611-d83402a1ca9a.jpeg",
+          "options": [
+            {
+              "name": "Escolha o sabor do seu bolo no pote",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 amores",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "601953",
+          "name": "Fatia confeitada",
+          "description": "Bolo fatia!!",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2625560/img/68233b84-19ed-4930-981f-ee1893669c02.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "\"Bolo com cobertura\": cada opção de \"Bolo c/cobertura\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Refrigerantes lata\": cada opção de \"Escolha seu refrigerante lata\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Refrigerantes litro\": cada opção de \"Escolha seu refrigerante\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador."
+  ]
+}

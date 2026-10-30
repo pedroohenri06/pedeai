@@ -50,8 +50,14 @@
     return m ? '(' + m[1] + ') ' + m[2] + '-' + m[3] : String(number || '');
   }
 
+  /* Cardápio carregado sob demanda (data/menus/<id>.json): a listagem só tem a contagem (menuCount) e os nomes
+     dos pratos para a busca (menuSearch); `menu` é preenchido quando a página da loja abre. */
+  function menuSize(store) {
+    return (store && store.menu && store.menu.length) || (store && store.menuCount) || 0;
+  }
+
   function canOrder(store) {
-    return !!(store && store.whatsapp && isValidWhatsApp(store.whatsapp) && store.whatsappSource && store.menu && store.menu.length);
+    return !!(store && store.whatsapp && isValidWhatsApp(store.whatsapp) && store.whatsappSource && menuSize(store));
   }
 
   function filterStores(stores, opts) {
@@ -61,7 +67,8 @@
       if (opts.city && s.city !== opts.city) return false;
       if (opts.category && opts.category !== 'Todos' && s.category !== opts.category) return false;
       if (!q) return true;
-      var hay = [s.name, s.kind, s.category, s.neighborhood || ''].concat((s.menu || []).map(function (m) { return m.name + ' ' + (m.description || ''); })).join(' ');
+      var dishes = s.menu && s.menu.length ? s.menu.map(function (m) { return m.name + ' ' + (m.description || ''); }) : [s.menuSearch || ''];
+      var hay = [s.name, s.kind, s.category, s.neighborhood || ''].concat(dishes).join(' ');
       return normalize(hay).indexOf(q) > -1;
     });
   }
@@ -71,7 +78,7 @@
      verificados; cadastros "Em verificação" vão para o fim. Empate: ordem alfabética. Não altera a lista recebida. */
   var CONFIDENCE_RANK = { alta: 0, media: 1, baixa: 2 };
   function storeRank(s) {
-    return [s.rank > 0 ? s.rank : Infinity, s.featured ? 0 : 1, canOrder(s) ? 0 : 1, s.menu && s.menu.length ? 0 : 1, s.image || s.logo ? 0 : 1, s.confidence in CONFIDENCE_RANK ? CONFIDENCE_RANK[s.confidence] : 1];
+    return [s.rank > 0 ? s.rank : Infinity, s.featured ? 0 : 1, canOrder(s) ? 0 : 1, menuSize(s) ? 0 : 1, s.image || s.logo ? 0 : 1, s.confidence in CONFIDENCE_RANK ? CONFIDENCE_RANK[s.confidence] : 1];
   }
   function rankStores(stores) {
     return stores.map(function (s) { return { s: s, r: storeRank(s) }; }).sort(function (a, b) {
@@ -233,7 +240,7 @@
     CITIES: CITIES, CATEGORIES: CATEGORIES, MAX_QTY: MAX_QTY,
     normalize: normalize, slugify: slugify, escapeHtml: escapeHtml,
     toCents: toCents, formatBRL: formatBRL, isValidWhatsApp: isValidWhatsApp, formatPhone: formatPhone,
-    canOrder: canOrder, filterStores: filterStores, rankStores: rankStores, countByCity: countByCity,
+    canOrder: canOrder, menuSize: menuSize, filterStores: filterStores, rankStores: rankStores, countByCity: countByCity,
     emptyCart: emptyCart, addItem: addItem, setQty: setQty, reconcileCart: reconcileCart, itemQty: itemQty,
     validateSelection: validateSelection, unitPrice: unitPrice, lineKey: lineKey,
     cartCount: cartCount, cartTotals: cartTotals, buildOrderMessage: buildOrderMessage,

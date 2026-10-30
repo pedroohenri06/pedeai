@@ -1,0 +1,1163 @@
+{
+  "id": "mc-lena-querencia",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/querencia/mc-lena",
+  "capturedAt": "2026-10-30T22:02:18.011Z",
+  "hours": "Seg 07:00–23:59 · Ter 07:00–23:59 · Qua 07:00–23:59 · Qui 07:00–23:59 · Sex 07:00–23:59 · Sáb 07:00–22:30 · Dom 18:00–23:59",
+  "sections": [
+    {
+      "name": "Dogão 30 cm",
+      "items": [
+        {
+          "sourceId": "14869676",
+          "name": "Dogão calabresa",
+          "description": "Pão, duas salsichas, calabresa, milho, ervilha, catupiry, mussarela e batata palha.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869677",
+          "name": "Dogão bacon",
+          "description": "Pão, duas salsichas, bacon, milho, ervilha, catupiry, mussarela e batata palha.",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/3d30e438f850e8bae92b3.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "14869678",
+          "name": "Dogão cheddar",
+          "description": "Pão, duas salsichas, cheddar, milho, ervilha, catupiry, mussarela e batata palha.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/0c30dae82590644e67c9a.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "14869679",
+          "name": "Dogão frango",
+          "description": "Pão cm, duas salsichas, frango desfiado, milho, ervilha, catupiry, mussarela e batata palha",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869680",
+          "name": "Dogão 4 queijos",
+          "description": "Pão 30cm, duas salsichas, milho, ervilha, catupiry, mussarela, cheddar, parmesão e batata palha.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869681",
+          "name": "Dogão simples",
+          "description": "Pão 30 cm, duas salsichas, mussarela, milho ervilha catupiry, batata palha.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869682",
+          "name": "Dogão completo",
+          "description": "Ão 30 cm, duas salsichas, milho, ervilha, tomate, bacon, frango, calabresa, catupiry, mussarela e batata palha.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869683",
+          "name": "Dogão especial",
+          "description": "Pão 30 cm, duas salsichas, calabresa, bacon, frango desfiado, milho, ervilha, catupiry, molho barbecue, molho epecial mussarela, cheddar, alface,tomate e batata palha.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mec´s burguer",
+      "items": [
+        {
+          "sourceId": "14869684",
+          "name": "Mec tropical",
+          "description": "Pao brioche, alface tomate molho especial bacon abacaxi cheddar hamburguer abacaxi ovo mussarela e presunto.",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869685",
+          "name": "Mec dog",
+          "description": "Pão brioche, alface, tomate milho ervilha molho especial batata palha, salsicha, cheddar, hambúrguer, catupiry,ovo, mussarela.",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/448960ad4ad35b32f20b1.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869687",
+          "name": "Mec duplo",
+          "description": "2 hamburguer artesanal, mussarela, 2 ovos, cheddar duplo, alface e tomate.",
+          "priceCents": 3899,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/c8074c67e03770689b1a5.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869688",
+          "name": "Mclena",
+          "description": "Mec lena – hambúrguer, queijo, 2 ovos, bacon duplo, calabresa, frango desfiado, catupiry, cheddar duplo, alface, tomate, milho e molho especial",
+          "priceCents": 4499,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/6f9139cd77baecfb27e1d.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869691",
+          "name": "Mec file especial",
+          "description": "Pão brioche, alface, tomate, carne em fatias, calabresa, cebola cheddar duplo, bacon duplo, mussarela e molho especial.",
+          "priceCents": 4499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869693",
+          "name": "Mec bacon especial",
+          "description": "Mec bacon: alface, tomate, bacon duplo, 2 ovos, molho especial, hambúrguer, cheddar e mussarela.",
+          "priceCents": 4499,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/fef1d99606c4a03d6e.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869694",
+          "name": "Mec salada",
+          "description": "Pão hambúrguer, milho mussarela, presunto, alface, tomate, ovo.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869696",
+          "name": "Mec bacon",
+          "description": "Pão hambúrguer, bacon, milho, mussarela, presunto, alface, tomate, ovo.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/bf3f99e3e9f8a6c4fd121835688ac487ce09d278.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869697",
+          "name": "Mec egg",
+          "description": "Pao alface tomate milho ovo cheddar hamburguer mussarela e presunto.",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869698",
+          "name": "Mec calabresa",
+          "description": "Pão hambúrguer, calabresa, cebola, milho,mussarela, presunto, alface, tomate, ovo.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/1697c30d8a5bcfe6039b30ee4daf68d3dbf889cb.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869699",
+          "name": "Mec franpiry",
+          "description": "Pão hambúrguer,frango desfiado catupiry, milho mussarela, presunto, alface, tomate, ovo.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869700",
+          "name": "Mec tudo",
+          "description": "Pão, alface, tomate, milho, calabresa, bacon, frango desfiado com catupiry, salsicha, hambúrguer, ovo, presunto e mussarela.",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869701",
+          "name": "Mec filé simples",
+          "description": "Pão, alface, tomate, milho, ovo, carne em fatias, cebola, mussarela presunto.",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 11,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bife",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mec combos",
+      "items": [
+        {
+          "sourceId": "14869702",
+          "name": "Combo meczinho",
+          "description": "Pao brioche, hamburguer, ovo,milho, alface, tomate, presunto, mussarela. + batata chips p e coquinha lata.",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869703",
+          "name": "Combo mec duplo",
+          "description": "Pao brioche, 2 hamburguer, 2 cheddar, 2 ovo+ coquinhalata + batata chips p.",
+          "priceCents": 4499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869704",
+          "name": "Combo meclena",
+          "description": "Hambúrguer, queijo, 2 ovos, bacon duplo, calabresa, frango desfiado, catupiry, cheddar duplo, alface, tomate, milho e molho especial. + coquinha lata + chips p.",
+          "priceCents": 5499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869705",
+          "name": "Combo casal ideal",
+          "description": "2x mec ideal: pão brioche alface, tomate, bacon, 2 ovos, molho especial hambúrguer artesanal,cheddar e mussarela coca 1,5+ batata chips m 250 g.",
+          "priceCents": 8990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869706",
+          "name": "Combo familia",
+          "description": "4x meclena: hambúrguer artesanal, queijo, presunto, ovo, bacon, calabresa, frango desfiado, alface, tomate, molho especial. + guarana 2 l + batata chips g 500 g",
+          "priceCents": 14999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869707",
+          "name": "Combo 5 x salada",
+          "description": "5x mec salada: hambúrguer, queijo, presunto, ovo, alface, tomate milho + guarana 2 l + batata chips g 300g.",
+          "priceCents": 11990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos/cremes",
+      "items": [
+        {
+          "sourceId": "14869709",
+          "name": "Acerola",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869712",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869714",
+          "name": "Abacaxi",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869715",
+          "name": "Graviola",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869717",
+          "name": "Goiaba",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Fritas",
+      "items": [
+        {
+          "sourceId": "14869718",
+          "name": "Batata chips frita",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "P 100g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "M 250g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "G 500g",
+                  "priceCents": 2990
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869719",
+          "name": "Cebola crispy",
+          "description": "M 250g",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Misto quente",
+      "items": [
+        {
+          "sourceId": "14869725",
+          "name": "Misto classico",
+          "description": "Pão de forma presunto mussarela tomate e ovo.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refree",
+      "items": [
+        {
+          "sourceId": "14869726",
+          "name": "Coca cola",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "210ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1,5",
+                  "priceCents": 900
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869727",
+          "name": "Coca sem açucar",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "210ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1,5",
+                  "priceCents": 900
+                },
+                {
+                  "name": "310ml",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14869729",
+          "name": "Fanta laranja",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869730",
+          "name": "Fanta uva",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869731",
+          "name": "Guarana antarctica",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869732",
+          "name": "Sprite",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "14869733",
+          "name": "Pepsi black",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 11,
+    "sem preço": 1
+  },
+  "notes": []
+}

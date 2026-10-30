@@ -1,0 +1,192 @@
+{
+  "id": "churra-s-grego-vila-rica",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTU5NTM=",
+  "capturedAt": "2026-10-30T22:01:12.200Z",
+  "hours": "Dom 18:00–23:59 · Seg 18:00–23:59 · Ter 18:00–23:59 · Qua 18:00–23:59 · Qui 18:00–23:59 · Sex 18:00–23:59 · Sáb 18:00–23:59",
+  "sections": [
+    {
+      "name": "Gregos especiais",
+      "items": [
+        {
+          "sourceId": "4167225",
+          "name": "Grego bbq",
+          "description": "Pão artesanal 20 cm,Churrasco grego,Cebola caramelizada, Bacon,Molho BBQ,Molho especial",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1169257628_825021429.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4710587",
+          "name": "Shawarma explosão tropical",
+          "description": "Pão shawarma caseiro, tomate rodela,cebola roxa, molho especial da casa,geleia de abacaxi com pimenta e churrasco grego.",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/707365822_1266298654.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combo",
+      "items": [
+        {
+          "sourceId": "2631979",
+          "name": "COMBO SHAWARMA MASTER (refrigerante 1 litro)",
+          "description": "2 Shawarma master + GUARANÁ de 1 litro",
+          "priceCents": 7399,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1329285910_486074618.jpeg",
+          "options": [
+            {
+              "name": "Escolha o molho de sua preferência",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho apimentado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho tradicional da casa",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lanche shawarma",
+      "items": [
+        {
+          "sourceId": "2596103",
+          "name": "Shawarma calabresa",
+          "description": "Pão shawarma caseiro -churrasco grego -calabresa-salada de repolho -tomate-cebola roxa -molho especial",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/221210347_1425368238.jpeg",
+          "options": [
+            {
+              "name": "Escolha o molho de sua preferência",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho apimentado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho especial da casa",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2596111",
+          "name": "Shawarma fit",
+          "description": "Pão shawarma caseiro -churrasco grego -salada de repolho-tomate -cebola roxa-molho especial",
+          "priceCents": 3099,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/59767879_1690415354.jpeg",
+          "options": [
+            {
+              "name": "Escolha o molho de sua preferência",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho apimentado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho especial da casa",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2596091",
+          "name": "Shawarma bacon",
+          "description": "Pão shawarma caseiro -bacon -churrasco grego -molho especial- -tomate -cebola roxa-repolho",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1667218389_1306064455.jpeg",
+          "options": [
+            {
+              "name": "Escolha o molho de sua preferência",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho apimentado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho especial da casa",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2596141",
+          "name": "Shawarma master",
+          "description": "Pão shawarma caseiro -churrasco grego de frango e de carne-bacon -calabresa,salada de repolho -tomate - cebola roxa e molho especial da casa",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/236908038_1737955395.jpeg",
+          "options": [
+            {
+              "name": "Escolha o molho de sua preferência",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho apimentado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho especial da casa",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adicionais",
+      "items": [
+        {
+          "sourceId": "3241133",
+          "name": "Katchup sachê",
+          "description": "",
+          "priceCents": 199,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/607925607_1600455846.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3031875",
+          "name": "Molho verde",
+          "description": "",
+          "priceCents": 299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/198056395_1745065274.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

@@ -1,0 +1,413 @@
+{
+  "id": "go-burger-delivery-querencia",
+  "platform": "zionpdv",
+  "source": "https://zionpdv-storefront.fly.dev/store/go-burger-delivery",
+  "capturedAt": "2026-10-30T22:01:56.743Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Hamburguer",
+      "items": [
+        {
+          "sourceId": "cmvu1kvtk06f213jreivbeguw",
+          "name": "Francês Especial",
+          "description": "Pão macio, hambúrguer artesanal, maionese verdade, queijo derretido, salada,ovo, presunto, bacon crocante,molhoespecial.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/b6f5f2b05eccd1734e59bb0f56fe3b2d.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "cmrwnttbj0ekbqbacp3hbcqkk",
+          "name": "Americano",
+          "description": "Pão gergelim, maionese, burger grelhado, cebola empanada, bacon, cheddar, molho especial.",
+          "priceCents": 4899,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/687c8cd748815a0d66a815cc7a29e6cf.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Americano Duplo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americano Triplo",
+                  "priceCents": 1100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmo8mosn7000391uhk7cxdm2c",
+          "name": "Brasileiro",
+          "description": "Pão gergelim, maionese, burger grelhado, cebola caramelizada, cheddar, salada, molho especial.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/07de23813554749913cd377925e61cb3.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brasileiro duplo",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Brasileiro simples",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmo8u219t00076wxv0eg5afcp",
+          "name": "Francês",
+          "description": "Pão gergelim, maionese, burger grelhado, mussarela, salada e molho especial.",
+          "priceCents": 2899,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/0ec858a1356f99596768fbd0d3be2a06.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Duplo",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmp3ahmpd0001omlbk7nsjw9c",
+          "name": "Indiano",
+          "description": "Pão gergelim, maionese verde, burger tradicional, ovo, costela desfiada, mussarela, tomate, molho especial.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/6b47c6db13670174e10a2fef639a730a.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Duplo",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmp3atw1f000gomlb9jfwdv40",
+          "name": "Alemão",
+          "description": "Pão gergelim, maionese, Burger grelhado, DUPLO bacon, DUPLO mussaarela, salada, molho especial.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/1dfdcb5e6d0fa45bd1f58717834e82b8.png",
+          "options": []
+        },
+        {
+          "sourceId": "cmp5wuirp001hamjsa1lkox23",
+          "name": "Canadense",
+          "description": "Pão gergelim, maionese, burger grelhado, bacon, cheddar, cebola empanada, barbecue, molho especial.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/4f873ef725a027674e1fd66867b289dd.png",
+          "options": []
+        },
+        {
+          "sourceId": "cmp4h52ql003c174c97gg3lta",
+          "name": "Italiano",
+          "description": "Pão gergelim, maionese, burger grelhado, bacon, cheddar, molho especial.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/e500ccc27d14f8f4843cb8e2df769930.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Duplo",
+                  "priceCents": 799
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmp5e4osm004qqu0cdgk3ju50",
+          "name": "Chileno",
+          "description": "Pão gergelim, maionese, burger grelhado, cheddar, salada e molho especial.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/fefdc55323a5081e03e1350d5d9e9647.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Duplo",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmp5fqxbt005jqu0cdnt8ocer",
+          "name": "Paraquaio",
+          "description": "Pão gergelim, maionese, burger grelhado, abacaxi, mussarela, bacon, molho especial.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/449cc6d2d0fa7b71c3a37899f9afd9f4.png",
+          "options": []
+        },
+        {
+          "sourceId": "cmp5wm6ld000qamjsoyjtmmvc",
+          "name": "Argentino",
+          "description": "Pão gergelim, maionese, burger grelhado, cheddar, picles, cebola, ketchup, mostarda, molho especial.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/7fee0bb88bc87bdce94e987493510496.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Duplo",
+                  "priceCents": 1300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "cmpbxilpb00794wj3h0p2hrru",
+          "name": "Refrigerante",
+          "description": "Formato intermediário, excelente para refeições em família ou pequenos grupos.",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/f72e04e292e885dd85eb2f3855879b42.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca 1,5L",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Guaraná 1L",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Guaraná Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "cmp5ygngg002samjs0kmrqtqn",
+          "name": "Combo América",
+          "description": "Hambúrguer francês + Batata + bacon + Queijo + Bolo de costela",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/10d7194e11d46d671caba2d53d20c434.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Simples - hambúrguer + batata + bacon + Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Duplo - 2 hambúrguer + batata + bacon + Queijo + 2 bolos de costela",
+                  "priceCents": 3000
+                },
+                {
+                  "name": "Família - 4 hambúrguer + batata + bacon + Queijo + 4 bolos de costela + coca 1,5L",
+                  "priceCents": 9500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmp5x1syr0020amjsr1mbwb3b",
+          "name": "Combo Europeu",
+          "description": "Hambúrguer chileno + batata + bacon + chedar",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/aba7c222966917bdfaf0fad68dfc0c20.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Duplo - 2 hambúrguer + batata + bacon + chedar + cebola empanada",
+                  "priceCents": 3000
+                },
+                {
+                  "name": "Simples - hambúrguer + batata + bacon + chedar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Família - 4 hambúrguer + batata + bacon + cheadar + cebola empanado + coca 1,5L",
+                  "priceCents": 9500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmq78fjoq001gta0g9xby68fa",
+          "name": "Combo kids",
+          "description": "Pão, carne, mussarela e molho especial. Acompanha batata frita.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/300591da1a106f1d1d4dc27bba208ab7.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porção",
+      "items": [
+        {
+          "sourceId": "cmp4n2vsw0003qu0cyd8x7ftu",
+          "name": "Batata especial",
+          "description": "Batatas palito selecionadas, fritas até ficarem douradas e crocantes por fora, com um interior macio e saboroso.",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/67e664504a936ea428e8084ba486b654.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata com queijo e bacon",
+                  "priceCents": 501
+                },
+                {
+                  "name": "Batata com cheddar e bacon",
+                  "priceCents": 501
+                },
+                {
+                  "name": "Batata simples",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cmvhg9asf02pp13jrs2xcxcv7",
+          "name": "Bolinhos Texanos",
+          "description": "Empanados especial de frango e costela com queijo Porção com 4 unidades",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://zionpdv-uploads.fly.storage.tigris.dev/products/6683deff252740273387acd0b8733c21.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bolinhos de costela com queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolinhos de frango com queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "monte o seu (preço depende das opções)": 1,
+    "sem preço": 1
+  },
+  "notes": [
+    "\"Americano\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Brasileiro\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Francês\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Indiano\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Alemão\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Canadense\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Italiano\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Chileno\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Paraquaio\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Argentino\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Combo América\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Combo Europeu\": a fonte tem opções que só carregam ao abrir o produto; não importadas.",
+    "\"Batata especial\": a fonte tem opções que só carregam ao abrir o produto; não importadas."
+  ]
+}

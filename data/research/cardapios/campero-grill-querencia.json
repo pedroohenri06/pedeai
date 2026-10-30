@@ -1,0 +1,771 @@
+{
+  "id": "campero-grill-querencia",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/querencia/campero-grill",
+  "capturedAt": "2026-10-30T22:04:47.017Z",
+  "hours": "Seg 17:30–21:20 · Qua 17:30–21:20 · Qui 17:30–21:20 · Sex 17:30–21:20 · Sáb 17:30–21:30 · Dom 17:30–21:30",
+  "sections": [
+    {
+      "name": "Burguers",
+      "items": [
+        {
+          "sourceId": "12844077",
+          "name": "Pão, hambúrguer e queijo",
+          "description": "Um delicioso hambúrguer grelhado com o pão brioche bem tostadinho",
+          "priceCents": 2850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12844078",
+          "name": "Cowboy burguer",
+          "description": "Pão brioche, burguer grelhado, lapa de queijo coalho gratinada e geleia de abacaxi",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/eebfb10928448da4b7b503cef49fe12ad12639e2.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844079",
+          "name": "Pineapple honey",
+          "description": "Pão brioche, burguer grelhado, fatia de abacaxi caramelizado com mel, maionese da casa, bacon crocante e rúcula.",
+          "priceCents": 4790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/92725363e59d63043ffc859d1f04cec00e94261e.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844080",
+          "name": "Australian burguer",
+          "description": "Pão australiano selado na chapa, hamburguer premium, farofinha de bacon, queijo cheddar e cebola caramelizada com geleia de abacaxi.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/8407b22faaf8bcc514cef4f18c78287f677e4410.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844081",
+          "name": "Fit chicken",
+          "description": "Quer algo mais leve e fit? pão artesanal selado, maionese da casa, frango marinado, queijo e salada completa ( alface, tomate e cebola roxa )",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/c68c32087ff844c0a481ba87858be0d4246bac9f.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844082",
+          "name": "Crispy cheese",
+          "description": "Gosta de queijo? pão artesanal selado, maionese da casa, hamburguer premium e uma lapa de queijo empanado. acompanhado de geleia de abacaxi (no potinho)",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/e71896819de51fb05c41d810a11635eff02aad6a.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844083",
+          "name": "Rango in",
+          "description": "Já comeu geleia de bacon? pão artesanal selado, maionese da casa, hamburguer premium, queijo e uma explosão de sabor com a autêntica geleia de bacon (agridoce).",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/d702f0c657eb884c9da2fdba759b44d889167e5c.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844085",
+          "name": "Meat cheese",
+          "description": "Para quem quer sentir o sabor autêntico da nossa carne. pão artesanal selado, maionese da casa, hamburguer premium, queijo e farofa de bacon",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/d565bd384c11133ff445de8ffd1b1275ee83e81f.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844086",
+          "name": "Bacon salty 2.0",
+          "description": "Para quem gosta de sentir o real sabor do bacon. pão artesanal selado, queijo, maionese da casa, hamburguer premium e fatias de bacon crocante.",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/a6778dee6b86b809e80a52b21b843ad6e5a62540.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "12844890",
+          "name": "Batata especial campero",
+          "description": "Essa é para tirar foto ein!! batata palito com nosso delicioso 4 queijos e farofa de bacon.",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/33cc8e50937ee2f9f600a9ddb03d6648b2be6e9b.png",
+          "options": [
+            {
+              "name": "Que tal turbinar sua porção??",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Não, obrigado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dobro de bacon",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Dobro de queijo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Farofa de bacon",
+                  "priceCents": 450
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12844891",
+          "name": "Meio da asa especial",
+          "description": "Essa é para você que é exigente no tempero. meio da asa com tempero especial da casa, fritas, servidas com molhos da casa.",
+          "priceCents": 6890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "12844894",
+          "name": "Batata chips da casa",
+          "description": "Frita",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/beb0834c5e08f30f84a7d458ada3bb02cdeb1c2c.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844895",
+          "name": "Camarão empanado",
+          "description": "Frito",
+          "priceCents": 6690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/302b16ad29d68d74769f0e72660ab549d4a8cebd.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844896",
+          "name": "Isca de tilápia",
+          "description": "Frito",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/2c8a23ffb247b2226d6d91926dd49c8dbc01ac6f.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844897",
+          "name": "Frango a passarinho",
+          "description": "Frito",
+          "priceCents": 4890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/09ef3409734aab08667e5faf2e943a121007bd48.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844898",
+          "name": "Calabresa",
+          "description": "Acebolada ou sem cebola",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/fca16f0a2d8d3f926bc3abe63bcff3ddd9e6be19.png",
+          "options": [
+            {
+              "name": "Com cebola?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12844899",
+          "name": "Panceta suína",
+          "description": "Frito",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/e75241a23187edb272566fc2f0c76a10a995a805.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844901",
+          "name": "Pastelzinho de carne",
+          "description": "Frito",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/5fc0cfe0b7e8c8e2151e935b5587f1cb333c6d34.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844902",
+          "name": "Pastelzinho de queijo",
+          "description": "Frito",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/355549048ce35329e8d1a62035a971e8c4866cb6.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844904",
+          "name": "Dadinho de tapioca",
+          "description": "Dadinho de tapioca com queijo + geleia de abacaxi (no potinho)",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/bb03a73cd49465fd74264f77d95279ecb7cf9720.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844892",
+          "name": "Batata p",
+          "description": "150g de batata artesanal.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/ae703d6f531244e3bd2071737115b2d0fdea9d23.png",
+          "options": []
+        },
+        {
+          "sourceId": "12844905",
+          "name": "Batata m",
+          "description": "300g de batata artesanal + maionese da casa + ketchup",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/052940756a4b52fbf326c5691d19375fc9cc95ba.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Seleção individual",
+      "items": [
+        {
+          "sourceId": "12837861",
+          "name": "Medalhão de mignon",
+          "description": "Filé mignon ao molho madeira com toque de vinho tinto, acompanhado de purê e verduras salteadas na manteiga.",
+          "priceCents": 7990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/0486a9459d02fe5ed2509807cf19c7650ba1d389.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837862",
+          "name": "Omeletão caipira",
+          "description": "Omelete enroladinho com queijo, peito de peru e ervas, servido com arroz branco e fritas.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/d79f7d8ae8d0c884ba78329fe6548c8f32af2674.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837863",
+          "name": "Salmão com risotto",
+          "description": "Salmão grelhado, ervas, chimichurri e risotto.",
+          "priceCents": 8990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/2c691e78bc8df6ab03e7702774a1173e321f138b.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837864",
+          "name": "Frango a 4 queijo",
+          "description": "Cubinhos de filé de frango ao 4 queijo, arroz branco e fritas.",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/0f20da489b156d81cd6f436d71614cfee4c2d17c.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837865",
+          "name": "Strogonoff de frango",
+          "description": "Strogonoff de frango, arroz branco e batata palha.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/958a42e3b61b3c2070100010ba8f69131df6f32f.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Almoço",
+      "items": [
+        {
+          "sourceId": "12838836",
+          "name": "Marmita fit",
+          "description": "Arroz integral, cenoura, beterraba, abobrinha verde, pepino, milho verde e filezinho de frango",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/152a65c6a236f9dab6278ad78a9baa8538fa2476.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838837",
+          "name": "Marmita g",
+          "description": "Arroz, feijão, macarrão, farofinha, churrasco acebolado,frango ao molho, salada e verdura",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/9f850c69bb6cf73549d165f78a76f38d7c39f539.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838838",
+          "name": "Marmita m",
+          "description": "Arroz, feijão, macarrão, farofinha, churrasco acebolado,frango ao molho, salada e verdura",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/75db3b431e12a63ade3c42b7876d32b43d05ae89.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "12837866",
+          "name": "Suco del valle uva 450ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/fc9162ce1b0d578e05c4afe2a1ea2b9db3f27fd5.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837867",
+          "name": "Pepsi lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/a279a8783f275a7098cdbf95b70bdf5329fda12b.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837868",
+          "name": "Energético red bull original",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/94301dc08c43cc3c73dbf219ef72d30b6f6351e3.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837869",
+          "name": "Energético red bull original 0% açúcar",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/c77422b4059100c516cb5c09705d164852010e39.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837870",
+          "name": "Energético monster",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/52061d183e9ac779c1d7285888b4416280a57dc2.png",
+          "options": []
+        },
+        {
+          "sourceId": "12837871",
+          "name": "Fanta laranja lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/80435dcd820e03e3a92d41eb101aab4ede5a12f7.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838379",
+          "name": "Fanta uva lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/f6fb52d871837682e3a9527d3c101b437965c179.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838380",
+          "name": "Sprite lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/d4ffe8b769a209f6e515996a8d42dfe35d02ed01.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838381",
+          "name": "Água s/ gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/bce386476f5cc7bbb2f36939cdf32cd4a6ef848e.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838382",
+          "name": "Água c/ gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/b56c080e364aae42a68e880620830e8a9d21ce86.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838383",
+          "name": "Coca-cola lata",
+          "description": "Lata 310ml",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/902c42ec6c71ef6658610883e4501699afafbe9e.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838384",
+          "name": "Coca-cola lata zero",
+          "description": "Lata 310ml",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/db12e219b8273fe54ebb921c21b387ceae03d81e.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838385",
+          "name": "Coca-cola 1,5l",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/b87df7c078e35d219af10f1b1a454a62267d0019.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838386",
+          "name": "H2-oh 500ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/e73236777ac2a2d95eda1c43e7028d5748cd67ca.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838387",
+          "name": "Guaraná lata",
+          "description": "Lata 269ml",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/29bddfe580cbd4a259ab530ccbc8a80ea55420ef.png",
+          "options": []
+        },
+        {
+          "sourceId": "12838388",
+          "name": "Guaraná 600ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/5088bf7f7f368b079fe447eabd695669a3535095.png",
+          "options": []
+        },
+        {
+          "sourceId": "12840502",
+          "name": "Suco kapo uva",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/7wf96hytt0b2f0j51focb/a2f2dcf969bb28c39e40760f886fbc5d844184d3.png",
+          "options": []
+        },
+        {
+          "sourceId": "13514099",
+          "name": "Coca cola zero 1,5l",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "12838827",
+          "name": "Abacaxi",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838828",
+          "name": "Acerola",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838829",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838830",
+          "name": "Laranja",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838831",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838832",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838834",
+          "name": "Caju",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cremes",
+      "items": [
+        {
+          "sourceId": "12838839",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838840",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12838841",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 litro",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 2,
+    "indisponível": 7
+  },
+  "notes": []
+}

@@ -1,0 +1,703 @@
+{
+  "id": "smash-burger-querencia",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/querencia/smash-burger",
+  "capturedAt": "2026-10-30T22:02:30.185Z",
+  "hours": "Sex 17:00–22:00",
+  "sections": [
+    {
+      "name": "Burger artesanal",
+      "items": [
+        {
+          "sourceId": "15206640",
+          "name": "Lisboa",
+          "description": "Pão, hambúrguer 4x4, bacon 4x4, queijo 4x4 e molho especial.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15206641",
+          "name": "Ásia",
+          "description": "Pão, hambúrguer, queijo cheddar, cebola crispy, bacon, molho especial, molho barbecue e alface.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15140447",
+          "name": "Toulon",
+          "description": "Pão brioche selado na manteiga, hambúrguer 120g, 2 fatias de queijo cheddar, 2 fatias de bacon crocante, cebola caramelizada e molho especial.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/62abc1b8af17dc7699406.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15140454",
+          "name": "Mônaco",
+          "description": "Pão, hambúrguer, queijo cheddar,farofa de bacon,cebola caramelizada,doritos e rúcula.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/ea40a4a01720dc60f0877.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15140448",
+          "name": "Chicago",
+          "description": "Pão brioche selado na manteiga, hambúrguer 120g, 2 fatias de queijo cheddar, 2 fatias de bacon crocante, cebola roxa, alface, tomate, picles e molho especial.",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/a3a775e557a2352ca6f8a.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15140449",
+          "name": "Floripa",
+          "description": "Pão brioche selado na manteiga, hambúrguer 120g, 2 fatias de queijo cheddar, cebola roxa, alface, tomate e molho especial.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/9d6613ac72b174325e121.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15140450",
+          "name": "Tóquio",
+          "description": "Pão brioche selado na manteiga, hambúrguer 120g, 2 fatias de queijo cheddar, abacaxi caramelizado, ovo, tomate e molho especial",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15140453",
+          "name": "Kids",
+          "description": "Pão brioche selado na manteiga, hambúrguer 120g e queijo cheddar.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/9c3a89293ce270a1ac.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15530862",
+          "name": "Hamburgo",
+          "description": "Pão brioche selado na manteiga, hambúrguer artesanal e queijo cheddar.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lanches tradicionais",
+      "items": [
+        {
+          "sourceId": "15530863",
+          "name": "X-salada",
+          "description": "Pão brioche selado na manteiga, queijo, presunto, milho, ervilha, tomate, alface, ovo e molho especial.",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 12,
+              "choices": [
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15530865",
+          "name": "X-calabresa",
+          "description": "Hambúrguer artesanal, queijo cheddar, alface, tomate, cebola roxa, calabresa e molho especial.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 12,
+              "choices": [
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "15140459",
+          "name": "Coca cola lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15140460",
+          "name": "Guaraná lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15140461",
+          "name": "Guaraná 2 litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15140464",
+          "name": "Coca cola 2 litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15140465",
+          "name": "Coca cola 1,5 litros",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15140466",
+          "name": "Guaraná 1,5 litros",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15531492",
+          "name": "Coca cola zero",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Batatas",
+      "items": [
+        {
+          "sourceId": "15206652",
+          "name": "Anel de cebola",
+          "description": "Porção crocante de anel de cebola.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15206653",
+          "name": "Batata crocante",
+          "description": "Bem douradinha e super saborosa.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15206654",
+          "name": "Batata especial",
+          "description": "Porção especial, mais recheada e irresistível.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "15206655",
+          "name": "Batata sorridente",
+          "description": "Batatinhas sorridentes, divertidas e crocantes.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 1
+  },
+  "notes": []
+}

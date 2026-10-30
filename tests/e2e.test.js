@@ -19,7 +19,7 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
   const base = `http://127.0.0.1:${server.address().port}/`;
   const browser = await playwright.chromium.launch();
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
-  await context.route('**/data/establishments.js', route => route.fulfill({ contentType: 'text/javascript', body: 'window.PEDEAI_DATA=' + JSON.stringify(FIXTURE) + ';' }));
+  await context.route(/\/data\/establishments\.js(\?|$)/, route => route.fulfill({ contentType: 'text/javascript', body: 'window.PEDEAI_DATA=' + JSON.stringify(FIXTURE) + ';' }));
   await context.route(/^https:\/\/fonts\./, route => route.abort());
   const page = await context.newPage();
   const errors = [];

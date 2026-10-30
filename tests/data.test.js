@@ -63,3 +63,16 @@ test('lojas removidas da plataforma não voltam ao cadastro', () => {
   const ids = new Set(db.establishments.map(s => s.id));
   assert.deepEqual(gone.filter(id => ids.has(id)), []);
 });
+
+test('imagens das lojas saem com ?v= do conteúdo atual (logo trocada não fica presa no cache do navegador)', () => {
+  const crypto = require('crypto');
+  const js = fs.readFileSync(path.join(__dirname, '..', 'data', 'establishments.js'), 'utf8');
+  const urls = js.match(/assets\/[^"]+\.(?:webp|png|jpe?g|svg)(?:\?v=[0-9a-f]+)?/g) || [];
+  assert.ok(urls.length > 0);
+  const stale = urls.filter(u => {
+    const [rel, v] = u.split('?v=');
+    const file = path.join(__dirname, '..', rel);
+    return fs.existsSync(file) && v !== crypto.createHash('sha1').update(fs.readFileSync(file)).digest('hex').slice(0, 10);
+  });
+  assert.deepEqual(stale, []);
+});

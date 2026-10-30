@@ -1488,7 +1488,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece em diretório. Fica no distrito de Espigão do Leste, que pertence ao município, longe da sede. O tipo de cozinha não está confirmado.",
-      "rank": 5
+      "rank": 7
     },
     {
       "id": "churrascaria-araguaia-sao-felix-do-araguaia",
@@ -1525,7 +1525,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "O diretório traz o telefone antigo de 8 dígitos (66) 8434-3499, anterior ao nono dígito (hoje seria provavelmente 9 8434-3499, não confirmado). Por isso phone=null. Funcionamento atual não confirmado.",
-      "rank": 6
+      "rank": 8
     },
     {
       "id": "creme-mania-sorvetes-e-acai-sao-felix-do-araguaia",
@@ -1563,7 +1563,19 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "O diretório traz o telefone antigo de 8 dígitos (66) 8400-8975, por isso phone=null. A rede Creme Mania tem lojas em Canarana e Nova Xavantina. A unidade local só aparece em diretórios.",
-      "rank": 7
+      "rank": 3,
+      "logo": {
+        "src": "assets/stores/creme-mania-sorvetes-e-acai-sao-felix-do-araguaia-logo.webp",
+        "thumb": "assets/stores/creme-mania-sorvetes-e-acai-sao-felix-do-araguaia-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Creme Mania Sorvetes e Açaí",
+        "credit": "Creme Mania Sorvetes e Açaí",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://sorveterias.net.br/cidade/sorveteria-em-sao-felix-do-araguaia-mt",
+        "tile": "assets/stores/creme-mania-sorvetes-e-acai-sao-felix-do-araguaia-logo-tile.webp"
+      }
     },
     {
       "id": "delicias-pizzas-sao-felix-do-araguaia",
@@ -1740,7 +1752,7 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Aparece em três diretórios. O celular vem de diretório e não foi confirmado como WhatsApp.",
-      "rank": 2
+      "rank": 4
     },
     {
       "id": "panificadora-e-lanchonete-ki-delicia-sao-felix-do-araguaia",
@@ -1832,7 +1844,7 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Tem CNPJ 21.213.832/0001-66 (Econodata). O diretório traz o telefone antigo de 8 dígitos (66) 8433-2134, por isso phone=null. Endereço completo não obtido.",
-      "rank": 3
+      "rank": 5
     },
     {
       "id": "pizzaria-do-pakotinho-sao-felix-do-araguaia",
@@ -1870,7 +1882,7 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Aparece em dois diretórios com o mesmo celular, que não foi confirmado como WhatsApp em canal próprio.",
-      "rank": 4
+      "rank": 6
     },
     {
       "id": "restaurante-agua-na-boca-sao-felix-do-araguaia",
@@ -1937,7 +1949,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Os dados vêm só de diretórios. O Econodata mostra o CNPJ 10.603.316/0001-21 como 'Inapta', então pode estar fechado.",
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "restaurante-encontro-das-aguas-sao-felix-do-araguaia",
@@ -2058,7 +2070,7 @@
         "sourceUrl": "https://www.instagram.com/vania_confeitaria_oficial/",
         "tile": "assets/stores/vania-confeitaria-sao-felix-do-araguaia-logo-tile.webp"
       },
-      "rank": 9
+      "rank": 2
     },
     {
       "id": "vitoria-lanchonete-e-pizzaria-sao-felix-do-araguaia",

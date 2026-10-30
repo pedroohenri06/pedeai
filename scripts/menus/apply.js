@@ -16,10 +16,15 @@ const LICENSE = 'Uso autorizado pelo estabelecimento parceiro';
 
 function toMenu(store, snap, photos) {
   const nextId = L.idFactory();
-  const items = [];
+  const items = [], seen = new Set();
   snap.sections.forEach(sec => sec.items.forEach(it => {
+    // A mesma entrada publicada duas vezes na fonte (nome, descrição, preço e opções iguais) entra uma vez só.
+    const sig = JSON.stringify([sec.name, it.name, it.description, it.priceCents, it.options]);
+    if (seen.has(sig)) return;
+    seen.add(sig);
     const item = { id: nextId(it.name), section: sec.name, name: it.name, description: it.description || '', priceCents: it.priceCents };
     if (it.originalPriceCents > it.priceCents) item.originalPriceCents = it.originalPriceCents;
+    if (it.featured) item.featured = true;
     const ph = it.imageUrl && photos[it.imageUrl];
     if (ph) {
       item.image = { src: ph.src || ph.thumb, thumb: ph.thumb, alt: it.name + ' — ' + store.name, credit: store.name, license: LICENSE, sourceUrl: it.imageUrl };

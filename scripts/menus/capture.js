@@ -51,11 +51,14 @@ async function captureOne(browser, t) {
     meta.status = res ? res.status() : null;
     await page.waitForLoadState('networkidle', { timeout: 20000 }).catch(() => {});
     // Cardápios costumam carregar seções sob demanda: rola até o fim antes de salvar.
+    // Páginas que se redirecionam durante a rolagem destroem o contexto: espera a nova página e segue.
     for (let i = 0; i < 25; i++) {
-      const done = await page.evaluate(() => { window.scrollBy(0, window.innerHeight); return window.scrollY + window.innerHeight >= document.body.scrollHeight - 4; });
+      const done = await page.evaluate(() => { window.scrollBy(0, window.innerHeight); return window.scrollY + window.innerHeight >= document.body.scrollHeight - 4; })
+        .catch(async () => { await page.waitForLoadState('domcontentloaded').catch(() => {}); return false; });
       await page.waitForTimeout(250);
       if (done && i > 3) break;
     }
+    if (t.wait) await page.waitForTimeout(t.wait);
     await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {});
     meta.finalUrl = page.url();
     meta.title = await page.title();

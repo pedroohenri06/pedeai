@@ -18,7 +18,7 @@ module.exports = function parse({ responses, meta }) {
         if (ch.use_greater_option_price && ch.max > 1 && prices.size > 1) notes.push('"' + L.displayName(it.name) + '": a fonte cobra só a opção mais cara; aqui as opções somam.');
         return L.optionGroup(ch.name, ch.required ? Math.max(1, ch.min || 0) : ch.min || 0, ch.max, (ch.options || []).map(o => ({ name: o.name, priceCents: L.cents(o.price) || 0 })));
       }).filter(Boolean);
-      return { sourceId: String(it.id), name: L.displayName(it.name), description: L.displayText(it.description), priceCents: now, originalPriceCents: now < full ? full : null, imageUrl: it.img || null, options };
+      return { sourceId: String(it.id), name: L.displayName(it.name), description: L.displayText(it.description), priceCents: now, originalPriceCents: now < full ? full : null, imageUrl: it.img || null, featured: (it.featured || []).length > 0, options };
     })
   }));
   return L.snapshot(meta, sections, { skipped, notes: Array.from(new Set(notes)) });

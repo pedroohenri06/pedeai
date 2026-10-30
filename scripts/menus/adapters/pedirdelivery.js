@@ -49,7 +49,7 @@ module.exports = function parse({ html, meta }) {
       const now = L.cents(p.price), old = L.cents(p.oldPrice);
       const item = L.priceFromRequiredGroup({
         sourceId: String(p.id), name: L.displayName(p.name), description: L.displayText(p.description && p.description.replace(/^"|"$/g, '')),
-        priceCents: now || 0, originalPriceCents: old > now && now > 0 ? old : null, imageUrl: p.image ? IMG(p.image) : null, options
+        priceCents: now || 0, originalPriceCents: old > now && now > 0 ? old : null, imageUrl: p.image ? IMG(p.image) : null, featured: p.featured === 1, options
       }, notes);
       if (!item) L.count(skipped, 'sem preço');
       return item;

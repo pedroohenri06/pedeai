@@ -21,7 +21,7 @@
     phone: '<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2Z"/>',
     chat: '<path d="M21 11.5a8.4 8.4 0 0 1-12.3 7.5L3 21l2-5.4A8.4 8.4 0 1 1 21 11.5Z"/>', link: '<path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/>',
     menu: '<path d="M4 6h16M4 12h16M4 18h10"/>', info: '<circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/>', plus: '<path d="M12 5v14M5 12h14"/>', minus: '<path d="M5 12h14"/>', check: '<path d="m5 12 5 5 9-10"/>',
-    search: '<circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/>', bag: '<path d="M6 7h12l1 14H5L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/>', dish: '<path d="M3 17h18"/><path d="M5 17a7 7 0 0 1 14 0"/><path d="M12 8V6"/><path d="M10 6h4"/>'
+    search: '<circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/>', star: '<path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9Z"/>', bag: '<path d="M6 7h12l1 14H5L6 7Z"/><path d="M9 7a3 3 0 0 1 6 0"/>', dish: '<path d="M3 17h18"/><path d="M5 17a7 7 0 0 1 14 0"/><path d="M12 8V6"/><path d="M10 6h4"/>'
   };
 
   /* Glifo oficial do WhatsApp (marca registrada da Meta), usado só nos botões que abrem o WhatsApp. */
@@ -144,17 +144,27 @@
   }
 
   function priceLabel(item) {
-    return (hasPricedOptions(item) ? '<span class="sp-from">a partir de</span> ' : '') + C.formatBRL(item.priceCents);
+    return (hasPricedOptions(item) ? '<span class="sp-from">a partir de</span> ' : '') +
+      (item.originalPriceCents > item.priceCents ? '<s class="sp-was"><span class="sr-only">de </span>' + C.formatBRL(item.originalPriceCents) + '</s> <span class="sp-now"><span class="sr-only">por </span>' + C.formatBRL(item.priceCents) + '</span>' : C.formatBRL(item.priceCents));
   }
+
+  /* Selos do item: destaque (marcado pela própria loja na plataforma de origem), promoção e opções. */
+  function itemTags(m) {
+    return (m.featured ? '<span class="sp-item-tag sp-item-tag--star">' + icon(I.star) + 'Destaque</span>' : '') +
+      (m.originalPriceCents > m.priceCents ? '<span class="sp-item-tag sp-item-tag--promo">-' + Math.round(100 - m.priceCents * 100 / m.originalPriceCents) + '%</span>' : '') +
+      ((m.options || []).length ? '<span class="sp-item-tag">Com opções</span>' : '');
+  }
+
+  function thumbOf(m) { return m.image && (m.image.thumb || m.image.src); }
 
   function itemHtml(m) {
     var media = m.image
-      ? '<img src="' + esc(m.image.src) + '" alt="" width="240" height="240" loading="lazy" decoding="async">'
+      ? '<img src="' + esc(thumbOf(m)) + '" alt="" width="240" height="240" loading="lazy" decoding="async">'
       : '<span class="sp-ph" aria-hidden="true">' + icon(I.dish) + '</span>';
     return '<li class="sp-li"><article class="sp-item" data-item="' + esc(m.id) + '">' +
       '<button class="sp-item-main" type="button" data-open="' + esc(m.id) + '" aria-haspopup="dialog"><span class="sp-item-name">' + esc(m.name) + '</span>' +
       (m.description ? '<span class="sp-item-desc">' + esc(m.description) + '</span>' : '') +
-      '<span class="sp-item-meta"><span class="sp-item-price">' + priceLabel(m) + '</span>' + ((m.options || []).length ? '<span class="sp-item-tag">Com opções</span>' : '') + '</span></button>' +
+      '<span class="sp-item-meta"><span class="sp-item-price">' + priceLabel(m) + '</span>' + itemTags(m) + '</span></button>' +
       '<div class="sp-item-media" data-open="' + esc(m.id) + '">' + media + '<span class="sp-badge" data-badge="' + esc(m.id) + '" hidden></span>' +
       '<button class="sp-add" type="button" data-add="' + esc(m.id) + '" aria-label="Adicionar ' + esc(m.name) + ' ao pedido">' + icon(I.plus, 'sp-add-plus') + icon(I.check, 'sp-add-check') + '</button></div>' +
       '</article></li>';
@@ -186,6 +196,28 @@
       '</section>';
   }
 
+  /* Vitrine da marca no topo do cardápio: logo, nome e números do cardápio sobre a cor da loja (brand). */
+  function vitrineHtml(s, secs) {
+    var promos = s.menu.filter(function (m) { return m.originalPriceCents > m.priceCents; }).length;
+    var facts = [s.menu.length + ' itens', secs.length + (secs.length === 1 ? ' categoria' : ' categorias')];
+    if (promos) facts.push(promos + (promos === 1 ? ' promoção' : ' promoções'));
+    return '<header class="sp-vitrine">' + badgeTile(s) + '<div class="sp-vitrine-text"><p class="sp-vitrine-kicker"><span class="sp-speed" aria-hidden="true"><i></i><i></i><i></i></span>Cardápio oficial</p>' +
+      '<h2 id="storeMenuTitle">' + esc(s.name) + '</h2><p class="sp-vitrine-facts">' + facts.map(function (f) { return '<span>' + esc(f) + '</span>'; }).join(' ') + '</p></div></header>';
+  }
+
+  /* Destaques: só itens que a própria loja marcou como destaque na plataforma de origem; sem marcação, as promoções. */
+  function highlightsHtml(s) {
+    var featured = s.menu.filter(function (m) { return m.featured && m.image; });
+    var title = 'Destaques da casa';
+    if (featured.length < 2) { featured = s.menu.filter(function (m) { return m.originalPriceCents > m.priceCents && m.image; }); title = 'Promoções'; }
+    if (featured.length < 2) return '';
+    return '<section class="sp-highlights" aria-labelledby="spHlTitle"><h3 class="sp-hl-title" id="spHlTitle">' + icon(I.star) + esc(title) + '</h3><ul class="sp-hl-track" role="list">' +
+      featured.slice(0, 10).map(function (m) {
+        return '<li><button class="sp-hl" type="button" data-open="' + esc(m.id) + '" aria-haspopup="dialog"><span class="sp-hl-media"><img src="' + esc(thumbOf(m)) + '" alt="" width="320" height="320" loading="lazy" decoding="async"></span>' +
+          '<span class="sp-hl-name">' + esc(m.name) + '</span><span class="sp-hl-price">' + (m.originalPriceCents > m.priceCents ? '<s class="sp-was">' + C.formatBRL(m.originalPriceCents) + '</s> ' : '') + '<span class="sp-now">' + C.formatBRL(m.priceCents) + '</span></span></button></li>';
+      }).join('') + '</ul></section>';
+  }
+
   function menuHtml(s) {
     if (s.menuFile && !s.menu.length) return pendingMenuHtml(s);
     if (!s.menu.length) {
@@ -197,14 +229,15 @@
         (actions ? '<div class="sp-empty-actions">' + actions + '</div>' : '') + '</div></section>';
     }
     var secs = sectionsOf(s.menu), many = s.menu.length >= 12;
-    return '<section class="sp-menu" aria-labelledby="storeMenuTitle">' +
-      '<div class="sp-menu-head">' + eyebrow('Escolha seus itens') + '<h2 id="storeMenuTitle">Cardápio</h2>' + guideHtml(s) + '<p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
+    return '<section class="sp-menu" aria-labelledby="storeMenuTitle">' + vitrineHtml(s, secs) +
+      '<div class="sp-menu-head">' + guideHtml(s) + '<p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
       (secs.length > 1 || many ? '<div class="sp-sticky">' +
         (secs.length > 1 ? '<nav class="sp-cats" aria-label="Categorias do cardápio"><div class="sp-cats-track">' + secs.map(function (sec, i) {
           return '<a class="sp-cat" href="#sp-sec-' + i + '" data-sec="' + i + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + esc(sec.name) + '</a>';
         }).join('') + '<span class="sp-cats-ink" aria-hidden="true"></span></div></nav>' : '') +
         (many ? '<label class="sp-search">' + icon(I.search) + '<span class="sr-only">Buscar no cardápio</span><input type="search" id="spSearch" placeholder="Buscar no cardápio" autocomplete="off" enterkeyhint="search"></label>' : '') +
         '</div>' : '') +
+      highlightsHtml(s) +
       secs.map(function (sec, i) {
         return '<section class="sp-section" id="sp-sec-' + i + '" data-sec="' + i + '" aria-labelledby="sp-sec-t-' + i + '"><h3 class="sp-section-title" id="sp-sec-t-' + i + '">' + esc(sec.name) + ' <small>' + sec.items.length + '</small></h3><ul class="sp-items" role="list">' + sec.items.map(itemHtml).join('') + '</ul></section>';
       }).join('') +
@@ -218,6 +251,15 @@
 
   /* ---------------- Abertura e fechamento ---------------- */
   /* Estado do carregamento por loja: 'carregando' ou 'erro' (sem entrada = ainda não pedido ou já carregado). */
+  /* Marca da loja: paleta tirada do logotipo (scripts/menus/brand.py). Sem paleta, vale a identidade PedeAi. */
+  var BRAND_VARS = { primary: '--b', deep: '--b-deep', soft: '--b-soft', ink: '--b-ink', surface: '--b-surface' };
+  function applyBrand(s) {
+    Object.keys(BRAND_VARS).forEach(function (k) {
+      if (s.brand && s.brand[k]) page.style.setProperty(BRAND_VARS[k], s.brand[k]); else page.style.removeProperty(BRAND_VARS[k]);
+    });
+    page.classList.toggle('sp-branded', !!s.brand);
+  }
+
   function loadMenu(s) {
     state.loading[s.id] = 'carregando';
     fetch(s.menuFile).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (menu) {
@@ -246,7 +288,9 @@
     state.cart = loadCart(s);
     page.classList.toggle('sp-has-photo', !!s.image);
     /* Sem nenhuma foto de produto, cartões só de texto; com ao menos uma, todos reservam a área de imagem. */
-    page.classList.toggle('sp-noimg', !s.menu.some(function (m) { return m.image; }));
+    /* Modo com fotos quando ao menos 1/4 dos itens tem foto; abaixo disso, linhas compactas (foto só no detalhe). */
+    page.classList.toggle('sp-noimg', s.menu.filter(function (m) { return m.image; }).length < Math.max(1, s.menu.length / 4));
+    applyBrand(s);
     page.classList.toggle('sp-has-menu', C.menuSize(s) > 0);
     page.innerHTML = '<div class="sp-scroll" id="storeScroll">' + topHtml(s) +
       '<div class="sp-page">' + coverHtml(s) +
@@ -501,9 +545,9 @@
     }).join('');
     sheet.innerHTML = '<div class="sp-sheet-backdrop" data-sheet-close></div><div class="sp-sheet-panel" role="dialog" aria-modal="true" aria-labelledby="spSheetTitle">' +
       '<button class="sp-icon-btn sp-sheet-close" type="button" data-sheet-close aria-label="Fechar">' + icon(I.close) + '</button>' +
-      '<div class="sp-sheet-scroll">' + (item.image ? '<figure class="sp-sheet-media"><img src="' + esc(item.image.src) + '" alt="' + esc(item.image.alt || item.name) + '" width="960" height="600" decoding="async"></figure>' : '') +
+      '<div class="sp-sheet-scroll">' + (item.image && !item.image.small ? '<figure class="sp-sheet-media"><img src="' + esc(item.image.src) + '" alt="' + esc(item.image.alt || item.name) + '" width="960" height="600" decoding="async"></figure>' : '') +
       '<div class="sp-sheet-body"><p class="sp-sheet-section">' + esc(item.section) + '</p><h2 id="spSheetTitle">' + esc(item.name) + '</h2>' + (item.description ? '<p class="sp-sheet-desc">' + esc(item.description) + '</p>' : '') +
-      '<p class="sp-sheet-price">' + priceLabel(item) + '</p>' + groups +
+      '<p class="sp-sheet-price">' + priceLabel(item) + '</p>' + (item.featured || item.originalPriceCents > item.priceCents ? '<p class="sp-sheet-tags">' + itemTags({ featured: item.featured, originalPriceCents: item.originalPriceCents, priceCents: item.priceCents }) + '</p>' : '') + groups +
       '<label class="sp-note"><span>Alguma observação? <small>Opcional</small></span><textarea id="spNote" rows="2" maxlength="140" placeholder="Ex.: sem cebola, ponto da carne"></textarea></label></div></div>' +
       '<footer class="sp-sheet-foot"><div class="sp-stepper" role="group" aria-label="Quantidade"><button type="button" data-step="-1" aria-label="Diminuir quantidade">' + icon(I.minus) + '</button><output id="spQty" aria-live="polite">1</output><button type="button" data-step="1" aria-label="Aumentar quantidade">' + icon(I.plus) + '</button></div>' +
       '<button class="sp-confirm" type="button" id="spConfirm"></button></footer></div>';

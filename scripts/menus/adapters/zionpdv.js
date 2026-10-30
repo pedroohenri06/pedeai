@@ -37,7 +37,7 @@ module.exports = function parse({ html, meta }) {
       const priced = L.sizesToItem(sizes);
       if (!priced) { L.count(skipped, p.isBuildYourOwn ? 'monte o seu (preço depende das opções)' : 'sem preço'); return null; }
       if (p.hasOptionGroups) notes.push('"' + L.displayName(p.name) + '": a fonte tem opções que só carregam ao abrir o produto; não importadas.');
-      return { sourceId: p.id, name: L.displayName(p.name), description: L.displayText(p.description), priceCents: priced.priceCents, originalPriceCents: priced.originalPriceCents, imageUrl: p.imageUrl || null, options: priced.options };
+      return { sourceId: p.id, name: L.displayName(p.name), description: L.displayText(p.description), priceCents: priced.priceCents, originalPriceCents: priced.originalPriceCents, imageUrl: p.imageUrl || null, featured: !!p.isFeatured, options: priced.options };
     })
   }));
   return L.snapshot(meta, sections, { skipped, notes: Array.from(new Set(notes)) });

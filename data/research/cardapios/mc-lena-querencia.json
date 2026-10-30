@@ -3,7 +3,7 @@
   "platform": "aiqfome",
   "source": "https://aiqfome.com/MT/querencia/mc-lena",
   "capturedAt": "2026-10-30T22:02:18.011Z",
-  "hours": "Seg 07:00–23:59 · Ter 07:00–23:59 · Qua 07:00–23:59 · Qui 07:00–23:59 · Sex 07:00–23:59 · Sáb 07:00–22:30 · Dom 18:00–23:59",
+  "hours": "Seg a Sex 7h–23h59 · Sáb 7h–22h30 · Dom 18h–23h59",
   "sections": [
     {
       "name": "Dogão 30 cm",
@@ -15,6 +15,7 @@
           "priceCents": 3490,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -24,6 +25,7 @@
           "priceCents": 3890,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/3d30e438f850e8bae92b3.jpeg",
+          "featured": false,
           "options": []
         },
         {
@@ -33,6 +35,7 @@
           "priceCents": 2990,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/0c30dae82590644e67c9a.jpeg",
+          "featured": false,
           "options": []
         },
         {
@@ -42,6 +45,7 @@
           "priceCents": 3490,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -51,6 +55,7 @@
           "priceCents": 3490,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -60,6 +65,7 @@
           "priceCents": 2990,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -69,6 +75,7 @@
           "priceCents": 3990,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -78,6 +85,7 @@
           "priceCents": 4990,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]
@@ -92,6 +100,7 @@
           "priceCents": 3499,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -153,6 +162,7 @@
           "priceCents": 3499,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/448960ad4ad35b32f20b1.jpeg",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -214,6 +224,7 @@
           "priceCents": 3899,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/c8074c67e03770689b1a5.jpg",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -275,6 +286,7 @@
           "priceCents": 4499,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/6f9139cd77baecfb27e1d.jpeg",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -336,6 +348,7 @@
           "priceCents": 4499,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -397,6 +410,7 @@
           "priceCents": 4499,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/fef1d99606c4a03d6e.jpeg",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -458,6 +472,7 @@
           "priceCents": 2200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -519,6 +534,7 @@
           "priceCents": 2699,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/bf3f99e3e9f8a6c4fd121835688ac487ce09d278.png",
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -580,6 +596,7 @@
           "priceCents": 2490,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -641,6 +658,7 @@
           "priceCents": 2699,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/3be499d6a0/1697c30d8a5bcfe6039b30ee4daf68d3dbf889cb.png",
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -702,6 +720,7 @@
           "priceCents": 2699,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -763,6 +782,7 @@
           "priceCents": 3699,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -824,6 +844,7 @@
           "priceCents": 2999,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -890,6 +911,7 @@
           "priceCents": 3499,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -899,6 +921,7 @@
           "priceCents": 4499,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -908,6 +931,7 @@
           "priceCents": 5499,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -917,6 +941,7 @@
           "priceCents": 8990,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -926,6 +951,7 @@
           "priceCents": 14999,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -935,6 +961,7 @@
           "priceCents": 11990,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]
@@ -949,6 +976,7 @@
           "priceCents": 1200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -958,6 +986,7 @@
           "priceCents": 1200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -967,6 +996,7 @@
           "priceCents": 1200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -976,6 +1006,7 @@
           "priceCents": 1200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -985,6 +1016,7 @@
           "priceCents": 1200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]
@@ -999,6 +1031,7 @@
           "priceCents": 1500,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Tamanho",
@@ -1028,6 +1061,7 @@
           "priceCents": 2490,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]
@@ -1042,6 +1076,7 @@
           "priceCents": 1490,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]
@@ -1056,6 +1091,7 @@
           "priceCents": 500,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Tamanho",
@@ -1085,6 +1121,7 @@
           "priceCents": 500,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Tamanho",
@@ -1114,6 +1151,7 @@
           "priceCents": 650,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -1123,6 +1161,7 @@
           "priceCents": 650,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -1132,6 +1171,7 @@
           "priceCents": 650,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -1141,6 +1181,7 @@
           "priceCents": 650,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -1150,6 +1191,7 @@
           "priceCents": 650,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]

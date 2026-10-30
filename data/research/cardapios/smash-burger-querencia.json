@@ -3,7 +3,7 @@
   "platform": "aiqfome",
   "source": "https://aiqfome.com/MT/querencia/smash-burger",
   "capturedAt": "2026-10-30T22:02:30.185Z",
-  "hours": "Sex 17:00–22:00",
+  "hours": "Sex 17h–22h",
   "sections": [
     {
       "name": "Burger artesanal",
@@ -15,6 +15,7 @@
           "priceCents": 4500,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -64,6 +65,7 @@
           "priceCents": 3500,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -113,6 +115,7 @@
           "priceCents": 3800,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/62abc1b8af17dc7699406.png",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -162,6 +165,7 @@
           "priceCents": 4200,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/ea40a4a01720dc60f0877.png",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -211,6 +215,7 @@
           "priceCents": 3700,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/a3a775e557a2352ca6f8a.png",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -260,6 +265,7 @@
           "priceCents": 3200,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/9d6613ac72b174325e121.png",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -309,6 +315,7 @@
           "priceCents": 3600,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -358,6 +365,7 @@
           "priceCents": 2900,
           "originalPriceCents": null,
           "imageUrl": "https://files.aiqfome.com/itens/74c055e6b4/9c3a89293ce270a1ac.png",
+          "featured": true,
           "options": [
             {
               "name": "Adicionais",
@@ -407,6 +415,7 @@
           "priceCents": 2400,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -461,6 +470,7 @@
           "priceCents": 2600,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -526,6 +536,7 @@
           "priceCents": 3200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": [
             {
               "name": "Adicionais",
@@ -596,6 +607,7 @@
           "priceCents": 600,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -605,6 +617,7 @@
           "priceCents": 600,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -614,6 +627,7 @@
           "priceCents": 1500,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -623,6 +637,7 @@
           "priceCents": 1500,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -632,6 +647,7 @@
           "priceCents": 1200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -641,6 +657,7 @@
           "priceCents": 1200,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -650,6 +667,7 @@
           "priceCents": 600,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]
@@ -664,6 +682,7 @@
           "priceCents": 4000,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -673,6 +692,7 @@
           "priceCents": 4000,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -682,6 +702,7 @@
           "priceCents": 4000,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         },
         {
@@ -691,6 +712,7 @@
           "priceCents": 4000,
           "originalPriceCents": null,
           "imageUrl": null,
+          "featured": false,
           "options": []
         }
       ]

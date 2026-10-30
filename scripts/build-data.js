@@ -15,6 +15,7 @@ const outJs = path.join(root, 'data', 'establishments.js');
 const outMd = path.join(root, 'data', 'STATUS.md');
 const indexHtml = path.join(root, 'index.html');
 const menusDir = path.join(root, 'data', 'menus');
+const previewHtml = path.join(root, 'cardapios.html');
 
 /* Versão pelo conteúdo (?v=hash): quando um arquivo muda, o endereço muda e o navegador baixa o novo
    em vez de mostrar o que guardou em cache (logo trocada com o mesmo nome de arquivo, por exemplo). */
@@ -30,7 +31,7 @@ function versionAssets(value) {
   return value;
 }
 
-/* index.html carrega css/js/dados com ?v= do conteúdo atual (o de data/establishments.js vem de `js`, ainda não gravado). */
+/* index.html e cardapios.html (prévia interna dos cardápios) carregam css/js/dados com ?v= do conteúdo atual (o de data/establishments.js vem de `js`, ainda não gravado). */
 function renderIndex(html, js) {
   return html.replace(/(<(?:script|link)[^>]*(?:src|href)=")((?:js|css|data)\/[\w.-]+\.(?:js|css))(?:\?v=[0-9a-f]+)?(")/g, (m, a, rel, b) =>
     a + rel + '?v=' + (rel === 'data/establishments.js' ? hashOf(js) : hashOf(fs.readFileSync(path.join(root, rel)))) + b);
@@ -103,10 +104,11 @@ function main() {
     process.exit(1);
   }
   const menus = renderMenus(db), js = renderJs(db, menus), md = renderStatus(db), html = renderIndex(fs.readFileSync(indexHtml, 'utf8'), js);
+  const preview = renderIndex(fs.readFileSync(previewHtml, 'utf8'), js);
   const menuPairs = Object.entries(menus).map(([f, c]) => [path.join(menusDir, f), c]);
   const orphans = fs.existsSync(menusDir) ? fs.readdirSync(menusDir).filter(f => !menus[f]).map(f => path.join(menusDir, f)) : [];
   if (check) {
-    const stale = [[outJs, js], [outMd, md], [indexHtml, html]].concat(menuPairs).filter(([f, c]) => !fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c)
+    const stale = [[outJs, js], [outMd, md], [indexHtml, html], [previewHtml, preview]].concat(menuPairs).filter(([f, c]) => !fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c)
       .concat(orphans.map(f => [f]));
     if (stale.length) {
       console.error('Arquivos gerados desatualizados. Rode: node scripts/build-data.js\n' + stale.map(s => ' - ' + path.relative(root, s[0])).join('\n'));
@@ -116,6 +118,7 @@ function main() {
     fs.writeFileSync(outJs, js);
     fs.writeFileSync(outMd, md);
     fs.writeFileSync(indexHtml, html);
+    fs.writeFileSync(previewHtml, preview);
     fs.mkdirSync(menusDir, { recursive: true });
     menuPairs.forEach(([f, c]) => { if (!fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c) fs.writeFileSync(f, c); });
     orphans.forEach(f => fs.unlinkSync(f));

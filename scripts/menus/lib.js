@@ -106,8 +106,24 @@ function snapshot(meta, sections, extra) {
 }
 
 /* Horário publicado: descarta o padrão de plataforma "00:00 às 23:59" (não é o horário real da loja). */
-function realHours(text) { return text && !/00:0\d\s*[–-]\s*23:59/.test(text) ? text : null; }
+function realHours(text) { return text && !/00:0\d\s*[–-]\s*23:59/.test(text) ? compactHours(text) : null; }
+
+/* "Seg 18:00–22:00 · Ter 18:00–22:00 · …" vira "Seg a Sex 18h–22h · Sáb 18h–23h" (ou "Todos os dias …"). */
+const WEEK = ['Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb', 'Dom'];
+function compactHours(text) {
+  const days = text.split(' · ').map(seg => { const m = /^(\S+)\s+(.*)$/.exec(seg); return m && WEEK.includes(m[1]) ? { d: m[1], r: m[2] } : null; });
+  if (days.some(x => !x)) return text;
+  days.sort((a, b) => WEEK.indexOf(a.d) - WEEK.indexOf(b.d));
+  const nice = r => r.split(/\s*[|,]\s*/).map(x => x.replace(/(\d{2}):(\d{2})/g, (m, h, mi) => (h.replace(/^0(?=\d)/, '')) + 'h' + (mi === '00' ? '' : mi))).join(' e ');
+  const groups = [];
+  days.forEach(x => {
+    const g = groups[groups.length - 1];
+    if (g && g.r === x.r && WEEK.indexOf(x.d) === WEEK.indexOf(g.to) + 1) g.to = x.d; else groups.push({ from: x.d, to: x.d, r: x.r });
+  });
+  if (groups.length === 1 && days.length === 7) return 'Todos os dias, ' + nice(groups[0].r);
+  return groups.map(g => (g.from === g.to ? g.from : WEEK.indexOf(g.to) - WEEK.indexOf(g.from) === 1 ? g.from + ' e ' + g.to : g.from + ' a ' + g.to) + ' ' + nice(g.r)).join(' · ');
+}
 
 function count(obj, key) { obj[key] = (obj[key] || 0) + 1; }
 
-module.exports = { cleanText, displayName, displayText, cents, idFactory, optionGroup, sizesToItem, snapshot, count, realHours, priceFromRequiredGroup };
+module.exports = { cleanText, displayName, displayText, cents, idFactory, optionGroup, sizesToItem, snapshot, count, realHours, compactHours, priceFromRequiredGroup };

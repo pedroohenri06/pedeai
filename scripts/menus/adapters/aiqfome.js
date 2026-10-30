@@ -69,7 +69,7 @@ module.exports = function parse({ html, meta }) {
       return {
         sourceId: String(it.id), name: L.displayName(it.nome), description: L.displayText(it.descricao),
         priceCents: priced.priceCents, originalPriceCents: priced.originalPriceCents,
-        imageUrl: it.imagem && !it.imagem_oculta ? imgBase + it.imagem : null, options
+        imageUrl: it.imagem && !it.imagem_oculta ? imgBase + it.imagem : null, featured: it.destaque === 1, options
       };
     });
     return { name: cat.nome, items };

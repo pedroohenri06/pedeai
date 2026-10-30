@@ -8,7 +8,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **310**.
 |---|---:|---:|---:|---:|---:|
 | Vila Rica | 38 | 22 | 7 | 4 | 0 |
 | São Félix do Araguaia | 21 | 39 | 1 | 0 | 0 |
-| Querência | 53 | 7 | 14 | 15 | 3 |
+| Querência | 53 | 7 | 14 | 16 | 3 |
 | Ribeirão Cascalheira | 23 | 37 | 2 | 0 | 0 |
 | Canarana | 47 | 13 | 13 | 2 | 0 |
 | Água Boa | 43 | 17 | 12 | 3 | 0 |
@@ -16,7 +16,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **310**.
 | Campinápolis | 9 | 51 | 1 | 1 | 0 |
 | Nova Xavantina | 34 | 26 | 16 | 0 | 0 |
 | Barra do Garças | 30 | 30 | 7 | 5 | 1 |
-| **Total** | **310** | **290** | **74** | **30** | **4** |
+| **Total** | **310** | **290** | **74** | **31** | **4** |
 
 ## Pendências por estabelecimento
 
@@ -131,7 +131,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **310**.
 - **Rancho dos Sabores** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @rancho_dos__sabores (24 posts, 455 seguidores, último post 2026-10-17). Bio: "RANCHO DOS SABORES QUERÊNCIA. Restaurante 🍲 E Hamburgueria 🍔 peça aqui 👇🏼". Foto de perfil é um avatar de pessoa: logoTipo foto. WhatsApp via api.whatsapp.com/send?phone=5566992379957.
 - **Real Gelados** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @real_geladosquerencia (8 posts, 85 seguidores, último post 2026-10-14). Bio: "Real Gelados -Perfil Oficial, perdemos o outro. Mais de 30 sabores diferentes! A partir de R$2,00 📍Querência-MT. wa.me/5566992230663". Perfil novo porque perderam o antigo.
 - **Rei do Hambúrguer** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @rei_do_hamburguer_qrc (3 posts, 296 seguidores, último post 2026-10-14). Bio: "rei do hambúrguer 🍔. 👑🍔 🔥 Hambúrguer artesanal 📍 Seu novo point favorito 📲 Peça o seu e venha ser da realeza! delivery 🛵 66996737176 18as23". Perfil novo (3 posts). Cidade pelo sufixo do @ (_qrc) e pelo seguindo do Delivery Express Querência. Número sem link de WhatsApp: phone.
-- **Restaurante Toque Caseiro** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @toquecaseiroquerencia (31 posts, 3097 seguidores, último post 2026-10-28). Bio: "Restaurante Toque Caseiro. ❤️ Comida com sabor de domingo na casa da vó. 🕑 Segunda a Sábado. 🛵 Fazer pedido 👇 quadra 12, lote 10 - Setor B, Querência 78643000". Número (66) 99255-3364 aparece num post fixado de marmitas com ícone de WhatsApp, não na bio: deixei em phone.
+- **Restaurante Toque Caseiro** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @toquecaseiroquerencia (31 posts, 3097 seguidores, último post 2026-10-28). Bio: "Restaurante Toque Caseiro. ❤️ Comida com sabor de domingo na casa da vó. 🕑 Segunda a Sábado. 🛵 Fazer pedido 👇 quadra 12, lote 10 - Setor B, Querência 78643000". Número (66) 99255-3364 aparece num post fixado de marmitas com ícone de WhatsApp, não na bio: deixei em phone.
 - **Sabor de Verão** — WhatsApp não verificado; cardápio pendente; Telefone (66) 99679-2100 aparece na página de pedidos própria (foodsapp), mas o trecho não o associa explicitamente a WhatsApp, por isso whatsapp=null. Endereço diverge: foodsapp = Av. Central, 1490; Trip.com = Av. Central Qd 07 Lote 10. Cardápio não extraído. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca.
 - **Sabor na Caixa** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @delivery_sabor_na_caixa (5 posts, 109 seguidores, último post 2026-09-21). Bio: "sabor na caixa 🍕. HORÁRIO DE FUNCIONAMENTO DE QUARTA-FEIRA A SEGUNDA-FEIRA DAS 19:30H ÀS 22:30H. Querência MT". Perfil pequeno.
 - **Sabor Top 25** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Somente listagem no aiqfome (trecho de busca). Sem endereço/telefone. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca.

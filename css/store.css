@@ -462,3 +462,88 @@ body.store-open .bottom-nav{display:none}
 .sp-tile{font-family:var(--sp-display);font-weight:800;letter-spacing:.02em}
 .sp-facts .icon{color:var(--red)}
 @media(min-width:760px){.sp-brand-tag{font-size:9.5px}.sp-eyebrow{font-size:10.5px}}
+
+/* ===================== Marca da loja (cardápio) =====================
+   Paleta do logotipo (data: brand) em variáveis --b*, aplicadas por js/store.js. Sem paleta, valem os tons PedeAi.
+   A marca da loja pinta capa, vitrine, categorias, selos e o "+"; sacola, finalização e cabeçalho seguem PedeAi. */
+.store-page{--b:#e51b2b;--b-deep:#b3121f;--b-soft:#fdecee;--b-ink:#fff;--b-surface:#fff}
+.sp-add,.sp-noimg .sp-add{color:#fff}
+.sp-branded .sp-cover--brand{background:radial-gradient(130% 120% at 0% 0%,color-mix(in srgb,var(--b) 82%,#fff) 0%,var(--b) 32%,var(--b-deep) 66%,color-mix(in srgb,var(--b-deep) 55%,#000) 100%)}
+.sp-branded .sp-cover--photo::before{background:linear-gradient(180deg,rgba(0,0,0,.04) 0%,rgba(0,0,0,.1) 34%,color-mix(in srgb,var(--b-deep) 55%,rgba(10,4,6,.92)) 100%)}
+.sp-branded .sp-cover--photo::after{box-shadow:inset 0 -90px 120px -60px color-mix(in srgb,var(--b) 45%,transparent),inset 0 0 0 1px rgba(255,255,255,.06)}
+.sp-branded .sp-tile{background:linear-gradient(160deg,var(--b) 0%,var(--b-deep) 100%)}
+.sp-tile--logo,.sp-branded .sp-tile--logo{background:var(--b-surface)}
+
+/* Vitrine: abertura do cardápio com a identidade da loja. */
+.sp-vitrine{position:relative;isolation:isolate;overflow:hidden;display:flex;align-items:center;gap:16px;margin:4px 0 18px;padding:20px 18px;border-radius:26px;color:#fff;
+  background:radial-gradient(90% 140% at 100% 0%,color-mix(in srgb,var(--b) 70%,transparent) 0%,transparent 60%),linear-gradient(125deg,var(--b-deep) 0%,color-mix(in srgb,var(--b-deep) 72%,#000) 100%);
+  box-shadow:0 1px 2px rgba(0,0,0,.08),0 22px 44px -22px color-mix(in srgb,var(--b-deep) 80%,transparent),inset 0 1px 0 rgba(255,255,255,.14)}
+.sp-vitrine::after{content:"";position:absolute;right:-60px;bottom:-80px;z-index:-1;width:220px;height:220px;border-radius:50%;border:34px solid rgba(255,255,255,.06)}
+.sp-vitrine .sp-tile{width:72px;height:72px;border-radius:20px;box-shadow:0 0 0 3px rgba(255,255,255,.92),0 14px 28px -12px rgba(0,0,0,.6)}
+.sp-vitrine-text{min-width:0}
+.sp-vitrine-kicker{display:flex;align-items:center;gap:8px;font-size:10px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;opacity:.82}
+.sp-vitrine h2{margin:4px 0 6px;font-family:var(--sp-display);font-size:23px;font-weight:800;line-height:1.08;letter-spacing:-.035em;overflow-wrap:anywhere;color:#fff}
+.sp-vitrine-facts{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:12.5px;font-weight:600;opacity:.9}
+.sp-vitrine-facts i{width:4px;height:4px;border-radius:50%;background:currentColor;opacity:.6}
+
+/* Categorias, contadores, selos e ações na cor da loja. */
+.sp-branded .sp-cat[aria-current]{background:var(--b-deep);border-color:transparent;color:#fff;box-shadow:0 8px 18px -8px color-mix(in srgb,var(--b-deep) 80%,transparent),inset 0 1px 0 rgba(255,255,255,.2)}
+.sp-branded .sp-section-title small{background:var(--b-soft);color:var(--b-deep);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--b-deep) 14%,transparent)}
+.sp-branded .sp-eyebrow{color:var(--b-deep)}
+.sp-item-tag{background:var(--b-soft);color:var(--b-deep)}
+.sp-item-tag .icon{width:12px;height:12px;margin-right:4px;fill:currentColor;stroke:none}
+.sp-item-tag--promo{background:var(--b-deep);color:#fff}
+.sp-was{font-size:12px;font-weight:600;color:var(--muted);text-decoration-thickness:1.5px}
+.sp-now{color:var(--b-deep)}
+.sp-branded .sp-add,.sp-branded .sp-noimg .sp-add{background:linear-gradient(160deg,var(--b) 0%,var(--b-deep) 70%);box-shadow:0 0 0 3px var(--paper),0 10px 18px -8px color-mix(in srgb,var(--b-deep) 85%,transparent),inset 0 1px 0 rgba(255,255,255,.3)}
+.sp-branded .sp-noimg .sp-add{box-shadow:0 10px 18px -8px color-mix(in srgb,var(--b-deep) 85%,transparent),inset 0 1px 0 rgba(255,255,255,.3)}
+.sp-branded .sp-add.is-added{background:linear-gradient(160deg,#2fb565,#1f8a4b)}
+.sp-branded .sp-badge{background:var(--b-deep)}
+.sp-branded .sp-item.in-cart{border-color:color-mix(in srgb,var(--b-deep) 45%,transparent);box-shadow:0 0 0 3px color-mix(in srgb,var(--b-deep) 10%,transparent),0 8px 20px -14px color-mix(in srgb,var(--b-deep) 60%,transparent)}
+.sp-branded .sp-choice input:checked~.sp-choice-mark{border-color:var(--b-deep)}
+.sp-branded .sp-choice input[type=checkbox]:checked~.sp-choice-mark{background-color:var(--b-deep)}
+.sp-branded .sp-confirm:not([aria-disabled=true]){background:linear-gradient(135deg,var(--b) 0%,var(--b-deep) 60%,color-mix(in srgb,var(--b-deep) 70%,#000) 100%);box-shadow:0 12px 28px -10px color-mix(in srgb,var(--b-deep) 80%,transparent)}
+.sp-sheet-tags{display:flex;gap:6px;margin:-4px 0 14px}
+
+/* Destaques: carrossel com os itens marcados pela loja (ou as promoções). */
+.sp-highlights{margin:6px 0 26px}
+.sp-hl-title{display:flex;align-items:center;gap:8px;margin-bottom:12px;font-family:var(--sp-display);font-size:18px;font-weight:800;letter-spacing:-.03em}
+.sp-hl-title .icon{width:18px;height:18px;fill:var(--b-deep);stroke:none}
+.sp-hl-track{list-style:none;display:grid;grid-auto-flow:column;grid-auto-columns:150px;gap:12px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:0 -16px;padding:4px 16px 14px;overscroll-behavior-x:contain}
+.sp-hl-track::-webkit-scrollbar{display:none}
+.sp-hl-track li{scroll-snap-align:start}
+.sp-hl{display:flex;flex-direction:column;gap:7px;width:100%;padding:0;border:0;background:none;text-align:left;color:inherit;cursor:pointer}
+.sp-hl-media{position:relative;display:block;aspect-ratio:1;border-radius:20px;overflow:hidden;background:#efe5e0;box-shadow:0 1px 2px rgba(51,8,14,.06),0 16px 30px -16px rgba(51,8,14,.45)}
+.sp-hl-media::after{content:"";position:absolute;inset:0;border-radius:inherit;box-shadow:inset 0 0 0 1px rgba(255,255,255,.12),inset 0 -40px 40px -30px rgba(0,0,0,.18)}
+.sp-hl-media img{width:100%;height:100%;object-fit:cover;transition:transform .5s cubic-bezier(.2,.8,.2,1)}
+.sp-hl-name{font-family:var(--sp-display);font-size:13.5px;font-weight:700;line-height:1.25;letter-spacing:-.01em;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sp-hl-price{font-size:13.5px;font-weight:800;font-variant-numeric:tabular-nums}
+.sp-hl-price .sp-was{font-size:11px}
+.sp-hl:focus-visible .sp-hl-media{outline:3px solid var(--b-deep);outline-offset:3px}
+
+/* Cardápio sob demanda: esqueleto enquanto data/menus/<id>.json chega. */
+.sp-skel{display:grid;gap:12px;margin-top:14px}
+.sp-skel-cats{display:flex;gap:8px}
+.sp-skel-cats i,.sp-skel-item i,.sp-skel-item b{display:block;border-radius:99px;background:linear-gradient(90deg,#efe6e1 0%,#f8f2ee 50%,#efe6e1 100%);background-size:200% 100%;animation:sp-shimmer 1.2s linear infinite}
+.sp-skel-cats i{width:110px;height:40px}
+.sp-skel-item{position:relative;display:grid;gap:8px;padding:16px 140px 16px 16px;min-height:120px;border-radius:20px;background:var(--paper);border:1px solid var(--sp-ring,rgba(51,8,14,.08))}
+.sp-skel-item i{height:13px}.sp-skel-item i:nth-child(1){width:60%;height:16px}.sp-skel-item i:nth-child(2){width:90%}.sp-skel-item i:nth-child(3){width:30%;margin-top:10px}
+.sp-skel-item b{position:absolute;right:14px;top:14px;width:112px;height:92px;border-radius:16px}
+@keyframes sp-shimmer{to{background-position:-200% 0}}
+
+@media(min-width:760px){
+  .sp-vitrine{padding:26px 28px;gap:22px;margin-bottom:22px}
+  .sp-vitrine .sp-tile{width:92px;height:92px;border-radius:24px}
+  .sp-vitrine h2{font-size:30px}
+  .sp-hl-track{grid-auto-columns:176px;margin:0;padding:4px 2px 14px}
+}
+@media(hover:hover){.sp-hl:hover .sp-hl-media img{transform:scale(1.05)}.sp-branded .sp-add:hover{filter:brightness(1.08)}}
+@media(prefers-reduced-motion:reduce){.sp-skel-cats i,.sp-skel-item i,.sp-skel-item b{animation:none}.sp-hl-media img{transition:none}}
+/* O carrossel não pode alargar a coluna do cardápio (grid com colunas de largura fixa). */
+.sp-main,.sp-menu,.sp-highlights{min-width:0;max-width:100%}
+.sp-hl-track{max-width:calc(100% + 32px)}
+@media(min-width:760px){.sp-hl-track{max-width:100%}}
+/* Telas de 360 px: o slogan do cabeçalho não pode empurrar o botão de compartilhar para fora da tela. */
+@media(max-width:380px){.sp-top-inner{grid-template-columns:minmax(40px,1fr) auto minmax(40px,1fr);gap:6px}.sp-brand-tag{letter-spacing:.1em}}
+.sp-vitrine-facts span+span::before{content:"";display:inline-block;width:4px;height:4px;margin:0 9px 2px 0;border-radius:50%;background:currentColor;opacity:.6;vertical-align:middle}
+.sp-vitrine-facts{gap:4px 9px}

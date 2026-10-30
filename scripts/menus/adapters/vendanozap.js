@@ -17,6 +17,7 @@ module.exports = function parse({ responses, meta }) {
   const b = hit.body, skipped = {}, notes = [];
   const cats = (b.categories || []).slice().sort((a, c) => a.sortOrder - c.sortOrder).map(c => ({ id: c.id, name: c.name, items: [] }));
   const byId = new Map(cats.map(c => [c.id, c]));
+  const best = new Set((b.bestSellers || []).map(x => (x && (x.productId || x.id)) || x));
   (b.products || []).slice().sort((a, c) => a.sortOrder - c.sortOrder).forEach(p => {
     if (p.status !== 'ativo') { L.count(skipped, 'indisponível'); return; }
     const full = L.cents(p.price);
@@ -30,7 +31,7 @@ module.exports = function parse({ responses, meta }) {
     }).filter(Boolean);
     const cat = byId.get(p.categoryId);
     if (!cat) { L.count(skipped, 'sem categoria'); return; }
-    cat.items.push({ sourceId: p.id, name: L.displayName(p.name), description: L.displayText(p.description), priceCents: now, originalPriceCents: now < full ? full : null, imageUrl: p.imageUrl || null, options });
+    cat.items.push({ sourceId: p.id, name: L.displayName(p.name), description: L.displayText(p.description), priceCents: now, originalPriceCents: now < full ? full : null, imageUrl: p.imageUrl || null, featured: best.has(p.id), options });
   });
   return L.snapshot(meta, cats, { hours: hoursOf(b.store && b.store.businessHours), skipped, notes: Array.from(new Set(notes)) });
 };

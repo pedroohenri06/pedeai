@@ -12,6 +12,19 @@ try { playwright = require('playwright'); } catch (e) {
 }
 
 const FIXTURE = require('./fixtures/stores.json');
+/* Loja com cardápio sob demanda (data/menus/<id>.json) e paleta de marca, como as importadas por scripts/menus. */
+const LAZY_MENU = [
+  { id: 'combo-casa', section: 'Combos', name: 'Combo da casa', description: 'Burger, batata e refrigerante', priceCents: 3990, originalPriceCents: 4590, featured: true, image: { src: 'assets/location-burger.webp', thumb: 'assets/location-burger.webp', alt: 'Combo', credit: 'Teste', license: 'Teste' } },
+  { id: 'burger-duplo', section: 'Combos', name: 'Burger duplo', description: '', priceCents: 2990, featured: true, image: { src: 'assets/location-pizza.webp', thumb: 'assets/location-pizza.webp', alt: 'Burger', credit: 'Teste', license: 'Teste' } },
+  { id: 'agua', section: 'Bebidas', name: 'Água', description: '', priceCents: 400 }
+];
+FIXTURE.establishments.push({
+  id: 'burger-marca-querencia', name: 'Burger Marca', city: 'Querência', category: 'Hambúrguer', kind: 'Hamburgueria', address: null, neighborhood: null,
+  whatsapp: null, whatsappSource: null, phone: null, instagram: null, website: null, orderUrl: null, hours: null, deliveryFeeCents: null,
+  image: null, menuSource: 'https://exemplo.com/cardapio', menu: [], menuCount: 3, menuSearch: 'Combo da casa · Burger duplo · Água',
+  menuFile: 'data/menus/burger-marca-querencia.json?v=teste', sources: ['https://exemplo.com/cardapio'], confidence: 'alta', verifiedAt: '2026-10-30',
+  brand: { primary: '#e98230', deep: '#aa5f23', soft: '#fdf0e6', ink: '#1b1214', surface: '#ffffff' }
+});
 
 test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' }, async t => {
   const server = createServer().listen(0);
@@ -21,6 +34,7 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
   await context.route(/\/data\/establishments\.js(\?|$)/, route => route.fulfill({ contentType: 'text/javascript', body: 'window.PEDEAI_DATA=' + JSON.stringify(FIXTURE) + ';' }));
   await context.route(/^https:\/\/fonts\./, route => route.abort());
+  await context.route(/\/data\/menus\/burger-marca-querencia\.json/, route => route.fulfill({ contentType: 'application/json', body: JSON.stringify(LAZY_MENU) }));
   const page = await context.newPage();
   const errors = [];
   page.on('pageerror', e => errors.push(e.message));
@@ -190,6 +204,23 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.match(await page.textContent('.menu-pending'), /Cardápio em preparação/);
       assert.match(await page.getAttribute('.sp-empty-actions a', 'href'), /^https:\/\/wa\.me\/5566999991111/);
       assert.equal(await page.locator('#cartBar').count(), 0);
+    });
+
+    await t.test('cardápio sob demanda carrega com a marca da loja, promoção e destaques', async () => {
+      await page.goto(base + '#/loja/burger-marca-querencia');
+      await page.waitForSelector('.sp-item');
+      assert.equal(await page.locator('.sp-li').count(), 3);
+      assert.equal(await page.textContent('#storeMenuTitle'), 'Burger Marca');
+      assert.match(await page.textContent('.sp-vitrine-facts'), /3 itens.*2 categorias.*1 promoção/);
+      assert.equal(await page.locator('.sp-hl').count(), 2);
+      assert.match(await page.textContent('[data-item="combo-casa"] .sp-item-price'), /R\$ 45,90.*R\$ 39,90/);
+      assert.equal(await page.locator('#storePage.sp-branded').count(), 1);
+      assert.equal(await page.evaluate(() => getComputedStyle(document.querySelector('.sp-add')).backgroundImage.includes('170, 95, 35')), true);
+      await page.click('[data-add="combo-casa"]');
+      assert.match(await page.textContent('#cartBar'), /1.*R\$ 39,90/);
+      await page.click('.sp-hl >> nth=1');
+      assert.equal(await page.textContent('#spSheetTitle'), 'Burger duplo');
+      await page.click('.sp-sheet-close');
     });
 
     await t.test('loja inexistente volta para a lista', async () => {

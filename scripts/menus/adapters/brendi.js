@@ -17,7 +17,7 @@ function hoursOf(wh) {
 function product(p, notes) {
   if (p.active === false || p.missing) return null;
   const full = Number(p.price) || 0, now = Number(p.currentPrice) || full;
-  const customs = (p.customs || []).filter(c => c.active !== false && (c.choices || []).some(ch => ch.active !== false && !ch.missing));
+  const customs = (p.customs || []).filter(c => c.active !== false && !c.missing && (c.choices || []).some(ch => ch.active !== false && !ch.missing));
   const groups = customs.map(c => {
     const single = c.type === 'unique';
     const min = c.minChoices != null ? c.minChoices : single ? 1 : 0;
@@ -27,7 +27,7 @@ function product(p, notes) {
   return L.priceFromRequiredGroup({
     sourceId: p.id, name: L.displayName(p.name), description: L.displayText(p.description),
     priceCents: now > 0 ? now : 0, originalPriceCents: full > now && now > 0 ? full : null,
-    imageUrl: p.picture ? IMG(p.picture) : null,
+    imageUrl: p.picture ? IMG(p.picture) : null, featured: p.label === 'recommended',
     options: groups.map(g => L.optionGroup(g.name, g.min, g.max, g.choices)).filter(Boolean)
   }, notes);
 }

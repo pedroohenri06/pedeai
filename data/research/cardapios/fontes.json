@@ -1,0 +1,364 @@
+{
+  "_sobre": "Fontes de cardápio por estabelecimento (scripts/menus). platform escolhe o leitor em scripts/menus/adapters; registros com \"motivo\" não são coletados automaticamente.",
+  "fontes": {
+    "acai-super-top-vila-rica": {
+      "url": "https://wa.me/message/SRL5TY4TX6PEP1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "alberita-s-hamburguer-e-massas-vila-rica": {
+      "url": "https://maisdeliveryapp.com.br/web/loja.php?id=MTM4MTA=",
+      "platform": "maisdelivery"
+    },
+    "bia-lanches-vila-rica": {
+      "url": "https://maisdeliveryapp.com.br/web/loja.php?id=NDMyMjk=",
+      "platform": "maisdelivery"
+    },
+    "brownieria-vila-rica": {
+      "url": "https://contate.me/sbrownie",
+      "platform": "whatsapp",
+      "motivo": "link de bio que leva ao WhatsApp: não é cardápio público"
+    },
+    "churra-s-grego-vila-rica": {
+      "url": "https://maisdeliveryapp.com.br/web/loja.php?id=NTU5NTM=",
+      "platform": "maisdelivery"
+    },
+    "creme-mania-vila-rica-vila-rica": {
+      "url": "https://maisdeliveryapp.com.br/web/loja.php?id=ODcxNg==",
+      "platform": "maisdelivery"
+    },
+    "fort-sabor-vila-rica-vila-rica": {
+      "url": "https://wa.me/message/E2O5AYWPBY5BM1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "braseiro-espetinhos-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/braseiro-espetinhos",
+      "platform": "aiqfome"
+    },
+    "campero-grill-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/campero-grill",
+      "platform": "aiqfome"
+    },
+    "casa-da-pizza-de-querencia-querencia": {
+      "url": "https://play.google.com/store/apps/details?id=v001.app.deeliv.casadapizzaquerencia&hl=pt",
+      "platform": "app",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "casa-do-sushi-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/casa-do-sushi",
+      "platform": "aiqfome"
+    },
+    "chiquinho-sorvetes-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/chiquinho-sorvetes",
+      "platform": "aiqfome"
+    },
+    "churrascaria-restaurante-e-hotel-estrela-do-sul-querencia": {
+      "url": "https://bit.ly/taliasirena",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "coral-sushi-delivery-querencia": {
+      "url": "https://pedido.brendi.com.br/coral-sushi",
+      "platform": "brendi"
+    },
+    "delicias-do-para-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/delicias-do-para",
+      "platform": "aiqfome"
+    },
+    "dtalia-pizzaria-querencia-querencia": {
+      "url": "https://dtaliapizzariaquerencia.foodsapp.com.br/",
+      "platform": "foodsapp",
+      "pendente": "foodsapp carrega o cardápio por canal não-JSON; leitor ainda não implementado"
+    },
+    "geladinhos-prisci-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/geladinhos-prisci",
+      "platform": "aiqfome"
+    },
+    "go-burger-delivery-querencia": {
+      "url": "https://zionpdv-storefront.fly.dev/store/go-burger-delivery",
+      "platform": "zionpdv"
+    },
+    "hot-dog-family-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/hot-dog-family",
+      "platform": "aiqfome"
+    },
+    "kali-doces-querencia": {
+      "url": "https://wa.me/qr/VOVTA73E7UVOM1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "karol-doces-querencia": {
+      "url": "https://karoldocesgourmet.wabiz.delivery",
+      "platform": "wabiz",
+      "motivo": "página protegida por verificação anti-robô (Cloudflare 403); não contornada"
+    },
+    "lugano-querencia-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/lugano-querencia",
+      "platform": "aiqfome"
+    },
+    "mc-lena-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/mc-lena",
+      "platform": "aiqfome"
+    },
+    "mp-sabor-e-docura-querencia": {
+      "url": "https://wa.me/message/HDWMAL3THAREJ1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "nini-gelato-artesanal-querencia": {
+      "url": "https://wa.link/2ldc6h",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "picanhas-grill-querencia": {
+      "url": "https://picanhasgrill.foodsapp.com.br/loja/pedidos",
+      "platform": "foodsapp",
+      "pendente": "foodsapp carrega o cardápio por canal não-JSON; leitor ainda não implementado"
+    },
+    "pizzaria-imperial-delivery-querencia": {
+      "url": "https://pedido.anota.ai/loja/pizzariasorveteriaimperial?from=site",
+      "platform": "anotaai",
+      "motivo": "página protegida por verificação anti-robô (Cloudflare 403); não contornada"
+    },
+    "restaurante-toque-caseiro-querencia": {
+      "url": "https://menu.beefood.com.br/toquecaseirorestaurante/",
+      "platform": "beefood",
+      "via": "https://is.gd/HrFlAa"
+    },
+    "sabor-de-verao-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/sabor-de-verao",
+      "platform": "aiqfome",
+      "pendente": "cardápio vazio na plataforma no dia da coleta"
+    },
+    "sabor-na-caixa-querencia": {
+      "url": "https://wa.me/message/KQA44LPDHNSBM1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "sabor-top-25-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/sabor-top-25",
+      "platform": "aiqfome"
+    },
+    "santo-espeto-pao-de-alho-s-e-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/santo-espeto",
+      "platform": "aiqfome"
+    },
+    "smash-burger-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/smash-burger",
+      "platform": "aiqfome"
+    },
+    "takaki-sushi-querencia": {
+      "url": "https://wa.me/message/EP26CWH3UYYRJ1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "tarantella-pizzaria-querencia": {
+      "url": "https://aiqfome.com/MT/querencia/tarantella-pizzaria",
+      "platform": "aiqfome"
+    },
+    "delicias-da-nutri-ribeirao-cascalheira": {
+      "url": "https://wa.me/qr/SE372HKPKXLTM1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "flomas-burguer-canarana": {
+      "url": "https://wa.me/message/CEMJILIXGAGQF1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "mordatto-canarana": {
+      "url": "https://maisdeliveryapp.com.br/web/loja.php?id=MTI0NDE1",
+      "platform": "maisdelivery"
+    },
+    "poke-poke-ao-quadrado-canarana": {
+      "url": "https://delivery.yooga.app/pokeriacanarana",
+      "platform": "yooga"
+    },
+    "saboritos-burguer-sorveteria-canarana": {
+      "url": "https://bit.ly/SaboritosBurguerWhats",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "texas-burger-grill-canarana": {
+      "url": "https://wa.me/message/K4BF5UU7SJTHA1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "booba-sorveteria-doceria-agua-boa": {
+      "url": "https://pedir.delivery/booba",
+      "platform": "pedirdelivery"
+    },
+    "ds-burguer-agua-boa": {
+      "url": "https://vendanozap.app/loja/dsburguer",
+      "platform": "vendanozap"
+    },
+    "du-matuto-bar-cozinha-agua-boa": {
+      "url": "https://wa.me/message/EOEA5S266KFAM1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "frutos-de-goias-agua-boa-agua-boa": {
+      "url": "https://www.maisdeliveryapp.com.br/web/loja.php?id=MTA0OTc5",
+      "platform": "maisdelivery",
+      "pendente": "cardápio vazio na plataforma no dia da coleta"
+    },
+    "golden-bird-agua-boa": {
+      "url": "https://menu.brendi.com.br/goldenbird",
+      "platform": "brendi"
+    },
+    "jah-acai-e-sorvetes-agua-boa": {
+      "url": "https://wa.link/wl62ij",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "o-grego-lanches-agua-boa": {
+      "url": "https://wa.me/message/XJMFOAPI6SFOF1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "oishi-sushi-agua-boa-agua-boa": {
+      "url": "https://oishisushiab.menudino.com",
+      "platform": "menudino",
+      "pendente": "MenuDino só carrega os itens ao tocar em cada categoria; leitor ainda não implementado"
+    },
+    "okane-sushi-agua-boa": {
+      "url": "https://wa.me/message/YGCS7RDFMTHFG1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "tenda-restaurant-and-grill-agua-boa": {
+      "url": "https://beacons.ai/tendaaguaboa",
+      "platform": "beacons",
+      "motivo": "página protegida por verificação anti-robô (Cloudflare 403); não contornada"
+    },
+    "mayhara-cakes-novo-sao-joaquim": {
+      "url": "https://wa.me/message/3OQ4BGEA3PW3A1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "sintonia-hamburgueria-e-pizzaria-campinapolis": {
+      "url": "https://hamburgueriasintonia.saipos.com/home",
+      "platform": "saipos"
+    },
+    "forja-burguer-nova-xavantina": {
+      "url": "https://wa.me/message/TOXY47JLK5NBG1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "magnifico-burguer-nx-nova-xavantina": {
+      "url": "https://contate.me/magnificoburguer",
+      "platform": "whatsapp",
+      "motivo": "link de bio que leva ao WhatsApp: não é cardápio público"
+    },
+    "pizzaria-gaucha-nova-xavantina": {
+      "url": "https://wa.me/message/CCJJ636IDWPCF1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "062-burguer-barra-do-garcas": {
+      "url": "https://062burguer.gynfood.com.br",
+      "platform": "gynfood",
+      "pendente": "GynFood mostra \"a partir de\" e os tamanhos só no detalhe do produto (sessão obrigatória); leitor ainda não implementado"
+    },
+    "acai-royal-delivery-barra-do-garcas": {
+      "url": "https://wa.me/message/EU4LA2LUICO6H1",
+      "platform": "whatsapp",
+      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+    },
+    "agua-verde-espetaria-e-terere-delivery-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/agua-verde-espetaria-e-terere-delivery-centro/740595e2-4086-43c6-8949-9cc668222a02",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "bolos-do-sitio-emporio-barra-do-garcas": {
+      "url": "https://bolosdositioemporio.bigd.im",
+      "platform": "bigdim"
+    },
+    "casarao-beer-churrascaria-barra-do-garcas": {
+      "url": "https://menu.brendi.com.br/casarao",
+      "platform": "brendi"
+    },
+    "cheff-do-espeto-barra-do-garcas": {
+      "url": "https://cheff-do-espeto-cardapio.sacred-puppy-6546.chatgpt.site/",
+      "platform": "site",
+      "motivo": "cardápio publicado como imagens (8 fotos com preços): precisa de transcrição manual"
+    },
+    "churrascaria-o-panelao-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/churrascaria-o-panelao-centro/6aa02299-c63f-40a1-82f4-cf34904fbacd",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "dad-burger-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/dad-burger-centro/30a2aeae-d8ad-4a6a-8159-7403614b039a",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "dantes-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/dantes-centro/9816e45b-4890-4fe6-afb6-696b78003b57",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "le-monde-burguer-hamburgueria-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/le-monde-burguer-hamburgueria-conjunto-habitacional-jardim-amazonia/3b95e3dc-a725-42ae-9d8b-59e18443278e",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "leo-pasteis-saltenhas-barra-do-garcas": {
+      "url": "https://clique-aqui.net/pastelaria-do-leo",
+      "platform": "whatsapp",
+      "motivo": "página de divulgação (Wix) só com WhatsApp: sem cardápio público"
+    },
+    "madrugordao-lanches-barra-do-garcas": {
+      "url": "https://links.zero1delivery.com.br/e2bfvXDXJqMHq4kt6",
+      "platform": "app",
+      "via": "https://clique-aqui.net/madrugordao-lanches",
+      "motivo": "o link do cardápio abre só o aplicativo (Zero1 Delivery): sem cardápio público na web"
+    },
+    "marmitaria-da-barra-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/marmitaria-da-barra-jardim-das-mangueiras/9e3e2a2a-f9ee-49bf-9931-b9c330332b6f",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "mistro-massas-marmitas-pizzaria-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/mistro-massas-marmitas--pizzaria-barra-center-shopping-jardim-araguaia/e476c65f-eb87-4ae7-a2f6-9ca28d986c0f",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "panificadora-sao-paulo-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/panificadora-sao-paulo-centro/f0a54b51-d034-4fb4-9fb0-7a3e1f2a0cf1",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "pizzaria-coqueiros-barra-do-garcas": {
+      "url": "https://www.pizzariacoqueiros.com/",
+      "platform": "expresso"
+    },
+    "ponto-burguer-ponto-do-hamburguer-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/ponto-do-hamburguer-jardim-nova-barra-do-garcas/2e752079-25cb-47ea-848f-42767340ade1",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "ponto-do-acai-barra-do-garcas": {
+      "url": "https://pontodoacai.bidudelivery.app/",
+      "platform": "bidu",
+      "via": "https://clique-aqui.net/pontodoacaibg",
+      "motivo": "só as vitaminas mostram preço; os açaís (itens principais) são montados no pedido sem preço visível — importar parcial enganaria"
+    },
+    "sushi-loko-barra-do-garcas-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/sushiloko--barra-do-garcas-jardim-araguaia/5768c097-a819-4055-abea-54db64fdceac",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "texas-grill-burger-churrasco-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/texas-grill---burger--churrasco-setor-cristino-cortes/5dfcadd6-2545-49a3-be0b-6a0dcb76b408",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    },
+    "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas": {
+      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/zhu-marmitas---shopping-barra-do-garcas-jardim-araguaia/bde7124a-4c34-4ae0-9df0-d727b6e7111b",
+      "platform": "ifood",
+      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+    }
+  }
+}

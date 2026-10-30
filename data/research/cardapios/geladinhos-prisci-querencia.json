@@ -1,0 +1,167 @@
+{
+  "id": "geladinhos-prisci-querencia",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/querencia/geladinhos-prisci",
+  "capturedAt": "2026-10-30T22:01:51.127Z",
+  "hours": "Ter 14h–17h30",
+  "sections": [
+    {
+      "name": "Geladinhos",
+      "items": [
+        {
+          "sourceId": "15766819",
+          "name": "Geladinho sabor pistache",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/99c8e83bcfed345eaf3ec19cdc48be5222e71712.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15766820",
+          "name": "Geladinho sabor ice blue",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/35e43c8ee93d1b9042bc2647008fbea9042e5557.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15766821",
+          "name": "Geladinho sabor ovomaltine",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/f54f637e74254c305523a31e22b997d0f3b5076e.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15766822",
+          "name": "Geladinho sabor ninho c/ nutella",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/900db3f069febe07c08f44a1a85d0ff9cd7847a3.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15832702",
+          "name": "Geladinho sabor churros",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/f185a5bd6daa63870c3438af336f9dfeb949c942.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15832703",
+          "name": "Geladinho sabor morango",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/27c712e778a2e238d596bc0b5d83212ec7312764.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "15766838",
+          "name": "Açaí c/ leite condensado e leite ninho",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/948635cda514dbf135d13e04f47d5b5df5f382e0.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Salada de frutas",
+      "items": [
+        {
+          "sourceId": "15766845",
+          "name": "Salada de frutas",
+          "description": "Frutas: banana, laranja, maçã mamão, melão e uva. não possui açúcar. ** acompanha sachê de leite condensado.",
+          "priceCents": 1250,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/c5921b1b0646f5c57b5c338985bcdb9f95bd9f39.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15841209",
+          "name": "Salada de frutas gurmet",
+          "description": "Uma combinação de frutas frescas com adicional de mousse de maracujá.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/t27fb0zy9ryey9zysomxx/e565a2e9949d17900f5fb4c4dde083e0db6c038d.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "15832704",
+          "name": "Coca cola",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "2 litros",
+                  "priceCents": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15832705",
+          "name": "Água s/ gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15832706",
+          "name": "Água c/ gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

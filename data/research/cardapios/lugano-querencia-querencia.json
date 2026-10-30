@@ -1,0 +1,1561 @@
+{
+  "id": "lugano-querencia-querencia",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/querencia/lugano-querencia",
+  "capturedAt": "2026-10-30T22:02:12.352Z",
+  "hours": "Seg a Sáb 6h30–10h e 12h30–18h",
+  "sections": [
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "13515797",
+          "name": "Água",
+          "description": "",
+          "priceCents": 590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/20613307718403c9a4614ba01f777f65e720f8ee.jpg",
+          "featured": false,
+          "options": [
+            {
+              "name": "Com gás ou sem gás",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem gás",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com gás",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515799",
+          "name": "Suco de uva",
+          "description": "",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/9440fd684b4018eeb74be3e31cd406b6b69b9dde.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515804",
+          "name": "Suco de laranja",
+          "description": "",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/8afa80cb51abb10a1782bea8d8c4ff5a63c72981.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515803",
+          "name": "Coca-cola lata",
+          "description": "",
+          "priceCents": 590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/173d08977ffb4aee6e9d3bf3e68883c21c53f15f.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515798",
+          "name": "Coca cola zero lata",
+          "description": "",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/2f015a50bc084880638a8851b2e9c6c91027d2f6.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515801",
+          "name": "Guarana lata",
+          "description": "",
+          "priceCents": 590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/3db5fe1622559d96bbc18e714dce9e4be2d139bb.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515802",
+          "name": "Fanta laranja lata",
+          "description": "",
+          "priceCents": 590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/a79c943b27b10dd553ee46493ae21b83662a3484.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16884486",
+          "name": "Bebida láctea",
+          "description": "",
+          "priceCents": 1250,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/ce72068bf319c1f842f2ecf8799b7e7d519b00d5.jpeg",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o seu!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cappuccino power 15g proteínas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cappuccino de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cappuccino tradicional",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cappuccino zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nescau",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515811",
+          "name": "Red bull",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/7ee25ba37066289230e8ccab6cdde0dcfc31bdae.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515812",
+          "name": "Schweppes lata",
+          "description": "",
+          "priceCents": 590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/ed562f3712789fd6ba1bfb98676a88b651e4e0a3.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515806",
+          "name": "Cerveja garrafa heineken",
+          "description": "",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cafés tradicionais",
+      "items": [
+        {
+          "sourceId": "13515212",
+          "name": "Café expresso",
+          "description": "O clássico café em sua forma mais pura.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/33806d7fb3c9ae4c4ff6bc40cf281c159c4f22ea.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515216",
+          "name": "Café expresso duplo",
+          "description": "Dupla dose do tradicional expresso, perfeito para quem precisa de um impulso extra.",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/d2613d40841582a38f40170916af9c2e1d46a1b7.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515213",
+          "name": "Café cortado",
+          "description": "Leite vaporizado finalizado com café expresso.",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/ed7f603ec0563682f21ef621a71ade12f8d0b744.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515217",
+          "name": "Café carioca",
+          "description": "Para quem gosta de um café mais suave.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/47f21414959fa192d0f7b2395c89ac0cde2e8eb4.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515214",
+          "name": "Café carioca duplo",
+          "description": "Dose dupla de suavidade do café carioca.",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/fab09ee64c4bc85c4bc0d117435a62f2f12438d6.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515218",
+          "name": "Café latte",
+          "description": "Leite vaporizado cremoso com um toque de café espresso.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/b22fd8cefcf873c5d672969f77f8ab38c5bc43d3.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515215",
+          "name": "Café machiatto",
+          "description": "Seu expresso duplo coberto com a delicada crema do leite.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/cd54821fe21df978cdb8ce56ae054068ced4e178.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cafés especiais",
+      "items": [
+        {
+          "sourceId": "13515240",
+          "name": "Cappuccino tradicional",
+          "description": "A secreta receita de cappuccino lugano preparada com leite vaporizado.",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/1eb762c2b04e2a76e78c5000fecc5662e2d45fb7.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja adicionar chantilly?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não, obrigado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515238",
+          "name": "Mocaccino",
+          "description": "A combinação perfeita do café expresso, leite vaporizado e chocolate lugano.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/00ab4a154f0301b38a3fe531383447c3a1c0db0a.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja adicionar chantilly?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não, obrigado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicional de chantilly",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515241",
+          "name": "Café com borda de pistache",
+          "description": "Delicioso café com leite e chantilly, com borda de ganache de pistache.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/709e3352dc6393dabd041b5ae6e50e2248ba2076.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515239",
+          "name": "Café com borda de doce de leite",
+          "description": "Delicioso café com leite e chantilly, finalizado com borda de doce de leite.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/953362f4c850298f9c73367ee9d384095fac5bd7.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515242",
+          "name": "Café com borda de creme de avelã",
+          "description": "Delicioso café com leite e chantilly, finalizado com borda de creme de avelã.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/7296e1636446ca113acf06e789d6592c166e09d1.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cafés gelados",
+      "items": [
+        {
+          "sourceId": "13515245",
+          "name": "Latte gelado de pistache",
+          "description": "Irresistível ganache de pistache batido com leite, sorvete de creme e um toque de café espresso finalizado com chantilly.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/d8cd2dc71e033723fb2e4cac7b62a8c5381683ff.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515252",
+          "name": "Bariloche",
+          "description": "O famoso licor de amêndoas lugano servido com sorvete de creme, café expresso gelado e finalizado com chantilly.",
+          "priceCents": 2690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/d082e092391a7ef4ae4fd9fecaf88c33134184cf.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515246",
+          "name": "Ice cappuccino avelã",
+          "description": "Combinação perfeita entre os sabores de creme de avelã e do café expresso misturados ao sorvete de creme e raspas de chocolate. para finalizar, um toque de chantilly.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515253",
+          "name": "Ice cappuccino",
+          "description": "Nossa receita irresistível de preparo para cappuccino, combinada com leite gelado e chantilly.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515247",
+          "name": "Affogato",
+          "description": "O clássico café expresso com a cremosidade do sorvete de creme.",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Croissants",
+      "items": [
+        {
+          "sourceId": "13515322",
+          "name": "Croissant de chocolate com morango",
+          "description": "Morangos frescos e o irresistível chocolate ao leite lugano: uma combinação mais do que perfeita.",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja retirar o morango?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515325",
+          "name": "Croissant doce de leite com banana",
+          "description": "Recheado maravilhosamente com doce de leite em conjunto com bananas.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja retirar a banana?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem banana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515323",
+          "name": "Croissant a caprese",
+          "description": "Tomate fresco, manjericão, rúcula, molho pesto, requeijão e peito de peru.",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/1858c9988cc3fccc45664a9b182cf4e56a980bae.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Deseja retirar o manjericão?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com manjericão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem manjericão",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515328",
+          "name": "Croissant amanteigado",
+          "description": "Crocante e irresistível.",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja algum adicional em seu croissant?",
+              "min": 1,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Não obrigado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicional de chocolate ao leite",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Adicional de chocolate branco",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Adicional de requeijão",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adicional de presunto",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adicional de peito de peru",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adicional de queijo",
+                  "priceCents": 590
+                },
+                {
+                  "name": "Adicional de salame",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adicional de ganache de chocolate ao leite",
+                  "priceCents": 1290
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515324",
+          "name": "Croissant salame e requeijão",
+          "description": "Salame, queijo, requeijão e muito sabor.",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "sourceId": "13515485",
+          "name": "Taça banoffe",
+          "description": "Deliciosa taça com doce de leite, farofa de biscoito, banana, sorvete de creme, chantilly e canela polvilhada.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja retirar a banana?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem banana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515486",
+          "name": "Taça lugano",
+          "description": "Inspirada na nossa torta lugano, essa taça é composta por dois deliciosos cremes: de chocolate ao leite e branco. finalizada com nozes, morangos e pedaços de brownie.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja retirar o morango?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515600",
+          "name": "Taça coco brulée",
+          "description": "Nossa taça com a deliciosa cocada cremosa, sorvete de creme, chantilly, coco em lascas e brigadeiro de chocolate branco.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515601",
+          "name": "Fondue de frutas na taça",
+          "description": "Mix de frutas da estação com o irresistível chocolate lugano servido na taça.",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515487",
+          "name": "Brownie com sorvete",
+          "description": "Brownie com o verdadeiro chocolate de gramado. acompanha uma bola de sorvete de creme.",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja adicionar chocolate?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não obrigado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate ao leite",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Chocolate branco",
+                  "priceCents": 1590
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515602",
+          "name": "Brownie",
+          "description": "Nosso tradicional brownie feito com chocolate de gramado.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515598",
+          "name": "Torta lugano",
+          "description": "Receitas secretas de família com recheios deliciosos e o toque artesanal exclusivo da lugano.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/c850cce14a7b6baae5976d73e49715844281a189.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Com sorvete",
+      "items": [
+        {
+          "sourceId": "13515607",
+          "name": "Milkshake de pistache",
+          "description": "Sabor único e sofisticado de pistache.",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515608",
+          "name": "Milkshake de creme",
+          "description": "Cremoso e refrescante.",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515609",
+          "name": "Sorvete na taça",
+          "description": "A combinação perfeita de sorvete de creme, morango e chocolate com cobertura de ganache de chocolate lugano.",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha até 3 sabores de sorvete:",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baunilha",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515610",
+          "name": "Milkshake de chocolate",
+          "description": "Gelado, cremoso e irresistível.",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515611",
+          "name": "Milkshake de morango",
+          "description": "Sabor tradicional de morango.",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Delícias de verão",
+      "items": [
+        {
+          "sourceId": "13515639",
+          "name": "Pink lemonade",
+          "description": "Refrescante mix de suco de limão, xarope de cranberry e água com gás, servido com gelo e uma charmosa rodela de limão.",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515640",
+          "name": "Milkshake avelíssimo",
+          "description": "Combinação irresistível de sorvete de chocolate, leite e o exclusivo creme de avelãs da lugano, finalizada com chantilly e ganache de chocolate ao leite.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515641",
+          "name": "Milkshake de doce de leite com nozes",
+          "description": "Sorvete de creme, leite, doce de leite e nozes trituradas, finalizado com uma camada de ganache, chantilly e nozes.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515642",
+          "name": "Iced coffee caramelo crocante",
+          "description": "Sorvete de creme, leite e caramelo de café expresso batidos até a cremosidade ideal, coberto com chantilly e um toque de amendoim.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "14804015",
+          "name": "Chá gelado de frutas vermelhas e hortelã",
+          "description": "Refrescante chátea shop com notas florais e frutadas. leve,equilibrado e cheio de sabor.",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "14804031",
+          "name": "Smoothie morango",
+          "description": "Smoothie cremoso de morango com iogurte natural grego e um toque de leite integral. finalizado com calda de frutas vermelhas.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Que tal um lanche?",
+      "items": [
+        {
+          "sourceId": "13515664",
+          "name": "Croque monsieur",
+          "description": "A cremosidade do requeijão e do queijo, junto ao peito de peru, fazem esse sanduíche ser repleto de sabor.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515665",
+          "name": "Croque madame",
+          "description": "Típico sanduíche francês feito com pão de forma, peito de peru, queijo, requeijão e finalizado com ovo frito.",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515666",
+          "name": "Mini pão de queijo - 6 unidades.",
+          "description": "Tradicional receita mineira em petit porções com seis unidades.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515667",
+          "name": "Misto clássico (torrada)",
+          "description": "O clássico misto quente com requeijão e queijo, com opção de salame ou peito de peru.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Peito de peru ou salame?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Peito de peru",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salame",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515668",
+          "name": "Omelete clássico",
+          "description": "Três ovos com um toque de tempero verde: clássico e saboroso.",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Deseja adicionar ovo extra?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não, obrigado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicional de ovo",
+                  "priceCents": 390
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Flat croissant",
+      "items": [
+        {
+          "sourceId": "13515670",
+          "name": "Flat croissant de chocolate branco",
+          "description": "Croissant flat crocante com deliciosa camada de chocolate branco.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515671",
+          "name": "Flat croissant de doce de leite",
+          "description": "Croissant flat crocante com deliciosa camada de doce de leite.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515672",
+          "name": "Flat croissant de chocolate ao leite",
+          "description": "Croissant flat crocante com deliciosa camada de chocolate.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cuscuz",
+      "items": [
+        {
+          "sourceId": "13515678",
+          "name": "Cuscuz amanteigado",
+          "description": "Cuscuz com manteiga.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Tomate cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovos mexidos",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rúcula",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Peito de peru",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salame",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tapioca",
+      "items": [
+        {
+          "sourceId": "13515715",
+          "name": "Tapioca com manteiga",
+          "description": "Tapioca com manteiga.",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515714",
+          "name": "Tapioca peito de peru e queijo",
+          "description": "Tapioca com peita de peru e queijo.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515720",
+          "name": "Tapioca com ovos mexidos",
+          "description": "Tapioca recheada com ovos mexidos.",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/50994272554db1780fd9d30e07582c6e4ee328ce.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Deseja adiconar queijo?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não, obrigado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "17327366",
+          "name": "Tapioca com frango e queijo",
+          "description": "",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515717",
+          "name": "Tapioca salame e queijo",
+          "description": "Tapioca recheada com requeijão, salame e queijo.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515716",
+          "name": "Tapioca banana com doce de leite.",
+          "description": "Tapioca recheada com banana e doce de leite.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515718",
+          "name": "Tapioca romeu e julieta",
+          "description": "Tapioca com queijo e goiabada.",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13515719",
+          "name": "Tapioca de avelã com morango",
+          "description": "Tapioca recheada de avelã com morangos.",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "13515727",
+          "name": "Açaí 200 ml na casquinha",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 19,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Creme de avelã",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Canudo comestível",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ganache lugano",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Trufas lugano",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amendoim",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Uva verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva roxa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515728",
+          "name": "Açaí 300 ml",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 19,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Creme de avelã",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Canudo comestível",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ganache lugano",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Trufas lugano",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amendoim",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Uva verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva roxa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515729",
+          "name": "Açaí 400 ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 19,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Creme de avelã",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Canudo comestível",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ganache lugano",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Trufas lugano",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amendoim",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Uva verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva roxa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13515730",
+          "name": "Açaí 500 ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 19,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Creme de avelã",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Canudo comestível",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ganache lugano",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Trufas lugano",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amendoim",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Uva verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva roxa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Especiais lugano",
+      "items": [
+        {
+          "sourceId": "13894119",
+          "name": "Milk shake do luguito",
+          "description": "",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/m9pjmkdxjmfsom1eu6uqp/2f3ef2271b685ebc615b43c45edf1d09356fde84.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 21
+  },
+  "notes": []
+}

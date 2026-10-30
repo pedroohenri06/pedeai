@@ -1,0 +1,781 @@
+{
+  "id": "coral-sushi-delivery-querencia",
+  "platform": "brendi",
+  "source": "https://pedido.brendi.com.br/coral-sushi",
+  "capturedAt": "2026-10-30T22:01:28.920Z",
+  "hours": "Seg 18h45–22h30 · Qua a Dom 18h45–22h30",
+  "sections": [
+    {
+      "name": "Poke",
+      "items": [
+        {
+          "sourceId": "O2z3UdtU9djNH66pCina",
+          "name": "Poke especial",
+          "description": "Arroz japones, salmao fresco, camarao empanado, cream cheese, manga, sunomono, kani, couve crispy, geleia de pimenta, gergelim, cebolinha e tare.",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FO2z3UdtU9djNH66pCina-1788981099534.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "shgRnQu3spXp9lf3TDcM",
+          "name": "Mango poke",
+          "description": "Arroz japones, salmao fresco, crispy de batata doce, manga, kani, cream cheese, sunomono, gergelim e tare.",
+          "priceCents": 5890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FshgRnQu3spXp9lf3TDcM-1792457116468.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "GpxvFJ0yyl2Sm2f7KiZi",
+          "name": "Best poke",
+          "description": "Arroz japones, salmao, cream cheese, cebola roxa, manga, sunomono, crispy de couve e batata, cebolinha e tare.",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FGpxvFJ0yyl2Sm2f7KiZi-1792620625701.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "7vsb7TAVO2hxJShLicup",
+          "name": "Poke tropical",
+          "description": "Arroz japones, salmao fresco, cream cheese, manga, sunomono, tomate cereja, crispy de batata doce, cebolinha, gergelim e tare.",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F7vsb7TAVO2hxJShLicup-1792620639037.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "KTKRBkEMawZLPLRajq2U",
+          "name": "Poke salmao empanado",
+          "description": "Arroz japones, salmao fresco empanado, sunomono, cream cheese, kani, cebolinha e tare.",
+          "priceCents": 5190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FKTKRBkEMawZLPLRajq2U-1792451019263.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Entradas",
+      "items": [
+        {
+          "sourceId": "DYW0q1YKPZwXRDIPcaix",
+          "name": "Ceviche de salmao",
+          "description": "Salmao fresco em cubos, cebola roxa, tomate cereja e cebolinha, marinados ao molho citrico.",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FDYW0q1YKPZwXRDIPcaix-1788975374112.jpeg?alt=media",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "nsq7UXmtf9F2qEqh9X11",
+          "name": "Ceviche de tilapia",
+          "description": "Tilapia fresca em tiras, cebola roxa, tomate cereja e cebolinha, marinados ao molho citrico.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2Fnsq7UXmtf9F2qEqh9X11-1788975468112.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "tmxL7JxdN3NUpQhjMShx",
+          "name": "Ceviche misto",
+          "description": "Salmao e tilapia frescos, cebola roxa, tomate cereja e cebolinha, marinados ao molho citrico.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FtmxL7JxdN3NUpQhjMShx-1788975908612.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "m9ehINFLV67Ik5YCCEXc",
+          "name": "Carpaccio de salmao",
+          "description": "20 laminas de salmao fresco ao molho citrico a base de shoyu",
+          "priceCents": 8990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2Fm9ehINFLV67Ik5YCCEXc-1788976437246.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "uK6vguDKbKySMEo42Zsr",
+          "name": "Carpaccio de tilapia",
+          "description": "20 laminas de tilapia fresca ao molho do chef.",
+          "priceCents": 6290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "vB6ydVurX2OrC34ZlRR3",
+          "name": "Sunomono",
+          "description": "Salada japonesa de pepino com gergelim",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FvB6ydVurX2OrC34ZlRR3-1788983535238.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "c8Z0p3ys9buwrC4OSxTq",
+          "name": "Ceviche picante",
+          "description": "Salmao fresco em cubos, cebola roxa, tomate cereja, pimenta e cebolinha, marinados ao molho citrico.",
+          "priceCents": 5890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2Fc8Z0p3ys9buwrC4OSxTq-1790287017139.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "Rn8yXX3HVhpy5UFNGoIQ",
+          "name": "Combo individual (21 peças)",
+          "description": "4 sashimi de salmao, 2 joy tartar, 2 gunka, 4 uramaki filadelfia, 4 hossomaki de salmao e 5 hot holl.",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FRn8yXX3HVhpy5UFNGoIQ-1788977593133.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "bvIjdn8gc7sbPcZk63vh",
+          "name": "Combo duplo (42 peças)",
+          "description": "4 sasimi de salmao, 4 sasimi de salmao selado, 4 gunka, 4 joy tartar, 4 uramaki filadelfia, 4 uramaki de camarao, 4 hossomaki de salmao, 4 hossomaki filadelfia e 10 hot holl",
+          "priceCents": 17990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FbvIjdn8gc7sbPcZk63vh-1788977814220.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Kpu6bEIM8GOd5TM9vxvf",
+          "name": "Combo familia (84 peças)",
+          "description": "8 sashimi de salmao, 8 sashimi de salmao selado, 4sasimi de tilapia, 8 gunka, 8 joy de camarao, 16 uramaki filadelfia, 8 hossomaki de salmao, 8 hossomaki biquinho, 10 hot holl e 10 hot crispy.",
+          "priceCents": 35990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FKpu6bEIM8GOd5TM9vxvf-1788977874813.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "QmKyj5VpHhyS7pRv8St1",
+          "name": "Combo hot (40 peças)",
+          "description": "10 hot holl, 10 hot crispy, 10 hot camarao, 5 hot filadelfia e 5 hot nutella.",
+          "priceCents": 15990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FQmKyj5VpHhyS7pRv8St1-1788977762747.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "eW4uXCOp51filouYNCSU",
+          "name": "Combo joy / gunka (24 peças)",
+          "description": "3 gunka, 3 gunka geleia de maracuja, 3 gunka geleia de pimenta, 3 gunka ebi tower, 3 joy selado, 3 joy amendoas, 3 joy de salmao e 3 joy de camarao.",
+          "priceCents": 13490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FeW4uXCOp51filouYNCSU-1788982975819.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "4wYpv4piINJAqE4GS9iR",
+          "name": "Combo economico (21 peças)",
+          "description": "5 hot holl, 5 hossomaki kani, 5 uramaki skin, 2 niguiri de salmao, 2 joy tartar e 2 sashimi de salmao.",
+          "priceCents": 7990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F4wYpv4piINJAqE4GS9iR-1788977984676.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "aQ6MC1UL8U8EyCATUxHi",
+          "name": "Combo coral (41 peç)",
+          "description": "10 uramaki filadelfia, 10 hossomaki de salmao, 5 niguiri de salmao, 6 joy de amendoas, 10 hot holl.",
+          "priceCents": 17990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FaQ6MC1UL8U8EyCATUxHi-1789437809903.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sashimi",
+      "items": [
+        {
+          "sourceId": "Qz1xHs7jodHMRgfWf5Nt",
+          "name": "Sashimi de salmao (10 peças)",
+          "description": "Farias de lombo de salmao fresco.",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FQz1xHs7jodHMRgfWf5Nt-1788978506581.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "zaHteVOo68OX8d6j6v6R",
+          "name": "Sashimi de salmao maçaricado (10 peças)",
+          "description": "Fatias de lombo de salmao fresco, maçaricado e finalizado com tare e gergelim.",
+          "priceCents": 6190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FzaHteVOo68OX8d6j6v6R-1788980862791.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "LvPs1IBj7zgGGyl0z68s",
+          "name": "Sashimi de tilapia (10 peças)",
+          "description": "Fatias de lombo de tilapia fresca, com finas laminas de limao.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FLvPs1IBj7zgGGyl0z68s-1788978220902.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Niguiri",
+      "items": [
+        {
+          "sourceId": "gKSiKnYKrAF5YxgtyXsR",
+          "name": "Niguiri de salmao (6 peças)",
+          "description": "Arroz japones coberto com lamina de salmao fresco.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FgKSiKnYKrAF5YxgtyXsR-1789177459768.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Vmb9Z4ZBjhruFb0STMUC",
+          "name": "Niguiri de salmao maçaricado (6 peças)",
+          "description": "Arroz japones coberto com lamina de salmao fresco e cream cheese, maçaricado e finalizado com tare, cebolinha e gergelim.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FVmb9Z4ZBjhruFb0STMUC-1788983042533.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "HXVsMYxR7KW8616cpLbB",
+          "name": "Niguiri de tilapia (6 peças)",
+          "description": "Arroz japones coberto com lamina de tilapia fresca, finalizado com fina lamina de limao.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FHXVsMYxR7KW8616cpLbB-1788982067241.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Joy / gunka",
+      "items": [
+        {
+          "sourceId": "OTwtvxxkDXvO8zyAhkxD",
+          "name": "Gunka (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no cream cheese.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FOTwtvxxkDXvO8zyAhkxD-1788978608103.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "SAyzmm2td1SzdH2e5N4P",
+          "name": "Gunka geleia de pimenta (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no cream chese e finalizado com geleia de pimenta.",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FSAyzmm2td1SzdH2e5N4P-1788978550493.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "1aSzu2wTAeeoZXVZvo2N",
+          "name": "Gunka geleia de maracuja (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no cream cheese e finalizado com geleia de maracuja.",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F1aSzu2wTAeeoZXVZvo2N-1788981888092.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "hQhH3GTS61L054CcBcyc",
+          "name": "Joy filadelfia (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no arroz e finalizado com chream cheese e cebolinha.",
+          "priceCents": 4790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FhQhH3GTS61L054CcBcyc-1789177325436.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "5xEJsE46TN6aytArj5qN",
+          "name": "Joy tartar (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no arroz e finalizado com tartar de salmao e cebolinha.",
+          "priceCents": 5190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F5xEJsE46TN6aytArj5qN-1789177375634.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "UGqbIcMUAPh7S1sftL2N",
+          "name": "Joy maçaricado (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no arroz, finalizado com cream cheese e maçaricado.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FUGqbIcMUAPh7S1sftL2N-1789177399921.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "KYhqhAoKHMZ28YJYjjAf",
+          "name": "Joy amendoas (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no arroz, finalizado com cream cheese e amendoas laminadas.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FKYhqhAoKHMZ28YJYjjAf-1788980914171.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "olAsVB5Egl1r1Sp8p6T2",
+          "name": "Joy camarao (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado no arroz, finalizado com cream cheese e camarao flambado.",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FolAsVB5Egl1r1Sp8p6T2-1788979290550.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "kEgtdqOEmuaNU2Hb0Dcg",
+          "name": "Joy ebi tower (8 peças)",
+          "description": "Fatia de salmao fresco, enrolado com cream cheese e camarao empanado, finalizado com geleia de pimenta, tare, cebolinha e gergelim.",
+          "priceCents": 6990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FkEgtdqOEmuaNU2Hb0Dcg-1788980547426.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Uramaki",
+      "items": [
+        {
+          "sourceId": "5U6omYaL2cVEZzLL9vGP",
+          "name": "Uramaki filadelfia (8 peças)",
+          "description": "Alga e arroz japones, enrolado e recheado com salmao fresco, cream cheese, cebolinha e gergelim.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F5U6omYaL2cVEZzLL9vGP-1788978827316.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "kveApVtOO7N1TPw4vRRH",
+          "name": "Uramaki especial (8 peças)",
+          "description": "Alga e arroz japones, enrolado e recheado com camarao empanado, cream cheese, cebolinha e conerto com laminas de salmao fresco, finalizado com geleia de pimenta e tare.",
+          "priceCents": 4590,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FkveApVtOO7N1TPw4vRRH-1788981001664.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "MNrRk3aCB2tP1mvuBu9c",
+          "name": "Uramaki camarao (8 peças)",
+          "description": "Alga e arroz japones, enrolado e recheado com camarao empanado, cream cheese e cebolinha.",
+          "priceCents": 3099,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "7P6Fw71s8Kfvgi8Npcnp",
+          "name": "Uramaki skin (8 peças)",
+          "description": "Alga e arroz japonese nrolado, recheado com pele de salmao grelhada e cream cheese, finalizado com tare e crispy de couve.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "2MI68kM6LbViuvqDji3c",
+          "name": "Uramaki de salmao grelhdo (8 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com, salmao grelhado, cream cheese e cebolinha.",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Lebxn7dOdI2IOsLIuSmC",
+          "name": "Uramaki california",
+          "description": "Alga e arroz japones, enrrolado e recheado com cream cheese, manga, kani e pepino.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FLebxn7dOdI2IOsLIuSmC-1788980813797.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hossomaki",
+      "items": [
+        {
+          "sourceId": "9u5lWrtH98HOADeTJPM7",
+          "name": "Hossomaki de salmao (8 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco.",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F9u5lWrtH98HOADeTJPM7-1788983873154.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "onPPPGnJxTWTbrhgXob8",
+          "name": "Hossomaki filadelfia (8 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco, cream cheese e cebolinha.",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FonPPPGnJxTWTbrhgXob8-1789177227923.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "ZlAVgf0JNV1xTimIExDv",
+          "name": "Hossomaki especial (8 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco, camarao emoanado, cream cheese e cebolinha.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FZlAVgf0JNV1xTimIExDv-1788983900439.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "YGpuFd2cO4d1uWLaF9XB",
+          "name": "Hossomaki biquiho (8 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco, finalizado com cream cheese e pimenta biquinho.",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FYGpuFd2cO4d1uWLaF9XB-1789177258863.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "tdmS5fjdwwAe10KMwmIq",
+          "name": "Hossomaki kani (8 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com kani e finalizado com cream cheese.",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FtdmS5fjdwwAe10KMwmIq-1789177291019.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hot",
+      "items": [
+        {
+          "sourceId": "Na5NBQmaN0BMAl5Wjuo0",
+          "name": "Hot holl (10 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco, empanado e frito, finalizado com cream cheese e cebolinha.",
+          "priceCents": 2290,
+          "originalPriceCents": 3990,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FNa5NBQmaN0BMAl5Wjuo0-1788979187193.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "jAFxLetsDQel8sU2T7P8",
+          "name": "Hot filadelfia (10 peças)",
+          "description": "Uramaki filadelfia empanado e frito.",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FjAFxLetsDQel8sU2T7P8-1788979215557.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Zdv9glGOTzcf5maTmYmd",
+          "name": "Hot crispy de couve (10 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco, empanado e frito, finalizado com cream cheese e crispy de couve.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Q9YeDrpcrgJTTH9zTQ4A",
+          "name": "Hot crispy de batata doce (10 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco, empanado e frito, finalizado com cream cheese, geleia de pimenta e crispy de batata doce.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "1Oe2tJ0k4K5dHSuPXVRx",
+          "name": "Hot camarao (10 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com camarao flambado, empanado e frito, finalizado com cream cheese e cebolinha.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F1Oe2tJ0k4K5dHSuPXVRx-1788979391328.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "gMtnN2gU7KJSNq2hF3Kp",
+          "name": "Hot especial (10 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com salmao fresco, empanado e frito, finalizado com cream cheese, camarao flambado e geleia de pimenta.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FgMtnN2gU7KJSNq2hF3Kp-1788979149901.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "JElgxfA4vyEZd4oP2y7x",
+          "name": "Hot kani (10 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com kani, empanado e frito, finalizado com cream chese e cebolinha.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FJElgxfA4vyEZd4oP2y7x-1788979435037.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Big hot",
+      "items": [
+        {
+          "sourceId": "eSPSwC7MwbuYYG0iVpNc",
+          "name": "Big hot de salmao",
+          "description": "Alga e arroz japones enrolado, empanado e frito, recheado inteiro com salmao fresco e cream cheese, finalizado com geleia de pimenta, tare e cebolinha.",
+          "priceCents": 5790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FeSPSwC7MwbuYYG0iVpNc-1788979598452.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "st9y3MSp8CdkTUkrq7f1",
+          "name": "Big hot misto",
+          "description": "Alga e arroz japones enrolado, empanado e frito, recheado inteiro com salmao fresco e cream cheese, finalizado com camarao flambado, tare, gergelim e cebolinha.",
+          "priceCents": 6890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2Fst9y3MSp8CdkTUkrq7f1-1788979639997.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Rok6ryYjoujkfSKmfZ3j",
+          "name": "Big hot de camarao",
+          "description": "Alga e arroz japones enrolado, empanado e frito, recheado inteiro com camarao flambado e cream cheese, finalizado com, tare, gergelim e cebolinha.",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FRok6ryYjoujkfSKmfZ3j-1788983081757.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Temaki",
+      "items": [
+        {
+          "sourceId": "Wx10KL2Rb253z1YhnYqx",
+          "name": "Temaki de salmao",
+          "description": "Alga e arroz japones enrolado, recheado com arroz, salmao fresco e cebolinha, em formato de cone.",
+          "priceCents": 4090,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FWx10KL2Rb253z1YhnYqx-1789177573484.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "C8jYj2tqwrpHYpdMiEY7",
+          "name": "Temaki filadelfia",
+          "description": "Alga e arroz japones enrolado, recheado com arroz, salmao fresco, cream cheese e cebolinha, em formato de cone.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FC8jYj2tqwrpHYpdMiEY7-1788979889945.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "s6FLRt7oj7QrzTHfOK6u",
+          "name": "Temaki de camarao",
+          "description": "Alga e arroz japones enrolado, recheado com arroz, camarao flambado, cream cheese e cebolinha, em formato de cone.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "L6wL7PqSa9yz1dg1TA4u",
+          "name": "Temaki holl",
+          "description": "Alga e arroz japones enrolado, recheado com arroz, salmao fresco, empanado e frito, partido ao meio, finalizado com cream cheese e cebolinha, em formato de cone.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FL6wL7PqSa9yz1dg1TA4u-1788979942889.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "0r6nnOR5JYB6MakG08RW",
+          "name": "Temaki holl misto",
+          "description": "Alga e arroz japones enrolado, recheado com arroz, salmao fresco, kani e camarao flambado, empanado e frito, partido ao meio, finalizado com cream cheese e cebolinha, em formato de cone.",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F0r6nnOR5JYB6MakG08RW-1788979977585.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sobremesa",
+      "items": [
+        {
+          "sourceId": "A1IykiNYZ0fA3g7dnCAj",
+          "name": "Romel e julieta (4 peças)",
+          "description": "Fatia de goiabada, enrolada com cream cheese, finalizado com nutella e choco ball,",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FA1IykiNYZ0fA3g7dnCAj-1788980470647.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "iYqCcZT275yYRBMbEmFr",
+          "name": "Hot nutella (10 peças)",
+          "description": "Alga e arroz japones enrolado, recheado com cream cheese, empanado e frito, finalizado com nutella e choco ball.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FiYqCcZT275yYRBMbEmFr-1788980498657.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "8SNIzRd603ZpVkoZEVbL",
+          "name": "Iscas de tilapia (20 un)",
+          "description": "Tilapia cortada em tiras, empanada e frita.",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F8SNIzRd603ZpVkoZEVbL-1788980331337.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "FwjEIgMqiqtbwFjD8oA8",
+          "name": "Coca lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FFwjEIgMqiqtbwFjD8oA8-1789177719792.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "XvE1f3pUCx6ZFIQobDRf",
+          "name": "Coca cola 1,5L",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FXvE1f3pUCx6ZFIQobDRf-1789177821678.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "OhZR3Au1o6HbDEKvce4f",
+          "name": "Coca cola 2L",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FOhZR3Au1o6HbDEKvce4f-1789177852513.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "V5767jCkcP9xXXiNBpVI",
+          "name": "Agua com gas",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FV5767jCkcP9xXXiNBpVI-1789178014552.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "HcMM1bzVRj1ExcyFFZid",
+          "name": "Guarana lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FHcMM1bzVRj1ExcyFFZid-1789178053263.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "1jT298kTgGDA2YPAwT8x",
+          "name": "Coca zero lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2F1jT298kTgGDA2YPAwT8x-1789178170577.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "A7wpBwtJ4AYtDOQr7el8",
+          "name": "Coca 1,5 zero",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FupsH1bxpKjTKwc2ZXBTR%2Fimages%2Fproducts%2FA7wpBwtJ4AYtDOQr7el8-1789178219044.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

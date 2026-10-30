@@ -1,0 +1,1194 @@
+{
+  "id": "sintonia-hamburgueria-e-pizzaria-campinapolis",
+  "platform": "saipos",
+  "source": "https://hamburgueriasintonia.saipos.com/home",
+  "capturedAt": "2026-10-30T22:02:50.796Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Opcoes da distribuidora",
+      "items": [
+        {
+          "sourceId": "40876689",
+          "name": "Stella gold 600ml",
+          "description": "",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "41154550",
+          "name": "Coca 1/5",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combo na caixa box (monte seu combo)",
+      "items": [
+        {
+          "sourceId": "19794743",
+          "name": "Combo box da sintonia",
+          "description": "Nova Box da Sintonia Monte do seu jeito: • 2 hambúrgueres artesanais • Batata frita • Nuggets ou anéis de cebola • Molho da casa + cheddar • Farofinha de bacon Uma nova experiência feita para compartilhar e aproveitar cada sabor",
+          "priceCents": 10990,
+          "originalPriceCents": 11990,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/b41375dea0c5632dd85a04767807a5f8.png",
+          "options": [
+            {
+              "name": "Escolha seu primeiro burger",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hambúrguer catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hambúrguer de bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hambúrguer de cheddar",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            },
+            {
+              "name": "Escolha o segungo burger",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hambúrguer catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hambúrguer de bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hambúrguer de cheddar",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu segungo burger",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Quais opçoes deseja, selecione 2",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Batata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cebola empanada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nuggts",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nuggets",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lançamentos",
+      "items": [
+        {
+          "sourceId": "41154041",
+          "name": "Bolinhos de Carne Seca",
+          "description": "Bolinhos artesanais de carne seca, recheados com queijo e Catupiry Quatro Queijos. Empanados na farinha panko e fritos até ficarem dourados e crocantes por fora, com um recheio quente e muito cremoso por dentro. 6 UNIDADES",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/fa6667822c6904663318c1b8e2dae002.png",
+          "options": []
+        },
+        {
+          "sourceId": "42866424",
+          "name": "Combo 2 pizza de calabresa + guaraná 2l",
+          "description": "O dobro de pizza, o dobro de felicidade! São 2 pizzas de Calabresa com Requeijão, totalizando 16 pedaços de puro sabor! Calabresa defumada, Catupiry cremoso, mussarela derretida, cebola roxa e aquele toque especial de orégano. Tudo acompanhado de um Guaraná Antarctica geladinho! Perfeito para compartilhar e aproveitar cada pedaço!",
+          "priceCents": 11990,
+          "originalPriceCents": 14280,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/3fdc04d7a0450ceac4009522ee356001_42866424.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "42866474",
+          "name": "Combo 1 pizza de calabresa + 1 guaraná 2l",
+          "description": "Pizza + Guaraná: a combinação perfeita! Uma deliciosa pizza de Calabresa com Requeijão, com 8 pedaços, preparada com calabresa defumada, Catupiry cremoso, mussarela derretida, cebola roxa e um toque especial de orégano. Para completar, um Guaraná Antarctica geladinho! Muito sabor em um combo irresistível!",
+          "priceCents": 6990,
+          "originalPriceCents": 7790,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/ffabd97eaaf913275d872ed898c44caf_42866474.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "33902625",
+          "name": "Milk-shake de Ovomaltine",
+          "description": "Mistura a cremosidade do sorvete de Ovomaltine com os flocos crocantes de Ovomaltine que não dissolvem por completo, garantindo uma mordida crocante a cada gole.",
+          "priceCents": 1190,
+          "originalPriceCents": 1390,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/fa0cd0ff6dc29f64e78cad4f7b679936.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Favoritos da Casa",
+      "items": [
+        {
+          "sourceId": "26213516",
+          "name": "Costela burger",
+          "description": "Hambúrguer artesanal de 130 g, costela desfiada suculenta, quatro fatias de queijo, cream cheese e bacon crocante, com cebola roxa, alface e tomate no pão brioche. A geleia de abacaxi dá o toque agridoce que torna cada mordida irresistível!",
+          "priceCents": 3990,
+          "originalPriceCents": 4490,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/252f43102fddc5912d0ed0696aa66f21.jpeg",
+          "options": [
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "19794740",
+          "name": "Duplo burger",
+          "description": "Duas vezes mais sabor! Dois hambúrgueres de 130g, queijo cheddar em dobro, bacon crocante, alface, tomate e cebola roxa no pão artesanal. Porque quando é bom, é melhor dobrado!",
+          "priceCents": 2990,
+          "originalPriceCents": 3990,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/f64a8bf43e6424e1864d8f49b6b97621.jpeg",
+          "options": [
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "19794784",
+          "name": "X tudo artesanal",
+          "description": "Quando você quer tudo, nós entregamos! Hambúrguer de 130g, bacon duplo, calabresa, ovo, abacaxi chapeado, batata palha crocante, milho, alface e tomate no pão artesanal. É uma festa de sabores em cada mordida!",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/ad262bc02d063dfd19bcad52fbeb32a0.jpeg",
+          "options": [
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Clássicos",
+      "items": [
+        {
+          "sourceId": "19794748",
+          "name": "Catupiry burger",
+          "description": "Pão Selado no catupiry, Hambúrguer 130g, duplo queijo, duplo Bacon crocante, Catupiry, Cebola roxa, Alface, Tomate e Maionese da casa.",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/d0726fde65e68cd0f5ae725902857028.png",
+          "options": [
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "19794761",
+          "name": "O de sempre",
+          "description": "Aquele que nunca falha! Hambúrguer de 120g, queijo mussarela, bacon, ovo, alface, tomate e cebola roxa, no pão selado com carinho. Sempre gostoso, sempre certo!",
+          "priceCents": 3089,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/825a9336205efb8252d1ff3545331473.png",
+          "options": [
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "19794745",
+          "name": "Bacon burger",
+          "description": "Um clássico que brilha! Carne suculenta de 130g, quejo cheddar, bacon crocante, alface, tomate, cebola roxa e molho da casa, tudo no nosso pão artesanal. É impossível resistir!",
+          "priceCents": 3089,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/19340f25413a369b771f4470cdd811bf.png",
+          "options": [
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "items": [
+        {
+          "sourceId": "19794773",
+          "name": "Kids",
+          "description": "Pão, 1 Hambúrguer de carne 120g, 2 fatia de queijo, tomate selecionado, alface.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/690573a802d0d88b7067fb3f1ec42423.png",
+          "options": [
+            {
+              "name": "Turbine seu hambúrguer",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Hambúrguer + queijo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Batata+coca lata 310ml",
+                  "priceCents": 1790
+                },
+                {
+                  "name": "REQUEIJÃO (catupiry)",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milk-shake Ovomaltine 200ML",
+                  "priceCents": 990
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Barca",
+      "items": [
+        {
+          "sourceId": "19794741",
+          "name": "Barca individual",
+          "description": "1 hambúrguer artesanal de 120g, 1 porção de batata recheada com cheddar, bacon e queijo.",
+          "priceCents": 3690,
+          "originalPriceCents": 4390,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/513d4c2afc17e7157bbfb74b1d47b548.jpeg",
+          "options": [
+            {
+              "name": "Variações BARCA INDIVIDUAL",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hambúguer cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hambúguer catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hambúguer bacon",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza 8 Fatias",
+      "items": [
+        {
+          "sourceId": "21786596",
+          "name": "Carne seca com requeijão cremoso",
+          "description": "Molho de tomate Carne seca desfiada, cebola, queijo derretido e requeijão cremoso, finalizado com um toque especial de orégano. Uma combinação irresistível de sabor e cremosidade! 8 pedaços",
+          "priceCents": 6990,
+          "originalPriceCents": 7990,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/5ee620b10024ef67285c51e1c4daf727.jpeg",
+          "options": [
+            {
+              "name": "Borda com catupiry",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry",
+                  "priceCents": 1990
+                }
+              ]
+            },
+            {
+              "name": "Borda com cheddar",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de cheddar",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja tubirna sua pizza?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Milho",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Azeitona",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Tomate em rodelas",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon em cubos",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "21665201",
+          "name": "Frango com requeijão",
+          "description": "Frango suculento, catupiry cremoso, bacon crocante, milho, cebola e muita mussarela derretida com orégano! Uma combinação perfeita para quem ama sabor de verdade. 8 fatias irresistíveis",
+          "priceCents": 6990,
+          "originalPriceCents": 7490,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/4b06d74d76d1586d25506119881541c8.jpeg",
+          "options": [
+            {
+              "name": "Borda com catupiry",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry",
+                  "priceCents": 1990
+                }
+              ]
+            },
+            {
+              "name": "Borda com cheddar",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de cheddar",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja tubirna sua pizza?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Milho",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Azeitona",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Tomate em rodelas",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon em cubos",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "21665235",
+          "name": "Bacon com cheddar",
+          "description": "Uma explosão de sabor! Molho de tomate Coberto com generosas fatias de bacon, queijo mussarela derretido e cheddar cremoso e orégano que dá o toque final irresistível. Ideal para quem ama uma pizza intensa e suculenta!",
+          "priceCents": 5990,
+          "originalPriceCents": 6490,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/495b287de4c4a5c33b162e26b96498d2.png",
+          "options": [
+            {
+              "name": "Borda com catupiry",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry",
+                  "priceCents": 1990
+                }
+              ]
+            },
+            {
+              "name": "Borda com cheddar",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de cheddar",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja tubirna sua pizza?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Milho",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Azeitona",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Tomate em rodelas",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon em cubos",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "21665228",
+          "name": "Calabresa com requeijão",
+          "description": "Calabresa defumada, catupiry cremoso, mussarela derretida, cebola roxa e um toque especial de orégano. 8 Pedaço Simplesmente irresistível!",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/9ec75e81b8f55421393ca37bd80b010e.jpeg",
+          "options": [
+            {
+              "name": "Borda com catupiry",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry",
+                  "priceCents": 1990
+                }
+              ]
+            },
+            {
+              "name": "Borda com cheddar",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de cheddar",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja tubirna sua pizza?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Milho",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Azeitona",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Tomate em rodelas",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon em cubos",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Suco Natural",
+      "items": [
+        {
+          "sourceId": "19794757",
+          "name": "Suco de laranja 500ml",
+          "description": "",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/f40280580b6d400018897f39462c4886.png",
+          "options": [
+            {
+              "name": "Deseja com ou sem açucar?",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Com açucar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem açucar",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "19794848",
+          "name": "Nuggets Crocantes com Batatas Fritas",
+          "description": "Deliciosos nuggets 100% peito de frango, com uma crocância irresistível, acompanhados de batatinhas sequinhas e super crocantes. Uma combinação perfeita para qualquer momento!",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/6d955fe8241fcc0443663468e3381b5b.png",
+          "options": []
+        },
+        {
+          "sourceId": "33972073",
+          "name": "Porção de aneis de cebola empanado",
+          "description": "Aneis de cebola empanada 300g acompanhada com nosso molho da casa.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/27203d3c45d5d23dd5c89729738ccbfe.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "20768931",
+          "name": "Batata com cheddar e bacon",
+          "description": "Delicie-se com nossa porção irresistível de batatas crocantes, cobertas com um generoso cheddar e finalizadas com pedaços crocantes de bacon dourado. Uma combinação perfeita de sabores e texturas que transforma qualquer momento em uma experiência única.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/2372e58bbc0fa77f770496235d4fba38.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "31072768",
+          "name": "Batata individual",
+          "description": "Batata individual 150g",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "19794838",
+          "name": "Porção de batata frita com queijo",
+          "description": "400g de batata frita com mussarela",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/3205ece24a083695af4fa340b451e499.png",
+          "options": []
+        },
+        {
+          "sourceId": "19794756",
+          "name": "Porção de frango + batata frita",
+          "description": "Porção de frango empanado crocante 500g batata frita 300g",
+          "priceCents": 7690,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/358304a2ca8280f2436734affbc98e26.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Agua",
+      "items": [
+        {
+          "sourceId": "19794795",
+          "name": "Agua com gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/b46f697a63e9deb2e4bd50999e98b2df.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794759",
+          "name": "H2o limão",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/4ec8765a5ebff55f6d963c76cd48b3d9.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794751",
+          "name": "H2o limoneto",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/1c08c4eed06e816142ee537abd15fc31.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante 2l",
+      "items": [
+        {
+          "sourceId": "19794793",
+          "name": "Guarana antartica 2l",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/e79c7ddab92d58854d5bd4a8fc064027.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794746",
+          "name": "Coca cola 2l",
+          "description": "",
+          "priceCents": 1450,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/5cfd22775175c5b61067770f5a2c3cbb.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "33130710",
+          "name": "Coca cola 2l zero açucar",
+          "description": "",
+          "priceCents": 1450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "19794787",
+          "name": "Fanta laranja 2l",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/e2f66319328a9ecaf02a1d1cb79536f1.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794875",
+          "name": "Sprayt 2l zero açucar",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/6e8b899198f375ccd016354b9576fd62.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794869",
+          "name": "Tubaina 2l",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/2498e75eb510c1367721c9bbff15633c.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante latas",
+      "items": [
+        {
+          "sourceId": "19794760",
+          "name": "Coca lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/6825f3c1dc6e0cfd498782398ef89810.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794840",
+          "name": "Coca zero lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/fc27904acd4e1866352201d77845fcb7.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794783",
+          "name": "Guarana lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/7f435b85322957d9b097340553171f28.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794775",
+          "name": "Schweppes lata 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/8c2b469f73340bad5f1a8ec16fbcedff.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "19794879",
+          "name": "Sprayt lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/47074/store_item/34717443de100e390392bf29721d9cac.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "categoria desativada": 9
+  },
+  "notes": []
+}

@@ -44,7 +44,9 @@ function validateEstablishments(list) {
         itemIds.add(m.id);
         if (!m.name) err(`item ${j} sem nome`);
         if (!Number.isInteger(m.priceCents) || m.priceCents <= 0) err(`item ${j} preço inválido`);
+        if (m.originalPriceCents != null && (!Number.isInteger(m.originalPriceCents) || m.originalPriceCents <= m.priceCents)) err(`item ${j} preço cheio deve ser maior que o promocional`);
         if (m.image != null && (!m.image.src || !m.image.credit || !m.image.license)) err(`item ${j} imagem sem src/crédito/licença`);
+        if (m.image != null && m.image.src && !/^(assets\/|https:\/\/)/.test(m.image.src)) err(`item ${j} imagem fora de assets/`);
         (m.options || []).forEach((g, k) => {
           if (!/^[a-z0-9-]+$/.test(g.id || '') || !g.name || !Array.isArray(g.choices) || !g.choices.length) return err(`item ${j} grupo ${k} inválido`);
           const min = g.min || 0, max = g.max == null ? g.choices.length : g.max;

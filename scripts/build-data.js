@@ -1,6 +1,7 @@
 #!/usr/bin/env node
-/* Valida data/establishments.json e gera data/establishments.js (carregado pelo index.html)
-   e data/STATUS.md (contagem por cidade e pendências). Uso: node scripts/build-data.js [--check] */
+/* Valida data/establishments.json e gera data/establishments.js (carregado pelo index.html), um arquivo por cardápio
+   em data/menus/<id>.json (carregado só quando a página da loja abre) e data/STATUS.md (contagem por cidade e
+   pendências). Uso: node scripts/build-data.js [--check] */
 'use strict';
 const crypto = require('crypto');
 const fs = require('fs');
@@ -13,6 +14,8 @@ const src = path.join(root, 'data', 'establishments.json');
 const outJs = path.join(root, 'data', 'establishments.js');
 const outMd = path.join(root, 'data', 'STATUS.md');
 const indexHtml = path.join(root, 'index.html');
+const menusDir = path.join(root, 'data', 'menus');
+const previewHtml = path.join(root, 'cardapios.html');
 
 /* Versão pelo conteúdo (?v=hash): quando um arquivo muda, o endereço muda e o navegador baixa o novo
    em vez de mostrar o que guardou em cache (logo trocada com o mesmo nome de arquivo, por exemplo). */
@@ -28,15 +31,36 @@ function versionAssets(value) {
   return value;
 }
 
-/* index.html carrega css/js/dados com ?v= do conteúdo atual (o de data/establishments.js vem de `js`, ainda não gravado). */
+/* index.html e cardapios.html (prévia interna dos cardápios) carregam css/js/dados com ?v= do conteúdo atual (o de data/establishments.js vem de `js`, ainda não gravado). */
 function renderIndex(html, js) {
   return html.replace(/(<(?:script|link)[^>]*(?:src|href)=")((?:js|css|data)\/[\w.-]+\.(?:js|css))(?:\?v=[0-9a-f]+)?(")/g, (m, a, rel, b) =>
     a + rel + '?v=' + (rel === 'data/establishments.js' ? hashOf(js) : hashOf(fs.readFileSync(path.join(root, rel)))) + b);
 }
 
+/* Cardápios ficam fora do arquivo da listagem: data/menus/<id>.json, baixado quando a loja abre. A listagem leva só
+   menuCount, menuSearch (nomes dos pratos, para a busca da home) e menuFile (com ?v= do conteúdo). */
+function renderMenus(db) {
+  const files = {};
+  db.establishments.forEach(s => {
+    if (s.menu.length) files[s.id + '.json'] = JSON.stringify(versionAssets(s.menu)) + '\n';
+  });
+  return files;
+}
+
 /* O navegador não usa as notas internas de pesquisa (só o STATUS.md usa): ficam fora do arquivo carregado pelo site. */
-function renderJs(db) {
-  const establishments = db.establishments.map(({ notes, ...s }) => versionAssets(s));
+function renderJs(db, menus) {
+  menus = menus || renderMenus(db);
+  const establishments = db.establishments.map(({ notes, ...s }) => {
+    const out = versionAssets(s);
+    const file = menus[s.id + '.json'];
+    if (file) {
+      out.menuCount = s.menu.length;
+      out.menuSearch = Array.from(new Set(s.menu.map(m => m.name))).join(' · ');
+      out.menuFile = 'data/menus/' + s.id + '.json?v=' + hashOf(file);
+      out.menu = [];
+    }
+    return out;
+  });
   return '/* Gerado por scripts/build-data.js a partir de data/establishments.json — não edite à mão. */\n' +
     'window.PEDEAI_DATA=' + JSON.stringify(Object.assign({}, db, { establishments })) + ';\n';
 }
@@ -79,9 +103,13 @@ function main() {
     console.error('Cadastro inválido:\n' + errors.map(e => ' - ' + e).join('\n'));
     process.exit(1);
   }
-  const js = renderJs(db), md = renderStatus(db), html = renderIndex(fs.readFileSync(indexHtml, 'utf8'), js);
+  const menus = renderMenus(db), js = renderJs(db, menus), md = renderStatus(db), html = renderIndex(fs.readFileSync(indexHtml, 'utf8'), js);
+  const preview = renderIndex(fs.readFileSync(previewHtml, 'utf8'), js);
+  const menuPairs = Object.entries(menus).map(([f, c]) => [path.join(menusDir, f), c]);
+  const orphans = fs.existsSync(menusDir) ? fs.readdirSync(menusDir).filter(f => !menus[f]).map(f => path.join(menusDir, f)) : [];
   if (check) {
-    const stale = [[outJs, js], [outMd, md], [indexHtml, html]].filter(([f, c]) => !fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c);
+    const stale = [[outJs, js], [outMd, md], [indexHtml, html], [previewHtml, preview]].concat(menuPairs).filter(([f, c]) => !fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c)
+      .concat(orphans.map(f => [f]));
     if (stale.length) {
       console.error('Arquivos gerados desatualizados. Rode: node scripts/build-data.js\n' + stale.map(s => ' - ' + path.relative(root, s[0])).join('\n'));
       process.exit(1);
@@ -90,6 +118,10 @@ function main() {
     fs.writeFileSync(outJs, js);
     fs.writeFileSync(outMd, md);
     fs.writeFileSync(indexHtml, html);
+    fs.writeFileSync(previewHtml, preview);
+    fs.mkdirSync(menusDir, { recursive: true });
+    menuPairs.forEach(([f, c]) => { if (!fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c) fs.writeFileSync(f, c); });
+    orphans.forEach(f => fs.unlinkSync(f));
   }
   const counts = core.countByCity(db.establishments);
   console.log(`${db.establishments.length} estabelecimentos válidos`);
@@ -97,4 +129,4 @@ function main() {
 }
 
 if (require.main === module) main();
-module.exports = { renderJs, renderStatus, renderIndex };
+module.exports = { renderJs, renderMenus, renderStatus, renderIndex };

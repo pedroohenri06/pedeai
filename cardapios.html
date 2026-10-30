@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Cardápios importados | PedeAi Delivery</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Prévia interna dos cardápios importados (scripts/menus). Cada card abre a página real da loja: #/loja/<id>. */
+:root{--red:#e51b2b;--wine:#7d1019;--ink:#221719;--muted:#76696a;--cream:#f8f5ef;--paper:#fff;--line:rgba(51,8,14,.1)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--cream);color:var(--ink);font:15px/1.5 'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{width:min(100% - 32px,1180px);margin:0 auto}
+header{padding:28px 0 8px}
+.brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font:800 20px/1 Montserrat,sans-serif;letter-spacing:-.03em}
+.brand img{width:34px;height:34px;border-radius:10px;background:var(--red);padding:5px}
+h1{margin:22px 0 6px;font:800 clamp(28px,6vw,40px)/1.05 Montserrat,sans-serif;letter-spacing:-.04em}
+.lede{color:var(--muted);max-width:60ch}
+.stats{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 4px}
+.stats span{padding:7px 12px;border-radius:99px;background:var(--paper);border:1px solid var(--line);font-size:13px;font-weight:700}
+.cities{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin:18px -16px 0;padding:4px 16px 10px}
+.cities::-webkit-scrollbar{display:none}
+.cities button{flex:none;height:38px;padding:0 15px;border-radius:99px;border:1px solid var(--line);background:var(--paper);font:700 13px Montserrat,sans-serif;color:var(--ink);cursor:pointer}
+.cities button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.grid{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px;margin:12px 0 48px}
+.card{display:flex;flex-direction:column;height:100%;border-radius:22px;overflow:hidden;background:var(--paper);color:inherit;text-decoration:none;border:1px solid var(--line);box-shadow:0 1px 2px rgba(51,8,14,.04),0 14px 30px -20px rgba(51,8,14,.35);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translateY(-2px);box-shadow:0 2px 4px rgba(51,8,14,.05),0 22px 40px -20px rgba(51,8,14,.45)}
+.card:focus-visible{outline:3px solid var(--b-deep,var(--red));outline-offset:3px}
+.band{position:relative;display:flex;align-items:center;gap:14px;padding:18px;color:#fff;background:radial-gradient(90% 140% at 100% 0%,color-mix(in srgb,var(--b,var(--red)) 70%,transparent),transparent 60%),linear-gradient(125deg,var(--b-deep,#b3121f),color-mix(in srgb,var(--b-deep,#b3121f) 72%,#000))}
+.tile{flex:none;width:58px;height:58px;border-radius:16px;overflow:hidden;background:var(--b-surface,#fff);box-shadow:0 0 0 3px rgba(255,255,255,.9),0 10px 20px -10px rgba(0,0,0,.6)}
+.tile img{width:100%;height:100%;object-fit:cover}
+.band h2{font:800 17px/1.15 Montserrat,sans-serif;letter-spacing:-.02em}
+.band p{font-size:12.5px;opacity:.85}
+.meta{display:flex;flex-wrap:wrap;gap:6px;padding:14px 16px 16px;margin-top:auto}
+.meta span{padding:4px 9px;border-radius:99px;background:var(--b-soft,#fdecee);color:var(--b-deep,var(--wine));font-size:12px;font-weight:700}
+.empty{padding:40px 0;color:var(--muted)}
+@media(prefers-reduced-motion:reduce){.card{transition:none}.card:hover{transform:none}}
+</style>
+</head>
+<body>
+<header class="wrap">
+  <a class="brand" href="./"><img src="assets/media-eec8624c4b7f.png" alt="">PedeAi</a>
+  <h1>Cardápios importados</h1>
+  <p class="lede">Prévia interna: cada card abre a página real da loja, com o cardápio importado, como o cliente vê.</p>
+  <div class="stats" id="stats"></div>
+  <nav class="cities" id="cities" aria-label="Filtrar por cidade"></nav>
+</header>
+<main class="wrap"><ul class="grid" id="grid"></ul><p class="empty" id="empty" hidden>Nenhum cardápio nesta cidade.</p></main>
+<script src="js/core.js?v=e17f0bf80d"></script>
+<script src="data/establishments.js?v=eabf14bd63"></script>
+<script>
+(function () {
+  'use strict';
+  var C = window.PedeAiCore, esc = C.escapeHtml;
+  var stores = window.PEDEAI_DATA.establishments.filter(function (s) { return C.menuSize(s) > 0; })
+    .sort(function (a, b) { return a.city.localeCompare(b.city, 'pt-BR') || a.name.localeCompare(b.name, 'pt-BR'); });
+  var host = function (u) { try { return new URL(u).hostname.replace(/^www\./, ''); } catch (e) { return ''; } };
+  var items = stores.reduce(function (n, s) { return n + C.menuSize(s); }, 0);
+  document.getElementById('stats').innerHTML = '<span>' + stores.length + ' cardápios</span><span>' + items.toLocaleString('pt-BR') + ' itens</span><span>' + new Set(stores.map(function (s) { return s.city; })).size + ' cidades</span>';
+  var cities = ['Todas'].concat(C.CITIES.filter(function (c) { return stores.some(function (s) { return s.city === c; }); }));
+  var nav = document.getElementById('cities'), current = 'Todas';
+  function render() {
+    nav.innerHTML = cities.map(function (c) { return '<button type="button" aria-pressed="' + (c === current) + '" data-city="' + esc(c) + '">' + esc(c) + '</button>'; }).join('');
+    var list = stores.filter(function (s) { return current === 'Todas' || s.city === current; });
+    document.getElementById('empty').hidden = list.length > 0;
+    document.getElementById('grid').innerHTML = list.map(function (s) {
+      var b = s.brand || {}, style = ['--b:' + (b.primary || ''), '--b-deep:' + (b.deep || ''), '--b-soft:' + (b.soft || ''), '--b-surface:' + (b.surface || '')].filter(function (x) { return !/:$/.test(x); }).join(';');
+      var logo = s.logo ? '<span class="tile"><img src="' + esc(s.logo.tile || s.logo.thumb) + '" alt="" loading="lazy" decoding="async"></span>' : '';
+      return '<li><a class="card" style="' + esc(style) + '" href="./#/loja/' + esc(s.id) + '">' +
+        '<div class="band">' + logo + '<div><h2>' + esc(s.name) + '</h2><p>' + esc(s.city) + ' · ' + esc(s.category) + '</p></div></div>' +
+        '<div class="meta"><span>' + C.menuSize(s) + (C.menuSize(s) === 1 ? ' item' : ' itens') + '</span>' + (s.menuSource ? '<span>' + esc(host(s.menuSource)) + '</span>' : '') + (C.canOrder(s) ? '<span>Pedido online</span>' : '') + '</div></a></li>';
+    }).join('');
+  }
+  nav.addEventListener('click', function (e) { var b = e.target.closest('[data-city]'); if (b) { current = b.dataset.city; render(); } });
+  render();
+})();
+</script>
+</body>
+</html>

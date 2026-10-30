@@ -1,0 +1,398 @@
+{
+  "id": "hot-dog-family-querencia",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/querencia/hot-dog-family",
+  "capturedAt": "2026-10-30T22:02:06.509Z",
+  "hours": "Seg a Sex 18h–21h30",
+  "sections": [
+    {
+      "name": "Hot dog tradicional",
+      "items": [
+        {
+          "sourceId": "12967298",
+          "name": "Simples",
+          "description": "Pão, molho (com frango temperado e desfiado), 1 salsicha, milho, tomate, mussarela e batata palha.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12967299",
+          "name": "Duplo",
+          "description": "Pão, molho (com frango temperado e desfiado), 2 salsicha, milho, tomate, mussarela e batata palha.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hot dog com bacon",
+      "items": [
+        {
+          "sourceId": "12967305",
+          "name": "Simples",
+          "description": "Pão, molho (com frango temperado e desfiado), 1 salsicha, milho, tomate, bacon, mussarela e batata palha.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12967306",
+          "name": "Duplo",
+          "description": "Pão, molho (com frango temperado e desfiado), 2 salsicha, milho, tomate, bacon, mussarela e batata palha.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porção de batata",
+      "items": [
+        {
+          "sourceId": "12967323",
+          "name": "Porção de batata",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "250g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12967326",
+          "name": "Porção de batata especial",
+          "description": "Bacon e cheddar ou mussarela.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "250g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500g",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Qual queijo?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "12967342",
+          "name": "Água s/ gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12967343",
+          "name": "Água c/ gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12967344",
+          "name": "H20h! limão",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12967345",
+          "name": "H2oh! limoneto",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971408",
+          "name": "Coca-cola lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971407",
+          "name": "Coca-cola lata zero",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971406",
+          "name": "Fanta laranja lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971405",
+          "name": "Guarana lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971404",
+          "name": "Sprite lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971403",
+          "name": "Coca-cola 2 litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971402",
+          "name": "Coca-cola zero 2 litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971401",
+          "name": "Fanta laranja 2 litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971399",
+          "name": "Sprite 1,5 litros",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971398",
+          "name": "Guarana 2 litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971395",
+          "name": "Pepsi 1 litro",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971394",
+          "name": "Sukita laranja 1 litro",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "12971393",
+          "name": "Guarana 1 litro",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos naturais",
+      "items": [
+        {
+          "sourceId": "12967348",
+          "name": "Laranja",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "COPO 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jarra 1 litro",
+                  "priceCents": 1100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12967349",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "COPO 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jarra 1 litro",
+                  "priceCents": 1100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "13087303",
+          "name": "Hot dog tradicional duplo + coca cola lata",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 5
+  },
+  "notes": []
+}

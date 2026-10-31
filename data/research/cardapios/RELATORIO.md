@@ -129,8 +129,7 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://www.instagram.com/ponto.burguerbg/ (visual)
 - Categorias: 4 · Produtos: 19 · Grupos de opções: 16 (41 escolhas) · Adicionais: 0 · Fotos: 16
 - Não importados: nenhum
-- Observação: Transcrito de 4 artes dos destaques do Instagram (Açaí, Lanches tradicionais, Lanches artesanais, Combo; prints enviados pelo Pedro em 31/10/2026): 19 produtos na fonte visível, 19 cadastrados.
-- Observação: A arte "Lanches artesanais" está cortada abaixo do Ponto Picles no print: pode haver mais lanches; pendente de print completo.
+- Observação: Transcrito de 4 artes dos destaques do Instagram (Açaí, Lanches tradicionais, Lanches artesanais, Combo; prints enviados pelo Pedro em 31/10/2026): 19 produtos na fonte (confirmado pelo Pedro: a arte de lanches artesanais termina no Ponto Picles), 19 cadastrados.
 - Observação: Combos: preço base = menor combinação da arte ("a partir de"); cada hambúrguer escolhido soma a diferença para o Ponto Clássico, conforme os preços de combo da arte.
 - Observação: Fotos recortadas das próprias artes (Ponto Picles sem foto: cortada no print).
 - Pendências: 0

@@ -102,7 +102,7 @@
           "description": "Pão brioche, 1 hambúrguer caseiro, queijo mussarela ou cheddar, cebola roxa, picles, alface e tomate.",
           "priceCents": 2894,
           "originalPriceCents": null,
-          "imageUrl": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/ponto-picles.png",
           "options": [
             {
               "name": "Queijo",
@@ -119,7 +119,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
         }
       ]
     },
@@ -132,7 +133,7 @@
           "description": "2 hambúrgueres artesanais do cardápio + batata frita com cheddar e bacon + nuggets ou mais batata. Preços do combo com 16,20% de desconto.",
           "priceCents": 7123,
           "originalPriceCents": null,
-          "imageUrl": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/combo-dose-dupla.png",
           "options": [
             {
               "name": "1º hambúrguer",
@@ -203,7 +204,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
         },
         {
           "sourceId": "Combo Dose Certa",
@@ -211,7 +213,7 @@
           "description": "1 hambúrguer artesanal do cardápio + batata frita com cheddar e bacon + nuggets ou mais batata. Preços do combo com 16,20% de desconto.",
           "priceCents": 4106,
           "originalPriceCents": null,
-          "imageUrl": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/combo-dose-certa.png",
           "options": [
             {
               "name": "Hambúrguer",
@@ -255,7 +257,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
         }
       ]
     },
@@ -506,6 +509,6 @@
   "notes": [
     "Transcrito de 4 artes dos destaques do Instagram (Açaí, Lanches tradicionais, Lanches artesanais, Combo; prints enviados pelo Pedro em 31/10/2026): 19 produtos na fonte (confirmado pelo Pedro: a arte de lanches artesanais termina no Ponto Picles), 19 cadastrados.",
     "Combos: preço base = menor combinação da arte (\"a partir de\"); cada hambúrguer escolhido soma a diferença para o Ponto Clássico, conforme os preços de combo da arte.",
-    "Fotos recortadas das próprias artes (Ponto Picles sem foto: cortada no print)."
+    "Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/recortes.json."
   ]
 }

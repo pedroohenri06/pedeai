@@ -2,21 +2,21 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**34 cardápios importados** de 77 links de cardápio cadastrados · 297 categorias · 1757 produtos · 1173 grupos de opções · 4685 adicionais (opções opcionais) · 1134 fotos.
+**34 cardápios importados** de 77 links de cardápio cadastrados · 297 categorias · 1757 produtos · 1173 grupos de opções · 4685 adicionais (opções opcionais) · 1150 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | OK | Booba Sorveteria & Doceria | Água Boa | pedirdelivery | 17 | 82 | 65 | 600 | 79 | 1 | 3 |
 | OK | Ds'burguer | Água Boa | vendanozap | 2 | 17 | 7 | 42 | 17 | 0 | 0 |
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
-| OK | Açaí Royal Delivery | Barra do Garças | visual | 3 | 13 | 24 | 178 | 0 | 0 | 0 |
+| OK | Açaí Royal Delivery | Barra do Garças | visual | 3 | 13 | 24 | 178 | 13 | 0 | 0 |
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
-| OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 16 | 0 | 0 |
+| OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 19 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | Mordatto | Canarana | maisdelivery | 3 | 7 | 4 | 18 | 7 | 0 | 0 |
 | OK | POKE² Poke ao Quadrado | Canarana | yooga | 8 | 29 | 114 | 396 | 29 | 0 | 3 |
@@ -70,11 +70,11 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 ### Açaí Royal Delivery (Barra do Garças) — OK
 
 - Fonte: https://www.instagram.com/acairoyal__/ (visual)
-- Categorias: 3 · Produtos: 13 · Grupos de opções: 24 (215 escolhas) · Adicionais: 178 · Fotos: 0
+- Categorias: 3 · Produtos: 13 · Grupos de opções: 24 (215 escolhas) · Adicionais: 178 · Fotos: 13
 - Não importados: nenhum
 - Observação: Transcrito da arte "Cardápio completo" do destaque Cardápio do Instagram (print enviado pelo Pedro em 31/10/2026): 13 produtos na fonte, 13 cadastrados.
 - Observação: "Adicionais pagos" aparecem como lista geral na arte; aplicados ao Monte o seu açaí e aos copos especiais (não às marmitas). "Chocobool" da arte grafado Chocoball.
-- Observação: Fotos da arte pequenas demais (copos com ~100 px): cardápio sem fotos de produto até a loja enviar fotos ou haver referência com licença livre.
+- Observação: Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/acai-royal-delivery-barra-do-garcas/recortes.json.
 - Pendências: 0
 
 ### Bolos do Sítio Empório (Barra do Garças) — OK
@@ -127,11 +127,11 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 ### Ponto Burguer (Ponto do Hambúrguer) (Barra do Garças) — OK
 
 - Fonte: https://www.instagram.com/ponto.burguerbg/ (visual)
-- Categorias: 4 · Produtos: 19 · Grupos de opções: 16 (41 escolhas) · Adicionais: 0 · Fotos: 16
+- Categorias: 4 · Produtos: 19 · Grupos de opções: 16 (41 escolhas) · Adicionais: 0 · Fotos: 19
 - Não importados: nenhum
 - Observação: Transcrito de 4 artes dos destaques do Instagram (Açaí, Lanches tradicionais, Lanches artesanais, Combo; prints enviados pelo Pedro em 31/10/2026): 19 produtos na fonte (confirmado pelo Pedro: a arte de lanches artesanais termina no Ponto Picles), 19 cadastrados.
 - Observação: Combos: preço base = menor combinação da arte ("a partir de"); cada hambúrguer escolhido soma a diferença para o Ponto Clássico, conforme os preços de combo da arte.
-- Observação: Fotos recortadas das próprias artes (Ponto Picles sem foto: cortada no print).
+- Observação: Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/recortes.json.
 - Pendências: 0
 
 ### Sintonia Hamburgueria e Pizzaria (Campinápolis) — OK

@@ -545,7 +545,7 @@
     }).join('');
     sheet.innerHTML = '<div class="sp-sheet-backdrop" data-sheet-close></div><div class="sp-sheet-panel" role="dialog" aria-modal="true" aria-labelledby="spSheetTitle">' +
       '<button class="sp-icon-btn sp-sheet-close" type="button" data-sheet-close aria-label="Fechar">' + icon(I.close) + '</button>' +
-      '<div class="sp-sheet-scroll">' + (item.image && !item.image.small ? '<figure class="sp-sheet-media"><img src="' + esc(item.image.src) + '" alt="' + esc(item.image.alt || item.name) + '" width="960" height="600" decoding="async"></figure>' : '') +
+      '<div class="sp-sheet-scroll">' + (item.image && !item.image.small ? '<figure class="sp-sheet-media"><img class="sp-sheet-bg" src="' + esc(item.image.src) + '" alt="" aria-hidden="true" decoding="async"><img src="' + esc(item.image.src) + '" alt="' + esc(item.image.alt || item.name) + '" width="960" height="600" decoding="async"></figure>' : '') +
       '<div class="sp-sheet-body"><p class="sp-sheet-section">' + esc(item.section) + '</p><h2 id="spSheetTitle">' + esc(item.name) + '</h2>' + (item.description ? '<p class="sp-sheet-desc">' + esc(item.description) + '</p>' : '') +
       '<p class="sp-sheet-price">' + priceLabel(item) + '</p>' + (item.featured || item.originalPriceCents > item.priceCents ? '<p class="sp-sheet-tags">' + itemTags({ featured: item.featured, originalPriceCents: item.originalPriceCents, priceCents: item.priceCents }) + '</p>' : '') + groups +
       '<label class="sp-note"><span>Alguma observação? <small>Opcional</small></span><textarea id="spNote" rows="2" maxlength="140" placeholder="Ex.: sem cebola, ponto da carne"></textarea></label></div></div>' +

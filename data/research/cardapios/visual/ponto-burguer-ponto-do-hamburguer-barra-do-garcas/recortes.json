@@ -1,0 +1,144 @@
+{
+ "base": 923,
+ "imagens": {
+  "acai": "/root/.claude/uploads/39f2c645-8452-54e0-8278-2475c7cac281/f29502ce-image.png",
+  "tradicionais": "/root/.claude/uploads/39f2c645-8452-54e0-8278-2475c7cac281/ead4233b-image.png",
+  "artesanais": "/root/.claude/uploads/39f2c645-8452-54e0-8278-2475c7cac281/81018d4b-image.png",
+  "combo": "/root/.claude/uploads/39f2c645-8452-54e0-8278-2475c7cac281/a91285d8-image.png"
+ },
+ "recortes": {
+  "acai-tentacao": [
+   "acai",
+   22,
+   690,
+   222,
+   848
+  ],
+  "acai-supremo": [
+   "acai",
+   248,
+   690,
+   452,
+   848
+  ],
+  "acai-especial": [
+   "acai",
+   472,
+   690,
+   678,
+   848
+  ],
+  "acai-choconinho": [
+   "acai",
+   697,
+   690,
+   903,
+   848
+  ],
+  "acai-crocante": [
+   "acai",
+   48,
+   1150,
+   310,
+   1325
+  ],
+  "acai-ninho": [
+   "acai",
+   335,
+   1150,
+   592,
+   1325
+  ],
+  "acai-tropical": [
+   "acai",
+   610,
+   1150,
+   880,
+   1325
+  ],
+  "x-tudo": [
+   "tradicionais",
+   548,
+   617,
+   905,
+   795
+  ],
+  "x-salada-especial": [
+   "tradicionais",
+   548,
+   812,
+   905,
+   990
+  ],
+  "x-bacon": [
+   "tradicionais",
+   548,
+   1007,
+   905,
+   1180
+  ],
+  "x-bagunca": [
+   "tradicionais",
+   548,
+   1197,
+   905,
+   1385
+  ],
+  "x-salada": [
+   "tradicionais",
+   548,
+   1402,
+   905,
+   1588
+  ],
+  "ponto-monster": [
+   "artesanais",
+   580,
+   560,
+   903,
+   782
+  ],
+  "ponto-prime": [
+   "artesanais",
+   580,
+   797,
+   903,
+   1035
+  ],
+  "ponto-especial": [
+   "artesanais",
+   580,
+   1047,
+   903,
+   1290
+  ],
+  "ponto-classico": [
+   "artesanais",
+   580,
+   1302,
+   903,
+   1530
+  ],
+  "ponto-picles": [
+   "artesanais",
+   580,
+   1547,
+   903,
+   1745
+  ],
+  "combo-dose-dupla": [
+   "combo",
+   352,
+   674,
+   632,
+   940
+  ],
+  "combo-dose-certa": [
+   "combo",
+   245,
+   1080,
+   632,
+   1340
+  ]
+ }
+}

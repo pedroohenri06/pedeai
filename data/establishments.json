@@ -17490,7 +17490,7 @@
       "rank": 16,
       "brand": {
         "primary": "#ebe9d5",
-        "deep": "#706f66",
+        "deep": "#3e5e3f",
         "soft": "#fdfcfa",
         "ink": "#1b1214",
         "surface": "#436344"
@@ -19501,7 +19501,7 @@
       "rank": 10,
       "brand": {
         "primary": "#d9e1a4",
-        "deep": "#737857",
+        "deep": "#7d414a",
         "soft": "#fafbf4",
         "ink": "#1b1214",
         "surface": "#7d414a"
@@ -19676,7 +19676,7 @@
       "rank": 11,
       "brand": {
         "primary": "#e1dcc0",
-        "deep": "#787566",
+        "deep": "#2b2326",
         "soft": "#fbfbf7",
         "ink": "#1b1214",
         "surface": "#fef7d9"
@@ -22990,7 +22990,7 @@
       "rank": 19,
       "brand": {
         "primary": "#fbf492",
-        "deep": "#787546",
+        "deep": "#403832",
         "soft": "#fffef2",
         "ink": "#1b1214",
         "surface": "#fbf492"
@@ -23280,7 +23280,7 @@
       "rank": 33,
       "brand": {
         "primary": "#f9e386",
-        "deep": "#776d40",
+        "deep": "#2b2326",
         "soft": "#fefcf0",
         "ink": "#1b1214",
         "surface": "#fbf9ea"
@@ -32599,7 +32599,7 @@
       "rank": 16,
       "brand": {
         "primary": "#f2dc56",
-        "deep": "#81752e",
+        "deep": "#000000",
         "soft": "#fdfbeb",
         "ink": "#1b1214",
         "surface": "#000000"
@@ -33465,7 +33465,7 @@
       "rank": 36,
       "brand": {
         "primary": "#fcee69",
-        "deep": "#797232",
+        "deep": "#000000",
         "soft": "#fffded",
         "ink": "#1b1214",
         "surface": "#000000"
@@ -39665,7 +39665,7 @@
       "rank": 18,
       "brand": {
         "primary": "#f9e483",
-        "deep": "#776d3f",
+        "deep": "#2b2326",
         "soft": "#fefcf0",
         "ink": "#1b1214",
         "surface": "#ffffff"
@@ -46244,7 +46244,7 @@
       "featured": true,
       "brand": {
         "primary": "#fef84f",
-        "deep": "#797726",
+        "deep": "#863617",
         "soft": "#fffeea",
         "ink": "#1b1214",
         "surface": "#fef84f"
@@ -48088,7 +48088,7 @@
       "rank": 31,
       "brand": {
         "primary": "#cebc62",
-        "deep": "#7a6f3a",
+        "deep": "#2b2b2b",
         "soft": "#f9f7ec",
         "ink": "#1b1214",
         "surface": "#000000"
@@ -48294,7 +48294,7 @@
       "rank": 23,
       "brand": {
         "primary": "#fdf654",
-        "deep": "#797628",
+        "deep": "#050301",
         "soft": "#fffeea",
         "ink": "#1b1214",
         "surface": "#050301"
@@ -50869,7 +50869,7 @@
       "rank": 7,
       "brand": {
         "primary": "#f8df6f",
-        "deep": "#84773b",
+        "deep": "#731913",
         "soft": "#fefbee",
         "ink": "#1b1214",
         "surface": "#f8df6f"
@@ -59621,14 +59621,3797 @@
         "kind": "prato",
         "sourceUrl": "https://www.google.com/maps/place/Dad+Burger/@-15.8867522,-52.2543968,17z"
       },
-      "menuSource": null,
-      "menu": [],
+      "menuSource": "https://dadburger.bigd.im/wapp/dadburger/store/#/delivery/loja/dadburger",
+      "menu": [
+        {
+          "id": "brownie-chocolate-ao-leite",
+          "section": "Sobremesas",
+          "name": "Brownie chocolate ao leite",
+          "description": "",
+          "priceCents": 999,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/05156437da01.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/05156437da01-sm.webp",
+            "alt": "Brownie chocolate ao leite — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/2796449/img/9e2174d1-0d52-4988-a3e3-10af2632a88e.png"
+          }
+        },
+        {
+          "id": "brownie-de-chocolate-com-creme-de-avela",
+          "section": "Sobremesas",
+          "name": "Brownie de chocolate com creme de avelã",
+          "description": "",
+          "priceCents": 999,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/e5558d8a3ef9.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/e5558d8a3ef9-sm.webp",
+            "alt": "Brownie de chocolate com creme de avelã — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/2796450/img/30ab0f65-05c5-4a0f-9898-bbd791942af1.png"
+          }
+        },
+        {
+          "id": "brownie-de-chocolate-meio-amargo",
+          "section": "Sobremesas",
+          "name": "Brownie de chocolate meio amargo",
+          "description": "",
+          "priceCents": 999,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/55003106d9bc.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/55003106d9bc-sm.webp",
+            "alt": "Brownie de chocolate meio amargo — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://storage.bigdim.com.br/390a4d3c-e274-40a5-b6e7-2fd49520ff9f.png"
+          }
+        },
+        {
+          "id": "big-dad",
+          "section": "Tradicionais",
+          "name": "Big dad",
+          "description": "Pão + hamburguer + presunto + mussarela + bacon crocante + calabresa acebolada + salsicha + ovo + salada.",
+          "priceCents": 2990,
+          "featured": true,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/55f565895fc6.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/55f565895fc6-sm.webp",
+            "alt": "Big dad — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28378/img/c1dc46eb-e8d5-45dd-9aee-08340d81d4f8.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-calabacon",
+          "section": "Tradicionais",
+          "name": "Dad calabacon",
+          "description": "Pão + hamburguer + presunto + bacon crocante + mussarela + calabresa acebolada + ovo + salada.",
+          "priceCents": 2890,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/79d730d3ac97.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/79d730d3ac97-sm.webp",
+            "alt": "Dad calabacon — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28381/img/dacd8f8b-b097-4613-8459-848a81266b28.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-bacon",
+          "section": "Tradicionais",
+          "name": "Dad bacon",
+          "description": "Pão + hamburguer + presunto + mussarela + bacon crocante + ovo + salada.",
+          "priceCents": 2690,
+          "featured": true,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/b11827247f48.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/b11827247f48-sm.webp",
+            "alt": "Dad bacon — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28379/img/429ed60d-238b-4aa9-9050-b27f696902e1.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-calabresa",
+          "section": "Tradicionais",
+          "name": "Dad calabresa",
+          "description": "Pão + hamburguer + presunto + mussarela + calabresa acebolada + ovo + salada.",
+          "priceCents": 2690,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/79d730d3ac97.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/79d730d3ac97-sm.webp",
+            "alt": "Dad calabresa — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28381/img/dacd8f8b-b097-4613-8459-848a81266b28.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-dog",
+          "section": "Tradicionais",
+          "name": "Dad dog",
+          "description": "Pão + hamburguer + presunto + mussarela + salsicha + ovo + salada.",
+          "priceCents": 2690,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/ba8e533f3722.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/ba8e533f3722-sm.webp",
+            "alt": "Dad dog — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28382/img/8d928e6c-cb23-417d-a8b8-75a05779f866.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-queijo",
+          "section": "Tradicionais",
+          "name": "Dad queijo",
+          "description": "Pão + hamburguer + mussarela + queijo provolone + queijo prato + queijo cheddar fatiado + ovo + salada.",
+          "priceCents": 2790,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/1d06bb182923.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/1d06bb182923-sm.webp",
+            "alt": "Dad queijo — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28384/img/52b1384f-bc5d-46c3-bc2c-8bff28d0f578.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-burger",
+          "section": "Tradicionais",
+          "name": "Dad burger",
+          "description": "Pão + hamburguer + presunto + mussarela + ovo + salada.",
+          "priceCents": 2390,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/e0749764c495.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/e0749764c495-sm.webp",
+            "alt": "Dad burger — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/2477040/img/b1e26837-be5a-47e9-821d-adc0dd625b03.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-kids",
+          "section": "Tradicionais",
+          "name": "Dad kids",
+          "description": "Pão + hamburguer + presunto + mussarela + salada.",
+          "priceCents": 2290,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/573491d7a4fc.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/573491d7a4fc-sm.webp",
+            "alt": "Dad kids — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28383/img/9e649aa8-2810-4048-ad9a-200e07868a88.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "super-dad",
+          "section": "Especiais",
+          "name": "Super dad",
+          "description": "Pão + hamburguer + (hamburguer de picanha ou filé mignon ou filé de frango) + mussarela + cheddar fatiado + bacon crocante + cebola empanada + salsicha.+ calabresa acebolada + salada.",
+          "priceCents": 4390,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/daad88de2042.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/daad88de2042-sm.webp",
+            "alt": "Super dad — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28393/img/db65e883-2e59-450c-bb5b-edeae633b979.png"
+          },
+          "options": [
+            {
+              "id": "escolha-a-segunda-carne",
+              "name": "Escolha a segunda carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 0
+                },
+                {
+                  "id": "file-mignon-grelhado",
+                  "name": "Filé mignon grelhado",
+                  "priceCents": 0
+                },
+                {
+                  "id": "file-de-frango-grelhado",
+                  "name": "Filé de frango grelhado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-picanha",
+          "section": "Especiais",
+          "name": "Dad picanha",
+          "description": "Pão + hambúrguer de picanha + mussarela + cheddar fatiado + bacpn crocante + cebola grelhada + salada.",
+          "priceCents": 3790,
+          "featured": true,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/8d87320fb387.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/8d87320fb387-sm.webp",
+            "alt": "Dad picanha — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28387/img/2df02f66-6070-4702-a9a6-38361b5341f8.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-bacon-supremo",
+          "section": "Especiais",
+          "name": "Dad bacon supremo",
+          "description": "HAMBÚRGUER + MUSSARELA DUPLA + BACON EMPANADO (100g) + MOLHO VERDE + SALADA",
+          "priceCents": 3690,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/779c374629be.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/779c374629be-sm.webp",
+            "alt": "Dad bacon supremo — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/461433/img/40baabe1-56e9-4424-a043-0c722c0c4447.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-twist",
+          "section": "Especiais",
+          "name": "Dad twist",
+          "description": "Hamburguer + frango desfiado + musarela dupla + bacon crocante + cebola crispy + molho dad especial + salada",
+          "priceCents": 3090,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/d05779ae567b.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/d05779ae567b-sm.webp",
+            "alt": "Dad twist — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/247824/img/73c24be9-4fe8-4916-b9da-a8aad65303e4.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "chicken-dad-supremo",
+          "section": "Especiais",
+          "name": "Chicken dad supremo",
+          "description": "Pão + frango crocante + mussarela + cebola crispy + bacon crocante + molho verde + salada.",
+          "priceCents": 3790,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/569e3ea67892.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/569e3ea67892-sm.webp",
+            "alt": "Chicken dad supremo — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28385/img/657c58ed-1b34-4ac9-af5b-8c2a4d7fec8e.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 600
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 250
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 450
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 550
+                },
+                {
+                  "id": "calabresa-acebolada",
+                  "name": "Calabresa acebolada",
+                  "priceCents": 550
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 500
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 450
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 500
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1650
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1650
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 900
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 450
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "steak-file-mignon",
+          "section": "Especiais",
+          "name": "Steak filé mignon",
+          "description": "Pão + filé mignon + musarela + bacon crocante+ cebola empanada + salada.",
+          "priceCents": 3490,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/c860df44cd08.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/c860df44cd08-sm.webp",
+            "alt": "Steak filé mignon — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28391/img/50e46027-686d-4921-a27a-4ce33587d203.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "steak-frango",
+          "section": "Especiais",
+          "name": "Steak frango",
+          "description": "Pão + filé de frango + mussarela + queijo provolone + bacon crocante + cebola grelhada + salada.",
+          "priceCents": 2990,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/a0cbddb9a096.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/a0cbddb9a096-sm.webp",
+            "alt": "Steak frango — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28392/img/2eb492b3-49e1-4918-b241-a3310b1934ec.png"
+          },
+          "options": [
+            {
+              "id": "transforme-seu-sanduiche-em-combo",
+              "name": "Transforme seu sanduíche em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "cebola-empanada-bebida-lata",
+                  "name": "Cebola empanada +bebida lata",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 23,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "bacon-crocante",
+                  "name": "Bacon crocante",
+                  "priceCents": 600
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 450
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "hamburguer-de-picanha",
+                  "name": "Hambúrguer de picanha",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-mignon",
+                  "name": "Filé mignon",
+                  "priceCents": 1750
+                },
+                {
+                  "id": "file-de-frango",
+                  "name": "Filé de frango",
+                  "priceCents": 950
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "dad-vegetariano",
+          "section": "Especiais",
+          "name": "Dad vegetariano",
+          "description": "Pão + hambúrguer de soja + mussarela + queijo provolone + cebola grelhada + cenoura ralada + salada.",
+          "priceCents": 2790,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/6582246ec972.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/6582246ec972-sm.webp",
+            "alt": "Dad vegetariano — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/28389/img/9db84065-5f59-49df-94f7-37d47a50ce83.png"
+          },
+          "options": [
+            {
+              "id": "adicione-molho-verde-ao-seu-pedido",
+              "name": "Adicione molho verde ao seu pedido",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "molho-verde-30ml",
+                  "name": "Molho verde 30ml",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "id": "adicional-gratis",
+              "name": "Adicional grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "adicional-de-molho-dad-especial",
+                  "name": "Adicional de molho dad especial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-molho-verde",
+                  "name": "Adicional de molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-barbecue",
+                  "name": "Adicional de barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-catupiry",
+                  "name": "Adicional de catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cheddar-cremoso",
+                  "name": "Adicional de cheddar cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "id": "adicional-de-cream-cheese",
+                  "name": "Adicional de cream cheese",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "id": "adicional-de-catchup-e-maionese-sache",
+                  "name": "Adicional de catchup e maionese (sachê)",
+                  "priceCents": 300
+                },
+                {
+                  "id": "molho-dad-especial",
+                  "name": "Molho dad especial",
+                  "priceCents": 300
+                },
+                {
+                  "id": "catupiry",
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cheddar-cremoso",
+                  "name": "Cheddar cremoso",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cream-cheese",
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "id": "barbecue",
+                  "name": "Barbecue",
+                  "priceCents": 300
+                },
+                {
+                  "id": "cebola-crispy",
+                  "name": "Cebola crispy",
+                  "priceCents": 550
+                },
+                {
+                  "id": "hamburguer-de-soja",
+                  "name": "Hambúrguer de soja",
+                  "priceCents": 650
+                },
+                {
+                  "id": "cenoura-ralada",
+                  "name": "Cenoura ralada",
+                  "priceCents": 150
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 280
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 480
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "id": "provolone",
+                  "name": "Provolone",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cheddar-fatiado",
+                  "name": "Cheddar fatiado",
+                  "priceCents": 480
+                },
+                {
+                  "id": "queijo-prato",
+                  "name": "Queijo prato",
+                  "priceCents": 530
+                },
+                {
+                  "id": "cebola-empanada",
+                  "name": "Cebola empanada",
+                  "priceCents": 480
+                },
+                {
+                  "id": "cebola-grelhada",
+                  "name": "Cebola grelhada",
+                  "priceCents": 150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "combo-cebola-empanada-bebida",
+          "section": "Combos",
+          "name": "Combo cebola empanada + bebida",
+          "description": "",
+          "priceCents": 1499,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/55780ecf696c.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/55780ecf696c-sm.webp",
+            "alt": "Combo cebola empanada + bebida — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://storage.bigdim.com.br/7d1fddda-3309-4786-a7ea-c1094d1f8230.png"
+          },
+          "options": [
+            {
+              "id": "bebidas",
+              "name": "Bebidas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "coca-cola",
+                  "name": "Coca cola",
+                  "priceCents": 0
+                },
+                {
+                  "id": "fanta",
+                  "name": "Fanta",
+                  "priceCents": 0
+                },
+                {
+                  "id": "guarana",
+                  "name": "Guaraná",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sprite",
+                  "name": "Sprite",
+                  "priceCents": 0
+                },
+                {
+                  "id": "guarana-zero",
+                  "name": "Guaraná zero",
+                  "priceCents": 0
+                },
+                {
+                  "id": "coca-cola-zero",
+                  "name": "Coca cola zero",
+                  "priceCents": 0
+                },
+                {
+                  "id": "suco-de-uva-lata",
+                  "name": "Suco de uva lata",
+                  "priceCents": 0
+                },
+                {
+                  "id": "suco-de-maracuja-lata",
+                  "name": "Suco de maracujá lata",
+                  "priceCents": 0
+                },
+                {
+                  "id": "suco-de-pessego",
+                  "name": "Suco de pessêgo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bacon-sticks",
+          "section": "Porçoes",
+          "name": "Bacon sticks",
+          "description": "Tiras de bacon empanados, acompanha molho verde.",
+          "priceCents": 2090,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/289844353d5d.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/289844353d5d-sm.webp",
+            "alt": "Bacon sticks — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/247826/img/473c602c-b791-4b23-b7b6-0373572dc21a.png"
+          }
+        },
+        {
+          "id": "chicken-dad-s",
+          "section": "Porçoes",
+          "name": "Chicken dad´s",
+          "description": "Tiras de frango crocantes, acompanhadas de molho verde.",
+          "priceCents": 1890,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/9da08ca4e74a.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/9da08ca4e74a-sm.webp",
+            "alt": "Chicken dad´s — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://storage.bigdim.com.br/d02ae2f1-e40e-4666-83db-6a8fdecb9305.png"
+          }
+        },
+        {
+          "id": "cebola-empanada",
+          "section": "Porçoes",
+          "name": "Cebola empanada",
+          "description": "",
+          "priceCents": 1290,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/7107c13b42e7.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/7107c13b42e7-sm.webp",
+            "alt": "Cebola empanada — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://storage.bigdim.com.br/d5f8362f-abc1-464f-858e-84dd245e49e8.png"
+          }
+        },
+        {
+          "id": "coca-cola-lata",
+          "section": "Bebidas",
+          "name": "Coca cola lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/3a6c271906c1.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/3a6c271906c1-sm.webp",
+            "alt": "Coca cola lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/15847/img/6e4f5f35-8bb7-4c08-86f3-33820ae9baf2.jpg"
+          }
+        },
+        {
+          "id": "coca-cola-zero-lata",
+          "section": "Bebidas",
+          "name": "Coca cola zero lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/3a7ce8f27201.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/3a7ce8f27201-sm.webp",
+            "alt": "Coca cola zero lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/255168/img/27f039ce-b1f1-4b49-8ce9-baaa7dba5291.jpeg"
+          }
+        },
+        {
+          "id": "coca-cola-600-ml",
+          "section": "Bebidas",
+          "name": "Coca cola 600 ml",
+          "description": "",
+          "priceCents": 900,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/24d2ec5c0ac2.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/24d2ec5c0ac2-sm.webp",
+            "alt": "Coca cola 600 ml — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/15849/img/5e83c216-f76b-4545-aa90-2d59b1c171b3.jpg"
+          }
+        },
+        {
+          "id": "coca-cola-zero-600ml",
+          "section": "Bebidas",
+          "name": "Coca cola zero 600ml",
+          "description": "",
+          "priceCents": 900,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/8c8bb9d345fb-sm.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/8c8bb9d345fb-sm.webp",
+            "alt": "Coca cola zero 600ml — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/2165745/img/4348ec00-5716-4506-b7cd-1f2b9b98e7f0.jpeg",
+            "small": true
+          }
+        },
+        {
+          "id": "coca-cola-1-5l",
+          "section": "Bebidas",
+          "name": "Coca cola 1,5l",
+          "description": "",
+          "priceCents": 1150,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/24d2ec5c0ac2.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/24d2ec5c0ac2-sm.webp",
+            "alt": "Coca cola 1,5l — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/15849/img/5e83c216-f76b-4545-aa90-2d59b1c171b3.jpg"
+          }
+        },
+        {
+          "id": "coca-cola-zero-1-5l",
+          "section": "Bebidas",
+          "name": "Coca cola zero 1,5l",
+          "description": "",
+          "priceCents": 1150,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/f71554c09b0f.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/f71554c09b0f-sm.webp",
+            "alt": "Coca cola zero 1,5l — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263041/img/74a4a862-0394-4bd9-80f8-31901cae4fb0.jpg"
+          }
+        },
+        {
+          "id": "fanta-lata",
+          "section": "Bebidas",
+          "name": "Fanta lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/ae8d4ebdee94.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/ae8d4ebdee94-sm.webp",
+            "alt": "Fanta lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/255172/img/5e7f208b-bbbe-4497-9bbd-7e2873d07768.png"
+          }
+        },
+        {
+          "id": "fanta-uva-lata",
+          "section": "Bebidas",
+          "name": "Fanta uva lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/21a3a1f32241-sm.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/21a3a1f32241-sm.webp",
+            "alt": "Fanta uva lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/255175/img/8a030356-611c-482b-8e30-8f6ec615a0ec.png",
+            "small": true
+          }
+        },
+        {
+          "id": "fanta-1-5l",
+          "section": "Bebidas",
+          "name": "Fanta 1,5l",
+          "description": "",
+          "priceCents": 1150,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/0cfa2a0ce8f2.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/0cfa2a0ce8f2-sm.webp",
+            "alt": "Fanta 1,5l — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/15856/img/f7d663ed-4a29-4beb-b45f-549ce346046f.jpg"
+          }
+        },
+        {
+          "id": "sprite-lata",
+          "section": "Bebidas",
+          "name": "Sprite lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/c19f11c2722a.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/c19f11c2722a-sm.webp",
+            "alt": "Sprite lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/15863/img/8fe09346-6fe5-4c67-b224-0678f1cb7908.jpg"
+          }
+        },
+        {
+          "id": "guarana-lata",
+          "section": "Bebidas",
+          "name": "Guaraná lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/3ac765bbcc59.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/3ac765bbcc59-sm.webp",
+            "alt": "Guaraná lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263060/img/6fc9506b-e656-4f56-9ec8-f097da926643.jpg"
+          }
+        },
+        {
+          "id": "guarana-zero-lata",
+          "section": "Bebidas",
+          "name": "Guaraná zero lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/1f4151502dc7.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/1f4151502dc7-sm.webp",
+            "alt": "Guaraná zero lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263063/img/312ca90d-cbfd-49a6-af8c-ea37f0090d64.jpg"
+          }
+        },
+        {
+          "id": "guarana-1-5l",
+          "section": "Bebidas",
+          "name": "Guaraná 1,5l",
+          "description": "",
+          "priceCents": 1150,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/b0f32a63b9e0.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/b0f32a63b9e0-sm.webp",
+            "alt": "Guaraná 1,5l — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263053/img/9fa05815-7c59-4c47-b9cc-34c6f1234c03.jpg"
+          }
+        },
+        {
+          "id": "guarana-1l",
+          "section": "Bebidas",
+          "name": "Guaraná 1l",
+          "description": "",
+          "priceCents": 900,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/afb3b115045e.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/afb3b115045e-sm.webp",
+            "alt": "Guaraná 1l — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263056/img/54d16d88-a4fd-4a2b-81d7-de048f3aa3e7.jpg"
+          }
+        },
+        {
+          "id": "agua-com-gas",
+          "section": "Bebidas",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 500,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/732a556e2d9c.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/732a556e2d9c-sm.webp",
+            "alt": "Água com gás — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/255158/img/93d74033-0852-4272-956d-47319f736bfa.jpeg"
+          }
+        },
+        {
+          "id": "agua-sem-gas",
+          "section": "Bebidas",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 400,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/27b29a943615.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/27b29a943615-sm.webp",
+            "alt": "Água sem gás — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/255162/img/175fd549-b332-450a-ba55-d650df48ad6c.jpeg"
+          }
+        },
+        {
+          "id": "agua-tonica-lata",
+          "section": "Bebidas",
+          "name": "Agua tônica lata",
+          "description": "",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/71e58a439c37.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/71e58a439c37-sm.webp",
+            "alt": "Agua tônica lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263030/img/559234d6-5447-44ff-9ad9-4c90c46b8a67.jpg"
+          }
+        },
+        {
+          "id": "h2o",
+          "section": "Bebidas",
+          "name": "H2o",
+          "description": "",
+          "priceCents": 900,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/c1e0a03aff75.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/c1e0a03aff75-sm.webp",
+            "alt": "H2o — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263068/img/4967feb7-02b7-4475-9b78-3c96e73d3b2d.jpg"
+          }
+        },
+        {
+          "id": "h2o-limoneto",
+          "section": "Bebidas",
+          "name": "H2o limoneto",
+          "description": "",
+          "priceCents": 900,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/307e72abfc7e.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/307e72abfc7e-sm.webp",
+            "alt": "H2o limoneto — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263069/img/a10d2d2b-1089-4b71-9506-66bf0f69e8e7.jpg"
+          }
+        },
+        {
+          "id": "suco-de-uva-lata",
+          "section": "Bebidas",
+          "name": "Suco de uva lata",
+          "description": "",
+          "priceCents": 800,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/bb2a02850f47.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/bb2a02850f47-sm.webp",
+            "alt": "Suco de uva lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/15853/img/c532cd3b-e944-4799-b72f-8d85147db361.jpg"
+          }
+        },
+        {
+          "id": "suco-de-pessego-lata",
+          "section": "Bebidas",
+          "name": "Suco de pessego lata",
+          "description": "",
+          "priceCents": 800,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/06768f88977d.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/06768f88977d-sm.webp",
+            "alt": "Suco de pessego lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://storage.bigdim.com.br/a5f09b61-ea28-4bbc-b7b0-6f3b77152c58.jpg"
+          }
+        },
+        {
+          "id": "suco-de-maracuja-lata",
+          "section": "Bebidas",
+          "name": "Suco de maracujá lata",
+          "description": "",
+          "priceCents": 800,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/af62388469b5-sm.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/af62388469b5-sm.webp",
+            "alt": "Suco de maracujá lata — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://storage.bigdim.com.br/046291a9-0fb7-47ba-ae29-46f9cac7a49e.jfif",
+            "small": true
+          }
+        },
+        {
+          "id": "suco-de-1l-maracuja",
+          "section": "Bebidas",
+          "name": "Suco de 1l maracujá",
+          "description": "",
+          "priceCents": 1500,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/52cc9ba0f386-sm.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/52cc9ba0f386-sm.webp",
+            "alt": "Suco de 1l maracujá — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263093/img/c740ea10-7819-4b45-a2ad-2975216f48b9.jpg",
+            "small": true
+          }
+        },
+        {
+          "id": "suco-de-pessego-1l",
+          "section": "Bebidas",
+          "name": "Suco de pêssego 1l",
+          "description": "",
+          "priceCents": 1500,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/523aca644e2c.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/523aca644e2c-sm.webp",
+            "alt": "Suco de pêssego 1l — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://storage.bigdim.com.br/40efe61b-7348-4974-b848-ab96bf68d29d.jpg"
+          }
+        },
+        {
+          "id": "suco-de-uva-1l",
+          "section": "Bebidas",
+          "name": "Suco de uva 1l",
+          "description": "",
+          "priceCents": 1500,
+          "image": {
+            "src": "assets/menu/dad-burger-barra-do-garcas/35bd77cd722a.webp",
+            "thumb": "assets/menu/dad-burger-barra-do-garcas/35bd77cd722a-sm.webp",
+            "alt": "Suco de uva 1l — Dad Burger",
+            "credit": "Dad Burger",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://www.bigdim.com.br/arquivo/download/263094/img/cd055f74-49d8-41d1-8a34-0275ce886515.jpg"
+          }
+        }
+      ],
       "sources": [
         "https://www.ifood.com.br/delivery/barra-do-garcas-mt/dad-burger-centro/30a2aeae-d8ad-4a6a-8159-7403614b039a",
-        "https://www.instagram.com/dadburgeroficial/"
+        "https://www.instagram.com/dadburgeroficial/",
+        "https://dadburger.bigd.im/wapp/dadburger/store/#/delivery/loja/dadburger"
       ],
       "confidence": "baixa",
-      "verifiedAt": "2026-10-28",
+      "verifiedAt": "2026-10-31",
       "notes": "Só aparece no iFood (bairro Centro), sem cardápio nem preços no trecho indexado. Não foi confirmado se está ativa. Instagram @dadburgeroficial conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa link de pedido \"https://dadburger.bigd.im\", diferente do cadastro.",
       "logo": {
         "src": "assets/stores/dad-burger-barra-do-garcas-logo.webp",
@@ -59646,7 +63429,7 @@
       "featured": true,
       "brand": {
         "primary": "#fef84f",
-        "deep": "#797726",
+        "deep": "#060604",
         "soft": "#fffeea",
         "ink": "#1b1214",
         "surface": "#fef84f"
@@ -60309,7 +64092,7 @@
       "rank": 13,
       "brand": {
         "primary": "#e7d76f",
-        "deep": "#7b723b",
+        "deep": "#2b2326",
         "soft": "#fcfaee",
         "ink": "#1b1214",
         "surface": "#fefefe"
@@ -64456,7 +68239,7 @@
       "rank": 26,
       "brand": {
         "primary": "#fcf795",
-        "deep": "#797647",
+        "deep": "#2b2326",
         "soft": "#fffef2",
         "ink": "#1b1214",
         "surface": "#fefefe"

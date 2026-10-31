@@ -1,8 +1,8 @@
 # Relatório de importação dos cardápios
 
-Gerado por `node scripts/menus/report.js` em 2026-10-30. Fontes: `data/research/cardapios/fontes.json`.
+Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**29 cardápios importados** de 77 links de cardápio cadastrados · 264 categorias · 1487 produtos · 863 grupos de opções · 2975 adicionais (opções opcionais) · 882 fotos.
+**30 cardápios importados** de 77 links de cardápio cadastrados · 270 categorias · 1535 produtos · 928 grupos de opções · 3463 adicionais (opções opcionais) · 930 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -11,6 +11,7 @@ Gerado por `node scripts/menus/report.js` em 2026-10-30. Fontes: `data/research/
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
+| OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | Mordatto | Canarana | maisdelivery | 3 | 7 | 4 | 18 | 7 | 0 | 0 |
@@ -76,6 +77,13 @@ Gerado por `node scripts/menus/report.js` em 2026-10-30. Fontes: `data/research/
 
 - Fonte: https://menu.brendi.com.br/casarao (brendi)
 - Categorias: 13 · Produtos: 109 · Grupos de opções: 64 (482 escolhas) · Adicionais: 423 · Fotos: 109
+- Não importados: nenhum
+- Pendências: 0
+
+### Dad Burger (Barra do Garças) — OK
+
+- Fonte: https://dadburger.bigd.im/wapp/dadburger/store/#/delivery/loja/dadburger (bigdim)
+- Categorias: 6 · Produtos: 48 · Grupos de opções: 65 (500 escolhas) · Adicionais: 488 · Fotos: 48
 - Não importados: nenhum
 - Pendências: 0
 
@@ -348,11 +356,6 @@ Gerado por `node scripts/menus/report.js` em 2026-10-30. Fontes: `data/research/
 ### Churrascaria O Panelão (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/churrascaria-o-panelao-centro/6aa02299-c63f-40a1-82f4-cf34904fbacd (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
-
-### Dad Burger (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/dad-burger-centro/30a2aeae-d8ad-4a6a-8159-7403614b039a (ifood)
 - Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
 ### Dantes (Barra do Garças) — Sem cardápio público

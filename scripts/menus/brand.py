@@ -71,6 +71,12 @@ def palette(path):
         if contrast(deep, (255, 255, 255)) >= 4.5:
             break
         deep = shade(deep, 0.9)
+    # Amarelo puro escurecido vira verde-oliva: nesses casos a cor escura é a mais escura dominante da própria logo.
+    hue = colorsys.rgb_to_hls(*(c / 255 for c in best))[0] * 360
+    if 48 <= hue <= 72 and colorsys.rgb_to_hls(*(c / 255 for c in best))[1] > 0.55:
+        darks = [tuple(pal[i * 3: i * 3 + 3]) for n, i in counts if n > 20]
+        darks = [c for c in darks if contrast(c, (255, 255, 255)) >= 7]
+        deep = darks[0] if darks else (43, 35, 38)
     soft = mix(best, (255, 255, 255), 0.88)
     ink = "#ffffff" if contrast(best, (255, 255, 255)) >= 3 else "#1b1214"
     return {"primary": hexc(best), "deep": hexc(deep), "soft": hexc(soft), "ink": ink, "surface": hexc(surface)}

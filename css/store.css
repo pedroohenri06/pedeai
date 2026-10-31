@@ -547,3 +547,5 @@ body.store-open .bottom-nav{display:none}
 @media(max-width:380px){.sp-top-inner{grid-template-columns:minmax(40px,1fr) auto minmax(40px,1fr);gap:6px}.sp-brand-tag{letter-spacing:.1em}}
 .sp-vitrine-facts span+span::before{content:"";display:inline-block;width:4px;height:4px;margin:0 9px 2px 0;border-radius:50%;background:currentColor;opacity:.6;vertical-align:middle}
 .sp-vitrine-facts{gap:4px 9px}
+/* Selo "Pedido online" legível sobre a capa (foto ou degradê): fundo claro e texto na cor da marca. */
+.sp-cover .sp-chip--on{background:rgba(255,255,255,.94);border-color:transparent;color:var(--b-deep);text-shadow:none}

@@ -29,6 +29,7 @@ function toMenu(store, snap, photos) {
     if (ph) {
       item.image = { src: ph.src || ph.thumb, thumb: ph.thumb, alt: it.name + ' — ' + store.name, credit: store.name, license: LICENSE, sourceUrl: it.imageSource || it.imageUrl };
       if (!ph.src) item.image.small = true;
+      if (it.imageCredit) Object.assign(item.image, { credit: it.imageCredit || store.name, license: it.imageLicense || LICENSE });
     }
     if (it.options && it.options.length) {
       const gid = L.idFactory();

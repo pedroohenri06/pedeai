@@ -98,8 +98,23 @@ function priceFromRequiredGroup(item, notes) {
   return item;
 }
 
+/* Seções de vitrine da plataforma ("Mais pedidos", "Destaques"...) que só repetem itens de outras seções viram a
+   marcação de destaque desses itens (carrossel do PedeAi) em vez de aparecer duplicadas no cardápio. */
+const SHOWCASE = /^(mais pedidos|mais vendidos|destaques?|recomendad[oa]s|os queridinhos|top vendas)$/i;
+function foldShowcases(secs) {
+  const key = it => it.name.toLowerCase() + '|' + it.priceCents;
+  return secs.filter(s => {
+    if (!SHOWCASE.test(s.name.trim())) return true;
+    const others = new Map();
+    secs.filter(o => o !== s).forEach(o => o.items.forEach(it => others.set(key(it), it)));
+    if (!s.items.every(it => others.has(key(it)))) return true;
+    s.items.forEach(it => { others.get(key(it)).featured = true; });
+    return false;
+  });
+}
+
 function snapshot(meta, sections, extra) {
-  const secs = sections.map(s => ({ name: displayName(s.name) || 'Cardápio', items: s.items.filter(Boolean) })).filter(s => s.items.length);
+  const secs = foldShowcases(sections.map(s => ({ name: displayName(s.name) || 'Cardápio', items: s.items.filter(Boolean) })).filter(s => s.items.length));
   const out = Object.assign({ id: meta.id, platform: meta.platform, source: meta.finalUrl || meta.url, capturedAt: meta.capturedAt, hours: null, sections: secs, skipped: {}, notes: [] }, extra || {});
   out.hours = realHours(out.hours);
   return out;

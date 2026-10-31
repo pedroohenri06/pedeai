@@ -15,8 +15,8 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 | Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 1 | 0 |
 | Nova Xavantina | 35 | 25 | 17 | 0 | 0 |
-| Barra do Garças | 30 | 30 | 7 | 5 | 1 |
-| **Total** | **311** | **289** | **75** | **31** | **4** |
+| Barra do Garças | 30 | 30 | 7 | 6 | 2 |
+| **Total** | **311** | **289** | **75** | **32** | **5** |
 
 ## Pendências por estabelecimento
 
@@ -339,7 +339,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 - **Casarão Beer / Churrascaria** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @casaraobeer.bg (688 posts, 13900 seguidores, último post 2026-10-28). DÚVIDA de cidade: não escrita na bio; handle ".bg" e fone DDD 66 (reserva com Adriana, só texto → phone).
 - **Cheff do Espeto** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @cheffdoespeto_ (17 posts, 11400 seguidores, último post 2026-10-28). Nome "CHEFF DO ESPETO | BARRA DO GARÇAS - MT". Posts: agora também no iFood.
 - **Churrascaria O Panelão** — WhatsApp não verificado; cardápio pendente; endereço pendente; Bairro Centro (slug). Sem endereço exato, preços ou WhatsApp.
-- **Dad Burger** — cardápio pendente; endereço pendente; Só aparece no iFood (bairro Centro), sem cardápio nem preços no trecho indexado. Não foi confirmado se está ativa. Instagram @dadburgeroficial conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa link de pedido "https://dadburger.bigd.im", diferente do cadastro.
+- **Dad Burger** — endereço pendente; Só aparece no iFood (bairro Centro), sem cardápio nem preços no trecho indexado. Não foi confirmado se está ativa. Instagram @dadburgeroficial conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa link de pedido "https://dadburger.bigd.im", diferente do cadastro.
 - **Dantes** — Inaugurado em 14/07/2022. Pedido mínimo iFood R$ 20. Os preços de pizzas e esfihas não foram obtidos. Sem WhatsApp verificado. Instagram @dantes.bg conferido em 2026-10-28 (pesquisa via Claude no Chrome).
 - **Doces da Ana** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @docesdaanabg (78 posts, 156 seguidores, último post 2026-10-01). Nome do perfil "Ana Carollina"; bio "📍BG – Pedidos via direct!". Produção limitada; dúvida se faz delivery.
 - **Empório Pizzaria Barra** — cardápio pendente; endereço pendente; A bio do Instagram (cerca de 5 mil seguidores) diz "Peça agora mesmo pelo WhatsApp" e cita a unidade de Barra do Garças, mas o número não aparecia no trecho da busca. Endereço não obtido. Instagram @emporiopizzariabarra conferido em 2026-10-28 (pesquisa via Claude no Chrome).

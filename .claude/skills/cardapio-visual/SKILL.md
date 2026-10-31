@@ -22,6 +22,7 @@ description: Regra permanente para cardápios enviados como imagem, print, foto 
    - Recorte cada produto da arte (`data/research/cardapios/visual/<id>/recortes.json`: print + coordenadas por produto) e trate com `python3 scripts/menus/enhance.py <id> --modelo EDSR_x4.pb` (super-resolução 4x + nitidez leve; modelo em `github.com/Saafke/EDSR_Tensorflow/models`, fora do git).
    - Deixe a foto **inteira e limpa**: enquadre o produto todo, sem textos, preços ou títulos da arte; se a arte cortar o produto, pegue o máximo que existir.
    - Mesmo foto ruim/pequena entra, tratada para ficar o melhor possível. Sem selo de "imagem ilustrativa".
+   - **Arte sem fotos de produto:** cadastre tudo sem foto (cardápio em linhas compactas). As fotos de cada produto são pedidas ao estabelecimento quando a parceria fechar e aí implementadas.
    - `imageUrl` = `file://` do recorte tratado, `imageSource` = link do perfil/arte de onde veio.
 5. `python3 scripts/menus/images.py <id>` → `node scripts/menus/apply.js <id>` → `node scripts/build-data.js` → `node scripts/menus/report.js` → `npm test` → conferir em 390 px e 1280 px → PR → merge → conferir no site (Chrome e Safari).
 

@@ -15,8 +15,8 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 | Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 1 | 0 |
 | Nova Xavantina | 35 | 25 | 17 | 0 | 0 |
-| Barra do Garças | 30 | 30 | 9 | 9 | 4 |
-| **Total** | **311** | **289** | **77** | **35** | **7** |
+| Barra do Garças | 30 | 30 | 9 | 10 | 5 |
+| **Total** | **311** | **289** | **77** | **36** | **8** |
 
 ## Pendências por estabelecimento
 
@@ -335,7 +335,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 - **Água Verde Espetaria e Tereré Delivery** — WhatsApp não verificado; cardápio pendente; Bairro Centro (slug). Espetinhos de costela, filé mignon com bacon, carne de sol, cupim, picanha, frango, porco e queijo coalho. O iFood mostra preços "a partir de" (combo espeto + refrigerante a partir de R$ 32,80; 6 espetinhos + adicional a partir de R$ 143,40), por isso ficaram fora do menu. Instagram @aguaverdee conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa link de pedido "https://pedir.delivery/aguaverdeterereeespetaria", diferente do cadastro.
 - **Ana Doçura Confeitaria** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @ana.docura (277 posts, 2045 seguidores, último post 2026-10-14). "Loja Delivery / Fazemos entregas", wa.me na bio.
 - **Bolos do Sítio Empório** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @bolosdositiobarra (4117 posts, 29200 seguidores, último post 2026-10-21). Cidade não escrita; Av. Ministro João Alberto é a mesma do Dante's no cadastro de BG.
-- **Buffalos Pizzaria** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Indicada pelo Pedro (29/10/2026). Perfil 'Buffalos Bg' (402 posts, 11 mil seguidores). Bio: 'Somente Delivery | Sabores que contam histórias! | A mais gostosa da cidade | Segunda a Domingo 19:00h às 00:00' + wa.me/5566992759963 e botão WhatsApp. Não confundir com a Buffalos Grill de Campinápolis.
+- **Buffalos Pizzaria** — foto de capa pendente (página usa o logotipo sobre o degradê da marca); Indicada pelo Pedro (29/10/2026). Perfil 'Buffalos Bg' (402 posts, 11 mil seguidores). Bio: 'Somente Delivery | Sabores que contam histórias! | A mais gostosa da cidade | Segunda a Domingo 19:00h às 00:00' + wa.me/5566992759963 e botão WhatsApp. Não confundir com a Buffalos Grill de Campinápolis.
 - **Casarão Beer / Churrascaria** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @casaraobeer.bg (688 posts, 13900 seguidores, último post 2026-10-28). DÚVIDA de cidade: não escrita na bio; handle ".bg" e fone DDD 66 (reserva com Adriana, só texto → phone).
 - **Cheff do Espeto** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @cheffdoespeto_ (17 posts, 11400 seguidores, último post 2026-10-28). Nome "CHEFF DO ESPETO | BARRA DO GARÇAS - MT". Posts: agora também no iFood.
 - **Churrascaria O Panelão** — WhatsApp não verificado; cardápio pendente; endereço pendente; Bairro Centro (slug). Sem endereço exato, preços ou WhatsApp.

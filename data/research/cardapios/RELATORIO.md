@@ -2,19 +2,21 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**32 cardápios importados** de 77 links de cardápio cadastrados · 290 categorias · 1725 produtos · 1133 grupos de opções · 4507 adicionais (opções opcionais) · 1118 fotos.
+**34 cardápios importados** de 77 links de cardápio cadastrados · 297 categorias · 1757 produtos · 1173 grupos de opções · 4685 adicionais (opções opcionais) · 1134 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | OK | Booba Sorveteria & Doceria | Água Boa | pedirdelivery | 17 | 82 | 65 | 600 | 79 | 1 | 3 |
 | OK | Ds'burguer | Água Boa | vendanozap | 2 | 17 | 7 | 42 | 17 | 0 | 0 |
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
+| OK | Açaí Royal Delivery | Barra do Garças | visual | 3 | 13 | 24 | 178 | 0 | 0 | 0 |
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
+| OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 16 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | Mordatto | Canarana | maisdelivery | 3 | 7 | 4 | 18 | 7 | 0 | 0 |
 | OK | POKE² Poke ao Quadrado | Canarana | yooga | 8 | 29 | 114 | 396 | 29 | 0 | 3 |
@@ -65,6 +67,16 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Açaí Royal Delivery (Barra do Garças) — OK
+
+- Fonte: https://www.instagram.com/acairoyal__/ (visual)
+- Categorias: 3 · Produtos: 13 · Grupos de opções: 24 (215 escolhas) · Adicionais: 178 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito da arte "Cardápio completo" do destaque Cardápio do Instagram (print enviado pelo Pedro em 31/10/2026): 13 produtos na fonte, 13 cadastrados.
+- Observação: "Adicionais pagos" aparecem como lista geral na arte; aplicados ao Monte o seu açaí e aos copos especiais (não às marmitas). "Chocobool" da arte grafado Chocoball.
+- Observação: Fotos da arte pequenas demais (copos com ~100 px): cardápio sem fotos de produto até a loja enviar fotos ou haver referência com licença livre.
+- Pendências: 0
+
 ### Bolos do Sítio Empório (Barra do Garças) — OK
 
 - Fonte: https://bolosdositioemporio.bigd.im/wapp/bolosdositioemporio/store/#/delivery/loja/bolosdositioemporio (bigdim)
@@ -110,6 +122,17 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Categorias: 9 · Produtos: 120 · Grupos de opções: 67 (314 escolhas) · Adicionais: 0 · Fotos: 120
 - Não importados: 4 fora do cardápio
 - Observação: Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação.
+- Pendências: 0
+
+### Ponto Burguer (Ponto do Hambúrguer) (Barra do Garças) — OK
+
+- Fonte: https://www.instagram.com/ponto.burguerbg/ (visual)
+- Categorias: 4 · Produtos: 19 · Grupos de opções: 16 (41 escolhas) · Adicionais: 0 · Fotos: 16
+- Não importados: nenhum
+- Observação: Transcrito de 4 artes dos destaques do Instagram (Açaí, Lanches tradicionais, Lanches artesanais, Combo; prints enviados pelo Pedro em 31/10/2026): 19 produtos na fonte visível, 19 cadastrados.
+- Observação: A arte "Lanches artesanais" está cortada abaixo do Ponto Picles no print: pode haver mais lanches; pendente de print completo.
+- Observação: Combos: preço base = menor combinação da arte ("a partir de"); cada hambúrguer escolhido soma a diferença para o Ponto Clássico, conforme os preços de combo da arte.
+- Observação: Fotos recortadas das próprias artes (Ponto Picles sem foto: cortada no print).
 - Pendências: 0
 
 ### Sintonia Hamburgueria e Pizzaria (Campinápolis) — OK
@@ -355,11 +378,6 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://beacons.ai/tendaaguaboa (beacons)
 - Motivo: página protegida por verificação anti-robô (Cloudflare 403); não contornada
 
-### Açaí Royal Delivery (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://wa.me/message/EU4LA2LUICO6H1 (whatsapp)
-- Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
 ### Água Verde Espetaria e Tereré Delivery (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/agua-verde-espetaria-e-terere-delivery-centro/740595e2-4086-43c6-8949-9cc668222a02 (ifood)
@@ -398,11 +416,6 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 ### Panificadora São Paulo (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/panificadora-sao-paulo-centro/f0a54b51-d034-4fb4-9fb0-7a3e1f2a0cf1 (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
-
-### Ponto Burguer (Ponto do Hambúrguer) (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/ponto-do-hamburguer-jardim-nova-barra-do-garcas/2e752079-25cb-47ea-848f-42767340ade1 (ifood)
 - Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
 ### Ponto do Açaí (Barra do Garças) — Sem cardápio público

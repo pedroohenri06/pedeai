@@ -27,7 +27,7 @@ function toMenu(store, snap, photos) {
     if (it.featured) item.featured = true;
     const ph = it.imageUrl && photos[it.imageUrl];
     if (ph) {
-      item.image = { src: ph.src || ph.thumb, thumb: ph.thumb, alt: it.name + ' — ' + store.name, credit: store.name, license: LICENSE, sourceUrl: it.imageUrl };
+      item.image = { src: ph.src || ph.thumb, thumb: ph.thumb, alt: it.name + ' — ' + store.name, credit: store.name, license: LICENSE, sourceUrl: it.imageSource || it.imageUrl };
       if (!ph.src) item.image.small = true;
     }
     if (it.options && it.options.length) {

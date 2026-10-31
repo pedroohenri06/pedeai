@@ -58,6 +58,8 @@ function main() {
     store.menuSource = snap.source;
     if (!store.sources.includes(snap.source)) store.sources.push(snap.source);
     if (!store.hours && snap.hours) store.hours = snap.hours;
+    // WhatsApp de pedidos publicado no cardápio digital da própria loja: canal verificado (libera o pedido online).
+    if (!store.whatsapp && snap.whatsapp && core.isValidWhatsApp(snap.whatsapp)) { store.whatsapp = snap.whatsapp; store.whatsappSource = snap.source; }
     store.verifiedAt = snap.capturedAt.slice(0, 10);
     console.log(`cardápio\t${id}\t${store.menu.length} itens`);
   });

@@ -1,0 +1,1084 @@
+{
+  "id": "buffalos-pizzaria-barra-do-garcas",
+  "platform": "visual",
+  "source": "https://www.instagram.com/buffalos__oficial/",
+  "capturedAt": "2026-10-31T23:30:00.000Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Pizzas especiais",
+      "items": [
+        {
+          "sourceId": "King",
+          "name": "King",
+          "description": "Queijo mussarela, queijo do reino e filé mignon.",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3901
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5301
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Queen",
+          "name": "Queen",
+          "description": "Queijo mussarela, requeijão cremoso (Catupiry), queijo gorgonzola e filé mignon.",
+          "priceCents": 5200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3900
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Costelinha BBQ",
+          "name": "Costelinha BBQ",
+          "description": "Mussarela, costela bovina, requeijão cremoso (Catupiry) e barbecue.",
+          "priceCents": 4799,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4801
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4 queijos",
+          "name": "4 queijos",
+          "description": "Mussarela, parmesão fresco, provolone, gorgonzola e requeijão cremoso (Catupiry).",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4100
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Doritos",
+          "name": "Doritos",
+          "description": "Cheddar, mussarela e Doritos.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3700
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Buffalos",
+          "name": "Buffalos",
+          "description": "Mussarela, brie, geleia de pimenta com abacaxi e bacon.",
+          "priceCents": 4900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3800
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Strogonoff",
+          "name": "Strogonoff",
+          "description": "Mussarela, strogonoff de frango, champignon e batata palha.",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 5000
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Lombo Canadense",
+          "name": "Lombo Canadense",
+          "description": "Mussarela, lombo canadense, cream cheese e azeitona preta.",
+          "priceCents": 4300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3900
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Calabresa com cream cheese",
+          "name": "Calabresa com cream cheese",
+          "description": "Queijo mussarela, calabresa, cream cheese, cebola e azeitona preta.",
+          "priceCents": 5200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3700
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Nordestina",
+          "name": "Nordestina",
+          "description": "Massa, molho artesanal, queijo de coalho, mel de abelha puro, carne seca e cream cheese.",
+          "priceCents": 5100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4000
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Portuguesa especial",
+          "name": "Portuguesa especial",
+          "description": "Massa, molho, presunto, calabresa, bacon, ovo, mussarela, tomate e cebola.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4100
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas tradicionais",
+      "items": [
+        {
+          "sourceId": "Mussarela",
+          "name": "Mussarela",
+          "description": "Queijo mussarela e azeitona preta.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3400
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Calabresa",
+          "name": "Calabresa",
+          "description": "Queijo, calabresa e azeitona preta.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3500
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Frango com Catupiry",
+          "name": "Frango com Catupiry",
+          "description": "Queijo, frango, requeijão cremoso (Catupiry) e azeitona preta.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3600
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Sertaneja",
+          "name": "Sertaneja",
+          "description": "Queijo, carne de sol, nata, cebola roxa, queijo coalho e azeitona preta.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3600
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5099
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Da Barra",
+          "name": "Da Barra",
+          "description": "Carne seca, cream cheese, mussarela e banana da terra frita.",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4000
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Brasileira",
+          "name": "Brasileira",
+          "description": "Queijo, bacon, frango, calabresa e Catupiry.",
+          "priceCents": 4300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3800
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Portuguesa",
+          "name": "Portuguesa",
+          "description": "Queijo, presunto, pimentão, ovo, cebola e azeitona preta.",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3700
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bacon",
+          "name": "Bacon",
+          "description": "Massa, molho, requeijão cremoso, mussarela, bacon em cubos, cebola, tomate e orégano.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4100
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Moda da casa",
+          "name": "Moda da casa",
+          "description": "Massa, molho, presunto, frango, calabresa, requeijão, mussarela, tomate, cebola e orégano.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4100
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3 queijos",
+          "name": "3 queijos",
+          "description": "Massa, molho, mussarela, requeijão de cheddar e requeijão tradicional.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4100
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas doces",
+      "items": [
+        {
+          "sourceId": "Kit Kat",
+          "name": "Kit Kat",
+          "description": "Creme de chocolate e Kit Kat.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 2999
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "M&M’s",
+          "name": "M&M’s",
+          "description": "Creme de chocolate e M&M’s.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 2999
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Oreo",
+          "name": "Oreo",
+          "description": "Creme de chocolate branco e Oreo.",
+          "priceCents": 4799,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 4801
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Cheese cake de goiabada",
+          "name": "Cheese cake de goiabada",
+          "description": "Creme de queijo com goiabada.",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 4000
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Cheese cake de morango",
+          "name": "Cheese cake de morango",
+          "description": "Creme de queijo com geleia de morango.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3900
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Morango com Nutella",
+          "name": "Morango com Nutella",
+          "description": "Nutella, granulado e morango.",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3700
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Chocolate branco Galak com morango",
+          "name": "Chocolate branco Galak com morango",
+          "description": "Chocolate branco Galak e morango.",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3700
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Ovomaltine",
+          "name": "Ovomaltine",
+          "description": "Massa artesanal e creme de Ovomaltine original.",
+          "priceCents": 5700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3200
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Prestígio",
+          "name": "Prestígio",
+          "description": "Massa, chocolate, coco ralado e mussarela.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3600
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Mousse de maracujá",
+          "name": "Mousse de maracujá",
+          "description": "Massa, borda recheada de chocolate e mousse artesanal de maracujá por cima.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 3600
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 5100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bordas especiais",
+      "items": [
+        {
+          "sourceId": "Pãozinho Catupiry",
+          "name": "Pãozinho Catupiry",
+          "description": "Borda recheada de pãozinho. Escolha o mesmo tamanho da pizza.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 2100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Pãozinho Calabresa",
+          "name": "Pãozinho Calabresa",
+          "description": "Borda recheada de pãozinho. Escolha o mesmo tamanho da pizza.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 2299
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Pãozinho Frango",
+          "name": "Pãozinho Frango",
+          "description": "Borda recheada de pãozinho. Escolha o mesmo tamanho da pizza.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Pãozinho Mussarela",
+          "name": "Pãozinho Mussarela",
+          "description": "Borda recheada de pãozinho. Escolha o mesmo tamanho da pizza.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena (P)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (G)",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Família (F)",
+                  "priceCents": 2300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "Refrigerante 1 L",
+          "name": "Refrigerante 1 L",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerante 1,5 L",
+          "name": "Refrigerante 1,5 L",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerante 2 L",
+          "name": "Refrigerante 2 L",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Transcrito de 3 artes do cardápio (prints enviados pelo Pedro em 31/10/2026): 38 produtos na fonte (11 especiais, 10 tradicionais, 10 doces, 4 bordas, 3 refrigerantes), 38 cadastrados.",
+    "Tamanhos P/G/F da arte cadastrados como Pequena (P), Grande (G) e Família (F).",
+    "Bordas especiais têm preço por tamanho da pizza: cadastradas como itens próprios com tamanho (o cliente escolhe o mesmo da pizza).",
+    "Sem fotos de produto na arte: fotos serão pedidas ao estabelecimento ao fechar a parceria.",
+    "Arte traz WhatsApp (66) 99227-1691 e endereço R. Sete, s/n, Residencial São Conrado; cadastro já tinha WhatsApp (66) 99275-9963 (mantido até confirmar)."
+  ]
+}

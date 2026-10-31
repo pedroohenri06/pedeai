@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**34 cardápios importados** de 77 links de cardápio cadastrados · 297 categorias · 1757 produtos · 1173 grupos de opções · 4685 adicionais (opções opcionais) · 1150 fotos.
+**35 cardápios importados** de 78 links de cardápio cadastrados · 302 categorias · 1795 produtos · 1208 grupos de opções · 4685 adicionais (opções opcionais) · 1150 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -11,6 +11,7 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
 | OK | Açaí Royal Delivery | Barra do Garças | visual | 3 | 13 | 24 | 178 | 13 | 0 | 0 |
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
+| OK | Buffalos Pizzaria | Barra do Garças | visual | 5 | 38 | 35 | 0 | 0 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
@@ -85,6 +86,18 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Observação: "Bolo com cobertura": cada opção de "Bolo c/cobertura" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
 - Observação: "Refrigerantes lata": cada opção de "Escolha seu refrigerante lata" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
 - Observação: "Refrigerantes litro": cada opção de "Escolha seu refrigerante" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Pendências: 0
+
+### Buffalos Pizzaria (Barra do Garças) — OK
+
+- Fonte: https://www.instagram.com/buffalos__oficial/ (visual)
+- Categorias: 5 · Produtos: 38 · Grupos de opções: 35 (105 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito de 3 artes do cardápio (prints enviados pelo Pedro em 31/10/2026): 38 produtos na fonte (11 especiais, 10 tradicionais, 10 doces, 4 bordas, 3 refrigerantes), 38 cadastrados.
+- Observação: Tamanhos P/G/F da arte cadastrados como Pequena (P), Grande (G) e Família (F).
+- Observação: Bordas especiais têm preço por tamanho da pizza: cadastradas como itens próprios com tamanho (o cliente escolhe o mesmo da pizza).
+- Observação: Sem fotos de produto na arte: fotos serão pedidas ao estabelecimento ao fechar a parceria.
+- Observação: Arte traz WhatsApp (66) 99227-1691 e endereço R. Sete, s/n, Residencial São Conrado; cadastro já tinha WhatsApp (66) 99275-9963 (mantido até confirmar).
 - Pendências: 0
 
 ### Casarão Beer / Churrascaria (Barra do Garças) — OK

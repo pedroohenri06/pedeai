@@ -1,0 +1,1189 @@
+{
+  "id": "acai-royal-delivery-barra-do-garcas",
+  "platform": "visual",
+  "source": "https://www.instagram.com/acairoyal__/",
+  "capturedAt": "2026-10-31T20:40:00.000Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Monte o seu açaí",
+      "items": [
+        {
+          "sourceId": "Monte o seu açaí",
+          "name": "Monte o seu açaí",
+          "description": "Escolha o tamanho e até 5 adicionais.",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "250 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300 ml",
+                  "priceCents": 300
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 800
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1400
+                }
+              ]
+            },
+            {
+              "name": "Adicionais (escolha até 5)",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Copos especiais",
+      "items": [
+        {
+          "sourceId": "Royal Kit Kat",
+          "name": "Royal Kit Kat",
+          "description": "Açaí, Kit Kat, leite em pó e leite condensado.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 800
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Mix",
+          "name": "Royal Mix",
+          "description": "Morango, kiwi, banana e açaí.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1100
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Trufado",
+          "name": "Royal Trufado",
+          "description": "Açaí, Nutella, creme de ninho, Disket e Chocoball.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1100
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Ouro Branco",
+          "name": "Royal Ouro Branco",
+          "description": "Açaí, bombom Ouro Branco, leite condensado, leite em pó e paçoca.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 800
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Cupuaçu",
+          "name": "Royal Cupuaçu",
+          "description": "Açaí, cupuaçu e granola.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1100
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Creme de Ninho",
+          "name": "Royal Creme de Ninho",
+          "description": "Açaí, creme de ninho, leite em pó e banana.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 800
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Sonho de Valsa",
+          "name": "Royal Sonho de Valsa",
+          "description": "Açaí, Sonho de Valsa, leite em pó, leite condensado e paçoca.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 800
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Oreo",
+          "name": "Royal Oreo",
+          "description": "Açaí, bolacha Oreo, leite em pó e leite condensado.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 800
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 18,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kit Kat",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marmitas de açaí",
+      "items": [
+        {
+          "sourceId": "Royal Premium",
+          "name": "Royal Premium",
+          "description": "Nutella, creme de ninho, Disket, Chocoball e morango.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "750 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1,1 kg",
+                  "priceCents": 1300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Napolitana",
+          "name": "Napolitana",
+          "description": "Creme de ninho, creme de morango e Nutella.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "750 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1,1 kg",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Royal Mix de Frutas",
+          "name": "Royal Mix de Frutas",
+          "description": "Creme de ninho, morango, banana e kiwi.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "750 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1,1 kg",
+                  "priceCents": 1300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Marmita monte a sua",
+          "name": "Marmita monte a sua",
+          "description": "Escolha até 5 adicionais.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "750 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1,1 kg",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Adicionais (escolha até 5)",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Disket",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Transcrito da arte \"Cardápio completo\" do destaque Cardápio do Instagram (print enviado pelo Pedro em 31/10/2026): 13 produtos na fonte, 13 cadastrados.",
+    "\"Adicionais pagos\" aparecem como lista geral na arte; aplicados ao Monte o seu açaí e aos copos especiais (não às marmitas). \"Chocobool\" da arte grafado Chocoball.",
+    "Fotos da arte pequenas demais (copos com ~100 px): cardápio sem fotos de produto até a loja enviar fotos ou haver referência com licença livre."
+  ],
+  "whatsapp": "5566992282813"
+}

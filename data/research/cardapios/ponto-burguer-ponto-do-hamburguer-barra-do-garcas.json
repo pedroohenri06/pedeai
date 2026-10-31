@@ -1,0 +1,512 @@
+{
+  "id": "ponto-burguer-ponto-do-hamburguer-barra-do-garcas",
+  "platform": "visual",
+  "source": "https://www.instagram.com/ponto.burguerbg/",
+  "capturedAt": "2026-10-31T20:40:00.000Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Lanches artesanais",
+      "items": [
+        {
+          "sourceId": "Ponto Monster",
+          "name": "Ponto Monster",
+          "description": "Pão brioche, 2 hambúrgueres caseiros, bacon, queijo mussarela ou cheddar, alface, tomate e molho barbecue.",
+          "priceCents": 3771,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/ponto-monster.png",
+          "options": [
+            {
+              "name": "Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Ponto Prime",
+          "name": "Ponto Prime",
+          "description": "Pão brioche, 1 hambúrguer caseiro, bacon crocante, queijo mussarela ou cheddar, cebola caramelizada, alface, tomate e molho da casa.",
+          "priceCents": 3226,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/ponto-prime.png",
+          "options": [
+            {
+              "name": "Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Ponto Especial",
+          "name": "Ponto Especial",
+          "description": "Pão brioche, 1 hambúrguer caseiro, bacon, queijo, abacaxi grelhado, cream cheese, alface, tomate e molho da casa.",
+          "priceCents": 3092,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/ponto-especial.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Ponto Clássico",
+          "name": "Ponto Clássico",
+          "description": "Pão brioche, 1 hambúrguer caseiro, queijo mussarela ou cheddar, alface, tomate e molho da casa.",
+          "priceCents": 2681,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/ponto-classico.png",
+          "options": [
+            {
+              "name": "Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Ponto Picles",
+          "name": "Ponto Picles",
+          "description": "Pão brioche, 1 hambúrguer caseiro, queijo mussarela ou cheddar, cebola roxa, picles, alface e tomate.",
+          "priceCents": 2894,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "Combo Dose Dupla",
+          "name": "Combo Dose Dupla",
+          "description": "2 hambúrgueres artesanais do cardápio + batata frita com cheddar e bacon + nuggets ou mais batata. Preços do combo com 16,20% de desconto.",
+          "priceCents": 7123,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "1º hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ponto Clássico",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ponto Picles",
+                  "priceCents": 252
+                },
+                {
+                  "name": "Ponto Prime",
+                  "priceCents": 335
+                },
+                {
+                  "name": "Ponto Especial",
+                  "priceCents": 419
+                },
+                {
+                  "name": "Ponto Monster",
+                  "priceCents": 1090
+                }
+              ]
+            },
+            {
+              "name": "2º hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ponto Clássico",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ponto Picles",
+                  "priceCents": 252
+                },
+                {
+                  "name": "Ponto Prime",
+                  "priceCents": 335
+                },
+                {
+                  "name": "Ponto Especial",
+                  "priceCents": 419
+                },
+                {
+                  "name": "Ponto Monster",
+                  "priceCents": 1090
+                }
+              ]
+            },
+            {
+              "name": "Escolha o adicional",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nuggets",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mais batata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Combo Dose Certa",
+          "name": "Combo Dose Certa",
+          "description": "1 hambúrguer artesanal do cardápio + batata frita com cheddar e bacon + nuggets ou mais batata. Preços do combo com 16,20% de desconto.",
+          "priceCents": 4106,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ponto Clássico",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ponto Picles",
+                  "priceCents": 252
+                },
+                {
+                  "name": "Ponto Prime",
+                  "priceCents": 335
+                },
+                {
+                  "name": "Ponto Especial",
+                  "priceCents": 419
+                },
+                {
+                  "name": "Ponto Monster",
+                  "priceCents": 1090
+                }
+              ]
+            },
+            {
+              "name": "Escolha o adicional",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nuggets",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mais batata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lanches tradicionais",
+      "items": [
+        {
+          "sourceId": "X-Tudo",
+          "name": "X-Tudo",
+          "description": "Hambúrguer, presunto, queijo, salsicha, ovo, bacon, calabresa, milho, tomate e alface.",
+          "priceCents": 2513,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/x-tudo.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "X-Salada Especial",
+          "name": "X-Salada Especial",
+          "description": "Hambúrguer, 2 fatias de queijo, abacaxi, cream cheese, calabresa (opcional), ovo, milho, alface e tomate.",
+          "priceCents": 2513,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/x-salada-especial.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "X-Bacon",
+          "name": "X-Bacon",
+          "description": "Hambúrguer, salsicha, presunto, queijo, bacon crocante, calabresa, tomate e alface.",
+          "priceCents": 2388,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/x-bacon.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "X-Bagunça",
+          "name": "X-Bagunça",
+          "description": "Hambúrguer caseiro, salsicha, presunto, queijo, bacon picado, calabresa, tomate e alface.",
+          "priceCents": 2221,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/x-bagunca.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "X-Salada",
+          "name": "X-Salada",
+          "description": "Hambúrguer, queijo, presunto, ovo (opcional), milho, tomate e alface.",
+          "priceCents": 1844,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/x-salada.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "Açaí Tentação",
+          "name": "Açaí Tentação",
+          "description": "Açaí, morango, Nutella, leite em pó e leite condensado.",
+          "priceCents": 2471,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/acai-tentacao.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 713
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Açaí Supremo",
+          "name": "Açaí Supremo",
+          "description": "Açaí, Nutella, creme de ninho, leite em pó, leite condensado e banana.",
+          "priceCents": 2387,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/acai-supremo.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 797
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Açaí Especial",
+          "name": "Açaí Especial",
+          "description": "Açaí, morango, Ovomaltine, leite em pó, leite condensado e banana.",
+          "priceCents": 2262,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/acai-especial.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 670
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Açaí Choconinho",
+          "name": "Açaí Choconinho",
+          "description": "Açaí, Nutella, creme de ninho, leite em pó e banana.",
+          "priceCents": 2346,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/acai-choconinho.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 838
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Açaí Crocante",
+          "name": "Açaí Crocante",
+          "description": "Açaí, Ovomaltine, banana, leite condensado e granola.",
+          "priceCents": 2136,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/acai-crocante.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 712
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Açaí Ninho",
+          "name": "Açaí Ninho",
+          "description": "Açaí, creme de ninho, leite em pó e leite condensado.",
+          "priceCents": 2346,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/acai-ninho.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 586
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        },
+        {
+          "sourceId": "Açaí Tropical",
+          "name": "Açaí Tropical",
+          "description": "Açaí, morango, kiwi, banana e leite condensado.",
+          "priceCents": 2094,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/acai-tropical.png",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 671
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/ponto.burguerbg/"
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Transcrito de 4 artes dos destaques do Instagram (Açaí, Lanches tradicionais, Lanches artesanais, Combo; prints enviados pelo Pedro em 31/10/2026): 19 produtos na fonte visível, 19 cadastrados.",
+    "A arte \"Lanches artesanais\" está cortada abaixo do Ponto Picles no print: pode haver mais lanches; pendente de print completo.",
+    "Combos: preço base = menor combinação da arte (\"a partir de\"); cada hambúrguer escolhido soma a diferença para o Ponto Clássico, conforme os preços de combo da arte.",
+    "Fotos recortadas das próprias artes (Ponto Picles sem foto: cortada no print)."
+  ]
+}

@@ -1,0 +1,3017 @@
+{
+  "id": "saboritos-burguer-sorveteria-canarana",
+  "platform": "brendi",
+  "source": "https://pedido.brendi.com.br/saboritosburguer",
+  "capturedAt": "2026-10-31T23:24:54.711Z",
+  "hours": "Seg a Sáb 18h–23h",
+  "sections": [
+    {
+      "name": "Milk-shake",
+      "items": [
+        {
+          "sourceId": "8FqBgGEtXzFMfdvoDnZq",
+          "name": "Milk-shake morango 440ml",
+          "description": "Clássico e refrescante! Sorvete de morango batido com leite gelado, decorado com calda generosa de morango. O acompanhamento ideal para o seu lanche.",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2F8FqBgGEtXzFMfdvoDnZq-1778632217016.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "o5LurDTAohKnIAyPIvr5",
+          "name": "Milk-shake morango com ovomaltine 440ml",
+          "description": "A união perfeita entre o frescor do morango e a crocância inigualável do Ovomaltine. Batido com sorvete artesanal e finalizado com calda de morango. O clássico que você ama, com um toque extra de textura.",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2Fo5LurDTAohKnIAyPIvr5-1778632082428.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Avz082cftNXzDRmkD0S2",
+          "name": "Milk-shake de ninho",
+          "description": "Ultra cremoso, batido com o verdadeiro leite Ninho. Simples, clássico e perfeito para quem não abre mão do sabor autêntico do leite ninho",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FAvz082cftNXzDRmkD0S2-1778630692221.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "KnRYqF0VsvXwb262IWqQ",
+          "name": "Milk-shake de chocolate 440ml",
+          "description": "Cremosidade máxima com o sabor autêntico do chocolate. Feito com ingredientes de alta qualidade para garantir que cada gole seja uma experiência única",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FKnRYqF0VsvXwb262IWqQ-1778631877558.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "WxO96Ql3zLDYEa3yEkNd",
+          "name": "Milk-shake ovomaltine 440ml",
+          "description": "Shake super cremoso de sorvete de baunilha batido com muuuito Ovomaltine crocante. Uma explosão de sabor e crocância na medida exata",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FWxO96Ql3zLDYEa3yEkNd-1780698635425.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hamburguer",
+      "items": [
+        {
+          "sourceId": "CF16cZ5n4I5yIHUBOZZM",
+          "name": "Burguer Chedder",
+          "description": "Pão, 2 Burger bovino 120g, 4 x cheddar, 4x bacon, cebola caramelizada",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FCF16cZ5n4I5yIHUBOZZM-1778510055638.jpeg?alt=media",
+          "featured": true,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "WFa9Ukuc6EvFR7PFrbj6",
+          "name": "Burguer Bacon",
+          "description": "Pão Burger bovino 120g, mussarela, cheddar,cebola, picles, bacon, alface, tomate, maionese verde, molho barbecue",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FWFa9Ukuc6EvFR7PFrbj6-1778509740873.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "uXGiRjCnq55clqbszhc1",
+          "name": "Burguer Cheese",
+          "description": "Pão, maionese da casa, alface, tomate, hambúrguer bovino 180g, cheddar cremoso, mussarela empanada, geleia de pimenta e bacon crocante",
+          "priceCents": 4890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FuXGiRjCnq55clqbszhc1-1789584431971.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "WtgFiR9bGNR5Z6RKnl2O",
+          "name": "Burguer Duplo",
+          "description": "Pão 2 burguer bovino 120g, cheddar, bacon, salsicha, ovo, alface, tomate, picles, cebola roxa, maionese verde, molho barbecue, molho da casa.",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FWtgFiR9bGNR5Z6RKnl2O-1778510124836.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "L4OPFbBJWCvkPmbjv8aD",
+          "name": "Costela Burguer",
+          "description": "Pão, 100g costela desfiada, burguer bovino 180g, 2x cheddar, bacon, alface, tomate, baconese.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FL4OPFbBJWCvkPmbjv8aD-1779137745716.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "SsPV70UoDmij3GRCWfFE",
+          "name": "Burguer American",
+          "description": "Pão, burguer bovino 120g, cheddar, bacon, salsicha, alface, tomate, cebola roxa, picles, maionese verde e molho barbecue",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FSsPV70UoDmij3GRCWfFE-1778508428515.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "9c2BOvisgUnvdJDXOZjk",
+          "name": "Burguer Calabresa",
+          "description": "Pão, Burger bovino 120g mussarela cheddar, calabresa frita, alface, tomate, picles, cebola roxa, maionese verde, molho barbecue",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2F9c2BOvisgUnvdJDXOZjk-1778509818760.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3HfPoaKxhNK0cDa6oBqZ",
+          "name": "Burguer Tradicional",
+          "description": "Pao, burguer bovino 120g, cheddar, alface, tomate e maionese verde",
+          "priceCents": 2790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2F3HfPoaKxhNK0cDa6oBqZ-1778510247775.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Llg1Bopqsa0PKh6Ex9u9",
+          "name": "Calabresa Duplo",
+          "description": "Pão, 2 Burger bovino 120g, cheddar, calabresa frita, ovo, alface, tomate, picles, cebola roxa, maionese verde, molho barbecue, molho da casa",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FLlg1Bopqsa0PKh6Ex9u9-1778510360064.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "vaHAupOy0AMSeKcm4LHo",
+          "name": "House Burguer",
+          "description": "Pão, molho barbecue, maionese verde, baconese, hambúrguer bovino 180g 2x mussarela 2x bacon",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FvaHAupOy0AMSeKcm4LHo-1778510617716.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "rCJ9zGnvZ69dP0CRvPXZ",
+          "name": "Toscana Bacon",
+          "description": "Pão, Burger de linguiça de frango 120g,mussarela cheddar, bacon, alface, tomate, cebola roxa, picles, maionese da casa molho barbecue",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FrCJ9zGnvZ69dP0CRvPXZ-1778510741051.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "G78ZXWXPSwGyW9ibANzM",
+          "name": "Duplo misto",
+          "description": "Pão 1 Burger bovino 120g 1 Burger de linguiça de frango, cheddar, bacon, ovo, alface, tomate, picles, cebola roxa, maionese verde, molho barbecue, molho da casa.",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FG78ZXWXPSwGyW9ibANzM-1779137927319.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "aQeWyiaSXG9UzaqYK3wM",
+          "name": "Burguer Infantil",
+          "description": "Pão carne e mussarela e cheddar",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FaQeWyiaSXG9UzaqYK3wM-1789582538384.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo",
+      "items": [
+        {
+          "sourceId": "aWwrg5n1wnBAPT89jE3c",
+          "name": "Combo Casal",
+          "description": "Perfeito para compartilhar! São 2 Burguer, acompanhados de 1 Batata Simples M + 1 Refrigerante 1L. Uma combinação caprichada para matar a fome a dois!",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FaWwrg5n1wnBAPT89jE3c-1789582025825.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha seu burguer",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Burguer calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Burguer bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chicken burguer bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana bacon",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana 1L",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita Simples M Delivery",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Frita Especial M Delivery",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Onion Rings M Delivery",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "FGPZFynbRLIPLFuss7QP",
+          "name": "Combo cheese + batata + refri",
+          "description": "1 burguer cheese 1 batata simples p 1 refri lata",
+          "priceCents": 6290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FFGPZFynbRLIPLFuss7QP-1789584577324.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "llviwgUSc4h7Ygezl43D",
+          "name": "Combo bacon + batata + refri",
+          "description": "1 burguer bacon 1 refri lata 1 batata simples p",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FllviwgUSc4h7Ygezl43D-1778708445938.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "pq06B9D534mdTznYhqm7",
+          "name": "Combo burguer cheddar + refri + batata",
+          "description": "1 burguer cheddar 1 refri 1 batata frita",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2Fpq06B9D534mdTznYhqm7-1778688960076.jpeg?alt=media",
+          "featured": true,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "kOQrQq2nbL6CmwBfOft3",
+          "name": "Combo house + batata + refri",
+          "description": "1 house burguer 1 refri lata 1 batata simples p",
+          "priceCents": 4790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FkOQrQq2nbL6CmwBfOft3-1778707925512.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "kwsGmWWPeIfjTKbtF3q9",
+          "name": "Combo costela + batata + refri",
+          "description": "1 burguer costela 1 refri lata 1 batata simples p",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FkwsGmWWPeIfjTKbtF3q9-1779137794233.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "J1f0Zuo55XDRTXzTChGo",
+          "name": "Combo burguer duplo + refri + batata",
+          "description": "1 burguer duplo 1 refri 1 batata frita",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FJ1f0Zuo55XDRTXzTChGo-1778708471361.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "DqvO5vLMpMQrS8aiwGHw",
+          "name": "Burguer calabresa + batata + refri",
+          "description": "1 burguer calabresa 1 refri lata 1 batata simples p",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FDqvO5vLMpMQrS8aiwGHw-1779137180125.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "lLBwAqYpLRsBJ3dsC4Qm",
+          "name": "American burguer combo + batata + refri",
+          "description": "1 american burguer 1 batata simples p 1 refri",
+          "priceCents": 5590,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FlLBwAqYpLRsBJ3dsC4Qm-1778707971659.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "fb34yudFTKKzOV7KBBgq",
+          "name": "Combo burguer tradicional + batata + refri",
+          "description": "1 burguer tradicional 1 refri lata 1 batata simples p",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2Ffb34yudFTKKzOV7KBBgq-1778707994376.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "EntQdfZMgNdSC5wIlLKN",
+          "name": "Combo duplo misto + refri + batata",
+          "description": "1 burguer cheddar 1 refri 1 batata frita",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FEntQdfZMgNdSC5wIlLKN-1778708024209.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "9eHVHIyCCYh2cJnJx5BO",
+          "name": "Combo calabresa duplo + refri + batata",
+          "description": "1 calabresa duplo 1 refri 1 batata frita",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2F9eHVHIyCCYh2cJnJx5BO-1778708500641.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "dSD6iV8XKQuorxEPU9Pv",
+          "name": "Combo chicken buguer bacon + batata + refri",
+          "description": "1 chicken buguer bacon 1 refri lata 1 batata simples p",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FdSD6iV8XKQuorxEPU9Pv-1779137891585.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar seu BURGUER",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Adc bacon",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Adc calabresa",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de queijo cheddar",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc mussarela",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Adc de hamburguer 120g",
+                  "priceCents": 990
+                },
+                {
+                  "name": "Adc de ovo",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de picles",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc salsicha",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc de costela desfiada",
+                  "priceCents": 1290
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Maionese de alho",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adc alface e tomate",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "gZrdSIFacrYBKeqvzqok",
+          "name": "Combo toscana bacon + batata + refri",
+          "description": "1 toscana bacon 1 refri lata 1 batata simples p",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FgZrdSIFacrYBKeqvzqok-1779326826129.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "IOYaoOtJRpjzxB6Uh3Ij",
+          "name": "Burguer infantil",
+          "description": "1 burguer infantil 1 refri lata 1 batata simples p",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FIOYaoOtJRpjzxB6Uh3Ij-1789582931837.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua bebida do combo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco 500ml ( laranja maracuja abacaxi c/ hortelã acerola caju tamarindo morango)",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita simples p",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita simples m",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata especial m ( chedder e bacon )",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Porções delivery",
+      "items": [
+        {
+          "sourceId": "nubfLik9y4DsRgx22tpR",
+          "name": "Batata costela",
+          "description": "Batata frita sequinha + Baconese ultra cremosa + Costela desfiada que derrete na boca",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FnubfLik9y4DsRgx22tpR-1778511528136.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "kZXb0oFNnLM5sh1BUPmR",
+          "name": "Batata Frita Especial G Delivery",
+          "description": "Deliciosas batatas fritas sequinhas e crocantes, com chedder de bacon.",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FkZXb0oFNnLM5sh1BUPmR-1778511639003.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "bAGPJK2ilzbiskZq0bJb",
+          "name": "Batata Frita Especial M Delivery",
+          "description": "Deliciosas batatas fritas sequinhas e crocantes, com chedder de bacon.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FbAGPJK2ilzbiskZq0bJb-1778511863739.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Moc0vxK2FIZZ4FPW5VQ5",
+          "name": "Batata Frita Simples G Delivery",
+          "description": "Deliciosas batatas fritas sequinhas e crocantes",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FMoc0vxK2FIZZ4FPW5VQ5-1778511975903.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "LpkwDqHe6S6SGUpA4RSn",
+          "name": "Batata Frita Simples M Delivery",
+          "description": "Deliciosas batatas fritas sequinhas e crocantes.",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FLpkwDqHe6S6SGUpA4RSn-1778512025601.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "m8pYipP6Oi6ZetDVNIpF",
+          "name": "Batata Frita Simples P Delivery",
+          "description": "Deliciosas batatas fritas sequinhas e crocantes",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2Fm8pYipP6Oi6ZetDVNIpF-1778512099566.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "o5s3EjALTeViLfD6xJTK",
+          "name": "Chickem",
+          "description": "Pedaços selecionados de 100% peito de frango, envoltos em um empanamento especial super crocante e sequinho. Perfeito para compartilhar! Acompanha",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2Fo5s3EjALTeViLfD6xJTK-1778885176244.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "7WbLOXhPArjBMw9qeNvL",
+          "name": "Chicken 5 und",
+          "description": "",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigernate",
+      "items": [
+        {
+          "sourceId": "zOJiFZ5iAKswDm3qlGmn",
+          "name": "Refrigerante 1,5l",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FzOJiFZ5iAKswDm3qlGmn-1778512842582.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola 1,5l",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola 1,5L Zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja 1,5L",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "BEWeQ1zCZsCaMQirxGZ4",
+          "name": "Refrigerante Lata",
+          "description": "",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FBEWeQ1zCZsCaMQirxGZ4-1778513323169.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha seu refri",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola ZERO 310",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta laranja 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana antartica lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana antartica ZERO lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite 310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "vc9YesZLW92Qo9IWpQWj",
+          "name": "Refrigerante de 1l",
+          "description": "",
+          "priceCents": 890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2Fvc9YesZLW92Qo9IWpQWj-1778623272487.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Y9JWxOIvbRpGnQMCoLiT",
+          "name": "Refrigerante 500 / 600 ml",
+          "description": "",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FY9JWxOIvbRpGnQMCoLiT-1778805711516.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha seu sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaragana 600ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6JL8Mo1vZe1ZTT8TWBYK",
+          "name": "H2O",
+          "description": "",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "zWAc2RN2DsV1Wg7bFb7o",
+          "name": "Red bul",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Molhos",
+      "items": [
+        {
+          "sourceId": "fVzfPktsnNT6C2PS9syh",
+          "name": "Maionese de bacon",
+          "description": "Nossa Baconese exclusiva combina a cremosidade de uma maionese artesanal com pedacinhos crocantes e o sabor intensamente defumado do bacon",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FfVzfPktsnNT6C2PS9syh-1778510926974.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "e2Bb9JehBm3zighTDMwu",
+          "name": "Mainonese caseira",
+          "description": "Conheça a nossa maionese que é pura cremosidade e sabor. Feita com alhos selecionados para garantir aquele punch de sabor sem perder a leveza",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2Fe2Bb9JehBm3zighTDMwu-1778511006894.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "bDx0qAEGT9ZhT8RVeRJp",
+          "name": "Molho barbecue",
+          "description": "O autêntico sabor do BBQ: encorpado, brilhante e intensamente defumado",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FbDx0qAEGT9ZhT8RVeRJp-1778511085978.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "TFMg34VJTTXEeU9OFyQT",
+          "name": "Geleia de pimenta",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sorvete",
+      "items": [
+        {
+          "sourceId": "oRD9V9BO65RN2fYj0FIq",
+          "name": "Cascão",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Aguas",
+      "items": [
+        {
+          "sourceId": "ncdhdQ7YT2ANXyIWFfAY",
+          "name": "Agua com gas",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2FncdhdQ7YT2ANXyIWFfAY-1780003940387.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "5BzktXmo24cvy6eC2Cex",
+          "name": "Agua sem gas",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2F5BzktXmo24cvy6eC2Cex-1780004007927.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "1fLTxnNxrZ3qGLuePny4",
+          "name": "Agua tonica",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpnOrVaIHuPeuzGD9bcWc%2Fimages%2Fproducts%2F1fLTxnNxrZ3qGLuePny4-1780004037397.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "\"Refrigerante 1,5l\": cada opção de \"Sabores\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Refrigerante Lata\": cada opção de \"Escolha seu refri\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador."
+  ]
+}

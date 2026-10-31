@@ -1,0 +1,1216 @@
+{
+  "id": "magnolia-confeitaria-e-cafe-agua-boa",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDIzNzY=",
+  "capturedAt": "2026-10-31T23:10:54.565Z",
+  "hours": "Seg a Sáb 8h–21h · Dom 8h–22h",
+  "sections": [
+    {
+      "name": "Novidades",
+      "items": [
+        {
+          "sourceId": "4907537",
+          "name": "Bolo Gelado Nuvem",
+          "description": "Bolo bem molhadinho e cremoso (você escolhe o sabor) e finalizado com mousse de leite ninho. Um sabor suave e cremoso. Aproximadamente 180 gramas.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/211271909_2085923801.jpeg",
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bolo de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolo de coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolo de Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolo Ninho com Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5013409",
+          "name": "Empada de camarão",
+          "description": "A deliciosa massa brissé (amanteigada) assada da magnólia confeitaria, com um recheio bem temperadinho de camarão cremoso com tomate, com requeijão ( pesa aproximadamente 130 gramas)",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/421298064_1920447664.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Aceito Colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Queridinhos - Magnólia Confeitaria",
+      "items": [
+        {
+          "sourceId": "3322375",
+          "name": "Biscoito de Leite Ninho",
+          "description": "Biscoitos amanteigados de leite ninho artesanais da Magnólia! pacote com 50 gramas APROXIMADAMENTE.",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/112906704_1733002310.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3712977",
+          "name": "Cookie Clássico",
+          "description": "Delicioso cookie artesanal com gotas de chocolate nobre, aproximadamente 80 gramas, ótima opção para acompanhar um cafezinho",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/470422629_418419757.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4706509",
+          "name": "Torta Cookie - Nutella Crunch",
+          "description": "Deliciosa fatia ideal para seu café da tarde e para adoçar o seu dia! Cookie artesanal com gotas de chocolate nobre e leve toque de flor de sal, recheado com nutella crocante. (aproximadamente 220 gramas)",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/701642705_1695804839.jpg",
+          "options": [
+            {
+              "name": "Aceita colher descartável?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim, aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3229609",
+          "name": "Torta Cookie - Ninho com Nutella",
+          "description": "Deliciosa fatia ideal para seu café da tarde e para adoçar o seu dia! Cookie artesanal com gotas de chocolate nobre e leve toque de flor de sal, recheado com nutella e brigadeiro de leite ninho. (aproximadamente 220 gramas)",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1155756143_402514833.jpeg",
+          "options": [
+            {
+              "name": "Aceita colher descartável?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim, aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Doces",
+      "items": [
+        {
+          "sourceId": "3693846",
+          "name": "Bombom de Cereja",
+          "description": "Delicioso bombom de brigadeiro gourmet de leite ninho, cereja e cobertura de chocolate nobre sabor blend, um sabor único e muito saboroso! (Aproximadamente 27 gramas) a unidade.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1366752459_330723272.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3461680",
+          "name": "Bombom de Uva com chocolate branco",
+          "description": "Delicioso bombom de brigadeiro gourmet de leite ninho, uvas verdes sem sementes e cobertura de chocolate branco, um sabor único e muito saboroso! (Aproximadamente 27 gramas) a unidade.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/61381827_1846386660.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4406045",
+          "name": "Bombom Oreo com Nutella",
+          "description": "Bombom recheado com brigadeiro de leite ninho, nutella e finalizado com chocolate branco e pedacinhos de oreo. Bombom cremoso e crocante, extremamente saboroso. Aproximadamente 24 g",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1500617478_2109533131.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3578468",
+          "name": "Brigadeiro Gourmet de ninho com nutella",
+          "description": "Brigadeiro gourmet de ninho com nutella (aproximadamente 24 gramas)",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/318005668_552057143.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2949559",
+          "name": "Brownie com Castanhas e Nozes",
+          "description": "Brownie artesanal bem molhadinho de cacau 50% com pedacinhos de castanhasE e nozes tostadas. Aproximadamente 90 gramas.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1781292200_178456303.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2241148",
+          "name": "Pacote de suspiros",
+          "description": "120 gramas de suspiros com raspas de limão",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1926505527_201728110.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3943907",
+          "name": "Palha Italiana no Pote Ninho com Oreo",
+          "description": "Pedacinhos de palha italiana de brigadeiro gourmet de ninho com oreo, finalizada com leite em pó (pote com aproximadamente 100 gramas)",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/936354808_536928200.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3445534",
+          "name": "Pão de Mel de Ninho com Nutella",
+          "description": "Massa de pão de mel 100% artesanal, aromatizada com cravo e canela, com recheio de Ninho com Nutella, banhado no chocolate nobre. Aproximadamente 80 gramas.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1672027184_68231255.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3886451",
+          "name": "Pão de Mel De Prestigio",
+          "description": "Massa de pão de mel 100% artesanal, aromatizada com cravo e canela, com recheio de prestigio, banhado no chocolate nobre. Aproximadamente 80 gramas.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/741174438_564976390.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2071561",
+          "name": "Pão de Mel Doce de Leite",
+          "description": "Massa de pão de mel 100% artesanal, aromatizada com cravo e canela, com recheio de doce de leite, banhado no chocolate nobre. Aproximadamente 80 gramas.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/534438949_448802177.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3693838",
+          "name": "Bombom de prestigio",
+          "description": "Delicioso bombom com cocada e cobertura de chocolate nobre sabor blend, um sabor único e muito saboroso! (Aproximadamente 27 gramas) a unidade.",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/736028111_995718617.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Trufas Rústicas",
+      "items": [
+        {
+          "sourceId": "4861965",
+          "name": "Trufa de Limão Siciliano",
+          "description": "Trufa de Limão Siciliano com cobertura de chocolate branco (aproximadamente 28g)",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1149964502_1837080818.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mini Caseirinho Vulcão",
+      "items": [
+        {
+          "sourceId": "3410385",
+          "name": "Mini Bolo Pamonha Salgado",
+          "description": "Bolo salgado de milho, com calabresa, requeijão cremoso e mussarela. 300 gramas.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1530972248_1914594520.jpeg",
+          "options": [
+            {
+              "name": "Colher",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "1 brigadeiro gourmet",
+                  "priceCents": 300
+                },
+                {
+                  "name": "2 brigadeiros gourmet",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Fita de Cetim decorativa presenteável",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Morangos na decoração",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3001682",
+          "name": "Mini Caseirinho Cenoura Vulcão",
+          "description": "Caseirinho de Cenoura artesanal, com cobertura de creme suave de chocolate, finalizado com brigadeiros gourmet. Pesa aproximadamente 300 gramas (porção individual serve até 2 fatias)",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1052604114_2099800166.jpeg",
+          "options": [
+            {
+              "name": "Colher",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "1 brigadeiro gourmet",
+                  "priceCents": 300
+                },
+                {
+                  "name": "2 brigadeiros gourmet",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Fita de Cetim decorativa presenteável",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Morangos na decoração",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3095936",
+          "name": "Mini Caseirinho Chocolatudo Vulcão",
+          "description": "Bolo de cacau 50% com cobertura de creme suave de chocolate, finalizado com brigadeiro gourmet e morango. Pesa aproximadamente 300 gramas (porção individual serve até 2 fatias)",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/624693672_63733616.jpeg",
+          "options": [
+            {
+              "name": "Colher",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "1 brigadeiro gourmet",
+                  "priceCents": 300
+                },
+                {
+                  "name": "2 brigadeiros gourmet",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Fita de Cetim decorativa presenteável",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Morangos na decoração",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3091798",
+          "name": "Mini Caseirinho de Laranja Clássico",
+          "description": "Bolo de laranja bem fofinho e saboroso 100% artesanal, com deliciosa cobertura de açúcar gelado (porção individual)",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1935827170_623124414.jpeg",
+          "options": [
+            {
+              "name": "Colher",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "1 brigadeiro gourmet",
+                  "priceCents": 300
+                },
+                {
+                  "name": "2 brigadeiros gourmet",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Fita de Cetim decorativa presenteável",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Morangos na decoração",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3001686",
+          "name": "Mini Caseirinho Red Velvet Vulcão",
+          "description": "Bolo de red velvet com leve toque de cacau e baunilha, recheio de geleia de frutas vermelhas com cobertura de creme suave de ninho, finalizado com morangos e cereja. Pesa aproximadamente 300 gramas (porção individual serve até 2 fatias)",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2308471",
+          "name": "Mini Caseirinho Romeu e Julieta Vulcão",
+          "description": "Caseirinho de Fubá super saboroso, com recheio de cream cheese e goiabada cremosa, a combinação mais que perfeita! (pesa aproximadamente 300 gramas, porção individual - serve até 2 fatias)",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1908387410_1812074054.jpeg",
+          "options": [
+            {
+              "name": "Colher",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito colher descartável",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito colher descartável",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "1 brigadeiro gourmet",
+                  "priceCents": 300
+                },
+                {
+                  "name": "2 brigadeiros gourmet",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Fita de Cetim decorativa presenteável",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Morangos na decoração",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5006687",
+          "name": "Mini Caseirinho Vulcão Dois Amores",
+          "description": "Bolo de cacau 50% com cobertura de creme suave de chocolate e creme suave de ninho, finalizado com brigadeiro gourmet e morango. Pesa aproximadamente 300 gramas ( porção individual serve até 2 fatias).",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/922850314_1586531672.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Coxinha",
+      "items": [
+        {
+          "sourceId": "3546346",
+          "name": "Coxinha de Frango com Requeijão Cremoso",
+          "description": "Coxinha com uma deliciosa massa artesanal, recheada com um delicioso frango cremoso com temperinho de vó e requeijão cremoso! Extremamente cremoso, crocante e saborosa! (coxinha frita na hora - pesa aproximadamente 200 gramas)",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/202182666_500770361.jpeg",
+          "options": [
+            {
+              "name": "Aceita ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito apenas ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito apenas maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito ketcup e maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito ketchup e maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3142819",
+          "name": "Coxinha Franbacon com Requeijão Cremoso",
+          "description": "Coxinha com uma deliciosa massa artesanal, recheada com um delicioso frango cremoso com temperinho de vó, pedacinhos de bacon e requeijão cremoso! Extremamente cremoso, crocante e saborosa! (coxinha frita na hora - pesa aproximadamente 200 gramas)",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1842670262_551483849.jpeg",
+          "options": [
+            {
+              "name": "Aceita ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito apenas ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito apenas maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito ketcup e maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito ketchup e maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Salgados",
+      "items": [
+        {
+          "sourceId": "4740763",
+          "name": "Empada Carne Seca com Requeijão",
+          "description": "A deliciosa massa brissé (amanteigada) assada da magnólia confeitaria, com um recheio bem temperadinho de carne seca com requeijão e azeitona ( pesa aproximadamente 130 gramas)",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1379818432_1080572487.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito apenas Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito apenas Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4678597",
+          "name": "Empada de Palmito (vegetariana)",
+          "description": "A deliciosa massa goiana assada da magnólia confeitaria, com um recheio cremoso e bem temperadinho de palmito com tomate.( pesa aproximadamente 130 gramas)",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1818058755_1852070264.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito apenas Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito apenas Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4725419",
+          "name": "Empada Frango com requeijão",
+          "description": "A deliciosa brissé (amanteigada) assada da magnólia confeitaria, com um recheio cremoso e bem temperadinho de frango com requeijão e azeitona ( pesa aproximadamente 130 gramas)",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1379818432_1080572487.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito apenas Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito apenas Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3463914",
+          "name": "Enroladão de Queijo",
+          "description": "Enroladão de Queijo com deliciosa massa artesanal assada e recheio queijo fresco.",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1309095393_581943880.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito apenas Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito apenas Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4559027",
+          "name": "Enroladão de Queijo Leite condensado e coco",
+          "description": "Enroladão de Queijo com deliciosa massa artesanal assada, recheio queijo fresco com Leite condensado e coco.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1534644502_1220284329.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4801287",
+          "name": "Enroladão Mineiro (NOVIDADE)",
+          "description": "Enroladão de Queijo com deliciosa massa artesanal assada, recheio queijo fresco com cobertura de doce de leite cremoso e coco lado.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/84467367_1163118729.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4073941",
+          "name": "Enroladão Romeu e Julieta (NOVIDADE)",
+          "description": "Enroladão de Queijo com deliciosa massa artesanal assada, recheio queijo fresco com cobertura de goiabada cremosa e queijo ralado.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/490960089_1629008664.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4654621",
+          "name": "Fatia de Frango Cremoso - Torta Salgada",
+          "description": "Fatia de torta salgada, com recheio de frango cremoso, mussarela, e requeijão cremoso. A opção perfeita para seu lanche da tarde!",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/440550215_530424346.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito apenas Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito apenas Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Quiches",
+      "items": [
+        {
+          "sourceId": "3929259",
+          "name": "Quiche Bacon com Alho Poró",
+          "description": "Massa brissé, recheio de bacon com queijo mussarela, alho poró, requeijao cremoso e creme branco com leve toque de pimenta e noz moscada.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1516345212_318487102.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2967263",
+          "name": "Quiche 4 Queijos",
+          "description": "Massa brissé, recheio de queijo mussarela, queijo provolone, queijo prato, requeijão cremoso e creme branco com leve toque de noz moscada",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/49302966_1786821347.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3404614",
+          "name": "Quiche Camarão",
+          "description": "Massa brissé, recheio de camarão cremoso, queijo mussarela, requeijao cremoso e creme branco com leve toque de noz moscada",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1516345212_318487102.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2967229",
+          "name": "Quiche Caprese",
+          "description": "Massa brissé, recheio cremoso de tomate cereja, queijo mussarela, requeijão cremoso, manjericão e creme branco com leve toque de pimenta e noz moscada",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/838111969_1786636070.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3595228",
+          "name": "Quiche Carne Seca com Banana da Terra",
+          "description": "Massa brissé, recheio de carne seca, banana da terra, queijo mussarela, cream cheese e creme branco com leve toque de pimenta e noz moscada.",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/442201855_1528854342.HEIC",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4503317",
+          "name": "Quiche Cebola Caramelizada com Gorgonzola",
+          "description": "Massa brissé, recheio de cebola caramelizada, queijo gorgonzola, queijo mussarela, requeijão cremoso e creme branco com leve toque de pimenta e noz moscada.",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/442201855_1528854342.HEIC",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3404612",
+          "name": "Quiche Frango com Requeijão Cremoso",
+          "description": "Massa brissé, recheio cremoso de frango bem temperadinho, queijo mussarela, requeijão cremoso e creme branco com leve toque de pimenta e noz moscada",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/911958726_1644321923.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3222516",
+          "name": "Quiche Palmito com Frango",
+          "description": "Massa brissé, recheio cremoso de palmito, frango, queijo mussarela e creme branco com leve toque de pimenta e noz moscada.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/282676431_1735469463.jpeg",
+          "options": [
+            {
+              "name": "Aceita Ketchup e Maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não aceito Ketchup e Maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Somente Maionese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "3517905",
+          "name": "Água com Gás",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1370349998_1621993229.webp",
+          "options": []
+        },
+        {
+          "sourceId": "3517897",
+          "name": "Água mineral",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1264348328_1521873051.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4851531",
+          "name": "Água Tônica zero açucares",
+          "description": "350ml",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3354267",
+          "name": "Coca Cola Lata - Zero Açúcar 310 ml",
+          "description": "310 ml",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1415326356_540918372.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3148438",
+          "name": "Coca cola lata 220 ml",
+          "description": "Coca cola lata 220 ml",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/441346138_296414188.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3412124",
+          "name": "Coca Cola Lata Tradicional 310 ml",
+          "description": "310 ml",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2054599119_517322865.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2297702",
+          "name": "Coca cola lata zero 220 ml",
+          "description": "Coca cola lata zero açúcar 220 ml",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1356538990_1139202899.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3405315",
+          "name": "Fanta laranja 310ml",
+          "description": "310ml",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/77895362_259314338.webp",
+          "options": []
+        },
+        {
+          "sourceId": "3354269",
+          "name": "Guaraná Antártica 350 ml",
+          "description": "Guaraná Antártica 350 ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/134012751_2116513736.png",
+          "options": []
+        },
+        {
+          "sourceId": "3354273",
+          "name": "Guaraná Antártica Zero Açúcar 350 ml",
+          "description": "Guaraná Antártica Zero Açúcar 350 ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/464135996_418569036.png",
+          "options": []
+        },
+        {
+          "sourceId": "3511115",
+          "name": "Sprite Lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/508105485_439725293.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4706535",
+          "name": "Sprite Zero Lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Presentes Magnólia Confeitaria",
+      "items": [
+        {
+          "sourceId": "3878481",
+          "name": "Cartinha Para Presentes",
+          "description": "Escreva na descrição o que gostaria de escrever em sua cartinha! (Não cabe textos grandes, apenas frases pequenas!)",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1403431761_1279986421.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3878483",
+          "name": "Vela de Aniversário",
+          "description": "Complemente seu bolo com uma vela de aniversário!",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2112495101_339579705.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

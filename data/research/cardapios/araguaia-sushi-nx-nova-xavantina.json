@@ -1,0 +1,3787 @@
+{
+  "id": "araguaia-sushi-nx-nova-xavantina",
+  "platform": "bigdim",
+  "source": "https://araguaiasushi1.bigd.im/wapp/araguaiasushi1/store/#/delivery/loja/araguaiasushi1",
+  "capturedAt": "2026-10-31T23:11:02.260Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Promoção",
+      "items": [
+        {
+          "sourceId": "705908",
+          "name": "Combo promocional - casal - 26 peças",
+          "description": "2 sashimi salmão, 2 niguiri variados, 2 joy philadelfia, 6 hossomaki variados, 4 uramaki variados e 10 hot holl.",
+          "priceCents": 6900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "757960",
+          "name": "Combo hot 16 peças",
+          "description": "10 hot rool + 2 bolinhos de salmao + 2 rolinhos primavera + 2 camaroes empanado + 1 temaki hot",
+          "priceCents": 5400,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/89ab1c6e-315d-4232-846d-338e237652f4.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "705911",
+          "name": "Combo promocional - familia - 51 peças.",
+          "description": "4 sashimi tilapia, 8 niguiri variados, 12 hossomaki variados, 12 uramaki variados e 15 hot holl.",
+          "priceCents": 13900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combinados servidos na barca",
+      "items": [
+        {
+          "sourceId": "694504",
+          "name": "Barca nagoya (80 peças)",
+          "description": "5 Sashimis de salmão, 5 Shashimis Anchova Negra, 15 Uramakis, 15 Hossomakis, 10 Niguiri, 14 Hot Rolls, 7 Joys, 5 Joys de Camarão, 4 Camarões Empanados. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 30800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328784/img/ad765dcd-5e00-4207-9614-731cc2465c97.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694497",
+          "name": "Barca araguaia (60 peças)",
+          "description": "12 sashimis ( salmao,tilapia,anchova negra) 9 hossomak 9 uramaki 16 hot philadelphia 10 niguiris 4 jhoy",
+          "priceCents": 20790,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3137366/img/37364636-4fbc-45c7-8a24-a80207b85f11.png",
+          "options": []
+        },
+        {
+          "sourceId": "694498",
+          "name": "Barca fitness (50 peças)",
+          "description": "5 sashimis de salmao 5 sashimis de salmao black 5 sashimis de salmao crosta de gergelim 5 sashimis de tilapia 5 sashimis de anchova negra 5 sashimis de polvo 5 jhoy sem arroz 5 jhoy de maracuja 5 hot sem arroz",
+          "priceCents": 21890,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2814819/img/d2f42a6b-0494-4a0c-bc66-81ab8c41a521.png",
+          "options": []
+        },
+        {
+          "sourceId": "694509",
+          "name": "Barca nara (120 peças)",
+          "description": "10 Sashimis Anchova Negra, 10 Sashimis de Salmão, 30 Uramakis, 20 Hossomakis, 10 Niguiri, 24 Hit Rolls, 7 Joys, 5 Joys Camarão, 4 Camarões Empanados. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 42900,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328785/img/423c4afb-4e4f-4839-80d1-fa50ff70ec56.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combinados c/ sashimi",
+      "items": [
+        {
+          "sourceId": "694508",
+          "name": "Osaka (16 peças)",
+          "description": "4 Sashimi de salmão, 4 Hot Rolls, 4 Hossomaki, 2 Niguiri, 2 Joy. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 7810,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328752/img/8196f6e2-cdb3-48d6-8233-4fd037657fcd.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694400",
+          "name": "Kyoto (24 peças)",
+          "description": "4 Sashimi de salmão, 6 Hot Rolls, 4 Joys, 4 Niguiris, 4 Uramakis Philadelphia, 2 Hossomakis de salmão. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 8700,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328761/img/bce6b141-033d-4928-8b2a-8512a282ea2c.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694402",
+          "name": "Tóquio (25 peças de sashimi)",
+          "description": "5 Sashimis de Salmão, 5 Sashimis de Peixe Branco, 5 Sashimis de Polvo, 5 Sashimis de Barriga de Salmão, 5 Sashimis de Salmão na Crosta de Gergelim. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 19360,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328763/img/77286ded-b128-4962-a1e3-4395e7a64680.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694506",
+          "name": "Nagoya (33 peças) ao)",
+          "description": "10 Sashimis variados, 5 Uramakis de Salmão, 4 Hossomakis de Salmão, 6 Hot Rolls, 4 Joys, 4 Niguiris. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 13200,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328773/img/1a95cf41-5a39-4970-83c8-bc1e09b36b47.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694507",
+          "name": "Nara (58 peças)",
+          "description": "15 Sashimis variados, 5 Uramakis de Salmão, 5 Uramakis Especiais, 10 Joys, 5 Niguiri de Salmão, 4 Hossomakis de Salmão, 4 Hossomakis de Atum, 5 Hot Rolls de Salmão, 5 Hot Rolls de Camarão. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 23540,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330811/img/d95e0684-e117-4525-8d3e-d977ac021920.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combinados s/ sashimi",
+      "items": [
+        {
+          "sourceId": "694505",
+          "name": "Toyama (12 peças)",
+          "description": "4 Hot Rolls, 4 Hossomaki, 2 Uramakis, 2 Niguiri. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 4510,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330813/img/06d213db-b4f7-4f59-adac-a84673cd9e0a.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694493",
+          "name": "Nigata (24 peças)",
+          "description": "8 Hot Rolls, 8 Hossomaki, 4 Uramaki, 4 Niguiri. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 8470,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330814/img/992c6355-e235-411c-bb60-854f9b8f3dd8.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694482",
+          "name": "Kawasaki (38 peças)",
+          "description": "10 Hot Rolls, 10 Hossomaki, 10 Uramaki, 8 Niguiri. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 11440,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328737/img/5cb2752a-b621-41a9-8eee-22d67bd683f0.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Entradas",
+      "items": [
+        {
+          "sourceId": "694494",
+          "name": "Ceviche de tilápia 200g",
+          "description": "Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 5390,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330817/img/c19bf61f-f79b-4b68-b694-7f4adc88b68d.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694485",
+          "name": "Ceviche de salmão 200g",
+          "description": "Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 6160,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328601/img/5a6867fb-2607-4f17-9bf9-47987e04978f.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694391",
+          "name": "Sunomono 150g",
+          "description": "Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328605/img/b990a173-0e4a-4dd2-8158-5b5b0a2d2fe9.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694388",
+          "name": "Carpaccio de salmão 20 fatias",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 6400,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328610/img/6231b444-a946-4280-ba5d-baa0ff7700ac.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694479",
+          "name": "Carpaccio de polvo 20 fatias",
+          "description": "20 Fatias.",
+          "priceCents": 8990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328612/img/6ec75b44-328f-49c9-a2bf-dce6e65f7ee2.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694389",
+          "name": "Carpaccio de tilápia 20 fatias",
+          "description": "20 fatias.",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328614/img/f4d6a884-6142-404b-9fa3-e4f53c6b024e.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694477",
+          "name": "Carpaccio mix 20 fatias",
+          "description": "20 Fatias. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 7920,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328619/img/fe59c462-1b84-4659-96d1-c01565c5c123.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hot roll",
+      "items": [
+        {
+          "sourceId": "694417",
+          "name": "Hot simples",
+          "description": "Salmão e cebolinha | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329043/img/dbb350be-9769-4ea7-b3a8-05cd587225da.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694416",
+          "name": "Hot philadelphia",
+          "description": "Salmão, cream cheese e cebolinha | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3410,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329045/img/ac783e8e-4b39-4fb6-868f-677b239f0c16.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694415",
+          "name": "Hot camarão",
+          "description": "Camarão empanado, cream cheese, cebolinha | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3960,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330805/img/b311085e-b283-41a5-b73e-f9173a56e273.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694336",
+          "name": "Hot do chef",
+          "description": "Salmão, camarão, folha de arroz e sweet chilli | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 4730,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329057/img/e095ae7c-130c-4fd4-9668-e3a5f0e1445c.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "805582",
+          "name": "Big hot de salmao",
+          "description": "",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/92ff6cb2-165b-4fd8-a625-26f678ffcca3.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694418",
+          "name": "Hot tartar",
+          "description": "Salmão, cream cheese, coberto com salmão batido, molho sweet chilli, raspas de limão siciliano| 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 4730,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330827/img/130a42d9-fee9-4107-b48a-b1dc14c68541.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo",
+      "items": [
+        {
+          "sourceId": "793013",
+          "name": "Combo praia do sol 24 peças",
+          "description": "4 sashimis de salmao 4 sashimis de tilapia 2 niguiri de salmão 2 joy maracujá 4 hossomaki variados 4 uramaki philadelfia 4 hot holl",
+          "priceCents": 6990,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/258333ae-d450-4bbd-abd9-43f57b87219e.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sanduiches",
+      "items": [
+        {
+          "sourceId": "747691",
+          "name": "Sushi burgue de camarão",
+          "description": "Base de arroz empanado e frito camarão ao alho e oleo, grisp batata de doce, queijo mussarela ralado e massaricado geleia de pimenta e molho tare.",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/f180c9f6-3438-457f-9074-ce2abbcfa881.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "747702",
+          "name": "Sushi burgue de salmão",
+          "description": "Base de arroz empanado e frito creme ceese, salmao, crispe de batata doce e molho tare.",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/9875c900-59cc-4f8b-a88d-8d6295d68e97.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "747710",
+          "name": "Sushi burgue de salmao maçaricado",
+          "description": "Base de arroz empanado e frito creme ceese, salmao maçaricado, crispe de batata doce e molho tare.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/9c2fb9d8-9af2-4e2d-a12c-f7843b91f9e6.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Temaki's",
+      "items": [
+        {
+          "sourceId": "694428",
+          "name": "Temaki salmão simples",
+          "description": "Salmão, cebolinha | unidade. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3410,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329120/img/f1037f16-56a1-422a-8bf3-8dd9ded3637a.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Temaki sem arroz",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694427",
+          "name": "Temaki salmão philadelphia",
+          "description": "Salmão, cream cheese, cebolinha| unidade. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330853/img/027c67cb-1479-47f5-9cef-06a2cc7db7ca.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Temaki sem arroz",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694426",
+          "name": "Temaki hot (empanado e frito)",
+          "description": "Salmão, cream cheese, cebolinha, empanado e frito | unidade. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330796/img/e2c289af-be07-4580-9712-5a74708c1ef3.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Temaki sem arroz",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694486",
+          "name": "Temaki tempurá de camarão",
+          "description": "Camarão empanado, alho, cebolinha, cream cheese| unidade. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329147/img/9a18bd2c-2abd-4333-bb7b-22b88c7cc242.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Temaki sem arroz",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rodizio em casa",
+      "items": [
+        {
+          "sourceId": "742338",
+          "name": "Rodizio em casa premium",
+          "description": "Ceviche de salmão, carpaccio de salmão com 8 fatias, carpaccio de polvo com 8 fatias, 2 rolinhas primavera, 2 bolinhos de salmão, 2 iscas de tilápia, 2 camarãoes empanados, 6 sushis variados, 4 niguiris, 4 jhoy, 8 hot philadelphia, 4 sashimis de salmão, 4 sashimis de polvo, 2 jhoy de goiabada e 1 panacota de frutas vermelhas.",
+          "priceCents": 13990,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/ab62cebf-c15d-4472-9c45-fb26c68b2a26.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "742339",
+          "name": "Rodizio em casa tradicional",
+          "description": "1 carpaccio de tilápia com 10 fatias, 6 sushis variados, 4 niguiris, 6 hot philadelphia, 2 rolinhos primavera, 2 bolinhos de salmão e 1 panacota de frutas vermelhas.",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.bigdim.com.br/0013da2f-bb9c-4853-87e0-c54374e1cc7c.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Quentes",
+      "items": [
+        {
+          "sourceId": "694395",
+          "name": "Yakissoba de camarão 500g",
+          "description": "Camarão, massa de yakissoba, repolho roxo, repolho branco, acelga, cenoura, brócolis.",
+          "priceCents": 5940,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328672/img/ea785927-0a77-4b97-b917-e2575a0b2db1.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "708352",
+          "name": "YAKISSOBA DE CAMARÃO 500G (Cópia)",
+          "description": "Camarão, massa de yakissoba, repolho roxo, repolho branco, acelga, cenoura, brócolis.",
+          "priceCents": 5940,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328672/img/ea785927-0a77-4b97-b917-e2575a0b2db1.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694396",
+          "name": "Yakissoba de filé mignon 500g",
+          "description": "Filé Mignon, massa de yakissoba, repolho roxo, repolho branco, acelga, cenoura, brócolis.",
+          "priceCents": 5170,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330808/img/24634573-bf18-41bd-a54f-57a1a48c487b.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694399",
+          "name": "Yakissoba vegano 500g",
+          "description": "Shimeji. massa de yakissoba, repolho roxo, repolho branco, acelga, cenoura, brócolis e tomate cereja. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 5170,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328677/img/22dcfb1d-52a5-4c36-a64c-cce95c63be8e.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694397",
+          "name": "Yakissoba de frango 500g",
+          "description": "Frango. massa de yakissoba, repolho roxo, repolho branco, acelga, cenoura, brócolis. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328680/img/8f3014f1-1f59-4dff-9e13-f04c68b23a5e.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694398",
+          "name": "Yakissoba de frutos do mar 500g",
+          "description": "Camarão, polvo, salmão grelhado, massa da yakissoba, repolho roxo, repolho branco, acelga, cenoura e brócolis. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 8360,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328684/img/4287a89e-ef32-413d-b513-d85b13aa1ef4.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694320",
+          "name": "Teppan de salmão",
+          "description": "Posta de salmão grelhado, arroz Gohan, legumes salteados no saquê (brócolis, acelga, repolho roxo, cenoura, repolho branco). Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 8360,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330809/img/26c26aec-9114-4922-b161-b51e18dd8cb4.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694343",
+          "name": "Teppan de filé",
+          "description": "Posta de filé grelhado, arroz Gohan, legumes salteados no saquê (brócolis, acelga, repolho roxo, cenoura, repolho branco). Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 7810,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328707/img/30fe3aa5-ce0e-4988-957f-fa97089cea50.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694480",
+          "name": "Tempurá de camarão 5 unidades",
+          "description": "5 unidades.",
+          "priceCents": 7700,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330806/img/b8d41f74-83a5-4c46-b448-efd4533ff49b.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poke",
+      "items": [
+        {
+          "sourceId": "694393",
+          "name": "Poke havaiano",
+          "description": "Base de arroz, 100g de Salmão, cream cheese, cebolinha, crisps de batata doce, sunomono, 2 camarões empanados.",
+          "priceCents": 5830,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330849/img/d55e402d-c5ce-47e4-9414-260b7b97ddb9.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694392",
+          "name": "Poke grill",
+          "description": "Base de arroz, 100g de Salmão grelhado, cream cheese, crisps de alho poró, cebola roxa, amêndoas laminadas. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 5830,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330851/img/a199708c-2719-4a8e-b49e-7a1edb7a34a1.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694394",
+          "name": "Poke vegano",
+          "description": "Base de arroz, 100g de Shimeji, tomate cereja, crisps de batata doce, cream cheese, cebolinha sunomono. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 5280,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328668/img/13c7c023-fc69-4ba0-bb8f-dc81b958db43.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sashimis",
+      "items": [
+        {
+          "sourceId": "694406",
+          "name": "Sashimi de salmão",
+          "description": "5 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3520,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330858/img/d97d6b0d-6d67-437c-b303-778fe7bda89a.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694408",
+          "name": "Sashimi de tilápia",
+          "description": "5 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 2970,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328805/img/01588f17-ae5f-4987-927c-7fb88106c3ac.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694404",
+          "name": "Sashimi de barriga de salmão",
+          "description": "5 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3740,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328814/img/83d11144-fb6d-40e6-8b33-92be2b2592a3.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694407",
+          "name": "Sashimi de salmão na crosta de gergelim",
+          "description": "5 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328816/img/c4acb81d-d279-4eb2-a4e6-a4fc7649727f.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Joy's",
+      "items": [
+        {
+          "sourceId": "694413",
+          "name": "Joy salmão philadelphia",
+          "description": "Salmão, cream cheese e cebolinha | 4 unidades.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328830/img/57ae8f5d-4558-4cd8-9050-ff2f8c1f9a65.jpg",
+          "options": [
+            {
+              "name": "Molhos e hashis adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694414",
+          "name": "Joy salmão simples",
+          "description": "Salmão e cebolinha 4 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2328864/img/8a6cbf30-9942-4358-932f-af969f2f9961.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694411",
+          "name": "Joy salmão brie",
+          "description": "Salmão, cream cheese, coberto por queijo brie braseado | 4 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3520,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329028/img/7efd9e29-5db5-4501-acb9-118fa5a80a85.avif",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694412",
+          "name": "Joy salmão ceviche",
+          "description": "Salmão, cebola roxa, cebolinha, raspas de limão siciliano | 4 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3630,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330819/img/ceacabc2-05e8-4982-8a30-dec487b339c3.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694410",
+          "name": "Joy do chef",
+          "description": "Salmão, camarão, cream cheese e geleia de pimenta | 4 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 4730,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330848/img/2410ea23-6798-4979-98ee-938508d6d570.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694409",
+          "name": "Joy de maracujá",
+          "description": "Salmão, camarão, cream cheese e geleia artesanal de maracujá| 4 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330800/img/82ce1345-5cca-43b1-b876-9911f8f71a24.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Niguiri's",
+      "items": [
+        {
+          "sourceId": "694419",
+          "name": "Niguiri de salmão",
+          "description": "Salmão e arroz | 4 unidades",
+          "priceCents": 2860,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329069/img/aaf12615-ab21-43ce-80c8-a7231511f6f9.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694421",
+          "name": "Niguiri de salmão lemon",
+          "description": "Salmão, arroz, raspas de limão, flor de sal | 4 unidades Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 2970,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330801/img/0645ea91-dc93-4e95-9038-b244cc7ebb08.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694420",
+          "name": "Niguiri de salmão braseado",
+          "description": "Salmão maçaricado, arroz, raspas de limão, flor de sal | 4 unidades Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 2970,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330823/img/10f1ed6b-2437-484a-ac5d-a58ef33e2730.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694484",
+          "name": "Niguiri de salmão crocante",
+          "description": "Salmão, arroz, ovas crocantes | 4 unidades Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 2970,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329092/img/a51c8aaf-db15-4da0-83bb-9403381e0dcc.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694422",
+          "name": "Niguiri de tilápia",
+          "description": "Tilápia, arroz | 4 unidades Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 2640,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329095/img/9190b384-e9c7-4610-8bb0-de278f266b29.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hossomaki's",
+      "items": [
+        {
+          "sourceId": "694424",
+          "name": "Hossomaki de salmão",
+          "description": "Salmão, alga Nori, arroz | 8 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3410,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694423",
+          "name": "Hossomaki de camarão",
+          "description": "Camarão empanado, alga Nori, arroz | 8 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3740,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329112/img/444966eb-f26d-4541-ac36-616925aa8d21.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694425",
+          "name": "Hossomaki do chef",
+          "description": "Camarão, salmão, folha de tamago, maionese e cebolinha | 8 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3960,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uramaki's",
+      "items": [
+        {
+          "sourceId": "694501",
+          "name": "Uramaki salmão philadelphia",
+          "description": "Salmão, cream cheese | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi.",
+          "priceCents": 3520,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330856/img/7b12b796-4564-4141-8224-574ec923a061.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694483",
+          "name": "Uramaki salmão grill",
+          "description": "Salmão grelhado, Philadelphia, cream cheese e cebolinha| 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3410,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329165/img/07dac64a-b0aa-494d-8461-3e163b9c24b4.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694500",
+          "name": "Uramaki salmão especial",
+          "description": "Salmão, cream cheese, cobertura de salmão braseado | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329170/img/f79f280b-2afa-4e55-8754-a125633b5418.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694487",
+          "name": "Uramaki camarão",
+          "description": "Camarão empanado, cream cheese | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329184/img/f459e5d6-4d62-4ac5-9003-20e5f4781d72.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694502",
+          "name": "Uramaki vegano",
+          "description": "Rúcula, cream cheese, tomate seco e flor de sal | 10 unidades. Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329186/img/f4cb79ed-8bc0-4e28-9805-1ce5c069dc5d.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "sourceId": "694488",
+          "name": "Hot de banana (10 unidades)",
+          "description": "Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. imagem ilustrativa.",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329193/img/aea94bba-3071-45f0-af32-bcd712177026.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694503",
+          "name": "Joy de goiabada (5 unidades)",
+          "description": "Acompanha 2 molhos Shoyu, 2 molhos tarê e 1 par de hashi. Cream cheese e goiabada. imagem ilustrativa.",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3125062/img/50f5e375-4248-4f76-9382-e45bed06ed1c.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Molho shoyu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hashi adicional (par)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crispy de batata doce",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de alho poró",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Crispy de couve",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Geleia de maracujá",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694335",
+          "name": "Panacota de frutas vermelhas",
+          "description": "",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330836/img/1002e55d-2c30-4eab-a8b6-e35231c4d7e4.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694368",
+          "name": "Panacota de maracujá",
+          "description": "",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330831/img/e105c1aa-1332-4a08-a50b-2f3c86be2301.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Adicionais",
+      "items": [
+        {
+          "sourceId": "694605",
+          "name": "Crispy de alho poró",
+          "description": "",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143892/img/41f85325-5a66-4908-8a95-b1a0113b1c35.png",
+          "options": []
+        },
+        {
+          "sourceId": "694364",
+          "name": "Crispy de batata doce",
+          "description": "",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143889/img/acafc083-fc16-4275-b4c1-a29ab71d8fd4.png",
+          "options": []
+        },
+        {
+          "sourceId": "694606",
+          "name": "Crispy de couve",
+          "description": "",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143893/img/9a5cad44-b83b-43a3-820c-157e732a67c0.png",
+          "options": []
+        },
+        {
+          "sourceId": "694608",
+          "name": "Geleia de maracujá",
+          "description": "",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143896/img/2c8afbac-bf13-442f-82cf-e68bcd397d41.png",
+          "options": []
+        },
+        {
+          "sourceId": "694607",
+          "name": "Geleia de pimenta",
+          "description": "",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143895/img/de2b9cd8-e53c-4dd1-be6d-12d717db8ed4.png",
+          "options": []
+        },
+        {
+          "sourceId": "708448",
+          "name": "Sem arroz",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "701362",
+          "name": "Tarê",
+          "description": "",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "sourceId": "694489",
+          "name": "Drink frutas vermelhas",
+          "description": "Saquê, frutas vermelhas, limão seco, gelo e açúcar.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330872/img/583f5453-a4f3-4959-bdb7-3ee59fe364e7.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694490",
+          "name": "Drink maracujá",
+          "description": "Saquê, geleia de maracujá, hortelã, gelo e açúcar.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330869/img/2896325f-3e61-4f26-9392-143d7c050880.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Chopp",
+      "items": [
+        {
+          "sourceId": "694458",
+          "name": "Chopp brahma 400ml",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330875/img/e2f22693-e0a1-4e72-a39a-67e8b9e560e4.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694444",
+          "name": "Cozumel de chopp brahma 550ml",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2050,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330876/img/c1bce36e-d414-4e5a-9874-f24d5c4007ca.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cervejas long neck",
+      "items": [
+        {
+          "sourceId": "694576",
+          "name": "Heineken",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143637/img/274b6586-d4f6-4d1b-91dd-43af29d19d66.png",
+          "options": []
+        },
+        {
+          "sourceId": "694577",
+          "name": "Heineken zero",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143638/img/ec273006-5f09-498a-aa64-18fd8e780226.png",
+          "options": []
+        },
+        {
+          "sourceId": "694578",
+          "name": "Corona",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143639/img/70bc12c3-1353-4dd9-b5c4-3cd29a24cce7.png",
+          "options": []
+        },
+        {
+          "sourceId": "694579",
+          "name": "Corona zero",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143641/img/0410364e-7a8e-4faa-ad00-38a2b5718c72.png",
+          "options": []
+        },
+        {
+          "sourceId": "694369",
+          "name": "Cabaré ice limão",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330978/img/3468da20-2667-4a3e-a482-1d6e4f6475e8.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694370",
+          "name": "Cabaré ice frutas vermelhas",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330981/img/f2b7cbdf-db74-444f-9ebf-b0fd625d1188.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694433",
+          "name": "Stella pure gold",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329256/img/de61af42-8aee-49e2-8d20-dc499b81c75f.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Baldinho de cerveja",
+      "items": [
+        {
+          "sourceId": "694593",
+          "name": "Balde heineken 5 unidades",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 6950,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143831/img/66c7a0cd-579c-4611-b079-53bebbd8db16.png",
+          "options": []
+        },
+        {
+          "sourceId": "694594",
+          "name": "Balde corona 5 unidades",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 6950,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143834/img/712c1421-4779-4ef8-b660-232421817d18.png",
+          "options": []
+        },
+        {
+          "sourceId": "694595",
+          "name": "Balde cabaré ice",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 8490,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143837/img/9228ac9f-b541-4873-add1-a5692b1586ca.png",
+          "options": []
+        },
+        {
+          "sourceId": "694432",
+          "name": "Balde stella pure gold 5 unidades",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 7450,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2329265/img/60ed4009-61d8-44f3-bd23-92ee9befbc69.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas diversas",
+      "items": [
+        {
+          "sourceId": "694371",
+          "name": "Água tônica",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 890,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143845/img/a69af0ed-5879-45d3-9e38-89be1140c5be.png",
+          "options": []
+        },
+        {
+          "sourceId": "694372",
+          "name": "Água sem gás",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 290,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143867/img/b0dc2667-40e6-455a-8cc8-f9080febaf23.png",
+          "options": []
+        },
+        {
+          "sourceId": "694373",
+          "name": "Água com gás",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143854/img/5918acb9-75f3-4244-91ea-caeb167ee4e9.png",
+          "options": []
+        },
+        {
+          "sourceId": "694386",
+          "name": "Água de coco 200ml",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 890,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143857/img/ababf739-7a92-46e9-b189-9e0c11f4f147.png",
+          "options": []
+        },
+        {
+          "sourceId": "694375",
+          "name": "H2o limão",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143851/img/4c49fcc9-127f-458c-af04-e6720d58d3ca.png",
+          "options": []
+        },
+        {
+          "sourceId": "694377",
+          "name": "H2o limoneto",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143852/img/0c61b456-2024-48f9-8635-54bf1e1809aa.png",
+          "options": []
+        },
+        {
+          "sourceId": "694376",
+          "name": "Keep cooler morango",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143863/img/0942af7a-1a09-4ee1-8e4a-4c59bf113317.png",
+          "options": []
+        },
+        {
+          "sourceId": "694378",
+          "name": "Keep cooler uva",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143866/img/a406abda-22f8-4217-b52b-f09f6b0440b9.png",
+          "options": []
+        },
+        {
+          "sourceId": "694379",
+          "name": "Coca cola lata",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143844/img/f96ed33a-6efd-4187-9bdb-789b8edb1bff.png",
+          "options": []
+        },
+        {
+          "sourceId": "694380",
+          "name": "Coca cola zero lata",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143846/img/1a1879fb-c7f7-44bf-bb30-fe85c3e61403.png",
+          "options": []
+        },
+        {
+          "sourceId": "694383",
+          "name": "Guaraná antárctica lata",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143847/img/b3dcbd6f-6d94-4d9a-adbb-5bbd4b5474fe.png",
+          "options": []
+        },
+        {
+          "sourceId": "694382",
+          "name": "Guaraná antárctica zero lata",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143849/img/ae2eb3bb-6d62-488d-9593-fe415680ffca.png",
+          "options": []
+        },
+        {
+          "sourceId": "694381",
+          "name": "Sprite lata",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143861/img/697ca81e-1a8a-4334-ab6a-0e7a3ddf47d5.png",
+          "options": []
+        },
+        {
+          "sourceId": "694385",
+          "name": "Red bull",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143860/img/97777da5-8075-4137-a9e3-63cf6dfa5350.png",
+          "options": []
+        },
+        {
+          "sourceId": "694597",
+          "name": "Trident",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 490,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143841/img/95540b74-98e2-4716-b16a-1af0a9a5d7bc.png",
+          "options": []
+        },
+        {
+          "sourceId": "694609",
+          "name": "Copo especial (gelo e limão)",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143898/img/87d7849a-b6bb-47fd-9ec0-a6326f3dffcc.png",
+          "options": []
+        },
+        {
+          "sourceId": "694610",
+          "name": "Cdb",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143899/img/ce3621d8-e9d5-4993-aaf6-f3f6baca0d84.png",
+          "options": []
+        },
+        {
+          "sourceId": "694611",
+          "name": "Embalagem personalizada",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "707445",
+          "name": "Suco dell vale 290ml",
+          "description": "Consultar sabores",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3204903/img/933ec31f-d814-49d3-aca5-450002e8c350.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Doses",
+      "items": [
+        {
+          "sourceId": "694446",
+          "name": "Dose old parr",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330892/img/43471c07-700b-4bad-83b1-02432fcc82fd.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694440",
+          "name": "Dose red label",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330894/img/db260118-3752-4606-943a-62f2c4c4a41b.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694447",
+          "name": "Dose gin tanqueray",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143960/img/d3076747-361f-46d4-a079-06fe4f7e38f6.png",
+          "options": []
+        },
+        {
+          "sourceId": "694448",
+          "name": "Dose vodka smirnoff",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330897/img/9bfee699-a030-4553-b23d-297924d15694.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694449",
+          "name": "Dose vodka absolut",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330898/img/43f9f72b-87ae-4432-bc95-1b3523e316b2.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694451",
+          "name": "Dose tequila josé cuervo prata",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330899/img/f38bc5cc-4fb8-4cad-9e52-2d9a5cceaecd.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694450",
+          "name": "Dose tequila josé cuervo ouro",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330900/img/16ab9df6-e473-4ddf-a6d0-51c040e785bd.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694441",
+          "name": "Dose seleta",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330902/img/d49c7544-740f-497c-adfc-6dde2598c57f.png",
+          "options": []
+        },
+        {
+          "sourceId": "694452",
+          "name": "Dose campari",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330906/img/5fa7aec7-8cea-4746-b26d-9f14c1731325.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694453",
+          "name": "Dose ypióca",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330907/img/7fbf221c-3f32-477f-b2aa-5212a25a9357.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694454",
+          "name": "Dose bananinha",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330912/img/35ccba6e-bdc0-49f9-9fbb-cf0358769246.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694442",
+          "name": "Dose licor 43",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330913/img/b24deb77-ec58-4e5e-9c3b-90beb4693eeb.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694443",
+          "name": "Dose paratudo",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330914/img/946ce445-21d1-4506-ae3f-d0c5c67a01d5.png",
+          "options": []
+        },
+        {
+          "sourceId": "694455",
+          "name": "Dose pinga 51",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330915/img/2608baee-86e3-4216-a391-a4643055dda5.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694445",
+          "name": "Dose velho barreiro",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330916/img/c858bbbb-bf39-44ec-927b-abd97be4ec58.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694456",
+          "name": "Dose saquê",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330917/img/2e7d90e2-2507-4abf-b080-36455dba885b.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Vinhos tinto",
+      "items": [
+        {
+          "sourceId": "694464",
+          "name": "Vinho tinto casal garcia",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 16990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330930/img/0b099be6-6232-4fcb-9f6a-a3573bcc2956.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694466",
+          "name": "Vinho tinto dv catena malbec",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 35990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330934/img/5545ab9a-80cb-4ab9-bdd2-24295ce5f94e.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694467",
+          "name": "Vinho tinto casillero del diablo malbec",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 15990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330936/img/39beb15c-a438-4b3f-9691-b5bfe05e27dc.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694459",
+          "name": "Vinho tinto casillero del diablo cabernet sauvignon",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 15990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330939/img/a7c328bd-6d17-4d70-9ba9-be02059efd2e.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "694460",
+          "name": "Vinho tinto chilano cabernet sauvignon",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330941/img/8bf4d124-ec48-4f4f-8317-04ce9510a788.png",
+          "options": []
+        },
+        {
+          "sourceId": "694601",
+          "name": "Vinho tinto del rei",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 9590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143875/img/7592c890-bd1b-4941-9fc8-59e97687d7fb.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Vinhos branco",
+      "items": [
+        {
+          "sourceId": "694461",
+          "name": "Vinho branco casal garcia",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 16990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330956/img/dd0ce5be-3250-4d8a-b50c-d59db253cec1.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694468",
+          "name": "Vinho branco alandra",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 10590,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330959/img/55244e71-c5d7-4a9d-bc53-ad957e37c174.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Vinhos rosé",
+      "items": [
+        {
+          "sourceId": "694471",
+          "name": "Vinho rosé casal garcia",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 16990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330964/img/f6559db9-d6ff-4c45-95e9-d38333d53685.webp",
+          "options": []
+        },
+        {
+          "sourceId": "694473",
+          "name": "Vinho rosé júlia florista",
+          "description": "Imagem ilustrativa.",
+          "priceCents": 11090,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/2330967/img/42f1715c-0fbf-4c3c-bc7b-51ac76a0e470.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Espumantes",
+      "items": [
+        {
+          "sourceId": "694474",
+          "name": "Chandon",
+          "description": "",
+          "priceCents": 18990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143952/img/2e068080-def9-4c09-8052-6ef4f4f379d2.png",
+          "options": []
+        },
+        {
+          "sourceId": "694469",
+          "name": "Casa perini",
+          "description": "",
+          "priceCents": 14990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143954/img/dd1ac148-ade0-4c7f-80fa-67a2b3fd9dfb.png",
+          "options": []
+        },
+        {
+          "sourceId": "694475",
+          "name": "Cella lambrusco",
+          "description": "",
+          "priceCents": 12990,
+          "originalPriceCents": null,
+          "imageUrl": "https://www.bigdim.com.br/arquivo/download/3143956/img/8b2a8d23-0e3d-4abb-858a-8c3018de822a.png",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

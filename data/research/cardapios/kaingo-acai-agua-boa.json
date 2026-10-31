@@ -1,0 +1,1097 @@
+{
+  "id": "kaingo-acai-agua-boa",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/OTE1NjU=",
+  "capturedAt": "2026-10-31T23:10:51.581Z",
+  "hours": "Todos os dias, 13h–22h",
+  "sections": [
+    {
+      "name": "Açai do seu jeito",
+      "items": [
+        {
+          "sourceId": "3804151",
+          "name": "Açaí 473 ml",
+          "description": "Monte o seu açaí com tudo que você gosta!",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1535153911_287881397.jpeg",
+          "options": [
+            {
+              "name": "Tipos de açaí",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Açaí c/ banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí c/ cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí c/ morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí puro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais gratís",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Granola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Complementos",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Amendoim c/ caramelo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amora fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Beijinho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Beijo fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda c/ pipoca caramelizada",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Calda quente",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Castanha de caju",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Choco ball",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocobis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocobis branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocotella",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cookie brownie",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Cookies cream",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Creme de amendoim",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Dentadura fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha de puba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha de tapioca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha lactea",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Flocos de arroz",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Gota de chocolate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "M&ms",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "name": "Cremes e caldas",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Calda de abacaxi ao vinho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda de frutas vermelhas",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda de maracujá",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cereja artificial",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cereja natural",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Chantininho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Banana com leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí 237 ml",
+      "items": [
+        {
+          "sourceId": "3804181",
+          "name": "Açaí 237 ml",
+          "description": "Monte o seu açaí com tudo que você gosta!",
+          "priceCents": 1799,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1262912984_569037721.jpeg",
+          "options": [
+            {
+              "name": "Tipos de açaí",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Açaí c/ banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí c/ cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí c/ morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí puro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Complementos",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Amendoim c/ caramelo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Amora fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Beijinho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Beijo fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda c/ pipoca caramelizada",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Calda quente",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Castanha de caju",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Choco ball",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocobis",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocobis branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocotella",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cookie brownie",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Cookies cream",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Creme de amendoim",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Dentadura fini",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha de puba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha de tapioca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha lactea",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Flocos de arroz",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Gota de chocolate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "M&ms",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 350
+                }
+              ]
+            },
+            {
+              "name": "Cremes e caldas",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Calda de abacaxi ao vinho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda de frutas vermelhas",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda de maracujá",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cereja artificial",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cereja natural",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Chantininho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Banana com leite condensado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açai no copo",
+      "items": [
+        {
+          "sourceId": "4527139",
+          "name": "Açaí no copo 300ml",
+          "description": "Monte seu açaí!",
+          "priceCents": 2099,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/87261582_372997501.png",
+          "options": [
+            {
+              "name": "Adicionais gratís",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Leite condesado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Complementos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Beijinho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda c/ pipoca caramelizada",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Castanha de caju",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantininho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Choco ball",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocotella",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocowaffer",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocowaffer branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cookie brownie",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Cookie cream",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Creme de amendoim",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha de tapioca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha lactea",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Leite condesado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4529333",
+          "name": "Açaí no copo 400ml",
+          "description": "Monte seu açaí!",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1976467416_972769648.png",
+          "options": [
+            {
+              "name": "Adicionais gratís",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Leite condesado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Complementos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Amendoim granulado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Beijinho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calda c/ pipoca caramelizada",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Castanha de caju",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantininho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Choco ball",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocotella",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocowaffer",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chocowaffer branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cookie brownie",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Cookie cream",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Creme de amendoim",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha de tapioca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Farinha lactea",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Leite condesado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 350
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4001527",
+          "name": "Copo açaí 300ml",
+          "description": "Paçoca, Banana, Leite em pó e Leite condensado.",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1395603362_823704836.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4001535",
+          "name": "Copo açaí kids 300ml",
+          "description": "Leite condensado, Leite em pó e Disqueti.",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Shakes",
+      "items": [
+        {
+          "sourceId": "3804177",
+          "name": "Shake energetico",
+          "description": "Açaí, pó de guaraná, amendoim e paçoca",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1949799999_877189568.jpeg",
+          "options": [
+            {
+              "name": "Qual tamanho você deseja?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 2599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3804179",
+          "name": "Shake proteíco",
+          "description": "Açaí, whey e banana",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1024004772_1692849325.jpeg",
+          "options": [
+            {
+              "name": "Qual tamanho você deseja?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 2599
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pote de Sorvete",
+      "items": [
+        {
+          "sourceId": "3807833",
+          "name": "Pote de sorvete chocolate belga 1lt",
+          "description": "1LT",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1757686074_10110780.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3804173",
+          "name": "Pote de sorvete chocomenta 1lt",
+          "description": "1Lt",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/202230986_607070106.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3807821",
+          "name": "Pote de sorvete emoções de ninho 1lt",
+          "description": "1LT",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/920108382_2108308632.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3804165",
+          "name": "Pote de sorvete flocos 1lt",
+          "description": "1Lt",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/737815719_714544195.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3804167",
+          "name": "Pote de sorvete iorgute grego 1lt",
+          "description": "1L",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1761719965_658466250.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3807831",
+          "name": "Pote de sorvete morango sensação 1lt",
+          "description": "1LT",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3804161",
+          "name": "Pote de sorvete mousse de morango 1lt",
+          "description": "1Lt",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/196092944_918202307.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3807841",
+          "name": "Pote de sorvete napolitano 1lt",
+          "description": "1LT",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/724730170_859362290.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3807829",
+          "name": "Pote de sorvete prestigío 1lt",
+          "description": "1LT",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1046104040_1136300251.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3804171",
+          "name": "Pote de sorvete unicórnio 1lt",
+          "description": "1Lt",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/944115301_831996137.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pote de Açaí",
+      "items": [
+        {
+          "sourceId": "3865453",
+          "name": "Açaí com leitinho 900ml",
+          "description": "Sorbet",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1623833420_1682428316.jfif",
+          "options": []
+        },
+        {
+          "sourceId": "3807737",
+          "name": "Pote açaí c/ banana 1lt",
+          "description": "1LT",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1587660448_1396156347.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3807741",
+          "name": "Pote de açaí puro 1lt",
+          "description": "",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/50534694_1448340746.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Caixa de açaí",
+      "items": [
+        {
+          "sourceId": "3804153",
+          "name": "Caixa de açaí c/ banana 2lt",
+          "description": "2L",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1016799800_589647532.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3804155",
+          "name": "Caixa de açaí c/ banana 5lt",
+          "description": "5Lt",
+          "priceCents": 16500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1393051861_2048297367.jfif",
+          "options": []
+        },
+        {
+          "sourceId": "3804157",
+          "name": "Caixa de açaí c/ cupuaçu 2lt",
+          "description": "2Lt",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/413177715_803363422.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4041625",
+          "name": "Caixa de açaí c/ leitinho 2lt",
+          "description": "2LT",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2059215248_1722880476.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3804159",
+          "name": "Caixa de açaí c/ morango 2lt",
+          "description": "2Lt",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/12643882_1217131072.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3807745",
+          "name": "Caixa de açaí com guaraná 2lt",
+          "description": "2LT",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1646613272_1220879460.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3807747",
+          "name": "Caixa de açaí puro 2lt",
+          "description": "2LT",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1739951617_1655986192.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

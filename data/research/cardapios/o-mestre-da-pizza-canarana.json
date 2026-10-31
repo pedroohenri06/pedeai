@@ -1,0 +1,212 @@
+{
+  "id": "o-mestre-da-pizza-canarana",
+  "platform": "menudino",
+  "source": "https://omestredapizzadelivery.menudino.com/",
+  "capturedAt": "2026-10-31T23:25:01.771Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "sourceId": "d3e5b398-0c43-4eff-955a-6d6ef2ca2dbd",
+          "name": "Refrigerante antarctica 2 lt",
+          "description": "Refrigerante de guárana, gaseficado.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/d3e5b398-0c43-4eff-955a-6d6ef2ca2dbd_20250812132332.webp",
+          "options": []
+        },
+        {
+          "sourceId": "22009fcd-1d70-46dc-b04e-5b161a958488",
+          "name": "Refrigerante coca-cola 2 lt",
+          "description": "Refrigerante gaseficado.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/22009fcd-1d70-46dc-b04e-5b161a958488_20250812132332.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e1017c1a-8af5-4335-a12a-32f5fbc23c9b",
+          "name": "Refrigerante coca-cola 500 ml",
+          "description": "Refrigerante gaseficado.",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/e1017c1a-8af5-4335-a12a-32f5fbc23c9b_20250812171109.webp",
+          "options": []
+        },
+        {
+          "sourceId": "bac289ce-c5bf-4ca3-95fa-848f6ea2ff84",
+          "name": "Refrigerante coca-cola zero 2 lt",
+          "description": "Refrigerante gaseficado.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/bac289ce-c5bf-4ca3-95fa-848f6ea2ff84_20250812132333.webp",
+          "options": []
+        },
+        {
+          "sourceId": "550925cb-2ba7-403b-b326-a5d5a912c7e9",
+          "name": "Refrigerante coca-cola zero 500ml",
+          "description": "Refrigerante gaseficado.",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/550925cb-2ba7-403b-b326-a5d5a912c7e9_20250812171109.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pizza doces",
+      "items": [
+        {
+          "sourceId": "fab1e0ae-35e1-4baf-85b6-f89879c1a5a6",
+          "name": "Pizza Pizza BANANA COM CANELA EM PÓ",
+          "description": "Massa artesanal, leite condensado, banana, canela emm pó.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/fab1e0ae-35e1-4baf-85b6-f89879c1a5a6_20250812132333.webp",
+          "options": []
+        },
+        {
+          "sourceId": "9027408c-c1ff-4bf1-923f-2347ba14f54e",
+          "name": "Pizza Pizza BRIGADEIRO",
+          "description": "Massa artesanal, leite condensado, brigadeiro, granulado.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/9027408c-c1ff-4bf1-923f-2347ba14f54e_20250812132334.webp",
+          "options": []
+        },
+        {
+          "sourceId": "8d141f63-b96b-4fbc-93d8-4cd7c11b041a",
+          "name": "Pizza Pizza CHOCOLATE BRANCO",
+          "description": "Massa artesanal, leite condensado, chocolate branco.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/8d141f63-b96b-4fbc-93d8-4cd7c11b041a_20250812132335.webp",
+          "options": []
+        },
+        {
+          "sourceId": "57a9236f-867c-4240-93e6-fa8236f54704",
+          "name": "Pizza Pizza CHOCOLATE PRETO",
+          "description": "Massa artesanal, leite condensado, chocolate preto.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/57a9236f-867c-4240-93e6-fa8236f54704_20250812132336.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pizzas salgadas",
+      "items": [
+        {
+          "sourceId": "f7f3f1bf-06bd-4e32-941d-3bfd528b3f16",
+          "name": "Pizza 4 QUEIJOS",
+          "description": "Mussarela, Parmesão, Provolone, Catupiry, Molho de Tomate, e Orégano.",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/f7f3f1bf-06bd-4e32-941d-3bfd528b3f16_20250811134742.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e30b83a3-2fde-4b17-98e4-5c26849e0ec7",
+          "name": "Pizza BACON",
+          "description": "Mussarela, Bacon, Ovos, Molho de Tomate, Orégano.",
+          "priceCents": 10700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/e30b83a3-2fde-4b17-98e4-5c26849e0ec7_20250812171111.webp",
+          "options": []
+        },
+        {
+          "sourceId": "5202a244-6b58-4119-86de-79cf882b4f87",
+          "name": "Pizza CALABRESA",
+          "description": "Molho de tomate fresco, calabresa especial fatiada, rodelas de cebola, e orégano.",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/5202a244-6b58-4119-86de-79cf882b4f87_20250811134744.webp",
+          "options": []
+        },
+        {
+          "sourceId": "b05290bd-3bc5-4021-b9af-284bcf45cdda",
+          "name": "Pizza FIALHO",
+          "description": "Mussarela, Filé, Alho e Óleo, Catupiry, Molho de Tomate, Orégano.",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/b05290bd-3bc5-4021-b9af-284bcf45cdda_20250811134748.webp",
+          "options": []
+        },
+        {
+          "sourceId": "a703dd1e-5be3-4bf1-b126-f21c641072f1",
+          "name": "Pizza FILÉ",
+          "description": "Mussarela, Filé, Molho de Tomate, Orégano.",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/a703dd1e-5be3-4bf1-b126-f21c641072f1_20250812132337.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e513e77d-46b8-4925-844c-ca4c5a702e12",
+          "name": "Pizza FILÉ ACEBOLADO",
+          "description": "Molho de tomate fresco, Filé, Cebola Refogada, Catupiry, e orégano.",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/e513e77d-46b8-4925-844c-ca4c5a702e12_20250811134746.webp",
+          "options": []
+        },
+        {
+          "sourceId": "9f58b764-2551-4334-ba94-5413426ed8b2",
+          "name": "Pizza MARGUERITA",
+          "description": "Mussarela, Manjericão, Tomate Cereja, Molho de Tomate, e Orégano.",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/9f58b764-2551-4334-ba94-5413426ed8b2_20250811134751.webp",
+          "options": []
+        },
+        {
+          "sourceId": "0868e8df-7e87-4887-b36f-f7fc3c6d37cd",
+          "name": "Pizza O MESTRE",
+          "description": "Mussarela, Filé, Bacon, Calabresa, Milho Verde, Catupiry, Molho de Tomate, e Orégano.",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/0868e8df-7e87-4887-b36f-f7fc3c6d37cd_20250812171109.webp",
+          "options": []
+        },
+        {
+          "sourceId": "622cef07-88bf-4246-a559-a003264ed702",
+          "name": "Pizza PORTUGUESA",
+          "description": "Mussarela, Calabresa, Cebola, Ovos, Pimentão, Molho de Tomate, Orégano e Azeitonas.",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/622cef07-88bf-4246-a559-a003264ed702_20250811134749.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2dcba04b-8339-4350-a86d-b32abe0e669b",
+          "name": "Pizza STROGONOFF DE FILÉ",
+          "description": "Mussarela, Stogonoff Filé, Molho de Tomate, Batata Palha, e Orégano.",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d1a0fb49-8ec7-4815-a456-c4f607777e7a/items/images/large/2dcba04b-8339-4350-a86d-b32abe0e669b_20250812171110.webp",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "\"Pizza Pizza BANANA COM CANELA EM PÓ\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza Pizza BRIGADEIRO\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza Pizza CHOCOLATE BRANCO\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza Pizza CHOCOLATE PRETO\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza 4 QUEIJOS\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza BACON\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza CALABRESA\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza FIALHO\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza FILÉ\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza FILÉ ACEBOLADO\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza MARGUERITA\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza O MESTRE\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza PORTUGUESA\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.",
+    "\"Pizza STROGONOFF DE FILÉ\": tem opções com preço só no detalhe do produto; entrou pelo preço de venda."
+  ]
+}

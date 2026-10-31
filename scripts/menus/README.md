@@ -2,6 +2,7 @@
 
 Pipeline reutilizável para trazer cardápios publicados pelos próprios estabelecimentos (aiqfome, Brendi, Mais Delivery, Yooga, Saipos, Vende no Zap, BigD, Pedir Delivery, Zion PDV, Beefood, Expresso Delivery, CardápioWeb, foodsapp, MenuDino, GynFood) para o PedeAi. Padrão aprovado pelo dono do projeto: importar tudo (categorias, itens, fotos, tamanhos, adicionais, promoções) e apresentar melhor que a fonte.
 
+0. `node scripts/menus/discover.js [id ...]` — auditoria: segue o link da bio do Instagram de cada loja sem cardápio (link do cadastro + linktr.ee/bio.site com o mesmo @) até o botão de cardápio/delivery e grava os achados em `data/research/cardapios/descoberta.json`. O Instagram não abre perfis sem login, por isso o caminho é o link da bio. **Confira a cidade antes de cadastrar**: lojas homônimas de outros estados aparecem (Rei Burguer/Recife, Saboritos/RJ, Mistrô/Jaru, D+ Açaí/Cáceres foram descartadas).
 1. `data/research/cardapios/fontes.json` — link do cardápio e plataforma de cada loja (`motivo`: não coletável; `pendente`: falta leitor).
 2. `node scripts/menus/capture.js [id ...]` — abre cada link no Chromium e guarda HTML e respostas JSON em `data/research/cardapios/bruto/<id>/` (fora do git). Não contorna bloqueios anti-robô.
 3. `node scripts/menus/normalize.js [id ...]` — leitor da plataforma (`adapters/<plataforma>.js`) → formato único em `data/research/cardapios/<id>.json`.

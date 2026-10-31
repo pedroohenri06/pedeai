@@ -1,0 +1,3220 @@
+{
+  "id": "pizzaria-d-italia-canarana",
+  "platform": "foodsapp",
+  "source": "https://dtaliapizzariacanarana.foodsapp.com.br/dtaliapizzariacanarana/pedidos",
+  "capturedAt": "2026-10-31T23:10:46.451Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Pizzas especiais",
+      "items": [
+        {
+          "sourceId": "1300205",
+          "name": "Pizza Especial Grande - 12 Fatias",
+          "description": "",
+          "priceCents": 14000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/6aac6ba74aede1oj70.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Oriental Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental Salmão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental Salmão Flambado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1300182",
+          "name": "Pizza Especial Média - 8 Fatias",
+          "description": "",
+          "priceCents": 11100,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/6aac69d488d23lz93k.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Oriental Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental Salmão Flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental Salmão",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas",
+      "items": [
+        {
+          "sourceId": "843384",
+          "name": "Pizza Pequena- 6 Fatias",
+          "description": "",
+          "priceCents": 7100,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/67cb9b354e6e1xlsvi.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a melhor borda",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Sem borda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Borda Catupiry",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Borda Catupiry com Bacon",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Cheddar",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Borda Cheddar com Bacon",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Chocolate Branco",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Chocolate Preto",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Creme de Avela",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Creme de Ninho",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Frango com Catupiry",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Mussarela",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Presunto e Mussarela",
+                  "priceCents": 1200
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho Poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "A Moda da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Filé",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa com Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canadense",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canarana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne seca ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cinco Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela ao Creme de Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dtália",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Creme de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Fritas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com fritas e cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Rúcula",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho Lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Conhaque",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Mostarda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gaúcha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi com Geléia de pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nordestina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha com alho poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao Molho Lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Primavera",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos com alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijos com Geléia de Pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi com Canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi Flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Amore Mio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana com canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana Nevada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banoffe",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Beijinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Doce de Leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Dois Amores",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Nutella com Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Pistache",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Sensação",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Trufada de Cafe",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "985310",
+          "name": "Pizza Média - 8 Fatias",
+          "description": "",
+          "priceCents": 8600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/68c99e782fdcdkesel.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a melhor borda",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Sem borda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Borda Catupiry",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Borda Catupiry com Bacon",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Cheddar",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Borda Cheddar com Bacon",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Chocolate Branco",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Chocolate Preto",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Creme de Avela",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Creme de Ninho",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Frango com Catupiry",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Mussarela",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Presunto e Mussarela",
+                  "priceCents": 1200
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho Poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "A Moda da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Filé",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa com Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canadense",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canarana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne seca ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cinco Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela ao Creme de Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dtália",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Creme de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Fritas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com fritas e cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Rúcula",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho Lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Conhaque",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Mostarda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gaúcha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi com geléia de pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nordestina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha com alho poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao molho lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Primavera",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos com alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos com Geléia de Pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi com Canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi Flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Amore Mio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana com canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana Nevada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banoffe",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Beijinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Doce de Leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Dois Amores",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Nutella com Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Pistache",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Sensação",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Trufada de Cafe",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "985307",
+          "name": "Pizza Grande - 12 Fatias",
+          "description": "",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/68c99e263283dlge1j.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a melhor borda",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Sem borda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Borda Catupiry",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Borda Catupiry com Bacon",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Cheddar",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Borda Cheddar com Bacon",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Chocolate Branco",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Chocolate Preto",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Creme de Avela",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Creme de Ninho",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Frango com Catupiry",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Mussarela",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Presunto e Mussarela",
+                  "priceCents": 1800
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho Poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "A Moda da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Filé",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa com Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canadense",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canarana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne seca ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cinco Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela ao Creme de Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dtália",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Creme de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Fritas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com fritas e cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho Lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Conhaque",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Mostarda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Rúcula",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gaúcha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi com geléia de pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nordestina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha com alho poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao molho lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Primavera",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos com alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijos com Geléia de Pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi com Canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi Flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Amore Mio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana com canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana Nevada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banoffe",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Beijinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Doce de Leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Dois Amores",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Nutella com Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Pistache",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Sensação",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Trufada de Cafe",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "985312",
+          "name": "Pizza Meio Metro - 12 Pedaços",
+          "description": "",
+          "priceCents": 11200,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/68c99edcec694ot61r.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a melhor borda",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Sem borda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Borda Catupiry",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Borda Catupiry com Bacon",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Cheddar",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Borda Cheddar com Bacon",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Chocolate Branco",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Chocolate Preto",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Creme de Avela",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Creme de Ninho",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Frango com Catupiry",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Mussarela",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Borda Presunto e Mussarela",
+                  "priceCents": 1800
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho Poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "A Moda da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Filé",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa com Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canadense",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canarana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne seca ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cinco Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela ao Creme de Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dtália",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Creme de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Fritas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com fritas e cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Rúcula",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho Lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Conhaque",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Mostarda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gaúcha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi com geléia de pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nordestina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha com alho poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao molho lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Primavera",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos com alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijos com Geléia de Pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi com Canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi Flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Amore Mio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana com canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana Nevada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banoffe",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Beijinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Doce de Leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Dois Amores",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Nutella com Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Pistache",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Sensação",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Trufada de Cafe",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "985315",
+          "name": "Pizza Metro - 24 Pedaços",
+          "description": "",
+          "priceCents": 17800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/68c99ef923a1bvv1cx.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a melhor borda",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Sem borda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Borda Catupiry",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Borda Catupiry com Bacon",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Cheddar",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Borda Cheddar com Bacon",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Chocolate Branco",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Chocolate Preto",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Creme de Avela",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Creme de Ninho",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Frango com Catupiry",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Mussarela",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda Presunto e Mussarela",
+                  "priceCents": 2300
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho Poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "A Moda da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis com Filé",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa com Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canadense",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canarana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne seca ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cinco Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Costela ao Creme de Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dtália",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Creme de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Fritas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com fritas e cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé com Rúcula",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho Lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Conhaque",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé ao Molho de Mostarda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gaúcha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi com geléia de pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho Verde com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nordestina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Oriental",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepperoni ao Molho Pesto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha com alho poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao Molho Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao molho lambão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Primavera",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro Queijos com alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijos com Geléia de Pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi com Canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Abacaxi Flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Amore Mio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana com canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banana Nevada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Banoffe",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Beijinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Charge Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Cheesecake de Doce de Leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Choconinho Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Confete Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Dois Amores",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Nutella com Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Pistache",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Sensação",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Trufada de Cafe",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "1053127",
+          "name": "Porção de Pastel",
+          "description": "Tem em nosso rodízio",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/6939eb391aed8f3zn7.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual seu Pastel favorito????",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pastel sabor Pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pastel sabor Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pastel sabor Carne seca com Catupiry",
+                  "priceCents": 1400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1008170",
+          "name": "Molhos Especiais",
+          "description": "Deliciosos molhos da casa, o toque perfeito no seu prato, 100ml",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/6a6165797fa8a7tljc.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o molho extra que quer pra hoje....",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho Tarê",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523807",
+          "name": "Batata Frita",
+          "description": "Tem em nosso rodízio",
+          "priceCents": 4700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0259bf3q4k0q.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523814",
+          "name": "Batata Frita Especial",
+          "description": "Queijo e Bacon.",
+          "priceCents": 5400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b029191610b9o.webp",
+          "featured": true,
+          "options": [
+            {
+              "name": "Qual o tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "763836",
+          "name": "Bolinho de costela",
+          "description": "Recheiado de queijo, acompanha geleia de pimenta",
+          "priceCents": 7200,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/6939ecc23ab0bxsv8g.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual o tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 12 Unidades",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 16 Unidades",
+                  "priceCents": 2400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523816",
+          "name": "Filé à Palito Acebolado",
+          "description": "Acompanha mandioca.",
+          "priceCents": 8700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b02a4800z5zwy.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 1600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523821",
+          "name": "Filé com Fritas",
+          "description": "Filé cortado à palito com cebola e batata frita.",
+          "priceCents": 9400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0301b4bq7jvh.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 1400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523828",
+          "name": "Frango à Passarinho",
+          "description": "Tem em nosso rodízio",
+          "priceCents": 4700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b032fb3c5ml8o.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 1100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523836",
+          "name": "Isca de Tilápia",
+          "description": "",
+          "priceCents": 8100,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0391e17c91xp.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 2100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523845",
+          "name": "Polenta Frita",
+          "description": "Tem em nosso rodízio",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0401adfhqc5n.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "925287",
+          "name": "Porção Anel de Cebola",
+          "description": "Tem em nosso rodízio",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/6939eb634f6ff9pmua.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual o tamanho da sua fome?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequena - 2 pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 4 pessoas",
+                  "priceCents": 1800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523842",
+          "name": "Porção de Arroz",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b03dd8a5rln0n.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "528600",
+          "name": "Porção de Salada",
+          "description": "(Alface, tomate, beterraba e cenoura)",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65b12b13cbc57x0yci.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "À la carte",
+      "items": [
+        {
+          "sourceId": "523813",
+          "name": "Filé à Parmegiana ao Molho Branco",
+          "description": "Bife de filé a milanesa, molho vermelho, molho branco, mussarela, arroz, batata frita e salada mista.",
+          "priceCents": 15400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0290d0d7esdp.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Para quantas pessoas?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequeno - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 3800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523825",
+          "name": "Filé à Parmegiana ao Molho Vermelho",
+          "description": "Bife de filé a milanesa, molho vermelho, mussarela, arroz, batata frita e salada mista.",
+          "priceCents": 15400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0312fe5qlvgt.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Para quantas pessoas?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequeno - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 3800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523805",
+          "name": "Filé de Tilápia",
+          "description": "Filé de tilápia à milanesa, arroz, batata frita e salada mista.",
+          "priceCents": 14300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65b18e3752b13mwlpw.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Para quantas pessoas?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequeno - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 3300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "871911",
+          "name": "Filé de Tilápia à Parmegiana",
+          "description": "Filé de Tilapia a milanesa, molho vermelho, mussarela, arroz, batata frita e salada mista.",
+          "priceCents": 15400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/68018d7fb1c910o9m4.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Para quantas pessoas?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequeno - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 3800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523834",
+          "name": "Picanha na Chapa",
+          "description": "Picanha, mandioca, batata frita, arroz e salada mista.",
+          "priceCents": 15500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0381131oceac.webp",
+          "featured": true,
+          "options": [
+            {
+              "name": "Para quantas pessoas?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pequeno - 2 Pessoas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande - 3 Pessoas",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "523808",
+          "name": "Água",
+          "description": "",
+          "priceCents": 450,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0263721f8ha2.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Mate a sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água com gás - 500ml",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Água sem gás - 497ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523815",
+          "name": "Coca-Cola",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b02a1005ek1f0.webp",
+          "featured": true,
+          "options": [
+            {
+              "name": "Mate a sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola - Lata 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola - 2 Litros",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Coca-Cola - 1,5 Litros",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Coca-Cola Zero - 1,5 Litros",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523822",
+          "name": "Energético",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b030f892tu2l8.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "523838",
+          "name": "Guaraná Antarctica",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b03966a11zzbb.webp",
+          "featured": true,
+          "options": [
+            {
+              "name": "Mate a sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Antarctica - Lata 350ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antarctica - 1 Litro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Guaraná Antarctica - 2 Litros",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Guaraná Antarctica - 1,5 Litros",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523841",
+          "name": "H2oh!",
+          "description": "Disponível nos sabores: Limão e Limoneto.",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b03b5284mwbxk.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual o sabor da bebida?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limoneto",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523846",
+          "name": "Ice",
+          "description": "Venda e consumo proibido para menores de 18 anos.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0417450g9nc1.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "523850",
+          "name": "Pepsi",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b043fe32jz9m7.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Mate a sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pepsi - Lata 310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523847",
+          "name": "Schweppes Citrus",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b041a51b21c8q.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Mate a sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Schweppes Citrus - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523852",
+          "name": "Soda",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0452a08rgka1.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Mate a sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Soda Limão - Lata 310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523857",
+          "name": "Sukita",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b047f4007ipmm.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Mate a sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sukita - Lata 310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "547168",
+          "name": "Suco com Leite Garrafa - 500ml",
+          "description": "Disponível nos sabores: Acerola, Açaí, Abacaxi, Cupuaçu, Maracujá, Uva, Abacaxi com Hortelã, Laranja com Acerola e Laranja com Morango.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65cfb6ea64160jxzo9.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor do suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi com leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola com leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu com leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja Natural com leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola e leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Morango e leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limão com leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango Natural com leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá com leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva com leite",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523864",
+          "name": "Suco Garrafa - 500ml",
+          "description": "Disponível nos sabores: Acerola, Açaí, Abacaxi, Cupuaçu, Maracujá, Uva, Abacaxi com Hortelã, Laranja e Laranja com Morango.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65b189ad0ee86s2p24.webp",
+          "featured": true,
+          "options": [
+            {
+              "name": "Escolha o sabor do suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja Natural",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango Natural",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cervejas",
+      "items": [
+        {
+          "sourceId": "523849",
+          "name": "Cerveja - Budweiser",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b0425c2e2qe83.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a sua cerveja",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Budweiser - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523853",
+          "name": "Cerveja - Heineken",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b04667f3w7oxr.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a sua cerveja",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Heineken - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523859",
+          "name": "Cerveja - Spaten",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b04bd5a1f0fmc.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a sua cerveja",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Spaten - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "523860",
+          "name": "Cerveja - Stella Artois Gold",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/10832/65a98b04cf81c911n9.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a sua cerveja",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Stella Artois - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 2,
+    "sem preço": 1
+  },
+  "notes": [
+    "\"Pizza Pequena- 6 Fatias\": grupo \"Escolha a melhor borda\" cobra pelo maior na fonte; aqui as opções somam.",
+    "\"Pizza Média - 8 Fatias\": grupo \"Escolha a melhor borda\" cobra pelo maior na fonte; aqui as opções somam.",
+    "\"Pizza Grande - 12 Fatias\": grupo \"Escolha a melhor borda\" cobra pelo maior na fonte; aqui as opções somam.",
+    "\"Pizza Meio Metro - 12 Pedaços\": grupo \"Escolha a melhor borda\" cobra pelo maior na fonte; aqui as opções somam.",
+    "\"Pizza Metro - 24 Pedaços\": grupo \"Escolha a melhor borda\" cobra pelo maior na fonte; aqui as opções somam."
+  ]
+}

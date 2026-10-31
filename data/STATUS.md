@@ -15,8 +15,8 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 | Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 1 | 0 |
 | Nova Xavantina | 35 | 25 | 17 | 0 | 0 |
-| Barra do Garças | 30 | 30 | 7 | 6 | 2 |
-| **Total** | **311** | **289** | **75** | **32** | **5** |
+| Barra do Garças | 30 | 30 | 8 | 7 | 3 |
+| **Total** | **311** | **289** | **76** | **33** | **6** |
 
 ## Pendências por estabelecimento
 
@@ -345,7 +345,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 - **Empório Pizzaria Barra** — cardápio pendente; endereço pendente; A bio do Instagram (cerca de 5 mil seguidores) diz "Peça agora mesmo pelo WhatsApp" e cita a unidade de Barra do Garças, mas o número não aparecia no trecho da busca. Endereço não obtido. Instagram @emporiopizzariabarra conferido em 2026-10-28 (pesquisa via Claude no Chrome).
 - **Frutos de Goiás Sorveteria** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @frutosdegoiasbgoficial (332 posts, 7098 seguidores, último post 2026-10-28).
 - **José Lanches** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @jose_lanches_bg (37 posts, 953 seguidores, último post 2026-09-18). Post fixado mostra (66) 99224-0381 (só no post, não usado).
-- **Le Monde Burguer Hamburgueria** — WhatsApp não verificado; cardápio pendente; Pedido mínimo iFood R$ 20. Só o bairro é conhecido, sem rua. Sem cardápio com preços e sem WhatsApp. Instagram @lemondeburguer conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa link de pedido "https://lemonde.clicarbr.com.br", diferente do cadastro.
+- **Le Monde Burguer Hamburgueria** — Pedido mínimo iFood R$ 20. Só o bairro é conhecido, sem rua. Sem cardápio com preços e sem WhatsApp. Instagram @lemondeburguer conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa link de pedido "https://lemonde.clicarbr.com.br", diferente do cadastro.
 - **Léo Pastéis & Saltenhas** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @pastelariadoleobg (553 posts, 11600 seguidores, último post 2026-10-27). Não é a "Pastelaria Porto" do cadastro (não achei IG dela).
 - **Madrugordão Lanches** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @madrugordao_bg (484 posts, 4541 seguidores, último post 2026-10-16). Cidade não escrita na bio; handle "_bg" e post com "Peça já 66 99247-0493" (DDD 66) → Barra do Garças. Número só em post (não usado).
 - **Maria Filó** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @mariafilo_bg (378 posts, 12000 seguidores, último post 2026-10-28). Bio: "B. do Garças/MT", delivery e encomendas.

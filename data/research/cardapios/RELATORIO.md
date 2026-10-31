@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**30 cardápios importados** de 77 links de cardápio cadastrados · 270 categorias · 1535 produtos · 928 grupos de opções · 3463 adicionais (opções opcionais) · 930 fotos.
+**31 cardápios importados** de 77 links de cardápio cadastrados · 280 categorias · 1648 produtos · 1095 grupos de opções · 4281 adicionais (opções opcionais) · 1043 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -12,6 +12,7 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
+| OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | Mordatto | Canarana | maisdelivery | 3 | 7 | 4 | 18 | 7 | 0 | 0 |
@@ -85,6 +86,14 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://dadburger.bigd.im/wapp/dadburger/store/#/delivery/loja/dadburger (bigdim)
 - Categorias: 6 · Produtos: 48 · Grupos de opções: 65 (500 escolhas) · Adicionais: 488 · Fotos: 48
 - Não importados: nenhum
+- Pendências: 0
+
+### Le Monde Burguer Hamburgueria (Barra do Garças) — OK
+
+- Fonte: https://app.cardapioweb.com/lemondeburguer (cardapioweb)
+- Categorias: 10 · Produtos: 113 · Grupos de opções: 167 (1189 escolhas) · Adicionais: 818 · Fotos: 113
+- Não importados: 2 indisponível
+- Observação: Alguns adicionais aceitam repetir a mesma opção na fonte (ex.: 2 bacons); aqui cada opção é escolhida uma vez, até o máximo do grupo.
 - Pendências: 0
 
 ### Pizzaria Coqueiros (Barra do Garças) — OK
@@ -361,11 +370,6 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 ### Dantes (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/dantes-centro/9816e45b-4890-4fe6-afb6-696b78003b57 (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
-
-### Le Monde Burguer Hamburgueria (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/le-monde-burguer-hamburgueria-conjunto-habitacional-jardim-amazonia/3b95e3dc-a725-42ae-9d8b-59e18443278e (ifood)
 - Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
 ### Léo Pastéis & Saltenhas (Barra do Garças) — Sem cardápio público

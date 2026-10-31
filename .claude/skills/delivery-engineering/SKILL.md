@@ -17,6 +17,7 @@ description: Arquitetura e regras de negócio do PedeAi Delivery (site estático
 
 ## Regras de negócio
 1. **10 cidades fixas** (`core.CITIES`) e **10 categorias fixas** (`core.CATEGORIES`). Não renomeie: o seletor, os filtros e o `localStorage` (`pedeai-city`) dependem delas.
+2a. **Horário estimado** (`hoursEstimated: true`): por pedido do dono do projeto, hamburguerias sem horário recebem o padrão da cidade (Barra do Garças 18h às 00h; demais 18h às 23h), exibido com o selo "a confirmar". Remova a marcação quando a loja confirmar.
 2. **Nunca invente** estabelecimento, telefone, endereço, preço, horário, taxa ou avaliação. Campo sem fonte fica `null` ou `[]`, com a pendência em `notes`.
 3. **Dinheiro sempre em centavos inteiros** (`priceCents`, `deliveryFeeCents`). Para formatar, use só `core.formatBRL`.
 4. **Taxa de entrega desconhecida** (`deliveryFeeCents: null`) aparece como "A confirmar"; o total é rotulado "Total sem entrega".

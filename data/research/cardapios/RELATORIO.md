@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**53 cardápios importados** de 92 links de cardápio cadastrados · 530 categorias · 3435 produtos · 2081 grupos de opções · 7188 adicionais (opções opcionais) · 2178 fotos.
+**54 cardápios importados** de 92 links de cardápio cadastrados · 534 categorias · 3461 produtos · 2107 grupos de opções · 7630 adicionais (opções opcionais) · 2185 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -21,6 +21,7 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
+| OK | Madrugordão Lanches | Barra do Garças | visual | 4 | 26 | 26 | 442 | 7 | 0 | 6 |
 | OK | Maria Filó | Barra do Garças | zapdelivery | 18 | 51 | 17 | 32 | 51 | 3 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 19 | 0 | 0 |
@@ -224,6 +225,17 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Categorias: 10 · Produtos: 113 · Grupos de opções: 167 (1189 escolhas) · Adicionais: 818 · Fotos: 113
 - Não importados: 2 indisponível
 - Observação: Alguns adicionais aceitam repetir a mesma opção na fonte (ex.: 2 bacons); aqui cada opção é escolhida uma vez, até o máximo do grupo.
+- Pendências: 0
+
+### Madrugordão Lanches (Barra do Garças) — OK
+
+- Fonte: https://www.instagram.com/madrugordao_bg/ (visual)
+- Categorias: 4 · Produtos: 26 · Grupos de opções: 26 (442 escolhas) · Adicionais: 442 · Fotos: 7
+- Não importados: nenhum
+- Observação: Transcrito de 4 artes do cardápio (prints enviados pelo Pedro em 31/10/2026): 26 produtos na fonte (6 queridinhos, 7 especiais, 12 burgers, 1 kids) e 17 adicionais pagos; 26 cadastrados.
+- Observação: Adicionais da arte (cada um com seu preço) entram como grupo opcional em todos os lanches.
+- Observação: Fotos: as 7 que existem na arte (6 queridinhos + X Larica), recortadas e tratadas (EDSR 4x + nitidez) com scripts/menus/enhance.py; os demais lanches não têm foto na arte.
+- Observação: Arte: delivery (66) 99247-0493, 'Aberto todos os dias', 'Com entrega grátis!'.
 - Pendências: 0
 
 ### Maria Filó (Barra do Garças) — OK
@@ -620,11 +632,6 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 
 - Fonte: https://clique-aqui.net/pastelaria-do-leo (whatsapp)
 - Motivo: página de divulgação (Wix) só com WhatsApp: sem cardápio público
-
-### Madrugordão Lanches (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://links.zero1delivery.com.br/e2bfvXDXJqMHq4kt6 (app)
-- Motivo: o link do cardápio abre só o aplicativo (Zero1 Delivery): sem cardápio público na web
 
 ### Marmitaria da Barra (Barra do Garças) — Sem cardápio público
 

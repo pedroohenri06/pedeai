@@ -1,0 +1,2259 @@
+{
+  "id": "madrugordao-lanches-barra-do-garcas",
+  "platform": "visual",
+  "source": "https://www.instagram.com/madrugordao_bg/",
+  "capturedAt": "2026-11-01T00:30:00.000Z",
+  "hours": null,
+  "skipped": {},
+  "notes": [
+    "Transcrito de 4 artes do cardápio (prints enviados pelo Pedro em 31/10/2026): 26 produtos na fonte (6 queridinhos, 7 especiais, 12 burgers, 1 kids) e 17 adicionais pagos; 26 cadastrados.",
+    "Adicionais da arte (cada um com seu preço) entram como grupo opcional em todos os lanches.",
+    "Fotos: as 7 que existem na arte (6 queridinhos + X Larica), recortadas e tratadas (EDSR 4x + nitidez) com scripts/menus/enhance.py; os demais lanches não têm foto na arte.",
+    "Arte: delivery (66) 99247-0493, 'Aberto todos os dias', 'Com entrega grátis!'."
+  ],
+  "sections": [
+    {
+      "name": "Os queridinhos",
+      "items": [
+        {
+          "sourceId": "Paulistinha Filé",
+          "name": "Paulistinha Filé",
+          "description": "Pão baguete 20 cm, filé picado, bacon, vinagrete chapeado e triplo queijo muçarela.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/madrugordao-lanches-barra-do-garcas/paulistinha-file.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/madrugordao_bg/",
+          "featured": true
+        },
+        {
+          "sourceId": "X Carga Pesada",
+          "name": "X Carga Pesada",
+          "description": "Pão, 2 hambúrgueres, 2 ovos, 2 salsichas, bacon, presunto, muçarela, alface, tomate, milho e batata palha.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/madrugordao-lanches-barra-do-garcas/x-carga-pesada.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/madrugordao_bg/",
+          "featured": true
+        },
+        {
+          "sourceId": "X Tropical",
+          "name": "X Tropical",
+          "description": "Pão, bacon picado, cream cheese, abacaxi, hambúrguer, dobro de queijo, alface e tomate.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/madrugordao-lanches-barra-do-garcas/x-tropical.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/madrugordao_bg/",
+          "featured": true
+        },
+        {
+          "sourceId": "X Tudo",
+          "name": "X Tudo",
+          "description": "Pão, hambúrguer, salsicha, bacon, calabresa, ovos, presunto, muçarela, alface, tomate, milho e batata palha.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/madrugordao-lanches-barra-do-garcas/x-tudo.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/madrugordao_bg/",
+          "featured": true
+        },
+        {
+          "sourceId": "Madrugordinho",
+          "name": "Madrugordinho",
+          "description": "Pão, hambúrguer, presunto, muçarela, bacon, cheddar, alface e tomate.",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/madrugordao-lanches-barra-do-garcas/madrugordinho.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/madrugordao_bg/",
+          "featured": true
+        },
+        {
+          "sourceId": "X Bacon",
+          "name": "X Bacon",
+          "description": "Pão, bacon picado, bacon fatiado, salsicha, hambúrguer, presunto, muçarela, alface e tomate.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/madrugordao-lanches-barra-do-garcas/x-bacon.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/madrugordao_bg/",
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "Especiais",
+      "items": [
+        {
+          "sourceId": "Madrugordão (Monstro)",
+          "name": "Madrugordão (Monstro)",
+          "description": "Aprox. 1,1 kg. Pão especial (maior), 3 hambúrgueres, 2 ovos, 2 salsichas, bacon, cheddar, dobro de queijo, dobro de presunto, calabresa, cebola (chapeada), alface, milho, tomate, requeijão, abacaxi e batata palha.",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Larica",
+          "name": "X Larica",
+          "description": "Novidade. Pão selado, cream cheese, dois hambúrgueres, bacon fatiado, doce de leite e muçarela.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/madrugordao-lanches-barra-do-garcas/x-larica.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/madrugordao_bg/"
+        },
+        {
+          "sourceId": "Paulistinha Frango",
+          "name": "Paulistinha Frango",
+          "description": "Pão baguete 20 cm, frango picado, vinagrete chapeado, bacon picado e muito queijo muçarela.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Big Tudo",
+          "name": "Big Tudo",
+          "description": "Pão, hambúrguer, salsicha, bacon, calabresa, ovos, frango, abacaxi, cebola chapeada, calabresa em fatias, presunto, muçarela, alface, tomate, milho e batata palha.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Madrunana",
+          "name": "Madrunana",
+          "description": "Pão, alface, tomate, bacon, 2 hambúrgueres, banana, presunto e dobro de queijo.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X FranBacon",
+          "name": "X FranBacon",
+          "description": "Pão, frango bem temperado com mostarda e cortado em bifes pequenos, bacon em fatias, catupiry, duas fatias de queijo muçarela, alface, tomate, milho e batata palha.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Frango",
+          "name": "X Frango",
+          "description": "Pão, frango bem temperado com mostarda e cortado em bifes pequenos, catupiry, duas fatias de queijo muçarela, alface, tomate, milho e batata palha.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "sourceId": "X Tudo Frango",
+          "name": "X Tudo Frango",
+          "description": "Pão, frango, salsicha, bacon, calabresa, ovo, presunto, muçarela, alface, tomate, milho e batata palha.",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Bacon Especial",
+          "name": "X Bacon Especial",
+          "description": "Pão, tomate, bacon picado, ovo, hambúrguer, salsicha, bacon fatiado, presunto, muçarela e alface.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Bagunça",
+          "name": "X Bagunça",
+          "description": "Pão, hambúrguer, salsicha, bacon, presunto, muçarela, alface e tomate.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Calabresa Acebolada",
+          "name": "X Calabresa Acebolada",
+          "description": "Pão, hambúrguer, presunto, muçarela, calabresa, cebola, alface e tomate.",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Rango Especial",
+          "name": "X Rango Especial",
+          "description": "Pão, tomate, ovo, hambúrguer, salsicha, presunto, muçarela e alface.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Rango",
+          "name": "X Rango",
+          "description": "Pão, tomate, hambúrguer, salsicha, presunto, muçarela e alface.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Egg",
+          "name": "X Egg",
+          "description": "Pão, hambúrguer, 2 ovos, presunto, muçarela, alface e tomate.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Salada Especial",
+          "name": "X Salada Especial",
+          "description": "Pão, hambúrguer, ovo, presunto, milho, muçarela, alface e tomate.",
+          "priceCents": 1750,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Salada Simples",
+          "name": "X Salada Simples",
+          "description": "Pão, hambúrguer, alface, tomate, milho, presunto e muçarela.",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Burguer",
+          "name": "X Burguer",
+          "description": "Pão, 2 hambúrgueres, presunto e muçarela.",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "X Vegetariano",
+          "name": "X Vegetariano",
+          "description": "Pão, 2 ovos, milho, muçarela, alface e tomate.",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Misto da Casa",
+          "name": "Misto da Casa",
+          "description": "Pão, tomate, ovo, presunto, muçarela, batata palha e alface.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "items": [
+        {
+          "sourceId": "Kids",
+          "name": "Kids",
+          "description": "Novidade para as crianças. Pão selado, hambúrguer, salsicha, presunto, muçarela e batata palha.",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Requeijão",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango (em cubos)",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon (fatiado)",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Requeijão cheddar",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho picante",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

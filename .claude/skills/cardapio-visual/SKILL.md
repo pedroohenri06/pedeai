@@ -18,14 +18,11 @@ description: Regra permanente para cardápios enviados como imagem, print, foto 
    - combos "escolha 1/2 itens" → um grupo obrigatório por escolha (permite repetir o mesmo item), preço base = menor combinação;
    - promoção explícita → `originalPriceCents`.
 3. **Conferir**: produtos na fonte × produtos cadastrados (contagem por seção), preços, tamanhos, adicionais. Ilegível/ambíguo/cortado → **não inventar**, registrar em `notes` do arquivo.
-4. **Imagens** (regra do dono do projeto, 31/10/2026):
-   - Primeiro, a foto do próprio produto: recorte da arte quando completa e nítida (`data/research/cardapios/visual/<id>/`, `imageUrl` = `file://` do recorte, `imageSource` = link da arte).
-   - Foto ruim (cortada, pixelada, pequena, misturada ao layout) **não entra**. Busque uma **referência visual de fora que bata com a foto original**: mesmo produto, mesmo recipiente (copo/marmita/caixa), mesmos itens visíveis por cima (ex.: açaí com banana e Nutella → foto de açaí com banana e Nutella), mesma proporção aproximada.
-   - Fontes: bancos de **licença livre para uso comercial** (Unsplash, Pexels, Pixabay, Wikimedia Commons/Openverse). Google Imagens e Pinterest só para **achar** a foto: use se o resultado levar a um desses bancos ou a uma licença que permita uso comercial. **Não** use foto de outro restaurante (iFood, aiqfome, Instagram de terceiros): é produto de outra loja e tem dono.
-   - Nunca: logo, embalagem ou marca de outra loja, texto/preço na foto, foto de outro produto.
-   - A referência é só visual: nome, ingredientes, tamanho e preço continuam os da fonte.
-   - **Sem selo de "imagem ilustrativa"** (decisão do dono do projeto): a foto do cardápio já é entendida como referência visual. Autor/banco e licença ficam só no registro interno (`imageCredit`, `imageLicense` no arquivo normalizado), nunca na tela.
-   - Sem referência que bata, o item fica sem foto (o cardápio usa linhas compactas).
+4. **Imagens** (regra do dono do projeto, 31/10/2026 — substitui a de buscar referência externa): **sempre a foto do próprio cardápio da loja**, nunca foto de fora.
+   - Recorte cada produto da arte (`data/research/cardapios/visual/<id>/recortes.json`: print + coordenadas por produto) e trate com `python3 scripts/menus/enhance.py <id> --modelo EDSR_x4.pb` (super-resolução 4x + nitidez leve; modelo em `github.com/Saafke/EDSR_Tensorflow/models`, fora do git).
+   - Deixe a foto **inteira e limpa**: enquadre o produto todo, sem textos, preços ou títulos da arte; se a arte cortar o produto, pegue o máximo que existir.
+   - Mesmo foto ruim/pequena entra, tratada para ficar o melhor possível. Sem selo de "imagem ilustrativa".
+   - `imageUrl` = `file://` do recorte tratado, `imageSource` = link do perfil/arte de onde veio.
 5. `python3 scripts/menus/images.py <id>` → `node scripts/menus/apply.js <id>` → `node scripts/build-data.js` → `node scripts/menus/report.js` → `npm test` → conferir em 390 px e 1280 px → PR → merge → conferir no site (Chrome e Safari).
 
 WhatsApp que aparece na arte do próprio estabelecimento (com o ícone do WhatsApp) conta como canal verificado; `whatsappSource` = link do perfil de onde veio a arte.

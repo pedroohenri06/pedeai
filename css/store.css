@@ -551,3 +551,7 @@ body.store-open .bottom-nav{display:none}
 .sp-cover .sp-chip--on{background:rgba(255,255,255,.94);border-color:transparent;color:var(--b-deep);text-shadow:none}
 /* Horário estimado pelo padrão da cidade, até a loja confirmar. */
 .sp-estimate{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:99px;background:var(--b-soft);color:var(--b-deep);font-size:10.5px;font-weight:700;vertical-align:2px}
+/* Painel do produto: a foto aparece inteira (copos altos, marmitas), sobre um fundo desfocado da própria foto. */
+.sp-sheet-media{position:relative;overflow:hidden}
+.sp-sheet-media img:not(.sp-sheet-bg){position:relative;object-fit:contain}
+.sp-sheet-bg{position:absolute;inset:-24px;width:calc(100% + 48px)!important;height:calc(100% + 48px)!important;object-fit:cover;filter:blur(22px) saturate(1.1) brightness(.85);transform:scale(1.05)}

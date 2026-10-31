@@ -1,0 +1,1997 @@
+{
+  "id": "062-burguer-barra-do-garcas",
+  "platform": "gynfood",
+  "source": "https://062burguer.gynfood.com.br/#produto-558382",
+  "capturedAt": "2026-10-31T22:41:45.042Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Tradicionais",
+      "items": [
+        {
+          "sourceId": "558310",
+          "name": "Hambúrguês",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Hamburgues-5d02caf4fe8a27da7a31620b9c4bf321_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hambúrguer Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hambúrguer Especial",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Hambúrguer Bacon Simples",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer Bacon Especial",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Hambúrguer Tudo",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione Mais Sabor",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata Palha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Pão",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer Picanha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Maioneses",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Mostarda Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Ketchup Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Maionese Temperada Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Molho Caseiro",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558312",
+          "name": "Hambúrguer Picanha",
+          "description": "",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Hamburguer_Picanha-deaaf032d283bdff7480d06d67ff6650_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Picanha Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha Especial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Picanha Bacon Simples",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picanha Bacon Especial",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Picanha Tudo",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione Mais Sabor",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata Palha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Pão",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer Picanha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Maioneses",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Mostarda Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Ketchup Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Maionese Temperada Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Molho Caseiro",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558313",
+          "name": "Lombo Suíno",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Lombo_Suino-f6d4a70c1f47036c09385b2d82c2e14f_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Lombo Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Lombo Bacon Simples",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Lombo Bacon Especial",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Lombo Tudo",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione Mais Sabor",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata Palha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Pão",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer Picanha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Maioneses",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Mostarda Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Ketchup Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Maionese Temperada Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Molho Caseiro",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558311",
+          "name": "Filé Mignon",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/File_Mignon-e18dfe5a7028c72ab149f1d9880b3b09_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Filé Mignon Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé Mignon Especial",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Filé Mignon Bacon Simples",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Filé Mignon Bacon Especial",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Filé Mignon Tudo",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione Mais Sabor",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata Palha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Pão",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer Picanha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Maioneses",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Mostarda Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Ketchup Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Maionese Temperada Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Molho Caseiro",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558314",
+          "name": "Calabresa",
+          "description": "",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Calabresa-e1e0d5ba0b9e12ec9bd9fc54743d7470_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calabresa Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Especial",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa Bacon Simples",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Calabresa Bacon Especial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Calabresa Tudo",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione Mais Sabor",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata Palha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Pão",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer Picanha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Maioneses",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Mostarda Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Ketchup Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Maionese Temperada Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Molho Caseiro",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558315",
+          "name": "Filé de Frango",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/File_de_Frango-bf0a4830ecc58424223c5aa2f91c3672_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Frango Simples",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Especial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango Bacon Simples",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Frango Bacon Especial",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Frango Tudo",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione Mais Sabor",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata Palha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Pão",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer Picanha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Maioneses",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Mostarda Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Ketchup Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Maionese Temperada Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Molho Caseiro",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558316",
+          "name": "Sanduíches da Casa",
+          "description": "",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Sanduiches_da_Casa-3c3cbce2116d283ac2a3f333ccfac4da_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "062 Hamb. Bovino",
+                  "priceCents": 100
+                },
+                {
+                  "name": "062 Hamb. Bovino e Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "062 Hamb. Bovino e Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "062 Hamb. Bovino e Filé Mignon",
+                  "priceCents": 900
+                },
+                {
+                  "name": "062 Hamb. Bovino e Picanha",
+                  "priceCents": 400
+                },
+                {
+                  "name": "062 Hamb. Bovino e Lombo",
+                  "priceCents": 100
+                },
+                {
+                  "name": "062 Tudo",
+                  "priceCents": 1200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cebola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione Mais Sabor",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Batata Palha",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Pão",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Hambúrguer Picanha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Maioneses",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Mostarda Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Ketchup Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Maionese Temperada Sachê - Unidade",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Molho Caseiro",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558333",
+          "name": "X-Quaresma",
+          "description": "Pão, 4 Queijos, 2 Ovos, Batata, Milho e Salada.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/X_Quaresma-277f870d1b435da2c4da62b012c5f639_m.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Gourmet",
+      "items": [
+        {
+          "sourceId": "859756",
+          "name": "062 Burguer Picles",
+          "description": "Pão Brioche Premium c/ Gergelim, Hambúrguer Caseiro 100g., Picles, Mussarela, Bacon, Cebola Caramelizada e Deliciosa Maionese de Bacon.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/062_Burguer_Picles-566c917f3b861bbc198cf8807f735224_m.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "558349",
+          "name": "062 Burguer Premium",
+          "description": "Pão Parmesão, 2 Hambúrgueres Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/062_Burguer_Premium-2809681aed5df2bc95db80f7ac1c373e_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "558350",
+          "name": "062 Red",
+          "description": "Pão Red, Hambúrguer Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/062_Black_ou_Red-14a954cb6886c6b702e1d7d5e4453578_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "558323",
+          "name": "Sanduíche Gourmet",
+          "description": "Pão Brioche, Hambúrguer Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Sanduiche_Gourmet-9b2a5f9786f5c014111613da645aa44c_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "558324",
+          "name": "Gourmet Duplo",
+          "description": "Pão Brioche, 2 Hambúrgueres Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Gourmet_Duplo-c574c45d03f34f044b7964144e4e6b0b_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "558325",
+          "name": "Combo Gourmet + Batata + Refri. Lata",
+          "description": "Pão Brioche, Hambúrguer Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_Gourmet_Batata_Refri_Lata-5f020ae51baedc01f19226083f2a1a58_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri. Lata",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Coca-Cola - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558326",
+          "name": "Combo Gourmet Duplo + Batata + Refri. Lata",
+          "description": "Pão Brioche, 2 Hambúrgueres Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_Gourmet_Duplo_Batata_Refri_Lata-9636d0db1cec312e3e560733fb0d47e9_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri. Lata",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Coca-Cola - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558351",
+          "name": "Combo 062 Burguer + Batata + Refri. Lata",
+          "description": "Pão Parmesão, 2 Hambúrgueres Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_062_Burguer_Batata_Refri_Lata-a3c23e4d16655b70c3e3e8bf6f6d88b9_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri. Lata",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Coca-Cola - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558352",
+          "name": "Combo Red + Batata + Refri. Lata",
+          "description": "Pão Red, Hambúrguer Caseiro 100g., Bacon Fatiado sem Pele, Queijo Cheddar, Cebola Caramelizada, Molho Especial da Casa e Salada.",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_Black_ou_Red_Batata_Refri_Lata-a5aa4f839bf703acdcfb283ecb85fd13_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Pão",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Black",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu Refri. Lata",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Coca-Cola - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "859757",
+          "name": "Combo 062 Burguer Picles + Batata + Refri. Lata",
+          "description": "Pão Brioche Premium c/ Gergelim, Hambúrguer Caseiro 100g., Picles, Mussarela, Bacon, Cebola Caramelizada e Deliciosa Maionese de Bacon.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_062_Burguer_Picles_Batata_Refri_Lata-e4364f6e8812dafefe6279cc3b6ab82b_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri. Lata",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Coca-Cola - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558327",
+          "name": "Combo Infantil - Sanduíche + Batata + Guaraná Caçulinha ou Suco de Laranja 200 ml.",
+          "description": "Pão Pequeno, Hambúrguer 50g., Muçarela, Salsicha, Salada e Batata Palha.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_Infantil_Sanduiche_Batata_Guarana_Caculinha_ou_Suco_de_Laranja_200_ml-32a8e55be6fc17a6d9094b66ee605143_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri.",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Caçulinha",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558329",
+          "name": "Combo 1 - Hambúrguer Tudo + Refrigerante Lata ou Suco de Laranja 300 ml.",
+          "description": "",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_Tudo_Hamburguer_Tudo_Refrigerante_Lata_ou_Suco_de_Laranja_300_ml-417794c5865dd357ff7f8e1aa5084255_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri.",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Suco de Laranja 300 ml.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558328",
+          "name": "Combo 02 - Hambúrguer Tudo + Batata + Refrigerante Lata ou Suco de Laranja 300 ml.",
+          "description": "",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_02_Hamburguer_Tudo_Batata_Refrigerante_Lata_ou_Suco_de_Laranja_300_ml-bd8c0753a4d7035ce50fc42e56ac51d8_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri.",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Suco de Laranja 300 ml.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558341",
+          "name": "Combo - 2 Hambúrguer Tudo + Refri. 500 ml.",
+          "description": "",
+          "priceCents": 5900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Combo_2_Hamburguer_Tudo_Refri_500_ml-94a447567f57902eb801df685db12ccc_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Refri.",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558331",
+          "name": "Combo dos Amigos",
+          "description": "4 Hambúrgueres Tudo + 01 Coca-Cola ou Fanta ou Guaraná de 1,5 lt.",
+          "priceCents": 11400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Combo_dos_Amigos-b149ab8c4f1c10eee12ab3dc98b0623b_m.jfif",
+          "options": [
+            {
+              "name": "Escolha seu Refrigerante",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-Cola - 1,5 Litros",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - 1,5 Litros",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558332",
+          "name": "Combo Trio",
+          "description": "3 Hambúrgueres Bacon Especial + 01 Coca-Cola ou Fanta ou Guaraná de 1,5 lt.",
+          "priceCents": 8400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Combo_Trio-67409b631b236b7602779f63bd798f4d_m.jpeg",
+          "options": [
+            {
+              "name": "Escolha seu Refrigerante",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-Cola - 1,5 Litros",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica - 1,5 Litros",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sírio",
+      "items": [
+        {
+          "sourceId": "1777493",
+          "name": "Pão Sírio Filé de Frango - Serve 2 Pessoas",
+          "description": "Pão Sírio, Filé de Frango, Muçarela, Azeite, Orégano e Salada.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Pao_Sirio_File_de_Frango_Serve_2_Pessoas-c4a4c5ff520161b37911574a690d8b8a_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "1777494",
+          "name": "Pão Sírio Filé Mignon - Serve 2 Pessoas",
+          "description": "Pão Sírio, Filé Mignon, Muçarela, Azeite, Orégano e Salada.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Pao_Sirio_File_Mignon_Serve_2_Pessoas-2f191eb56dce0beb8ebee0c3f7b6dabf_m.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Batatas",
+      "items": [
+        {
+          "sourceId": "558334",
+          "name": "Batata Simples Pequena - 100g.",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Batata_Simples_Pequena_100g-a2d502a0e63cce0b4541cbe730151bc6_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "558335",
+          "name": "Batata Simples Grande - 400g.",
+          "description": "",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Batata_Simples_Grande_500g-9939d0929ab1b88595b5df7067e45e7b_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "558336",
+          "name": "Batata Extreme - 500g.",
+          "description": "Batata, Cheddar e Bacon.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Batata_Extreme_500g-ec06e6d4be702ac9be2c2521ed1818a9_m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "558337",
+          "name": "Batata Furacão - 500g.",
+          "description": "Batata, Cheddar ou Catupiry, Bacon e Calabresa.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Batata_Furacao_500g-b708fd8c7c123496f74835c77b614bd9_m.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "558340",
+          "name": "Açaí - 473 ml.",
+          "description": "Leite em Pó, Morango, Leite Condensado e Granola.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Acai_473_ml-833faa1880d6579c10fb88fe3f534f17_m.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos/Cremes",
+      "items": [
+        {
+          "sourceId": "558343",
+          "name": "Sucos - 500ml.",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Sucos_500ml-9ed24219ecc1b2910887d445183fe1e2_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caldo de Laranja",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Açaí",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cupuaçú",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558344",
+          "name": "Cremes - 500ml.",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Cremes_500ml-7c9cd544feefdb9319849ec2a962506f_m.jpg",
+          "options": [
+            {
+              "name": "Escolha seu Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçú",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "558345",
+          "name": "Refrigerante Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Refrigerante_Lata-3dde8ce38fe53614632bc1e7b868c347_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558346",
+          "name": "Refrigerante 500 ml.",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Refrigerante_500_ml-792353f2680c3e46df62b6cb18c96802_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558347",
+          "name": "Refrigerante 1.5 lts.",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Refrigerante_1_5_lts-abd79090ae2cdddbdcd22733b32ea624_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antárctica",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558348",
+          "name": "Bebidas Diversas",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3269/produtos/Bebidas_Diversas-58259a19c921bc68754a30c2831d0f33_m.jpg",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água s/ Gás",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Água c/ Gás",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Guaraná Caçulinha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "H2O Limoneto",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "558382",
+          "name": "Cervejas - Long Neck",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "imageSource": "https://images.impulsionedelivery.com.br/files/backend/empresas/3673/produtos/Cervejas_Long_Neck-13ed7ec82ad00149d886a299c2097ccd_m.png",
+          "options": [
+            {
+              "name": "Faça sua Escolha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Heineken",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Corona",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "\"Hambúrguês\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Hambúrguer Picanha\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Lombo Suíno\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Filé Mignon\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Calabresa\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Filé de Frango\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Sanduíches da Casa\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Sucos - 500ml.\": cada opção de \"Escolha seu Sabor\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Cremes - 500ml.\": cada opção de \"Escolha seu Sabor\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Refrigerante Lata\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Refrigerante 500 ml.\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Refrigerante 1.5 lts.\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Bebidas Diversas\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Cervejas - Long Neck\": cada opção de \"Faça sua Escolha\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "Fotos do servidor da plataforma (impulsionedelivery) não puderam ser baixadas; cardápio sem fotos até a loja enviar."
+  ]
+}

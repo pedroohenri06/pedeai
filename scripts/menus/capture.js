@@ -22,6 +22,37 @@ function loadPlaywright() {
   }
 }
 
+const INTERACT = {
+  /* GynFood: o detalhe (variações, adicionais) só existe no modal de cada produto; a foto grande só baixa pelo
+     próprio navegador. Guarda o HTML de cada modal em responses e as fotos em bruto/<id>/img/. */
+  async gynfood(page, responses, dir) {
+    const imgDir = path.join(dir, 'img');
+    fs.mkdirSync(imgDir, { recursive: true });
+    page.on('response', async r => {
+      if (r.request().resourceType() !== 'image' || !/impulsionedelivery\.com\.br\/.*produtos\/.*_m\.(jpe?g|png|webp)/.test(r.url())) return;
+      try { fs.writeFileSync(path.join(imgDir, path.basename(new URL(r.url()).pathname)), await r.body()); } catch (e) { /* imagem indisponível */ }
+    });
+    const ids = await page.$$eval('a.item-produto[data-produto-id]', els => els.map(e => e.dataset.produtoId));
+    for (const id of ids) {
+      await page.evaluate(i => { const a = document.querySelector('a.item-produto[data-produto-id="' + i + '"]'); if (a) a.click(); }, id);
+      await page.waitForFunction(i => { const m = document.querySelector('#produto-' + i + ' .modal-content'); return m && /ctn-opcoes|produto-view-price/.test(m.innerHTML); }, id, { timeout: 15000 }).catch(() => {});
+      await page.waitForTimeout(700);
+      const html = await page.evaluate(i => { const m = document.querySelector('#produto-' + i + ' .modal-content'); return m ? m.innerHTML : ''; }, id);
+      responses.push({ url: 'gynfood-modal:' + id, status: 200, body: { html } });
+      await page.evaluate(() => { if (window.$) $('.modal').modal('hide'); });
+      await page.waitForTimeout(300);
+    }
+  },
+  async menudino(page, responses) {
+    const cats = (responses.find(r => /\/catalog\/categories\//.test(r.url)) || {}).body;
+    for (const c of (cats && cats.items) || []) {
+      await page.getByText(c.name, { exact: true }).first().click({ timeout: 8000 }).catch(() => {});
+      await page.waitForTimeout(1200);
+    }
+    await page.waitForLoadState('networkidle', { timeout: 10000 }).catch(() => {});
+  }
+};
+
 function targets(argv) {
   const all = JSON.parse(fs.readFileSync(FONTES, 'utf8')).fontes;
   const pi = argv.indexOf('--platform');
@@ -59,6 +90,8 @@ async function captureOne(browser, t) {
       if (done && i > 3) break;
     }
     if (t.wait) await page.waitForTimeout(t.wait);
+    // Plataformas que só carregam os itens ao abrir cada categoria: toca em todas, uma a uma.
+    if (INTERACT[t.platform]) await INTERACT[t.platform](page, responses, dir).catch(e => { meta.interactError = String(e.message || e).split('\n')[0]; });
     await page.waitForLoadState('networkidle', { timeout: 15000 }).catch(() => {});
     meta.finalUrl = page.url();
     meta.title = await page.title();

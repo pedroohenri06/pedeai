@@ -1,0 +1,1801 @@
+{
+  "id": "oishi-sushi-agua-boa-agua-boa",
+  "platform": "menudino",
+  "source": "https://oishisushiab.menudino.com/",
+  "capturedAt": "2026-10-31T22:38:55.982Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Combos individuais",
+      "items": [
+        {
+          "sourceId": "2492b4f9-ca6d-4bd6-9cd4-41e19aaa2ab8",
+          "name": "Combo mini hot",
+          "description": "10 hots tradicional, 4 coxinhas especiais, 1 temaki hot e 1 coca-cola lata 310ml acompanha 2 sachês de shoyu e 1 hashi. *não fazemos trocas nos combos",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/2492b4f9-ca6d-4bd6-9cd4-41e19aaa2ab8_20260612194355.webp",
+          "options": []
+        },
+        {
+          "sourceId": "28d6847e-3d2f-4fbf-809e-ddc6ce2bec9d",
+          "name": "Combo niguiri",
+          "description": "2 niguiris salmão, 2 niguiris skin, 2 niguiris texano, 2 niguiris tilápia com limão acompanha 1 hashi, 2 sachês de shoyu e 2 de tarê *não fazemos trocas nos combos",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/28d6847e-3d2f-4fbf-809e-ddc6ce2bec9d_20251125202452.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ffec70a2-3862-455e-920c-1d6e177d2713",
+          "name": "Combo só sushi",
+          "description": "4 hossomakis salmão grelhado, 4 hossomakis salmão, 4 uramakis filadélfia, 4 uramakis skin com crispe de couve, 2 niguiris tilápia com limão, 2 joe pimenta biquinho e 1 coca-cola lata 310ml acompanha 2 sachês de shoyu, 2 de tarê e 1 hashis. *não fazemos trocas nos combos",
+          "priceCents": 9590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/ffec70a2-3862-455e-920c-1d6e177d2713_20260325192514.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Oniguiri",
+      "items": [
+        {
+          "sourceId": "9a060265-e9a8-464d-94fc-739e8d608683",
+          "name": "Oniguiri hot",
+          "description": "Bolinho de arroz japonês recheado em formato de triângulo e alga nori por fora, empanado e frito",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "53240bae-7035-4be0-a72b-8fc1573d9cce",
+          "name": "Oniguiri patê camarão",
+          "description": "Bolinho de arroz japonês recheado em formato de triângulo e alga nori por fora",
+          "priceCents": 2290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/53240bae-7035-4be0-a72b-8fc1573d9cce_20250627162628.webp",
+          "options": []
+        },
+        {
+          "sourceId": "0856686c-9d63-488c-82b6-0a42dce28d55",
+          "name": "Oniguiri salmão grelhado",
+          "description": "Bolinho de arroz japonês recheado em formato de triângulo e alga nori por fora",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/0856686c-9d63-488c-82b6-0a42dce28d55_20250627162629.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Tartar",
+      "items": [
+        {
+          "sourceId": "9ee9356f-e09f-4809-8b05-6879eff6038d",
+          "name": "Tartar de salmão especial",
+          "description": "Salmão em cubos, cebola roxa, cebolinhas, marinado em molho especial, com zeite trufado e coberto por camarões e crispe de batata doce.",
+          "priceCents": 7290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/9ee9356f-e09f-4809-8b05-6879eff6038d_20260917233300.webp",
+          "options": []
+        },
+        {
+          "sourceId": "36ae31c2-c224-43cc-8aed-7f382f78dfb1",
+          "name": "Tartar de salmão trufado",
+          "description": "Salmão em cubos, cebola roxa picada, cebolinhas, sweet chilli e marinado no shoyu, óleo de gergelim e azeite trufado e coberto com crispe de batata doce.",
+          "priceCents": 6670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Água",
+      "items": [
+        {
+          "sourceId": "74a82d59-e1cf-4c92-bae8-a006eb20d245",
+          "name": "Água com gás",
+          "description": "Água gelada com gás",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/74a82d59-e1cf-4c92-bae8-a006eb20d245_20260924004950.webp",
+          "options": []
+        },
+        {
+          "sourceId": "60aab6a9-0a2a-4b0c-9dcd-d38cadb00899",
+          "name": "Água sem gás",
+          "description": "Água gelada sem gás",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/60aab6a9-0a2a-4b0c-9dcd-d38cadb00899_20250627162616.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Carpaccio",
+      "items": [
+        {
+          "sourceId": "8175a0f9-f54b-405c-a3c3-b86d50ce887f",
+          "name": "Carpaccio de salmão trufado",
+          "description": "15 Lâminas de peixe temperadas com caldo de limão siciliano, azeite trufado e finalizado com raspas de limão siciliano e cebolinhas.",
+          "priceCents": 6990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/8175a0f9-f54b-405c-a3c3-b86d50ce887f_20250627162616.webp",
+          "options": []
+        },
+        {
+          "sourceId": "33d22fca-36a4-4188-a119-08e84ea296b9",
+          "name": "Carpaccio de tilápia trufada",
+          "description": "15 Lâminas de peixe temperadas com caldo de limão siciliano, azeite trufado e finalizado com raspas de limão siciliano e cebolinhas.",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "0c4bbb6a-bce1-468d-9b0e-1e4cb87bb291",
+          "name": "Carpaccio salmão",
+          "description": "15 lãminas de salmão fresco temperdas e marinadas ao molho carpaccio com caldo de laranja, azeite, limão e shoyu",
+          "priceCents": 6790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/0c4bbb6a-bce1-468d-9b0e-1e4cb87bb291_20250627162617.webp",
+          "options": []
+        },
+        {
+          "sourceId": "a79e9868-c7ad-4c48-8654-d65203e23f43",
+          "name": "Carpaccio tilápia",
+          "description": "15 lâminas de tilápia fresca com molho carpaccio",
+          "priceCents": 5790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "10b09794-4f32-459d-bda1-0b850c3a75f1",
+          "name": "Carpaccio trufado misto",
+          "description": "15 Lâminas de peixe temperadas com caldo de limão siciliano, azeite trufado e finalizado com raspas de limão siciliano e cebolinhas.",
+          "priceCents": 6590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b0fca2fd-8938-48ae-b75b-9df270c140bd",
+          "name": "Carpacio misto",
+          "description": "15 lâminas finas e frescas de salmão e tilápia ao molho carpaccio",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cerveja long neck",
+      "items": [
+        {
+          "sourceId": "a7629bba-04e1-4b6c-8490-74c1ca3510d3",
+          "name": "Budweiser long neck",
+          "description": "",
+          "priceCents": 1150,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/a7629bba-04e1-4b6c-8490-74c1ca3510d3_20250627162617.webp",
+          "options": []
+        },
+        {
+          "sourceId": "1e60e89e-5a1b-43b4-9180-721f3a480c2b",
+          "name": "Corona long neck",
+          "description": "",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/1e60e89e-5a1b-43b4-9180-721f3a480c2b_20250627162617.webp",
+          "options": []
+        },
+        {
+          "sourceId": "26ef2d91-ff48-4c95-be13-975562e1a4e0",
+          "name": "Corona zero",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/26ef2d91-ff48-4c95-be13-975562e1a4e0_20260512195227.webp",
+          "options": []
+        },
+        {
+          "sourceId": "598e51db-50be-42e8-9c6a-fe460107cd0d",
+          "name": "Heineken long neck",
+          "description": "",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/598e51db-50be-42e8-9c6a-fe460107cd0d_20250627162617.webp",
+          "options": []
+        },
+        {
+          "sourceId": "3aa0bd60-8f9f-4c9c-aa16-bad5adf36643",
+          "name": "Stella artois gold long neck",
+          "description": "",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/3aa0bd60-8f9f-4c9c-aa16-bad5adf36643_20250627162617.webp",
+          "options": []
+        },
+        {
+          "sourceId": "c1707706-6ddf-408e-9718-43f4a4353ec2",
+          "name": "Stella artois long neck",
+          "description": "",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/c1707706-6ddf-408e-9718-43f4a4353ec2_20250627162617.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Ceviche",
+      "items": [
+        {
+          "sourceId": "e8d75f39-2a70-4fbf-8831-fbea53dbebc5",
+          "name": "Ceviche de salmão",
+          "description": "150 gramas de cubos de salmão, kani kama, marinados no molho especial levemente apimentado, tomate cereja e cebola roxa.",
+          "priceCents": 7490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/e8d75f39-2a70-4fbf-8831-fbea53dbebc5_20261027215237.webp",
+          "options": []
+        },
+        {
+          "sourceId": "d70894ba-06da-4d7b-b839-85867523c8d0",
+          "name": "Ceviche de tilápia",
+          "description": "150 gramas de cubos de tilápia marinados em molho levemente apimentado, kani, azeite, cebola roxa, tomate cereja, pimenta biquinho e cebolinha.",
+          "priceCents": 6790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/d70894ba-06da-4d7b-b839-85867523c8d0_20261027215243.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ff353c06-9a0a-431d-9364-2bc82c376c2a",
+          "name": "Ceviche misto",
+          "description": "75 gramas de cubos de salmão e 75 gramas de tilápia, marinados em molho levemente apimentado, kani, azeite, cebola roxa, pimenta biquinho e cebolinha.",
+          "priceCents": 7190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "c582c68e-3dfa-404d-8ed5-e10a090ec0f5",
+          "name": "Combo 100 peças",
+          "description": "Especial a escolha do chef",
+          "priceCents": 37990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/c582c68e-3dfa-404d-8ed5-e10a090ec0f5_20261021213125.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e5298cff-24c8-4899-a097-e87b07702ae0",
+          "name": "Combo hot",
+          "description": "10 hot especial, 10 hot misto com crspe de couve,4 coxinha especial, 4 hot nutella e 2 harumakis de queijo acompanha 3 sachês de shoyu, 3 de tarê e 2 hashis.",
+          "priceCents": 11590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/e5298cff-24c8-4899-a097-e87b07702ae0_20260325192509.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2ebacbe1-3211-4ecf-9b9e-e072df9eb4bd",
+          "name": "Combo ichiban (30 peças)",
+          "description": "6 sashimis salmão, 6 niguiris salmão, 6 joes salmão, 6 hossomakis salmão e 6 uramakis filadélfia. Acompanha 3 sachês de shoyu, 3 de tarê e 2 hashis. Não fazemos trocas nos combos",
+          "priceCents": 16490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "eaf9a1ad-6a49-4a5d-9808-4346e37a39bd",
+          "name": "Combo joe",
+          "description": "2 joe salmão seladoo, 2 joe pimenta biquinho, 2 joe geleia morango, 2 joe geleia maracujá, 2 joe geleia de pimenta *acompanha 2 hashis, 3 sachês de shoyu e 3 de tarê. Não fazemos trocas nos combos",
+          "priceCents": 7500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "a4d64fda-6307-4864-b17c-84ae87b451d9",
+          "name": "Combo kampai (30 peças)",
+          "description": "5 fatias de sashimi salmão, 5 fatias sashimi tilápia com limão, 5 uramakis salmão, 5 uramaki skin com crispe de couve, 5 joe geléia de maracujá, 5 hots holl acompanha 3 sachês de shoyu, 3 de tarê e 2 hashis. *não fazemos trocas nos combos",
+          "priceCents": 13990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/a4d64fda-6307-4864-b17c-84ae87b451d9_20250627162636.webp",
+          "options": []
+        },
+        {
+          "sourceId": "f30f262a-177a-4ec6-b75c-648d40b39a49",
+          "name": "Combo nada cru (34 peças)",
+          "description": "4 hossomakis salmão grelhado, 4 hossomakis kani empanado, 4 uramakis skin cremoso, 4 niguiri skin com limão, 10 hots e 4 coxinhas especiais e 4 guiozas *não fazemos trocas nos combos acompanha 2 hashis, 3 saches de shoyu e 3 de tarê.",
+          "priceCents": 13290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/f30f262a-177a-4ec6-b75c-648d40b39a49_20260325192510.webp",
+          "options": []
+        },
+        {
+          "sourceId": "1cab9b8c-af40-4065-bf7a-162e2d6cc58f",
+          "name": "Combo oishi (56 peças)",
+          "description": "5 sashimis salmão, 5 sashimis tilápia, 4 niguiris tilápia com limão, 4 joes salmão, 4 joes ebi, 4 joes geleia maracujá, 4 uramakis filadélfia, 4 uramakis thai, 4 uramakis ebi furai, 8 hossomakis salmão grelhado,10 hots salmão especial. *não fazemos trocas nos combos. Acompanha 2 hashis, 3 sachês de shoyu e 3 de tarê",
+          "priceCents": 23990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/1cab9b8c-af40-4065-bf7a-162e2d6cc58f_20251125202600.webp",
+          "options": []
+        },
+        {
+          "sourceId": "32521081-ee8f-4938-9f31-c0660fa484ae",
+          "name": "Combo sakura (60 peças)",
+          "description": "8 sashimis de salmão, 4 niguiris salmão, 4 niguiris skin com limão, 4 joes doritos, 4 hossomakis salmão, 6 hossomakis kani, 10 uramakis filadélfia, 10 uramakis skin cremoso e 10 hots filadélfia",
+          "priceCents": 23490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/32521081-ee8f-4938-9f31-c0660fa484ae_20251125202450.webp",
+          "options": []
+        },
+        {
+          "sourceId": "aaec5cdf-0d74-49ed-8738-96451de80ef3",
+          "name": "Combo sashimi",
+          "description": "5 sashimis de salmão, 5 sahimis tilápia com limão, 5 sashimis salmão selado com geleia de maracujá ou geleia de pimenta",
+          "priceCents": 7190,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/aaec5cdf-0d74-49ed-8738-96451de80ef3_20261014215843.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ebe503e6-56a2-4a4e-a70e-bbd6c0307e0f",
+          "name": "Combo só sushi 32",
+          "description": "8 hossomakis salmão, 8 uramakis skin com crispe de couve, 8 uramakis filadelfia, 4 niguiris tilápia com limão e 4 joe pimenta biquinho acompanha 2 sachês de shoyu, 2 de tarê e 1 hashi *não fazemos trocas nos combos",
+          "priceCents": 14790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "79fc6e96-398d-4296-8683-71b31ce062f7",
+          "name": "Combo sugoi (70 peças)",
+          "description": "10 sashimis de salmão, 5 sashimis tilápia, 5 joes crispe de couve, 5 joes doritos, 5 uramakis skin, 5 uramakis crispe de alho poró, 5 uramakis thai, 4 hossomakis kani,5 niguiris tilápia com limão, 6 niguiris skin com limão, 10 hots filadélfia e 5 coxinhas especiais. *não fazemos troca nos combos. Acompanha 2 hashis, 3 saches de shoyu e 3 de tarê",
+          "priceCents": 26990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "041a7e77-87ae-4b68-b38b-ca6db6dbd899",
+          "name": "Combo yasui (40 peças)",
+          "description": "4 sashimis de salmão, 4 sashimis de tilápia com limão, 4 joe doritos, 8 hossomaki salmão, 4 niguiris skin,8 uramakis filadélfia e 8 uramakis skin cremoso. Acompanha 3 sachês de shoyu, 3 de tarê e 2 hashis. Não fazemos trocas nos combos",
+          "priceCents": 15990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/041a7e77-87ae-4b68-b38b-ca6db6dbd899_20260922220940.webp",
+          "options": []
+        },
+        {
+          "sourceId": "798fb202-fc84-472a-a0df-a1b1fcb906c6",
+          "name": "Super hot (40 peças)",
+          "description": "10 hots com cream cheese e alho poró crispe, 10 hots com cream cheese e couve crispe e 10 hots cream cheese e batata doce crispe 4 guiozas, 4 coxinhas especial e 2 camarões empanados.",
+          "priceCents": 14290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/798fb202-fc84-472a-a0df-a1b1fcb906c6_20260507193135.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Coxinha especial",
+      "items": [
+        {
+          "sourceId": "a7863246-7447-4fa1-b67f-b85e6d3c39e0",
+          "name": "Coxinha especial 4 unidades",
+          "description": "Salmão com cream cheese e kani kama empanado com uma massa crocante e sequinha. 4 unidades",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/a7863246-7447-4fa1-b67f-b85e6d3c39e0_20260612194353.webp",
+          "options": []
+        },
+        {
+          "sourceId": "569e241e-ad71-4f06-ba74-e9cf6c536db0",
+          "name": "Coxinha especial de camarão 4 unidades",
+          "description": "Camarão, fatia de salmão envolto no cream cheese empanados e fritos. 4 unidades",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/569e241e-ad71-4f06-ba74-e9cf6c536db0_20260612194353.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Extras",
+      "items": [
+        {
+          "sourceId": "b66e7b3d-1662-4fdc-9f4d-a0dd145ebf3b",
+          "name": "Gengibre fatiado potinho",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/b66e7b3d-1662-4fdc-9f4d-a0dd145ebf3b_20250627162620.webp",
+          "options": []
+        },
+        {
+          "sourceId": "cdf82981-2084-4488-ae81-804b140cf097",
+          "name": "Hashi de bambu",
+          "description": "",
+          "priceCents": 50,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/cdf82981-2084-4488-ae81-804b140cf097_20250627162620.webp",
+          "options": []
+        },
+        {
+          "sourceId": "3c3a1075-2618-44b6-a7b5-670ad50c7f9a",
+          "name": "Molho tarê 6,5 ml",
+          "description": "",
+          "priceCents": 50,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/3c3a1075-2618-44b6-a7b5-670ad50c7f9a_20250627162620.webp",
+          "options": []
+        },
+        {
+          "sourceId": "c83b9465-6e85-4a7f-97ce-143c8fcd6ed6",
+          "name": "Molho tarê da casa",
+          "description": "Pote de 30ml",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/c83b9465-6e85-4a7f-97ce-143c8fcd6ed6_20250627162621.webp",
+          "options": []
+        },
+        {
+          "sourceId": "6bda8526-050f-4e4b-8247-7996faba01bc",
+          "name": "Shoyu sachê 8 ml",
+          "description": "",
+          "priceCents": 50,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/6bda8526-050f-4e4b-8247-7996faba01bc_20250627162621.webp",
+          "options": []
+        },
+        {
+          "sourceId": "fd35afc8-5b55-4e1b-8af9-5d4a26b4f9ae",
+          "name": "Wassabi",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Guioza",
+      "items": [
+        {
+          "sourceId": "6f5b2ffa-f297-43ab-b930-dd7658f37e67",
+          "name": "Guioza",
+          "description": "Guioza suina 4 unidades",
+          "priceCents": 2790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/6f5b2ffa-f297-43ab-b930-dd7658f37e67_20250627162621.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Harumaki",
+      "items": [
+        {
+          "sourceId": "b765bfaf-3c5d-4801-8a52-489b1184fe6f",
+          "name": "Harumaki camarão e cream cheese",
+          "description": "2 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "ac64f4b8-ae9a-40ed-91a7-d677444bb98a",
+          "name": "Harumaki nutella",
+          "description": "",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/ac64f4b8-ae9a-40ed-91a7-d677444bb98a_20261008213753.webp",
+          "options": []
+        },
+        {
+          "sourceId": "05a3c906-e6cb-4dee-8509-f7514e3a7f02",
+          "name": "Harumaki queijo",
+          "description": "Rolinho primavera de queijo 4 unidades",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/05a3c906-e6cb-4dee-8509-f7514e3a7f02_20261008213754.webp",
+          "options": []
+        },
+        {
+          "sourceId": "6934ba19-4273-4459-9906-5c0541d3f9ef",
+          "name": "Harumaki romeu e julieta",
+          "description": "Rolinho primavera de queijo e goiabada",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "324d2935-8382-4a32-bd49-91c04e256acb",
+          "name": "Harumaki salmão grelhado",
+          "description": "4 unidades",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hossomaki",
+      "items": [
+        {
+          "sourceId": "8599b324-5232-4825-85b6-ab6f5296a893",
+          "name": "Hossomaki ebi furai",
+          "description": "Arroz japonês envolto por alga nori e camarão empanado por dentro. 8 unidades",
+          "priceCents": 4090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9a870456-3135-4f9c-acf3-deeeb3400882",
+          "name": "Hossomaki ebi furai 4 unidades",
+          "description": "Arroz japonês envolto por alga nori e camarão empanado por dentro.",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "ca2e53d3-83e7-4516-83f7-435185ea2c4e",
+          "name": "Hossomaki kani kama 4 unidades",
+          "description": "Arroz enrolado na alga nori e salmão fresco",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/ca2e53d3-83e7-4516-83f7-435185ea2c4e_20250627162622.webp",
+          "options": []
+        },
+        {
+          "sourceId": "8bfe49de-6558-4507-95db-62133da47a25",
+          "name": "Hossomaki kani kama 8 unidades",
+          "description": "Alga nori, arroz e kani 8 unidades",
+          "priceCents": 3090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/8bfe49de-6558-4507-95db-62133da47a25_20250627162622.webp",
+          "options": []
+        },
+        {
+          "sourceId": "a163e64e-ffda-4c8b-bba3-53989548deec",
+          "name": "Hossomaki kappamaki 4 unidades",
+          "description": "Arroz enrolado na alga nori e pepino 4 unidades",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/a163e64e-ffda-4c8b-bba3-53989548deec_20250627162622.webp",
+          "options": []
+        },
+        {
+          "sourceId": "d04f41e5-faf3-4722-b130-dfdd60415727",
+          "name": "Hossomaki kappamaki 8 unidades",
+          "description": "Arroz enrolado na alga nori e pepino 8 unidades",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/d04f41e5-faf3-4722-b130-dfdd60415727_20250627162623.webp",
+          "options": []
+        },
+        {
+          "sourceId": "26dacd60-b3c4-4b6c-92af-40d0d0e64c2b",
+          "name": "Hossomaki salmão grelhado 4 unidades",
+          "description": "Arroz japonês com salmão grelhado envolto por alga nori",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/26dacd60-b3c4-4b6c-92af-40d0d0e64c2b_20250627162623.webp",
+          "options": []
+        },
+        {
+          "sourceId": "52e412ca-5b1b-47ed-8caf-7c354584ede9",
+          "name": "Hossomaki salmão 4 unidades",
+          "description": "Arroz japonês com salmão fresco envolto por alga nori",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/52e412ca-5b1b-47ed-8caf-7c354584ede9_20250627162623.webp",
+          "options": []
+        },
+        {
+          "sourceId": "b78285c0-31ca-4abb-ba83-e510a78d5939",
+          "name": "Hossomaki salmão 8 unidades",
+          "description": "Arroz japonês com salmão fresco envolto por alga nori",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/b78285c0-31ca-4abb-ba83-e510a78d5939_20250627162623.webp",
+          "options": []
+        },
+        {
+          "sourceId": "348a2c45-0ae5-40db-b08b-65166650e0d1",
+          "name": "Hossomaki salmão grelhado 8 unidades",
+          "description": "Arroz japonês com salmão grelhado envolto por alga nori",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/348a2c45-0ae5-40db-b08b-65166650e0d1_20250627162624.webp",
+          "options": []
+        },
+        {
+          "sourceId": "6b22f4ea-1427-4960-a0f4-78d09f26b9bc",
+          "name": "Hossomaki skin cremoso",
+          "description": "Hossomaki recheado com cream cheese em forma de patê com pele de salmão grelhada.8 unidades",
+          "priceCents": 3090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9c734b5f-0e7b-40b9-a59c-3b76154f548b",
+          "name": "Hossomaki skin cremoso 4 unidades",
+          "description": "Hossomaki recheado com cream cheese em forma de patê com pele de salmão grelhada.",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hot roll",
+      "items": [
+        {
+          "sourceId": "c0fd39fe-e2a9-40e0-9393-b6f15df37f49",
+          "name": "Hot big salmão",
+          "description": "Roll empanado e frito, cortado ao meio, recheado com salmão cru batidinho, cream cheese, cebolinha e molho tarê.",
+          "priceCents": 5590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9ad83d5e-0c0d-4f9f-b09b-f0c9778aae99",
+          "name": "Hot big salmão grelhado",
+          "description": "Roll empanado e frito, cortado ao meio, recheado com salmão grelhado, cream cheese, cebolinha e molho tarê.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b1185bb0-b353-42ae-8479-1e21647e22e0",
+          "name": "Hot big supremo",
+          "description": "Roll empanado e frito, cortado ao meio, recheado com salmão cru batidinho, cream cheese, camarão e couve crispe.",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/b1185bb0-b353-42ae-8479-1e21647e22e0_20250627162624.webp",
+          "options": []
+        },
+        {
+          "sourceId": "1991664b-7d19-4ccb-85cf-ce7ada5ec981",
+          "name": "Hot ebi especial",
+          "description": "Sushi recheado com patê de camarão, empanado e frito. Coberto com cream cheese, camarão salteado finalizado com geleia de pimenta e cebolinhas.",
+          "priceCents": 4890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/1991664b-7d19-4ccb-85cf-ce7ada5ec981_20261014215455.webp",
+          "options": []
+        },
+        {
+          "sourceId": "a4e01150-7888-4e97-b5e8-ebd3cbc6da5c",
+          "name": "Hot nutella",
+          "description": "Hot holl com cobertura de nutella 8 unidades",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/a4e01150-7888-4e97-b5e8-ebd3cbc6da5c_20261014215455.webp",
+          "options": []
+        },
+        {
+          "sourceId": "edea1422-7033-4a2a-a01e-1515c0804d3a",
+          "name": "Hot roll camarão",
+          "description": "Hot holl com camarão empanado 8 unidades",
+          "priceCents": 4790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/edea1422-7033-4a2a-a01e-1515c0804d3a_20250627162625.webp",
+          "options": []
+        },
+        {
+          "sourceId": "307f9197-08bd-4dfc-b968-cc1c77827256",
+          "name": "Hot roll especial",
+          "description": "Hot holl coberto com salmão fresco batido, pimenta e gergelim.10 unidades",
+          "priceCents": 4090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/307f9197-08bd-4dfc-b968-cc1c77827256_20250627162625.webp",
+          "options": []
+        },
+        {
+          "sourceId": "305e305e-8a18-4404-830d-fb83f3a6c883",
+          "name": "Hot roll filadélfia",
+          "description": "Arroz japonês empanado com massa crocante e sequinha. No recheio temos cream cheese, salmão grelhado. 10 unidades",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/305e305e-8a18-4404-830d-fb83f3a6c883_20250627162625.webp",
+          "options": []
+        },
+        {
+          "sourceId": "44533f33-0db5-4525-8d1d-86bd19301a4a",
+          "name": "Hot roll filadélfia alho poró",
+          "description": "Sushi com alga nori, arroz japonês e salmão empanados e fritos, cobertos com cream cheese e crispe de alho poró.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Joe",
+      "items": [
+        {
+          "sourceId": "924a1adb-2279-4f1f-aa40-1b25437c2302",
+          "name": "Joe biquinho",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e pimenta biquinho 4 unidades",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/924a1adb-2279-4f1f-aa40-1b25437c2302_20250627162626.webp",
+          "options": []
+        },
+        {
+          "sourceId": "a06d05f8-3654-440d-9e91-48e1a813e832",
+          "name": "Joe biquinho 2 unidades",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e pimenta biquinho. 2 unidades",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "613ef098-e289-4cd9-b0f1-decb2cd874ff",
+          "name": "Joe cheese especial",
+          "description": "Salmão fresco recheado de cream cheese e finalizado com salmão batidinho e cebolinha",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3b4a347f-b3eb-4b92-aed2-ecc5da77414c",
+          "name": "Joe impera",
+          "description": "Fatia de salmão selado envolto no arroz japones, camarão empanado, cream cheese coberto com geleia de pimenta e cebolinha. 4 unidades",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1fd0b13a-5e1a-4097-92d7-57990b76e06b",
+          "name": "Joe impera 2 unidades",
+          "description": "Fatia de salmão selado envolto no arroz japones, camarão empanado, cream cheese coberto com geleia de pimenta e cebolinha. 2 unidades",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "30b74691-1af0-41ab-88c6-beffe353206b",
+          "name": "Joe cheese com geleia maracujá (sem arroz)",
+          "description": "Fatia de salmão selado envolto de cream cheese e geleia de maracujá.",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "16eac1e0-dc2f-4b5a-988c-dbb76c255012",
+          "name": "Joe cheese com geleia maracujá (sem arroz) 2 unidades",
+          "description": "Fatia de salmão selado envolto de cream cheese e geleia de maracujá.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "a7b6e6da-a34d-4c31-abce-00d4583d9c8d",
+          "name": "Joe cheese especial 2 unidades",
+          "description": "Salmão fresco recheado de cream cheese e finalizado com salmão batidinho e cebolinha",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4c1c8ff3-c5d1-444a-b078-591de911f953",
+          "name": "Joe cream cheese",
+          "description": "Salmão fresco recheado de cream cheese 4 unidades",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/4c1c8ff3-c5d1-444a-b078-591de911f953_20250627162626.webp",
+          "options": []
+        },
+        {
+          "sourceId": "c126ade2-e570-4ec7-8048-f4311b38e2cd",
+          "name": "Joe crispe alho poró",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e alho poró no topo 4 unidades",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "855bbb60-b834-48dc-9429-1d0d65a2b062",
+          "name": "Joe crispe alho poró 2 unidades",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e alho poró no topo",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4317f662-9b20-4e33-b82f-c3d6befc3d36",
+          "name": "Joe crispe de couve",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e crispe de couve no topo 4 unidades",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "fb7d7860-acc1-435f-908b-ed048fd91f6f",
+          "name": "Joe crispe de couve 2 unidades",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e crispe de couve no topo",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "c25e89a0-1fc8-4b58-bc5e-8fdad3ef738c",
+          "name": "Joe crispe palha doce",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e crispe de batata doce. 4 unidades",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "7f925dcc-844a-4231-a964-4bc8acfe9802",
+          "name": "Joe crispe palha doce 2 unidades",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e crispe de batata doce.",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "e92d4371-d739-457e-b19e-fee875bfcf42",
+          "name": "Joe ebi (camarão)",
+          "description": "Fatia de salmão selado envolto no arroz japonês, camarão empanado, cream cheese.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "5a40ebf3-14ba-4c22-8a35-6db51978a474",
+          "name": "Joe ebi (camarão) 2 unidades",
+          "description": "Fatia de salmão selado envolto no arroz japonês, camarão empanado, cream cheese.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "37837b09-a932-4089-ab0f-ea3f1b9d046b",
+          "name": "Joe geleia de pimenta",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e geleia de pimenta. 4 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/37837b09-a932-4089-ab0f-ea3f1b9d046b_20250627162627.webp",
+          "options": []
+        },
+        {
+          "sourceId": "66125cbb-e268-4cb8-81a2-6474fa4bbca6",
+          "name": "Joe geleia de pimenta 2 unidades",
+          "description": "Salmão fresco recheado com arroz coberto com cream cheese e geleia de pimenta. 4 unidades",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "74a5c5bb-b2a3-4c5e-a265-f33a616825ee",
+          "name": "Joe geleia maracujá",
+          "description": "Salmão fresco recheado com arroz, coberto com cream cheese e calda de geleia de maracujá 4 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/74a5c5bb-b2a3-4c5e-a265-f33a616825ee_20250627162627.webp",
+          "options": []
+        },
+        {
+          "sourceId": "1e7aa5b1-c004-43d0-876d-5e2771571923",
+          "name": "Joe geleia maracujá 2 unidades",
+          "description": "Salmão fresco recheado com arroz, coberto com cream cheese e calda de geleia de maracujá 2 unidades",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b1b38395-a665-4e34-8aa9-7b5a1ef89f49",
+          "name": "Joe hot",
+          "description": "Fatia de salmão recheado de cream cheese e empanado e frito",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2378de5d-d02a-4137-9d63-e305fe5b3282",
+          "name": "Joe morango",
+          "description": "Salmão fresco recheado com arroz e coberto com cream cheese e geleia de morango 4 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/2378de5d-d02a-4137-9d63-e305fe5b3282_20250627162627.webp",
+          "options": []
+        },
+        {
+          "sourceId": "925b279f-5ac2-4187-a5d4-668c49f6fa36",
+          "name": "Joe morango 2 unidades",
+          "description": "Salmão fresco recheado com arroz e coberto com cream cheese e geleia de morango 2 unidades",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9d4dd754-8378-4754-91ef-8588187fba96",
+          "name": "Joe salmão",
+          "description": "Fatia de salmão fresco recheado com arroz coberto com cream cheese e cebolinha 4 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "85d7f93f-efce-419c-a987-35d7fc3af931",
+          "name": "Joe salmão 2 unidades",
+          "description": "Fatia de salmão fresco recheado com arroz coberto com cream cheese e cebolinha 2 unidades",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "a63a3b98-bb01-495f-a394-595b8703b39d",
+          "name": "Joe salmão selado",
+          "description": "Fatia de salmão selado envolto no arroz japonês e cream cheese.",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "19fc4dd6-5eb8-4081-9697-cbcc6ba6f4d9",
+          "name": "Joe salmão selado 2 unidades",
+          "description": "Fatia de salmão selado envolto no arroz japonês e cream cheese.",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4b6fd4f2-6284-4a72-913b-e6de5dee5d0d",
+          "name": "Joe salmão trufado",
+          "description": "Fatia de salmão selado envolto no arroz japonês e finalizado com tartar de salmão, azeite trufado e raspas de limão siciliano.",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9c895ddb-ade8-4dba-a91d-5c4b91a17ef5",
+          "name": "Joe tilápia",
+          "description": "Fatia detilápia fresca recheado com arroz coberto com cream cheese e cebolinha 4 unidades",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "aca6b505-0d4b-42c7-88e4-a5c0179b14c5",
+          "name": "Joe tilápia - 2 unidades",
+          "description": "Fatia detilápia fresca recheado com arroz coberto com cream cheese e cebolinha 4 unidades",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "786a5a0f-d25c-4a7b-b002-4899e6a1427d",
+          "name": "Kappa joe",
+          "description": "Arroz japonês envolto por pepino e finalizado com salmão batido, cream cheese e cebolinha.",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Netamaki",
+      "items": [
+        {
+          "sourceId": "40364fae-3169-4a7c-a83a-78dbd8063a4f",
+          "name": "Netamaki ebi geleia de pimenta",
+          "description": "Lâmina de salmão envolto de cream cheese e camarão empanado, finalizado com geleia de pimenta e tare.( 4 unidades)",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "8e53212c-72b4-4651-a584-9913b678d653",
+          "name": "Netamaki ebifurai (sem arroz)",
+          "description": "Lâmina de salmão envolto de cream cheese e camarão empanado, finalizado com crispe de couve e tare.( 4 unidades)",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/8e53212c-72b4-4651-a584-9913b678d653_20250627162627.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4812e376-5a79-4f6f-88f0-51044cfe7354",
+          "name": "Netamaki kanikama (sem arroz)",
+          "description": "Lâmina de salmão envolto no cream cheese e kani (4 UNIDADES)",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "99e861e0-834f-4122-89cf-e3fe7741d488",
+          "name": "Netamaki salmão (sem arroz)",
+          "description": "Lâmina de salmão fresco envolto de cream cheese e salmão grelhado, finalizado com tarê e cebolinhas por cima. (4 unidades)",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "8a4ec528-9a1f-4aff-aeed-aa371e805088",
+          "name": "Netamaki skin (sem arroz)",
+          "description": "Lâmina de salmão envolto em cream cheese e pele de salmão grelhado, finalizado com tarê e crispe de couve.(4 UNIDADES)",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b0188d20-2ab4-4e15-bcf4-e84ed4f1bb91",
+          "name": "Netamaki tilápia trufada (sem arroz)",
+          "description": "Lâmina de tilápia envolto em cream cheese, finalizado com azeite trufado e raspas de limão siciliano.4 unidades",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Niguiri",
+      "items": [
+        {
+          "sourceId": "1142f45f-f5d0-4816-b54c-94a877886bf8",
+          "name": "Niguiri ebi furai 2 unidades",
+          "description": "Arroz japonês com camarão por cima.(2 UNIDADES)",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/1142f45f-f5d0-4816-b54c-94a877886bf8_20250627162628.webp",
+          "options": []
+        },
+        {
+          "sourceId": "7844cbb2-3c5c-4f4a-a2e1-6bafb9860e5a",
+          "name": "Niguiri ebi furai 4 unidades",
+          "description": "Arroz japonês com camarão por cima.4 unidades",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1be19ff0-aca6-492e-b5c7-b19c1692ac6c",
+          "name": "Niguiri ebi furai especial 2 unidades",
+          "description": "Arroz japonês com camarão empanado e fatia de limão",
+          "priceCents": 2290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "bd13dc08-8b5a-4a16-9437-2c3d39c85438",
+          "name": "Niguiri ebi furai especial 4 unidades",
+          "description": "Arroz japonês com camarão empanado e fatia de limão",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6bcd2f01-5caa-413c-8f39-5fe7a104971b",
+          "name": "Niguiri salmão",
+          "description": "Arroz e fatia de salmão 4 unidades",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/6bcd2f01-5caa-413c-8f39-5fe7a104971b_20250627162628.webp",
+          "options": []
+        },
+        {
+          "sourceId": "fe93d939-6488-4715-a44d-b1722dd97fd8",
+          "name": "Niguiri salmão 2 unidades",
+          "description": "Arroz e fatia de salmão 2 unidades",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "f8edaeaa-4b6d-46d0-b106-8ed40543ed89",
+          "name": "Niguiri salmão trufado",
+          "description": "Arroz japonês com fatia de salmão selada e finalizada com raspas de limão siciliano e azeite trufado.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "53b04c65-0d87-44bd-b2b8-d046d071638e",
+          "name": "Niguiri salmão trufado 2 unidades",
+          "description": "Arroz japonês com fatia de salmão selada e finalizada com raspas de limão siciliano e azeite trufado.",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2d2a6850-7172-42ab-8377-63e001e87fd2",
+          "name": "Niguiri skin com limão",
+          "description": "Arroz, pele de salmão frita, alga e linão 4 unidades",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/2d2a6850-7172-42ab-8377-63e001e87fd2_20250627162628.webp",
+          "options": []
+        },
+        {
+          "sourceId": "28497a55-7ad4-49dd-97a2-6f25b8cf3341",
+          "name": "Niguiri skin com limão 2 unidades",
+          "description": "Arroz, pele de salmão frita, alga e linão 2 unidades",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "225b159e-0323-4f38-a0df-e7770584a711",
+          "name": "Niguiri tilápia com limão 2 unidades",
+          "description": "Arroz com fatia de tilápia fresca e limão 2 unidades",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "ffc8ad1b-fd0b-4751-aa06-bfbaeb80d60f",
+          "name": "Niguiri tilápia com limão 4 unidades",
+          "description": "Arroz com fatia de tilápia fresca e limão 4 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Poke",
+      "items": [
+        {
+          "sourceId": "784807c7-0afc-4d5e-a549-e5f3db9544ee",
+          "name": "Poke camarão empanado",
+          "description": "Arroz japonês, camarões empanados e cortados, cebola roxa, pimenta biquinho, sunomono, kani, manga, mix de legumes, crispe de couve e alho poró e gergelim torrado",
+          "priceCents": 6090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "370fa53f-8d7b-4094-b2e2-9012653e8170",
+          "name": "Poke salmão",
+          "description": "Arroz japonês, salmão fresco em cubos, cebola roxa, pimenta biquinho, sunomono, kani, manga, mix de legumes, crispe de couve e alho poró e gergelim torrado",
+          "priceCents": 5790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/370fa53f-8d7b-4094-b2e2-9012653e8170_20261005212311.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4158c001-4c8c-4159-a55e-1882cd7e454c",
+          "name": "Poke salmão empanado",
+          "description": "Arroz japonês, salmão empanado, cebola roxa, pimenta biquinho, sunomono, kani, manga, mix de legumes, crispe de couve e alho poró e gergelim torrado",
+          "priceCents": 5890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "1b53012a-d134-4e1d-8ef7-05a607d9c455",
+          "name": "Batata frita 400g",
+          "description": "Batata frita 400g",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/1b53012a-d134-4e1d-8ef7-05a607d9c455_20250627162629.webp",
+          "options": []
+        },
+        {
+          "sourceId": "8c195d76-620a-4abf-989d-8f302529794e",
+          "name": "Bolinho de salmão",
+          "description": "Bolinho frito recheado com salmão grelhado. 4 unidades",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/8c195d76-620a-4abf-989d-8f302529794e_20261029130547.webp",
+          "options": []
+        },
+        {
+          "sourceId": "5950f602-25d4-42eb-bff2-8b4d90bee96c",
+          "name": "Camarão gourmet queijo",
+          "description": "Camarão empanado e recheado com queijo. 4 unidades",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/5950f602-25d4-42eb-bff2-8b4d90bee96c_20261029130807.webp",
+          "options": []
+        },
+        {
+          "sourceId": "937b1303-95da-4e84-86cb-2730686e6477",
+          "name": "Camarão gourmet requeijão",
+          "description": "Camarão empanado e recheado com requeijão. 4 unidades",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/937b1303-95da-4e84-86cb-2730686e6477_20261029130548.webp",
+          "options": []
+        },
+        {
+          "sourceId": "73435cf0-b300-4a32-86ed-ec496f487eb8",
+          "name": "Gohan / arroz japonês",
+          "description": "",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "04d03c58-f790-4b14-9382-99d977855d43",
+          "name": "Iscas de tilápia 300g",
+          "description": "Tiras de tilápia temperadas, empanadas e frita. Aproximadamente 400 g",
+          "priceCents": 8290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/04d03c58-f790-4b14-9382-99d977855d43_20261006211409.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "sourceId": "7d023d36-5725-4deb-ba8f-b751fdbfdefb",
+          "name": "Coca-cola lata 310ml",
+          "description": "Coca-cola lata",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/7d023d36-5725-4deb-ba8f-b751fdbfdefb_20250627162631.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e6d0c416-9b83-4786-b2aa-28cca104193d",
+          "name": "Coca-cola zero lata 310ml",
+          "description": "Coca-cola zero lata 310ml",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/e6d0c416-9b83-4786-b2aa-28cca104193d_20260831222250.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e43d953a-2d66-4007-a77c-155e85e543d3",
+          "name": "Fanta laranja lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/e43d953a-2d66-4007-a77c-155e85e543d3_20260512195229.webp",
+          "options": []
+        },
+        {
+          "sourceId": "079fd927-9de3-4751-aaad-8a66d5e31639",
+          "name": "Guarana zero",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/079fd927-9de3-4751-aaad-8a66d5e31639_20260614005523.webp",
+          "options": []
+        },
+        {
+          "sourceId": "26f900a6-74de-4ed4-8297-eb47caad793d",
+          "name": "H2o limoneto lata 350ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/26f900a6-74de-4ed4-8297-eb47caad793d_20260912222325.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ba3eeb29-5d8b-436e-b5a9-05b690a73aa9",
+          "name": "Kuat lata 310ml",
+          "description": "Guaraná lata",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/ba3eeb29-5d8b-436e-b5a9-05b690a73aa9_20260914190703.webp",
+          "options": []
+        },
+        {
+          "sourceId": "3ee3ef6f-158f-4e23-b4dd-35e41b10603a",
+          "name": "SPRITE 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/3ee3ef6f-158f-4e23-b4dd-35e41b10603a_20261006224338.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sashimi",
+      "items": [
+        {
+          "sourceId": "1e4b55e9-dc81-4329-9ae2-925b45f69d40",
+          "name": "Flor de salmão selada e geléia de maracujá 12 unidades",
+          "description": "Sashimi de salmão selada, geleia de maracujá 12 unidades",
+          "priceCents": 7490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/1e4b55e9-dc81-4329-9ae2-925b45f69d40_20261014215843.webp",
+          "options": []
+        },
+        {
+          "sourceId": "bb23683b-c89d-4d6a-b4c1-31d762070011",
+          "name": "Sashimi barriga de salmão trufado (10 lâminas)",
+          "description": "Lâminas de barriga de salmão finalizados com azeite trufado.",
+          "priceCents": 5670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "d0267c75-c937-4c74-b3ae-716805bc8c1d",
+          "name": "Sashimi de salmão azeite trufado 10 unidades",
+          "description": "Fatias de salmão fresco com raspas de limão10 unidades",
+          "priceCents": 6600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "e3670166-05cd-4fe0-b8f0-0367e4421c3a",
+          "name": "Sashimi de salmão azeite trufado 5 unidades",
+          "description": "Fatias de salmão fresco com raspas de limão5 unidades",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3ea87472-8779-4999-8829-ea540831a1f9",
+          "name": "Sashimi salmão",
+          "description": "Fatias de salmão fresco 10 unidades",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/3ea87472-8779-4999-8829-ea540831a1f9_20260814224903.webp",
+          "options": []
+        },
+        {
+          "sourceId": "176f8145-c100-412f-baf2-d4fad8b1d10d",
+          "name": "Sashimi salmão com geléia de pimenta 10 unidades",
+          "description": "Fatias de salmão fresco com geléia de pimenta 10 unidades",
+          "priceCents": 6400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "c060ac3d-5d7e-4da8-8840-1b2cbeeeaad5",
+          "name": "Sashimi salmão com geléia de pimenta 5 unidades",
+          "description": "Fatias de salmão fresco com geléia de pimenta 5 unidades",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "0e8c1790-37aa-47a1-a14a-0e635246c097",
+          "name": "Sashimi salmão maçaricado",
+          "description": "Fatias de salmão maçaricado 10 unidades",
+          "priceCents": 6400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "f92367dc-86e3-4a27-ad08-7ccb07580db9",
+          "name": "Sashimi salmão maçaricado5 unidades",
+          "description": "Fatias de salmão maçaricado 5 unidades",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4b791c38-b6a1-4b98-a2aa-b8e32bc474ed",
+          "name": "Sashimi tilápia 10 unidades",
+          "description": "Fatias de tilápia fresca 10 unidades",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/4b791c38-b6a1-4b98-a2aa-b8e32bc474ed_20261006211410.webp",
+          "options": []
+        },
+        {
+          "sourceId": "576103dc-7469-4ddb-8ff1-f578675b854c",
+          "name": "Sashimi tilápia 5 unidades",
+          "description": "Fatias de tilápia fresca 5 unidades",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sunomono",
+      "items": [
+        {
+          "sourceId": "0d80a68e-f00d-40e4-8587-614c0d1ccc75",
+          "name": "Sunomomo especial",
+          "description": "Pepino fatiado ao molho da casa com salmão,kani e gergelim.",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/0d80a68e-f00d-40e4-8587-614c0d1ccc75_20260820224602.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Temaki",
+      "items": [
+        {
+          "sourceId": "9c86d71d-6608-43be-be15-1f8abc711927",
+          "name": "Temaki camarão",
+          "description": "Alga, arroz, camarão empanado com cream cheese",
+          "priceCents": 4790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/9c86d71d-6608-43be-be15-1f8abc711927_20250627162633.webp",
+          "options": []
+        },
+        {
+          "sourceId": "f2954c2f-6d9a-4f54-864c-787e40dc3802",
+          "name": "Temaki filadelfia",
+          "description": "Salmão em cubos, cream cheese e cebolnha",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/f2954c2f-6d9a-4f54-864c-787e40dc3802_20260210190025.webp",
+          "options": []
+        },
+        {
+          "sourceId": "f9a5e26f-e890-4640-a8b3-65efceb34358",
+          "name": "Temaki grelhado",
+          "description": "Arroz, salmão grelhado, cream cheese e cebolinha enrolados em forma de cone na alga nori.",
+          "priceCents": 4090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/f9a5e26f-e890-4640-a8b3-65efceb34358_20260923011543.webp",
+          "options": []
+        },
+        {
+          "sourceId": "9bfee5aa-b337-4928-8426-41b427efb421",
+          "name": "Temaki hot tilápia",
+          "description": "Arroz japonês,, tilápia, cream cheese, cebolinha enrolados em forma de cone na alga nori empanado e frito.",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9150a529-8efd-4d7d-8d03-6aea16fc7498",
+          "name": "Temaki hot camarão",
+          "description": "Arroz japonês, camarão, cream cheese, cebolinha enrolados em forma de cone na alga nori empanado e frito.",
+          "priceCents": 4890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3daf2236-0105-4cc6-b7ff-e57b922515f8",
+          "name": "Temaki hot haru",
+          "description": "Arroz, salmão em cubos com cream cheese e cebolinhas enrolado na folha de harumaki e frito.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/3daf2236-0105-4cc6-b7ff-e57b922515f8_20260814233107.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2af122cc-c2a9-4963-ba62-2fc55f41e2b0",
+          "name": "Temaki hot salmão",
+          "description": "Temaki empanado, frito finalizado com cream cheese e crispe de couve",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/2af122cc-c2a9-4963-ba62-2fc55f41e2b0_20260814233107.webp",
+          "options": []
+        },
+        {
+          "sourceId": "dc51829b-dea3-4251-b65a-3e376616a12d",
+          "name": "Temaki patê de salmão",
+          "description": "Patê de salmão fresco, cream cheese e cebolnha",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/dc51829b-dea3-4251-b65a-3e376616a12d_20260325192507.webp",
+          "options": []
+        },
+        {
+          "sourceId": "aa2e6e07-fb32-42c6-9050-e23ff517c6a1",
+          "name": "Temaki salmão sem arroz",
+          "description": "Salmão em cubos e cebolinhas enrolado em forma de cone na alga nori",
+          "priceCents": 4790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "424af4a4-d655-4ac3-8eab-0fec32c68490",
+          "name": "Temaki skin",
+          "description": "",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Uramaki",
+      "items": [
+        {
+          "sourceId": "b1ea58ce-bc65-4540-9d42-a7b6d21abb59",
+          "name": "Uramaki califórnia 4 unidades",
+          "description": "Arroz japonês por fora, alga, manga, pepino e kani kama 4 unidades",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/b1ea58ce-bc65-4540-9d42-a7b6d21abb59_20250627162633.webp",
+          "options": []
+        },
+        {
+          "sourceId": "7e0313e7-696d-4952-a4ad-4aad68b0f179",
+          "name": "Uramaki califórnia 8 unidades",
+          "description": "Arroz japonês por fora, alga, manga, pepino e kani kama 8 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/7e0313e7-696d-4952-a4ad-4aad68b0f179_20250627162634.webp",
+          "options": []
+        },
+        {
+          "sourceId": "fd17bf3e-f484-4743-8efb-114474d64543",
+          "name": "Uramaki ebifurai 4 unidades",
+          "description": "Arroz com gergelim por fora recheado com cream cheese e camarão empanado.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "37fe04c1-f091-4672-9891-13e4264f9e84",
+          "name": "Uramaki ebifurai 8 unidades",
+          "description": "Arroz com gergelim por fora recheado com cream cheese e camarão empanado.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "f8db7fac-f708-4f90-bd1c-3aae7acaaa3f",
+          "name": "Uramaki ebifurai especial 4 unidades",
+          "description": "Arroz com gergelim por fora recheado com cream cheese, camarão empanado e coberto com uma lamina de salmão e de limão.",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "303d3823-d230-4e7c-8387-1a9e8262cbc0",
+          "name": "Uramaki ebifurai especial 8 unidades",
+          "description": "Arroz com gergelim por fora recheado com cream cheese, camarão empanado e coberto com uma lamina de salmão e de limão.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "127c1989-911b-4d7e-845f-a7a9daf7cd3a",
+          "name": "Uramaki filadélfia 4 unidades",
+          "description": "Arroz com gergelim por fora recheado com salmão fresco e cream cheese 4 unidades",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/127c1989-911b-4d7e-845f-a7a9daf7cd3a_20250627162634.webp",
+          "options": []
+        },
+        {
+          "sourceId": "cdc9ef16-f97d-4050-a844-44d3f44c551e",
+          "name": "Uramaki filadelfia 8 unidades",
+          "description": "Arroz com gergelim por fora recheado com salmão fresco e cream cheese 8 unidades",
+          "priceCents": 3590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/cdc9ef16-f97d-4050-a844-44d3f44c551e_20250627162634.webp",
+          "options": []
+        },
+        {
+          "sourceId": "45340f6c-7323-4539-9f76-85845ae2d0bf",
+          "name": "Uramaki filadelfia especial 4 unidades",
+          "description": "Sushi enrolado ao contrário com arroz e gergelim torrado por fora com salmão grelhado, cream cheese e lamina de salmão por cima.",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4de9a626-c4b5-4333-bccd-2406d470a31e",
+          "name": "Uramaki filadelfia especial 8 unidades",
+          "description": "Sushi enrolado ao contrário com arroz e gergelim torrado por fora com salmão grelhado, cream cheese e lamina de salmão por cima.",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4988cfe5-cbb9-422b-849a-df6bbd8634f9",
+          "name": "Uramaki salmão grelhado (4 unidades)",
+          "description": "Arroz por fora recheado de cream cheese e salmão grelhado",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b657efd7-1d4f-4fd0-9632-9b15eda0931e",
+          "name": "Uramaki salmão grelhado (8 unidades)",
+          "description": "Arroz por fora recheado de cream cheese e salmão grelhado",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "5afc16b2-0126-4201-9771-64365653154a",
+          "name": "Uramaki salmão sem cream cheese 4 unidades",
+          "description": "Arroz por fora recheado com salmão fresco",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "28e3fdec-9ab9-4363-be26-eff56e29dd5e",
+          "name": "Uramaki salmão sem cream cheese 8 unidades",
+          "description": "Arroz por fora recheado com salmão fresco 8 unidades",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "0e423a78-f9b9-4dee-9a64-5fba84c101e8",
+          "name": "Uramaki skin com crispe de couve 4 unidades",
+          "description": "Arroz com gergelim por fora e pele de salmão e crispe de couve 4 unidades",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3fa77088-0891-40ef-851d-555d0a6eb80c",
+          "name": "Uramaki skin com crispe de couve 8 unidades",
+          "description": "Arroz com gergelim por fora e pele de salmão e crispe de couve 4 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "fdc5f5c2-f2a2-47df-b4e7-ef261492ee61",
+          "name": "Uramaki skin cremoso 4 un",
+          "description": "Arroz com gergelim por fora e pele de salmão e crispe de couve 4 unidades",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/fdc5f5c2-f2a2-47df-b4e7-ef261492ee61_20250627162634.webp",
+          "options": []
+        },
+        {
+          "sourceId": "5b83b854-5671-406c-a663-34c4746a57cb",
+          "name": "Uramaki skin cremoso 8 un",
+          "description": "Arroz com gergelim por fora e pele de salmão e crispe de couve 8 unidades",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/5b83b854-5671-406c-a663-34c4746a57cb_20250627162635.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2ffdf4ab-be53-4afa-a35e-acea5042ac3b",
+          "name": "Uramaki thai (4 unidades)",
+          "description": "Arroz por fora recheado de cream cheese e salmão grelhado por dentro e geleia de pimenta por cima",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "ba48bf64-8412-44f1-8790-5f81ae3d80a1",
+          "name": "Uramaki thai (8 unidades)",
+          "description": "Arroz por fora recheado de cream cheese e salmão grelhado por dentro e geleia de pimenta por cima",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Yakisoba",
+      "items": [
+        {
+          "sourceId": "f57a5486-dfc4-4aa4-b47e-69f4308bb919",
+          "name": "Yakisoba carne",
+          "description": "Macarrão refogado com carne, legumes ao molho especial.",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/f57a5486-dfc4-4aa4-b47e-69f4308bb919_20261022233347.webp",
+          "options": []
+        },
+        {
+          "sourceId": "01b8671a-036c-4f39-bce9-5d13f88c63ba",
+          "name": "Yakisoba frango",
+          "description": "Macarrão refogado com legumes, frango e molho especial.",
+          "priceCents": 4790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/d853f000-6cc1-4578-9f0e-dd24b8d1e350/items/images/large/01b8671a-036c-4f39-bce9-5d13f88c63ba_20261021213125.webp",
+          "options": []
+        },
+        {
+          "sourceId": "fae4bcde-cd8e-468a-98ca-6ed2daf3ced1",
+          "name": "Yakisoba misto",
+          "description": "Macarrão refogado com legumes, fatias de carne bovina e peito de frango ao molho especial.",
+          "priceCents": 4890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "d98c2362-a53f-4d63-9d12-b8717328b7f1",
+          "name": "Yakisoba vegetariano",
+          "description": "Macarrão refogado com mix de legumes e molho especial.",
+          "priceCents": 4090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

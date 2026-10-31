@@ -1,0 +1,1908 @@
+{
+  "id": "picanhas-grill-querencia",
+  "platform": "foodsapp",
+  "source": "https://picanhasgrill.foodsapp.com.br/loja/pedidos",
+  "capturedAt": "2026-10-31T22:36:45.584Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Peixes",
+      "items": [
+        {
+          "sourceId": "409325",
+          "name": "File de Tilàpia",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66352edb364e3y43q6.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "409324",
+          "name": "Camarão",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66352f90355cdmepb7.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o tamanho da sua vontade...",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia porção",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Porção inteira",
+                  "priceCents": 4000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "1265045",
+          "name": "X-Tudo",
+          "description": "Ingredientes: Pão, Hambúrguer, Calabresa, Bacon, Linguiça Guanabara, Ovo, Presunto, Mussarela, Alface e Tomate.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6a836c2ba95273xqn9.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "184363",
+          "name": "X-Picanha",
+          "description": "Ingredientes: Pão, Picanha fatiada, Mussarela, Cheddar, Cebola frita, Alface e Tomate.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663537ec37725edfhs.webp",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "184368",
+          "name": "X-Grill",
+          "description": "Ingredientes: Pão, 2 Hambúrgueres, Cheddar, Calabresa, Mussarela, Alface e Tomate.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6635381f81962obbjk.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "184367",
+          "name": "X-Salada",
+          "description": "Ingredientes: Pão, Hambúrguer, Ervilha, Milho, Presunto, Mussarela, Ovo, Alface e Tomate.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663538544bc6dh1lks.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "184366",
+          "name": "X-Bacon",
+          "description": "Ingredientes: Pão, Hambúrguer, Bacon, Ovo, Catupiry, Presunto, Mussarela, Alface e Tomate.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663538b66e6a2v27dc.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "184365",
+          "name": "X-Tudo",
+          "description": "Ingredientes: Pão, Hambúrguer, Calabresa, Bacon, Linguiça Guanabara, Ovo, Presunto, Mussarela, Alface e Tomate.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663539122e423e28h8.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "184364",
+          "name": "X-Filé",
+          "description": "Ingredientes: Pão, Filé Mignon, Presunto, Mussarela, Catupiry, Cebola frita, Alface e Tomate.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6635393e189877kw4u.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pizzas",
+      "items": [
+        {
+          "sourceId": "115931",
+          "name": "Pizza Pequena",
+          "description": "08 Pedaços 01 Sabor",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663555a25304edwal9.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da Pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Oleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileirinha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cremosa de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Da Mama",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Defumada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoffe de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoffe de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lisboa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Rúcula com Tomate Seco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sabor da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Saborosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Chocolate Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Kids",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115933",
+          "name": "Pizza Média",
+          "description": "Escolha ate 02 Sabores 10 Pedaços",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6635557f027c3ztxtp.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da Pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Oleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileirinha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cremosa de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Da Mama",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Defumada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoffe de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoffe de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lisboa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Rúcula com Tomate Seco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sabor da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Saborosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Chocolate Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Kids",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "622933",
+          "name": "Pizza Grande",
+          "description": "Escolha ate 3 sabores 12 a 14 pedaços",
+          "priceCents": 11000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6635555549b5cbxz0q.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da Pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Oleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileirinha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cremosa de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Da Mama",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Defumada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoffe de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoffe de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lisboa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo com Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Rúcula com Tomate Seco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sabor da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Saborosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Chocolate Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Doce - Kids",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espetos completos",
+      "items": [
+        {
+          "sourceId": "115897",
+          "name": "Espeto Completo Médio",
+          "description": "Espeto com aproximadamente 500g de uma deliciosa carne a sua escolha. Acompanha arroz branco, feijão tropeiro, vinagrete, mandioca e pão de alho.",
+          "priceCents": 13000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6823cc14eb57blwt7e.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carneiro",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Contra Filé",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Picanha Suina",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115898",
+          "name": "Espeto Completo Grande",
+          "description": "Espeto com aproximadamente 1Kg de uma deliciosa carne a sua escolha. Acompanha arroz branco, feijão tropeiro, vinagrete, mandioca e pão de alho.",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6823cc436a2684hp20.webp",
+          "featured": true,
+          "options": [
+            {
+              "name": "Escolha até 2 carnes",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carneiro",
+                  "priceCents": 3500
+                },
+                {
+                  "name": "Contra File",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 3500
+                },
+                {
+                  "name": "Picanha Suina",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espetinhos",
+      "items": [
+        {
+          "sourceId": "1124691",
+          "name": "Espetinhos",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/69ab62055dde9sq0z0.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha seu Espeto",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bananinha",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Carneiro",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Filé com Bacon",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Frango com Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo Coalho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Linguicinha",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Meio da Asa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pão de Alho Francês",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Frango sem Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Filé sem Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo com Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Lombo Suíno c/ Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Lombo Suíno c/ Bacon e Abacaxi",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Espetinho doce",
+                  "priceCents": 299
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Acompanhamentos",
+      "items": [
+        {
+          "sourceId": "290465",
+          "name": "Molho verde",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66353ab4e8ea44179v.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "956300",
+          "name": "Salada de tomate alface e cebola",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/689e6378d2b29pmvzk.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "116462",
+          "name": "Vinagrete",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66353e925d981r20v1.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "116461",
+          "name": "Salada de Repolho Chinês",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66353eb208904l16n1.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "116460",
+          "name": "Mandioca Cozida",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66353f99b2eca4m6cp.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "116459",
+          "name": "Feijão Tropeiro",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66353fc1cf6b5opm14.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "116458",
+          "name": "Porção de Arroz",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66353ffb52cd5jfucf.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Parmegiana",
+      "items": [
+        {
+          "sourceId": "115903",
+          "name": "Filé a Quatro Queijos",
+          "description": "Filé Grelhado, molho branco, mussarela, cheddar, catupiry e provolone. Acompanha arroz, batata frita e salada",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8d9f2ef92.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115902",
+          "name": "Filé Parmegiana",
+          "description": "Serve 4 pessoas. Filé empanado, Arroz, Batata Frita e Salada",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6635456c19cd8to89r.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115501",
+          "name": "Filé Parmegiana Individual",
+          "description": "Filé empanado, Arroz, Batata Frita e Salada",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf2c61ab.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Panquecas",
+      "items": [
+        {
+          "sourceId": "115907",
+          "name": "Panqueca de Frango",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6635495d5768c71ozb.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115911",
+          "name": "Panqueca Presunto e Mussarela",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663549856065bwzsaf.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115910",
+          "name": "Panqueca Carne e Queijo",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663549a9ee553oa5uy.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115909",
+          "name": "Panqueca de Carne",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663549c85e940qo76b.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115908",
+          "name": "Panqueca de Frango com Catupiry",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/663549eaead46eblt8.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "115489",
+          "name": "Alcatra na Chapa",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf2893f1.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115488",
+          "name": "Batata com Bacon",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf2474c2.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "162955",
+          "name": "Batata com Bacon e queijo",
+          "description": "",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf2474c2.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "289963",
+          "name": "Batata Frita",
+          "description": "",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/65b2d7850f991ur7w7.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115487",
+          "name": "Calabresa Acebolada",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf2050b6.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "172481",
+          "name": "Chuleta",
+          "description": "Acompanha Mandioca e queijo",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/65c3f3e137132a15xh.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115906",
+          "name": "Costelinha Suina com Mandioca",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6635502984e1b0h5t0.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "530894",
+          "name": "Cupim na Mostarda",
+          "description": "Acompanha mandioca.",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66354f8184e227tccr.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115483",
+          "name": "Filé na Chapa",
+          "description": "",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf12dfd3.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115482",
+          "name": "Frango à Passarinho",
+          "description": "",
+          "priceCents": 7500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf0dfa24.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115480",
+          "name": "Mandioca Frita",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf0967d0.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115905",
+          "name": "Panceta Suina Fatiada",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66354f5b63989igr1b.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115479",
+          "name": "Picanha na Chapa",
+          "description": "",
+          "priceCents": 11000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf05846e.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115477",
+          "name": "Porco na lata com mandioca",
+          "description": "",
+          "priceCents": 7500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66354ef77db6esyae6.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115476",
+          "name": "Pururuca",
+          "description": "",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf00e211.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "115505",
+          "name": "Caldo de Feijão",
+          "description": "Acompanha Torradas, Cheiro Verde e Queijo",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cf3158ca.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "790002",
+          "name": "Caldo Verde",
+          "description": "Acompanha Torradas, Cheiro Verde e Queijo",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/6764b550eabaeetk24.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115901",
+          "name": "Caldo Franjão",
+          "description": "Acompanha Torradas, Cheiro Verde e Queijo",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8d9e90678.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115900",
+          "name": "Caldo de Frango",
+          "description": "Acompanha Torradas, Cheiro Verde e Queijo",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8d9e53913.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "115416",
+          "name": "Sucos Copo",
+          "description": "Copo de suco feito com polpa de frutas e água",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cdb89f1a.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Sucos Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Limão",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115417",
+          "name": "Suco Copo Creme",
+          "description": "Copo de suco feito com polpa de frutas e creme",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cdbcc946.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Sucos Copo CREME",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115418",
+          "name": "Suco Jarra Pequena",
+          "description": "Jarra pequena com suco de polpa de frutas e água",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cdc24207.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Jarra Pequena",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115419",
+          "name": "Suco Jarra Pequena Creme",
+          "description": "Jarra pequena de suco feito com polpa de frutas e creme",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cdc6b498.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Jarra Pequena CREME",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115420",
+          "name": "Suco Jarra Grande",
+          "description": "Jarra grande de suco de polpa de frutas com água",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cdcbdde4.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Jarra Grande",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115421",
+          "name": "Suco Jarra Grande Creme",
+          "description": "Jarra grande de suco de polpa de frutas com Creme",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cdd187ac.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Jarra Grande CREME",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja com Acerola",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cervejas",
+      "items": [
+        {
+          "sourceId": "1177409",
+          "name": "Michelob long neck",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/69fe5bc3d5924zd6mu.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "1160147",
+          "name": "Flying fish",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/69e2d728370cfcbb1q.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734985",
+          "name": "Ice Smirnoff long neck",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66eca05f637b3e5snz.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734982",
+          "name": "Sparten Long Neck",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ec9f3f071a6yobhe.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734980",
+          "name": "Stella s/ Gluten Long Neck",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ec9eed9d461p9p4d.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734968",
+          "name": "Heineken Zero Long Neck",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ec9c47a6a91eskpq.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734964",
+          "name": "Original Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ec9bbde5249ea3ma.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115474",
+          "name": "Cerveja Skol Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cefc9255.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115927",
+          "name": "Brahma Chopp Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8da4cc0c9.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115472",
+          "name": "Heineken Long Neck",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cee2f8a7.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "735001",
+          "name": "Sprite",
+          "description": "Lata",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66eca7cbee0bc6jnpn.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "735000",
+          "name": "Fanta Laranja",
+          "description": "Lata",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66eca48cee4ca0w575.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734996",
+          "name": "Del Vale",
+          "description": "Lata",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66eca4062eeb4lqwf7.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734986",
+          "name": "H2O Limão",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66eca12b0583fr1e28.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "734955",
+          "name": "Monster",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ec963077df54mck2.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115928",
+          "name": "Água com Gás",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8da51d18e.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115415",
+          "name": "Água sem Gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cdb4a95c.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115412",
+          "name": "Agua Tônica",
+          "description": "Lata",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cda63b00.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115401",
+          "name": "Coca Cola",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8cd850bd1.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Coca Cola",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca Cola Zero Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca Cola Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca Cola 500ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Coca Zero 500 ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Coca Cola 1,5 L",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Coca Cola 2 Litros",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Fanta 2 Litros",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Coca Zero 2 Litros",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115387",
+          "name": "Red Bull",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8ccc8f238.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115384",
+          "name": "H2O Limoneto",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/623b8ccc12759.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "115385",
+          "name": "Guaraná Antártica",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66355962e988az21c5.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Guaraná Antártica",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Antártica Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antártica 600ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guaraná Antártica 1l",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Guaraná 2 Litros",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "115383",
+          "name": "Schweppes",
+          "description": "Lata",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66eca6ba8e1a6aqj17.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Boboniere",
+      "items": [
+        {
+          "sourceId": "735052",
+          "name": "Trident",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ecb73b5c85cboox1.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Trident",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Tutti Frutti",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hortelã",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "735048",
+          "name": "Bubballo",
+          "description": "",
+          "priceCents": 100,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ecb6111d2e8hwh2a.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Bubbaloo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Tutti Frutti",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "735044",
+          "name": "Halls",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ecb462e4f82a59dk.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Halls",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Halls Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Halls Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Halls Extra Forte",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "735033",
+          "name": "Mentos",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/4213/66ecae57eb62a3brp9.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Mentos",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fanta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tutti Frutti",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Yogurt",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Rainbow",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mint",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 19
+  },
+  "notes": [
+    "\"Pizza Média\": cada opção de \"Escolha o sabor da Pizza\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Pizza Grande\": cada opção de \"Escolha o sabor da Pizza\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Espeto Completo Grande\": grupo \"Escolha até 2 carnes\" cobra pelo maior na fonte; aqui as opções somam.",
+    "\"Espeto Completo Grande\": cada opção de \"Escolha até 2 carnes\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador."
+  ]
+}

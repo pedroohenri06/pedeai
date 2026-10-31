@@ -1,6 +1,6 @@
 # Importador de cardápios
 
-Pipeline reutilizável para trazer cardápios publicados pelos próprios estabelecimentos (aiqfome, Brendi, Mais Delivery, Yooga, Saipos, Vende no Zap, BigD, Pedir Delivery, Zion PDV, Beefood, Expresso Delivery) para o PedeAi.
+Pipeline reutilizável para trazer cardápios publicados pelos próprios estabelecimentos (aiqfome, Brendi, Mais Delivery, Yooga, Saipos, Vende no Zap, BigD, Pedir Delivery, Zion PDV, Beefood, Expresso Delivery, CardápioWeb, foodsapp, MenuDino, GynFood) para o PedeAi. Padrão aprovado pelo dono do projeto: importar tudo (categorias, itens, fotos, tamanhos, adicionais, promoções) e apresentar melhor que a fonte.
 
 1. `data/research/cardapios/fontes.json` — link do cardápio e plataforma de cada loja (`motivo`: não coletável; `pendente`: falta leitor).
 2. `node scripts/menus/capture.js [id ...]` — abre cada link no Chromium e guarda HTML e respostas JSON em `data/research/cardapios/bruto/<id>/` (fora do git). Não contorna bloqueios anti-robô.

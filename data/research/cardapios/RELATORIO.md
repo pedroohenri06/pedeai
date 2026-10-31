@@ -2,13 +2,15 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**35 cardápios importados** de 78 links de cardápio cadastrados · 302 categorias · 1795 produtos · 1208 grupos de opções · 4685 adicionais (opções opcionais) · 1150 fotos.
+**39 cardápios importados** de 78 links de cardápio cadastrados · 357 categorias · 2158 produtos · 1313 grupos de opções · 4927 adicionais (opções opcionais) · 1381 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | OK | Booba Sorveteria & Doceria | Água Boa | pedirdelivery | 17 | 82 | 65 | 600 | 79 | 1 | 3 |
 | OK | Ds'burguer | Água Boa | vendanozap | 2 | 17 | 7 | 42 | 17 | 0 | 0 |
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
+| OK | Oishi Sushi Água Boa | Água Boa | menudino | 25 | 185 | 0 | 0 | 91 | 0 | 0 |
+| OK | 062 Burguer | Barra do Garças | gynfood | 8 | 38 | 47 | 228 | 0 | 0 | 0 |
 | OK | Açaí Royal Delivery | Barra do Garças | visual | 3 | 13 | 24 | 178 | 13 | 0 | 0 |
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Buffalos Pizzaria | Barra do Garças | visual | 5 | 38 | 35 | 0 | 0 | 0 | 0 |
@@ -27,11 +29,13 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 | OK | Chiquinho Sorvetes | Querência | aiqfome | 16 | 88 | 130 | 204 | 68 | 0 | 8 |
 | OK | Coral Sushi Delivery | Querência | brendi | 14 | 70 | 0 | 0 | 63 | 1 | 1 |
 | OK | Delícias do Pará | Querência | aiqfome | 4 | 53 | 1 | 0 | 10 | 0 | 8 |
+| OK | Dtalia Pizzaria Querência | Querência | foodsapp | 8 | 59 | 39 | 1 | 59 | 0 | 7 |
 | OK | Geladinhos Prisci | Querência | aiqfome | 4 | 12 | 1 | 0 | 9 | 0 | 9 |
 | OK | Go Burger Delivery | Querência | zionpdv | 4 | 17 | 12 | 0 | 17 | 0 | 3 |
 | OK | Hot Dog Family | Querência | aiqfome | 6 | 26 | 6 | 0 | 0 | 0 | 0 |
 | OK | Lugano Querência | Querência | aiqfome | 14 | 73 | 27 | 91 | 28 | 0 | 6 |
 | OK | MC Lena | Querência | aiqfome | 7 | 42 | 16 | 143 | 8 | 0 | 4 |
+| OK | Picanhas Grill | Querência | foodsapp | 14 | 81 | 19 | 13 | 81 | 0 | 2 |
 | OK | Restaurante Toque Caseiro | Querência | beefood | 2 | 23 | 0 | 0 | 0 | 0 | 0 |
 | OK | Sabor Top 25 | Querência | aiqfome | 12 | 95 | 88 | 95 | 0 | 0 | 0 |
 | OK | Santo Espeto (Pão de Alho S.E.) | Querência | aiqfome | 8 | 47 | 17 | 33 | 10 | 0 | 5 |
@@ -66,6 +70,35 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://menu.brendi.com.br/goldenbird (brendi)
 - Categorias: 6 · Produtos: 15 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 15
 - Não importados: nenhum
+- Pendências: 0
+
+### Oishi Sushi Água Boa (Água Boa) — OK
+
+- Fonte: https://oishisushiab.menudino.com/ (menudino)
+- Categorias: 25 · Produtos: 185 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 91
+- Não importados: nenhum
+- Pendências: 0
+
+### 062 Burguer (Barra do Garças) — OK
+
+- Fonte: https://062burguer.gynfood.com.br/#produto-558382 (gynfood)
+- Categorias: 8 · Produtos: 38 · Grupos de opções: 47 (299 escolhas) · Adicionais: 228 · Fotos: 0
+- Não importados: nenhum
+- Observação: "Hambúrguês": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Hambúrguer Picanha": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Lombo Suíno": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Filé Mignon": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Calabresa": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Filé de Frango": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Sanduíches da Casa": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Sucos - 500ml.": cada opção de "Escolha seu Sabor" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Cremes - 500ml.": cada opção de "Escolha seu Sabor" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Refrigerante Lata": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Refrigerante 500 ml.": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Refrigerante 1.5 lts.": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Bebidas Diversas": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Cervejas - Long Neck": cada opção de "Faça sua Escolha" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: Fotos do servidor da plataforma (impulsionedelivery) não puderam ser baixadas; cardápio sem fotos até a loja enviar.
 - Pendências: 0
 
 ### Açaí Royal Delivery (Barra do Garças) — OK
@@ -221,6 +254,13 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Não importados: 1 sem preço, 1 indisponível
 - Pendências: 0
 
+### Dtalia Pizzaria Querência (Querência) — OK
+
+- Fonte: https://dtaliapizzariaquerencia.foodsapp.com.br/dtaliapizzariaquerencia/pedidos (foodsapp)
+- Categorias: 8 · Produtos: 59 · Grupos de opções: 39 (431 escolhas) · Adicionais: 1 · Fotos: 59
+- Não importados: 1 indisponível
+- Pendências: 0
+
 ### Geladinhos Prisci (Querência) — OK
 
 - Fonte: https://aiqfome.com/MT/querencia/geladinhos-prisci (aiqfome)
@@ -267,6 +307,17 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/querencia/mc-lena (aiqfome)
 - Categorias: 7 · Produtos: 42 · Grupos de opções: 16 (152 escolhas) · Adicionais: 143 · Fotos: 8
 - Não importados: 11 indisponível, 1 sem preço
+- Pendências: 0
+
+### Picanhas Grill (Querência) — OK
+
+- Fonte: https://picanhasgrill.foodsapp.com.br/loja/pedidos (foodsapp)
+- Categorias: 14 · Produtos: 81 · Grupos de opções: 19 (212 escolhas) · Adicionais: 13 · Fotos: 81
+- Não importados: 19 indisponível
+- Observação: "Pizza Média": cada opção de "Escolha o sabor da Pizza" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Pizza Grande": cada opção de "Escolha o sabor da Pizza" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Espeto Completo Grande": grupo "Escolha até 2 carnes" cobra pelo maior na fonte; aqui as opções somam.
+- Observação: "Espeto Completo Grande": cada opção de "Escolha até 2 carnes" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
 - Pendências: 0
 
 ### Restaurante Toque Caseiro (Querência) — OK
@@ -339,26 +390,6 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 
 - Fonte: https://www.maisdeliveryapp.com.br/web/loja.php?id=MTA0OTc5 (maisdelivery)
 - Motivo: cardápio vazio na plataforma no dia da coleta
-
-### Oishi Sushi Água Boa (Água Boa) — Pendente
-
-- Fonte: https://oishisushiab.menudino.com (menudino)
-- Motivo: MenuDino só carrega os itens ao tocar em cada categoria; leitor ainda não implementado
-
-### 062 Burguer (Barra do Garças) — Pendente
-
-- Fonte: https://062burguer.gynfood.com.br (gynfood)
-- Motivo: GynFood mostra "a partir de" e os tamanhos só no detalhe do produto (sessão obrigatória); leitor ainda não implementado
-
-### Dtalia Pizzaria Querência (Querência) — Pendente
-
-- Fonte: https://dtaliapizzariaquerencia.foodsapp.com.br/ (foodsapp)
-- Motivo: foodsapp carrega o cardápio por canal não-JSON; leitor ainda não implementado
-
-### Picanhas Grill (Querência) — Pendente
-
-- Fonte: https://picanhasgrill.foodsapp.com.br/loja/pedidos (foodsapp)
-- Motivo: foodsapp carrega o cardápio por canal não-JSON; leitor ainda não implementado
 
 ### Sabor de Verão (Querência) — Pendente
 

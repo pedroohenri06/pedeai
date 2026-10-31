@@ -29,6 +29,7 @@ function validateEstablishments(list) {
       if (!s.whatsappSource || !URL_RE.test(s.whatsappSource)) err('whatsapp sem fonte verificável');
     }
     if (s.phone != null && !/^55\d{10,11}$/.test(s.phone)) err(`telefone inválido: ${s.phone}`);
+    if (s.hoursEstimated != null && (s.hoursEstimated !== true || !s.hours)) err('hoursEstimated só com horário preenchido');
     if (s.deliveryFeeCents != null && (!Number.isInteger(s.deliveryFeeCents) || s.deliveryFeeCents < 0)) err('taxa de entrega inválida');
     if (s.image != null) {
       if (!s.image.src) err('imagem sem src');

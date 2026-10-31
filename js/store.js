@@ -94,7 +94,7 @@
   function infoHtml(s) {
     return '<section class="sp-card sp-info" aria-label="Informações do estabelecimento"><ul class="sp-facts">' +
       '<li>' + icon(I.pin) + '<div><strong>' + (s.address ? esc(s.address) : 'Endereço a confirmar') + '</strong><span>' + esc(s.city) + ', MT</span><a href="' + esc(mapsUrl(s)) + '" target="_blank" rel="noopener">Ver no mapa</a></div></li>' +
-      (s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário</strong><span>' + esc(s.hours) + '</span></div></li>' : '') +
+      (s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário' + (s.hoursEstimated ? ' <small class="sp-estimate">a confirmar</small>' : '') + '</strong><span>' + esc(s.hours) + '</span></div></li>' : '') +
       '</ul>' + actionsHtml(s) +
       (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação. Os dados vêm de fontes públicas e ainda não foram confirmados pelo estabelecimento.</span></p>' : '') +
       '</section>';

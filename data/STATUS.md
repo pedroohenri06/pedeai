@@ -1,8 +1,8 @@
 # Status do cadastro de estabelecimentos
 
-Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-30.
+Gerado por `scripts/build-data.js`. Base atualizada em 2026-10-31.
 
-Meta: 60 por cidade (600 no total). Cadastrados: **310**.
+Meta: 60 por cidade (600 no total). Cadastrados: **311**.
 
 | Cidade | Cadastrados | Faltam p/ meta | WhatsApp verificado | Com cardápio | Pedido online ativo |
 |---|---:|---:|---:|---:|---:|
@@ -14,9 +14,9 @@ Meta: 60 por cidade (600 no total). Cadastrados: **310**.
 | Água Boa | 43 | 17 | 12 | 3 | 0 |
 | Novo São Joaquim | 12 | 48 | 1 | 0 | 0 |
 | Campinápolis | 9 | 51 | 1 | 1 | 0 |
-| Nova Xavantina | 34 | 26 | 16 | 0 | 0 |
+| Nova Xavantina | 35 | 25 | 17 | 0 | 0 |
 | Barra do Garças | 30 | 30 | 7 | 5 | 1 |
-| **Total** | **310** | **290** | **74** | **31** | **4** |
+| **Total** | **311** | **289** | **75** | **31** | **4** |
 
 ## Pendências por estabelecimento
 
@@ -313,6 +313,7 @@ Meta: 60 por cidade (600 no total). Cadastrados: **310**.
 - **Magnífico Hot Dog NX** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-29): @magnificohotdognx (60 posts, 884 seguidores, último post 2026-10-23). Mesmo grupo do Magnífico Burguer.
 - **Maia's Brigadeiria Artesanal** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-29): @maiasbrigadeiriaartesanal (694 posts, 3211 seguidores, último post 2026-09-26). Bio "Nova Xavantina-MT", "Encomendas | Sem loja física" — dúvida se serve para delivery. Foto de perfil é da dona (logoTipo foto).
 - **Nexy Açaí** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'NEXYAÇAÍ' (print do Instagram, 28/10/2026). Bio: 'Ative sua energia. Nova Xavantina - MT. Delivery hoje 14:00 às 23:00. Acesse nosso cardápio digital' + nexyacai26.ola.click/prod… (link cortado no print: completar orderUrl). Sem WhatsApp e endereço visíveis.
+- **NT Distribuidora** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'NT Distribuidora | Nova xavantina MT' (print do Instagram enviado pelo Pedro em 31/10/2026). Bio: 'Bebidas em geral / Espetinho, Jantinha / Refrigerante / Gelo / Entregas', 'Rua ipora, Nova Xavantina'. WhatsApp (66) 99957-7671 no botão WhatsApp do próprio perfil. Cadastrada em Churrasco (espetinho) até existir categoria de distribuidora. Cardápio no destaque 'Cardápio' do perfil (jantinha completa R$ 28,00 visível num post) — não importado: precisa do print do destaque.
 - **Oishi Sushi Nova Xavantina** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'oishi sushi nova xavantina' (print do Instagram, 28/10/2026, enviado junto com o lote de Água Boa). Bio: 'O melhor da culinária japonesa pra você! Telefones: 066 999570106. Avenida Ceará Nº 07 Bairro: Centro, Nova Xavantina'. A bio não diz que o número é WhatsApp: ficou em phone. É outro perfil que não o @oishisushiab (Oishi Sushi Água Boa, cadastrado à parte); talvez seja a mesma marca.
 - **Palladar Restaurante e Pizzaria** — WhatsApp não verificado; cardápio pendente; Fixo com prefixo 3438 (Nova Xavantina). Endereço sem número. Delivery não confirmado.
 - **Pizza Grill Delivery** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'Delivery Pizza Grill' (print do Instagram, 28/10/2026). Bio: 'Seu sabor favorito na sua porta! Nova Xavantina - MT. Pedidos todos os dias das 16:00 às 23:00. Peça aqui' + wa.me/5566996550165 e botão WhatsApp. Endereço não aparece.

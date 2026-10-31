@@ -174,9 +174,9 @@
       "platform": "yooga"
     },
     "saboritos-burguer-sorveteria-canarana": {
-      "url": "https://bit.ly/SaboritosBurguerWhats",
-      "platform": "whatsapp",
-      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+      "url": "https://pedido.brendi.com.br/saboritosburguer",
+      "platform": "brendi",
+      "via": "mesmo @ do Instagram na plataforma, auditoria automática 31/10/2026"
     },
     "texas-burger-grill-canarana": {
       "url": "https://wa.me/message/K4BF5UU7SJTHA1",
@@ -263,9 +263,9 @@
       "via": "arte do destaque Cardápio (print enviado pelo Pedro em 31/10/2026); transcrição manual (.claude/skills/cardapio-visual)"
     },
     "agua-verde-espetaria-e-terere-delivery-barra-do-garcas": {
-      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/agua-verde-espetaria-e-terere-delivery-centro/740595e2-4086-43c6-8949-9cc668222a02",
-      "platform": "ifood",
-      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+      "url": "https://aguaverdee.menudino.com/",
+      "platform": "menudino",
+      "via": "mesmo @ do Instagram na plataforma, auditoria automática 31/10/2026"
     },
     "bolos-do-sitio-emporio-barra-do-garcas": {
       "url": "https://bolosdositioemporio.bigd.im",
@@ -360,6 +360,78 @@
       "url": "https://www.instagram.com/buffalos__oficial/",
       "platform": "visual",
       "via": "3 artes do cardápio (prints enviados pelo Pedro em 31/10/2026)"
+    },
+    "janaina-lorrainy-doces-querencia": {
+      "url": "https://janaina-lorrainy-doces.goomer.app/menu",
+      "platform": "goomer",
+      "via": "link da bio do Instagram (https://linktr.ee/janainalorrainydoces), auditoria automática 31/10/2026"
+    },
+    "buxadinha-lanches-canarana": {
+      "url": "https://buxadinha.grandchef.com.br/",
+      "platform": "grandchef",
+      "via": "link da bio do Instagram (cadastro), auditoria automática 31/10/2026",
+      "motivo": "os arquivos do cardápio (cdn.grandchef.com.br) respondem 403 para acesso automatizado; não contornado"
+    },
+    "chicken-box-canarana-canarana": {
+      "url": "https://chickenboxcanarana.saipos.com/",
+      "platform": "saipos",
+      "via": "link da bio do Instagram (https://bio.site/chickenbox), auditoria automática 31/10/2026"
+    },
+    "pizzaria-d-italia-canarana": {
+      "url": "https://dtaliapizzariacanarana.foodsapp.com.br/dtaliapizzariacanarana/pedidos",
+      "platform": "foodsapp",
+      "via": "link da bio do Instagram (https://linktr.ee/dtaliacanarana), auditoria automática 31/10/2026"
+    },
+    "suprema-pizza-pastelaria-canarana": {
+      "url": "https://supremapizzariacanarana.meucardapio.ai/",
+      "platform": "meucardapio",
+      "via": "link da bio do Instagram (https://linktr.ee/Supremapizzacnn), auditoria automática 31/10/2026"
+    },
+    "kaingo-acai-agua-boa": {
+      "url": "https://www.maisdeliveryapp.com.br/web/loja.php?id=OTE1NjU=",
+      "platform": "maisdelivery",
+      "via": "link da bio do Instagram (https://bio.site/Acaikaingo), auditoria automática 31/10/2026"
+    },
+    "magnolia-confeitaria-e-cafe-agua-boa": {
+      "url": "https://www.maisdeliveryapp.com.br/web/loja.php?id=NDIzNzY=",
+      "platform": "maisdelivery",
+      "via": "link da bio do Instagram (https://linktr.ee/magnoliaconfeitariaab), auditoria automática 31/10/2026"
+    },
+    "pizzaria-fornalha-agua-boa": {
+      "url": "https://pizzariafornalhaaguaboa.wabiz.delivery/",
+      "platform": "wabiz",
+      "via": "link da bio do Instagram (https://linktr.ee/fornalha_ab), auditoria automática 31/10/2026",
+      "motivo": "página protegida por verificação anti-robô (wabiz); não contornada"
+    },
+    "araguaia-sushi-nx-nova-xavantina": {
+      "url": "https://araguaiasushi1.bigd.im/",
+      "platform": "bigdim",
+      "via": "link da bio do Instagram (https://linktr.ee/araguaiasushinx), auditoria automática 31/10/2026"
+    },
+    "kanoa-beach-nova-xavantina": {
+      "url": "https://kanoabeach.bigd.im/",
+      "platform": "bigdim",
+      "via": "link da bio do Instagram (https://linktr.ee/kanoanx), auditoria automática 31/10/2026"
+    },
+    "suntzu-sushi-nova-xavantina": {
+      "url": "https://app.cardapioweb.com/suntzu",
+      "platform": "cardapioweb",
+      "via": "link da bio do Instagram (https://linktr.ee/suntzusushi), auditoria automática 31/10/2026"
+    },
+    "suprema-pizza-nova-xavantina": {
+      "url": "https://supremapizzaecia.meucardapio.ai/",
+      "platform": "meucardapio",
+      "via": "link da bio do Instagram (https://linktr.ee/supremapizzanx), auditoria automática 31/10/2026"
+    },
+    "maria-filo-barra-do-garcas": {
+      "url": "https://zapdelivery.me/mariafilobg",
+      "platform": "zapdelivery",
+      "via": "link da bio do Instagram (https://linktr.ee/mariafilobg), auditoria automática 31/10/2026"
+    },
+    "o-mestre-da-pizza-canarana": {
+      "url": "https://omestredapizzadelivery.menudino.com/",
+      "platform": "menudino",
+      "via": "mesmo @ do Instagram na plataforma, auditoria automática 31/10/2026"
     }
   }
 }

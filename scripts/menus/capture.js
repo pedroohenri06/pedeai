@@ -43,6 +43,18 @@ const INTERACT = {
       await page.waitForTimeout(300);
     }
   },
+  /* Goomer: os grupos de opções de cada produto vêm de /product/<id>/optiongroups/<versão>, pedido ao abrir o
+     produto. Pede o mesmo endereço, pelo próprio navegador, para cada produto da lista. */
+  async goomer(page, responses) {
+    const list = (responses.find(r => /\/webmenu\/[^/]+\/menu\//.test(r.url)) || {}).body;
+    const slug = new URL(page.url()).hostname.split('.')[0];
+    for (const p of (list && list.products) || []) {
+      const url = 'https://mobile.goomer.app/webmenu/' + slug + '/product/' + p.id + '/optiongroups/' + p.version + '?provider=ggo';
+      if (responses.some(r => r.url === url)) continue;
+      const body = await page.evaluate(u => fetch(u).then(r => r.json()).catch(() => null), url);
+      if (body) responses.push({ url, status: 200, body });
+    }
+  },
   async menudino(page, responses) {
     const cats = (responses.find(r => /\/catalog\/categories\//.test(r.url)) || {}).body;
     for (const c of (cats && cats.items) || []) {

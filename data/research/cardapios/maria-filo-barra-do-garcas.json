@@ -1,0 +1,952 @@
+{
+  "id": "maria-filo-barra-do-garcas",
+  "platform": "zapdelivery",
+  "source": "https://zapdelivery.me/mariafilobg",
+  "capturedAt": "2026-10-31T23:11:13.110Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Talher",
+      "items": [
+        {
+          "sourceId": "MkFmsooj",
+          "name": "Garfinho+Faca e Guardanapo",
+          "description": "",
+          "priceCents": 100,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/2e7eTzrsuA_1080x1080.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "yvaV3ni1",
+          "name": "Colherzinha + Guardanapo",
+          "description": "",
+          "priceCents": 50,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/qsdBKSZZk4_1080x1080.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Os mais Pedidos Maria Filó",
+      "items": [
+        {
+          "sourceId": "IZ674ysL",
+          "name": "Escondidinho de Morango",
+          "description": "Camadas irresistíveis de creme suave de nhá benta e brigadeiro de chocolate, intercaladas com morangos frescos. Doce na medida certa, leve e perfeito pra quem ama sobremesas com fruta., 1 und",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/3z300x747r_838x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c7F1U2H6uu",
+          "name": "Picolé Gourmet de Ninho com Nutella",
+          "description": "Uma combinação irresistível de cremosidade e sabor! Feito com um delicioso creme de Leite Ninho, supercremoso, com um recheio generoso de Nutella, trazendo o equilíbrio perfeito entre o sabor suave do leite em pó e a intensidade do chocolate com avelã. Uma explosão de sabor a cada mordida! Experimente essa delícia e apaixone-se! peso medio 140G",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/qs3CGm2P92_1290x1390.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "92xPGdLfcj",
+          "name": "Bombom De Morango Ninho",
+          "description": "Brigadeiro de Ninho, morango fresco, banhado na cobertura premium com casquinhas meio amargo peso medio 110g",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/7XJ7Ao4tVR_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "n37IP84nvn",
+          "name": "Bombom De Morango Chocolate",
+          "description": "Brigadeiro de Chocolate, morango fresco, banhado na cobertura premium com casquinhas meio amargo peso medio 110g",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/7XJ7Ao4tVR_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "8k5X7euo",
+          "name": "Coxinha de Morango",
+          "description": "Morango fresco com brigadeiro de chocolate coberto com granulê. 1 und Peso medio 110G",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/RJ5zVh07lv_1110x1119.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "1TbnZ0GD45",
+          "name": "1. Combo Coxinha + Bombom De Morango",
+          "description": "1. Combo Coxinha + Bombom De Morango peso medio 70g",
+          "priceCents": 2390,
+          "originalPriceCents": 2690,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/adIrTP8qjh_906x1500.jpeg",
+          "options": [
+            {
+              "name": "Bombom De Morango",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bombom De Morango Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bombom De Morango Ninho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Coxinha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coxinha Cabalresa Sepreme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha Frango e mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha Costela e mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha Brocolis Supreme",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fritos maria filó",
+      "items": [
+        {
+          "sourceId": "68i6X1ZbH0",
+          "name": "Coxinha De Camarão",
+          "description": "Deliciosa massa caseira,com cremoso recheio de camarão bem temperadinho, creme de queijo e Mussarela em cubos, perfeitamente crocante por fora. Peso médio: 170g",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/pCKku3Zr3X_844x1500.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup e Maionese",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "dgk1HRCv",
+          "name": "Enroladinho Supreme Presunto e queijo",
+          "description": "Salgado crocante e dourado, recheado com presunto, queijo cremoso derretido e catupiry. Uma combinação irresistível de sabor e cremosidade! Peso médio: 200g",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/von9NW4Iwd_960x1280.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup e Maionese",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "JXf2p2bPrF",
+          "name": "Coxinha de Brócolis Supreme",
+          "description": "Nossas coxinhas são montadas e fritas na hora!! Massa caseira com recheio brócolis, mussarela, catupiry, cream cheese, alho poró e cebolinha Peso médio: 160g Acompanha: 1 - sache de maionese caseira + 1 kit sachê maionese e ketchup",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/gV6nypnest_844x1500.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Sachê de maionese caseira Sachê de maionese caseira c",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "s876V7w1R7",
+          "name": "Coxinha de Calabresa Supreme",
+          "description": "Nossas coxinhas são montadas e fritas na hora!! Deliciosa massa caseira,com cremoso recheio de calabresa bem temperadinho, creme de queijo e Mussarela em cubos, perfeitamente crocante por fora. Acompanha: 1 - sache de maionese caseira + 1 kit sachê maionese e ketchup Peso médio: 170g",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/Ozv73JXsey_844x1500.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup e Maionese",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "D29Aoc2CoW",
+          "name": "Coxinha de Costela com Cream Cheese",
+          "description": "Nossas coxinhas são montadas e fritas na hora!! Massa caseira com recheio caseiro de costela cremosa e cream cheese Philadelfia original Peso medio: 175g Acompanha: 1 - sache de maionese caseira + 1 kit sachê maionese e ketchup",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/nw0hJlb5M1_844x1500.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup e Maionese",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4jfVihrOXh",
+          "name": "Coxinha de Costela com Mussarela",
+          "description": "Nossas coxinhas são montadas e fritas na hora!! Massa caseira com recheio caseiro de costela cremosa e mussarela Peso medio: 170g Acompanha: 1 - sache de maionese caseira + 1 kit sachê maionese e ketchup",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/M3DN0oceDu_1470x1500.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra - Ketchup e Maionese",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "W803fb2Wlr",
+          "name": "Coxinha de Frango com Mussarela",
+          "description": "Nossas coxinhas são montadas e fritas na hora!! Massa caseira com recheio caseiro de frango e Mussarela Peso médio: 170g Acompanha: 1 - sache de maionese caseira + 1 kit sachê maionese e ketchup",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/UEqEPIVi8R_844x1500.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "WVNNDnYs",
+          "name": "Coxinha de Frango com Catupiry",
+          "description": "Nossas coxinhas são montadas e fritas na hora!! Massa caseira com recheio caseiro de frango e Catupiry original. Peso médio: 170g Acompanha: 1 - sache de maionese caseira + 1 kit sachê maionese e ketchup",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/UEqEPIVi8R_844x1500.jpeg",
+          "options": [
+            {
+              "name": "Molhos Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Sachê de maionese caseira",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos maria filó",
+      "items": [
+        {
+          "sourceId": "UzeWEm8PzV",
+          "name": "1. Combo Coxinhas + Brownie Maria Filó",
+          "description": "1 coxinha + 1 Brownie Recheado + Refrigerante 220ml Acompanha: - sache de maionese caseira + kit sachê maionese e ketchup cada coxinha pesa em media 170G",
+          "priceCents": 3290,
+          "originalPriceCents": 3490,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/dD9AhH0mTS_673x1280.jpeg",
+          "options": [
+            {
+              "name": "Bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca Normal 220ML",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca Zero 220ML",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja 220ML",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Coxinhas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coxinha de Brocolis Supreme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Costela e Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Frango com Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Costela c/ Cream Cheese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Frango com Catupiry",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Brownie",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brownie Recheado Ninho e Nutella",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brownie Recheado Chocolatudo",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pimenta",
+                  "priceCents": 25
+                },
+                {
+                  "name": "Maionese Caseira sache",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Maiosene e ketchup",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Kit Extra Ketchup, Maionese e Pimenta",
+                  "priceCents": 75
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "fGfN330a6A",
+          "name": "2. Combo Coxinha e Pudim",
+          "description": "1 Coxinha + 1 pudim 140ml + Refrigerante 220ml Acompanha: - sache de maionese caseira + kit sachê maionese e ketchup cada coxinha pesa em media 170G",
+          "priceCents": 2790,
+          "originalPriceCents": 2990,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/uphBIWA4D8_752x1500.jpeg",
+          "options": [
+            {
+              "name": "Coxinhas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coxinha de Brocolis Supreme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Costela e Maussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Frango com Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Costela c/ Cream Cheese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Frango com Catupiry",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca Normal 220ML",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca Zero 220ML",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja 220ML",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Kit Maiosene e ketchup",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Maionese Caseira Potinho",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Maionese Caseira sache",
+                  "priceCents": 50
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bolo gelado",
+      "items": [
+        {
+          "sourceId": "87jYPPA4u8",
+          "name": "Bolo Gelado Nhá Benta e Frutas Vermelhas",
+          "description": "Delicioso bolo de baunilha macio recheado com nha benta, com sabor equilibrado da nossa geleia artesanel de frutas vermelhas. Embalado em papel celofane. Peso médio: 150g.",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/DF4k4vr7Y3_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "bTqO4Z33",
+          "name": "Bolo Gelado Abacaxi e Coco Cremoso",
+          "description": "Bolo de coco, recheado com creme de coco embrulhado com papel celofane Peso Médio: 150g Não contém chocolate",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/h9ECxCpRyI_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "QiG9yPbgRy",
+          "name": "Bolo Gelado Chocolatudooo",
+          "description": "Bolo de Chocolate, recheado com brigadeiro de chocolate embrulhado com papel celofane Peso Médio: 150g",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/TdaU4HxB2M_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3CPJdKSklI",
+          "name": "Bolo Gelado Chocolate + Nha Benta",
+          "description": "Bolo de Chocolate, recheado com brigadeiro de chocolate embrulhado com papel celofane Peso Médio: 250g",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/7dr1eBL3XW_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "LdN3Gtb6",
+          "name": "Bolo Gelado - Brigadeiro e Maracujá",
+          "description": "Bolo de Chocolate, recheado com creme de brigadeiro de chocolate e nha benta de maracujá embrulhado com papel celofane Peso Médio: 120g",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/gH17OsTh7z_720x1280.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cascao Trufado",
+      "items": [
+        {
+          "sourceId": "FerLQmm1d1",
+          "name": "Cascão Trufado Choconinho e Morango",
+          "description": "Uma combinação irresistível de chocolate, cremosidade e muito sabor! Nosso cascão trufado é recheado com o delicioso creme de Ninho, creme de brigaderiro, pedacinho de brownie e Morango, trazendo a combinação perfeita para adoçar o seu dia.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/JFq3YWzyiR_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "W5R8YO85lW",
+          "name": "Cascão Trufado de Ninho e Nutella",
+          "description": "Uma combinação irresistível de chocolate, cremosidade e muito sabor! Nosso cascão trufado é recheado com o delicioso creme de Ninho e Nutella, trazendo a combinação perfeita para adoçar o seu dia. 1 Und",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/y6fE49MuVU_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "gxC3Q43I3e",
+          "name": "Cascão Trufado Chocolatudooooo Crocante de Nutella",
+          "description": "Uma combinação irresistível de chocolate, cremosidade e muito sabor! Nosso cascão trufado é recheado com o delicioso creme de brigaderiro,Crocante de Nutella e pedacinho de brownie, trazendo a combinação perfeita para adoçar o seu dia. 1 und",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/iQ63Qogy62_844x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pipoca trufada e suspiro",
+      "items": [
+        {
+          "sourceId": "7PHT0kEN49",
+          "name": "Supiro Recheado com Nutella",
+          "description": "Delicioso supiro crocante por fora, macio por dentro, recheado com a irresistível cremosidade da Nutella. Uma combinação perfeita de leveza, doçura e sabor de chocolate e avelã, ideal para adoçar o seu dia! Peso medio 90G",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/vq6morY5M5_960x1280.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "KEv5h9al",
+          "name": "Pipoca Trufada de Ninho",
+          "description": "Pipoca Bola (mushroom) crocante caramelizada, cobertas com chocolate branco e Leite Ninho. Peso médio 130g",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/wD8raUC96B_945x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pavlova",
+      "items": [
+        {
+          "sourceId": "B6fR2m6km6",
+          "name": "Pavlova -Maracujá",
+          "description": "A pavlova é uma deliciosa sobremesa feita com uma base crocante de merengue, nossa cobertura de creme de maracujá,.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/x2zbE5ypjC_960x1280.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "G36mvjuuKT",
+          "name": "Pavlova - Frutas Vermelhas",
+          "description": "A pavlova é uma deliciosa sobremesa feita com uma base crocante de merengue, nossa cobertura de ninho e nossa geléia artesanel de Frutas vermelhas.",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/a5O21A2sN8_1125x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mini naked cake",
+      "items": [
+        {
+          "sourceId": "iVheTjIt3M",
+          "name": "Mini Naked Cake - CHOCONINHO",
+          "description": "Este é nosso mini naked cake de Choconinho é um bolinho perfeito para compartilhar com amigos ou para se deliciar sozinho. Seu tamanho compacto torna-o adequado para qualquer ocasião, bolo estido Naked não possui decoração na Lateral, finalizado com uma faixa de acetato. Se preferir retirar o acetato apenas com bolo gelado. Peso medio 550g",
+          "priceCents": 6990,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/352tGcA42n_1008x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mini caseirinho",
+      "items": [
+        {
+          "sourceId": "fE3MZc3jFb",
+          "name": "Mini Caseirinho Cenoura com Chocolate",
+          "description": "Massa de cenoura caseira, e aquele sabor de bolo caseiro que abraça. Finalizado com cobertura cremosa de chocolate que deixa cada mordida ainda mais irresistível. Ideal pra quem não abre mão de chocolate de verdade peso medio: 300g",
+          "priceCents": 2290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/76YKMA493f_866x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Brigadeiro & bombom",
+      "items": [
+        {
+          "sourceId": "o4gX4Rfbdy",
+          "name": "Brigadeiro - Ninho",
+          "description": "Brigadeiro de Ninho Peso Medio 30G",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/lm9tVmQov8_1125x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Palha italiana",
+      "items": [
+        {
+          "sourceId": "IYlXl5wM3x",
+          "name": "Palha Italiana de Crocantella",
+          "description": "Nossa palha italiana é feita com nosso Brigadeiro chocolate 50% intercalada com bolachinha maizena e recheada com nosso Crocante de Nutella. Peso médio 110g",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/myCGUH2jlz_1290x1314.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Brownie's",
+      "items": [
+        {
+          "sourceId": "6HRS7XkqTr",
+          "name": "Brownie - Supreme",
+          "description": "Fatia de Brownie cobertura de brigadeiro branco e de chocolate e morango pra decocar Serve 1 pessoa",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/1OSE4RHsef_762x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "Qb4GY1r7hV",
+          "name": "Brownie - Tradicional",
+          "description": "Fatia de Brownie. Serve 1 pessoa",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/QYzwNfkMQp_981x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2k31FI3JO4",
+          "name": "Brownie Ninho e Nutella",
+          "description": "Brownie de chocolate recheado com brigadeiro de ninho e nutella Peso médio 135g",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/Npx4Wn4ft9_960x1280.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "QDJaHliveA",
+          "name": "Brownie Chocolatudo",
+          "description": "Brownie de chocolate recheado com brigadeiro cremoso de chocolate. Peso Médio:130g Peso médio 100g",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/mM6Bc70cLz_960x1280.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pudim",
+      "items": [
+        {
+          "sourceId": "4N88769jM9",
+          "name": "Mini Pudim Maria Filó",
+          "description": "Pudim de Leite Condensado, Leite Integral e Ovos. Peso médio 140g - serve 1 pessoa",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/8Z9kbtKA9O_970x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "D’ leite ice",
+      "items": [
+        {
+          "sourceId": "5o8eoYI9Up",
+          "name": "D’Leite Ice de Maracujá",
+          "description": "Nosso deelicioso sorvete artesanal com um creme base super aveludado D’leite, envolvido por um curd intenso deMaracujá, equilibrando doçura e acidez na medida certa. Uma sobremesa delicada, artesanal e simplesmente irresistível Produção limitada | feito com ingredientes selecionados Obs.: contém lactose, leite, derivados do leite, ovos e pode conter traços de soja. Não indicado para alérgicos. Pote: 220ml Armazenamento: manter no freezer",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/79wQU832iB_931x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "y8JRrW62wk",
+          "name": "D’Leite Ice de Frutas Vermelhas",
+          "description": "Nosso deelicioso sorvete artesanal com um creme base super aveludado D’leite, envolvido por um curd intenso de Frutas Vermelhas, equilibrando doçura e acidez na medida certa. Uma sobremesa delicada, artesanal e simplesmente irresistível Produção limitada | feito com ingredientes selecionados Obs.: contém lactose, leite, derivados do leite, ovos e pode conter traços de soja. Não indicado para alérgicos. Pote: 220ml Armazenamento: manter no freezer",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/gxATKQNHYz_828x1472.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sanduiche Ciabatta",
+      "items": [
+        {
+          "sourceId": "OJ9162k1",
+          "name": "Ciabatta - Frango Cremoso",
+          "description": "Ciabatta com frango desfiado, super macia e suculenta, mussarela derretida que puxa a cada mordida e alface fresca, trazendo leveza e crocância. Uma combinação irresistível de sabor intenso, textura perfeita e aquele toque caseiro que faz toda a diferença.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/PQ3GSK0ou4_828x1472.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "sq9U9LlAMv",
+          "name": "Ciabatta de Costela Desfiada",
+          "description": "Ciabatta com costela desfiada e cremosa, super macia e suculenta, mussarela derretida que puxa a cada mordida e alface fresca, trazendo leveza e crocância. Uma combinação irresistível de sabor intenso, textura perfeita e aquele toque caseiro que faz toda a diferença.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/Y8bGfD9wH5_828x1472.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Embalagem presenteável",
+      "items": [
+        {
+          "sourceId": "bhO8L7OG2A",
+          "name": "Caixa Presenteavel P",
+          "description": "Sacola presenteavel. Cabe até 3 itens",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/ntDBzOZ7He_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "ZEI79qH7qI",
+          "name": "Caixa Presenteavel M",
+          "description": "Sacola presenteavel. Cabe até 4 itens",
+          "priceCents": 890,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/arfTPbyjE7_844x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2vGmP36q",
+          "name": "Sacola G",
+          "description": "Sacola presenteavel.",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/cEurxlP2xh_1125x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "wgc7IzUa",
+          "name": "Copo Maria Filo",
+          "description": "Copo modelo Starbucks com capacidade 600ml",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/Ux1UxI0C73_1125x1500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "kz6ykML4h0",
+          "name": "Caixa Presenteável",
+          "description": "MEDIDAS DO PRODUTO Comprimento: 28cm Largura: 20,5cm Altura: 8,5cm Composição: Acabamento premium com tampa personalizada e base branca.",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/EP2qOOA3Qr_1125x1500.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "qz33Cm1L",
+          "name": "Coca-Cola 220ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/9re8HZY0ll_163x163.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "m85Tp9vK01",
+          "name": "Fanta Laranja 220ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/CeB016l6Ye_500x500.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "xibyystC",
+          "name": "Coca-Cola (zero) 220ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://storage.googleapis.com/zap-delivery-285220.appspot.com/stores/j00QEMWYuDs1PDth7p9qWeyAD/fasDxLGadl_225x225.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "oculto na loja": 23
+  },
+  "notes": []
+}

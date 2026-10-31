@@ -2,27 +2,40 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**39 cardápios importados** de 78 links de cardápio cadastrados · 357 categorias · 2158 produtos · 1313 grupos de opções · 4927 adicionais (opções opcionais) · 1381 fotos.
+**53 cardápios importados** de 92 links de cardápio cadastrados · 530 categorias · 3435 produtos · 2081 grupos de opções · 7188 adicionais (opções opcionais) · 2178 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | OK | Booba Sorveteria & Doceria | Água Boa | pedirdelivery | 17 | 82 | 65 | 600 | 79 | 1 | 3 |
 | OK | Ds'burguer | Água Boa | vendanozap | 2 | 17 | 7 | 42 | 17 | 0 | 0 |
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
+| OK | Kaingó Açaí | Água Boa | maisdelivery | 7 | 28 | 15 | 158 | 26 | 0 | 0 |
+| OK | Magnólia Confeitaria e Café | Água Boa | maisdelivery | 10 | 57 | 30 | 24 | 52 | 0 | 0 |
 | OK | Oishi Sushi Água Boa | Água Boa | menudino | 25 | 185 | 0 | 0 | 91 | 0 | 0 |
 | OK | 062 Burguer | Barra do Garças | gynfood | 8 | 38 | 47 | 228 | 0 | 0 | 0 |
 | OK | Açaí Royal Delivery | Barra do Garças | visual | 3 | 13 | 24 | 178 | 13 | 0 | 0 |
+| OK | Água Verde Espetaria e Tereré Delivery | Barra do Garças | menudino | 12 | 105 | 0 | 0 | 50 | 0 | 0 |
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Buffalos Pizzaria | Barra do Garças | visual | 5 | 38 | 35 | 0 | 0 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
+| OK | Maria Filó | Barra do Garças | zapdelivery | 18 | 51 | 17 | 32 | 51 | 3 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 19 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
+| OK | Chicken Box Canarana | Canarana | saipos | 12 | 77 | 25 | 186 | 48 | 7 | 0 |
 | OK | Mordatto | Canarana | maisdelivery | 3 | 7 | 4 | 18 | 7 | 0 | 0 |
+| OK | O Mestre da Pizza | Canarana | menudino | 3 | 19 | 0 | 0 | 19 | 0 | 0 |
+| OK | Pizzaria D'Italia | Canarana | foodsapp | 7 | 41 | 42 | 0 | 41 | 0 | 5 |
 | OK | POKE² Poke ao Quadrado | Canarana | yooga | 8 | 29 | 114 | 396 | 29 | 0 | 3 |
+| OK | Saboritos Burguer & Sorveteria | Canarana | brendi | 8 | 55 | 58 | 336 | 50 | 0 | 2 |
+| OK | Suprema Pizza & Pastelaria | Canarana | meucardapio | 16 | 221 | 212 | 99 | 52 | 1 | 0 |
+| OK | Araguaia Sushi NX | Nova Xavantina | bigdim | 29 | 147 | 63 | 451 | 140 | 0 | 0 |
+| OK | Kanoa Beach | Nova Xavantina | bigdim | 17 | 110 | 5 | 1 | 95 | 2 | 0 |
+| OK | SuntZu Sushi | Nova Xavantina | cardapioweb | 16 | 134 | 96 | 853 | 110 | 7 | 5 |
+| OK | Suprema Pizza | Nova Xavantina | meucardapio | 14 | 218 | 205 | 121 | 49 | 0 | 0 |
 | OK | Braseiro Espetinhos | Querência | aiqfome | 3 | 26 | 0 | 0 | 0 | 0 | 0 |
 | OK | Campero Grill | Querência | aiqfome | 7 | 58 | 12 | 0 | 45 | 0 | 7 |
 | OK | Casa do Sushi | Querência | aiqfome | 14 | 90 | 7 | 70 | 15 | 7 | 6 |
@@ -33,6 +46,7 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 | OK | Geladinhos Prisci | Querência | aiqfome | 4 | 12 | 1 | 0 | 9 | 0 | 9 |
 | OK | Go Burger Delivery | Querência | zionpdv | 4 | 17 | 12 | 0 | 17 | 0 | 3 |
 | OK | Hot Dog Family | Querência | aiqfome | 6 | 26 | 6 | 0 | 0 | 0 | 0 |
+| OK | Janaina Lorrainy Doces | Querência | goomer | 4 | 14 | 0 | 0 | 14 | 0 | 0 |
 | OK | Lugano Querência | Querência | aiqfome | 14 | 73 | 27 | 91 | 28 | 0 | 6 |
 | OK | MC Lena | Querência | aiqfome | 7 | 42 | 16 | 143 | 8 | 0 | 4 |
 | OK | Picanhas Grill | Querência | foodsapp | 14 | 81 | 19 | 13 | 81 | 0 | 2 |
@@ -69,6 +83,20 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 
 - Fonte: https://menu.brendi.com.br/goldenbird (brendi)
 - Categorias: 6 · Produtos: 15 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 15
+- Não importados: nenhum
+- Pendências: 0
+
+### Kaingó Açaí (Água Boa) — OK
+
+- Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/OTE1NjU= (maisdelivery)
+- Categorias: 7 · Produtos: 28 · Grupos de opções: 15 (172 escolhas) · Adicionais: 158 · Fotos: 26
+- Não importados: nenhum
+- Pendências: 0
+
+### Magnólia Confeitaria e Café (Água Boa) — OK
+
+- Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDIzNzY= (maisdelivery)
+- Categorias: 10 · Produtos: 57 · Grupos de opções: 30 (102 escolhas) · Adicionais: 24 · Fotos: 52
 - Não importados: nenhum
 - Pendências: 0
 
@@ -109,6 +137,42 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Observação: Transcrito da arte "Cardápio completo" do destaque Cardápio do Instagram (print enviado pelo Pedro em 31/10/2026): 13 produtos na fonte, 13 cadastrados.
 - Observação: "Adicionais pagos" aparecem como lista geral na arte; aplicados ao Monte o seu açaí e aos copos especiais (não às marmitas). "Chocobool" da arte grafado Chocoball.
 - Observação: Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/acai-royal-delivery-barra-do-garcas/recortes.json.
+- Pendências: 0
+
+### Água Verde Espetaria e Tereré Delivery (Barra do Garças) — OK
+
+- Fonte: https://aguaverdee.menudino.com/ (menudino)
+- Categorias: 12 · Produtos: 105 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 50
+- Não importados: nenhum
+- Observação: "Feijoada Feijoadas.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Carne Tradicional": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Linguiça Mista.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Cupim": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Carne De Sol": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Kafta C/Queijo.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. File Mignon.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. File Mignon C/Bacon.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Bife Da Costela.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Picanha": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Coração De Frango": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Meio Da Asa.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. File De Frango.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Frango C/Bacon": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Costelinha Suina.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Linguiça Toscana.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Costelinha Barbecue.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Queijo Coalho": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Queijo Coalho C/Mel": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Esp. Queijo C/Bacon": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Adicional Arroz": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Adicional Farofa De Banana": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Adicional Feijão Tropeiro": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Adicional Maionese De Legumes.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Adicional Mandioca.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Adicional Vinagrete.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Suco Abacaxi.": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Suco Acerola": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Suco Maracujá": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
 - Pendências: 0
 
 ### Bolos do Sítio Empório (Barra do Garças) — OK
@@ -162,6 +226,13 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Observação: Alguns adicionais aceitam repetir a mesma opção na fonte (ex.: 2 bacons); aqui cada opção é escolhida uma vez, até o máximo do grupo.
 - Pendências: 0
 
+### Maria Filó (Barra do Garças) — OK
+
+- Fonte: https://zapdelivery.me/mariafilobg (zapdelivery)
+- Categorias: 18 · Produtos: 51 · Grupos de opções: 17 (65 escolhas) · Adicionais: 32 · Fotos: 51
+- Não importados: 23 oculto na loja
+- Pendências: 0
+
 ### Pizzaria Coqueiros (Barra do Garças) — OK
 
 - Fonte: https://www.pizzariacoqueiros.com/?dvc=mobile (expresso)
@@ -187,6 +258,13 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Não importados: 9 categoria desativada
 - Pendências: 0
 
+### Chicken Box Canarana (Canarana) — OK
+
+- Fonte: https://chickenboxcanarana.saipos.com/home (saipos)
+- Categorias: 12 · Produtos: 77 · Grupos de opções: 25 (186 escolhas) · Adicionais: 186 · Fotos: 48
+- Não importados: 9 categoria desativada
+- Pendências: 0
+
 ### Mordatto (Canarana) — OK
 
 - Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTI0NDE1 (maisdelivery)
@@ -194,11 +272,106 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### O Mestre da Pizza (Canarana) — OK
+
+- Fonte: https://omestredapizzadelivery.menudino.com/ (menudino)
+- Categorias: 3 · Produtos: 19 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 19
+- Não importados: nenhum
+- Observação: "Pizza Pizza BANANA COM CANELA EM PÓ": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza Pizza BRIGADEIRO": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza Pizza CHOCOLATE BRANCO": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza Pizza CHOCOLATE PRETO": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza 4 QUEIJOS": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza BACON": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza CALABRESA": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza FIALHO": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza FILÉ": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza FILÉ ACEBOLADO": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza MARGUERITA": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza O MESTRE": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza PORTUGUESA": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Observação: "Pizza STROGONOFF DE FILÉ": tem opções com preço só no detalhe do produto; entrou pelo preço de venda.
+- Pendências: 0
+
+### Pizzaria D'Italia (Canarana) — OK
+
+- Fonte: https://dtaliapizzariacanarana.foodsapp.com.br/dtaliapizzariacanarana/pedidos (foodsapp)
+- Categorias: 7 · Produtos: 41 · Grupos de opções: 42 (606 escolhas) · Adicionais: 0 · Fotos: 41
+- Não importados: 2 indisponível, 1 sem preço
+- Observação: "Pizza Pequena- 6 Fatias": grupo "Escolha a melhor borda" cobra pelo maior na fonte; aqui as opções somam.
+- Observação: "Pizza Média - 8 Fatias": grupo "Escolha a melhor borda" cobra pelo maior na fonte; aqui as opções somam.
+- Observação: "Pizza Grande - 12 Fatias": grupo "Escolha a melhor borda" cobra pelo maior na fonte; aqui as opções somam.
+- Observação: "Pizza Meio Metro - 12 Pedaços": grupo "Escolha a melhor borda" cobra pelo maior na fonte; aqui as opções somam.
+- Observação: "Pizza Metro - 24 Pedaços": grupo "Escolha a melhor borda" cobra pelo maior na fonte; aqui as opções somam.
+- Pendências: 0
+
 ### POKE² Poke ao Quadrado (Canarana) — OK
 
 - Fonte: https://delivery.yooga.app/pokeriacanarana/tabs/home (yooga)
 - Categorias: 8 · Produtos: 29 · Grupos de opções: 114 (790 escolhas) · Adicionais: 396 · Fotos: 29
 - Não importados: nenhum
+- Pendências: 0
+
+### Saboritos Burguer & Sorveteria (Canarana) — OK
+
+- Fonte: https://pedido.brendi.com.br/saboritosburguer (brendi)
+- Categorias: 8 · Produtos: 55 · Grupos de opções: 58 (494 escolhas) · Adicionais: 336 · Fotos: 50
+- Não importados: nenhum
+- Observação: "Refrigerante 1,5l": cada opção de "Sabores" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Refrigerante Lata": cada opção de "Escolha seu refri" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Pendências: 0
+
+### Suprema Pizza & Pastelaria (Canarana) — OK
+
+- Fonte: https://supremapizzariacanarana.meucardapio.ai/ (meucardapio)
+- Categorias: 16 · Produtos: 221 · Grupos de opções: 212 (1519 escolhas) · Adicionais: 99 · Fotos: 52
+- Não importados: nenhum
+- Observação: Opções com preço por tamanho (ex.: bordas P/G/GG) levam o tamanho no nome.
+- Observação: Pizzas aceitam mais de um sabor na fonte (cobra a média); aqui cada sabor é um item e os outros sabores vão na observação.
+- Pendências: 0
+
+### Araguaia Sushi NX (Nova Xavantina) — OK
+
+- Fonte: https://araguaiasushi1.bigd.im/wapp/araguaiasushi1/store/#/delivery/loja/araguaiasushi1 (bigdim)
+- Categorias: 29 · Produtos: 147 · Grupos de opções: 63 (451 escolhas) · Adicionais: 451 · Fotos: 140
+- Não importados: nenhum
+- Pendências: 0
+
+### Kanoa Beach (Nova Xavantina) — OK
+
+- Fonte: https://kanoabeach.bigd.im/wapp/kanoabeach/store/#/delivery/loja/kanoabeach (bigdim)
+- Categorias: 17 · Produtos: 110 · Grupos de opções: 5 (32 escolhas) · Adicionais: 1 · Fotos: 95
+- Não importados: nenhum
+- Observação: "Água, refrigerantes e energéticos": cada opção de "Escolha suas opções?" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Cremes no copo 350ml": cada opção de "Escolha o sabor:" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Sucos no copo 350ml": cada opção de "Escolha o sabor:" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Crevejas long neck": cada opção de "Escolha sua cerveja:" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Pendências: 0
+
+### SuntZu Sushi (Nova Xavantina) — OK
+
+- Fonte: https://app.cardapioweb.com/suntzu#promocoes (cardapioweb)
+- Categorias: 16 · Produtos: 134 · Grupos de opções: 96 (943 escolhas) · Adicionais: 853 · Fotos: 110
+- Não importados: 12 indisponível, 6 sem preço
+- Observação: "Gunkan salmão (6 unidades)": cada opção de "Escolha seus Gunkan" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Niguiris (6 unidades)": cada opção de "Escolha seu preferido" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Sashimis": cada opção de "Escolha seu sashimi preferido" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Água": cada opção de "Água" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "H²O/Limoneto": cada opção de "H²o" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Refrigerantes": cada opção de "Refrigerantes" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Stella": cada opção de "Stella" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Drinks Sem Álcool - C": cada opção de "Drinks sem álcool" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Tarê da casa": cada opção de "Tarê da casa tamanhos" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: Alguns adicionais aceitam repetir a mesma opção na fonte (ex.: 2 bacons); aqui cada opção é escolhida uma vez, até o máximo do grupo.
+- Pendências: 0
+
+### Suprema Pizza (Nova Xavantina) — OK
+
+- Fonte: https://supremapizzaecia.meucardapio.ai/ (meucardapio)
+- Categorias: 14 · Produtos: 218 · Grupos de opções: 205 (1670 escolhas) · Adicionais: 121 · Fotos: 49
+- Não importados: nenhum
+- Observação: Opções com preço por tamanho (ex.: bordas P/G/GG) levam o tamanho no nome.
+- Observação: Pizzas aceitam mais de um sabor na fonte (cobra a média); aqui cada sabor é um item e os outros sabores vão na observação.
 - Pendências: 0
 
 ### Braseiro Espetinhos (Querência) — OK
@@ -293,6 +466,13 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/querencia/hot-dog-family (aiqfome)
 - Categorias: 6 · Produtos: 26 · Grupos de opções: 6 (12 escolhas) · Adicionais: 0 · Fotos: 0
 - Não importados: 5 sem preço
+- Pendências: 0
+
+### Janaina Lorrainy Doces (Querência) — OK
+
+- Fonte: https://janaina-lorrainy-doces.goomer.app/menu (goomer)
+- Categorias: 4 · Produtos: 14 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 14
+- Não importados: nenhum
 - Pendências: 0
 
 ### Lugano Querência (Querência) — OK
@@ -416,15 +596,15 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://wa.me/message/YGCS7RDFMTHFG1 (whatsapp)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
 
+### Pizzaria Fornalha (Água Boa) — Sem cardápio público
+
+- Fonte: https://pizzariafornalhaaguaboa.wabiz.delivery/ (wabiz)
+- Motivo: página protegida por verificação anti-robô (wabiz); não contornada
+
 ### Tenda Restaurant and Grill (Água Boa) — Sem cardápio público
 
 - Fonte: https://beacons.ai/tendaaguaboa (beacons)
 - Motivo: página protegida por verificação anti-robô (Cloudflare 403); não contornada
-
-### Água Verde Espetaria e Tereré Delivery (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/agua-verde-espetaria-e-terere-delivery-centro/740595e2-4086-43c6-8949-9cc668222a02 (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
 ### Cheff do Espeto (Barra do Garças) — Sem cardápio público
 
@@ -481,14 +661,14 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/zhu-marmitas---shopping-barra-do-garcas-jardim-araguaia/bde7124a-4c34-4ae0-9df0-d727b6e7111b (ifood)
 - Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
+### Buxadinha Lanches (Canarana) — Sem cardápio público
+
+- Fonte: https://buxadinha.grandchef.com.br/ (grandchef)
+- Motivo: os arquivos do cardápio (cdn.grandchef.com.br) respondem 403 para acesso automatizado; não contornado
+
 ### Flomas Burguer (Canarana) — Sem cardápio público
 
 - Fonte: https://wa.me/message/CEMJILIXGAGQF1 (whatsapp)
-- Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
-### Saboritos Burguer & Sorveteria (Canarana) — Sem cardápio público
-
-- Fonte: https://bit.ly/SaboritosBurguerWhats (whatsapp)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
 
 ### Texas Burger & Grill (Canarana) — Sem cardápio público

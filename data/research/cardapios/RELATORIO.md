@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/cardapios/fontes.json`.
 
-**31 cardápios importados** de 77 links de cardápio cadastrados · 280 categorias · 1648 produtos · 1095 grupos de opções · 4281 adicionais (opções opcionais) · 1043 fotos.
+**32 cardápios importados** de 77 links de cardápio cadastrados · 290 categorias · 1725 produtos · 1133 grupos de opções · 4507 adicionais (opções opcionais) · 1118 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -12,6 +12,7 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
+| OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
@@ -86,6 +87,13 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 - Fonte: https://dadburger.bigd.im/wapp/dadburger/store/#/delivery/loja/dadburger (bigdim)
 - Categorias: 6 · Produtos: 48 · Grupos de opções: 65 (500 escolhas) · Adicionais: 488 · Fotos: 48
 - Não importados: nenhum
+- Pendências: 0
+
+### Dantes (Barra do Garças) — OK
+
+- Fonte: https://dantes.bigd.im/wapp/dantes/store/#/delivery/loja/dantes (bigdim)
+- Categorias: 10 · Produtos: 77 · Grupos de opções: 38 (424 escolhas) · Adicionais: 226 · Fotos: 75
+- Não importados: 1 sem preço
 - Pendências: 0
 
 ### Le Monde Burguer Hamburgueria (Barra do Garças) — OK
@@ -365,11 +373,6 @@ Gerado por `node scripts/menus/report.js` em 2026-10-31. Fontes: `data/research/
 ### Churrascaria O Panelão (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/churrascaria-o-panelao-centro/6aa02299-c63f-40a1-82f4-cf34904fbacd (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
-
-### Dantes (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/dantes-centro/9816e45b-4890-4fe6-afb6-696b78003b57 (ifood)
 - Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
 ### Léo Pastéis & Saltenhas (Barra do Garças) — Sem cardápio público

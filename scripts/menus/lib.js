@@ -22,7 +22,9 @@ function displayName(s) {
   const t = cleanText(s);
   const letters = t.replace(/[^\p{L}]/gu, '');
   if (letters.length < 2) return t;
-  const upper = letters === letters.toUpperCase(), lower = letters === letters.toLowerCase();
+  // "Quase toda em maiúsculas" também conta (fontes digitam "PãO COM CARNE" com o acento minúsculo).
+  const ups = letters.split('').filter(ch => ch !== ch.toLowerCase()).length;
+  const upper = ups >= letters.length * 0.85, lower = letters === letters.toLowerCase();
   if (!upper && !lower) return t.charAt(0).toUpperCase() + t.slice(1);
   const base = t.toLowerCase();
   return base.charAt(0).toUpperCase() + base.slice(1);

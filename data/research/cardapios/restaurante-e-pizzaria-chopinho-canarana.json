@@ -1,0 +1,1253 @@
+{
+  "id": "restaurante-e-pizzaria-chopinho-canarana",
+  "platform": "olaclick",
+  "source": "https://chopinho-3.ola.click/products",
+  "capturedAt": "2026-10-31T23:56:48.982Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Jantar à la carte",
+      "items": [
+        {
+          "sourceId": "b9bdf8f0-70c8-11ed-8360-67254ae59091",
+          "name": "Filé à parmegiana",
+          "description": "Arroz, filé, queijo, presunto, ervilha, molho de tomate, orégano e salada",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/eea0f5a8-e2fa-4e42-b5e5-635f65c3d920.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 5000
+                }
+              ]
+            }
+          ],
+          "featured": true
+        },
+        {
+          "sourceId": "b9c36fd0-70c8-11ed-b542-815f9bcd577c",
+          "name": "Bife contra filé acebolado",
+          "description": "Arroz, feijão, bife, fritas, ovos e salada",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/24a11763-52cb-482d-82d3-f04a6d5a61bf.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6eca4e20-70ca-11ed-b645-65a822ad40b9",
+          "name": "Bife contra filé com queijo",
+          "description": "Arroz, feijão, bife com queijo, fritas, ovos e salada",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/cf5ea9f0-4a91-4a87-8368-e7d0c3f52dd7.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c90c5960-70ca-11ed-b759-8b07fc61ba1c",
+          "name": "Bife contra filé à milanesa",
+          "description": "Arroz, feijão, bife a milanesa, fritas, ovos e salada",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/925dcab7-1fa0-4f36-a5f1-4cac85cdb7cd.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0e649990-70cb-11ed-bd23-cb94115fb3ff",
+          "name": "Picanha tropeira",
+          "description": "Arroz, feijão tropeiro, picanha fatiada, mandioca e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/5c409ad2-1b5b-4e80-bc51-3080e5f5963c.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "41696ee0-70cb-11ed-9834-81c90afdc437",
+          "name": "Filé ao molho madeira",
+          "description": "Arroz, filé ao molho madeira, purê e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/0ee05389-e7a6-4b65-a20a-df8522524cb3.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "8704ce70-70cb-11ed-a752-fbd796ff6905",
+          "name": "Filé à mineira",
+          "description": "Arroz, filé com queijo, feijão tropeiro, fritas e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/b80d3bb6-d132-4a3d-8867-7f21bac6b743.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c3428370-70cb-11ed-8e75-cbb5f2a75e83",
+          "name": "Filé à cavalo",
+          "description": "Arroz, filé, ovos e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/fbed9b59-99bb-4c49-bbaa-a030b5541684.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ea39fa50-70cb-11ed-8a89-7d960ff2bbad",
+          "name": "Filé à milanesa",
+          "description": "Arroz, feijão, bife à milanesa, fritas, ovos e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/43e677f2-4dce-4eaf-b24a-e4136179da50.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "27c87420-70cc-11ed-bd0b-1ddd4007574b",
+          "name": "Filé à brasileira",
+          "description": "Arroz, filé, tomate refogado com pimentão e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/89566b80-dd4a-4f13-b19a-ad5d93bcff80.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5e518b60-70cc-11ed-bdd8-ed2aa15360e1",
+          "name": "Filé à moda",
+          "description": "Arroz, feijão, bife com queijo, fritas, ovos e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/4869a259-1af1-467f-bcb0-f6da7b040bd9.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "7d40a830-70cc-11ed-ad94-7d74ebc85e48",
+          "name": "Filé à cubana",
+          "description": "Arroz, filé à milanesa com queijo, frutas e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/372cd8dc-42ec-4a46-8646-32514315c44f.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Peixes à la carte",
+      "items": [
+        {
+          "sourceId": "b9c59df0-70c8-11ed-83f0-1d43e5a36f9d",
+          "name": "Filé de peixe grelhado",
+          "description": "Arroz, filé grelhado, fritas e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/a7905a66-0673-4864-ae19-b4511ae8c89e.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "48ac09c0-70cd-11ed-ae92-7d3ff57ae2ec",
+          "name": "Filé de peixe à milanesa",
+          "description": "Arroz, filé à milanesa, fritas e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/e957ce85-6bb8-4987-a0c0-e8dae14e40ba.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "7cff5bf0-70cd-11ed-9e35-4184fa4c25da",
+          "name": "Peixe à parmegiana",
+          "description": "Arroz, filé, queijo, presunto, ervilha, molho de tomate, orégano e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/3eb61cb9-5f85-4370-8dc7-a7fac6b69da7.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Aves à la carte",
+      "items": [
+        {
+          "sourceId": "da222940-70cd-11ed-9cff-43fb21570292",
+          "name": "Filé de frango grelhado",
+          "description": "Arroz, filé grelhado, fritas e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/df1109b0-cbe2-4be5-ac9c-130d61afb47a.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3f85a9f0-70ce-11ed-a184-013e7ed3ef4f",
+          "name": "Filé de frango à milanesa",
+          "description": "Arroz, filé à milanesa, fritas e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/2ac6db03-3776-45f1-b594-bae6008760c2.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5abf7170-70ce-11ed-b95c-d9037817cb82",
+          "name": "Frango à parmegiana",
+          "description": "Arroz, filé, queijo, presunto, ervilha, molho de tomate, orégano e salada",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/ff3719f1-9568-4c6a-8c6b-d62521a46e11.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Porções e petiscos",
+      "items": [
+        {
+          "sourceId": "b25058e0-70ce-11ed-a8d1-2b749ac5f876",
+          "name": "Filé à palito",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/3bc64b16-31ae-4d92-ae78-600cbc76775b.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ff5b1eb0-70ce-11ed-9646-adf53fbd0fa3",
+          "name": "Peixe à palito",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/e4fc7155-fb31-48df-829c-f47537852d52.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "173088c0-70cf-11ed-9bf5-6daf5c8268fe",
+          "name": "Frango à passarinho",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/65497781-db3c-44ca-94b0-4aea7222750d.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3cdfb910-70cf-11ed-874f-3f41b04a0ade",
+          "name": "Porção de frios",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/6514cb93-f710-4ad7-8bd8-f4b2ec46384e.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bb1140a0-70d1-11ed-990a-efe7d9633ace",
+          "name": "Linguiça acebolada",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/6ff9010c-85be-49b8-a886-c2439a031200.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4c881a40-70d2-11ed-af5e-099fad0f3063",
+          "name": "Picanha à palito",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/cd324a60-2cf6-4bbb-ab17-bf66fbae2075.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c605a7f0-70d2-11ed-9dff-ffe5a1b9c0a9",
+          "name": "File à palito empanado",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/9826f90d-2d6a-4200-9a4f-bbde88f8f821.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e4a42440-70d2-11ed-b6e6-ab63b5deea20",
+          "name": "Batata frita",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/d33e7bc0-93d7-4f42-a4f0-3361f58a04ac.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ],
+          "featured": true
+        },
+        {
+          "sourceId": "04a17cf0-70d3-11ed-a2bf-b990399644f9",
+          "name": "Porção de azeitona",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/e5f0f667-c424-47d2-b79f-ee0a025dadf5.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1ac328b0-70d3-11ed-9ba5-dd8b3fb179e7",
+          "name": "Porção de palmito",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/13e99410-943f-43a3-985e-3791677a8c5c.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "33328b80-70d3-11ed-b0c7-3fc3e7ac398b",
+          "name": "Torre de batata",
+          "description": "",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/f987bc70-53d1-4957-a4ba-922994633bc1.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "53eed400-70d3-11ed-9a22-237388e7e3ff",
+          "name": "Filé à vilas boas",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/5e5d05b5-d9ce-4eaf-9d47-a7a42822c00b.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "648c6900-70d3-11ed-b032-27dfb55cda9b",
+          "name": "Porção de pão",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/5cf31cf6-0092-467a-be66-25f823bd5dcf.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "74c7f170-70d3-11ed-bba8-b1c1b62d7f6c",
+          "name": "Porção de queijo",
+          "description": "",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/54a2d325-66f8-49ca-90aa-865afbfd17e6.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Lanche",
+      "items": [
+        {
+          "sourceId": "8b98a9a0-70d3-11ed-bebc-a955f9de9b18",
+          "name": "Lanche com filé",
+          "description": "Pão francês, filé com queijo, ovos e salada",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/357dd404-48f2-4f30-b283-68a6447b7d33.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Massas",
+      "items": [
+        {
+          "sourceId": "cc8bb2d0-70d3-11ed-ad6c-2d0b553246f6",
+          "name": "Macarronada ao alho e óleo",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/bc35f8b3-3d87-408e-bac8-a82b1af7bf08.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "042f3910-70d4-11ed-b33f-b72428cc99d0",
+          "name": "Macarronada ao molho file",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/8e561ed7-f755-4c99-85ee-50afef6035ae.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ovos",
+      "items": [
+        {
+          "sourceId": "707490a0-70d4-11ed-b4c0-757d84566b38",
+          "name": "Ovos fritos",
+          "description": "",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/6278503c-eb01-4285-a5f6-5d7bcebd3afd.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "8dda6fa0-70d4-11ed-838a-13c6d18deab1",
+          "name": "Omelete c/presunto e queijo",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/3797ba5b-751e-4561-9dc8-159ffb81617c.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "af716420-70d4-11ed-b112-afe88c95199e",
+          "name": "Omelete c/cebola",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/eb528562-8299-459c-b7bc-44f75e9a274f.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Saladas",
+      "items": [
+        {
+          "sourceId": "3ef6c890-70d4-11ed-92c6-b912b6b7ccc5",
+          "name": "Salada mista",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/8d2b4d71-b407-44c2-b317-c79dddee3694.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guarnições",
+      "items": [
+        {
+          "sourceId": "f17adce0-70d4-11ed-af07-5d60ed1fa42d",
+          "name": "Arroz",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/466255f2-fc6c-439b-9bfc-4b0ae90486d1.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "095f0200-70d5-11ed-8f19-6bb6aa25bf3d",
+          "name": "Feijão",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/83ff15e9-e251-4b1f-a654-fee18209d37e.png",
+          "options": []
+        },
+        {
+          "sourceId": "149520d0-70d5-11ed-bdb4-b338f4dd9b87",
+          "name": "Pure",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/4e2df7da-514f-46c6-aa43-dfd58e6a2a18.png",
+          "options": []
+        },
+        {
+          "sourceId": "225122c0-70d5-11ed-8d85-5353d9fb0819",
+          "name": "Salada simples",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/44e0b395-98c4-484f-9d8f-ee13070f4216.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Almoço",
+      "items": [
+        {
+          "sourceId": "dc3c23b0-765b-11ed-b522-e7f58195024c",
+          "name": "Buffet self service",
+          "description": "Almoço - Buffet self service com churrasco 89,99 o kg",
+          "priceCents": 9999,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/ce23cd10-5318-46d9-ae26-3444707dee10.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "9e954720-7706-11ed-96c8-4d70a34b5653",
+          "name": "Marmita número 08",
+          "description": "",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/76992aeb-4d91-4326-85a6-c63deb852c77.jpeg",
+          "options": [],
+          "featured": true
+        },
+        {
+          "sourceId": "b2a01890-7706-11ed-930a-6133f5dc88e8",
+          "name": "Marmita número 09",
+          "description": "",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/9af72985-f977-4dc8-9db5-730b5d2f1c01.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "b9ccdd00-70c8-11ed-b1f4-ef1dcfd57050",
+          "name": "Refrigerante 290ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/53aa1960-20c8-4029-ae23-07ac96ed59c2.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "b9cdf3a0-70c8-11ed-adc3-7914378548e7",
+          "name": "Refrigerante lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/bb0309f3-1ebb-4d76-bdfe-ed3bac49c6a6.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "aed664f0-70d6-11ed-a84a-eb318d35d68c",
+          "name": "Refrigerante 500ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/f577e3af-24ce-4cb1-8836-bc751308ed7d.png",
+          "options": []
+        },
+        {
+          "sourceId": "ca6ac680-70d6-11ed-9f9f-3f1ecdc84bc1",
+          "name": "Refrigerante 1l",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/91037ba5-11b9-402e-bfe6-0647a67487a4.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "ea575940-70d6-11ed-8c42-81c08b647dcd",
+          "name": "Refrigerante 2l",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/81bcb05a-617e-429f-8a86-721b07b40b2c.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "ffe72ce0-70d6-11ed-99ec-ed66113e29f3",
+          "name": "Água mineral s/gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/da4448e7-6095-4aac-a6d4-c61d75a8f7a4.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "1e00f7a0-70d7-11ed-ab32-51c098bfdd50",
+          "name": "Água mineral c/gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/2fce88b6-b274-4015-84e4-30af1cc2e6b0.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2dbe6050-70d7-11ed-8534-d313c93bc931",
+          "name": "H20 600ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/0ca2e33a-edab-4b31-ae9c-37bee296ee06.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "47dee280-70d7-11ed-bbd3-13ac3d0d3e98",
+          "name": "Suco copo",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/8a7e9c1c-8c05-4532-894a-c88a260ad528.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "5c92f610-70d7-11ed-9e95-3999aa9092ce",
+          "name": "Suco jarra",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/0027af18-7c36-4605-b5f4-a349bbf9169b.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "6f52dee0-70d7-11ed-932c-ad14c5ede060",
+          "name": "Suco dell vale",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/be71d330-fab1-4010-8764-0dda814b899d.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "8aaf2400-70d7-11ed-941c-b753c1fed3b2",
+          "name": "Wisky nacional dose",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/4410e098-5a6d-4744-84fe-b971c29dbdcb.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "b6bc5e60-70d7-11ed-9eca-397fc752c97d",
+          "name": "Wisky importado dose",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/a5cb4e96-d100-4232-8807-d7ef3ed417de.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c6ca1dc0-70d7-11ed-ad32-bf47112e8b63",
+          "name": "Vodka dose",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/f05ce33f-55c1-4f2e-a614-a44d1682c759.png",
+          "options": []
+        },
+        {
+          "sourceId": "0591a790-70d8-11ed-9db2-a70c4528d9e5",
+          "name": "Campari dose",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/4d165337-e20a-4267-b051-8759b71a3cd6.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "220bdd20-70d8-11ed-98b5-c17afafd3f73",
+          "name": "Cerveja lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/84321d13-32d7-4488-9a44-6dc7afe41a26.png",
+          "options": []
+        },
+        {
+          "sourceId": "605303d0-70d8-11ed-9b8f-239cf20de607",
+          "name": "Cerveja 600ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/c7f77953-7eca-41b7-9fdd-d3812eead0cd.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "775e7780-70d8-11ed-bbfe-b3a6862362a8",
+          "name": "Cerveja premium 55o/600ml",
+          "description": "Original, bohemia, stella artois, amstel, heineken, spaten",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/25aaed41-0dd3-42b2-91b5-0c1a1425518a.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "da8cc230-70d8-11ed-a635-6b272d920e8a",
+          "name": "Long neck",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/4580ec94-e08e-4ab0-83bd-5d5ead869b4d.png",
+          "options": []
+        },
+        {
+          "sourceId": "f534c310-70d8-11ed-850f-2bc9014a88f8",
+          "name": "Chopp",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/b878d635-6b21-462c-8697-375ffd3a7451.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "02c9bf70-70d9-11ed-9f68-a38497f9fa3e",
+          "name": "Martini dose",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/1aae8aed-e2cf-411b-98f7-dad4fe432088.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "20ea6470-70d9-11ed-878d-65d6e2c40c82",
+          "name": "Pinga",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/e5760fc1-fbcd-4c66-924e-eaaab0b25b29.png",
+          "options": []
+        },
+        {
+          "sourceId": "31bd1d10-70d9-11ed-922e-9dc9b726787f",
+          "name": "Smimoff ice",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/77a8ffa5-cda8-438e-9732-51937dbdaa28.png",
+          "options": []
+        },
+        {
+          "sourceId": "4a16da20-70d9-11ed-b955-339127c9adbf",
+          "name": "Energético",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/c8494b07-e52a-4e0c-a96c-7d420099554f.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c28cbae0-70d9-11ed-9c74-a5edce6811a7",
+          "name": "Limão e sal",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/ab17b4c4-b297-43dc-abf2-693bfc0d83c7.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "dba72fc0-70d9-11ed-919a-21bd2a2b7027",
+          "name": "Gelo e limão",
+          "description": "",
+          "priceCents": 50,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/61754a73-c48f-41fc-84ba-8f00d0e75fa6.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "f56e1bb0-70d9-11ed-a3a1-65c6d7fde23b",
+          "name": "Vinho nacional garrafa",
+          "description": "",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/c9215f1d-1a64-4343-84b9-ef4ce3b76936.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "0805dc80-70da-11ed-9360-ff0ada93c140",
+          "name": "Vinho taça",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/7b4e703d-05c9-46d2-89d6-aba95d1d18c5.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "568be9a0-70da-11ed-900a-e95363a42315",
+          "name": "Torre de chopp 1l",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/b8a1c1cf-eb89-4359-a628-64f4caf12d24.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "75865b10-70da-11ed-a5c7-5bfa5b67c364",
+          "name": "Torre de chopp 2,5 lts",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/4866c853-5cc6-41a0-8a63-55cdd212b258.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 3
+  },
+  "notes": [],
+  "address": "Av. Mato Grosso, Canarana - MT, 78640-000, Brasil",
+  "whatsapp": "5566996931388"
+}

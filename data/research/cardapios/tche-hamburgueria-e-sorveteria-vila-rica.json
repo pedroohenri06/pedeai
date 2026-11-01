@@ -1,0 +1,2560 @@
+{
+  "id": "tche-hamburgueria-e-sorveteria-vila-rica",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTQ0MDA=",
+  "capturedAt": "2026-11-01T02:34:22.245Z",
+  "hours": "Todos os dias, 15h–22h30",
+  "sections": [
+    {
+      "name": "Petit gâteau da tchê",
+      "items": [
+        {
+          "sourceId": "4768703",
+          "name": "Petit Gateau",
+          "description": "Um delicioso bolinho petit gateau de chocolate, acompanhado de sorvete de baunilha e muita calda de chocolate.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/48714668_622446430.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Novidades",
+      "items": [
+        {
+          "sourceId": "3425871",
+          "name": "Iogurte (frozen)",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/785641049_375154549.jpeg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 2400
+                }
+              ]
+            },
+            {
+              "name": "Adicionais grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Amendoim",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bala beijo fini",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Beijinho de coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocoboll",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco ralado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Diskete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha de tapioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granulado de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado com coco branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Polpa de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 24,
+              "choices": [
+                {
+                  "name": "Amendoim",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Amora fini",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bala beijo fini",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bala minhoquinha fini",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bananinha fini",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Beijinho de coco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoboll",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocolate branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Coco ralado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de leite ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ovomaltine ( avalanche )",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado com coco branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Polpa de morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chicken menu",
+      "items": [
+        {
+          "sourceId": "3290811",
+          "name": "Frango e batata frita 300g",
+          "description": "Aproximadamente 300g (in natura)",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/234925635_846236092.jpeg",
+          "options": [
+            {
+              "name": "Escolha 1 molho de sua preferência",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja algum adicional de molho extra?",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3290819",
+          "name": "Frango e batata frita 500g",
+          "description": "Aproximadamente 500g (in natura)",
+          "priceCents": 4300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/395112257_412594036.jpeg",
+          "options": [
+            {
+              "name": "Escolha 1 molho de sua preferência",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja algum adicional de molho extra?",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3290801",
+          "name": "Frango frito 250g",
+          "description": "Aproximadamente 250g (in natura)",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1074689292_58056971.avif",
+          "options": [
+            {
+              "name": "Escolha 1 molho de sua preferência",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja algum adicional de molho extra?",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fritas",
+      "items": [
+        {
+          "sourceId": "4920793",
+          "name": "Batata ebenézer 3.0",
+          "description": "Batata Ebenézer — batatas fritas crocantes cobertas com carne de sol desfiada e uma generosa camada de Catupiry cremoso. Uma combinação irresistível para matar a fome e deixar seu pedido ainda mais saboroso!",
+          "priceCents": 4899,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1580304744_643185966.jpeg",
+          "options": [
+            {
+              "name": "Um molhinho é por nossa conta!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hoje vou sem molho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Quer mais molho? Pode caprichar!",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde extra",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "874218",
+          "name": "Batata Frita - M",
+          "description": "Peso 200gr in natura",
+          "priceCents": 1799,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1931971106_371796806.jpeg",
+          "options": [
+            {
+              "name": "Um molhinho é por nossa conta!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hoje vou sem molho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Quer mais molho? Pode caprichar!",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde extra",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "874217",
+          "name": "Batata Frita - P",
+          "description": "Peso 80gr in natura",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/670696177_819634656.jpeg",
+          "options": [
+            {
+              "name": "Um molhinho é por nossa conta!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hoje vou sem molho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Quer mais molho? Pode caprichar!",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde extra",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1126507",
+          "name": "Batata Suprema - (aproximadamente 400gr)",
+          "description": "Batata frita com bacon e muuuuito cheddar (Peso 400gr in natura)",
+          "priceCents": 4599,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/205328293_866958857.jpeg",
+          "options": [
+            {
+              "name": "Um molhinho é por nossa conta!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hoje vou sem molho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Quer mais molho? Pode caprichar!",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde extra",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "613888",
+          "name": "Cebola Onion Rings - G",
+          "description": "",
+          "priceCents": 2099,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/319450928_1398458501.jpeg",
+          "options": [
+            {
+              "name": "Um molhinho é por nossa conta!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hoje vou sem molho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ketchup",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Quer mais molho? Pode caprichar!",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Barbecue extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ketchup extra",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho verde extra",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "688336",
+          "name": "Cebola Onion Rings - P",
+          "description": "",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2001112277_1989927685.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "444506",
+          "name": "Nuggets - G",
+          "description": "",
+          "priceCents": 1899,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1657317",
+          "name": "Nuggets - P",
+          "description": "",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Crepe francês",
+      "items": [
+        {
+          "sourceId": "441528",
+          "name": "Brócolis com bacon (novidadeeee)",
+          "description": "Muçarela, brócolis, muuuuito bacon crocante, creme de leite, requeijão cremoso e alho frito crocante",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1213060312_1506995150.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "691694",
+          "name": "Calabresa",
+          "description": "Calabresa, muçarela, cebola e requeijão cremoso.",
+          "priceCents": 3099,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1978752863_1094753203.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441518",
+          "name": "Carne de sol",
+          "description": "Carne de sol desfiada, muçarela, tomate e requeijão cremoso.",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/857293449_1719531931.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441521",
+          "name": "Carne de sol especial",
+          "description": "Carne de sol desfiada, muçarela, tomate, requeijão cremoso, banana da terra e batata palha.",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/954627230_2096380225.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441516",
+          "name": "Crepe de frango",
+          "description": "Frango desfiado, muçarela, tomate, azeitonas e requeijão cremoso.",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1415097509_771137123.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441517",
+          "name": "Frango ao creme",
+          "description": "Frango desfiado, muçarela, creme de leite, requeijão cremoso, tomate, azeitonas, banana da terra e batata palha.",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/501219984_1850041708.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1016382",
+          "name": "Frango supremo",
+          "description": "Frango desfiado, muçarela, bacon crocante, tomate, creme cheese, oregano, creme de leite, requeijão cremoso e batata palha",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1872478185_1742010046.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441524",
+          "name": "Pizza",
+          "description": "Muçarela, presunto, calabresa, tomate e orégano.",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/894260855_1530278964.jpg",
+          "options": [
+            {
+              "name": "Gostaria de molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Crepe francês doce",
+      "items": [
+        {
+          "sourceId": "441537",
+          "name": "Banana",
+          "description": "Banana, queijo, leite condensado e canela.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1293284942_382734369.jpg",
+          "options": [
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441541",
+          "name": "Chocolate ao leite",
+          "description": "Chocolate ao leite + queijo",
+          "priceCents": 3099,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1924894262_1370794421.jpg",
+          "options": [
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441530",
+          "name": "Nutella",
+          "description": "",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/305187355_77316960.jpg",
+          "options": [
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441532",
+          "name": "Nutella com banana",
+          "description": "",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1957204567_956038612.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "441534",
+          "name": "Nutella com morango",
+          "description": "",
+          "priceCents": 3399,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1767686730_1302584033.jpg",
+          "options": [
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanduíche",
+      "items": [
+        {
+          "sourceId": "441551",
+          "name": "X-bacon",
+          "description": "Hambúrguer, bacon, presunto, muçarela, alface e tomate.",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1891425830_1005870316.jpg",
+          "options": [
+            {
+              "name": "Deseja fritas?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Batata frita m",
+                  "priceCents": 1799
+                },
+                {
+                  "name": "Batata frita p",
+                  "priceCents": 1299
+                },
+                {
+                  "name": "Cebola Onion Rings - G",
+                  "priceCents": 2099
+                },
+                {
+                  "name": "Cebola Onion Rings - P",
+                  "priceCents": 1299
+                },
+                {
+                  "name": "Nuggets - G",
+                  "priceCents": 1899
+                },
+                {
+                  "name": "Nuggets - P",
+                  "priceCents": 1199
+                }
+              ]
+            },
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441550",
+          "name": "X-salada",
+          "description": "Hambúrguer, presunto, muçarela, alface e tomate.",
+          "priceCents": 3099,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/943139345_76022625.jpg",
+          "options": [
+            {
+              "name": "Deseja fritas?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Batata frita m",
+                  "priceCents": 1799
+                },
+                {
+                  "name": "Batata frita p",
+                  "priceCents": 1299
+                },
+                {
+                  "name": "Cebola Onion Rings - G",
+                  "priceCents": 2099
+                },
+                {
+                  "name": "Cebola Onion Rings - P",
+                  "priceCents": 1299
+                },
+                {
+                  "name": "Nuggets - G",
+                  "priceCents": 1899
+                },
+                {
+                  "name": "Nuggets - P",
+                  "priceCents": 1199
+                }
+              ]
+            },
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "441554",
+          "name": "X-tudo",
+          "description": "Hambúrguer, bacon, milho ovo, batata palha, presunto, muçarela, alface e tomate.",
+          "priceCents": 4399,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/520836712_1527476899.jpg",
+          "options": [
+            {
+              "name": "Deseja fritas?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Batata frita m",
+                  "priceCents": 1799
+                },
+                {
+                  "name": "Batata frita p",
+                  "priceCents": 1299
+                },
+                {
+                  "name": "Cebola Onion Rings - G",
+                  "priceCents": 2099
+                },
+                {
+                  "name": "Cebola Onion Rings - P",
+                  "priceCents": 1299
+                },
+                {
+                  "name": "Nuggets - G",
+                  "priceCents": 1899
+                },
+                {
+                  "name": "Nuggets - P",
+                  "priceCents": 1199
+                }
+              ]
+            },
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hamburguer",
+      "items": [
+        {
+          "sourceId": "1126509",
+          "name": "Abraão - com cheddar empanado",
+          "description": "Pão brioche, 1 blend bovino 160gr acompanhado de muito bacon crocante, UM DELICIOSO QUEIJO CHEDDAR EMPANADO, maionese caseira, alface e tomate.",
+          "priceCents": 4299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/166125802_1289244481.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3214375",
+          "name": "Benjamin",
+          "description": "Pão brioche, 1 blend bovino 160gr, acompanhado de muito bacon crocante, queijo cheddar, molho BBQ e uma incrível cebola crispy crocante",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2027471547_519980576.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "889916",
+          "name": "Calebe (burguer)",
+          "description": "Pão brioche, blend bovino 160gr, queijo cheddar, cebola roxa e maionese caseira",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1657873085_306985154.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3214371",
+          "name": "Daniel",
+          "description": "Pão brioche, blend bovino 160g acompanhado de muito bacon crocante, queijo mussarela, 1deliciosa fatia de abacaxi caramelizada, maionese caseira, alface, tomate e geleia de abacaxi com pimenta.",
+          "priceCents": 4299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/799295583_458277884.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "889912",
+          "name": "Josué (bacon)",
+          "description": "Pão brioche, blend bovino 160g acompanhado de muito bacon crocante, queijo cheddar, maionese caseira, alface e tomate.",
+          "priceCents": 4099,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1768307734_930916467.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "889903",
+          "name": "Rei davi (onions)",
+          "description": "Pão Brioche, blend bovino 160gr, queijo cheddar, bacon crocante, onions, maionese caseira, alface e tomate.",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1991345052_191347246.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "889907",
+          "name": "Rei salomão (agridoce)",
+          "description": "Pão brioche, blenda bovino 160gr, queijo cheddar, cebola caramelizada, bacon bem crocante e creme cheese.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/401290979_575619249.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2880847",
+          "name": "Samuel - kids (suco kapo + batata)",
+          "description": "Pão brioche, blend bovino 160g, mussarela e maionese, acompanha fritas e suco kapo",
+          "priceCents": 4299,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1876334316_92806743.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "1657362",
+          "name": "Sansão - uma novidade picante",
+          "description": "Pão brioche, blend bovino 160g pimenta jalapena, acompanhado de muito bacon crocante, queijo cheddar, molho da casa, alface, cebola roxa e tomate.",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1820919547_307296750.jpeg",
+          "options": [
+            {
+              "name": "Deseja adicionar molho verde?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não quero molho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim quero molho verde",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ketchup e maionese?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Não (ketchup e maionese)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sim (ketchup e maionese)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja o combo?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refrigerante Lata + Batata",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Deseja um adicional de hambúrguer?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de hambúrguer de 160 g.",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açai",
+      "items": [
+        {
+          "sourceId": "441886",
+          "name": "Monte seu açaí",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o tamanho do seu açaí",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 2400
+                }
+              ]
+            },
+            {
+              "name": "Qual a sua preferência?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Açaí expresso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí puro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Iorgute (frozen)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha os acompanhamentos do seu açaì",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Amendoim",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Beijinho de coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chantininho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocoboll",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco ralado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Diskete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha de tapioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granulado de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado com coco branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Manga",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Polpa de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais pagos",
+              "min": 0,
+              "max": 26,
+              "choices": [
+                {
+                  "name": "Amendoim",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Beijinho de coco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chantininho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocoboll",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocolate branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Coco ralado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de cupuaçu",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de leite ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de ovomaltine ( avalanche )",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Creme de paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Diskete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Farinha de tapioca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Farinha láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granulado de chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado com coco branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Polpa de morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae",
+      "items": [
+        {
+          "sourceId": "688383",
+          "name": "Sundae",
+          "description": "Escolha o tamanho e o sabor de sua preferência, acompanha: COBERTURA, AMENDOIM E TUBETI",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 1700
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor do seu sundae",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Baunilha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Misto",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor da calda",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calda de caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem calda",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mix de chocolates",
+      "items": [
+        {
+          "sourceId": "4708257",
+          "name": "Mix de chocolates",
+          "description": "Escolha o sabor e o tamanho de sua preferência",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o tamanho do seu mix de chocolate",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "AVALANCHE 200ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "AVALANCHE 300ml",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Kinder bueno 200ml",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Kinder buno 300ml",
+                  "priceCents": 2500
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor do sorvete",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sorvete de baunilha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sorvete de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sorvete misto",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milk shake tradicional",
+      "items": [
+        {
+          "sourceId": "691589",
+          "name": "Milk shake",
+          "description": "Escolha seu sabor e o tamanho de sua preferência",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o tamanho DO SEU MILK SHAKE",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 1700
+                }
+              ]
+            },
+            {
+              "name": "Escolha o sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Capuccino",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de algum adicional extra?",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella+chantilly",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "300ml",
+      "items": [
+        {
+          "sourceId": "1492313",
+          "name": "Tchê Mix - NEGRESCO COM NUTELLA",
+          "description": "Escolha seu sabor",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "441761",
+          "name": "Tchê Mix - NINHO COM NUTELLA",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1657461",
+          "name": "Tchê Mix - OVO MALTINE COM NUTELLA",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "500ml",
+      "items": [
+        {
+          "sourceId": "1020406",
+          "name": "Tchê Mix - NEGRESCO COM NUTELLA",
+          "description": "",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1657089",
+          "name": "Tchê Mix - NINHO COM NUTELLA",
+          "description": "",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "444508",
+          "name": "Tchê Mix - OVO MALTINE COM NUTELLA",
+          "description": "",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Paletas",
+      "items": [
+        {
+          "sourceId": "3228635",
+          "name": "Paletas mexicanas",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha sua paleta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi (zero lactose)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açai c/ leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate belga c/ cookies",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate c/ brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocomenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco c/ doce de leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Iogurte c/ frutas vermelhas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá c/ leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango c/ leite consensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ninho c/ nutella",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ninho trufado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Romeu e julieta",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "441770",
+          "name": "Acerola 500 ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/153735089_1476544744.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "441777",
+          "name": "Cupuaçu 500 ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/117275956_184908256.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "441781",
+          "name": "Maracujá 500 ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/866173774_955144472.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "624682",
+          "name": "Morango 500ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "3489621",
+          "name": "Água com gas",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "444516",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1454905243_1640826385.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "444505",
+          "name": "Coca 2lts",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1391428292_1416213514.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "529227",
+          "name": "Coca cola 1,5lt",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "444517",
+          "name": "Coca lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1464795794_639827805.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "444507",
+          "name": "Coca lata zero açucar",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/177294934_1081590817.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "1264943",
+          "name": "Schweppes Citrus lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "624770",
+          "name": "Sprite 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cremes",
+      "items": [
+        {
+          "sourceId": "441791",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "441798",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "441801",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

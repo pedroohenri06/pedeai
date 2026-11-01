@@ -1,0 +1,979 @@
+{
+  "id": "casa-do-acai-pastel-canarana",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODM4MTc=",
+  "capturedAt": "2026-11-01T02:34:12.436Z",
+  "hours": "Todos os dias, 15h–23h30",
+  "sections": [
+    {
+      "name": "Açaí no copo",
+      "items": [
+        {
+          "sourceId": "3377617",
+          "name": "Açaí 330ml",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1909051820_1438479810.webp",
+          "options": [
+            {
+              "name": "Escolha 4 adicionais grátis",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha óreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canudinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais (OPCIONAL)",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Cereja Artificial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango Calda",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ouro branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3377627",
+          "name": "Açaí 440ml",
+          "description": "",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2010932821_894907594.jpg",
+          "options": [
+            {
+              "name": "Escolha 4 adicionais grátis",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha óreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canudinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais (OPCIONAL)",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Cereja Artificial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango Calda",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ouro branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3377629",
+          "name": "Açaí 550ml",
+          "description": "",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1987593895_342769249.webp",
+          "options": [
+            {
+              "name": "Escolha 4 adicionais grátis",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha óreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canudinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais (OPCIONAL)",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Cereja Artificial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango Calda",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ouro branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3377633",
+          "name": "Açaí 770ml",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1771029392_218036295.avif",
+          "options": [
+            {
+              "name": "Escolha 4 adicionais grátis",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha óreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canudinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais (OPCIONAL)",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Cereja Artificial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de maracujá",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango Calda",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ouro branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marmita de açaí",
+      "items": [
+        {
+          "sourceId": "3377541",
+          "name": "Marmita de açaí",
+          "description": "Marmita grande - 1 litro",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/891275332_10208726.jpg",
+          "options": [
+            {
+              "name": "Selecione 5 adicionais gratis",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha oreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Canudinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais (OPCIONAL)",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Cereja artificial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme de morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango Calda",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ouro branco",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pastelão simples",
+      "items": [
+        {
+          "sourceId": "3377235",
+          "name": "Carne",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2147322008_2013129499.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377277",
+          "name": "Carne com bacon e muçarela",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1324777505_1079661706.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377281",
+          "name": "Carne com calabresa e muçarela",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/537107965_520479197.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377263",
+          "name": "Carne com palmito e muçarela",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1715234192_1678883706.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377243",
+          "name": "Carne e muçarela",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1953834421_473640382.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377247",
+          "name": "Frango",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/968506524_1006077187.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377291",
+          "name": "Frango com palmito e muçarela",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3377249",
+          "name": "Frango e Catupiry",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3377271",
+          "name": "Frango, calabresa e muçarela",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/825987805_2042621400.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377229",
+          "name": "Queijo",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pastelão especial",
+      "items": [
+        {
+          "sourceId": "3377335",
+          "name": "Calabresa, bacon, muçarela e cheddar",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1787768991_1891524807.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3377323",
+          "name": "Carne, frango, muçarela e catupiry",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3377317",
+          "name": "Pastelão da casa",
+          "description": "Frango, presunto, muçarela, calabresa, milho, ervilha e palmito",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pastelão doce",
+      "items": [
+        {
+          "sourceId": "3377299",
+          "name": "Banana com canela e leite condensado",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2029181907_1108138396.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377293",
+          "name": "Doce de leite e muçarela",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1090352022_586557818.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377303",
+          "name": "Morango com chocolate",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1166921320_715850585.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3377297",
+          "name": "Romeu e Julieta",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/652488681_534014771.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "3390469",
+          "name": "Abacaxi",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3390471",
+          "name": "Abacaxi com hortelã",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3390477",
+          "name": "Acerola",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3390479",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3390465",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cremes",
+      "items": [
+        {
+          "sourceId": "3390493",
+          "name": "Açaí",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3390491",
+          "name": "Acerola",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3390497",
+          "name": "Cupuaçu",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante",
+      "items": [
+        {
+          "sourceId": "3390503",
+          "name": "Coca-cola 1,5 litros",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3390499",
+          "name": "Coca-cola 2 litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/942493353_1775120535.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3390513",
+          "name": "Coca-cola lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

@@ -1,0 +1,271 @@
+{
+  "id": "tenda-restaurant-and-grill-agua-boa",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/agua-boa/tenda-restaurante",
+  "capturedAt": "2026-10-31T23:48:49.019Z",
+  "hours": "Seg a Sáb 10h–12h40",
+  "sections": [
+    {
+      "name": "Marmitas",
+      "items": [
+        {
+          "sourceId": "16281794",
+          "name": "Marmita de sabádo",
+          "description": "Cardápio do dia arroz e feijão: • arroz branco • feijão tropeiro • feijoada massas: • macarrão vermelho carnes: • frango americano • strogonoff de carne • frango assado refogado • quiabo saladas: • salada fresca",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "M",
+                  "priceCents": 0
+                },
+                {
+                  "name": "G",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Escolha até duas proteínas::",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Strogonoff de carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango americano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango assado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o feijão:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Feijoada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "16390057",
+          "name": "Coca cola",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 litros",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Lata 310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16390058",
+          "name": "Coca cola zero",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 litros",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Lata 310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16390059",
+          "name": "Del vale maracujá",
+          "description": "",
+          "priceCents": 770,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390060",
+          "name": "Del vale pessego",
+          "description": "",
+          "priceCents": 770,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390061",
+          "name": "Del vale uva",
+          "description": "",
+          "priceCents": 770,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390062",
+          "name": "Fanta laranja",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390063",
+          "name": "Fanta uva",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390064",
+          "name": "Guaraná antárctica",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 litros",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Lata 350ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16390065",
+          "name": "Suco natural de laranja",
+          "description": "",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390066",
+          "name": "Schweppes citrus",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390067",
+          "name": "Sprite",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390068",
+          "name": "Suco de abacaxi",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390069",
+          "name": "Suco de abacaxi c/ hortelã",
+          "description": "",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16390070",
+          "name": "Suco de manga",
+          "description": "",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 5
+  },
+  "notes": []
+}

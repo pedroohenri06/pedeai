@@ -1,0 +1,786 @@
+{
+  "id": "ale-cafe-emporio-canarana",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODQxNzM=",
+  "capturedAt": "2026-11-01T02:34:14.237Z",
+  "hours": "Seg 8h–20h · Ter 8h–20h30 · Qua 8h–20h · Qui 8h–22h · Sex 8h–22h30 · Sáb 8h–22h · Dom 8h–18h",
+  "sections": [
+    {
+      "name": "Baguete",
+      "items": [
+        {
+          "sourceId": "4418121",
+          "name": "Baguete recheada de salame italiano",
+          "description": "Deliciosa baguete de pão italiano recheada com salame italiano, queijo e salada",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/535710373_965841865.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4382807",
+          "name": "Baguete recheada presunto",
+          "description": "Deliciosa baguete de pão italiano recheada presunto, queijo e salada",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1269917044_1882871684.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bolos",
+      "items": [
+        {
+          "sourceId": "4374533",
+          "name": "Caseirinho de laranja",
+          "description": "Bolo caseiro de Laranja com cobertura",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2143265387_813486970.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Croissant",
+      "items": [
+        {
+          "sourceId": "4480549",
+          "name": "Croissant de presunto e queijo",
+          "description": "Croissant artesanal com fermentação biológica, recheado com presunto e queijo, leve, macio e crocante por fora.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4480605",
+          "name": "Croissant de queijo e catupiry",
+          "description": "Croissant artesanal com fermentação biológica, recheado com queijo e Catupiry, leve, macio e crocante por fora.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Lanches em geral",
+      "items": [
+        {
+          "sourceId": "4346971",
+          "name": "Ciabata de presunto e queijo",
+          "description": "Pão ciabatta: casca crocante, miolo leve e aerado recheado com presunto, queijo salada leve e delicioso",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/379288257_1441829340.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4418125",
+          "name": "Ciabatta de salame italiano",
+          "description": "Pão ciabatta: casca crocante, miolo leve e aerado recheado com salame italiano, queijo salada leve e delicioso",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1618078873_1483355294.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Salada de frutas",
+      "items": [
+        {
+          "sourceId": "4814591",
+          "name": "Salada de frutas",
+          "description": "Deliciosa salada com variação de frutas frescas",
+          "priceCents": 1950,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Promoção",
+      "items": [
+        {
+          "sourceId": "4416281",
+          "name": "Combo especial batata recheada + refrigerante",
+          "description": "Combo especial batata recheada + um refri lata, válido pros sabores: bolonhesa, presunto e queijo, brocolis, estrogonofe de frango, calabresa",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/896937796_398437374.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Salgados",
+      "items": [
+        {
+          "sourceId": "4740583",
+          "name": "Misto quente",
+          "description": "Delicioso misto quente com presunto e queijo",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/268285929_2052436808.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4740587",
+          "name": "Pão de queijo recheado",
+          "description": "Delicioso pão de queijo recheado com sabores de frango, salame italiano, presunto, Romeu e Julieta, queijo",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/668799771_1163829382.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4740591",
+          "name": "Pão queijo quente",
+          "description": "Delicioso pão recheado com queijo quente derretido.",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1974344989_1974649784.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4740589",
+          "name": "Quiche de brócolis",
+          "description": "Massa crocante com recheio cremoso de brócolis e queijo, leve, saborosa e irresistível.",
+          "priceCents": 1950,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/418726562_1107453582.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4740595",
+          "name": "Waffle de pao de queijo",
+          "description": "Delicioso Waffle de pão de queijo, crocante e irresistível",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Batata recheada",
+      "items": [
+        {
+          "sourceId": "4347097",
+          "name": "Batata Recheada - Bacon",
+          "description": "Bacon com molho branco, muçarela e batata palha.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/297213876_297563313.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4347069",
+          "name": "Batata Recheada - Brócolis",
+          "description": "Brócolis cozido a vapor, molho branco, muçarela e batata palha.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1777413492_294994790.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4347465",
+          "name": "Batata Recheada - Calabresa",
+          "description": "Calabresa com molho branco, muçarela e batata palha.",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1530499799_1976847687.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4347859",
+          "name": "Batata Recheada - Camarão",
+          "description": "Camarão ao molho rosé, muçarela e batata palha.",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/884998195_1941500926.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4369463",
+          "name": "Batata recheada - contra filé / 4 queijos",
+          "description": "Contra filé em tiras, queijos provolone, gorgonzola, montanhês, muçarela e batata palha",
+          "priceCents": 4890,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/605960966_284258279.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4390747",
+          "name": "Batata recheada - explosao de doritos",
+          "description": "Cheddar cremoso com bacon, muçarela, doritos e batata palha",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1766732873_740627632.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4442003",
+          "name": "Batata recheada brócolis e bacon",
+          "description": "Recheada com Brócolis e bacon ao creme branco, muçarela e batata palha",
+          "priceCents": 4590,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/874135710_372903448.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4442025",
+          "name": "Batata recheada de carne e funghi seco",
+          "description": "Recheada com tiras de patinho e pedaços de cogumelo Funghi seco ao molho escuro com especiarias, muçarela e batata palha",
+          "priceCents": 5390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4476659",
+          "name": "Batata recheada de presunto e queijo",
+          "description": "Recheada com presunto, muçarela, creme branco, alho frito e orégano, acompanha batata palha",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1365753041_374269210.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4347079",
+          "name": "Batata recheada strogonoff de carne",
+          "description": "Recheada com strogonoff de carne, muçarela, orégano e batata palha.",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1776457875_454901023.jpeg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4347459",
+          "name": "Batata recheada strogonoff de frango",
+          "description": "Recheada com strogonoff de frango, muçarela, orégano e batata palha.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1134391521_1900033305.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Catupiry Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Telheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Massas",
+      "items": [
+        {
+          "sourceId": "4350929",
+          "name": "Macarrão mac cheese",
+          "description": "Macarrão cremoso com creme de queijo cheddar acompanhado com farofa de bacon e calabresa puros.",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/786761180_41960060.jpeg",
+          "options": [
+            {
+              "name": "Talheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4495153",
+          "name": "Macarrão talharim de camarão",
+          "description": "Talharim massa fresca ao molho de camarão com brócolis",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1931524126_1173109110.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4702291",
+          "name": "Nhoque de brócolis e bacon ao molho branco",
+          "description": "Nhoque de batatas de Brócolis com bacon ao molho branco coberto de queijo",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Talheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3568001",
+          "name": "Raviole de frango ao molho branco",
+          "description": "Delicioso Ravioli recheado com frango ao molho branco, coberto com mussarela",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1096746392_714499779.jpg",
+          "options": [
+            {
+              "name": "Talheres?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicional de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não precisa de talheres",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "3568159",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1792878947_820244160.avif",
+          "options": []
+        },
+        {
+          "sourceId": "3568157",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1880522734_14063825.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3568149",
+          "name": "Guaraná lata 350 ml",
+          "description": "",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/441556441_1104363638.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4740903",
+          "name": "Guaraná lata 1 lt",
+          "description": "",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3568151",
+          "name": "Guaraná zero lata 350 ml",
+          "description": "",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1091778506_1610878268.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4740929",
+          "name": "H20 limone zero",
+          "description": "Leve e refrescante",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/875665579_654089627.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3568137",
+          "name": "Schweppes citrus",
+          "description": "Refrigerante Schweppes lata 310ml",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/63035511_1106758979.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4740931",
+          "name": "Suco de pêssego del valle lata 290 ml",
+          "description": "",
+          "priceCents": 790,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1671282943_1151462199.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4496929",
+          "name": "Suco natural de abacaxi",
+          "description": "Suco natural de abacaxi com 250 ml.",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1440620852_1807787008.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4496935",
+          "name": "Suco natural de morango",
+          "description": "Suco natural de morango, com 250ml",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1530950417_678656859.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

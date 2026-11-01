@@ -1,0 +1,190 @@
+{
+  "id": "caipirao-restaurante-agua-boa",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/agua-boa/caipirao-restaurante-e-churrascaria",
+  "capturedAt": "2026-10-31T23:49:19.176Z",
+  "hours": "Seg a Sáb 9h30–12h15",
+  "sections": [
+    {
+      "name": "Marmitex padrão",
+      "items": [
+        {
+          "sourceId": "15638433",
+          "name": "Média padrão",
+          "description": "Arroz, feijão, macarrão, legumes, farofa e carnes variadas",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/84ef64ed820ddd99c72b3e92f9e8001822c01786.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15638434",
+          "name": "Grande padrão",
+          "description": "Arroz, feijão, macarrão, legumes, farofa e carnes variadas",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/e43835091f8f0f8374b7318a143c91c6a2c7ce5e.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15638435",
+          "name": "Somente saladas",
+          "description": "Nessa marmita não inclui arroz, feijão e carnes",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/20b288dbca76b27aad787a6285df0a76decbc8f8.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15638436",
+          "name": "Somente churrasco",
+          "description": "Vendemos por cada 100 gramas, marmita só vai churrasco sem nenhum acompanhamento",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/809597eb8f8ec6fea58616aa799a0103e5d2713e.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15638437",
+          "name": "Vegetariana",
+          "description": "Não vai com carnes",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/21ef7c2108e448018aad46ee59c2e5d834a8fb2e.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Marmitex com churrasco",
+      "items": [
+        {
+          "sourceId": "15638439",
+          "name": "Média c/ churrasco",
+          "description": "Arroz, feijão, macarrão, farofa, legumes variados e churrasco",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/1f8642200ca6cba3f643ff1ccabcc34a5213da99.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15638440",
+          "name": "Grande c/ churrasco",
+          "description": "Arroz, feijão, macarrão, farofa, legumes variados e churrasco",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/fc1dddca7bf6f5e17ecb5675d402854e6ed93671.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15638441",
+          "name": "Bruta",
+          "description": "Vem 8 pedaços de carnes variadas",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/a52f9851ef01421acda3fd91fd2f010dea247849.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15638442",
+          "name": "Somente arroz",
+          "description": "Marmita somente arroz",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/ah78za57hreeumg7tm7t6/1a5eb10f0c9754a37c74970087b0c9be96075e35.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "15638444",
+          "name": "Coca cola",
+          "description": "",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 100
+                },
+                {
+                  "name": "1,5 litros",
+                  "priceCents": 700
+                },
+                {
+                  "name": "2 litros",
+                  "priceCents": 1150
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15638445",
+          "name": "Suco de laranja",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15638446",
+          "name": "Água s/ gás",
+          "description": "",
+          "priceCents": 450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15638447",
+          "name": "Água c/ gás",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15638453",
+          "name": "Coca cola zero",
+          "description": "",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

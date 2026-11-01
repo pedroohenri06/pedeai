@@ -1,0 +1,806 @@
+{
+  "id": "mordidela-food-agua-boa",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/agua-boa/mordidela-food",
+  "capturedAt": "2026-10-31T23:49:11.622Z",
+  "hours": "Seg a Sáb 6h–21h30",
+  "sections": [
+    {
+      "name": "Café da manhã",
+      "items": [
+        {
+          "sourceId": "15717911",
+          "name": "Crepioca frango c/ requeijão e queijo branco",
+          "description": "Crepioca recheada com frango desfiado, requeijão cremoso e queijo branco",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/2cb5ed3d5f2a8968f5e82456b318d11d0ed14e69.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15717912",
+          "name": "Crepioca frango c/ requeijão",
+          "description": "Crepioca recheada com frango desfiado e requeijão cremoso",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/9f90b315b62dc7adb48d0eedaebef6c7e9a18fb3.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717913",
+          "name": "Crepioca frango",
+          "description": "Crepioca recheada com frango desfiado e mussarela",
+          "priceCents": 1690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/42c0377d70083afd7332d28016eea5f985936dec.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717914",
+          "name": "Crepioca peito de peru c/ queijo branco",
+          "description": "Crepioca recheada com peito de peru, queijo branco e requeijão cremoso",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/33c08b58a85486c671192692f4d273e2af1fdd0f.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717915",
+          "name": "Crepioca peito de peru",
+          "description": "Crepioca recheada com peito de peru e requeijão cremoso",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/b230ac5387cd314db2cdc065acb48de17999ba1b.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717916",
+          "name": "Crepioca presunto e mussarela",
+          "description": "Crepioca recheada com presunto e mussarela",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/300455aa3c6e26bf91eff234344ade37cacf9e64.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717917",
+          "name": "Mineirinho requeijão",
+          "description": "Pão francês tostado com manteiga, recheado com queijo branco, peru e requeijão cremoso",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/31feacdf49ebabca9e1ec7a958e94aa62ec31063.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717918",
+          "name": "Mineirinho peito de peru",
+          "description": "Pão francês tostado com manteiga, recheado com queijo branco e peru grelhado",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/2fa859007e996b2dec33d32235294f1d068cbd26.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717919",
+          "name": "Mineirinho",
+          "description": "Pão francês tostado com manteiga e recheado com queijo branco",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717920",
+          "name": "Misto quente",
+          "description": "Pão francês tostado com manteiga e recheado com presunto e queijo",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/beee4117ff06fe339abbb13497ee79e0374f233e.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717921",
+          "name": "Manteiguinha",
+          "description": "Pão francês tostado com manteiga",
+          "priceCents": 590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15717922",
+          "name": "Morquedino",
+          "description": "Pão brioche tostado com manteiga, recheado com mortadela e queijo derretido.",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Executivos",
+      "items": [
+        {
+          "sourceId": "15718107",
+          "name": "Tiras de frango e aparmegiana",
+          "description": "Arroz, tiras de frango a parmegiana, batata frita, alface e tomate",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/35fa8aafe6700f444e6cbc76c7de79ac43ef6540.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718108",
+          "name": "Iscas de frango",
+          "description": "Arroz, 150g de iscas de frango empanadas, batata frita, alface e tomate",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/570beec59f260a3a856209a5e931f45535fd4393.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15718109",
+          "name": "Strogonoff de carne",
+          "description": "Arroz, strogonoff de frango, batata frita, alface e tomate",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/ca4f9c873f7a08fc99c61fad6a9798b14db10a05.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718110",
+          "name": "Strogonoff de frango",
+          "description": "Arroz, strogonoff de frango, batata frita, alface e tomate",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/08b6b67c8697ced21e9e9f19983089bc00d8decc.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15718111",
+          "name": "Hambúrguer aparmegiana",
+          "description": "Arroz, 150g de hambúrguer artesanal a parmegiana, batata frita, alface e tomate",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/2ef16371361c7aeaf66c0797a38764e537d2774c.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718112",
+          "name": "Hambúguer a cavalo",
+          "description": "Arroz, 150g de hambúrguer artesanal, ovo frito, batata frita, alface e tomate",
+          "priceCents": 2790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/e6db336bf33d455fdf0f5a2b690b6ca14fde6bbe.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718113",
+          "name": "Contra filé",
+          "description": "Arroz, 150g de contra filé acebolado, batata frita, alface e tomate",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/bbbfd0b23e47085d2979d1bcaa9fd4a1337676db.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718114",
+          "name": "Filé de frango",
+          "description": "Arroz, 150g de filé de frango empanado, batata frita, alface e tomate",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/d3e49479e8224c22c6e3d98776e0edc43b0b93b5.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718115",
+          "name": "Filé de tilápia",
+          "description": "Arroz, 150g de filé de tilápia, batata frita, alface e tomate",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/c7a8ec87612c5a9879d705f4ab8c0f0af25a25af.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718116",
+          "name": "Linguiça toscana",
+          "description": "Arroz, 150g de linguiça toscana, batata frita, alface e tomate",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/7bde5c064bc1eeb0f993ac942fd025130a70a107.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15718117",
+          "name": "Salada chicken",
+          "description": "Alface, tomate, tiras de frango empanado e queijo parmesão ralado",
+          "priceCents": 3090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/80424f0902f478591230fab43ad59bff51342683.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718118",
+          "name": "Spaguetti a bolonhesa",
+          "description": "Macarrão ao molho bolonhesa e queijo parmesão ralado",
+          "priceCents": 3090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/926b9ee7fa7581ae498a18e681c4a9a9f9315c30.png",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "15718201",
+          "name": "Maminha",
+          "description": "",
+          "priceCents": 7490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/85ef38d8b4297fd36f72074d061409fa20fb0111.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15718202",
+          "name": "Isca de frango",
+          "description": "",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/89d39bd313a41975113b08915682d619686fbb32.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718203",
+          "name": "Contra filé",
+          "description": "",
+          "priceCents": 7990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/3dfca034d359751fc1ad39dd7fd7eda287ff8529.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718204",
+          "name": "Isca de peixe",
+          "description": "",
+          "priceCents": 8990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/5fc36c47f616fbd9e1c447a2afbbf6e42348302d.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718205",
+          "name": "Picanha",
+          "description": "",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/afa4f226ede67a34aed62bdb1ed613fd3545e13e.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718206",
+          "name": "Fraldinha",
+          "description": "",
+          "priceCents": 7590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Juntinhos ou separados",
+      "items": [
+        {
+          "sourceId": "15718238",
+          "name": "Cone de frango c/ molho",
+          "description": "Iscas de frango marinadas, empanadas com um mix super saboroso e crocante!",
+          "priceCents": 2690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/527eb004f2f71b97e52ca2ebb3485dae58863a66.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718239",
+          "name": "Cone de juntinhos c/ molho",
+          "description": "Batata gourmet com tempero especial e tiras de frango crocante",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/90874434379505802be295cda55e7f2dab8e1d65.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718240",
+          "name": "Cone de batata ao molho",
+          "description": "Suculenta batata gourmet com o delicioso tempero lemon!",
+          "priceCents": 2090,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/a74be2e54402527ac0dbfe4c8dd58a65fe70f9ef.png",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hambúrguer",
+      "items": [
+        {
+          "sourceId": "15718264",
+          "name": "Dino chicken",
+          "description": "Pão brioche, 150g de tiras de frango empanadas, bacon, mussarela, alface, tomate, maionese da casa ou barbecue",
+          "priceCents": 3390,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/29a68257a41e6ef386d20a8b206f467eb1cf3a39.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718266",
+          "name": "Dino cheddar",
+          "description": "Pão brioche, 150g de hambúrguer artesanal, cheddar cremoso e cebola caramelizada",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/6b7839d42c3df3d87671b41f07ba5227910c858f.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15718267",
+          "name": "Mordidão",
+          "description": "Pão brioche, 150g de hambúrguer artesanal, bacon, cebola roxa marinada, queijo parmesão e maionese da casa",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/f8a5b7067d369517f3b9ff716e5920bf41851b58.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718268",
+          "name": "Dino double chesse",
+          "description": "Pão brioche, 2 hambúrgueres artesanais de 150g, mussarela e maionese da casa",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/cf0bdf79c004b442b62c3621d108cb28edfbbc41.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718269",
+          "name": "Burguer gorgonzola",
+          "description": "Pão brioche, maionese verde, alface, tomate, cebola roxa marinada, hambúrguer 130g, queijo gorgonzola, ovo e bacon",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/4f65e1e53bc68e0392e2e6d0e8516b7ff0adb4d9.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15718270",
+          "name": "Burguer cream",
+          "description": "Pão brioche, cream cheese, rúcula, tomate seco, hambúrguer 130g e queijo mussarela",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/68cb708ba68530f739b8fcc221ea31652832dcfc.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718272",
+          "name": "Burguer spicy",
+          "description": "Pão brioche, maionese tradicional, hambúrguer 130g, queijo prato, geleia de pimenta e bacon",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/38fc2952a9892a57067bfd5bc323d579118447b5.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Milk shakes",
+      "items": [
+        {
+          "sourceId": "15718349",
+          "name": "Milk shake morango",
+          "description": "",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718350",
+          "name": "Milk shake chocolate",
+          "description": "",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718351",
+          "name": "Milk shake ovomaltine",
+          "description": "",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718352",
+          "name": "Milk shake açaí c/ banana",
+          "description": "",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "15718391",
+          "name": "Açaí 300ml",
+          "description": "",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/da4804aca3b4161928eb45252e5207499a1ee045.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718390",
+          "name": "Açaí 500ml",
+          "description": "",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/nj4n31c51222grh0d3fyo/57f8cf010bdf47c7c644646dccc0c62c2d713a30.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "15718406",
+          "name": "Suco de laranja",
+          "description": "",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15718407",
+          "name": "Açaí c/ laranja",
+          "description": "",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15718408",
+          "name": "Açaí c/ água",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "15718453",
+          "name": "Água s/ gás",
+          "description": "",
+          "priceCents": 450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718454",
+          "name": "Água c/ gás",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718455",
+          "name": "Água tonica zero",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718456",
+          "name": "Água tonica",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718457",
+          "name": "Coca cola",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15718458",
+          "name": "Coca cola zero",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15718459",
+          "name": "Guaraná",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "350ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "600ml",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15718460",
+          "name": "Guaraná zero",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "350ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "600ml",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15718461",
+          "name": "Fanta laranja",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15718462",
+          "name": "Sprite",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15718466",
+          "name": "Heineken long neck zero álcool",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 7,
+    "indisponível": 2
+  },
+  "notes": [
+    "Adicionais variam por tamanho em \"Açaí 300ml\": não importados.",
+    "Adicionais variam por tamanho em \"Açaí 500ml\": não importados."
+  ]
+}

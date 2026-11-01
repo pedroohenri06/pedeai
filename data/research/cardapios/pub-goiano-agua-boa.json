@@ -1,0 +1,693 @@
+{
+  "id": "pub-goiano-agua-boa",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/agua-boa/pub-goiano",
+  "capturedAt": "2026-10-31T23:49:11.016Z",
+  "hours": "Todos os dias, 18h–22h",
+  "sections": [
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "15640679",
+          "name": "Frango",
+          "description": "500 grama. acompanha muçarela, cheiro verde e torrada",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/9ba23988277632941b95a8e570e7d0cabaaee1d0.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15640680",
+          "name": "Frango com bacon",
+          "description": "500 grama. acompanha muçarela, cheiro verde, torrada e bacon",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640681",
+          "name": "Costela com mandioca",
+          "description": "500 grama. acompanha muçarela, cheiro verde e torrada",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640682",
+          "name": "Dobradinha com mocotó",
+          "description": "500 grama. acompanha muçarela, cheiro verde e torrada",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Panelinhas",
+      "items": [
+        {
+          "sourceId": "15640673",
+          "name": "Carne de sol 2kg",
+          "description": "Carne de sol, requeijão, queijo, milho, azeitona, creme de leite, banana frita, pimenta biquinho, tomate cereja",
+          "priceCents": 11500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640674",
+          "name": "Costela desfiada 2kg",
+          "description": "Costela, requeijão, queijo, milho, azeitona, creme de leite, banana frita, pimenta biquinho, tomate cereja",
+          "priceCents": 11000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640675",
+          "name": "Frango 2kg",
+          "description": "Frango, requeijão, queijo, milho, azeitona, creme de leite, palmito, banana frita, pimenta biquinho",
+          "priceCents": 11000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640677",
+          "name": "Mista",
+          "description": "Costela, carne de sol, requeijão, queijo, milho, azeitona, creme de leite, banana frita, pimenta biquinho, tomate cereja",
+          "priceCents": 12500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640678",
+          "name": "Camarão 2kg",
+          "description": "500 grama de camarão, azeite de dendê, leite de cocô, requeijão, cream cheese, milho, azeitona, creme de leite, pimenta biquinho, tomate cereja",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Espetos",
+      "items": [
+        {
+          "sourceId": "15640672",
+          "name": "Cupim na mostarda",
+          "description": "",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "17255245",
+          "name": "Costela suíno",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Jantinha",
+      "items": [
+        {
+          "sourceId": "15640664",
+          "name": "Jantinha de carne",
+          "description": "Espetinho de carne, arroz, feijão tropeiro, vinagrete, batata frita, molho verde",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "17255247",
+          "name": "Jantinha de cupim",
+          "description": "Espetinho de cupim, arroz, feijão tropeiro, vinagrete, batata frita, molho verde",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "17255246",
+          "name": "Jantinha de costela suína",
+          "description": "Espetinho de lombo suino, arroz, feijão tropeiro, vinagrete, batata frita, molho verde",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pasteis",
+      "items": [
+        {
+          "sourceId": "15640654",
+          "name": "Carne",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/f1d76fe5e340f1111d9b82a698316ceaaa02f7ad.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640655",
+          "name": "Frango",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/262dedb3c5d297ab4d5ce28e70f6a29384178974.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640656",
+          "name": "Queijo",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/b4a73ca9d98e136a9ba4505d63eebd6b77a2d099.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640657",
+          "name": "Carne queijo",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/4f1863c3ca8ce4f8b5b42775a112da6146682a25.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640658",
+          "name": "Frango queijo",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/8a8df01cbd6d355a5c623d7825b845a96b9f8af1.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15640659",
+          "name": "Presunto queijo",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/b9a3113334696dfaa1aa908f2dd23b79b39dbc0a.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640660",
+          "name": "Pizza",
+          "description": "Presunto, queijo, orégano e tomate",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/40300745c6d1e97e4920bdd831520df7ac1a15f4.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640661",
+          "name": "Carne queijo e bacon",
+          "description": "",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/71ad0e5c55f1b7a5e44ce35f84580a2722a38736.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640662",
+          "name": "Carne bacon e cheddar",
+          "description": "",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/04c25b3a2814e25e29673e128df0bdf7aead2892.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640663",
+          "name": "Costela desfiada e queijo",
+          "description": "",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/9afbf90223035e020663309514ee6cd1ed386f29.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Saltenha",
+      "items": [
+        {
+          "sourceId": "15640652",
+          "name": "Frango e queijo",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15640653",
+          "name": "Carne seca com queijo",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "17231419",
+          "name": "Presunto e queijo",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hot dogs",
+      "items": [
+        {
+          "sourceId": "15640640",
+          "name": "Clássico",
+          "description": "Salsicha perdigão, molho de tomate, milho, tomate, muçarela e batata palha",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/a079c588565799d17b3606e8521e1ff3b1e3a7dc.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640642",
+          "name": "Purê",
+          "description": "Salsicha perdigão, molho de tomate, purê, tomate, milho, muçarela e batata palha",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/c092dda2cd6ff6693af5ab57630a4f6aaf07521d.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640643",
+          "name": "Purê duplo",
+          "description": "2 salsichas perdigão, molho de tomate, purê, tomate, milho, muçarela e batata palha",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/4cc6b5c39435240925c708ac38f91b69b1ae40b4.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640644",
+          "name": "Bacon e calabresa",
+          "description": "Salsicha perdigão, molho de tomate, milho, muçarela, tomate, bacon e calabresa e batata palha",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/bf97c7bd5042fe81ec262e01ead505c6333dd863.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640645",
+          "name": "Bacon e calabresa duplo",
+          "description": "2 salsichas perdigão, molho de tomate, tomate, milho, bacon e calabresa, muçarela e batata palha",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/57cf41ca3434c2bec66e871d1aea7dfe7634df3e.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640646",
+          "name": "Dogão",
+          "description": "Salsicha perdigão, molho de tomate, tomate, milho, muçarela, bacon e calabresa, purê e batata palha",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/877f374cb25eb982fdd0028530926a0af039439b.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640647",
+          "name": "Dogão duplo",
+          "description": "2 salsichas perdigão, molho de tomate, milho, tomate, purê, bacon e calabresa e batata palha",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/d33c17fe6ef0cf0f22e7b97fc6e16bd2cddd08f4.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640648",
+          "name": "Bacon e chadder",
+          "description": "Salsicha perdigão, molho de tomate, milho, tomate, purê, calabresa, chadder e batata palha",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/ee90a6cd7f2e9729106165dbeb0d8a06658f1f1e.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640649",
+          "name": "Bacon e chadder duplo",
+          "description": "2 salsichas perdigão, molho de tomate, milho, tomate, purê, bacon e calabresa, chadder e batata palha",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/20b0bd6db9638b6e4363a42cf0f9257ef6e5c448.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640650",
+          "name": "Dog costela",
+          "description": "Salsicha perdigão, molho de tomate, tomate, milho, muçarela, costela desfiada e batata palha",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/b57619fac28f2eadc813add62f1e896cc305be1e.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15640651",
+          "name": "Dog carne seca",
+          "description": "Salsicha perdigão, molho de tomate, tomate, milho, muçarela, carne seca e batata palha",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/xutygqblrwzd3h50lzohd/989546ee62a813326a3eea0ea4c2a64d3b104508.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pure",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon e calabresa",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 9,
+    "sem preço": 2
+  },
+  "notes": []
+}

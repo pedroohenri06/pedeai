@@ -1,0 +1,934 @@
+{
+  "id": "burguerzia-agua-boa",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTgzMg==",
+  "capturedAt": "2026-11-01T02:33:55.925Z",
+  "hours": "Seg a Sáb 17h30–22h45",
+  "sections": [
+    {
+      "name": "Novidade.",
+      "items": [
+        {
+          "sourceId": "3335275",
+          "name": "Soberano",
+          "description": "Pão de brioche, 180g carne suína assada na parrilla, queijo muçarela, cebola roxa, rúcula, geleia de abacaxi levemente picante e maionese de bacon.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hambúrgueres",
+      "items": [
+        {
+          "sourceId": "655052",
+          "name": "Ad Batata Frita",
+          "description": "150g",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "655117",
+          "name": "Ad Nuggets",
+          "description": "150g",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60443",
+          "name": "Alphaville",
+          "description": "Pão de hambúrguer, 180g de carne bovina grelhada na Parrilla, Queijo Muçarela, Alface e Molho Especial.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais extras se desejar.",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Alface",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon Crocante",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cebola Roxa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho Barbecue",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho Especial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Relish Pepino",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto do seu hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "60439",
+          "name": "Burguerzia / Duplo",
+          "description": "Pão de hambúrguer, 360g de carne bovina grelhada na Parrilla, Queijo Muçarela, Cebola Roxa, Alface, Bacon Crocante e Molho Especial.",
+          "priceCents": 6200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais extras se desejar.",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Alface",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon Crocante",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cebola Roxa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho Barbecue",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho Especial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Relish Pepino",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto do seu hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2286239",
+          "name": "Camarote",
+          "description": "Pão de hambúrguer, 180g de carne bovina grelhada na Parrilla, Queijo Cheddar, Tomate, Alface e Molho Especial.",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais extras se desejar.",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Alface",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon Crocante",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cebola Roxa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho Barbecue",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho Especial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Relish Pepino",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto do seu hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "117757",
+          "name": "Cancún",
+          "description": "Pão de hambúrguer, 180g carne bovina assada na Parrilla, Queijo Muçarela, Queijo Cheddar, cebola caramelizada, guacamole, bacon, alface e molho barbecue.",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60437",
+          "name": "Classe A",
+          "description": "Pão de hambúrguer, 180g de carne bovina grelhada na Parrilla, Queijo Muçarela, Cebola Roxa, Alface, Bacon Crocante e Molho Especial.",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais extras se desejar.",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Alface",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon Crocante",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cebola Roxa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho Barbecue",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho Especial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Relish Pepino",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto do seu hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "55776",
+          "name": "Daslu / Sem Pão",
+          "description": "180g de carne bovina grelhada na Parrilla, Queijo Cheddar, Cebola Roxa, Tomate, Bacon Crocante, Alface e Molho Especial.",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais extras se desejar.",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Alface",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon Crocante",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cebola Roxa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho Barbecue",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho Especial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Relish Pepino",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto do seu hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "60458",
+          "name": "Exclusivo",
+          "description": "Pão australiano, 180g de carne bovina grelhada na Parrilla, Queijo Cheddar, Cebola Roxa, Alface, Relish de Pepino e Molho Especial.",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60438",
+          "name": "Lamborghini / Duplo",
+          "description": "Pão de hambúrguer, 360g de carne bovina grelhada na Parrilla, Queijo Cheddar, Alface e Molho Especial.",
+          "priceCents": 5400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais extras se desejar.",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Alface",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon Crocante",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cebola Roxa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Molho Barbecue",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho Especial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo Muçarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Relish Pepino",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Escolha o ponto do seu hambúrguer",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1060987",
+          "name": "Magnífico",
+          "description": "Pão de hambúrguer, 180g carne bovina assada na Parrilla, queijo Cheddar, cebola caramelizada, bacon crocante, onion rings, alface e molho barbecue.",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "646880",
+          "name": "Master",
+          "description": "Pão de hambúrguer, 180g de carne bovina grelhada na Parrilla, Blend de Queijos (Cheddar e Muçarela), Relish de Pepino, Cebola Caramelizada, Cebola Roxa, Alface e Molho de Relish.",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60436",
+          "name": "Melburg",
+          "description": "Pão Australiano, 180g de carne bovina grelhada na Parrilla, Queijo Cheddar, Cebola Caramelizada, Bacon Crocante, Tomate, Alface e Molho Especial.",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60440",
+          "name": "Porcelana",
+          "description": "Pão de hambúrguer, 200g de frango grelhado na Parrilla, Queijo Cheddar, Tomate, Bacon, Cebola Roxa, Alface e Molho Especial.",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1148455",
+          "name": "Super Cheddar",
+          "description": "Pão de Hambúrguer, 180g de Carne Bovina grelhada na Parrilla, Creme de Cheddar, Queijo Cheddar, Bacon e Molho Barbecue. Acompanha Piscininha de Cheddar com Bacon (60ml).",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções Burguerzia",
+      "items": [
+        {
+          "sourceId": "2966849",
+          "name": "Queijo Gouda Empanado com Geleia de Pimenta",
+          "description": "240g",
+          "priceCents": 4300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1060185",
+          "name": "Adicional de Pão",
+          "description": "Assado na Brasa",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1051175",
+          "name": "Adicional Molho Barbecue",
+          "description": "30ml",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1051174",
+          "name": "Adicional Molho Especial",
+          "description": "30ml",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1655109",
+          "name": "Adicional Molho Sweet Chili",
+          "description": "30ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77526",
+          "name": "Almôndega Assada.",
+          "description": "Com Creme de Queijo Cheddar, Molho Especial, Alface e Tomatinho Cereja.",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77527",
+          "name": "Anéis de Cebola",
+          "description": "400g.",
+          "priceCents": 4100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77528",
+          "name": "Batata Frita 500g",
+          "description": "Acompanha Molho Ketchup",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77529",
+          "name": "Costelinha ao Molho Barbecue.",
+          "description": "Acompanha Anéis de Cebola",
+          "priceCents": 5700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77530",
+          "name": "Coxinha da Asa",
+          "description": "Acompanha Molho Sweet Chili",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77531",
+          "name": "Linguiça Suína fina com Pão assado na brasa.",
+          "description": "750g",
+          "priceCents": 4400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "218363",
+          "name": "Mix de Petiscos",
+          "description": "Costelinha ao Molho Barbecue + Coxinha da Asa + Batata Frita",
+          "priceCents": 4900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77532",
+          "name": "Nuggets com Molho Especial.",
+          "description": "",
+          "priceCents": 4300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60496",
+          "name": "Opções",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1877923",
+          "name": "Pastéis de Carne com Queijo",
+          "description": "8 unidades - 30g",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "77534",
+          "name": "Polenta Frita 450g",
+          "description": "Acompanha Molho Barbecue",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1352693",
+          "name": "Tulipinhas de Frango Assadas na Brasa 500g",
+          "description": "Acompanha molho agridoce",
+          "priceCents": 4900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Costela Angus em Tiras grelhada na Parrilla.",
+      "items": [
+        {
+          "sourceId": "77535",
+          "name": "Costela Angus em Tiras grelhada na Parrila.",
+          "description": "",
+          "priceCents": 8700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o Acompanhamento.",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com Batata Frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com Polenta Frita",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Picanha Grelhada na Parrilla.",
+      "items": [
+        {
+          "sourceId": "77533",
+          "name": "Picanha Grelhada na Parrilla.",
+          "description": "",
+          "priceCents": 10800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha o Acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com Batata Frita.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com Polenta Frita",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Águas",
+      "items": [
+        {
+          "sourceId": "414752",
+          "name": "Água Mineral Com Gás",
+          "description": "500ml",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "414749",
+          "name": "Água Mineral Sem Gás",
+          "description": "350ml",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cerveja Long Neck",
+      "items": [
+        {
+          "sourceId": "87608",
+          "name": "Cerveja Long Neck",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Corona",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Corona Zero Álcool",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Heineken",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Heineken Ultimate - Sem Glúten",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Heineken Zero Álcool",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Império Ultra",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Louvada German",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Stella Artois Pure Gold - Sem Glúten",
+                  "priceCents": 490
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "sourceId": "60498",
+          "name": "Refrigerantes",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água Tônica 350ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Água Tônica Zero 350ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Zero 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "60499",
+          "name": "Sucos",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Suco de Laranja Natural 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de Pêssego Del Valle 290ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

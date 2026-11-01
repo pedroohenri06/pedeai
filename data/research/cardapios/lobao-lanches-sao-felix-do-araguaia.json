@@ -1,0 +1,982 @@
+{
+  "id": "lobao-lanches-sao-felix-do-araguaia",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDcxMTQ=",
+  "capturedAt": "2026-11-01T02:34:33.888Z",
+  "hours": "Todos os dias, 18h–23h40",
+  "sections": [
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "2196610",
+          "name": "Misto Quente",
+          "description": "Pão, queijo e presunto",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196614",
+          "name": "Bauru",
+          "description": "Pão, tomate, queijo e tomate",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196620",
+          "name": "Americano",
+          "description": "Pão, tomate, salsicha, presunto e queijo",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196622",
+          "name": "X-Burguer",
+          "description": "Pão, hamburguer, tomate, alface e queijo",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196630",
+          "name": "X-Salada",
+          "description": "Pão, hamburguer, milho, tomate, alface, ovo, presunto e queijo",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196632",
+          "name": "X-Filé",
+          "description": "Pão, filé, tomate, presunto e queijo",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196634",
+          "name": "X-Frango",
+          "description": "Pão, frango, ovo, presunto, alface, tomate, milho e queijo",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196636",
+          "name": "X-Bacon",
+          "description": "Pão, hamburguer, ovo, bacon, milho, tomate, alface, presunto e queijo",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196682",
+          "name": "X-Bagunça",
+          "description": "Pão, hamburguer, salsicha, bacon, ovo, presunto, alface, tomate, milho e queijo",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196688",
+          "name": "X-Tudo",
+          "description": "Pão, hamburguer, frango, salsicha, bacon, ovo, presunto, alface, tomate, milho queijo",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196694",
+          "name": "X-Filé c/ Bacon",
+          "description": "Pão, filé, tomate, queijo,presunto e bacon",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2196700",
+          "name": "X-Tudo c/ Filé",
+          "description": "Pão, filé,hanburguer, frango,salsicha, bacon, ovo, presunto, alface e queijo",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha Seus Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Molho verde",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pasteis - Lobão Lanches",
+      "items": [
+        {
+          "sourceId": "3152963",
+          "name": "Molho verde",
+          "description": "Molho verde",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1993127597_1375214456.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Frango e Feijão",
+      "items": [
+        {
+          "sourceId": "2196572",
+          "name": "Frango e Feijão",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Franjão",
+      "items": [
+        {
+          "sourceId": "2196588",
+          "name": "Franjão",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante - Lobão Lanches",
+      "items": [
+        {
+          "sourceId": "2196940",
+          "name": "Água Tônica",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1608516257_889410011.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Guaraná Lata 269ml",
+      "items": [
+        {
+          "sourceId": "2290596",
+          "name": "Guaraná Antartica Lata 269ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1854302801_439887244.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante 1L",
+      "items": [
+        {
+          "sourceId": "2300914",
+          "name": "Guaraná Antártica",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2300916",
+          "name": "Pepsi",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2300920",
+          "name": "Sukita",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante 2L",
+      "items": [
+        {
+          "sourceId": "2196948",
+          "name": "Coca Cola",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2196956",
+          "name": "Guaraná Antartica",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1255283623_2118176527.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2196954",
+          "name": "Pepsi",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1132437502_60745841.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2196950",
+          "name": "Sukita",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2119609455_2054182868.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante Lata",
+      "items": [
+        {
+          "sourceId": "2196926",
+          "name": "Coca Cola",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/816501420_2037408401.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2196928",
+          "name": "Pepsi",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/381451082_479768768.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2196934",
+          "name": "Sukita",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1687891056_1824424085.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2196936",
+          "name": "Soda Limonada",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/746664290_1101312820.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cremes",
+      "items": [
+        {
+          "sourceId": "2197124",
+          "name": "Creme",
+          "description": "",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1316227060_1602579196.jpeg",
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Copo",
+      "items": [
+        {
+          "sourceId": "2203280",
+          "name": "Suco",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/222600437_324820729.jpeg",
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxí",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cajá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com Açúcar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem Açúcar",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jarra",
+      "items": [
+        {
+          "sourceId": "2203294",
+          "name": "Suco",
+          "description": "",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1573797470_1062204557.jpeg",
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com Açúcar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem Açúcar",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cervejas - Lobão Lanches",
+      "items": [
+        {
+          "sourceId": "2196814",
+          "name": "Antarctica Lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1950205661_855481438.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2196818",
+          "name": "Brahma lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/305188666_980538612.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2196812",
+          "name": "Skol Lata",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/717852341_1365621847.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 1
+  },
+  "notes": []
+}

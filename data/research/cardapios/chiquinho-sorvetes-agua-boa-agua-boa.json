@@ -1,0 +1,2828 @@
+{
+  "id": "chiquinho-sorvetes-agua-boa-agua-boa",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/agua-boa/chiquinho-sorvetes",
+  "capturedAt": "2026-10-31T23:49:24.906Z",
+  "hours": "Seg a Sex 10h–20h · Sáb 10h–21h · Dom 11h–21h",
+  "sections": [
+    {
+      "name": "Smoothie proteico",
+      "items": [
+        {
+          "sourceId": "16808471",
+          "name": "Açaí",
+          "description": "",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16808472",
+          "name": "Açaí com banana",
+          "description": "",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shake mix proteico",
+      "items": [
+        {
+          "sourceId": "16808474",
+          "name": "Banoffee",
+          "description": "Shake mix proteico banoffee",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300 ml",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16808475",
+          "name": "Farinha láctea c/ banana",
+          "description": "Shake mix proteico farinha láctea com banana",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300 ml",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milk shake proteico",
+      "items": [
+        {
+          "sourceId": "16808496",
+          "name": "Chocolate",
+          "description": "Milk shake proteico chocolate",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 500
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16808497",
+          "name": "Morango",
+          "description": "Milk shake proteico morango",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16808498",
+          "name": "Doce chocolate",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16808499",
+          "name": "Maracujá",
+          "description": "Milk shake proteico maracujá",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16808500",
+          "name": "Leite em pó",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milk shakes",
+      "items": [
+        {
+          "sourceId": "15528899",
+          "name": "Doce de leite",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/4308bfa389838fa43d2ba.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528900",
+          "name": "Chocotino",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/6df3e5cdedee34ed3a.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528901",
+          "name": "Ninho",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/ce5fadb36e18cea91.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528902",
+          "name": "Limão c/ leite moça",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/5a832aedd1e4d2e23071.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528903",
+          "name": "Açaí",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/782bc45f963e377ea3ff3.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528904",
+          "name": "Frutas vermelhas",
+          "description": "Fabulosos",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/30d756f922ed95fcb0.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 50
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528905",
+          "name": "Duo chocolate",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/516511eae252c3013bc0d.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528906",
+          "name": "Mousse de maracujá",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/0693ae54700b95cc4ca7d.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528907",
+          "name": "Bombom de morango",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/b07e675378d93b2a0b34a.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528908",
+          "name": "Nutella",
+          "description": "Fabulosos",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/310ca33e978ba5015bc5f.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528909",
+          "name": "Baunilha",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/277d4ecd4dd8e5405a.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528910",
+          "name": "Chocolate",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/3bcc7cbd8a7c02035780c.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528911",
+          "name": "Brigadeiro",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/0b5ff77f842714ce06460.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528912",
+          "name": "Mousse de chocolate",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/fa90cdb320eed5608bb20.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528913",
+          "name": "Maracujá",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/f368f1f9270f9b14b18aa.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528914",
+          "name": "Chocolate branco",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/1a68eeace452b73.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528915",
+          "name": "Flocos",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/8458f15a47499b38a6.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528916",
+          "name": "Farinha láctea com banana",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/97bf37dd47114af559a3f.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528917",
+          "name": "Cappucino",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/3dd77cf42dca7ced4a1.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528918",
+          "name": "Trufado",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/0468628c83e0caa30c527.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528919",
+          "name": "Cappucino chocolate",
+          "description": "Tradicionais",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/bdcb8e48ca3def7a4d380.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528922",
+          "name": "Tres leites",
+          "description": "Receitas especiais",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/76d7865ce3f5257ceefc.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528923",
+          "name": "Chocotino turbo",
+          "description": "Receitas especiais",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/fa024716743099e1d6c71.jpg",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Shake mix",
+      "items": [
+        {
+          "sourceId": "15528924",
+          "name": "Chocotino com nutella",
+          "description": "Insuperáveis",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528925",
+          "name": "Ninho trufado",
+          "description": "Insuperáveis",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/f90a512f10f468f6b.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528926",
+          "name": "Morango com ninho",
+          "description": "Insuperáveis",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/e834d02c5880220d1dfa1.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528927",
+          "name": "Ninho com nutella",
+          "description": "Insuperáveis",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/383feda387cb4310aea06.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528928",
+          "name": "Ouro branco",
+          "description": "Insuperáveis",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/b07d8aeb23f9ecef309dc.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528929",
+          "name": "Trufado de nutella",
+          "description": "Insuperáveis",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/d7b752f19b2266bf6029.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528930",
+          "name": "Açaí com creme crocante ovomaltine",
+          "description": "Insuperáveis",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/b58559cb80ed3a02ab8a.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 550
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528931",
+          "name": "Açaí com nutella",
+          "description": "Insuperáveis",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/eea1b371a981e387b4.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 550
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528933",
+          "name": "Farinha láctea c/ banana",
+          "description": "Clássicos",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528934",
+          "name": "Maracujá",
+          "description": "Clássicos",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/af750fa31621bcc25b5ea.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528935",
+          "name": "Doce de leite c/ negresco",
+          "description": "Clássicos",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/044bc5a739c17ad2b34.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528936",
+          "name": "Chocomenta c/ negresco",
+          "description": "Clássicos",
+          "priceCents": 1760,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/12f4201cfa3425d44b.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 330
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528937",
+          "name": "Morango supremo",
+          "description": "Receitas especiais",
+          "priceCents": 2420,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/c8cf22fb871d5473e1949.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528938",
+          "name": "Torta de limão",
+          "description": "Receitas especiais",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/fc144c3759a51cf.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528939",
+          "name": "Pistache",
+          "description": "Receitas especiais",
+          "priceCents": 2420,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/c0b22f80446091e5ceaf.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528940",
+          "name": "Banoffee",
+          "description": "Receitas especiais",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/f312c2b14ea5fe596411.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Top mix",
+      "items": [
+        {
+          "sourceId": "15528942",
+          "name": "Suflair",
+          "description": "",
+          "priceCents": 2420,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/1ba6f456ab7f6988873a6.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528944",
+          "name": "Monte o seu com frutas",
+          "description": "",
+          "priceCents": 2640,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha a fruta",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o adicional",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farinha láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ganache de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite moça",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chiquinho & ovomaltine",
+      "items": [
+        {
+          "sourceId": "15528945",
+          "name": "Sundae 200ml",
+          "description": "",
+          "priceCents": 1320,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/bcffe547b645631ee1668.jpg",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528946",
+          "name": "Cascão trufado",
+          "description": "",
+          "priceCents": 1320,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/a15b2a5bdc14f3f08d50f.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528948",
+          "name": "Ovomaltine mix",
+          "description": "",
+          "priceCents": 2310,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/5f2a2e3fb0a1ae8d9d220.png",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mix fruit",
+      "items": [
+        {
+          "sourceId": "15528949",
+          "name": "Frutas vermelhas",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/15e864349b81101d4c222.jpg",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528950",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/96e8daa44dee6a192161c.jpg",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528951",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/d05f9f2f932e693f560.jpg",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chiquinho & nutella",
+      "items": [
+        {
+          "sourceId": "15528956",
+          "name": "Cascão nutella e morango",
+          "description": "",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/5d70797443fb6d86c1ad.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15528957",
+          "name": "Shake mix",
+          "description": "Chocotino com nutella",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/9d973926bc53aa9c0881e.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 330
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528958",
+          "name": "Shake mix",
+          "description": "Ninho com nutella",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/f4b81c0de18abd50e430e.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 330
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528959",
+          "name": "Shake mix",
+          "description": "Trufado com nutella",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/ac708a63f59146c57.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 330
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528960",
+          "name": "Shake mix",
+          "description": "Açaí com nutella",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/cd5b988bc841d8e9247a3.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 330
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15529034",
+          "name": "Shake mix",
+          "description": "Morango supremo",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 1870
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15529035",
+          "name": "Shake mix",
+          "description": "Nutella c/ fini",
+          "priceCents": 1980,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "300ml",
+                  "priceCents": 330
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528961",
+          "name": "Milk shake",
+          "description": "Nutella",
+          "priceCents": 1870,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/2f486d1ea13f8f7e60.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 220
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 660
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae",
+      "items": [
+        {
+          "sourceId": "15528962",
+          "name": "Big sundae",
+          "description": "Tradicional",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/bc8e446f5e3de12231db4.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528963",
+          "name": "Big sundae",
+          "description": "Chocotino turbo",
+          "priceCents": 2310,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/cf5c8df4e70fb33f93243.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528964",
+          "name": "Sundae",
+          "description": "",
+          "priceCents": 1320,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/40043682e1c56b525ce.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528965",
+          "name": "Sundae kids - disqueti",
+          "description": "",
+          "priceCents": 1320,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/70c6573412f4822a966c7.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528966",
+          "name": "Sundae kids - brigadeiro",
+          "description": "",
+          "priceCents": 1320,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/f855aef927c665b7d.png",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Petit gateau",
+      "items": [
+        {
+          "sourceId": "15528971",
+          "name": "Apenas o bolinho do petit gateau",
+          "description": "",
+          "priceCents": 1320,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/c7e836cbbce38e605a8.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 unidade (80g)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 unidades (320g)",
+                  "priceCents": 3080
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15529124",
+          "name": "Petit gateau + sorvete",
+          "description": "",
+          "priceCents": 2970,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Café shake",
+      "items": [
+        {
+          "sourceId": "15528985",
+          "name": "Nutella",
+          "description": "",
+          "priceCents": 2780,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528986",
+          "name": "Tradicional",
+          "description": "",
+          "priceCents": 2250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528987",
+          "name": "Doce de leite",
+          "description": "",
+          "priceCents": 2450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528988",
+          "name": "Trufado",
+          "description": "",
+          "priceCents": 2750,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "15528989",
+          "name": "Pé de moleque",
+          "description": "",
+          "priceCents": 2420,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Nutella",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Chantilly",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "15528990",
+          "name": "Monte o seu",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/2242348bc5/010d6cda74b5487b061aa.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "400ml",
+                  "priceCents": 500
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chiquinho no pote",
+      "items": [
+        {
+          "sourceId": "15528991",
+          "name": "Chocolate intenso",
+          "description": "Incomparáveis",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528992",
+          "name": "Doce de leite",
+          "description": "Incomparáveis",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528993",
+          "name": "Morango",
+          "description": "Incomparáveis",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528994",
+          "name": "Frutas vermelhas",
+          "description": "Incomparáveis",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528995",
+          "name": "Limão com leite moça",
+          "description": "Incomparáveis",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528996",
+          "name": "Ninho com nutella",
+          "description": "Incomparáveis",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528997",
+          "name": "Ninho trufado",
+          "description": "Incomparáveis",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528998",
+          "name": "Flocos",
+          "description": "Populares",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15528999",
+          "name": "Baunilha",
+          "description": "Populares",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15529000",
+          "name": "Chocolate",
+          "description": "Populares",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15529001",
+          "name": "Maracujá",
+          "description": "Populares",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15529002",
+          "name": "Misto",
+          "description": "Populares",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 6,
+    "sem preço": 10
+  },
+  "notes": [
+    "Adicionais variam por tamanho em \"Sundae 200ml\": não importados.",
+    "Adicionais variam por tamanho em \"Cascão trufado\": não importados.",
+    "Adicionais variam por tamanho em \"Ovomaltine mix\": não importados.",
+    "Adicionais variam por tamanho em \"Cascão nutella e morango\": não importados.",
+    "Adicionais variam por tamanho em \"Shake mix\": não importados.",
+    "Adicionais variam por tamanho em \"Milk shake\": não importados.",
+    "Adicionais variam por tamanho em \"Big sundae\": não importados.",
+    "Adicionais variam por tamanho em \"Sundae\": não importados.",
+    "Adicionais variam por tamanho em \"Sundae kids - disqueti\": não importados.",
+    "Adicionais variam por tamanho em \"Sundae kids - brigadeiro\": não importados.",
+    "Adicionais variam por tamanho em \"Apenas o bolinho do petit gateau\": não importados.",
+    "Adicionais variam por tamanho em \"Petit gateau + sorvete\": não importados.",
+    "Adicionais variam por tamanho em \"Monte o seu\": não importados."
+  ]
+}

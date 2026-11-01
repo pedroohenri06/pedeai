@@ -1,0 +1,1300 @@
+{
+  "id": "casa-massa-nova-xavantina",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/nova-xavantina/casa-massa",
+  "capturedAt": "2026-10-31T23:49:04.785Z",
+  "hours": "Qua a Sex 17h–22h · Sáb e Dom 10h–22h",
+  "sections": [
+    {
+      "name": "Pizzas",
+      "items": [
+        {
+          "sourceId": "13560747",
+          "name": "Água boa",
+          "description": "Frango, champignon, muçarela, catupiry, bacon, cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560748",
+          "name": "A moda do pizzaiolo",
+          "description": "Frango, muçarela, bacon, catupiry, milho, cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560749",
+          "name": "Barra do garças",
+          "description": "Presunto, muçarela, cebola, tomate, bacon, azeitona, molho de tomate e orégano",
+          "priceCents": 8200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560750",
+          "name": "Bacon",
+          "description": "Bacon, muçarela, tomate, azeitona, molho de tomate e orégano",
+          "priceCents": 8200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560751",
+          "name": "Calabresa",
+          "description": "Calabresa, muçarela, cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 7700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560752",
+          "name": "Calabresa especial",
+          "description": "Muçarela, calabresa, bacon, catupiry, cebola., azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560753",
+          "name": "Campinápolis",
+          "description": "Presunto, palmito, muçarela, catupiry, cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560754",
+          "name": "Canarana",
+          "description": "Calabresa, champignon, muçarela, catupiry, ovos, cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560755",
+          "name": "Deliciosa",
+          "description": "Muçarela, catupiry, gorgonzola e tomate seco, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560756",
+          "name": "Do cheff",
+          "description": "Bacon, alho, muçarela, parmesão, tomate, manjericão, azeitona, molho de tomate e orégano",
+          "priceCents": 8200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560757",
+          "name": "Frango",
+          "description": "Frango, muçarela e milho, azeitona, molho de tomate e orégano",
+          "priceCents": 7700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560758",
+          "name": "Frango c/ catupiry",
+          "description": "Frango, catupiry e milho, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560759",
+          "name": "Fricase de frango",
+          "description": "Frango e muçarela, milho, creme de leite e batata palha, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560760",
+          "name": "Lombo",
+          "description": "Lombo canadense, muçarela e cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 8200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560761",
+          "name": "Lombo c/ catupiry",
+          "description": "Lombo canadense, catupiry e cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560762",
+          "name": "Nova xavantina",
+          "description": "Palmito, champignon, muçarela, catupiry, alho, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560763",
+          "name": "Marguerita",
+          "description": "Muçarela, parmesão, tomate, manjericão, azeitona, molho de tomate e orégano",
+          "priceCents": 7700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560764",
+          "name": "Marguerita especial",
+          "description": "Muçarela, parmesão, tomate seco, alho, manjericão, azeitona, molho de tomate e orégano",
+          "priceCents": 8200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560765",
+          "name": "Palmito especial",
+          "description": "Palmito, muçarela, catupiry, tomate seco, manjericão, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560766",
+          "name": "Portuguesa",
+          "description": "Presunto, muçarela, ovo, cebola, azeitona, molho de tomate e orégano",
+          "priceCents": 7700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560767",
+          "name": "Portuguesa especial",
+          "description": "Presunto, muçarela, catupiry, tomate, cebola, ovo, manjericão, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560768",
+          "name": "Quase tudo",
+          "description": "Muçarela, catupiry, calabresa, frango, bacon, milho, cebola, tomate, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560769",
+          "name": "Quatro queijos",
+          "description": "Muçarela, catupiry, provolone, parmesão, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560770",
+          "name": "Shitake especial",
+          "description": "Shitake, muçarela, catupiry, bacon, tomate seco, alho, molho de tomate e orégano, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560771",
+          "name": "Siciliana",
+          "description": "Muçarela, bacon e champignon, azeitona, molho de tomate e orégano",
+          "priceCents": 8200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560772",
+          "name": "Strogonoff",
+          "description": "Filé mignon, muçarela, creme de leite, champignon e batata palha, azeitona, molho de tomate e orégano",
+          "priceCents": 9900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13560773",
+          "name": "Suprema",
+          "description": "Shitake, muçarela, gorgonzola e tomate seco, azeitona, molho de tomate e orégano",
+          "priceCents": 9200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Massas e molhos artesanais",
+      "items": [
+        {
+          "sourceId": "13377923",
+          "name": "Lasanhas",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua opção:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bolonhesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto e queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13377924",
+          "name": "Rondeles",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua opção:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bolonhesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto e queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13377925",
+          "name": "Canelones",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua opção:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bolonhesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Shitake c/ tomate seco e gorgonzola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto e queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13377926",
+          "name": "Talharim",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha sua opção:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Shitake c/ tomate seco e gorgonzola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolonhesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13377927",
+          "name": "Nhoque de batata ou abóbora",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Tipo da massa:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abóbora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua opção:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolonhesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Shitake c/ tomate seco e gorgonzola",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Esfihas doces",
+      "items": [
+        {
+          "sourceId": "13378052",
+          "name": "Esfiha de chocolate",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378053",
+          "name": "Esfiha de prestígio",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378054",
+          "name": "Esfiha de romeu e julieta",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Esfihas salgadas",
+      "items": [
+        {
+          "sourceId": "13378055",
+          "name": "Esfiha de bacon",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378056",
+          "name": "Esfiha de carne",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378057",
+          "name": "Esfiha de calabresa",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378058",
+          "name": "Esfiha de frango",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378059",
+          "name": "Esfiha de queijo com ervas",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378060",
+          "name": "Esfiha de 4 queijos",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378061",
+          "name": "Esfiha de presunto e queijo",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378062",
+          "name": "Esfiha de gorgonzola",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378063",
+          "name": "Esfiha de tomate seco",
+          "description": "",
+          "priceCents": 670,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pratos executivos individuais",
+      "items": [
+        {
+          "sourceId": "13378064",
+          "name": "Filé mignon a parmegiana - kids",
+          "description": "Filé mignon, arroz, batata frita e salada individual.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378065",
+          "name": "Filé mignon a parmegiana - adulto",
+          "description": "Filé mignon, arroz, batata frita e salada individual.",
+          "priceCents": 6100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378066",
+          "name": "Filé de tilápia a parmegiana - kids",
+          "description": "Filé de tilápia, arroz, batata frita e salada individual.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378067",
+          "name": "Filé de tilápia a parmegiana - adulto",
+          "description": "Filé de tilápia, arroz, batata frita e salada individual.",
+          "priceCents": 6100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Petiscos e porções",
+      "items": [
+        {
+          "sourceId": "13378137",
+          "name": "Porção de tilápia crocante",
+          "description": "Tiras de tilápia empanada.",
+          "priceCents": 8850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378138",
+          "name": "Bolinho de peixe",
+          "description": "12 unidades de bolinho peixe cachorra",
+          "priceCents": 6700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378139",
+          "name": "Porção de filé crocante",
+          "description": "Tiras de filé mignon empanado",
+          "priceCents": 8850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378140",
+          "name": "Porção de filé ao catupiry",
+          "description": "Tiras de filé mignon fritos na chapa cobertos por catupiry e cebola",
+          "priceCents": 9600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378141",
+          "name": "Porção de frango crocante",
+          "description": "Tiras de frango empanado",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378142",
+          "name": "Porção de calabresa com cebola",
+          "description": "Porção de calabresa com cebola",
+          "priceCents": 4350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378143",
+          "name": "Porção de quibe - 16 unidades",
+          "description": "",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378144",
+          "name": "Porção de batata frita",
+          "description": "Porção de batata frita 500g",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378145",
+          "name": "Porção de batata frita especial",
+          "description": "Batata frita com bacon e muçarela 500g",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378146",
+          "name": "Porção de salada simples",
+          "description": "Alface, cebola e tomate",
+          "priceCents": 2240,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378147",
+          "name": "Porção de salada especial",
+          "description": "Alface, cebola, cenoura, tomate seco, palmito e azeitona",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378148",
+          "name": "Porção de arroz",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378149",
+          "name": "Porção de feijão",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378150",
+          "name": "Porção de vinagrete",
+          "description": "Cebola e tomate",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "13378324",
+          "name": "Água mineral s/ gás - 500ml",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378325",
+          "name": "Água mineral c/ gás - 500ml",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378326",
+          "name": "Água tônica",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378327",
+          "name": "H2o-h",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378328",
+          "name": "Coca cola - lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378329",
+          "name": "Coca cola zero - lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378330",
+          "name": "Guaraná antarctica - lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378331",
+          "name": "Coca cola - 2 litros",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378332",
+          "name": "Energético",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cervejas",
+      "items": [
+        {
+          "sourceId": "13378333",
+          "name": "Heineken",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378334",
+          "name": "Spaten",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378335",
+          "name": "Stella pure gold",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378336",
+          "name": "Brahma sem álcool",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378337",
+          "name": "Brahma",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378338",
+          "name": "Corona sem álcool",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13378339",
+          "name": "Heineken sem álcool",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação."
+  ]
+}

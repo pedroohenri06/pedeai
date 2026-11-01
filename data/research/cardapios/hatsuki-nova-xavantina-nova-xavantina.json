@@ -1,0 +1,2587 @@
+{
+  "id": "hatsuki-nova-xavantina-nova-xavantina",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/nova-xavantina/hatsuki-sushi-lounge",
+  "capturedAt": "2026-10-31T23:48:55.785Z",
+  "hours": "Seg a Sáb 17h–21h30",
+  "sections": [
+    {
+      "name": "Entradas",
+      "items": [
+        {
+          "sourceId": "13472405",
+          "name": "Ceviche salmão",
+          "description": "Marinado em frutas cítricas, cebola roxa, pimenta e cheiro verde. 400g",
+          "priceCents": 6800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472406",
+          "name": "Ceviche misto",
+          "description": "Marinado em frutas cítricas, cebola roxa, pimenta e cheiro verde. 400g",
+          "priceCents": 6100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/e4536d02d35bfa8efafd063e28cf67f0e66d4331.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472407",
+          "name": "Ceviche tilápia",
+          "description": "Marinado em frutas cítricas, cebola roxa, pimenta e cheiro verde. 400g",
+          "priceCents": 5600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472408",
+          "name": "Guioza",
+          "description": "Pastelzinho chinês recheado de carne suína e legumes. 6un",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/049b606c37b7921957206484d230c5ee08d65f68.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha uma opção:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vapor",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frito",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472409",
+          "name": "Harumaki queijo",
+          "description": "Rolinho primavera. 8un",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/c9729166f7db9b509d568b73309e331b47e3f02d.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472410",
+          "name": "Harumaki salmão",
+          "description": "Rolinho primavera. 8un",
+          "priceCents": 4250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472411",
+          "name": "Salmão com pimenta kimuchi",
+          "description": "Cubos de salmão temperados com pimenta kimuchi, cebola roxa e gergelim.",
+          "priceCents": 7200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/855eb206a001c2b428ff5383bc5d7ea4ccece070.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472412",
+          "name": "Sunomono",
+          "description": "Salada de pepino agridoce.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472413",
+          "name": "Sashimi salmão",
+          "description": "1un",
+          "priceCents": 560,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/f239caa2d140880f704a8fe9fbb7b51748c41e8c.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472414",
+          "name": "Sashimi tilápia",
+          "description": "1un",
+          "priceCents": 560,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472415",
+          "name": "Marinado de salmão",
+          "description": "Fatias de salmão marinado no limão e servido na rúcula com pimenta. 10un",
+          "priceCents": 6700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/fe3ad5d89a747b74eb702a8ef32c2264b7619ed3.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472416",
+          "name": "Camarão empanado",
+          "description": "Camarões empanados na farinha panko, acompanhados com geleia de pimenta. 8un",
+          "priceCents": 7200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/790fc8493307266961291843fb59f23d3fca6d88.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472417",
+          "name": "Carpaccio salmão",
+          "description": "Filés de peixe com molho cítrico. 10 fatias",
+          "priceCents": 5600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472418",
+          "name": "Carpaccio tilápia",
+          "description": "Filés de peixe com molho cítrico. 10 fatias",
+          "priceCents": 5600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472419",
+          "name": "Petisco salmão",
+          "description": "Bolinho frito.",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/25e15aeca4bdfd9fc747ed0ba78e27cbd88ddd36.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472420",
+          "name": "Petisco tilápia",
+          "description": "Bolinho frito.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/e76867bb1a748d57c17a39f97d4fcf272949ab8a.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472421",
+          "name": "Gunkan de camarão",
+          "description": "Camarão empanado envolto no cream cheese e salmão. 5un",
+          "priceCents": 6100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Uramaki",
+      "items": [
+        {
+          "sourceId": "13472425",
+          "name": "Uramaki califórnia",
+          "description": "Arroz por fora, recheado com kani, manga e pepino. 8un",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/6cd1a486923a6e1eebe8941534e4cc8bd35c7f8a.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472426",
+          "name": "Uramaki salmão",
+          "description": "Arroz por fora, recheado de salmão e cream cheese. 8un",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472427",
+          "name": "Uramaki camarão",
+          "description": "Arroz por fora, recheado com camarão empanado e cream cheese. 8un",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/5715613c5af9eee82753aced3e3ba5f0f317fd67.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472428",
+          "name": "Uramaki skin",
+          "description": "Arroz por fora, recheado de crocante de salmão com cream cheese. 8un",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/143975dd83b10ad248b3c0896507f983c146f30c.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hossomaki",
+      "items": [
+        {
+          "sourceId": "13472429",
+          "name": "Hossomaki salmão",
+          "description": "Sushi com alga por fora e recheio de salmão. 8un",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/e232c45f1f5e548ae0a3ddfdca1f33138ad987dc.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472479",
+          "name": "Hossomaki pepino",
+          "description": "Sushi com alga por fora e recheio de pepino. 8un",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/a9e9e77a52cf7e7da0c131ea57cf9af942548734.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472480",
+          "name": "Hossomaki kani",
+          "description": "Sushi com alga por fora e recheio de kani. 8un",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/0a65668febb93ef1d3da4076894f5f71eefc317a.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Niguiri",
+      "items": [
+        {
+          "sourceId": "13472482",
+          "name": "Niguiri roll",
+          "description": "Niguiri de salmão empanado e coberto com cream cheese e tarê. 6un",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472483",
+          "name": "Niguiri salmão",
+          "description": "",
+          "priceCents": 560,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/b4d3918a358ec1ca369bdc40c16e72285ca89665.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472484",
+          "name": "Niguiri camarão empanado",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/47b15de3a87e271188acb88cdd91dadfab8471c9.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472485",
+          "name": "Niguiri skin",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/03960d83de15853c8dba1f11eab840467d81daf9.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13472486",
+          "name": "Niguiri kani",
+          "description": "",
+          "priceCents": 450,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/bb5ce8bc99cce9366bd1a8aa18a258947bd17d87.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jyo",
+      "items": [
+        {
+          "sourceId": "13473274",
+          "name": "Jyo roll",
+          "description": "Salmão empanado e finalizado com cream cheese e salmão grelhado. 6un",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/95f2fb017d61ac10f9cde22a6708fde69f2e234f.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473275",
+          "name": "Jyo salmão cobertura sortida",
+          "description": "Bolinho de arroz envolto no filé de salmão. 10un",
+          "priceCents": 5600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/0824b499210138b1d7326abd0e7f7df981da5532.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473276",
+          "name": "Jyo salmão skin e camarão",
+          "description": "Bolinho de arroz envolto no filé de salmão. 10un",
+          "priceCents": 6100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/d116084ea8630463319a23f1cb7048068e1a03a5.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473277",
+          "name": "Jyo salmão sem arroz",
+          "description": "Bolinho de arroz envolto no filé de salmão. 10un",
+          "priceCents": 6700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hot roll",
+      "items": [
+        {
+          "sourceId": "13473407",
+          "name": "Hot filadélfia",
+          "description": "Alga por fora com recheio de salmão grelhado. 10un",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/55bd9e061ca6ba7027d3a9cf48b840664f8d0748.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473408",
+          "name": "Hot roll especial",
+          "description": "Arroz por fora, recheio com salmão cru e cream cheese, finalizado com maionese temperada. 10un",
+          "priceCents": 4250,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/10369470ee1beffea9e3bc8a950e1353c238f7bf.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473409",
+          "name": "Hot filadélfia especial",
+          "description": "Alga por fora, recheado de salmão grelhado, finalizado com maionese temperada, salmão batido e cebolinha. 10un",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473410",
+          "name": "Hot roll",
+          "description": "Arroz por fora empanada na farinha panko, recheio de salmão grelhado e cream cheese. 10un",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/f94789d53d4c457cc1a422e25333b7b649c8eaf1.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473411",
+          "name": "Big hot salmão",
+          "description": "Sushi inteiro empanado e recheado com rúcula, cream cheese e cebolinha finalizado com crispy.",
+          "priceCents": 4480,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/11f1554e8b8c2cf6644685c5cd605b93c103ba96.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Escolha uma opção:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Salmão batido",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salmão em cubo",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473412",
+          "name": "Big hot salmão empanado",
+          "description": "Sushi inteiro empanado e recheado com rúcula, cream cheese e cebolinha finalizado com crispy.",
+          "priceCents": 4480,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/eebe89696ec6ab7ab3d9474d9845a8553ef47ed7.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473413",
+          "name": "Big hot camarão empanado",
+          "description": "Sushi inteiro empanado e recheado com rúcula, cream cheese e cebolinha finalizado com crispy.",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/69a1d489026098970508855d454b4af0c21e7d31.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Temaki",
+      "items": [
+        {
+          "sourceId": "13473423",
+          "name": "Temaki p - 100g",
+          "description": "",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473424",
+          "name": "Temaki m - 210g",
+          "description": "",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473425",
+          "name": "Temaki p (sem arroz)",
+          "description": "",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473426",
+          "name": "Temaki m (sem arroz)",
+          "description": "",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473427",
+          "name": "Temaki camarão empanado",
+          "description": "",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/80c792e67b67c85fe0d6d89218aa3f20a73c9a7f.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13473428",
+          "name": "Temaki califórnia",
+          "description": "",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "14291959",
+          "name": "Temaki roll - m",
+          "description": "",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/b0c4d19c49a0ed3527473c028dab99d35d4217f9.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pratos quentes",
+      "items": [
+        {
+          "sourceId": "13474589",
+          "name": "Yakisoba de carne",
+          "description": "Macarrão oriental com legumes.",
+          "priceCents": 4450,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/d138ce2848dd2a5fab3bf83d7d5ffa6793f3734f.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474590",
+          "name": "Yakisoba de frango",
+          "description": "Macarrão oriental com legumes.",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474591",
+          "name": "Yakisoba misto",
+          "description": "Macarrão oriental com legumes.",
+          "priceCents": 4250,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/0bdbd7bb5cf04c12402fcdc697bbd65c4457184c.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474592",
+          "name": "Yakisoba vegetariano",
+          "description": "Macarrão oriental com legumes.",
+          "priceCents": 3350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474612",
+          "name": "Yakimeshi 300g",
+          "description": "Arroz temperado com salmão.",
+          "priceCents": 4450,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/dc7a8663f67fcd9449d8e4b58f318e7f34512344.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474613",
+          "name": "Teppan salmão",
+          "description": "Peixe grelhado com couve flor, brócolis, repolho e cenoura.",
+          "priceCents": 8100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/40ed51a9c0838f301fc4eb280f10eba407196524.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474614",
+          "name": "Teppan tilápia",
+          "description": "Peixe grelhado com couve flor, brócolis, repolho e cenoura.",
+          "priceCents": 6700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474615",
+          "name": "Teppan legumes",
+          "description": "Peixe grelhado com couve flor, brócolis, repolho e cenoura.",
+          "priceCents": 4700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474655",
+          "name": "Prato kids",
+          "description": "Salmão empanado, arroz japonês e sunomono.",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/f4852c6fab6160f13d94ebf12f938349d7cce280.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474674",
+          "name": "Yakimeshi 500g",
+          "description": "Arroz temperado com salmão.",
+          "priceCents": 5350,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/5c7916f554f2268097b7d6743257d09b816813b4.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poke poke",
+      "items": [
+        {
+          "sourceId": "13474675",
+          "name": "Poke poke aloha",
+          "description": "Salmão grelhado, alho poró, crispy de batata, cream cheese e sunomono.",
+          "priceCents": 4450,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/fef0044834781df5baf5a8a902a8961bfdb7f4e5.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474676",
+          "name": "Poke poke ceviche",
+          "description": "Base de arroz, cobertura de ceviche de tilápia, crispy de batata e cream cheese.",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474677",
+          "name": "Poke poke hatsuki",
+          "description": "Base de arroz com cobertura de salmão temperado, alho poró, manga, nori picado, gergelim e sunomono.",
+          "priceCents": 4450,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/38705fa82aa107109dbde9be03325b37c7aa643c.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474679",
+          "name": "Monte seu poke",
+          "description": "500g de arroz, 100g de salmão e escolha até 3 complementos.",
+          "priceCents": 5150,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha até 3 complementos:",
+              "min": 3,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Cream cheese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Couve frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho poró",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata crispy",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sunomono",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nori",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Manga",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gergelim",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combinados",
+      "items": [
+        {
+          "sourceId": "13474892",
+          "name": "Combinado 1 - 20un",
+          "description": "6x sashimis 2x uramaki de salmão 6x jyos de salmão sortidos 6x hot roll",
+          "priceCents": 9150,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/7af0263a59b05746bec42e90b04814780d16e697.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474893",
+          "name": "Combinado 2 - 34un",
+          "description": "10x sashimis 8x uramaki salmão 6x hot roll 10x jyos de salmão sortidos",
+          "priceCents": 15300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/5da2e30fd6249805f44d081dbc3c881964713be1.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474894",
+          "name": "Combinado 3 - 40un",
+          "description": "10x sashimis 6x niguiri de salmão 6x jyos de salmão sortidos 8x uramakis de salmão 10x hot filadéldia",
+          "priceCents": 17500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/a96c84579c182f449c6ce3bc54c64408d48cb654.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474895",
+          "name": "Combinado 4 - 51un",
+          "description": "16x uramaki salmão 10x jyo salmão 10x hot roll 9x uramaki skin 9x jyo roll",
+          "priceCents": 25750,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/uofwzj5wc1ajxv1dnmi6a/e2c521e7a6cb6bd0ffdc84e96b66f225b468cb9e.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474896",
+          "name": "Comb. individual - 9un",
+          "description": "1x temaki p batido 4x uramaki salmão 4x jyo salmão",
+          "priceCents": 6700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474897",
+          "name": "Comb. de petisco - 17un",
+          "description": "4x petisco de tilápia 5x hot filadélfia 4x harumaki de queijo 4x trouxinha de camarão",
+          "priceCents": 7250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474898",
+          "name": "Combinado hot - 18un",
+          "description": "5x hot roll 5x hot filadélfia 4x harumaki de salmão 4x harumaki de queijo",
+          "priceCents": 7250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "13474961",
+          "name": "Monte seu combinado",
+          "description": "35 peças a sua escolha!",
+          "priceCents": 19000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "35 peças a sua escolha:",
+              "min": 17,
+              "max": 17,
+              "choices": [
+                {
+                  "name": "Sashimi salmão e tilápia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sashimi salmão flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uramaki salmão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uramaki salmão camarão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uramaki skin",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hot roll",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hot filadélfia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Hot filadélfia especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Niguiri salmão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Niguiri salmão flambado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Niguiri kani",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Niguiri roll",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jyo roll",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jyo salmão geleias",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jyo salmão crispis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jyo salmão camarão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jyo salmão pim. biquinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho tarê",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Gari gengibre",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frasco de tarê",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Gohan",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "sourceId": "13475220",
+          "name": "Jyo goiabada - 2un",
+          "description": "Lamina de goiabada recheada com cream cheese",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13475221",
+          "name": "Harumaki romeu e julieta - 4un",
+          "description": "Rolinho primavera com goiabada e queijo",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "13475226",
+          "name": "Água s/ gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13475227",
+          "name": "Água c/ gás",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13475228",
+          "name": "Água tônica",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13475229",
+          "name": "Limoneto / h20",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13475230",
+          "name": "Suco de laranja copo",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "13475231",
+          "name": "Suco de limão copo",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 1
+  },
+  "notes": []
+}

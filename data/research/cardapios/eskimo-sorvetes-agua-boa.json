@@ -1,0 +1,936 @@
+{
+  "id": "eskimo-sorvetes-agua-boa",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/agua-boa/skimo-sorvetes",
+  "capturedAt": "2026-10-31T23:49:18.100Z",
+  "hours": "Todos os dias, 10h30–21h30",
+  "sections": [
+    {
+      "name": "Picolé de fruta",
+      "items": [
+        {
+          "sourceId": "15825537",
+          "name": "Abacaxi",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825538",
+          "name": "Brasileirinho",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825539",
+          "name": "Framboesa",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825540",
+          "name": "Limão",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825541",
+          "name": "Maracujá",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825542",
+          "name": "Mini saia",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825543",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825544",
+          "name": "Uva",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Picolé de creme",
+      "items": [
+        {
+          "sourceId": "15825545",
+          "name": "Chocolate",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825546",
+          "name": "Coco",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825547",
+          "name": "Doce de leite",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825548",
+          "name": "Leite condensado",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825549",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825550",
+          "name": "Nata",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825711",
+          "name": "Milho verde",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Picolé ituzinho",
+      "items": [
+        {
+          "sourceId": "15825580",
+          "name": "Chiclete",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825581",
+          "name": "Leite trufado",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Especiais",
+      "items": [
+        {
+          "sourceId": "15825712",
+          "name": "Paçoca",
+          "description": "",
+          "priceCents": 560,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825713",
+          "name": "Grego frutas vermelhas",
+          "description": "",
+          "priceCents": 560,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825714",
+          "name": "Coco queimado",
+          "description": "",
+          "priceCents": 560,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bombom no palito",
+      "items": [
+        {
+          "sourceId": "15825715",
+          "name": "Mocaffe",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825716",
+          "name": "Barrita",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825717",
+          "name": "Chocotine",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "La sobremesa",
+      "items": [
+        {
+          "sourceId": "15825718",
+          "name": "Quatro leites c/ amarena",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825719",
+          "name": "Sagu",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825720",
+          "name": "Pudim ao leite",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825721",
+          "name": "Limonada suiça",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bombom no palito",
+      "items": [
+        {
+          "sourceId": "15825722",
+          "name": "Skimó",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825723",
+          "name": "Brigadeiro",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "items": [
+        {
+          "sourceId": "15825724",
+          "name": "Unicórnio",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825725",
+          "name": "Bob esponja",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825726",
+          "name": "Patrik",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/0d9aad7caee4ac67a0fed43d7b9596a61749b4f5.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15825727",
+          "name": "Monica",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/1c87b0456f3573bc73fa9f6a858e66ecf38f9f2e.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15825728",
+          "name": "Cebolinha",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Picolé zero açucar",
+      "items": [
+        {
+          "sourceId": "15825729",
+          "name": "Chocolate",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825730",
+          "name": "Coco",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Picolápis surpresa",
+      "items": [
+        {
+          "sourceId": "15825731",
+          "name": "Picolápis",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Diamond",
+      "items": [
+        {
+          "sourceId": "15825732",
+          "name": "Cookies",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825733",
+          "name": "Cookies branco",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825734",
+          "name": "Chocomalt",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825735",
+          "name": "Frutas vermelhas",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825736",
+          "name": "Pistache",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Paletas",
+      "items": [
+        {
+          "sourceId": "15825737",
+          "name": "Maracujá c/ leite condensado",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825738",
+          "name": "Morango c/ leite e condnesado",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sorvete zero açucar",
+      "items": [
+        {
+          "sourceId": "15825911",
+          "name": "Beijinho sirio",
+          "description": "",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/6b6100532cdc6e7f1a74e5406cfd6566be3124d7.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15825912",
+          "name": "Frutas vermelhas",
+          "description": "",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/a5660cfcec0ef060dbeea09d6beea0a0a13fbd99.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sundae",
+      "items": [
+        {
+          "sourceId": "15825913",
+          "name": "Sundae napolitano",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825914",
+          "name": "Sundae fruta do bosco",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15825915",
+          "name": "Napolicup morango",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/bcd35f31b0e3d5e7e9c142e9e9ace5ecd4c8c0f1.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15825916",
+          "name": "Creme e chocolate",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sorvete best cup",
+      "items": [
+        {
+          "sourceId": "15826056",
+          "name": "Doce de leite",
+          "description": "",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/04803eddeff1d0d5ccc860c01ce1367b709f8950.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826057",
+          "name": "Pistache",
+          "description": "",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/9dc41d605ceabfe9235a51d54c6293ce922a418b.png",
+          "featured": true,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sorvetes 1,5l",
+      "items": [
+        {
+          "sourceId": "15826058",
+          "name": "Iogurte grego c/ amora",
+          "description": "",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/2f20b6d50599c32844342979b23fa81a0283b471.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15826059",
+          "name": "Nata trufada",
+          "description": "",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/41fd3737d82b1b8ec795dfc05be2ad78662d7f75.png",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "15826060",
+          "name": "Banoffe",
+          "description": "",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sorvete 2 litros",
+      "items": [
+        {
+          "sourceId": "15826129",
+          "name": "Pote de sorvete 2 litros",
+          "description": "",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/zkdvjqya032z3ck5o45gg/b34973ed62ff6347b0b7097bc29aed2fa0c20bb4.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Sabores:",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Marta rocha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nata+uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tramontaro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Trufa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Passas ao rum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sensação",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi c/ coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana c/ chocotella",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocomenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco+milho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme+flos+chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Flocos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Flocos+morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado+chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leitinho trufado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Crocante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá trufado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cereja c/ amarena",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí no pote",
+      "items": [
+        {
+          "sourceId": "15826145",
+          "name": "Açaí 500ml",
+          "description": "",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826146",
+          "name": "Açaí 1 litro",
+          "description": "",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826147",
+          "name": "Açaí 1,5 litros",
+          "description": "",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826148",
+          "name": "Açaí 10 litros",
+          "description": "",
+          "priceCents": 22600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826149",
+          "name": "Açaí zero açucar",
+          "description": "",
+          "priceCents": 14700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cremozinn",
+      "items": [
+        {
+          "sourceId": "15826165",
+          "name": "Cremozinn goiaba",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826166",
+          "name": "Cremozinn cupuaçu",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826167",
+          "name": "Cremozinn frutas tropicais",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826168",
+          "name": "Cremozinn coco branco",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826169",
+          "name": "Cremozinn cajá",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826170",
+          "name": "Cremozinn chiclete",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826171",
+          "name": "Cremozinn blue ice",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826172",
+          "name": "Cremozinn maracujá",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826173",
+          "name": "Cremozinn açaí c/ banana",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826174",
+          "name": "Cremozinn morango",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826175",
+          "name": "Cremozinn uva",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "15826176",
+          "name": "Cremozinn leite condensado",
+          "description": "",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

@@ -1,0 +1,576 @@
+{
+  "id": "atlas-sorveteria-e-acai-agua-boa",
+  "platform": "aiqfome",
+  "source": "https://aiqfome.com/MT/agua-boa/atlas-sorveteria-e-acai",
+  "capturedAt": "2026-10-31T23:49:18.783Z",
+  "hours": "Seg a Sex 13h–19h · Sáb e Dom 14h–19h",
+  "sections": [
+    {
+      "name": "Combo",
+      "items": [
+        {
+          "sourceId": "16809255",
+          "name": "Promoção 2 açai de 400 ml",
+          "description": "2 açai de 400 ml por 34,99",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/fe863b4b615b6b547072cb5b31b6d1be26518540.jpeg",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha oreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16890824",
+          "name": "Combo 10 picoles",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha os sabores:",
+              "min": 1,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Chiclete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coalhada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Murici",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha oreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Confete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jujuba",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "16582697",
+          "name": "Açaí",
+          "description": "",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/e6566162dfcaa89b9988911c2a7a3db423b964a7.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolacha oreo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milk shakes",
+      "items": [
+        {
+          "sourceId": "16582723",
+          "name": "Chocolate",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/f64234462edeb4d03adeaada66d128349d3d59f3.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16582724",
+          "name": "Flocos",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/1a903c0e5321ffce4ed1880b7f96cbf423e4bcc8.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16582725",
+          "name": "Creme",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/2a1e92f2bc0931ab232ac0b3068ca8df193b1bba.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16582726",
+          "name": "Morango",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/6ab477eeac3824d735e12a9e6ccd009e68a55a1f.png",
+          "featured": true,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16582727",
+          "name": "Leite ninho",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/2baee233294af4efa078e984cbe82c6023deedd2.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "16582728",
+          "name": "Blue ice",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/2bd3f3254346feea08a3c1e5ab36007a2c1e1bba.png",
+          "featured": false,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "400ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "16582736",
+          "name": "Água s/ gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16582737",
+          "name": "Água c/ gás",
+          "description": "",
+          "priceCents": 450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16582738",
+          "name": "Sprite 330ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16582739",
+          "name": "Coca cola 330ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16582740",
+          "name": "Coca cola zero 330ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Picolés",
+      "items": [
+        {
+          "sourceId": "16841305",
+          "name": "Picolé morango",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841306",
+          "name": "Picolé pistache",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841307",
+          "name": "Picolé murici",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841308",
+          "name": "Picolé limão",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841309",
+          "name": "Picolé chiclete",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841310",
+          "name": "Picolé chocolate",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841311",
+          "name": "Picolé coalhada",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/i8opu401yapydhzmbuyto/a930793763f956a742038e979952c622f78d894d.png",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841312",
+          "name": "Picolé leite condensado",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "16841313",
+          "name": "Picolé milho verde",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

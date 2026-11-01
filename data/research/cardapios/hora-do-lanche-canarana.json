@@ -1,0 +1,388 @@
+{
+  "id": "hora-do-lanche-canarana",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTIyMjM3",
+  "capturedAt": "2026-11-01T02:34:13.657Z",
+  "hours": "Seg a Sex 13h30–18h e 8h–11h30 · Sáb 13h30–21h30",
+  "sections": [
+    {
+      "name": "Pastéis",
+      "items": [
+        {
+          "sourceId": "4966043",
+          "name": "Calabresa com queijo",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4966033",
+          "name": "Carne",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4966041",
+          "name": "Carne com queijo",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4966047",
+          "name": "Frango cremoso",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4966053",
+          "name": "Presunto com queijo",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4966055",
+          "name": "Queijo",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Salgados",
+      "items": [
+        {
+          "sourceId": "4811737",
+          "name": "Bolinha de carne",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/736928446_1583597154.png",
+          "options": []
+        },
+        {
+          "sourceId": "4811713",
+          "name": "Bolinha de queijo",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/407184737_618815201.png",
+          "options": []
+        },
+        {
+          "sourceId": "4811757",
+          "name": "Bolinho de bacalhau",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4812189",
+          "name": "Croquete de costela",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4811721",
+          "name": "Kibe simples",
+          "description": "",
+          "priceCents": 150,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1624140347_809385343.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Coxinhas",
+      "items": [
+        {
+          "sourceId": "4811705",
+          "name": "Coxinha",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/839613152_1788865325.png",
+          "options": [
+            {
+              "name": "COXINHA - Selecione o sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "10 salgados + suco",
+      "items": [
+        {
+          "sourceId": "4811869",
+          "name": "10 salgados + suco",
+          "description": "Clique e selecione",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/97395230_1135763576.png",
+          "options": [
+            {
+              "name": "Combo 10 salgados + Suco - Selecione",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bolinha de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolinha de Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha e Carne",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Suco de ABACAXI",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de LARANJA",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de MARACUJÁ",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de MORANGO",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "20 salgados + suco",
+      "items": [
+        {
+          "sourceId": "4811913",
+          "name": "20 salgados + suco",
+          "description": "Clique e selecione",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/752871466_815777937.png",
+          "options": [
+            {
+              "name": "Combo 20 salgados + Suco - Selecione",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bolinha de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bolinha de Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coxinha e Carne",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha o suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Suco de ABACAXI",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de LARANJA",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de MARACUJÁ",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de MORANGO",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Café da manhã",
+      "items": [
+        {
+          "sourceId": "4952529",
+          "name": "Café preto",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2100666_598959430.png",
+          "options": []
+        },
+        {
+          "sourceId": "4952513",
+          "name": "Misto quente",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4952411",
+          "name": "Pão de queijo - 5 unidades",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1298149981_575094325.png",
+          "options": []
+        },
+        {
+          "sourceId": "4952507",
+          "name": "Tapioca simples",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Churros",
+      "items": [
+        {
+          "sourceId": "4816533",
+          "name": "Churros",
+          "description": "Recheado com doce de Leite",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4816531",
+          "name": "Mini churros",
+          "description": "Recheado com doce de Leite",
+          "priceCents": 100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "4812173",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1205924104_162935499.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4812145",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1400521371_22668281.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4821217",
+          "name": "Coca-cola 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/996771298_1607171312.webp",
+          "options": []
+        },
+        {
+          "sourceId": "4821181",
+          "name": "Guaraná 1lt",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/902844313_478044299.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4821175",
+          "name": "Sukita 1lt",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1310277676_1815503948.webp",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 12
+  },
+  "notes": []
+}

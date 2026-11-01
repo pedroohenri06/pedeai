@@ -1,0 +1,1715 @@
+{
+  "id": "big-pizza-delivery-nx-nova-xavantina",
+  "platform": "olaclick",
+  "source": "https://bigpizzadelivery-bra.ola.click/products",
+  "capturedAt": "2026-10-31T23:56:43.104Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Escolha sua Pizza 02 Sabor",
+      "items": [
+        {
+          "sourceId": "d4989490-abc3-11ec-9585-bf8761a635e9",
+          "name": "Escolha sua Pizza 02 Sabores",
+          "description": "1º Escolha entre nossos sabores deliciosos. 2º Nessa opção você podera escolher praticamente todo seu pedido.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/33ed6c53-965c-4c30-9535-3d4f68643062.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua bebida",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca Cola Lata",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Coca Cola 1,5L",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Coca Cola 2L",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Fanta 2L",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Guarana Maraja Cuiaba 2L",
+                  "priceCents": 750
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu tipo de borda SEM BORDA",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Sabores Pizzas",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango ao creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho com catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda da casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Predileta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa / catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Xavantina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Big pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escolha sua Pizza 01 Sabor",
+      "items": [
+        {
+          "sourceId": "b282d800-1424-11ec-9972-537d82ac5595",
+          "name": "Marguerita",
+          "description": "Muçarela, molho de tomate, tomate e manjeiricão fresco.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/9fc8fefc-8ca0-46fd-a5ae-f0d0352f8b14.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Sabores Brotinho",
+              "min": 1,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b288e200-1424-11ec-82fd-87346f025bac",
+          "name": "Napolitana",
+          "description": "Muçarela, presunto, tomate, azeitona, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/e9ee650b-a5fa-48ce-90de-aab90b9009c6.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Sabores Brotinho",
+              "min": 1,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b28e5920-1424-11ec-872a-531d21c7ad35",
+          "name": "Calabresa",
+          "description": "Muçarela, calabresa, cebola, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/2482cba8-25db-4814-b4d0-2201e015d6f4.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Sabores Brotinho",
+              "min": 1,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2933e20-1424-11ec-a16e-af4ee6ea1494",
+          "name": "CALABRESA C/ Cheddar",
+          "description": "Muçarela, calabresa, cheddar, tomate, cebola, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/8af25fce-9274-444a-8a7e-80a83bbc5ac6.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Sabores Brotinho",
+              "min": 1,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b29985c0-1424-11ec-9e6e-2d39f59425a2",
+          "name": "Frango c/ catupiry",
+          "description": "Muçarela, frango, catupiry, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/99de8b6b-5c24-4d9a-ad5a-4979b1f661fd.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Sabores Brotinho",
+              "min": 1,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2a0ad40-1424-11ec-958c-01ae5c1b9de4",
+          "name": "Frango ao creme",
+          "description": "Muçarela, frango, creme de leite, requeijão, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/77eb544c-b007-4154-99ac-d9ebf16d00e4.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2a71aa0-1424-11ec-9b3f-33ec3f55d11f",
+          "name": "Palmito especial",
+          "description": "Muçarela, palmito, bacon, milho, azeitona, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/ed8b3240-0a2f-4496-8e6f-26f2e361fe8c.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2ac5050-1424-11ec-a458-2d56e4fbf077",
+          "name": "Califórnia",
+          "description": "Muçarela, presunto, calabresa, ervilha, milho,, orégano, tomate e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/fb58be6e-5601-4132-8950-1bbac50d0526.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2b25f60-1424-11ec-8d8d-314ea93b562a",
+          "name": "3 queijo",
+          "description": "Muçarela,catupiry, cheddar, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/77bdf02a-d6a6-428c-8844-4e0ce55b2d00.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "name": "Sabores Brotinho",
+              "min": 1,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2b87d90-1424-11ec-8eb6-49f09f536583",
+          "name": "Milho com catupiry",
+          "description": "Muçarela, milho, catupiry, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/47f8074e-84b6-4e58-9ec9-d1fc4031536e.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2bf74a0-1424-11ec-8e14-f77158f9db26",
+          "name": "Moda da casa",
+          "description": "Muçarela, calabresa, presunto, frango, milho, ervilha, azeitona, orégano, tomate, batata palha e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/f08839d1-75f0-49f8-a207-9fbc954ba4c0.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b2c68ea0-1424-11ec-8029-1fd294a19a63",
+          "name": "Predileta",
+          "description": "Muçarela, presunto, tomate picado, milho, calabresa picada, requeijão e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/5a6ce6a5-8184-41e6-a41c-82ddf9508f72.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "992cfd50-3098-11ed-95a0-778745bfd554",
+          "name": "Mexicana",
+          "description": "Muçarela, calabresa, cebola, azeitona, pimenta calabresa picante, pimentão verde, molho de tomate, oregano.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2b782cf0-af0f-11ed-aa3d-e9ec221025a5",
+          "name": "Xavantina",
+          "description": "Muçarela, frango, milho, tomate, azeitona, orégano e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "91f2d200-af0f-11ed-874d-bfad5a8b334a",
+          "name": "Big pizza",
+          "description": "Muçarela, presunto, palmito, bacon, azeitona, orégano e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e8344fb0-af0f-11ed-ade8-591b49aeae45",
+          "name": "Francesa",
+          "description": "Muçarela, presunto, catupiry, ovo, azeitona, orégano e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2de95b80-af10-11ed-8066-6d48ec4279ca",
+          "name": "Batata palha",
+          "description": "Muçarela, presunto, calabresa, catupiry, batata palha, orégano e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6c25df10-af10-11ed-9e0f-5d933f5fa0c4",
+          "name": "Francheddar",
+          "description": "Muçarela, frango, cheddar, azeitona, orégano e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "978d13e0-af10-11ed-a226-173ce90f99f6",
+          "name": "Mineiro",
+          "description": "Muçarela, presunto, calabresa, pimentão, tomate, milho, azeitona, orégano e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f49e6f80-a6a2-11ee-8abe-476a6e51f60d",
+          "name": "Graziela",
+          "description": "Molho de tomate, presunto, muçarela, tomate picado, palmito, bacon, oregano.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Medio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo pizza g",
+      "items": [
+        {
+          "sourceId": "765a49c0-b850-11ec-899f-d5d0604d87ca",
+          "name": "Combo pizza g",
+          "description": "Pizza g 08 pedaço + refrigerante 2 lt",
+          "priceCents": 6200,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/20a46048-2daf-4944-8be8-37edb7005714.png",
+          "options": [
+            {
+              "name": "Escolha seu tipo de borda SEM BORDA1",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Sabores Pizzas",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango ao creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho com catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda da casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Predileta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa / catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Xavantina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Big pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo pizza m",
+      "items": [
+        {
+          "sourceId": "3898cfd0-b851-11ec-8430-59194bf9b7bd",
+          "name": "Combo pizza m",
+          "description": "Pizza m 06 pedaço + refrigerante 2 lt",
+          "priceCents": 5550,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/bb67d0e0-cfa4-4384-8d05-d93942b7be98.jpg",
+          "options": [
+            {
+              "name": "Escolha seu tipo de borda SEM BORDA",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Tradicional",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Sabores Pizzas",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "CALABRESA C/ Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango ao creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Califórnia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "3 queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho com catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda da casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Predileta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa / catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mexicana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Xavantina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Big pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mineiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Escolha seu Brotinho",
+      "items": [
+        {
+          "sourceId": "d8af34e0-229e-11ee-a992-4dbf61a013a0",
+          "name": "Napolitana",
+          "description": "Muçarela, presunto, tomate, azeitona, orégano e molho de tomate.",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/e9ee650b-a5fa-48ce-90de-aab90b9009c6.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "7 cm",
+                  "priceCents": 0
+                },
+                {
+                  "name": "12 cm",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d8b2b550-229e-11ee-9f8c-750aa160b38e",
+          "name": "Calabresa",
+          "description": "Muçarela, calabresa, cebola, orégano e molho de tomate.",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/2482cba8-25db-4814-b4d0-2201e015d6f4.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "7 cm",
+                  "priceCents": 0
+                },
+                {
+                  "name": "11 cm",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d8b5b260-229e-11ee-8036-ffc1fc2635b8",
+          "name": "CALABRESA C/ Cheddar",
+          "description": "Muçarela, calabresa, cheddar, tomate, cebola, orégano e molho de tomate.",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/8af25fce-9274-444a-8a7e-80a83bbc5ac6.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "11 cm",
+                  "priceCents": 200
+                },
+                {
+                  "name": "4 cm",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d8b87bb0-229e-11ee-a174-4b9e02c6c838",
+          "name": "Frango c/ catupiry",
+          "description": "Muçarela, frango, catupiry, orégano e molho de tomate.",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/99de8b6b-5c24-4d9a-ad5a-4979b1f661fd.jpeg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "11 cm",
+                  "priceCents": 200
+                },
+                {
+                  "name": "7 cm",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d8c6d870-229e-11ee-a33c-ffa98aac3003",
+          "name": "3 queijo",
+          "description": "Muçarela,catupiry, cheddar, orégano e molho de tomate.",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/77bdf02a-d6a6-428c-8844-4e0ce55b2d00.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "95ed3f00-317f-11ee-812e-c7f564d957ae",
+          "name": "Marguerita",
+          "description": "Molho de tomate, mussarela, tomate, manjericão fresco",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "7 cm",
+                  "priceCents": 0
+                },
+                {
+                  "name": "11 cm",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza Borda Tradicional",
+      "items": [
+        {
+          "sourceId": "40f035c0-134d-11ec-97ff-bff19eaf1d14",
+          "name": "Marguerita",
+          "description": "Muçarela, molho de tomate, tomate e manjeiricão fresco.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Media",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d5e31660-134e-11ec-94f1-8b20fbe3afb2",
+          "name": "Napolitana",
+          "description": "Muçarela, presunto, tomate, azeitona, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a1aae320-1420-11ec-aff7-f163503222f8",
+          "name": "Calabresa",
+          "description": "Muçarela, calabresa, tomate, cebola, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6c899a10-1423-11ec-9a2a-d5e10f916e4b",
+          "name": "CALABRESA C/ Cheddar",
+          "description": "Muçarela, calabresa, cheddar, tomate, cebola, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "904d7700-1423-11ec-a252-ad358caccce7",
+          "name": "Frango c/ catupiry",
+          "description": "Muçarela, frango, milho, catupiry, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b4520a60-1423-11ec-9045-b5e393039828",
+          "name": "Frango ao creme",
+          "description": "Muçarela, frango, creme de leite, requeijão,milho, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "fa6d71d0-1423-11ec-a7cb-038e1f4cd6de",
+          "name": "Palmito especial",
+          "description": "Muçarela, palmito, bacon, frango, milho, azeitona, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "17e16f90-1424-11ec-9801-cbbf8d0ce652",
+          "name": "Califórnia",
+          "description": "Muçarela, presunto, calabresa, ervilha, milho,, orégano, tomate e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "313011b0-1424-11ec-b406-21364fa731c7",
+          "name": "3 queijo",
+          "description": "Muçarela,catupiry, cheddar, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4d986360-1424-11ec-9621-a9c7b2626510",
+          "name": "Milho com catupiry",
+          "description": "Muçarela, milho, catupiry, orégano e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "71c43da0-1424-11ec-9f7d-5dbe1e76d271",
+          "name": "Moda da casa",
+          "description": "Muçarela, calabresa, presunto, frango, milho, ervilha, azeitona, orégano, tomate, batata palha e molho de tomate.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "856c3810-1424-11ec-840e-494da58ef733",
+          "name": "Predileta",
+          "description": "Muçarela, presunto, tomate picado, milho, calabresa picada, requeijão e molho de tomate",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Adicional",
+      "items": [
+        {
+          "sourceId": "5ed78700-1426-11ec-bddf-e5440ec1c4f9",
+          "name": "Batata Palha",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/e90c48ea-019c-4e20-8036-e99d71f1234f.png",
+          "options": []
+        },
+        {
+          "sourceId": "811d4090-1426-11ec-a2d4-f79fd37cc26f",
+          "name": "Catupiry",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/0ce8e085-cc07-40e1-8f47-b2eac600e88f.png",
+          "options": []
+        },
+        {
+          "sourceId": "8c634110-1426-11ec-b384-ff229ac62741",
+          "name": "Frango",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/fdd3f4ba-3e0d-40fd-afdb-7503c6d8ec6f.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "9334eba0-1426-11ec-8b57-f3a0874adbb8",
+          "name": "Cheddar",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/a44cfcd7-e990-4421-b9e6-957429720a7d.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "9fcc8d00-1426-11ec-96f1-19ab8ae51f96",
+          "name": "Bacon",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/3588263f-d3d8-401d-ab6a-81136dfe2e3a.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "a3d278a0-1426-11ec-b745-bf4edeee59fe",
+          "name": "Palmito",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/3f481718-d2b4-4e1b-82b4-b55a5643553e.png",
+          "options": []
+        },
+        {
+          "sourceId": "a9764110-1426-11ec-b24b-bd62eb9cd265",
+          "name": "Calabresa",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/b5729f4b-143b-43da-aae2-aa8183836fe3.png",
+          "options": []
+        },
+        {
+          "sourceId": "b0b55480-1426-11ec-ae70-056ad2cfee98",
+          "name": "Presunto",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/4b52157c-d837-40e4-acd6-0d308f8beb60.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "a871dc40-1425-11ec-82ae-f3162832e9e7",
+          "name": "Coca Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/09ef4596-3a14-485d-adef-e0594c88a77f.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3e2324c0-d7bf-11ec-b75b-dbb5c67e0df8",
+          "name": "Guarana Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3599f240-1426-11ec-85cd-3b7a6afd6a83",
+          "name": "Coca Cola 2L",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/a2d9b449-d13c-4d09-a0cd-d395eee18626.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "c605aa70-1425-11ec-a4ae-ef4e3c4b3eaf",
+          "name": "Coca Cola 1,5L",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/008e80ae-f55d-4608-9497-b1819451031b.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3d5f0da0-1426-11ec-91c0-f3a9b3b8d768",
+          "name": "Fanta 2L",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://assets.olaclick.app/companies/products/images/800/8bd93a32-c78e-47a9-bc9c-0a264df37389.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Taxa de cartão",
+      "items": [
+        {
+          "sourceId": "5bb9ea20-edd8-11ec-b66b-a3cf167cfb50",
+          "name": "Taxa cartão de credito",
+          "description": "",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "af8c7cf0-fcb1-11ec-94d5-8fc3a8ba7d3d",
+          "name": "Taxa cartão de debito",
+          "description": "",
+          "priceCents": 100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [],
+  "address": "R. Cascavel - Estilac Leal, Nova Xavantina - MT, 78690-000, Brasil",
+  "whatsapp": "5566981173023"
+}

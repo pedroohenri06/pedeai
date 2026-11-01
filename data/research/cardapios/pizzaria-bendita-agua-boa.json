@@ -1,0 +1,1373 @@
+{
+  "id": "pizzaria-bendita-agua-boa",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTQ3NDE=",
+  "capturedAt": "2026-11-01T02:34:09.365Z",
+  "hours": "Seg 18h–23h · Ter 16h–23h · Qua a Dom 18h–23h",
+  "sections": [
+    {
+      "name": "001 - Pizza Pequena - 04 Fatias",
+      "items": [
+        {
+          "sourceId": "2544553",
+          "name": "Pizza pequena - 4 pedaços 1 sabor",
+          "description": "",
+          "priceCents": 6200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "07 queijos",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Alho e óleo",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Banoffe ( doce )",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa bendita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Califórnia ( doce )",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Carbonara",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Carne seca bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Castelhana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copa e figo",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Cordeiro bendita",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Costela bendita",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Creme de oreo",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Dona onilda bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Filé 5 queijos",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé champignon",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com alho",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com batata frita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé gorgonzola",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Frango caipira",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Fricassê de frango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gaúcha bendita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Goiana bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Moda bendita",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Morango branco ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Morango moreno ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Portogallo bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Prestígio ( doce )",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Romeu e julieta ( doce )",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Rúcula bendita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Sensação m&m ( doce )",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Strogonoff de carne",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Strogonoff de frango",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Tomate Seco com Rúcula",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Toscana bendita",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Via luce",
+                  "priceCents": 1700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry 4 queijos",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Borda de catupiry original",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Borda de cheddar original",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Borda de chocolate branco",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Borda de chocolate preto ao leite",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Borda de doce de leite",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Azeitona preta 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Azeitona verde 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "BACON 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Banana 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Batata frita 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Calabresa 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry 4 queijos 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry original 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Cebola 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddaroriginal 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ervilha 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "MILHO 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Morango 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Mussarela 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Palmito 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de nutella original",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "002 - Pizza Media - 06 Fatias",
+      "items": [
+        {
+          "sourceId": "2544557",
+          "name": "Pizza media - 6 pedaços até 2 sabores",
+          "description": "",
+          "priceCents": 7300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "07 queijos",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Alho e óleo",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Banoffe ( doce )",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa bendita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Califórnia ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Carbonara",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Carne seca bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Castelhana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copa e figo",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Cordeiro bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Costela bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Creme de oreo",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Dona onilda bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Filé 5 queijos",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé champignon",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com alho",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com batata frita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé gorgonzola",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Frango caipira",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Fricassê de frango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gaúcha bendita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Goiana bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Moda bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Morango branco ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Morango moreno ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Portogallo bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Prestígio ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Romeu e julieta ( doce )",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Rúcula bendita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Sensação m&m ( doce )",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Strogonoff de carne",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Strogonoff de frango",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Tomate Seco com Rúcula",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Toscana bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Via luce",
+                  "priceCents": 1700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry 4 queijos",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Borda de catupiry original",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Borda de cheddar original",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Borda de chocolate branco",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Borda de chocolate preto ao leite",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Borda de doce de leite",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Azeitona preta 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Azeitona verde 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "BACON 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Banana 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Batata frita 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Calabresa 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry 4 queijos 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry original 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Cebola 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddaroriginal 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ervilha 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "MILHO 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Morango 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Mussarela 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Palmito 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de nutella original",
+                  "priceCents": 900
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "003 - Pizza Grande - 08 Fatias",
+      "items": [
+        {
+          "sourceId": "2544563",
+          "name": "Pizza grande - 8 pedaços até 2 sabores",
+          "description": "",
+          "priceCents": 8400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "07 queijos",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Alho e óleo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Banoffe ( doce )",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa bendita",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Califórnia ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Carbonara",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Carne seca bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Castelhana",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copa e figo",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Cordeiro bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Costela bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Creme de oreo",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Dona onilda bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Filé 5 queijos",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé champignon",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com alho",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com batata frita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé gorgonzola",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Frango caipira",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Fricassê de frango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gaúcha bendita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Goiana bendita",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Moda bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Morango branco ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Morango moreno ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Portogallo bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Prestígio ( doce )",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Romeu e julieta ( doce )",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Rúcula bendita",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Sensação m&m ( doce )",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Strogonoff de carne",
+                  "priceCents": 2200
+                },
+                {
+                  "name": "Strogonoff de frango",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Tomate Seco com Rúcula",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Toscana bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Via luce",
+                  "priceCents": 1100
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry 4 queijos",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de catupiry original",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de cheddar original",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de chocolate branco",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de doce de leite",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Azeitona preta 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Azeitona verde 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "BACON 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Banana 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Batata frita 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Calabresa 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry 4 queijos 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry original 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Cebola 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddaroriginal 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ervilha 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "MILHO 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Morango 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Mussarela 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Palmito 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de nutella original",
+                  "priceCents": 1100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "004 - Pizza Gigante - 12 Fatias",
+      "items": [
+        {
+          "sourceId": "2544567",
+          "name": "Pizza gigante - 12 pedaços até 3 sabores",
+          "description": "",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "07 queijos",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Alho e óleo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon bendita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Banoffe ( doce )",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Califórnia ( doce )",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Carbonara",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Carne seca bendita",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Castelhana",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copa e figo",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Cordeiro bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Costela bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Creme de oreo",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Dona onilda bendita",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Filé 5 queijos",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé champignon",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com alho",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé com batata frita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Filé gorgonzola",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Frango caipira",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Fricassê de frango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gaúcha bendita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Goiana bendita",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Moda bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Morango branco ( doce )",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Morango moreno ( doce )",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Portogallo bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Prestígio ( doce )",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Romeu e julieta ( doce )",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Rúcula bendita",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Sensação m&m ( doce )",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Sonho de valsa",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Strogonoff de carne",
+                  "priceCents": 2800
+                },
+                {
+                  "name": "Strogonoff de frango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tomate Seco com Rúcula",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana bendita",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Via luce",
+                  "priceCents": 1700
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda catupiry 4 queijos",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda catupiry original",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda cheddar original",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda chocolate branco",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda chocolate preto ao leite",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Doce de leite",
+                  "priceCents": 11300
+                },
+                {
+                  "name": "Azeitona preta 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Azeitona verde 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "BACON 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Banana 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Batata frita 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Calabresa 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry 4 queijos 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry original 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Cebola 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddaroriginal 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ervilha 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "MILHO 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Morango 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Mussarela 100g",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Palmito 100g",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda de nutella original",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda de doce de leite",
+                  "priceCents": 1300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Águas",
+      "items": [
+        {
+          "sourceId": "2544819",
+          "name": "Água com gás 500ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2544821",
+          "name": "Água sem gás 500ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos 1 L",
+      "items": [
+        {
+          "sourceId": "2544831",
+          "name": "Laranja del valle",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Suco Lata",
+      "items": [
+        {
+          "sourceId": "2544823",
+          "name": "Uva del valle",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante Lata",
+      "items": [
+        {
+          "sourceId": "2544805",
+          "name": "Coca - cola",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2544809",
+          "name": "Coca - zero",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2544807",
+          "name": "Fanta",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2544803",
+          "name": "Guaraná",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2544811",
+          "name": "Pepsi zero",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerante 2 Lts",
+      "items": [
+        {
+          "sourceId": "2544815",
+          "name": "Coca - cola",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3075130",
+          "name": "Coca - cola zero",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2544817",
+          "name": "Fanta",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2544813",
+          "name": "Guaraná",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

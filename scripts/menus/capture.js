@@ -55,6 +55,21 @@ const INTERACT = {
       if (body) responses.push({ url, status: 200, body });
     }
   },
+  /* OlaClick: a lista (no __NUXT_DATA__ do HTML) traz só a contagem de opções; o detalhe de cada produto, com os
+     grupos de modificadores, vem de api.olaclick.app/ms-products/public/companies/<empresa>/products/<slug>. */
+  async olaclick(page, responses) {
+    const raw = await page.evaluate(() => { const e = document.getElementById('__NUXT_DATA__'); return e ? e.textContent : '[]'; });
+    const d = require('./nuxt').unflatten(JSON.parse(raw));
+    const company = d.pinia.company.company.id;
+    for (const c of d.pinia.productsCategories.originalProductsCategories || []) {
+      for (const pr of c.products || []) {
+        if (!pr.modifier_categories_count) continue;
+        const url = 'https://api.olaclick.app/ms-products/public/companies/' + company + '/products/' + pr.slug;
+        const body = await page.evaluate(u => fetch(u, { headers: { accept: 'application/json' } }).then(r => r.json()).catch(() => null), url);
+        if (body) responses.push({ url, status: 200, body });
+      }
+    }
+  },
   async menudino(page, responses) {
     const cats = (responses.find(r => /\/catalog\/categories\//.test(r.url)) || {}).body;
     for (const c of (cats && cats.items) || []) {

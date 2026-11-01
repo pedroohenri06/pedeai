@@ -1,0 +1,123 @@
+{
+  "id": "flavio-brasa-burger-vila-rica",
+  "platform": "maisdelivery",
+  "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTQzODk=",
+  "capturedAt": "2026-11-01T02:34:22.431Z",
+  "hours": "Todos os dias, 8h–23h59 e 0h01–1h",
+  "sections": [
+    {
+      "name": "Burger grelhados",
+      "items": [
+        {
+          "sourceId": "3897339",
+          "name": "Pão, carne e queijo",
+          "description": "Pão - Carne - Queijo (IMAGENS REAIS)",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1884849058_1308454437.jpeg",
+          "options": [
+            {
+              "name": "Deixe seu burger maior!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3970199",
+          "name": "Baleado (Agridoce)",
+          "description": "Pão - Blend bovino - Bacon - Geleia de pimenta com abacaxi - Cream Cheese - Molho verde (IMAGENS REAIS)",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/776848383_1317427512.jpeg",
+          "options": [
+            {
+              "name": "Deixe seu burger maior!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2573031",
+          "name": "Basico bem feito",
+          "description": "Pão - Blend Bovino - Alface - Tomate - Bacon - Maionese Verde (IMAGENS REAIS)",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/572865448_611353446.jpeg",
+          "options": [
+            {
+              "name": "Deixe seu burger maior!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2573035",
+          "name": "Duplo Brasa",
+          "description": "Pão - 2 carnes - cheddar - bacon (IMAGENS REAIS)",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1579084279_970723289.jpeg",
+          "options": [
+            {
+              "name": "Deixe seu burger maior!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "2527273",
+          "name": "Coca cola lata",
+          "description": "310ml",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/579029092_84044938.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2527249",
+          "name": "Guaraná lata",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/609703806_534303117.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

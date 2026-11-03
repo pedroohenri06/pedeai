@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/cardapios/fontes.json`.
 
-**100 cardápios importados** de 133 links de cardápio cadastrados · 974 categorias · 5697 produtos · 3812 grupos de opções · 11778 adicionais (opções opcionais) · 3481 fotos.
+**99 cardápios importados** de 132 links de cardápio cadastrados · 972 categorias · 5684 produtos · 3806 grupos de opções · 11772 adicionais (opções opcionais) · 3473 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -64,7 +64,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 | OK | Big Pizza Delivery NX | Nova Xavantina | olaclick | 9 | 56 | 52 | 5 | 32 | 0 | 0 |
 | OK | Bitus Burguer | Nova Xavantina | brendi | 5 | 17 | 78 | 271 | 17 | 15 | 3 |
 | OK | Casa Massa | Nova Xavantina | aiqfome | 8 | 78 | 33 | 0 | 0 | 0 | 0 |
-| OK | Gran Pizza | Nova Xavantina | takeat | 2 | 13 | 6 | 6 | 8 | 0 | 0 |
 | OK | Hatsuki Nova Xavantina | Nova Xavantina | aiqfome | 12 | 77 | 73 | 262 | 42 | 0 | 10 |
 | OK | Kanoa Beach | Nova Xavantina | bigdim | 17 | 110 | 5 | 1 | 95 | 2 | 0 |
 | OK | Magnífico Burguer NX | Nova Xavantina | aiqfome | 5 | 26 | 19 | 39 | 4 | 0 | 4 |
@@ -704,15 +703,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Categorias: 8 · Produtos: 78 · Grupos de opções: 33 (51 escolhas) · Adicionais: 0 · Fotos: 0
 - Não importados: nenhum
 - Observação: Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação.
-- Pendências: 0
-
-### Gran Pizza (Nova Xavantina) — OK
-
-- Fonte: https://pedido.takeat.app/granpizza (takeat)
-- Categorias: 2 · Produtos: 13 · Grupos de opções: 6 (81 escolhas) · Adicionais: 6 · Fotos: 8
-- Não importados: nenhum
-- Observação: "Pizza P (4 pedaços)": "Pizza P" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
-- Observação: "Pizza G ( 8 pedaços)": "Pizza G" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
 - Pendências: 0
 
 ### Hatsuki Nova Xavantina (Nova Xavantina) — OK

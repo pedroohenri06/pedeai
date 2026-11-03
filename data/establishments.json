@@ -173272,7 +173272,7 @@
         "sourceUrl": "https://www.instagram.com/celeiropanificadoranx/",
         "tile": "assets/stores/celeiro-panificadora-e-confeitaria-nova-xavantina-logo-tile.webp"
       },
-      "rank": 17,
+      "rank": 16,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",
@@ -173391,621 +173391,8 @@
       "hours": "19h às 22h30",
       "deliveryFeeCents": null,
       "image": null,
-      "menuSource": "https://pedido.takeat.app/granpizza",
-      "menu": [
-        {
-          "id": "coca-lata",
-          "section": "Bebidas",
-          "name": "Coca lata",
-          "description": "Refrigerante Coca-Cola lata",
-          "priceCents": 600,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/51fe45b8a1bc.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/51fe45b8a1bc-sm.webp",
-            "alt": "Coca lata — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/666c671cfc2cad9a605985a89beaf0e7.webp"
-          }
-        },
-        {
-          "id": "guarana-lata",
-          "section": "Bebidas",
-          "name": "Guarana lata",
-          "description": "Refrigerante guarana lata",
-          "priceCents": 600
-        },
-        {
-          "id": "guarana-zero",
-          "section": "Bebidas",
-          "name": "Guarana zero",
-          "description": "Refrigerante Guaraná lata",
-          "priceCents": 600,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/09cd3cbdf302.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/09cd3cbdf302-sm.webp",
-            "alt": "Guarana zero — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/c54bef210697aac8ec7498accf8035c7.webp"
-          }
-        },
-        {
-          "id": "h20-limoneto",
-          "section": "Bebidas",
-          "name": "H20 limoneto",
-          "description": "Limoneto 500ml",
-          "priceCents": 700,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/73ab04171eda.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/73ab04171eda-sm.webp",
-            "alt": "H20 limoneto — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/edf7899ef15da3f0d016975894d51350.webp"
-          }
-        },
-        {
-          "id": "guarana-1l",
-          "section": "Bebidas",
-          "name": "Guaraná 1L",
-          "description": "Refrigerante Guaraná 1 litro",
-          "priceCents": 900,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/e47bba106109.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/e47bba106109-sm.webp",
-            "alt": "Guaraná 1L — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/85d2ed0d411e1b09046e21945bcbcd9d.webp"
-          }
-        },
-        {
-          "id": "coca-1-5l",
-          "section": "Bebidas",
-          "name": "Coca 1,5L",
-          "description": "Refrigerante Coca-Cola 1,5 litro",
-          "priceCents": 1200,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/886cc972005d.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/886cc972005d-sm.webp",
-            "alt": "Coca 1,5L — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/7fd62dc7a8709aacc8dc588b025d8661.webp"
-          }
-        },
-        {
-          "id": "coca-zero-1-5l",
-          "section": "Bebidas",
-          "name": "Coca zero 1,5L",
-          "description": "Refrigerante Coca-Cola Zero 1,5 litro",
-          "priceCents": 1200,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/086b70d397c5.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/086b70d397c5-sm.webp",
-            "alt": "Coca zero 1,5L — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/25e935a7e64d26b80fc786bd6c51c20d.webp"
-          }
-        },
-        {
-          "id": "guarana-2l",
-          "section": "Bebidas",
-          "name": "Guarana 2l",
-          "description": "",
-          "priceCents": 1200
-        },
-        {
-          "id": "guarana-zero-2l",
-          "section": "Bebidas",
-          "name": "Guarana zero 2l",
-          "description": "Guarana zero 2l",
-          "priceCents": 1200
-        },
-        {
-          "id": "suco-polpa-morango-500ml",
-          "section": "Bebidas",
-          "name": "Suco polpa morango 500ml",
-          "description": "Suco de polpa sabor morango 500ml",
-          "priceCents": 800
-        },
-        {
-          "id": "suco-polpa-abacaxi-500ml",
-          "section": "Bebidas",
-          "name": "Suco polpa Abacaxi 500ml",
-          "description": "Suco de polpa sabor Abacaxi 500ml",
-          "priceCents": 800
-        },
-        {
-          "id": "pizza-p-4-pedacos",
-          "section": "Pizzas",
-          "name": "Pizza P (4 pedaços)",
-          "description": "",
-          "priceCents": 4499,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/56816f3900d2.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/56816f3900d2-sm.webp",
-            "alt": "Pizza P (4 pedaços) — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/fd655ce19a878b1ad56d8ec53d3eabf6.webp"
-          },
-          "options": [
-            {
-              "id": "pizza-p",
-              "name": "Pizza P",
-              "min": 1,
-              "max": 1,
-              "choices": [
-                {
-                  "id": "kids",
-                  "name": "Kids",
-                  "priceCents": 300
-                },
-                {
-                  "id": "bacon",
-                  "name": "Bacon",
-                  "priceCents": 0
-                },
-                {
-                  "id": "baiana-muito-picante",
-                  "name": "Baiana ( muito picante )",
-                  "priceCents": 0
-                },
-                {
-                  "id": "calabresa",
-                  "name": "Calabresa",
-                  "priceCents": 0
-                },
-                {
-                  "id": "calabresa-com-cheddar",
-                  "name": "Calabresa com Cheddar",
-                  "priceCents": 0
-                },
-                {
-                  "id": "da-roca",
-                  "name": "Da Roça",
-                  "priceCents": 0
-                },
-                {
-                  "id": "especial-da-casa",
-                  "name": "Especial da Casa",
-                  "priceCents": 0
-                },
-                {
-                  "id": "frango-c-catupiry",
-                  "name": "Frango c/ Catupiry",
-                  "priceCents": 0
-                },
-                {
-                  "id": "file-ao-creme",
-                  "name": "Filé ao Creme",
-                  "priceCents": 0
-                },
-                {
-                  "id": "frango-ao-creme",
-                  "name": "Frango ao Creme",
-                  "priceCents": 0
-                },
-                {
-                  "id": "gran",
-                  "name": "Gran",
-                  "priceCents": 0
-                },
-                {
-                  "id": "marguerita",
-                  "name": "Marguerita",
-                  "priceCents": 0
-                },
-                {
-                  "id": "portuguesa",
-                  "name": "Portuguesa",
-                  "priceCents": 0
-                },
-                {
-                  "id": "toscana",
-                  "name": "Toscana",
-                  "priceCents": 0
-                },
-                {
-                  "id": "tem-de-tudo",
-                  "name": "Tem de Tudo",
-                  "priceCents": 0
-                },
-                {
-                  "id": "vegetariana",
-                  "name": "Vegetariana",
-                  "priceCents": 0
-                },
-                {
-                  "id": "3-queijos-com-bacon",
-                  "name": "3 Queijos com Bacon",
-                  "priceCents": 0
-                },
-                {
-                  "id": "4-queijos",
-                  "name": "4 Queijos",
-                  "priceCents": 0
-                },
-                {
-                  "id": "atum-especial",
-                  "name": "Atum Especial",
-                  "priceCents": 0
-                },
-                {
-                  "id": "brocolis-especial",
-                  "name": "Brócolis Especial",
-                  "priceCents": 300
-                },
-                {
-                  "id": "canadense",
-                  "name": "Canadense",
-                  "priceCents": 300
-                },
-                {
-                  "id": "carne-seca-cheese",
-                  "name": "Carne Seca Cheese",
-                  "priceCents": 300
-                },
-                {
-                  "id": "carne-seca-chilli",
-                  "name": "Carne Seca Chilli",
-                  "priceCents": 300
-                },
-                {
-                  "id": "nordestina",
-                  "name": "Nordestina",
-                  "priceCents": 300
-                },
-                {
-                  "id": "frango-cheese",
-                  "name": "Frango Cheese",
-                  "priceCents": 300
-                },
-                {
-                  "id": "temaki",
-                  "name": "Temaki",
-                  "priceCents": 0
-                },
-                {
-                  "id": "banoffe",
-                  "name": "Banoffe",
-                  "priceCents": 300
-                },
-                {
-                  "id": "junina",
-                  "name": "Junina",
-                  "priceCents": 300
-                },
-                {
-                  "id": "maltine",
-                  "name": "Maltine",
-                  "priceCents": 300
-                },
-                {
-                  "id": "banana-nevada",
-                  "name": "Banana Nevada",
-                  "priceCents": 300
-                },
-                {
-                  "id": "romeu-julieta",
-                  "name": "Romeu & Julieta",
-                  "priceCents": 300
-                },
-                {
-                  "id": "tres-amores",
-                  "name": "Três Amores",
-                  "priceCents": 300
-                },
-                {
-                  "id": "beijinho",
-                  "name": "Beijinho",
-                  "priceCents": 300
-                },
-                {
-                  "id": "chocolate",
-                  "name": "Chocolate",
-                  "priceCents": 300
-                },
-                {
-                  "id": "brigadeiro",
-                  "name": "Brigadeiro",
-                  "priceCents": 300
-                }
-              ]
-            },
-            {
-              "id": "borda",
-              "name": "Borda",
-              "min": 1,
-              "max": 1,
-              "choices": [
-                {
-                  "id": "sem-borda",
-                  "name": "Sem borda",
-                  "priceCents": 0
-                },
-                {
-                  "id": "borda-de-catupiry",
-                  "name": "Borda de catupiry",
-                  "priceCents": 700
-                },
-                {
-                  "id": "borda-de-cheddar",
-                  "name": "Borda de cheddar",
-                  "priceCents": 800
-                }
-              ]
-            },
-            {
-              "id": "salva-borda",
-              "name": "Salva borda",
-              "min": 0,
-              "max": 3,
-              "choices": [
-                {
-                  "id": "salva-borda-chocolate",
-                  "name": "Salva borda chocolate",
-                  "priceCents": 500
-                },
-                {
-                  "id": "salva-borda-doce-de-leite",
-                  "name": "Salva borda Doce de leite",
-                  "priceCents": 500
-                },
-                {
-                  "id": "salva-borda-chocolate-branco",
-                  "name": "Salva borda Chocolate branco",
-                  "priceCents": 500
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id": "pizza-g-8-pedacos",
-          "section": "Pizzas",
-          "name": "Pizza G ( 8 pedaços)",
-          "description": "",
-          "priceCents": 6499,
-          "image": {
-            "src": "assets/menu/gran-pizza-nova-xavantina/5980fde7d05c.webp",
-            "thumb": "assets/menu/gran-pizza-nova-xavantina/5980fde7d05c-sm.webp",
-            "alt": "Pizza G ( 8 pedaços) — Gran Pizza",
-            "credit": "Gran Pizza",
-            "license": "Uso autorizado pelo estabelecimento parceiro",
-            "sourceUrl": "https://takeat-imgs.takeat.app/43c7fd4071d1d14365969d57c4a10fde.webp"
-          },
-          "options": [
-            {
-              "id": "pizza-g",
-              "name": "Pizza G",
-              "min": 1,
-              "max": 1,
-              "choices": [
-                {
-                  "id": "marguerita",
-                  "name": "Marguerita",
-                  "priceCents": 0
-                },
-                {
-                  "id": "baiana-muito-picante",
-                  "name": "Baiana ( muito picante )",
-                  "priceCents": 0
-                },
-                {
-                  "id": "bacon",
-                  "name": "Bacon",
-                  "priceCents": 0
-                },
-                {
-                  "id": "calabresa",
-                  "name": "Calabresa",
-                  "priceCents": 0
-                },
-                {
-                  "id": "da-roca",
-                  "name": "Da Roça",
-                  "priceCents": 0
-                },
-                {
-                  "id": "frango-c-catupiry",
-                  "name": "Frango c/ Catupiry",
-                  "priceCents": 0
-                },
-                {
-                  "id": "especial-da-casa",
-                  "name": "Especial da Casa",
-                  "priceCents": 0
-                },
-                {
-                  "id": "calabresa-com-cheddar",
-                  "name": "Calabresa com Cheddar",
-                  "priceCents": 0
-                },
-                {
-                  "id": "frango-ao-creme",
-                  "name": "Frango ao Creme",
-                  "priceCents": 0
-                },
-                {
-                  "id": "file-ao-creme",
-                  "name": "Filé ao Creme",
-                  "priceCents": 0
-                },
-                {
-                  "id": "gran",
-                  "name": "Gran",
-                  "priceCents": 0
-                },
-                {
-                  "id": "portuguesa",
-                  "name": "Portuguesa",
-                  "priceCents": 0
-                },
-                {
-                  "id": "toscana",
-                  "name": "Toscana",
-                  "priceCents": 0
-                },
-                {
-                  "id": "tem-de-tudo",
-                  "name": "Tem de Tudo",
-                  "priceCents": 0
-                },
-                {
-                  "id": "vegetariana",
-                  "name": "Vegetariana",
-                  "priceCents": 0
-                },
-                {
-                  "id": "3-queijos-com-bacon",
-                  "name": "3 Queijos com Bacon",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "4-queijos",
-                  "name": "4 Queijos",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "atum-especial",
-                  "name": "Atum Especial",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "brocolis-especial",
-                  "name": "Brócolis Especial",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "canadense",
-                  "name": "Canadense",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "carne-seca-cheese",
-                  "name": "Carne Seca Cheese",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "carne-seca-chilli",
-                  "name": "Carne Seca Chilli",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "nordestina",
-                  "name": "Nordestina",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "frango-cheese",
-                  "name": "Frango Cheese",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "temaki",
-                  "name": "Temaki",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "banoffe",
-                  "name": "Banoffe",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "maltine",
-                  "name": "Maltine",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "banana-nevada",
-                  "name": "Banana Nevada",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "romeu-julieta",
-                  "name": "Romeu & Julieta",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "tres-amores",
-                  "name": "Três Amores",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "kids",
-                  "name": "Kids",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "beijinho",
-                  "name": "Beijinho",
-                  "priceCents": 1000
-                },
-                {
-                  "id": "chocolate",
-                  "name": "Chocolate",
-                  "priceCents": 1001
-                },
-                {
-                  "id": "brigadeiro",
-                  "name": "Brigadeiro",
-                  "priceCents": 1000
-                }
-              ]
-            },
-            {
-              "id": "borda",
-              "name": "Borda",
-              "min": 1,
-              "max": 1,
-              "choices": [
-                {
-                  "id": "sem-borda",
-                  "name": "Sem borda",
-                  "priceCents": 0
-                },
-                {
-                  "id": "borda-de-catupiry",
-                  "name": "Borda de catupiry",
-                  "priceCents": 700
-                },
-                {
-                  "id": "borda-de-cheddar",
-                  "name": "Borda de cheddar",
-                  "priceCents": 800
-                }
-              ]
-            },
-            {
-              "id": "salva-borda",
-              "name": "Salva borda",
-              "min": 0,
-              "max": 3,
-              "choices": [
-                {
-                  "id": "salva-borda-chocolate",
-                  "name": "Salva borda chocolate",
-                  "priceCents": 500
-                },
-                {
-                  "id": "salva-borda-doce-de-leite",
-                  "name": "Salva borda Doce de leite",
-                  "priceCents": 500
-                },
-                {
-                  "id": "salva-borda-chocolate-branco",
-                  "name": "Salva borda Chocolate branco",
-                  "priceCents": 500
-                }
-              ]
-            }
-          ]
-        }
-      ],
+      "menuSource": null,
+      "menu": [],
       "sources": [
         "https://www.instagram.com/granpizzanx/",
         "https://pedido.takeat.app/granpizza"
@@ -174025,7 +173412,7 @@
         "sourceUrl": "https://www.instagram.com/granpizzanx/",
         "tile": "assets/stores/gran-pizza-nova-xavantina-logo-tile.webp"
       },
-      "rank": 12,
+      "rank": 17,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",
@@ -179018,7 +178405,7 @@
         "sourceUrl": "https://www.instagram.com/kanoa.nx/",
         "tile": "assets/stores/kanoa-beach-nova-xavantina-logo-tile.webp"
       },
-      "rank": 13,
+      "rank": 12,
       "brand": {
         "primary": "#8b4f18",
         "deep": "#8b4f18",
@@ -179901,7 +179288,7 @@
         "sourceUrl": "https://www.instagram.com/maiasbrigadeiriaartesanal/",
         "tile": "assets/stores/maia-s-brigadeiria-artesanal-nova-xavantina-logo-tile.webp"
       },
-      "rank": 16,
+      "rank": 15,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",
@@ -180319,8 +179706,8 @@
       "kind": "Hamburgueria e choperia (Chopp Brahma)",
       "address": "Av. Ministro João Alberto, 901, Qd 31 Lt 14",
       "neighborhood": "Central",
-      "whatsapp": null,
-      "whatsappSource": null,
+      "whatsapp": "5511991908448",
+      "whatsappSource": "https://choppbrahmaexpress.meucardapio.ai/",
       "phone": "5566999998284",
       "instagram": "refugiodochoppnx",
       "website": null,
@@ -184277,7 +183664,7 @@
       "featured": true,
       "confidence": "media",
       "verifiedAt": "2026-11-03",
-      "notes": "Indicado pelo Pedro (29/10/2026) como um dos melhores hambúrgueres da cidade. Instagram @refugiodochoppnx, localização marcada 'Xavantina, Mato Grosso'. Telefone (66) 99999-8284 e endereço 'Av. Ministro João Alberto, Nova Xavantina' tirados de um post de 28/04 (sem link de WhatsApp na bio visto, por isso em phone). Número do endereço e horário a confirmar. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
+      "notes": "Indicado pelo Pedro (29/10/2026) como um dos melhores hambúrgueres da cidade. Instagram @refugiodochoppnx, localização marcada 'Xavantina, Mato Grosso'. Telefone (66) 99999-8284 e endereço 'Av. Ministro João Alberto, Nova Xavantina' tirados de um post de 28/04 (sem link de WhatsApp na bio visto, por isso em phone). Número do endereço e horário a confirmar. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar. WhatsApp (11) 99190-8448 do cardápio online Chopp Brahma Express, confirmado pelo Pedro em 03/11/2026 como desta loja.",
       "logo": {
         "src": "assets/stores/refugio-do-chopp-nova-xavantina-logo.webp",
         "thumb": "assets/stores/refugio-do-chopp-nova-xavantina-logo-card.webp",
@@ -185374,7 +184761,7 @@
         "sourceUrl": "https://www.instagram.com/sabor.na.brasa.26/",
         "tile": "assets/stores/sabor-na-brasa-nova-xavantina-logo-tile.webp"
       },
-      "rank": 14,
+      "rank": 13,
       "brand": {
         "primary": "#d08c49",
         "deep": "#986635",
@@ -193831,7 +193218,7 @@
         "sourceUrl": "https://www.instagram.com/suntzusushi/",
         "tile": "assets/stores/suntzu-sushi-nova-xavantina-logo-tile.webp"
       },
-      "rank": 15,
+      "rank": 14,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",

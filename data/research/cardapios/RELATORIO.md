@@ -1,8 +1,8 @@
 # Relatório de importação dos cardápios
 
-Gerado por `node scripts/menus/report.js` em 2026-11-01. Fontes: `data/research/cardapios/fontes.json`.
+Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/cardapios/fontes.json`.
 
-**95 cardápios importados** de 128 links de cardápio cadastrados · 937 categorias · 5435 produtos · 3643 grupos de opções · 11345 adicionais (opções opcionais) · 3240 fotos.
+**100 cardápios importados** de 133 links de cardápio cadastrados · 974 categorias · 5697 produtos · 3812 grupos de opções · 11778 adicionais (opções opcionais) · 3481 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -60,11 +60,16 @@ Gerado por `node scripts/menus/report.js` em 2026-11-01. Fontes: `data/research/
 | OK | 1º Opção Lanches | Nova Xavantina | aiqfome | 7 | 35 | 10 | 35 | 0 | 0 | 0 |
 | OK | Açaí Foods & Crepe Mania | Nova Xavantina | aiqfome | 10 | 80 | 29 | 30 | 78 | 0 | 9 |
 | OK | Araguaia Sushi NX | Nova Xavantina | bigdim | 29 | 147 | 63 | 451 | 140 | 0 | 0 |
+| OK | Big Belly Burguer | Nova Xavantina | takeat | 5 | 12 | 4 | 52 | 3 | 0 | 0 |
 | OK | Big Pizza Delivery NX | Nova Xavantina | olaclick | 9 | 56 | 52 | 5 | 32 | 0 | 0 |
+| OK | Bitus Burguer | Nova Xavantina | brendi | 5 | 17 | 78 | 271 | 17 | 15 | 3 |
 | OK | Casa Massa | Nova Xavantina | aiqfome | 8 | 78 | 33 | 0 | 0 | 0 | 0 |
+| OK | Gran Pizza | Nova Xavantina | takeat | 2 | 13 | 6 | 6 | 8 | 0 | 0 |
 | OK | Hatsuki Nova Xavantina | Nova Xavantina | aiqfome | 12 | 77 | 73 | 262 | 42 | 0 | 10 |
 | OK | Kanoa Beach | Nova Xavantina | bigdim | 17 | 110 | 5 | 1 | 95 | 2 | 0 |
 | OK | Magnífico Burguer NX | Nova Xavantina | aiqfome | 5 | 26 | 19 | 39 | 4 | 0 | 4 |
+| OK | Refúgio do Chopp | Nova Xavantina | meucardapio | 22 | 208 | 16 | 104 | 201 | 0 | 0 |
+| OK | Sabor na Brasa | Nova Xavantina | brendi | 3 | 12 | 65 | 0 | 12 | 0 | 0 |
 | OK | Sorveteria Creme Mania | Nova Xavantina | olaclick | 6 | 12 | 20 | 36 | 12 | 0 | 0 |
 | OK | SuntZu Sushi | Nova Xavantina | cardapioweb | 16 | 134 | 96 | 853 | 110 | 7 | 5 |
 | OK | Suprema Pizza | Nova Xavantina | meucardapio | 14 | 218 | 205 | 121 | 49 | 0 | 0 |
@@ -672,10 +677,24 @@ Gerado por `node scripts/menus/report.js` em 2026-11-01. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Big Belly Burguer (Nova Xavantina) — OK
+
+- Fonte: https://pedido.takeat.app/bigbellyburger (takeat)
+- Categorias: 5 · Produtos: 12 · Grupos de opções: 4 (52 escolhas) · Adicionais: 52 · Fotos: 3
+- Não importados: 21 indisponível
+- Pendências: 0
+
 ### Big Pizza Delivery NX (Nova Xavantina) — OK
 
 - Fonte: https://bigpizzadelivery-bra.ola.click/products (olaclick)
 - Categorias: 9 · Produtos: 56 · Grupos de opções: 52 (187 escolhas) · Adicionais: 5 · Fotos: 32
+- Não importados: nenhum
+- Pendências: 0
+
+### Bitus Burguer (Nova Xavantina) — OK
+
+- Fonte: https://pedido.brendi.com.br/bitus-burguer/ (brendi)
+- Categorias: 5 · Produtos: 17 · Grupos de opções: 78 (297 escolhas) · Adicionais: 271 · Fotos: 17
 - Não importados: nenhum
 - Pendências: 0
 
@@ -685,6 +704,15 @@ Gerado por `node scripts/menus/report.js` em 2026-11-01. Fontes: `data/research/
 - Categorias: 8 · Produtos: 78 · Grupos de opções: 33 (51 escolhas) · Adicionais: 0 · Fotos: 0
 - Não importados: nenhum
 - Observação: Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação.
+- Pendências: 0
+
+### Gran Pizza (Nova Xavantina) — OK
+
+- Fonte: https://pedido.takeat.app/granpizza (takeat)
+- Categorias: 2 · Produtos: 13 · Grupos de opções: 6 (81 escolhas) · Adicionais: 6 · Fotos: 8
+- Não importados: nenhum
+- Observação: "Pizza P (4 pedaços)": "Pizza P" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza G ( 8 pedaços)": "Pizza G" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
 - Pendências: 0
 
 ### Hatsuki Nova Xavantina (Nova Xavantina) — OK
@@ -710,6 +738,20 @@ Gerado por `node scripts/menus/report.js` em 2026-11-01. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/nova-xavantina/magnifico-burguer (aiqfome)
 - Categorias: 5 · Produtos: 26 · Grupos de opções: 19 (57 escolhas) · Adicionais: 39 · Fotos: 4
 - Não importados: 1 sem preço
+- Pendências: 0
+
+### Refúgio do Chopp (Nova Xavantina) — OK
+
+- Fonte: https://choppbrahmaexpress.meucardapio.ai/ (meucardapio)
+- Categorias: 22 · Produtos: 208 · Grupos de opções: 16 (104 escolhas) · Adicionais: 104 · Fotos: 201
+- Não importados: nenhum
+- Pendências: 0
+
+### Sabor na Brasa (Nova Xavantina) — OK
+
+- Fonte: https://pedido.brendi.com.br/sabor-na-brasa (brendi)
+- Categorias: 3 · Produtos: 12 · Grupos de opções: 65 (65 escolhas) · Adicionais: 0 · Fotos: 12
+- Não importados: nenhum
 - Pendências: 0
 
 ### Sorveteria Creme Mania (Nova Xavantina) — OK

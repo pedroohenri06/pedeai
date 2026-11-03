@@ -1,0 +1,1953 @@
+{
+  "id": "bitus-burguer-nova-xavantina",
+  "platform": "brendi",
+  "source": "https://pedido.brendi.com.br/bitus-burguer/",
+  "capturedAt": "2026-11-03T16:13:05.502Z",
+  "hours": "Qua a Sáb 19h–22h",
+  "sections": [
+    {
+      "name": "Cookies",
+      "items": [
+        {
+          "sourceId": "LWcCmO5fxp2rwngiKOVp",
+          "name": "Cookie tradicional",
+          "description": "Chocolatudo e Cremoso! A receita clássica do famoso cookie do Bitus. Crocante por fora e macio por dentro. Massa amanteigada e feito com chocolate de verdade. Dica: coloque 15 segundos no micro-ondas para deixar o interior mais cremoso. Obs.: Preço refere-se a 1 (uma) unidade de cookie de 90g.",
+          "priceCents": 1190,
+          "originalPriceCents": 1599,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FLWcCmO5fxp2rwngiKOVp.jpeg?alt=media",
+          "featured": true,
+          "options": []
+        },
+        {
+          "sourceId": "r8DJlv43VDktHOTebV9f",
+          "name": "Cookie red velvet",
+          "description": "Esse é o cookie mais famoso do Bitus: uma verdadeira explosão de sabores! Massa abaunilhada, um sutil toque de cacau 100% e gotas de chocolate branco que deixam ele bem chocolatudo. Algumas pessoas já disseram que tem \"cheiro de shopping\" (e nem é mentira), mas será que tem mesmo? Peça e descubra! Preço corresponde à uma unidade de cookie red velvet. Peso aprox.: 90g",
+          "priceCents": 1290,
+          "originalPriceCents": 1590,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2Fr8DJlv43VDktHOTebV9f-1776885292867.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Smash burguer alto - novidade",
+      "items": [
+        {
+          "sourceId": "nuaIbjqEWXPYpz5LDWng",
+          "name": "Altinho salada",
+          "description": "Essa versão de smash alto está incrível! Pão brioche selado, blend de 180g, queijo cheddar, cebola roxa, tomate cereja, alface americana e maionese verde. Acompanha potinho (50g) de maionese verde com um toque de manjericão. Obs.: NÃO é possível alterar o ponto da carne. Por se tratar de um smash, a espessura da carne pode variar quando esmagada na chapa, podendo haver mudança no ponto. O ponto será sempre \"ao ponto\" ou \"ao ponto para mal passada\" Sugestão: Se preferiar a carne bem passada, peça da categoria \"smash burgers clássicos\".",
+          "priceCents": 3890,
+          "originalPriceCents": 4290,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FnuaIbjqEWXPYpz5LDWng-1790113835347.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hambúrguer 180g + cheddar",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "+ Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "+ Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "+ Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smash burgers autorais",
+      "items": [
+        {
+          "sourceId": "w9cYdePkrZrbWRVJ914A",
+          "name": "Spicy bitus 2.0",
+          "description": "ATENÇÃO!! O cream cheese foi substituído por requeijão cremoso. O Spicy Bitus é diferente, mas é extraordinário. São dois smashs de 90g cada (180g) e para dar cremosidade, uma generosa camada de requeijão cremoso. A cebola crispy com certeza da um sabor único para esse burguer. E é claro que nâo pode faltar a protagonista: geleia de pimenta, que da aquele toque agridoce e apimentado que não pode faltar. Ah, e para dar aquela acidez maravilhosa, não pode faltar um pouco de molho Bitus, né?! Pão brioche selado, 2 smashs de 90g cada (180g), requeijão cremoso, cebola crispy, geleia de pimenta e molho Bitus. Obs.: é levemente apimentado",
+          "priceCents": 3790,
+          "originalPriceCents": 3990,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2Fw9cYdePkrZrbWRVJ914A-1778087777438.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "MDwk4n51TEx0Qk9F8WwK",
+          "name": "Anti-vamp alho negro",
+          "description": "Essa receita autoral carrega consigo um toque do quinto sabor básico, mais conhecido como Umami. O sabor agridoce do molho de alho negro harmoniza com fatias de tomate cereja grelhados, dois suculentos smashs (90g cada, total de 180g) e o molho cheddar traz mais suculência à esse delicioso hambúrguer. Não podemos esquecer do bacon crocante que cai muito bem nessa receita. Pão brioche selado, 2 smashs 90g cada (180g), molho cheddar, tomate cereja grelhado, bacon e molho de alho negro",
+          "priceCents": 3890,
+          "originalPriceCents": 4290,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FEFAWh86Ap8E82ZtBER5H.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Smash burgers clássicos",
+      "items": [
+        {
+          "sourceId": "kZINnO8SM6HaHoijy8f3",
+          "name": "Start bitus",
+          "description": "Aqui é onde tudo começa... o clássico dos clássicos! A essência de um verdadeiro Bitus começa com um pão brioche selado, 2 smashs de 90g cada (180g total), queijo cheddar derretido e molho bitus. O básico precisa ser bem feito, e o Start é assim... Pão brioche, 2 smashs de 90 cada (180g), queijo cheddar e molho Bitus* *molho bitus é um molho levemente ácido. Sua composição: maionese, mostarda, ketchup, picles de pepino, páprica defumada e água do picles. É uma delícia (modéstia a parte) e muito versátil.",
+          "priceCents": 2990,
+          "originalPriceCents": 3490,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FkZINnO8SM6HaHoijy8f3-1776288864182.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "EXrTuLa5ahGvU2ZG4Qwf",
+          "name": "Old school",
+          "description": "Um clássico das hamburguerias americanas, mas dessa vez trazendo a brasilidade e doçura do tomate cereja. Pão brioche selado, 2 smashs de 90g cada (180g), queijo cheddar derretido, tomate cereja, alface americana e molho Bitus. A releitura perfeita de um clássico refrescante! Pão brioche, 2 smashs 90g cada (180g), queijo cheddar, tomate cereja, alface americana e molho Bitus.",
+          "priceCents": 3190,
+          "originalPriceCents": 3690,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FEXrTuLa5ahGvU2ZG4Qwf.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "T4dsnnA6e7yD7q34peVd",
+          "name": "Oklahoma bitus",
+          "description": "Esse com certeza é um clássico absoluto. Nascido em meados dos anos 1920/1930 no estado de Oklahoma, nos EUA, esse hambúrguer se desenvolveu em meio à uma crise econômica do país e se tornou queridinho por muitos, justamente por trazer a caramelização da cebola que é esmaga junto com a carne. O sabor é sensacional. O picles traz acidez e o queijo cheddar traz cremosidade. Uma combinação perfeita! Pão brioche, picles de pepino, 2 smashs 90g cada esmagados com cebola branca, queijo cheddar e molho Bitus.",
+          "priceCents": 3290,
+          "originalPriceCents": 3790,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FT4dsnnA6e7yD7q34peVd.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4rbMsfwVTl4SCMQcRHNj",
+          "name": "Old school plus",
+          "description": "Agora imagina o Old School, mas com um plus: fatias de bacon crocantes! O que já era bom, fica melhor ainda com essa versão turbinada de um clássico. Um pão brioche selado abraçando dois suculentos smashs de 90g cada (180g), com cheddar derretido, generosas fatias crocantes de bacon, alface americana, tomate cereja e molho Bitus. Esse é o preferido do Bitus! Pão brioche selado, 2 smashs 90g cada (180g), queijo cheddar, bacon, alface, tomate cereja e molho Bitus.",
+          "priceCents": 3590,
+          "originalPriceCents": 3990,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2F4rbMsfwVTl4SCMQcRHNj.jpeg?alt=media",
+          "featured": true,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "8zFUdLiznbttUyUXwQaY",
+          "name": "Big bitus",
+          "description": "Tá com fome?! Então o Big Bitus será seu pedido de hoje. Pão brioche selado, 3 smashs brutalmente esmagados na chapa, cada um com 90g de carne (270g total), molho cheddar em dobro, picles de pepino, bacon crocante e molho Bitus. Pão brioche, 3 smashs 90g cada (270g), molho cheddar, picles de pepino, bacon e molho Bitus",
+          "priceCents": 4290,
+          "originalPriceCents": 4690,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2F8zFUdLiznbttUyUXwQaY.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Cptm0vD9Eem2Fo2gzGk4",
+          "name": "Bitinho",
+          "description": "Sabe aquele dia \"não tô afim de lavar louça\"?. O bitinho com certeza é a melhor pedida. Perfeito para jantar após um dia cansativo de trabalho. É o famoso \"simples bem feito\". Pão brioche selado, um smash de 90g, duas fatias de cheddar derretido, bacon crocante e molho Bitus. Obs.: recomendado para crianças ou adultos que comem pouco Pão brioche, um smash 90g, duas fatias de cheddar, bacon e molho Bitus.",
+          "priceCents": 2790,
+          "originalPriceCents": 2990,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FCptm0vD9Eem2Fo2gzGk4.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "v4bfuVGm6sxFBjS0Ndng",
+          "name": "Melt bitus",
+          "description": "Essa é nossa releitura de um clássico americano: o Patty melt. O sabor agridoce da geleia de cebola caramelizada deixa esse hambúrguer ainda mais saboroso. Pão brioche selado, 2 smashs 90g cada (180g), molho cheddar, geleia de cebola caramelizada, bacon crocante e finalizado com molho barbecue Pão brioche, 2 smashs 90g cada (180g), molho cheddar, geleia de cebola caramelizada, bacon e barbecue",
+          "priceCents": 3390,
+          "originalPriceCents": 3890,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2Fv4bfuVGm6sxFBjS0Ndng.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "HwOwyDPoSE84ESHg3mmU",
+          "name": "Clássico da bitas",
+          "description": "Esse com certeza é o preferido da Bitas. Mas quem é Bitas? Minha família não estava contente em somente me apelidar de \"Bitus\", mas também apelidou minha esposa de \"Bitas\". Esse clássico só poderia ter esse nome, pois é carregado de refrescância e sabores. Pão selado, dois smashs de 90g cada (180g), queijo cheddar derretido, picles de pepino em formato ondulado (que fica muito mais gostoso, segundo eu mesmo), cebola roxa que traz crocância e refrescância, bacon crocante e molho Bitus para finalizar. Pão brioche, 2 smashs 90g cada (180g), cheddar, picles de pepino, cebola roxa, bacon e molho bitus.",
+          "priceCents": 3690,
+          "originalPriceCents": 3990,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FHwOwyDPoSE84ESHg3mmU.jpeg?alt=media",
+          "featured": true,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "kfMvxl5ZlNjTnqWA37sS",
+          "name": "Cheddar plus",
+          "description": "Esse é para os amantes de cheddar. Pão brioche selado, 2 smashs de 90g cada (180g), molho cheddar cremoso, bacon crocante e acompanha adicional de molho cheddar no potinho.",
+          "priceCents": 3890,
+          "originalPriceCents": 3990,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FkfMvxl5ZlNjTnqWA37sS.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "S6fpQKl942dk20f6vXsy",
+          "name": "Bitão",
+          "description": "Esse aqui não é pra qualquer um! Tá com fome de verdade, vai no Bitão. Vamos lá: pão brioche selado, 4 (quaaaatro) smashs de 90g cada (360g total), 4 fatias de cheddar para deixar tudo mais cremoso, picles de pepino, bacon crocante, molho Bitus na base e molho barbecue na tampa. Ignorante! Pão brioche, 4 smashs 90g cada (360g), 4x cheddar, picles de pepino, bacon, molho Bitus e molho barbecue.",
+          "priceCents": 4990,
+          "originalPriceCents": 5690,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FS6fpQKl942dk20f6vXsy.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Batata",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de batata individual - tam. p",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Quero molho no POTINHO! - IDEAL PARA BATATA",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "2 Molhos - MAIS PEDIDO",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Potinho Molho Bitus",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho maionese verde (NOVIDADE)",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Potinho geleia de pimenta",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Potão de cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Vamos turbinar esse burguer?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese verde (NOVIDADE)",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Geleia de cebola caramelizada",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 299
+                },
+                {
+                  "name": "Cheddar em dobro",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Smash 90g",
+                  "priceCents": 799
+                },
+                {
+                  "name": "No estilo Oklahoma",
+                  "priceCents": 99
+                },
+                {
+                  "name": "Picles de pepino",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 199
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 149
+                },
+                {
+                  "name": "Tomate Cereja",
+                  "priceCents": 149
+                }
+              ]
+            },
+            {
+              "name": "Vai um Cookie?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Cookie Tradicional",
+                  "priceCents": 1190
+                },
+                {
+                  "name": "Cookie Red Velvet",
+                  "priceCents": 1290
+                }
+              ]
+            },
+            {
+              "name": "Bebida?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca-cola lata 310ml",
+                  "priceCents": 690
+                },
+                {
+                  "name": "Coca-cola Zero Lata 310ml",
+                  "priceCents": 690
+                }
+              ]
+            },
+            {
+              "name": "Guardanapos?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, quero guardanapos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não quero guardanapos",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "g8Zm8uxZW1lubqMTxKrb",
+          "name": "Coca-cola lata 310ml",
+          "description": "",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2Fg8Zm8uxZW1lubqMTxKrb.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "dJHTwu35NrTmHvUh5Svp",
+          "name": "Coca-cola zero 310ml",
+          "description": "",
+          "priceCents": 690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FHIvSzZeHnLq2aoCMDc4u%2Fimages%2Fproducts%2FdJHTwu35NrTmHvUh5Svp.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

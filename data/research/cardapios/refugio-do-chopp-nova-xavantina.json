@@ -1,0 +1,2529 @@
+{
+  "id": "refugio-do-chopp-nova-xavantina",
+  "platform": "meucardapio",
+  "source": "https://choppbrahmaexpress.meucardapio.ai/",
+  "capturedAt": "2026-11-03T16:12:54.505Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Sanduíches",
+      "items": [
+        {
+          "sourceId": "389315",
+          "name": "Precioso",
+          "description": "Pão, 200g de Carne, Queijo, Cebola Crispy, Bacon, Maionese e Barbecue",
+          "priceCents": 4399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/e27696d0-e0e5-11ef-984d-2ffd41fa986f.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "389316",
+          "name": "Flamingo",
+          "description": "Pão, 200g de Carne, Queijo cheddar, Picles de Cebola Roxa, Bacon, Maionese e Barbecue",
+          "priceCents": 4399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/fb3398d0-e0e5-11ef-aab0-b5ce65b28d8f.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "389318",
+          "name": "Brisket cupim premium",
+          "description": "Pão brioche com cupim desfiado e defumado, acompanhado de salada coleslaw, molho barbecue e maionese artesanal. Um sanduíche cheio de sabor e originalidade!",
+          "priceCents": 4399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b6269710-df1e-11ef-9099-35a07f9f156b.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "390684",
+          "name": "Monstrengo",
+          "description": "Pão brioche 2 hambúrgueres de 200g cada grelhado na medida certa em nossa parrilla 4 fatias de queijo cheddar Muito bacon Maionese do chef Picles de pepino Molho barbecue defumado artesanal preparado por nós",
+          "priceCents": 5099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a7b224b0-ea5e-11ef-8b6d-37f1fb479d63.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "390685",
+          "name": "Hermano",
+          "description": "Pão brioche Nosso Blend de 200g Catupiry original Tomate grelhado Molho chimichurri autentico argentino preparado por nós",
+          "priceCents": 4499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/efa6b4c0-ea5e-11ef-b6c5-ab62280b7e02.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "391661",
+          "name": "Oxente",
+          "description": "Pão brioche 200g do nosso delicioso blend de carne 2 fatias de queijo coalho grelhadas Bacon Geleia de pimenta feita na casa Maionese do chef",
+          "priceCents": 4399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c2146990-f0b1-11ef-aaf0-a39d36bd80b4.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "391672",
+          "name": "Simplão",
+          "description": "Pão brioche bem macio Nosso delicioso blend de 200g 2 fatias de queijo prato",
+          "priceCents": 3099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/e331d430-f0c2-11ef-a01a-a31096a67d21.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "393171",
+          "name": "Franguito",
+          "description": "Pão brioche, um delicioso filé de frango suculento empanado com o nosso molho tártaro.",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/38633de0-ff96-11ef-8f91-0bec61763d8d.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Hambúrguer extra 200g",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Cebola crispy",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Picles cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Queijo cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo prato",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho chimichurri, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Maionese do chefe, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Molho sour cream, 100g",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Gelia de pimenta, 100g",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Molho barbecue defumado, 100g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "413405",
+          "name": "Sanduíche hermano + bebida promocional",
+          "description": "Escolha a bebida da sua preferência guaraná, pepsi, sukita laranja, soda limonada. (exclusivo para delivery).",
+          "priceCents": 4599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/bfdd9d40-77c5-11f0-9b81-b1b7932c3f94.png",
+          "options": []
+        },
+        {
+          "sourceId": "426812",
+          "name": "Brioche angus",
+          "description": "Pão brioche, hambúrguer Angus, cebola Rocha, fatias de bacon, maionese, picles de pepino, queijo cheddar.",
+          "priceCents": 4899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a5c8ec10-9fe9-11f0-bee2-2b3e691a71b8.png",
+          "options": []
+        },
+        {
+          "sourceId": "426813",
+          "name": "Golden rib",
+          "description": "Pão brioche, hambúrguer de costela, fatia de abacaxi grelhado e banhado no mel, rúcula, bacon, fatia de queijo prato e molho de cheddar com pimenta.",
+          "priceCents": 4899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/833b86a0-9fec-11f0-a9d6-db7e422da062.png",
+          "options": []
+        },
+        {
+          "sourceId": "438081",
+          "name": "Sausage burguer",
+          "description": "Pão brioche, hamburguer artesanal, linguiça toscana, queijo coalho, maionese de bacon, mel e vinagrete.",
+          "priceCents": 5099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2ea7fe20-b9eb-11f0-80ad-33e1a32f7828.png",
+          "options": []
+        },
+        {
+          "sourceId": "438908",
+          "name": "Romeu e julieta",
+          "description": "Pão brioche 200g do nosso delicioso blend de carne 2 fatias de queijo coalho grelhadas Bacon Geleia de goiabada especial feita pela casa Maionese do chef",
+          "priceCents": 4399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/956bb1b0-bf4f-11f0-84d3-d122fa7df212.png",
+          "options": []
+        },
+        {
+          "sourceId": "439167",
+          "name": "Fitness burguer",
+          "description": "Hamburguer, queijo prato, vinagrete, picles de pepino e alface",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a80084b0-c0e7-11f0-937b-e19f2ba3208d.png",
+          "options": []
+        },
+        {
+          "sourceId": "443706",
+          "name": "Refugio burguer",
+          "description": "Pão Brioche, maionese, Hamburguer de frango, queijo cheddar, bacon, alface, molho rose.",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8d919150-d21c-11f0-9c67-a96af07e050a.png",
+          "options": []
+        },
+        {
+          "sourceId": "443767",
+          "name": "Baguete frango supreme",
+          "description": "Pão baguete, Tomate em cubos, frango, alface, molho rose, bacon, mussarela, acompanha fritas",
+          "priceCents": 3399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/cf1d5110-d31e-11f0-8426-5d22fc108501.png",
+          "options": []
+        },
+        {
+          "sourceId": "443768",
+          "name": "Baguete filé premium",
+          "description": "Pão baguete, tomate em cubos, filé mignon, alface, molho rose, bacon, mussarela, acompanha fritas",
+          "priceCents": 4399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/bc21b290-d31e-11f0-9c67-a96af07e050a.png",
+          "options": []
+        },
+        {
+          "sourceId": "443769",
+          "name": "Baguete cupim defumado",
+          "description": "Pão baguete, tomate em cubos, cupim defumado, alface, molho rose, barbecue defumado, bacon, mussarela, acompanha fritas",
+          "priceCents": 3899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/ac95bf60-d31e-11f0-a787-0772aa6def1f.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Adicionais para os sanduíches",
+      "items": [
+        {
+          "sourceId": "391163",
+          "name": "Bacon",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8035c490-bc23-11f0-afe2-17b3ac23c81a.png",
+          "options": []
+        },
+        {
+          "sourceId": "391173",
+          "name": "Hambúrguer extra 200g",
+          "description": "",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/3d22b4c0-ef0e-11ef-a01a-a31096a67d21.png",
+          "options": []
+        },
+        {
+          "sourceId": "391164",
+          "name": "Cebola crispy",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/3fc86720-ee4f-11ef-8407-25b860eae9c4.png",
+          "options": []
+        },
+        {
+          "sourceId": "391165",
+          "name": "Picles cebola",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/7c48d630-ee4f-11ef-8a70-8915f66ba5bb.png",
+          "options": []
+        },
+        {
+          "sourceId": "391168",
+          "name": "Queijo cheddar",
+          "description": "",
+          "priceCents": 499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/46963c20-ee50-11ef-be0a-f7fa29b9545a.png",
+          "options": []
+        },
+        {
+          "sourceId": "391339",
+          "name": "Queijo prato",
+          "description": "",
+          "priceCents": 499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/264daca0-ef0e-11ef-8407-25b860eae9c4.png",
+          "options": []
+        },
+        {
+          "sourceId": "405750",
+          "name": "Queijo coalho",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/795067f0-5ad2-11f0-80a0-25b232ad61cf.png",
+          "options": []
+        },
+        {
+          "sourceId": "405751",
+          "name": "Catupiry",
+          "description": "",
+          "priceCents": 499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a58c66c0-489e-11f0-8294-df2b41962d00.png",
+          "options": []
+        },
+        {
+          "sourceId": "410885",
+          "name": "Frango extra",
+          "description": "Filé de frango empanado crocante para seu sanduíche",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/253594b0-8f66-11f0-9151-0fb65bf6979c.png",
+          "options": []
+        },
+        {
+          "sourceId": "494615",
+          "name": "Torrada ceviche",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "494616",
+          "name": "Pão de Alho",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Molhos",
+      "items": [
+        {
+          "sourceId": "410669",
+          "name": "Molho tártaro",
+          "description": "Maionese artesanal, Alcaparra, Picles de pepino, picles de cebola, Cebola roxa, Cenoura e Molho inglês.",
+          "priceCents": 699,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/f0befd60-5abe-11f0-8402-afe1cd396021.png",
+          "options": []
+        },
+        {
+          "sourceId": "391174",
+          "name": "Geleia de pimenta, 100g",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c81423b0-8f64-11f0-bb71-cf36533b6655.png",
+          "options": []
+        },
+        {
+          "sourceId": "391175",
+          "name": "Molho barbecue defumado, 100g",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2ff9c6f0-5abe-11f0-8402-afe1cd396021.png",
+          "options": []
+        },
+        {
+          "sourceId": "391176",
+          "name": "Molho chimichurri, 100g",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/9918f0c0-5abe-11f0-80a0-25b232ad61cf.png",
+          "options": []
+        },
+        {
+          "sourceId": "391178",
+          "name": "Molho sour cream, 100g",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/674ae490-f0ab-11ef-9864-1f6f259b0c80.png",
+          "options": []
+        },
+        {
+          "sourceId": "422882",
+          "name": "Maionese de bacon",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/66551940-8f64-11f0-b731-cb74b04c6d2f.png",
+          "options": []
+        },
+        {
+          "sourceId": "422884",
+          "name": "Molho verde",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/43e2e450-8f64-11f0-b460-effd94be7405.png",
+          "options": []
+        },
+        {
+          "sourceId": "422885",
+          "name": "Molho rose",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/925dfca0-8f64-11f0-9151-0fb65bf6979c.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Petiscos",
+      "items": [
+        {
+          "sourceId": "389301",
+          "name": "Batata moda da casa",
+          "description": "Nossas batatas fritas, crocantes por fora e macias por dentro, perfeitas para acompanhar uma boa conversa. 450g",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2f914570-df1d-11ef-91ff-4198a44f1afc.png",
+          "options": []
+        },
+        {
+          "sourceId": "389303",
+          "name": "Cupim fries",
+          "description": "Batatas fritas com tempero exclusivo, cobertas com suculento cupim desfiado defumado por 15 horas, finalizadas com sour cream.",
+          "priceCents": 5799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/1c3a7030-e0e1-11ef-9968-67ead975a767.png",
+          "options": []
+        },
+        {
+          "sourceId": "389307",
+          "name": "Meatballs defumadas",
+          "description": "Bolinhos de cupim defumado por 15 horas, envoltos em um cremoso molho de catupiry e empanados em farinha panko para uma crocância perfeita. 6 unidades.",
+          "priceCents": 5099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/24af68b0-e0e6-11ef-a660-3ffdb96a1ff3.png",
+          "options": []
+        },
+        {
+          "sourceId": "389309",
+          "name": "Torresmo da casa",
+          "description": "Crocância e suculência com o máximo de sabor em cada pedaço, preparado de maneira artesanal. 250g.",
+          "priceCents": 2899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a0e9a1b0-8920-11f0-b565-ab7ef68da70c.png",
+          "options": []
+        },
+        {
+          "sourceId": "390786",
+          "name": "Tábua de frios",
+          "description": "Mussarela temperada Queijo Prato Salame ou peperoni Picles de cebola pepino azeitona Ovo de codorna Tomate cereja Geleia de pimenta Sour cream serve até 4 pessoas",
+          "priceCents": 6999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/86c0d420-ecb3-11ef-8401-9b21258cd7b5.png",
+          "options": []
+        },
+        {
+          "sourceId": "422746",
+          "name": "Iscas de frango",
+          "description": "500 g. Acompanha um delicioso molho rose.",
+          "priceCents": 5499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8ac333e0-c7fc-11f0-a73f-bf35aedf6267.png",
+          "options": []
+        },
+        {
+          "sourceId": "422967",
+          "name": "Bolinho de costela",
+          "description": "",
+          "priceCents": 5099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/10dba710-8f58-11f0-a510-a922df1e4cac.png",
+          "options": []
+        },
+        {
+          "sourceId": "422971",
+          "name": "Mandioca frita",
+          "description": "Acompanha molho verde ou molho rosê.",
+          "priceCents": 2799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2a6c01d0-8f5c-11f0-a74f-a5b1fd635108.png",
+          "options": []
+        },
+        {
+          "sourceId": "423035",
+          "name": "Linguiça",
+          "description": "",
+          "priceCents": 4699,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/d7866c20-905b-11f0-965f-f37ba3739322.png",
+          "options": []
+        },
+        {
+          "sourceId": "426354",
+          "name": "Torresmo mamute 500 g",
+          "description": "",
+          "priceCents": 5099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2dccef80-9a72-11f0-89b2-617daea9ce6c.png",
+          "options": []
+        },
+        {
+          "sourceId": "439229",
+          "name": "Almondegas assadas",
+          "description": "Almondegas, queijo cheddar, molho especial e salada.",
+          "priceCents": 4899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/5e7334d0-c2ab-11f0-9608-bb6d13357069.png",
+          "options": []
+        },
+        {
+          "sourceId": "439344",
+          "name": "Quibe crocante com mussarela",
+          "description": "10 unidades.",
+          "priceCents": 4899,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "443707",
+          "name": "Filé de tilapia 500g",
+          "description": "",
+          "priceCents": 8999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/cf921520-d21c-11f0-9faa-d71a01993b0f.png",
+          "options": []
+        },
+        {
+          "sourceId": "464785",
+          "name": "Bolinho de filé de tilapia",
+          "description": "",
+          "priceCents": 5999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/22de96c0-1e3c-11f1-ab55-3be70cb9964a.png",
+          "options": []
+        },
+        {
+          "sourceId": "464791",
+          "name": "Discos de carne",
+          "description": "",
+          "priceCents": 4899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/64819bd0-1e3d-11f1-85be-cd77066264a0.png",
+          "options": []
+        },
+        {
+          "sourceId": "469206",
+          "name": "Ventrecha de caranha",
+          "description": "500g",
+          "priceCents": 6199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/6e7324d0-2a0c-11f1-9e0f-fbc895122deb.png",
+          "options": []
+        },
+        {
+          "sourceId": "484886",
+          "name": "Ceviche",
+          "description": "150g de tilápia, Pimenta dedo de moça, Pimenta biquinho, pimenta de cheiro, limão, hondashi, salsa, cebolinha, brisp de batata, geleia de pimenta. Acompanha fatias de pão",
+          "priceCents": 6999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/92194a70-515f-11f1-b79b-d9e5f3713ced.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Defumados",
+      "items": [
+        {
+          "sourceId": "389311",
+          "name": "Pork ribs bbq premium 1kg",
+          "description": "Costelinha suína defumada por 8 horas, coberta com nosso molho barbecue especial. Acompanha batatas fritas e salada coleslaw crocante e arroz branco. Serve de 3 a 4 pessoas.",
+          "priceCents": 14499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8497cc70-e359-11ef-814a-b7b26921faa6.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções na chapa",
+      "items": [
+        {
+          "sourceId": "422745",
+          "name": "Picanha na chapa",
+          "description": "500 g, Acompanha mandioca e molho verde.",
+          "priceCents": 10999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/9a7de340-8c27-11f0-8998-c7190e87020f.png",
+          "options": []
+        },
+        {
+          "sourceId": "422880",
+          "name": "Filé mignon",
+          "description": "500G de Filé, Acompanha 250 g de fritas e molho barbecue.",
+          "priceCents": 10999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/592536f0-9424-11f0-980b-0dc16b256de9.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Alacarte",
+      "items": [
+        {
+          "sourceId": "422747",
+          "name": "Picanha a moda especial",
+          "description": "Acompanha arroz branco, mandioca, vinagrete e farofa, serve em média três pessoas.",
+          "priceCents": 13499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/30f09090-8de3-11f0-98d0-db34177a7859.png",
+          "options": []
+        },
+        {
+          "sourceId": "425344",
+          "name": "Filé mignon a moda especial",
+          "description": "500g de filé, Acompanha 250g de fritas, arroz branco, vinagrete, farofa. Serve até três pessoas.",
+          "priceCents": 13499,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c4e30b00-9425-11f0-a85e-bf5410060537.png",
+          "options": []
+        },
+        {
+          "sourceId": "484887",
+          "name": "Picanha ao creme de queijo",
+          "description": "500g de picanha.",
+          "priceCents": 16999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/d9e36f20-515f-11f1-9683-83630b60a872.webp",
+          "options": []
+        },
+        {
+          "sourceId": "488144",
+          "name": "Filé a Parmegiana",
+          "description": "\"Arroz, batata-frita e salada.\"",
+          "priceCents": 17999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c1a6b6e0-5bb6-11f1-a9eb-ad95e9f9c53e.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Guarnições",
+      "items": [
+        {
+          "sourceId": "389313",
+          "name": "Arroz branco 300g",
+          "description": "Simples e saboroso, o acompanhamento ideal para qualquer prato.",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c2c0fb10-f0a2-11ef-aaf0-a39d36bd80b4.png",
+          "options": []
+        },
+        {
+          "sourceId": "389314",
+          "name": "Arroz biro biro 300g",
+          "description": "Uma combinação deliciosa de arroz soltinho, cebola refogada na manteiga, ovos mexidos, crocantes pedaços de bacon e batata palha, criando um sabor inconfundível que harmoniza com qualquer refeição.",
+          "priceCents": 1399,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/42f79730-df1e-11ef-8923-354043a608d2.png",
+          "options": []
+        },
+        {
+          "sourceId": "391170",
+          "name": "Farofa",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/dfdf8270-f0a2-11ef-8f53-6dabd3a1fc22.png",
+          "options": []
+        },
+        {
+          "sourceId": "488136",
+          "name": "Panelinha Mista",
+          "description": "\"Salada, farofa, filé, frango e linguiça. Serve 3 a 4 pessoas.\"",
+          "priceCents": 9999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8a527130-5bab-11f1-a9eb-ad95e9f9c53e.webp",
+          "options": []
+        },
+        {
+          "sourceId": "488140",
+          "name": "Panelinha Cupim com Banana",
+          "description": "Salada e farofa. Serve 3 a 4 pessoas.",
+          "priceCents": 10999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/33308480-5bb2-11f1-86e0-050b1f212def.webp",
+          "options": []
+        },
+        {
+          "sourceId": "488141",
+          "name": "Panelinha de Filé Mignon com Linguiça",
+          "description": "",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/af28b430-5bb3-11f1-953e-79e40c807c4b.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Saladas",
+      "items": [
+        {
+          "sourceId": "389320",
+          "name": "Coleslaw original",
+          "description": "Salada fresca e crocante de origem holandesa, com repolho, cenoura, maionese e um toque cítrico de limão. Um clássico que complementa qualquer prato.",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/d5261370-df1e-11ef-b20d-dbf5fa621743.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sobremesa",
+      "items": [
+        {
+          "sourceId": "422972",
+          "name": "Petit gateu",
+          "description": "Chocolate ou doce de leite.",
+          "priceCents": 2299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a2985510-8f60-11f0-b080-c989d01a720d.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Chopp",
+      "items": [
+        {
+          "sourceId": "391574",
+          "name": "Chopp brahma",
+          "description": "Caneca 300ml",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/e7dd7210-efea-11ef-aaf0-a39d36bd80b4.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cervejas",
+      "items": [
+        {
+          "sourceId": "389251",
+          "name": "Budweiser ow ln 330ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/57e5aa20-df0e-11ef-8908-293b387a5aef.png",
+          "options": []
+        },
+        {
+          "sourceId": "389252",
+          "name": "Budweiser zero ln 330ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/6acc8820-df0e-11ef-a0e4-d53b6f4f098d.png",
+          "options": []
+        },
+        {
+          "sourceId": "389253",
+          "name": "Corona extra ln 330ml",
+          "description": "",
+          "priceCents": 1099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/72f63910-df0e-11ef-8908-293b387a5aef.png",
+          "options": []
+        },
+        {
+          "sourceId": "389254",
+          "name": "Coronita extra ln 210ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/7b93ba70-df0e-11ef-94bf-f3855a9f12cc.png",
+          "options": []
+        },
+        {
+          "sourceId": "389257",
+          "name": "Spaten ln 330ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2f9ca960-df18-11ef-9c1e-6dd2cab1edfb.png",
+          "options": []
+        },
+        {
+          "sourceId": "389258",
+          "name": "Stella artois ln 330ml",
+          "description": "",
+          "priceCents": 899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/39e28390-df18-11ef-820d-a7c0732e4675.png",
+          "options": []
+        },
+        {
+          "sourceId": "389259",
+          "name": "Stella artois pure gold ln 330ml",
+          "description": "",
+          "priceCents": 899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/4305d6c0-df18-11ef-984d-2ffd41fa986f.png",
+          "options": []
+        },
+        {
+          "sourceId": "413394",
+          "name": "Original 600 ml",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b8100890-723f-11f0-beb4-6da83f500fe5.png",
+          "options": []
+        },
+        {
+          "sourceId": "413395",
+          "name": "Brahma chopp 600 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/0f5f69b0-7240-11f0-8031-5ba33396f0f6.png",
+          "options": []
+        },
+        {
+          "sourceId": "413399",
+          "name": "Antartica 600 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/81f7f5f0-7240-11f0-8031-5ba33396f0f6.png",
+          "options": []
+        },
+        {
+          "sourceId": "413400",
+          "name": "Skol 600 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a235e5c0-7240-11f0-ae34-bfc488e7d5d8.png",
+          "options": []
+        },
+        {
+          "sourceId": "413511",
+          "name": "Stella artois 600 ml",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/daf7d930-73e0-11f0-bb7b-234cd044867c.png",
+          "options": []
+        },
+        {
+          "sourceId": "413512",
+          "name": "Spaten 600 ml",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/19df5d30-73e1-11f0-aa12-ebffe27bc01b.png",
+          "options": []
+        },
+        {
+          "sourceId": "428054",
+          "name": "Michelob ultra sem glúten ln 330 ml",
+          "description": "",
+          "priceCents": 899,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/99e65d10-a624-11f0-af0f-fbfe96520806.png",
+          "options": []
+        },
+        {
+          "sourceId": "428055",
+          "name": "Michelob ultra sem glutem lt 350 ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/3011f790-a625-11f0-8338-e970bdf87548.png",
+          "options": []
+        },
+        {
+          "sourceId": "483696",
+          "name": "Stella Artois sem Glúten 600ml",
+          "description": "Cerveja Stella sem Glúten",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/fac3c450-6114-11f1-b09e-97ea9620b0b0.webp",
+          "options": []
+        },
+        {
+          "sourceId": "485628",
+          "name": "Cerveja Corona 600ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/4e291010-548a-11f1-b4a1-d585ae6a4f94.webp",
+          "options": []
+        },
+        {
+          "sourceId": "494617",
+          "name": "Corona zero",
+          "description": "",
+          "priceCents": 1099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/0247ca40-733b-11f1-abf5-d147e158dcdb.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combos baldinho",
+      "items": [
+        {
+          "sourceId": "392401",
+          "name": "Combo de budweiser long neck",
+          "description": "6 unidades",
+          "priceCents": 5100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/f8f4a030-f62c-11ef-bbc2-ef6bb5065a0b.png",
+          "options": []
+        },
+        {
+          "sourceId": "392404",
+          "name": "Combo de corona long neck",
+          "description": "6 unidades",
+          "priceCents": 5700,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/910638c0-f62d-11ef-beaf-cb85e96e3b48.png",
+          "options": []
+        },
+        {
+          "sourceId": "392405",
+          "name": "Combo de coronita long neck",
+          "description": "6 unidades",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/f07d27f0-f62d-11ef-a85f-e53f0b80e91f.png",
+          "options": []
+        },
+        {
+          "sourceId": "392407",
+          "name": "Combo de spaten long neck",
+          "description": "6 unidades",
+          "priceCents": 5100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/48410050-f62f-11ef-8045-732963b23e50.png",
+          "options": []
+        },
+        {
+          "sourceId": "413401",
+          "name": "Combo stella artois long neck",
+          "description": "6 unidades",
+          "priceCents": 5100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2b1fa420-7241-11f0-ae34-bfc488e7d5d8.png",
+          "options": []
+        },
+        {
+          "sourceId": "413402",
+          "name": "Combo stella artois pure gold long neck",
+          "description": "6 unidades",
+          "priceCents": 5100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/612b6fd0-7242-11f0-ae34-bfc488e7d5d8.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Preparos",
+      "items": [
+        {
+          "sourceId": "391564",
+          "name": "Preparo cdb",
+          "description": "100ml de limão, gelo e sal",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/cc320a10-efe7-11ef-9b0a-1b78ac1b7e7f.png",
+          "options": []
+        },
+        {
+          "sourceId": "391568",
+          "name": "Preparo cozumel",
+          "description": "100ml de limão, gelo e borda de sal.",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/6a8cd3c0-efe8-11ef-9864-1f6f259b0c80.png",
+          "options": []
+        },
+        {
+          "sourceId": "391573",
+          "name": "Preparo camparanja",
+          "description": "Gelo de Laranja, um excelente acompanhamento para o Campari.",
+          "priceCents": 990,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/62c830c0-efe9-11ef-a01a-a31096a67d21.png",
+          "options": []
+        },
+        {
+          "sourceId": "392659",
+          "name": "Gelo de coco",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/0c2e9300-fa19-11ef-b9e2-033a94e7f934.png",
+          "options": []
+        },
+        {
+          "sourceId": "494618",
+          "name": "Gelo de Laranja",
+          "description": "",
+          "priceCents": 499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "494619",
+          "name": "Baldinho de Gelo",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "sourceId": "389285",
+          "name": "Caips",
+          "description": "Pinga Velho Barreiro ou Vodka Smirnoff, xarope de açúcar, fruta da preferência (Limão, Maracujá, Abacaxi, Kiwi, Morango)",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/148b9de0-df1b-11ef-badc-4bea43f5789c.png",
+          "options": []
+        },
+        {
+          "sourceId": "389286",
+          "name": "Caips goumert",
+          "description": "Pinga Velho Barreiro ou Vodka Absolut, xarope de açúcar e fruta da preferência (Frutas Amarelas, Frutas Vermelhas, Frutas Verdes e Coco).",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/93ba70f0-5ac2-11f0-8977-b5f664533ffe.png",
+          "options": []
+        },
+        {
+          "sourceId": "389287",
+          "name": "Gin mule",
+          "description": "Gin, Tônica, Sumo de Limão Siciliano e Espuma de Gengibre",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/fad79c40-df1b-11ef-ad14-ff8c7356f80f.png",
+          "options": []
+        },
+        {
+          "sourceId": "389288",
+          "name": "Gin tropical",
+          "description": "Gin, Energético Tropica,l Polpa de Maracuja, suco de laranja e Zimbro",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/847cc8b0-f0b2-11ef-af80-cd49a1b707b4.png",
+          "options": []
+        },
+        {
+          "sourceId": "389289",
+          "name": "Gin frutas vermelhas",
+          "description": "Gin, Frutas Vermelhas, Tônica e Xarope de Morango",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b20f99c0-efe9-11ef-9661-7916f041073f.png",
+          "options": []
+        },
+        {
+          "sourceId": "389290",
+          "name": "Alexander",
+          "description": "Vodka, Domecq, Creme de Leite, Licor de Cacau, Leite Condesando e Canela",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/29219600-df1c-11ef-b147-271bf9c969f0.png",
+          "options": []
+        },
+        {
+          "sourceId": "389291",
+          "name": "Apple martini",
+          "description": "Vodka, Maçã Verde, Xarope de Maçã Verde e Gotas de Limão",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/704e9050-df1c-11ef-8d11-d3455c1402b9.png",
+          "options": []
+        },
+        {
+          "sourceId": "389292",
+          "name": "Love martini",
+          "description": "Gin, Aperol, Sumo de limão, Xarope de Morango e Ovo Pasteurizado",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/62922d00-df1c-11ef-a241-078c0270c883.png",
+          "options": []
+        },
+        {
+          "sourceId": "389293",
+          "name": "Aperol spritz",
+          "description": "Aperol, Soda e Espumante",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/3a520a10-df1f-11ef-badc-4bea43f5789c.png",
+          "options": []
+        },
+        {
+          "sourceId": "389294",
+          "name": "Sex on the beach",
+          "description": "Vodka, Licor de Pessego, Xarope de Granadina e Suco de Laranja",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8afa6a00-df1c-11ef-9099-35a07f9f156b.png",
+          "options": []
+        },
+        {
+          "sourceId": "389295",
+          "name": "Pina colada",
+          "description": "Leite de coco, Suco de Abacaxi, Leite Condesando e Rum Malibu",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a5c53d60-df1c-11ef-a387-4320f74c03e4.png",
+          "options": []
+        },
+        {
+          "sourceId": "389296",
+          "name": "Kir royale",
+          "description": "Espumante, Licor de Cassis e Cereja",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8ab57160-efe9-11ef-8a70-8915f66ba5bb.png",
+          "options": []
+        },
+        {
+          "sourceId": "389297",
+          "name": "Moscou mule",
+          "description": "Vodka, Gengibre, Sumo de Limão, Agua com Gás, Xarope de Gengibre, Açucar e Espuma de Gengibre",
+          "priceCents": 4099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/bc01fd20-df1c-11ef-badc-4bea43f5789c.png",
+          "options": []
+        },
+        {
+          "sourceId": "389298",
+          "name": "Negroni",
+          "description": "Vermute, Campari e Gin",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c7820500-df1c-11ef-8d11-d3455c1402b9.png",
+          "options": []
+        },
+        {
+          "sourceId": "389299",
+          "name": "Pink limonade",
+          "description": "Suco de Limão e Xarope de Granadina",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/d62ce700-df1c-11ef-8dde-6f5595732747.png",
+          "options": []
+        },
+        {
+          "sourceId": "389300",
+          "name": "Soda italiana sem álcool",
+          "description": "Xarope da fruta da preferência (Limão siciliano, Frutas vermelhas, Morango, Maçã verde, Maracujá, Abacaxi) e água com gás",
+          "priceCents": 2299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/527a6320-f3d9-11ef-8f53-6dabd3a1fc22.png",
+          "options": []
+        },
+        {
+          "sourceId": "400255",
+          "name": "Toque de mãe",
+          "description": "Purê de frutas vermelhas, xarope de morango, vodka, água com gás",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/49393b50-2d4b-11f0-a32c-bf5783834a17.png",
+          "options": []
+        },
+        {
+          "sourceId": "410674",
+          "name": "Arco-íris de fogo",
+          "description": "Xarope de morango, licor 43 original e stock curaçau blue, finalizado com fogo",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/3f3347d0-5ad3-11f0-a4ac-3954f6670623.png",
+          "options": []
+        },
+        {
+          "sourceId": "422061",
+          "name": "Clericot da casa",
+          "description": "Espumante da casa, mix de frutas, vodka, soda limonada, xarope especial.",
+          "priceCents": 9199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/0e7a7a50-891d-11f0-b12a-25f658413290.png",
+          "options": []
+        },
+        {
+          "sourceId": "422062",
+          "name": "Preparo para clericot",
+          "description": "Jarra com mix de frutas, vodka, soda limonada, xarope especial",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a0e14f30-891e-11f0-b59c-3bf5f4f02136.png",
+          "options": []
+        },
+        {
+          "sourceId": "437927",
+          "name": "Lagoa azul",
+          "description": "Curaçau Blue, Vodka, Sumo de Limão, Xarope de Limão Siciliano e Ice.",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/7235ae80-b6b2-11f0-b4d5-ed0d31d30d77.png",
+          "options": []
+        },
+        {
+          "sourceId": "445747",
+          "name": "Amarula passion",
+          "description": "Amarula,leite de coco, creme de leite,leite condensado e um toque de canela",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a3eee7e0-e5e5-11f0-9a6e-17830e706c41.png",
+          "options": []
+        },
+        {
+          "sourceId": "445748",
+          "name": "Margarita de tangerina",
+          "description": "Suco de laranja,limao,xarope de tangerina, tequila prata",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/d74748d0-e5e5-11f0-983a-ffe40633e863.png",
+          "options": []
+        },
+        {
+          "sourceId": "469207",
+          "name": "Caips de vinho",
+          "description": "",
+          "priceCents": 3099,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c3e05870-2a0c-11f1-aecf-c96390bd7fec.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Drinks prontos",
+      "items": [
+        {
+          "sourceId": "389256",
+          "name": "Skol beats senses ln 269ml",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2608ba10-df18-11ef-9b2b-712ee2a70ea8.png",
+          "options": []
+        },
+        {
+          "sourceId": "426356",
+          "name": "Smirnoff Ice Longneck Smirnoff 275ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/cf527a00-9a77-11f0-b399-5f5fcb558793.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Doses",
+      "items": [
+        {
+          "sourceId": "391579",
+          "name": "Dose de campari milano 50ml",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/34f644d0-eff7-11ef-ac2d-ad913dd22715.png",
+          "options": []
+        },
+        {
+          "sourceId": "391580",
+          "name": "Dose de licor 43 original 50ml",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/06567f60-eff6-11ef-be14-bb1825c8e66e.png",
+          "options": []
+        },
+        {
+          "sourceId": "391581",
+          "name": "Dose de licor 43 de chocolate 50ml",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/61d33680-eff6-11ef-8115-559bf8c053cf.png",
+          "options": []
+        },
+        {
+          "sourceId": "391583",
+          "name": "Dose de licor amarula cream 50ml",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b91c5610-eff6-11ef-a472-833bdf98093c.png",
+          "options": []
+        },
+        {
+          "sourceId": "391584",
+          "name": "Dose whisky chivas regal 18 years 50ml",
+          "description": "",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/61ad8a40-efef-11ef-be0a-f7fa29b9545a.png",
+          "options": []
+        },
+        {
+          "sourceId": "391586",
+          "name": "Dose whisky buchanans blended 12 anos",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/01905e10-eff1-11ef-8a70-8915f66ba5bb.png",
+          "options": []
+        },
+        {
+          "sourceId": "391587",
+          "name": "Dose whisky jack daniels no 7 50 ml",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/469552d0-eff2-11ef-be0a-f7fa29b9545a.png",
+          "options": []
+        },
+        {
+          "sourceId": "391589",
+          "name": "Dose whisky honey tennessee jack daniels 50ml",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/ae029170-eff3-11ef-8a70-8915f66ba5bb.png",
+          "options": []
+        },
+        {
+          "sourceId": "391590",
+          "name": "Dose whisky red label johnnie walker",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/cbae9650-eff4-11ef-8115-559bf8c053cf.png",
+          "options": []
+        },
+        {
+          "sourceId": "391591",
+          "name": "Dose whisky old parr 12 anos 50ml",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/6030eda0-eff5-11ef-af80-cd49a1b707b4.png",
+          "options": []
+        },
+        {
+          "sourceId": "391592",
+          "name": "Dose tequila jose cuervo ouro 50ml",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c8c9e590-eff7-11ef-9b0a-1b78ac1b7e7f.png",
+          "options": []
+        },
+        {
+          "sourceId": "391593",
+          "name": "Dose tequila jose cuervo prata 50ml",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c80f52b0-eff8-11ef-af80-cd49a1b707b4.png",
+          "options": []
+        },
+        {
+          "sourceId": "391594",
+          "name": "Dose de ballena original cream tequila 50 ml",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/3a672c70-eff9-11ef-9661-7916f041073f.png",
+          "options": []
+        },
+        {
+          "sourceId": "391595",
+          "name": "Dose cachaça boazinha 50ml",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b7a67790-eff9-11ef-a01a-a31096a67d21.png",
+          "options": []
+        },
+        {
+          "sourceId": "405762",
+          "name": "Dose brasilberg 50 ml",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/7d7f4540-48a2-11f0-ad04-a1a200fb40b3.png",
+          "options": []
+        },
+        {
+          "sourceId": "410883",
+          "name": "Dose paratudo 50 ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/91ee6350-5d0e-11f0-82bd-656d63f4adb1.png",
+          "options": []
+        },
+        {
+          "sourceId": "411595",
+          "name": "Dose bananazinha 50 ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/85401890-6288-11f0-a8d2-43a1b527b7d5.png",
+          "options": []
+        },
+        {
+          "sourceId": "439338",
+          "name": "Dose whisky jack daniel's tennessee apple",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/0727eca0-c4bf-11f0-b1c9-27b68ad8370d.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "389236",
+          "name": "Suco de laranja natural 400ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8d015b60-df0d-11ef-90b8-69410cc44a5d.png",
+          "options": []
+        },
+        {
+          "sourceId": "396840",
+          "name": "Suco (delivery) 500ml",
+          "description": "Laranja, maracujá, abacaxi com hortelã, uva, morango, acerola",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/1752f5c0-18b7-11f0-9cc4-91c309c6f770.png",
+          "options": []
+        },
+        {
+          "sourceId": "397040",
+          "name": "Suco de uva polpa 400ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/172013d0-1b05-11f0-b373-058643c82ae3.png",
+          "options": []
+        },
+        {
+          "sourceId": "405752",
+          "name": "Suco de maracujá polpa 400 ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/948f89a0-520e-11f0-85c8-89208694f653.png",
+          "options": []
+        },
+        {
+          "sourceId": "407477",
+          "name": "Suco de abacaxi com hortelã polpa 400 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/1fbe7280-520e-11f0-ac29-73d28ba67b7d.png",
+          "options": []
+        },
+        {
+          "sourceId": "407478",
+          "name": "Suco de acerola polpa 400 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/319259e0-520e-11f0-bbe0-1519c28731f8.png",
+          "options": []
+        },
+        {
+          "sourceId": "407479",
+          "name": "Suco de abacaxi polpa 400 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/46336b00-520e-11f0-babd-29ff49d21deb.png",
+          "options": []
+        },
+        {
+          "sourceId": "407480",
+          "name": "Suco de morango polpa 400 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/519626e0-520e-11f0-88b6-631c302aeae6.png",
+          "options": []
+        },
+        {
+          "sourceId": "421647",
+          "name": "Suco de frutas vermelhas polpa 400 ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b30cf7d0-851e-11f0-8dbc-a9ff865486c6.png",
+          "options": []
+        },
+        {
+          "sourceId": "443705",
+          "name": "Suco de cupuaçu",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "444248",
+          "name": "Creme de maracujá",
+          "description": "",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/7ed41d60-d56c-11f0-a594-4fcabd096664.png",
+          "options": []
+        },
+        {
+          "sourceId": "444249",
+          "name": "Creme de morango",
+          "description": "",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/97738540-d56c-11f0-b19a-3568c4ad9a57.png",
+          "options": []
+        },
+        {
+          "sourceId": "444250",
+          "name": "Creme de uva",
+          "description": "",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/63a61b60-d56c-11f0-b19a-3568c4ad9a57.png",
+          "options": []
+        },
+        {
+          "sourceId": "444251",
+          "name": "Creme de cupuaçu",
+          "description": "",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/54374d20-d56c-11f0-a22a-cf844a11e805.png",
+          "options": []
+        },
+        {
+          "sourceId": "515940",
+          "name": "Copo Especial de Laranja",
+          "description": "",
+          "priceCents": 499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "389234",
+          "name": "Água sem gás 497ml",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/5b2ed720-df0d-11ef-ad63-11aff37bd764.png",
+          "options": []
+        },
+        {
+          "sourceId": "389235",
+          "name": "Água com gás 500ml",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/84e69e90-df0d-11ef-8b79-5b37d7484e75.png",
+          "options": []
+        },
+        {
+          "sourceId": "389237",
+          "name": "Guaraná antarctica lt 350ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/94601b30-df0d-11ef-94bf-f3855a9f12cc.png",
+          "options": []
+        },
+        {
+          "sourceId": "389238",
+          "name": "Guaraná antarctica diet lt 350ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/9be5c3f0-df0d-11ef-90b8-69410cc44a5d.png",
+          "options": []
+        },
+        {
+          "sourceId": "389239",
+          "name": "H2oh limão 500ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a3102d50-df0d-11ef-a0e4-d53b6f4f098d.png",
+          "options": []
+        },
+        {
+          "sourceId": "389240",
+          "name": "H2oh limoneto 500ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a9ca96d0-df0d-11ef-8443-479c29387e43.png",
+          "options": []
+        },
+        {
+          "sourceId": "389241",
+          "name": "Pepsi cola lt 350ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b086d510-df0d-11ef-94bf-f3855a9f12cc.png",
+          "options": []
+        },
+        {
+          "sourceId": "389242",
+          "name": "Pepsi zero lt 350 ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/e94e34b0-3f56-11f1-abe1-8f671661e0fe.webp",
+          "options": []
+        },
+        {
+          "sourceId": "389243",
+          "name": "Red bull lt 250ml",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/bfdbb2b0-df0d-11ef-9344-01015c16fa07.png",
+          "options": []
+        },
+        {
+          "sourceId": "389244",
+          "name": "Red bull sugar free lt 250ml",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c70028a0-df0d-11ef-8967-954f795399b6.png",
+          "options": []
+        },
+        {
+          "sourceId": "389245",
+          "name": "Sukita lt 350ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/ccf19cd0-df0d-11ef-94bf-f3855a9f12cc.png",
+          "options": []
+        },
+        {
+          "sourceId": "389246",
+          "name": "Tônica antarctica lt 350ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/d4a33790-df0d-11ef-b4fc-a16207d41e59.png",
+          "options": []
+        },
+        {
+          "sourceId": "389247",
+          "name": "Tônica antarctica diet lt 350ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/db04aba0-df0d-11ef-a015-e763b863e4dd.png",
+          "options": []
+        },
+        {
+          "sourceId": "403873",
+          "name": "Soda limonada lata",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/0038af80-4141-11f0-8a4f-5d0d361fae32.png",
+          "options": []
+        },
+        {
+          "sourceId": "421644",
+          "name": "Pepsi twist lt 350 ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/45820f70-851e-11f0-a045-c3b155ef12ec.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Espumantes",
+      "items": [
+        {
+          "sourceId": "389260",
+          "name": "Casa perini moscatel 750ml",
+          "description": "",
+          "priceCents": 12000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/4be8c590-df18-11ef-9b2b-712ee2a70ea8.png",
+          "options": []
+        },
+        {
+          "sourceId": "389261",
+          "name": "Chandon reserve brut 750ml",
+          "description": "",
+          "priceCents": 17000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/54ebbf80-df18-11ef-ad14-ff8c7356f80f.png",
+          "options": []
+        },
+        {
+          "sourceId": "389262",
+          "name": "Chandon riche demi sec 750ml",
+          "description": "",
+          "priceCents": 17000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/5ecda7c0-df18-11ef-8908-293b387a5aef.png",
+          "options": []
+        },
+        {
+          "sourceId": "389263",
+          "name": "Chandon rose passion demi sec 750ml",
+          "description": "",
+          "priceCents": 17000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/67d75870-df18-11ef-b147-271bf9c969f0.png",
+          "options": []
+        },
+        {
+          "sourceId": "389264",
+          "name": "Freixenet carta nevada demi sec 750ml",
+          "description": "",
+          "priceCents": 14000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/6fe1e8a0-df18-11ef-8d11-d3455c1402b9.png",
+          "options": []
+        },
+        {
+          "sourceId": "389265",
+          "name": "Freixenet rose premium cava 750ml",
+          "description": "",
+          "priceCents": 14000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/816fed60-df18-11ef-8923-354043a608d2.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Destilados",
+      "items": [
+        {
+          "sourceId": "389267",
+          "name": "Campari milano",
+          "description": "",
+          "priceCents": 14000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/91666230-df18-11ef-ad14-ff8c7356f80f.png",
+          "options": []
+        },
+        {
+          "sourceId": "389268",
+          "name": "Gin seagers 1l",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/9b0a08f0-df18-11ef-8d11-d3455c1402b9.png",
+          "options": []
+        },
+        {
+          "sourceId": "389269",
+          "name": "Gin tanqueray 750ml",
+          "description": "",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a5d31ce0-df18-11ef-badc-4bea43f5789c.png",
+          "options": []
+        },
+        {
+          "sourceId": "389270",
+          "name": "Licor 43 original",
+          "description": "",
+          "priceCents": 21000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/af078710-df18-11ef-8d11-d3455c1402b9.png",
+          "options": []
+        },
+        {
+          "sourceId": "389271",
+          "name": "Licor 43 chocolate",
+          "description": "",
+          "priceCents": 21000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/b7a8d900-df18-11ef-a387-4320f74c03e4.png",
+          "options": []
+        },
+        {
+          "sourceId": "389272",
+          "name": "Licor amarula cream",
+          "description": "",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/c174ef50-df18-11ef-9c1e-6dd2cab1edfb.png",
+          "options": []
+        },
+        {
+          "sourceId": "389273",
+          "name": "Whisky blue label 21 anos 750ml",
+          "description": "",
+          "priceCents": 140000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/caa8bd40-df18-11ef-8923-354043a608d2.png",
+          "options": []
+        },
+        {
+          "sourceId": "389274",
+          "name": "Whisky buchanans 18 anos 750ml",
+          "description": "",
+          "priceCents": 80000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/df47f9a0-df18-11ef-a241-078c0270c883.png",
+          "options": []
+        },
+        {
+          "sourceId": "389275",
+          "name": "Whisky buchanans blended 12 anos",
+          "description": "",
+          "priceCents": 33000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/e95ed490-df18-11ef-9b2b-712ee2a70ea8.png",
+          "options": []
+        },
+        {
+          "sourceId": "389276",
+          "name": "Whisky chivas regal 18 anos 750ml",
+          "description": "",
+          "priceCents": 70000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/f25fd2b0-df18-11ef-91ff-4198a44f1afc.png",
+          "options": []
+        },
+        {
+          "sourceId": "389277",
+          "name": "Whisky green label 15 anos 750ml",
+          "description": "",
+          "priceCents": 70000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/004b5c50-df19-11ef-a241-078c0270c883.png",
+          "options": []
+        },
+        {
+          "sourceId": "389278",
+          "name": "Whisky honey tennessee jack daniels",
+          "description": "",
+          "priceCents": 26000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/0b71d280-df19-11ef-820d-a7c0732e4675.png",
+          "options": []
+        },
+        {
+          "sourceId": "389279",
+          "name": "Whisky jack daniels no 7",
+          "description": "",
+          "priceCents": 26000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/16380040-df19-11ef-8d11-d3455c1402b9.png",
+          "options": []
+        },
+        {
+          "sourceId": "389280",
+          "name": "Whisky red label",
+          "description": "",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/20d967f0-df19-11ef-8923-354043a608d2.png",
+          "options": []
+        },
+        {
+          "sourceId": "389281",
+          "name": "Whisky old par 12 anos",
+          "description": "",
+          "priceCents": 26000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/2c4e9a60-df19-11ef-8dde-6f5595732747.png",
+          "options": []
+        },
+        {
+          "sourceId": "389283",
+          "name": "Tequila jose cuervo ouro",
+          "description": "",
+          "priceCents": 25000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/9d115fc0-df1a-11ef-8908-293b387a5aef.png",
+          "options": []
+        },
+        {
+          "sourceId": "389284",
+          "name": "Tequila jose cuervo prata",
+          "description": "",
+          "priceCents": 25000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/a6f62e30-df1a-11ef-8908-293b387a5aef.png",
+          "options": []
+        },
+        {
+          "sourceId": "389815",
+          "name": "Ballena original cream tequila",
+          "description": "",
+          "priceCents": 21000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/14086120-e1ad-11ef-8908-293b387a5aef.png",
+          "options": []
+        },
+        {
+          "sourceId": "391577",
+          "name": "Cachaça boazinha 670ml",
+          "description": "",
+          "priceCents": 14000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/38506d50-efec-11ef-9b0a-1b78ac1b7e7f.png",
+          "options": []
+        },
+        {
+          "sourceId": "403874",
+          "name": "Vokda absolute",
+          "description": "",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/23bc37f0-4142-11f0-ad82-df4c5505cdcc.png",
+          "options": []
+        },
+        {
+          "sourceId": "403875",
+          "name": "Vodka smirnoff",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/5a8c8190-4142-11f0-b2ac-a3b8769ae7c2.png",
+          "options": []
+        },
+        {
+          "sourceId": "403876",
+          "name": "Whisky white horse",
+          "description": "",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/e748f2d0-4142-11f0-ad82-df4c5505cdcc.png",
+          "options": []
+        },
+        {
+          "sourceId": "434579",
+          "name": "Paratudo 900 ml",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/ff445dc0-b078-11f0-a923-014094e3e825.png",
+          "options": []
+        },
+        {
+          "sourceId": "439337",
+          "name": "Whisky jack daniel's tennessee apple",
+          "description": "",
+          "priceCents": 26000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/93d07d30-c4be-11f0-85ed-1fea6f2d25d9.png",
+          "options": []
+        },
+        {
+          "sourceId": "469232",
+          "name": "Balde de campari",
+          "description": "",
+          "priceCents": 16999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/f4b493a0-2a19-11f1-8d7e-b7d993fcfc5a.png",
+          "options": []
+        },
+        {
+          "sourceId": "469233",
+          "name": "Balde de licor 43",
+          "description": "",
+          "priceCents": 22999,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/8f84d700-2a1a-11f1-be16-55301e981231.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Vinhos",
+      "items": [
+        {
+          "sourceId": "391596",
+          "name": "Vinho casillero del diablo (cabernet sauvingon) 750ml",
+          "description": "",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/d95036f0-effa-11ef-9864-1f6f259b0c80.png",
+          "options": []
+        },
+        {
+          "sourceId": "392159",
+          "name": "Vinho pérgola suave",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://choppbrahmaexpress.meucardapio.ai/images/empresa/51d75930-f485-11ef-be14-bb1825c8e66e.png",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

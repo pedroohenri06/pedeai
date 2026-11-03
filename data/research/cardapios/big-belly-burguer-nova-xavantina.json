@@ -1,0 +1,386 @@
+{
+  "id": "big-belly-burguer-nova-xavantina",
+  "platform": "takeat",
+  "source": "https://pedido.takeat.app/bigbellyburger",
+  "capturedAt": "2026-11-03T16:12:54.501Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Hamburguers tradicionais",
+      "items": [
+        {
+          "sourceId": "2463439",
+          "name": "Big Belly Classico",
+          "description": "Hambúrguer (120g), mussarela, alface.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Geleia de abacaxi picante",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Onion rings",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2463440",
+          "name": "Belly Bacon",
+          "description": "Hambúrguer (120g), mussarela, bacon, ovo, alface.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Geleia de abacaxi picante",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Onion rings",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2463442",
+          "name": "Belly BBQ",
+          "description": "Hambúrguer (120g), bacon, salsicha, ovo, alface e molho barbecue",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://takeat-imgs.takeat.app/0e51b81e4c9ac1b1654e846d9c211c92.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Geleia de abacaxi picante",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Onion rings",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hamburguers especiais",
+      "items": [
+        {
+          "sourceId": "2463446",
+          "name": "Belly Monster",
+          "description": "2 Hambúrgueres (120g), mussarela, bacon, salsicha, ovo e alface.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": "https://takeat-imgs.takeat.app/47f9d7fd1e27a6e1866f1292eddf732f.webp",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 13,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Geleia de abacaxi picante",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Onion rings",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Mel",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3144822",
+          "name": "Belly Honey",
+          "description": "Hambúrguer (120g), bacon, mussarela, queijo coalho, onion rings, mel e alface",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "2805429",
+          "name": "Combo belly bacon+batata",
+          "description": "1 belly bacon+200g de batata frita",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2805415",
+          "name": "Combo belly bacon+refri lata",
+          "description": "1 belly bacon+ 200g de batata frita+ coca-cola lata 310ml",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2805433",
+          "name": "Combo belly bbq+batata frita",
+          "description": "1 belly bbq+200g batata frita",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2805419",
+          "name": "Combo belly bbq",
+          "description": "Belly bbq+200g de batata frita+ 1 coca-cola lata 310ml",
+          "priceCents": 4100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "sourceId": "2540042",
+          "name": "Coca-cola 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://takeat-imgs.takeat.app/ec6a0d8bc32c8bc098b67b983b7e7fde.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2805402",
+          "name": "Coca-cola 600ml ZERO",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porção de batata",
+      "items": [
+        {
+          "sourceId": "2837006",
+          "name": "Porção de batata 500g simples",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "indisponível": 21
+  },
+  "notes": []
+}

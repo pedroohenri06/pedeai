@@ -1,0 +1,866 @@
+{
+  "id": "sabor-na-brasa-nova-xavantina",
+  "platform": "brendi",
+  "source": "https://pedido.brendi.com.br/sabor-na-brasa",
+  "capturedAt": "2026-11-03T16:13:00.699Z",
+  "hours": "Ter a Sex 18h–23h · Sáb e Dom 18h–0h",
+  "sections": [
+    {
+      "name": "Burguers",
+      "items": [
+        {
+          "sourceId": "wuEF81SW2MpZ4x2PSGrq",
+          "name": "X burguer",
+          "description": "Pão brioche blend de carne 16o g recheado com queijo queijo cheddar queijo mussarela alface tomate cebola roxa batata frita 90g",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FwuEF81SW2MpZ4x2PSGrq-1786130140856.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Abacaxi caramelizado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Barbecue",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho barbecue caseiro",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Blend",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Blend de 160g recheado com queijo",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Geleia de pimenta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Molho verde",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho verde",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Mussarela",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de mussarela",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cheddar",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de cheddar",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola rocha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola caramelizada",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Molho baconese",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Baconese",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Queijo coalho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de queijo coalho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Bacon",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de bacon",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Banana terra",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de banana da terra",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "WUh0JL2TBtJEuPL8NIPI",
+          "name": "X bacon",
+          "description": "Pão brioche blend de carne 16o g recheado com queijo queijo mussarela queijo cheddar cebola caramelisada bacon alface tomate batata frita 90g",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FWUh0JL2TBtJEuPL8NIPI-1786130195115.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Barbecue",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho barbecue caseiro",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Abacaxi caramelizado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Blend",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Blend de 160g recheado com queijo",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Geleia de pimenta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Molho verde",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho verde",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Mussarela",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de mussarela",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cheddar",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de cheddar",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola caramelizada",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Molho baconese",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Baconese",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Queijo coalho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de queijo coalho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Bacon",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de bacon",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Cebola rocha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Banana terra",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de banana da terra",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "pdlB15aM4Y0IwdpnFDBK",
+          "name": "Burguer simples",
+          "description": "Pão brioche blend de carne 16o g recheado com queijo mussarela molho caseiro batata frita 90g",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FpdlB15aM4Y0IwdpnFDBK-1786130380371.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Barbecue",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho barbecue caseiro",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Abacaxi caramelizado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Blend",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Blend de 160g recheado com queijo",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Geleia de pimenta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Molho verde",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho verde",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Mussarela",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de mussarela",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cheddar",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de cheddar",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola rocha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola caramelizada",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Molho baconese",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Baconese",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Queijo coalho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de queijo coalho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Bacon",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de bacon",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Banana terra",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de banana da terra",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "lwgrJXP8XCKxc8newNxB",
+          "name": "X burguer duplo",
+          "description": "Pão brioche 2 blend de carne de 160g recheado com queijo queijo mussarela queijo cheddar cebola caramelisada cebola roxa abacaxi caramelizado alface tomate molho caseiro bacon batata frita 90g",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FlwgrJXP8XCKxc8newNxB-1786130517586.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Barbecue",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho barbecue caseiro",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Abacaxi caramelizado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Blend",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Blend de 160g recheado com queijo",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Geleia de pimenta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Molho verde",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho verde",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Mussarela",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de mussarela",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cheddar",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de cheddar",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola rocha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola caramelizada",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Molho baconese",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Baconese",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Queijo coalho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de queijo coalho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Bacon",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de bacon",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Banana terra",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de banana da terra",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b10iJ6LtYwuAishkFUr9",
+          "name": "X burguer tropical",
+          "description": "Pão brioche 1 blend de 160g de carne e recheado de mussarela queijo coalho banana da terra geleia de pimenta batata frita 90g",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2Fb10iJ6LtYwuAishkFUr9-1786130556828.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Mussarela",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de mussarela",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola rocha",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola roxa",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cebola caramelizada",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Molho baconese",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Baconese",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Queijo coalho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de queijo coalho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Bacon",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de bacon",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Molho verde",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho verde",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Geleia de pimenta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Geleia de pimenta",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Blend",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Blend de 160g recheado com queijo",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Barbecue",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Molho barbecue caseiro",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Abacaxi caramelizado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Banana terra",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "2 fatia de banana da terra",
+                  "priceCents": 100
+                }
+              ]
+            },
+            {
+              "name": "Cheddar",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "1 fatia de cheddar",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "nJFsFDAFQnUZ4RBEDxD8",
+          "name": "Coca lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FnJFsFDAFQnUZ4RBEDxD8-1781988864442.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "toMaq4oRClQCQ1Jr5jn2",
+          "name": "Coca cola zero lata 310 ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FtoMaq4oRClQCQ1Jr5jn2-1783441201412.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "5Z0c9uyadg9wDH7WVKRV",
+          "name": "Guaraná antartica zero 350 ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2F5Z0c9uyadg9wDH7WVKRV-1783630877205.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Batatas",
+      "items": [
+        {
+          "sourceId": "TurAHSW5EHlIZXRmxzHf",
+          "name": "Batata frita pro",
+          "description": "Batata frita cheddar molho verde",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FTurAHSW5EHlIZXRmxzHf-1784945199848.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "FLdWc6CehpK6Jj1yEQl0",
+          "name": "Batata pro max",
+          "description": "Batata frita molho cheddar cubos de bacon molho verde",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FFLdWc6CehpK6Jj1yEQl0-1781833910531.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "IHxgC8lVNVyVsjiSGhQV",
+          "name": "Batata simples",
+          "description": "Batata frita molho verde",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FIHxgC8lVNVyVsjiSGhQV-1784945312236.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "kvpBSrTIn8sdqY47m38p",
+          "name": "Batata simples x",
+          "description": "Batata frita molho de cheddar cubos de bacon molho verde",
+          "priceCents": 1890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2F7RJP8Gr3cadylphWHejj%2Fimages%2Fproducts%2FkvpBSrTIn8sdqY47m38p-1784945727092.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

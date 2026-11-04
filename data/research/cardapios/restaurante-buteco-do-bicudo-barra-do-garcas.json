@@ -1,0 +1,1940 @@
+{
+  "id": "restaurante-buteco-do-bicudo-barra-do-garcas",
+  "platform": "visual",
+  "source": "https://drive.google.com/file/d/1DVv-PUZwUi84DR45oSCi357r_ZJWS6i7/view",
+  "capturedAt": "2026-11-04T12:00:00.000Z",
+  "hours": null,
+  "skipped": {
+    "preço por kg (consultar o garçom)": 2
+  },
+  "notes": [
+    "Transcrito do PDF do cardápio (link da bio do Instagram, Linktree → Google Drive; auditoria do Claude in Chrome, 04/11/2026).",
+    "Fora: Banda de Caranha e vinhos (\"consulte o garçom\") e Tucunaré (preço por kg, consultar o garçom).",
+    "Executivos: acompanhamentos descritos no cardápio (pescados com pirão; parmegianas e filé mignon com arroz e fritas).",
+    "Cardápio sem fotos de produto: fotos serão pedidas ao estabelecimento ao fechar a parceria."
+  ],
+  "sections": [
+    {
+      "name": "Cachaças",
+      "items": [
+        {
+          "sourceId": "Ypióca",
+          "name": "Ypióca",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Seleta",
+          "name": "Seleta",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Boazinha",
+          "name": "Boazinha",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "sourceId": "Aperol Spritz",
+          "name": "Aperol Spritz",
+          "description": "Aperol, Espumante e Água com Gás",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Beijinho",
+          "name": "Beijinho",
+          "description": "Cachaça de Limão e Mel Morango Macerado, Limão e Mel",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Bicudo Tropical",
+          "name": "Bicudo Tropical",
+          "description": "Gin, Xarope de Maracujá Red Bull Tropical e Laranja Bahia",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cachaçaí 43",
+          "name": "Cachaçaí 43",
+          "description": "Licor 43, Mel, Cachaça e Açaí",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caipirinha",
+          "name": "Caipirinha",
+          "description": "Limão, Xarope de Açúcar e Cachaça",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caipiroska",
+          "name": "Caipiroska",
+          "description": "Limão, Xarope de Açúcar e Vodka",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caipifruta",
+          "name": "Caipifruta",
+          "description": "Fruta, xarope de açúcar e vodka.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Fruta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Caipifruta c/ Absolut",
+          "name": "Caipifruta c/ Absolut",
+          "description": "Fruta, xarope de açúcar e vodka Absolut.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Fruta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kiwi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Caipicana",
+          "name": "Caipicana",
+          "description": "Limão, Melaço de Cana e Cachaça",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Carmencita",
+          "name": "Carmencita",
+          "description": "Aperol, Gin, Laranja Bahia Xarope de Açúcar e Espumante",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cosmopolitan",
+          "name": "Cosmopolitan",
+          "description": "Vodka, Limão, Cointreau e Cranberry",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Croco Gin",
+          "name": "Croco Gin",
+          "description": "Gin, Limão, Xarope de Maçã Verde e Água Tônica",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Fetiche",
+          "name": "Fetiche",
+          "description": "Amarula, Sorvete, Jack Daniels e Licor 43",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Friends",
+          "name": "Friends",
+          "description": "Martini Rosso, Espumante e Cereja",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Frutas Vermelhas",
+          "name": "Frutas Vermelhas",
+          "description": "Framboesa, amora, morango, açúcar e limão.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Destilado",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vodka",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gin",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Gin Tonic",
+          "name": "Gin Tonic",
+          "description": "Gin, Limão Siciliano e Água Tônica",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Ice Spicy",
+          "name": "Ice Spicy",
+          "description": "Batida de Frutas Vermelhas, Gengibre Limão Siciliano e Gin",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Manhattan",
+          "name": "Manhattan",
+          "description": "Whisky, Vermute Doce, Angostura e Cereja",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Margarita",
+          "name": "Margarita",
+          "description": "Tequila, Limão e Cointreau",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Mojito",
+          "name": "Mojito",
+          "description": "Rum, Limão, Xarope de Açúcar, Folhas de Hortelã e Água com Gás",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Moscow Mule",
+          "name": "Moscow Mule",
+          "description": "Vodka, Limão, Xarope de Açúcar e Espuma de Gengibre",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Negroni",
+          "name": "Negroni",
+          "description": "Gin, Vermute Rosso e Campari",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Onça Pintada",
+          "name": "Onça Pintada",
+          "description": "Whisky Jack Daniels Xarope de Maracujá, Limão e Melaço de Maracujá",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Orgasmo",
+          "name": "Orgasmo",
+          "description": "Vodka, Licor de Café, Amarula e Leite Condensado",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Penicillin",
+          "name": "Penicillin",
+          "description": "Whisky, Mel, Xarope de Gengibre e Limão",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pina Colada",
+          "name": "Pina Colada",
+          "description": "Rum, Leite de Coco, Leite Condensado e Abacaxi",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Rossini",
+          "name": "Rossini",
+          "description": "Morango Macerado e Espumante",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Sex On The Beach",
+          "name": "Sex On The Beach",
+          "description": "Vodka, Licor de Pêssego Suco de Laranja e Grenadine",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Sol do Araguaia",
+          "name": "Sol do Araguaia",
+          "description": "Gin, Morango, Xarope de Tangerina e Água Tônica",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mocktail sem Álcool",
+      "items": [
+        {
+          "sourceId": "Soda Italiana",
+          "name": "Soda Italiana",
+          "description": "Xarope(a escolher), Limão e Água com Gás",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Lima Tonic",
+          "name": "Lima Tonic",
+          "description": "Xarope(a escolher), Limão e Água Tônica ou Soda",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Limonada Suíça",
+          "name": "Limonada Suíça",
+          "description": "Limão, Leite Condensado, Calda de Chocolate e Rapadura de Limão",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Creme",
+          "name": "Creme",
+          "description": "Polpa de Fruta, Creme de Leite e Leite Condensado",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Frutas Vermelhas s/ Álcool",
+          "name": "Frutas Vermelhas s/ Álcool",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Evening",
+          "name": "Evening",
+          "description": "Soda Limonada, Xarope de Morango e Laranja Blue",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cervejas 600ml",
+      "items": [
+        {
+          "sourceId": "Cerveja 600 ml (Original ou Spaten)",
+          "name": "Cerveja 600 ml (Original ou Spaten)",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Cerveja",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Spaten",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Stella Artois 600 ml",
+          "name": "Stella Artois 600 ml",
+          "description": "",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cerveja 600 ml (Budweiser, Skol, Brahma ou Antarctica)",
+          "name": "Cerveja 600 ml (Budweiser, Skol, Brahma ou Antarctica)",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Cerveja",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Budweiser",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Skol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brahma",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Antarctica",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Long Neck",
+      "items": [
+        {
+          "sourceId": "Stella Artois long neck",
+          "name": "Stella Artois long neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Stella Gold (sem glúten) long neck",
+          "name": "Stella Gold (sem glúten) long neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Chopp",
+      "items": [
+        {
+          "sourceId": "Chopp Brahma copo 400 ml",
+          "name": "Chopp Brahma copo 400 ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Chopp Brahma copo 200 ml",
+          "name": "Chopp Brahma copo 200 ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "Cabaré Ice",
+          "name": "Cabaré Ice",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Smirnoff Ice",
+          "name": "Smirnoff Ice",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Energético",
+          "name": "Energético",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerantes Lata",
+          "name": "Refrigerantes Lata",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "H2O ou Citrus",
+          "name": "H2O ou Citrus",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "H2O",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Citrus",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Água sem Gás",
+          "name": "Água sem Gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Água com Gás",
+          "name": "Água com Gás",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "CDB",
+          "name": "CDB",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Copo Especial",
+          "name": "Copo Especial",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cozumel (Heineken)",
+          "name": "Cozumel (Heineken)",
+          "description": "Cerveja, sal, limão e gelo.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cozumel (preparo)",
+          "name": "Cozumel (preparo)",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "Suco de Limão (Jarra 800ml)",
+          "name": "Suco de Limão (Jarra 800ml)",
+          "description": "",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco de Laranja (Jarra 800ml)",
+          "name": "Suco de Laranja (Jarra 800ml)",
+          "description": "",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco Polpa (Jarra 800ml)",
+          "name": "Suco Polpa (Jarra 800ml)",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com hortelã",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Suco Especial - 2 Polpas (Jarra 800ml)",
+          "name": "Suco Especial - 2 Polpas (Jarra 800ml)",
+          "description": "",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi com maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá com uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Suco Polpa (Copo 400ml)",
+          "name": "Suco Polpa (Copo 400ml)",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com hortelã",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Suco de Laranja (Jarra 400ml)",
+          "name": "Suco de Laranja (Jarra 400ml)",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco de Limão (Jarra 400ml)",
+          "name": "Suco de Limão (Jarra 400ml)",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Doses",
+      "items": [
+        {
+          "sourceId": "Old Parr 12 Anos",
+          "name": "Old Parr 12 Anos",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Black Label 12 Anos",
+          "name": "Black Label 12 Anos",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Jack Daniels",
+          "name": "Jack Daniels",
+          "description": "",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Red Label 8 Anos",
+          "name": "Red Label 8 Anos",
+          "description": "",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Absolut",
+          "name": "Absolut",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Smirnoff",
+          "name": "Smirnoff",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Campari",
+          "name": "Campari",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tequila José Cuervo",
+          "name": "Tequila José Cuervo",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ouro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Licores",
+      "items": [
+        {
+          "sourceId": "Amarula",
+          "name": "Amarula",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Licor 43",
+          "name": "Licor 43",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cointreau",
+          "name": "Cointreau",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Entradas",
+      "items": [
+        {
+          "sourceId": "Arancini (2 unidades)",
+          "name": "Arancini (2 unidades)",
+          "description": "Arroz Arbório, Frango, Pasta de Pequi e Queijo",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Bolinho de Salmão (2 unidades)",
+          "name": "Bolinho de Salmão (2 unidades)",
+          "description": "",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Ceviche de Tilápia (200g)",
+          "name": "Ceviche de Tilápia (200g)",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salada do Bicudo",
+          "name": "Salada do Bicudo",
+          "description": "Alface, Palmito, Tomate Cereja, Azeitona Verde e Queijo Mussarela em Cubinhos ",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salada Caesar",
+          "name": "Salada Caesar",
+          "description": "Alface, Frango Grelhado, Queijo Prato, Tomate Cereja, Molho",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Steak Tartare (2 unidades)",
+          "name": "Steak Tartare (2 unidades)",
+          "description": "80g de Filé Batido com Cebola Roxa, Alcaparras, Azeite, Ketchup e Mostarda",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tomate Recheado Tradicional",
+          "name": "Tomate Recheado Tradicional",
+          "description": "Tomate Recheado com Carne, Requeijão e Mussarela, Gratinado com Parmesão",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tomate Recheado Vegano",
+          "name": "Tomate Recheado Vegano",
+          "description": "Mix de Cogumelos e Requeijão",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Petiscos do Bicudo",
+      "items": [
+        {
+          "sourceId": "Arancini (8 unidades)",
+          "name": "Arancini (8 unidades)",
+          "description": "",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Batata Frita (500g)",
+          "name": "Batata Frita (500g)",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Batata Frita Especial (500g)",
+          "name": "Batata Frita Especial (500g)",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Bolinho de Salmão (8 unidades)",
+          "name": "Bolinho de Salmão (8 unidades)",
+          "description": "",
+          "priceCents": 6900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Casquinha de Siri (Unidade)",
+          "name": "Casquinha de Siri (Unidade)",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Chapa Mix do Bicudo (500g)",
+          "name": "Chapa Mix do Bicudo (500g)",
+          "description": "Picanha, Farofa, Mandioca na Manteiga com Parmesão",
+          "priceCents": 12500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé Bovino Acebolado (500g)",
+          "name": "Filé Bovino Acebolado (500g)",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé Bovino Acebolado Especial (500g)",
+          "name": "Filé Bovino Acebolado Especial (500g)",
+          "description": "",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé com Requeijão na Chapa (500g)",
+          "name": "Filé com Requeijão na Chapa (500g)",
+          "description": "",
+          "priceCents": 11000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Fraldinha no Molho de Cerveja Preta (500g)",
+          "name": "Fraldinha no Molho de Cerveja Preta (500g)",
+          "description": "",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Frango à Passarinho (1Kg)",
+          "name": "Frango à Passarinho (1Kg)",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Isca de Jacaré (450g)",
+          "name": "Isca de Jacaré (450g)",
+          "description": "",
+          "priceCents": 12000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Isca de Arraia (450g)",
+          "name": "Isca de Arraia (450g)",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Isca de Pirarucu (450g)",
+          "name": "Isca de Pirarucu (450g)",
+          "description": "",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Isca de Tilápia (450g)",
+          "name": "Isca de Tilápia (450g)",
+          "description": "",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Lambari (500g)",
+          "name": "Lambari (500g)",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Medalhão de Pirarucu (500g)",
+          "name": "Medalhão de Pirarucu (500g)",
+          "description": "",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pastel de Camarão (8 unidades)",
+          "name": "Pastel de Camarão (8 unidades)",
+          "description": "",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pastel de Carne e Queijo (8 unidades)",
+          "name": "Pastel de Carne e Queijo (8 unidades)",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Picanha Especial (500g)",
+          "name": "Picanha Especial (500g)",
+          "description": "",
+          "priceCents": 12500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Picanha na Chapa com Creme de Alho Poró (500g)",
+          "name": "Picanha na Chapa com Creme de Alho Poró (500g)",
+          "description": "",
+          "priceCents": 12500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Prato Executivo",
+      "items": [
+        {
+          "sourceId": "Pintado à Moda",
+          "name": "Pintado à Moda",
+          "description": "Acompanham arroz branco, farofa de banana, vinagrete e pirão.",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Ventrecha de Pacu",
+          "name": "Ventrecha de Pacu",
+          "description": "Acompanham arroz branco, farofa de banana, vinagrete e pirão.",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé de Pirarucu Empanado",
+          "name": "Filé de Pirarucu Empanado",
+          "description": "Acompanham arroz branco, farofa de banana, vinagrete e pirão.",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé de Tilápia Empanado",
+          "name": "Filé de Tilápia Empanado",
+          "description": "Acompanham arroz branco, farofa de banana, vinagrete e pirão.",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé Bovino à Parmegiana",
+          "name": "Filé Bovino à Parmegiana",
+          "description": "Acompanham arroz e batata frita.",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé de Peixe à Parmegiana",
+          "name": "Filé de Peixe à Parmegiana",
+          "description": "Acompanham arroz e batata frita.",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé Mignon",
+          "name": "Filé Mignon",
+          "description": "Acompanham arroz e batata frita.",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pratos Principais de Rio",
+      "items": [
+        {
+          "sourceId": "Brochete de Tilápia na Brasa (Serve 3 pessoas)",
+          "name": "Brochete de Tilápia na Brasa (Serve 3 pessoas)",
+          "description": "Acompanha Arroz Branco, Farofa de Banana e Vinagrete de Alcaparras.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Muqueca de Peixe com Camarão (Serve 2 pessoas)",
+          "name": "Muqueca de Peixe com Camarão (Serve 2 pessoas)",
+          "description": "(Filé de Peixe com Camarão, Temperados com Azeite, Alho, Pimentões, Tomates e Leite de Coco) Acompanha Arroz Branco e Pirão.",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Peixada do Bicudo (Serve 3 a 4 pessoas)",
+          "name": "Peixada do Bicudo (Serve 3 a 4 pessoas)",
+          "description": "(Ventrecha, Filé de Peixe, Peixe à Moda, Bolinho de Pacu) Acompanha Arroz Branco, Pirão e Farofa de Banana.",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pintado à Parmegiana (Serve 2 pessoas)",
+          "name": "Pintado à Parmegiana (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco e Fritas.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu à Moda do Cheff (Serve 2 pessoas)",
+          "name": "Pirarucu à Moda do Cheff (Serve 2 pessoas)",
+          "description": "(Filés de Pirarucu Cozidos com Pimentões, Cebola, Tomate e Leite de Coco) Acompanha Arroz Branco e Farofa de Banana.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu à Belle Meunière (Serve 2 pessoas)",
+          "name": "Pirarucu à Belle Meunière (Serve 2 pessoas)",
+          "description": "(Pirarucu Grelhado ao Molho de Alcaparras com Camarão, Vinho Branco e Champignon) Acompanha Arroz Branco.",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu à Portuguesa (Serve 2 a 3 pessoas)",
+          "name": "Pirarucu à Portuguesa (Serve 2 a 3 pessoas)",
+          "description": "Acompanha Arroz Branco e Farofa de Banana.",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu ao Câmarão Cremoso (Serve 2 pessoas)",
+          "name": "Pirarucu ao Câmarão Cremoso (Serve 2 pessoas)",
+          "description": "(Filé de Pirarucu na Brasa com Molho de Camarão e Queijo) Acompanha Arroz Branco e Farofa de Banana.",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu ao Molho Bechamel (Serve 2 pessoas)",
+          "name": "Pirarucu ao Molho Bechamel (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco, Farofa de Banana.",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu Grelhado na Brasa (Serve 2 pessoas)",
+          "name": "Pirarucu Grelhado na Brasa (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco, Vinagrete, Farofa de Banana e Pirão.",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu Empanado (Serve 2 pessoas)",
+          "name": "Pirarucu Empanado (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco, Vinagrete, Farofa de Banana e Pirão.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tilápia Empanada (Serve 2 pessoas)",
+          "name": "Tilápia Empanada (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco, Vinagrete, Farofa de Banana e Pirão.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Ventrecha de Caranha à Moda Cuiabana",
+          "name": "Ventrecha de Caranha à Moda Cuiabana",
+          "description": "(Serve 2 pessoas) Acompanha Arroz Branco, Vinagrete, Farofa de Banana e Pirão.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Do Mar",
+      "items": [
+        {
+          "sourceId": "Camarão Internacional (Serve 3 pessoas)",
+          "name": "Camarão Internacional (Serve 3 pessoas)",
+          "description": "Camarão, Arroz Cremoso, Presunto, Requeijão Cremoso, Ervilha, Gratinado com Queijo e Batata Palha",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Camarão Tropical (Serve 3 pessoas)",
+          "name": "Camarão Tropical (Serve 3 pessoas)",
+          "description": "Camarão, Arroz Cremoso, Ervilha, Cenoura e Abacaxi, Gratinado com Queijo e Batata Palha",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Paella (Serve 3 pessoas)",
+          "name": "Paella (Serve 3 pessoas)",
+          "description": "Camarão, Mariscos, Polvo, Filé de Peixe, Lula, Açafrão, Cheiro Verde, Páprica Picante e Arroz",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salmão com Crostas de Castanha (Serve 2 pessoas)",
+          "name": "Salmão com Crostas de Castanha (Serve 2 pessoas)",
+          "description": "Filés de Salmão na Chapa, Cobertos com Castanhas Acompanha Arroz Branco e Farofa de Banana.",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salmão ao Molho de Limão Siciliano",
+          "name": "Salmão ao Molho de Limão Siciliano",
+          "description": "(Serve 2 pessoas)- Filé de Salmão na Chapa, com Molho de Limão Siciliano Acompanha Arroz Branco e Farofa de Banana.",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salmão ao Camarão Cremoso (Serve 2 pessoas)",
+          "name": "Salmão ao Camarão Cremoso (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco, Salmão Grelhado Coberto com Molho de Camarão e Queijo",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salmão ao Molho de Maracujá (Serve 2 pessoas)",
+          "name": "Salmão ao Molho de Maracujá (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco e Purê de Batata",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salmão Recheado com Camarão na Brasa",
+          "name": "Salmão Recheado com Camarão na Brasa",
+          "description": "(Serve 3 pessoas) - Acompanha Arroz Branco e Vinagrete",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Strogonoff de Camarão (Serve 2 pessoas)",
+          "name": "Strogonoff de Camarão (Serve 2 pessoas)",
+          "description": "Acompanha Arroz Branco e Batata Palha",
+          "priceCents": 20000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Carnes",
+      "items": [
+        {
+          "sourceId": "Brochete de Filé na Brasa (Serve 2 pessoas)",
+          "name": "Brochete de Filé na Brasa (Serve 2 pessoas)",
+          "description": "Arroz, Vinagrete, Farofa de Banana com Bacon e Mandioca",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Escalopinho (Serve 2 pessoas)",
+          "name": "Escalopinho (Serve 2 pessoas)",
+          "description": "Filé ao molho madeira com champignon e brócolis, arroz branco.",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Purê",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Filé à Parmegiana (Serve 2 pessoas)",
+          "name": "Filé à Parmegiana (Serve 2 pessoas)",
+          "description": "Arroz branco.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Filé ao Molho Cremoso (Serve 2 pessoas)",
+          "name": "Filé ao Molho Cremoso (Serve 2 pessoas)",
+          "description": "Arroz, Vinagrete, Batata Palha, Molho Branco, Gratinado de Queijo.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Filé Mignon do Bicudo (Serve 2 pessoas)",
+          "name": "Filé Mignon do Bicudo (Serve 2 pessoas)",
+          "description": "Arroz Branco, Batata Frita, Banana à Milanesa, Farofa de Banana e Salada.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Picanha na Chapa c/ Mandioca (Serve 2 pessoas)",
+          "name": "Picanha na Chapa c/ Mandioca (Serve 2 pessoas)",
+          "description": "Arroz Branco, Vinagrete e Farofa de Banana.",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Picanha na Chapa c/ Fritas (Serve 2 pessoas)",
+          "name": "Picanha na Chapa c/ Fritas (Serve 2 pessoas)",
+          "description": "Arroz Branco, Vinagrete e Farofa de Banana.",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Kids",
+      "items": [
+        {
+          "sourceId": "Filé Mignon",
+          "name": "Filé Mignon",
+          "description": "Arroz, Feijão, Batata Frita, Filé Mignon, Alface e Tomate.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata (no lugar da batata)",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Filé Tilápia",
+          "name": "Filé Tilápia",
+          "description": "Arroz, Feijão, Batata Frita, Filé de Tilápia, Alface e Tomate.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata (no lugar da batata)",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Filé de Frango",
+          "name": "Filé de Frango",
+          "description": "Arroz, Feijão, Batata Frita, Filé de Frango, Alface e Tomate.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata (no lugar da batata)",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vegetariano/Vegano",
+      "items": [
+        {
+          "sourceId": "Executivo de Muqueca de Banana da Terra",
+          "name": "Executivo de Muqueca de Banana da Terra",
+          "description": "Acompanha Arroz Branco, Farofa de Banana e Vinagrete.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Legumes ao Molho Branco (Serve 2 pessoas)",
+          "name": "Legumes ao Molho Branco (Serve 2 pessoas)",
+          "description": "Brócolis e Couve Flor Gratinados com Parmesão - Acompanha Arroz Branco e Batata Palha",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Muqueca de Banana da Terra",
+          "name": "Muqueca de Banana da Terra",
+          "description": "(Serve 2 pessoas) Acompanha Arroz Branco, Farofa de Banana e Vinagrete.",
+          "priceCents": 10000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Risoto de Cogumelos",
+          "name": "Risoto de Cogumelos",
+          "description": "Shitake e champignon.",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Serve 1 pessoa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Serve 2 pessoas",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cozinha Contemporânea (pratos individuais)",
+      "items": [
+        {
+          "sourceId": "Filé ao Molho de Cerveja Preta com Purê Dois Queijos",
+          "name": "Filé ao Molho de Cerveja Preta com Purê Dois Queijos",
+          "description": "Purê de provolone e mussarela.",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Picanha ao Molho de Vinho com Purê de Gorgonzola",
+          "name": "Picanha ao Molho de Vinho com Purê de Gorgonzola",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Picanha ao Molho de Cogumelos e Purê de Ervilha",
+          "name": "Picanha ao Molho de Cogumelos e Purê de Ervilha",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pirarucu ao Molho Ajimarillo com Arroz de Castanhas",
+          "name": "Pirarucu ao Molho Ajimarillo com Arroz de Castanhas",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Risoto ao Pesto com Salmão",
+          "name": "Risoto ao Pesto com Salmão",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Risoto de Camarão",
+          "name": "Risoto de Camarão",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Risoto de Camarão com Limão Siciliano",
+          "name": "Risoto de Camarão com Limão Siciliano",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Risoto de Shitake com Escalope de Filé",
+          "name": "Risoto de Shitake com Escalope de Filé",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Risoto de Carne Seca com Farofa de Castanha e Chips de Banana da Terra",
+          "name": "Risoto de Carne Seca com Farofa de Castanha e Chips de Banana da Terra",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salmão na Manteiga de Ervas Finas com Arroz Negro",
+          "name": "Salmão na Manteiga de Ervas Finas com Arroz Negro",
+          "description": "Salada de alface, tomate, cebola roxa e parmesão.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tilápia com Crosta de Parmesão e Purê de Banana da Terra",
+          "name": "Tilápia com Crosta de Parmesão e Purê de Banana da Terra",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tilápia ao Creme de Alho Poró com Batatas ao Murro e Legumes Salteados",
+          "name": "Tilápia ao Creme de Alho Poró com Batatas ao Murro e Legumes Salteados",
+          "description": "",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tilápia à Belle Meunière",
+          "name": "Tilápia à Belle Meunière",
+          "description": "",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Guarnição",
+      "items": [
+        {
+          "sourceId": "Arroz",
+          "name": "Arroz",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Vinagrete",
+          "name": "Vinagrete",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Farofa de Banana",
+          "name": "Farofa de Banana",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Purê de Batata",
+          "name": "Purê de Batata",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Feijão de Caldo",
+          "name": "Feijão de Caldo",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "sourceId": "Brownie Gateau",
+          "name": "Brownie Gateau",
+          "description": "Brownie e Sorvete de Creme com Calda de Chocolate",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Petit Gateau",
+          "name": "Petit Gateau",
+          "description": "",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Mousse de Maracujá",
+          "name": "Mousse de Maracujá",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Sorvete de Creme",
+          "name": "Sorvete de Creme",
+          "description": "2 Bolas de Sorvete de Creme, Calda de Chocolate e Bolacha Champagne",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pudim",
+          "name": "Pudim",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ]
+}

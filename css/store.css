@@ -133,6 +133,8 @@ body.store-open .bottom-nav{display:none}
 .sp-noimg .sp-item{grid-template-columns:1fr auto;align-items:center}
 .sp-noimg .sp-item-media{width:auto;aspect-ratio:auto;display:flex;align-items:center;gap:8px}
 .sp-noimg .sp-ph{display:none}
+/* Cardápio com poucas fotos: quem tem foto mostra uma miniatura ao lado do "+" (não a foto no tamanho original). */
+.sp-noimg .sp-item-media img{width:64px;height:64px;object-fit:cover;border-radius:12px;flex:none}
 .sp-noimg .sp-badge{position:static;box-shadow:none;order:-1}
 .sp-noimg .sp-add{position:static;width:44px;height:44px;background:var(--sp-grad);color:#fff;box-shadow:0 8px 18px rgba(229,27,43,.28)}
 .sp-noimg .sp-add.is-added{background:var(--green)}

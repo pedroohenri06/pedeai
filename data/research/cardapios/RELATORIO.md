@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/cardapios/fontes.json`.
 
-**111 cardápios importados** de 139 links de cardápio cadastrados · 1063 categorias · 6230 produtos · 4101 grupos de opções · 13255 adicionais (opções opcionais) · 3965 fotos.
+**118 cardápios importados** de 145 links de cardápio cadastrados · 1129 categorias · 6680 produtos · 4230 grupos de opções · 13369 adicionais (opções opcionais) · 3983 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -14,12 +14,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 | OK | Cantina das Massas | Água Boa | maisdelivery | 10 | 17 | 8 | 21 | 14 | 0 | 0 |
 | OK | Chiquinho Sorvetes Água Boa | Água Boa | aiqfome | 14 | 89 | 95 | 147 | 57 | 0 | 10 |
 | OK | Creme Mania Sorvetes | Água Boa | maisdelivery | 12 | 39 | 37 | 55 | 23 | 0 | 0 |
+| OK | Doces do Vale | Água Boa | visual | 1 | 6 | 12 | 12 | 0 | 0 | 0 |
 | OK | Ds'burguer | Água Boa | vendanozap | 2 | 17 | 7 | 42 | 17 | 0 | 0 |
 | OK | Eskimó Sorvetes | Água Boa | aiqfome | 18 | 73 | 1 | 0 | 10 | 0 | 9 |
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
 | OK | Golden Hamburgueria | Água Boa | brendi | 5 | 33 | 5 | 40 | 33 | 1 | 0 |
 | OK | Hamburgueria Raiz | Água Boa | maisdelivery | 7 | 31 | 46 | 63 | 12 | 0 | 0 |
 | OK | Kaingó Açaí | Água Boa | maisdelivery | 7 | 28 | 15 | 158 | 26 | 0 | 0 |
+| OK | Karamello's Confeitaria & Café | Água Boa | visual | 11 | 79 | 28 | 30 | 18 | 0 | 0 |
 | OK | Magnólia Confeitaria e Café | Água Boa | maisdelivery | 10 | 57 | 30 | 24 | 52 | 0 | 0 |
 | OK | Mordidela Food | Água Boa | aiqfome | 9 | 60 | 9 | 0 | 38 | 0 | 9 |
 | OK | Oishi Sushi Água Boa | Água Boa | menudino | 25 | 185 | 0 | 0 | 91 | 0 | 0 |
@@ -37,8 +39,10 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
 | OK | Buffalos Pizzaria | Barra do Garças | visual | 5 | 38 | 35 | 0 | 0 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
+| OK | Cheff do Espeto | Barra do Garças | visual | 16 | 109 | 24 | 0 | 0 | 0 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
+| OK | Doces da Ana | Barra do Garças | visual | 3 | 4 | 8 | 12 | 0 | 0 | 0 |
 | OK | Frutos de Goiás Sorveteria | Barra do Garças | zapdelivery | 12 | 158 | 0 | 0 | 158 | 0 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
 | OK | Madrugordão Lanches | Barra do Garças | visual | 4 | 26 | 26 | 442 | 7 | 0 | 6 |
@@ -46,7 +50,9 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 | OK | Mistrô Massas Marmitas & Pizzaria | Barra do Garças | compraqui | 13 | 65 | 0 | 0 | 41 | 0 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 19 | 0 | 0 |
+| OK | Restaurante Buteco do Bicudo | Barra do Garças | visual | 21 | 169 | 16 | 0 | 0 | 0 | 0 |
 | OK | Texas Grill - Burger & Churrasco | Barra do Garças | anotaai | 12 | 48 | 104 | 83 | 40 | 0 | 0 |
+| OK | Eclipse Lanchonete e Pizzaria | Campinápolis | visual | 8 | 53 | 17 | 0 | 0 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | ALÊ Café & Empório | Canarana | maisdelivery | 10 | 39 | 24 | 22 | 32 | 0 | 0 |
 | OK | Buxadinha Lanches | Canarana | olaclick | 5 | 29 | 54 | 442 | 29 | 0 | 0 |
@@ -74,6 +80,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 | OK | Hatsuki Nova Xavantina | Nova Xavantina | aiqfome | 12 | 77 | 73 | 262 | 42 | 0 | 10 |
 | OK | Kanoa Beach | Nova Xavantina | bigdim | 17 | 110 | 5 | 1 | 95 | 2 | 0 |
 | OK | Magnífico Burguer NX | Nova Xavantina | aiqfome | 5 | 26 | 19 | 39 | 4 | 0 | 4 |
+| OK | Portal Burguer & Grill | Nova Xavantina | visual | 6 | 30 | 24 | 60 | 0 | 0 | 0 |
 | OK | Refúgio do Chopp | Nova Xavantina | meucardapio | 22 | 208 | 16 | 104 | 201 | 0 | 0 |
 | OK | Sabor na Brasa | Nova Xavantina | brendi | 3 | 12 | 65 | 0 | 12 | 0 | 0 |
 | OK | Sorveteria Creme Mania | Nova Xavantina | olaclick | 6 | 12 | 20 | 36 | 12 | 0 | 0 |
@@ -192,6 +199,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Doces do Vale (Água Boa) — OK
+
+- Fonte: https://www.canva.com/design/DAGG37G-e78/I3YcY0AbWwuYBr_gH7s9Tg/view (visual)
+- Categorias: 1 · Produtos: 6 · Grupos de opções: 12 (24 escolhas) · Adicionais: 12 · Fotos: 0
+- Não importados: 8 docinhos sem preço
+- Observação: Transcrito do cardápio de encomendas no Canva (link da bio → Linktree; auditoria do Claude in Chrome, 04/11/2026): 6 bolos em 2 tamanhos (médio acima de 700 g, grande acima de 1,1 kg).
+- Observação: Também listados sem preço (não cadastrados): sabores Fubá, Maracujá, Limão, Churros, Capuccino, Banana com gotas de chocolate, Laranja, Nozes, Toalha felpuda, Paçoca, Toddy, Arroz com leite de coco; docinhos (brigadeiros, tarteletes, coquelitas, palhas italianas, doces de figo, mini bolos no acetato, doces com pistache, cookies).
+- Observação: Cobertura para bolo vulcão: R$ 13 (médio) e R$ 15 (grande); a opção leva o tamanho no nome. Brigadeiros para decorar: R$ 2,00 a unidade.
+- Observação: Fotos da arte não carregaram (Canva); cardápio sem fotos.
+- Pendências: 0
+
 ### Ds'burguer (Água Boa) — OK
 
 - Fonte: https://vendanozap.app/loja/dsburguer (vendanozap)
@@ -232,6 +250,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/OTE1NjU= (maisdelivery)
 - Categorias: 7 · Produtos: 28 · Grupos de opções: 15 (172 escolhas) · Adicionais: 158 · Fotos: 26
 - Não importados: nenhum
+- Pendências: 0
+
+### Karamello's Confeitaria & Café (Água Boa) — OK
+
+- Fonte: https://drive.google.com/drive/folders/1QIsap84FnV70zl678WD6bw3GCTOTWl4s (visual)
+- Categorias: 11 · Produtos: 79 · Grupos de opções: 28 (80 escolhas) · Adicionais: 30 · Fotos: 18
+- Não importados: 3 sem preço (vitrine do dia, linguiça para levar, pão/caseirinhos zero)
+- Observação: Transcrito do "cardápio mesa" (10 artes numa pasta do Google Drive no link da bio do Instagram → Linktree; auditoria do Claude in Chrome, 04/11/2026): 79 produtos.
+- Observação: Fora (sem preço na arte): vitrine do dia (brownies, cookies, brigadeiros, bolo gelado, pudim, tortinhas, banoffe, bolo de pote, bombom aberto, pão de mel), linguiça Karamello's para levar, pão zero e caseirinhos zero.
+- Observação: Adicionais dos cafés (chantilly, brigadeiro, Nutella) aplicados aos cafés tradicionais; "opção à escolha: leite zero lactose" nas bebidas especiais.
+- Observação: Fotos: 18 recortadas das próprias artes e tratadas (EDSR 4x + nitidez) com scripts/menus/enhance.py; só onde a foto corresponde claramente ao produto.
 - Pendências: 0
 
 ### Magnólia Confeitaria e Café (Água Boa) — OK
@@ -478,6 +507,16 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Cheff do Espeto (Barra do Garças) — OK
+
+- Fonte: https://cheff-do-espeto-cardapio.sacred-puppy-6546.chatgpt.site/ (visual)
+- Categorias: 16 · Produtos: 109 · Grupos de opções: 24 (67 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito das 8 páginas do cardápio (site de visualização no link da bio do Instagram @cheffdoespeto_; auditoria do Claude in Chrome, 04/11/2026): 109 produtos.
+- Observação: Sabores de suco/creme listados uma vez na seção (laranja, maracujá, acerola, abacaxi, abacaxi com hortelã e morango) aplicados a suco copo, suco jarra e creme.
+- Observação: Fotos da arte são ilustrações de seção (não de um produto específico): cardápio sem fotos de produto.
+- Pendências: 0
+
 ### Dad Burger (Barra do Garças) — OK
 
 - Fonte: https://dadburger.bigd.im/wapp/dadburger/store/#/delivery/loja/dadburger (bigdim)
@@ -490,6 +529,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Fonte: https://dantes.bigd.im/wapp/dantes/store/#/delivery/loja/dantes (bigdim)
 - Categorias: 10 · Produtos: 77 · Grupos de opções: 38 (424 escolhas) · Adicionais: 226 · Fotos: 75
 - Não importados: 1 sem preço
+- Pendências: 0
+
+### Doces da Ana (Barra do Garças) — OK
+
+- Fonte: https://www.canva.com/design/DAGsKHJUOX4/0VgCj6UdFKn_jgRwreSDxA/view (visual)
+- Categorias: 3 · Produtos: 4 · Grupos de opções: 8 (62 escolhas) · Adicionais: 12 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito do cardápio no Canva (link da bio do Instagram @docesdaanabg; auditoria do Claude in Chrome, 04/11/2026): potes (16 sabores, R$ 15), bolos caseiros (massas R$ 30 e especiais R$ 38, coberturas adicionais) e bolos recheados por peso.
+- Observação: Bolos com morango têm acréscimo de R$ 25,00 (aplicado ao recheio Ninho com morango). Recheio: uma escolha; outras combinações, combinar com a loja.
+- Observação: Informações do cardápio: encomendas com no mínimo 2 dias de antecedência, 50% antecipado, retirada em Barra do Garças. WhatsApp na arte: (62) 99149-2881.
+- Observação: Arte sem fotos de produto.
 - Pendências: 0
 
 ### Frutos de Goiás Sorveteria (Barra do Garças) — OK
@@ -551,6 +601,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/recortes.json.
 - Pendências: 0
 
+### Restaurante Buteco do Bicudo (Barra do Garças) — OK
+
+- Fonte: https://drive.google.com/file/d/1DVv-PUZwUi84DR45oSCi357r_ZJWS6i7/view (visual)
+- Categorias: 21 · Produtos: 169 · Grupos de opções: 16 (42 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: 2 preço por kg (consultar o garçom)
+- Observação: Transcrito do PDF do cardápio (link da bio do Instagram, Linktree → Google Drive; auditoria do Claude in Chrome, 04/11/2026).
+- Observação: Fora: Banda de Caranha e vinhos ("consulte o garçom") e Tucunaré (preço por kg, consultar o garçom).
+- Observação: Executivos: acompanhamentos descritos no cardápio (pescados com pirão; parmegianas e filé mignon com arroz e fritas).
+- Observação: Cardápio sem fotos de produto: fotos serão pedidas ao estabelecimento ao fechar a parceria.
+- Pendências: 0
+
 ### Texas Grill - Burger & Churrasco (Barra do Garças) — OK
 
 - Fonte: https://pedido.anota.ai/loja/texasgrillchurrascaria (anotaai)
@@ -558,6 +619,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Não importados: 97 esgotado
 - Observação: "Pizza meio metro": "Sabor MEIO METRO" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
 - Observação: "Pizza 1 metro": "Sabor 1 METRO" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Pendências: 0
+
+### Eclipse Lanchonete e Pizzaria (Campinápolis) — OK
+
+- Fonte: https://drive.google.com/file/d/1aQfCv6OA31qhrmbLrRqnOvezsMUHvoFe/view (visual)
+- Categorias: 8 · Produtos: 53 · Grupos de opções: 17 (65 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: 3 consultar o garçom (Farmácia da Eclipse, Cascata, Roleta)
+- Observação: Transcrito do PDF do cardápio (2 páginas; link da bio do Instagram @eclipse.lanchonete; auditoria do Claude in Chrome, 04/11/2026). Mesma loja: o delivery do PDF, (66) 99212-0997, é o WhatsApp do cadastro.
+- Observação: Pizzas: tamanhos e valores únicos para todos os sabores (Broto R$ 25 a Família R$ 85).
+- Observação: Fora: Farmácia da Eclipse, Cascata e Roleta ("consultar garçom para opções e valores").
+- Observação: Arte sem fotos de produto: fotos serão pedidas ao fechar a parceria.
 - Pendências: 0
 
 ### Sintonia Hamburgueria e Pizzaria (Campinápolis) — OK
@@ -796,6 +868,19 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/nova-xavantina/magnifico-burguer (aiqfome)
 - Categorias: 5 · Produtos: 26 · Grupos de opções: 19 (57 escolhas) · Adicionais: 39 · Fotos: 4
 - Não importados: 1 sem preço
+- Pendências: 0
+
+### Portal Burguer & Grill (Nova Xavantina) — OK
+
+- Fonte: https://drive.google.com/file/d/1n1jh2SIFVhORG06dLB82EW10NHi3P2QO/view (visual)
+- Categorias: 6 · Produtos: 30 · Grupos de opções: 24 (88 escolhas) · Adicionais: 60 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito do PDF do cardápio (5 páginas; link da bio → Linktree → Google Drive; auditoria do Claude in Chrome, 04/11/2026): 30 produtos na fonte, 30 cadastrados.
+- Observação: Na escolha do lanche gourmet a casa oferece uma pequena porção de fritas (aviso do cardápio).
+- Observação: Porções: "meia porção será cobrado 70% do valor" (regra do cardápio) — meia calculada assim; Parmegiana e Frango grelhado usam o valor de meia impresso.
+- Observação: Adicionais do cardápio (página dos sandubões) aplicados aos hambúrgueres e sandubões; pão australiano +R$ 5,00 como opção nos hambúrgueres.
+- Observação: Delivery de segunda a quinta, 19h às 22h; sexta e sábado só retirada presencial (cardápio).
+- Observação: Fotos do PDF são de capa de seção, não de produto: cardápio sem fotos até a loja enviar.
 - Pendências: 0
 
 ### Refúgio do Chopp (Nova Xavantina) — OK
@@ -1175,11 +1260,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 
 - Fonte: https://wa.me/message/XJMFOAPI6SFOF1 (whatsapp)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
-### Cheff do Espeto (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://cheff-do-espeto-cardapio.sacred-puppy-6546.chatgpt.site/ (site)
-- Motivo: cardápio em 8 imagens (folheto): entra pela regra de cardápio em imagem
 
 ### Churrascaria O Panelão (Barra do Garças) — Sem cardápio público
 

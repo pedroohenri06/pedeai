@@ -1,0 +1,263 @@
+{
+  "id": "doces-do-vale-agua-boa",
+  "platform": "visual",
+  "source": "https://www.canva.com/design/DAGG37G-e78/I3YcY0AbWwuYBr_gH7s9Tg/view",
+  "capturedAt": "2026-11-04T12:00:00.000Z",
+  "hours": null,
+  "skipped": {
+    "docinhos sem preço": 8
+  },
+  "notes": [
+    "Transcrito do cardápio de encomendas no Canva (link da bio → Linktree; auditoria do Claude in Chrome, 04/11/2026): 6 bolos em 2 tamanhos (médio acima de 700 g, grande acima de 1,1 kg).",
+    "Também listados sem preço (não cadastrados): sabores Fubá, Maracujá, Limão, Churros, Capuccino, Banana com gotas de chocolate, Laranja, Nozes, Toalha felpuda, Paçoca, Toddy, Arroz com leite de coco; docinhos (brigadeiros, tarteletes, coquelitas, palhas italianas, doces de figo, mini bolos no acetato, doces com pistache, cookies).",
+    "Cobertura para bolo vulcão: R$ 13 (médio) e R$ 15 (grande); a opção leva o tamanho no nome. Brigadeiros para decorar: R$ 2,00 a unidade.",
+    "Fotos da arte não carregaram (Canva); cardápio sem fotos."
+  ],
+  "sections": [
+    {
+      "name": "Bolos caseiros",
+      "items": [
+        {
+          "sourceId": "Bolo de milho com requeijão",
+          "name": "Bolo de milho com requeijão",
+          "description": "Bolo caseiro de encomenda. Brigadeiros para decorar: R$ 2,00 a unidade (combinar com a loja).",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio (acima de 700 g)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (acima de 1,1 kg)",
+                  "priceCents": 3000
+                }
+              ]
+            },
+            {
+              "name": "Cobertura para bolo vulcão (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bolo de cenoura",
+          "name": "Bolo de cenoura",
+          "description": "Bolo caseiro de encomenda. Brigadeiros para decorar: R$ 2,00 a unidade (combinar com a loja).",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio (acima de 700 g)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (acima de 1,1 kg)",
+                  "priceCents": 3000
+                }
+              ]
+            },
+            {
+              "name": "Cobertura para bolo vulcão (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bolo cacau 50%",
+          "name": "Bolo cacau 50%",
+          "description": "Bolo caseiro de encomenda. Brigadeiros para decorar: R$ 2,00 a unidade (combinar com a loja).",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio (acima de 700 g)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (acima de 1,1 kg)",
+                  "priceCents": 3000
+                }
+              ]
+            },
+            {
+              "name": "Cobertura para bolo vulcão (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bolo de cookies",
+          "name": "Bolo de cookies",
+          "description": "Bolo caseiro de encomenda. Brigadeiros para decorar: R$ 2,00 a unidade (combinar com a loja).",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio (acima de 700 g)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (acima de 1,1 kg)",
+                  "priceCents": 3000
+                }
+              ]
+            },
+            {
+              "name": "Cobertura para bolo vulcão (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bolo formigueiro",
+          "name": "Bolo formigueiro",
+          "description": "Bolo caseiro de encomenda. Brigadeiros para decorar: R$ 2,00 a unidade (combinar com a loja).",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio (acima de 700 g)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (acima de 1,1 kg)",
+                  "priceCents": 3200
+                }
+              ]
+            },
+            {
+              "name": "Cobertura para bolo vulcão (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bolo de ninho",
+          "name": "Bolo de ninho",
+          "description": "Bolo caseiro de encomenda. Brigadeiros para decorar: R$ 2,00 a unidade (combinar com a loja).",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio (acima de 700 g)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (acima de 1,1 kg)",
+                  "priceCents": 3000
+                }
+              ]
+            },
+            {
+              "name": "Cobertura para bolo vulcão (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

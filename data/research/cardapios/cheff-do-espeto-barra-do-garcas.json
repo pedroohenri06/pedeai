@@ -1,0 +1,1536 @@
+{
+  "id": "cheff-do-espeto-barra-do-garcas",
+  "platform": "visual",
+  "source": "https://cheff-do-espeto-cardapio.sacred-puppy-6546.chatgpt.site/",
+  "capturedAt": "2026-11-04T12:00:00.000Z",
+  "hours": null,
+  "skipped": {},
+  "notes": [
+    "Transcrito das 8 páginas do cardápio (site de visualização no link da bio do Instagram @cheffdoespeto_; auditoria do Claude in Chrome, 04/11/2026): 109 produtos.",
+    "Sabores de suco/creme listados uma vez na seção (laranja, maracujá, acerola, abacaxi, abacaxi com hortelã e morango) aplicados a suco copo, suco jarra e creme.",
+    "Fotos da arte são ilustrações de seção (não de um produto específico): cardápio sem fotos de produto."
+  ],
+  "sections": [
+    {
+      "name": "Churrasco na pedra",
+      "items": [
+        {
+          "sourceId": "Picanha na pedra",
+          "name": "Picanha na pedra",
+          "description": "Acompanha feijão tropeiro, mandioca, arroz, vinagrete, maionese com bacon e molho da casa.",
+          "priceCents": 15990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1 kg",
+                  "priceCents": 6000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Carne serenada na pedra",
+          "name": "Carne serenada na pedra",
+          "description": "Acompanha feijão tropeiro, mandioca, arroz, vinagrete, maionese com bacon e molho da casa.",
+          "priceCents": 10990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1 kg",
+                  "priceCents": 5000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Filé mignon no alho na pedra",
+          "name": "Filé mignon no alho na pedra",
+          "description": "Acompanha feijão tropeiro, mandioca, arroz, vinagrete, maionese com bacon e molho da casa.",
+          "priceCents": 14990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1 kg",
+                  "priceCents": 6000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Cupim na pedra",
+          "name": "Cupim na pedra",
+          "description": "Acompanha feijão tropeiro, mandioca, arroz, vinagrete, maionese com bacon e molho da casa.",
+          "priceCents": 11990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1 kg",
+                  "priceCents": 6000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Maminha na pedra",
+          "name": "Maminha na pedra",
+          "description": "Acompanha feijão tropeiro, mandioca, arroz, vinagrete, maionese com bacon e molho da casa.",
+          "priceCents": 11490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "500 g",
+                  "priceCents": 0
+                },
+                {
+                  "name": "1 kg",
+                  "priceCents": 5000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Chapa mista",
+          "name": "Chapa mista",
+          "description": "Picanha. Acompanha batata frita com bacon e muçarela, mandioca cozida na manteiga de garrafa e molho da casa.",
+          "priceCents": 19990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Petiscos",
+      "items": [
+        {
+          "sourceId": "Batata frita simples 500 g",
+          "name": "Batata frita simples 500 g",
+          "description": "",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Batata frita especial 500 g",
+          "name": "Batata frita especial 500 g",
+          "description": "",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Frango à passarinho 700 g",
+          "name": "Frango à passarinho 700 g",
+          "description": "",
+          "priceCents": 4990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Moela com pão francês",
+          "name": "Moela com pão francês",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Disco de carne",
+          "name": "Disco de carne",
+          "description": "",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Calabresa acebolada",
+          "name": "Calabresa acebolada",
+          "description": "",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Croquete de cupim com queijo",
+          "name": "Croquete de cupim com queijo",
+          "description": "",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Bolinha de costela com queijo",
+          "name": "Bolinha de costela com queijo",
+          "description": "",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salada de jiló",
+          "name": "Salada de jiló",
+          "description": "Acompanha molho verde.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Adicionais",
+      "items": [
+        {
+          "sourceId": "Arroz",
+          "name": "Arroz",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Feijão tropeiro",
+          "name": "Feijão tropeiro",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Vinagrete",
+          "name": "Vinagrete",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Maionese com bacon",
+          "name": "Maionese com bacon",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Molho da casa",
+          "name": "Molho da casa",
+          "description": "",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Molho verde",
+          "name": "Molho verde",
+          "description": "",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Geleia de abacaxi",
+          "name": "Geleia de abacaxi",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Geleia de maçã",
+          "name": "Geleia de maçã",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Espetos",
+      "items": [
+        {
+          "sourceId": "Espeto de contrafilé",
+          "name": "Espeto de contrafilé",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de filé com bacon",
+          "name": "Espeto de filé com bacon",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de cupim",
+          "name": "Espeto de cupim",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de língua",
+          "name": "Espeto de língua",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de linguiça apimentada",
+          "name": "Espeto de linguiça apimentada",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de frango",
+          "name": "Espeto de frango",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de frango com bacon",
+          "name": "Espeto de frango com bacon",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de coração",
+          "name": "Espeto de coração",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de queijo coalho",
+          "name": "Espeto de queijo coalho",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Espeto de queijo coalho com bacon",
+          "name": "Espeto de queijo coalho com bacon",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Janta individual",
+      "items": [
+        {
+          "sourceId": "Janta individual",
+          "name": "Janta individual",
+          "description": "Arroz, feijão tropeiro, mandioca, maionese com bacon e molho verde.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "Caldo de frango 500 ml",
+          "name": "Caldo de frango 500 ml",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caldo de vaca atolada 500 ml",
+          "name": "Caldo de vaca atolada 500 ml",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caldo de peixe 500 ml",
+          "name": "Caldo de peixe 500 ml",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sobremesa",
+      "items": [
+        {
+          "sourceId": "Pudim",
+          "name": "Pudim",
+          "description": "",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Chopp",
+      "items": [
+        {
+          "sourceId": "Chopp Brahma 350 ml",
+          "name": "Chopp Brahma 350 ml",
+          "description": "",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cozumel de chopp",
+          "name": "Cozumel de chopp",
+          "description": "",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cerveja 600 ml",
+      "items": [
+        {
+          "sourceId": "Antarctica 600 ml",
+          "name": "Antarctica 600 ml",
+          "description": "",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Brahma 600 ml",
+          "name": "Brahma 600 ml",
+          "description": "",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Skol 600 ml",
+          "name": "Skol 600 ml",
+          "description": "",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Budweiser 600 ml",
+          "name": "Budweiser 600 ml",
+          "description": "",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Spaten 600 ml",
+          "name": "Spaten 600 ml",
+          "description": "",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Original 600 ml",
+          "name": "Original 600 ml",
+          "description": "",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Stella Artois 600 ml",
+          "name": "Stella Artois 600 ml",
+          "description": "",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Stella Artois Pure Gold 600 ml",
+          "name": "Stella Artois Pure Gold 600 ml",
+          "description": "",
+          "priceCents": 1790,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Long neck",
+      "items": [
+        {
+          "sourceId": "Brahma long neck",
+          "name": "Brahma long neck",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brahma",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brahma Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Stella Artois long neck",
+          "name": "Stella Artois long neck",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Stella Artois Pure Gold long neck",
+          "name": "Stella Artois Pure Gold long neck",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Budweiser long neck",
+          "name": "Budweiser long neck",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Budweiser",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bud Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Spaten long neck",
+          "name": "Spaten long neck",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Corona long neck",
+          "name": "Corona long neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Corona",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Corona Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Michelob long neck",
+          "name": "Michelob long neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Skol Beats",
+          "name": "Skol Beats",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Baldinho",
+      "items": [
+        {
+          "sourceId": "Baldinho Brahma",
+          "name": "Baldinho Brahma",
+          "description": "Balde de gelo + 5 unidades.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brahma",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brahma Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Baldinho Stella Artois",
+          "name": "Baldinho Stella Artois",
+          "description": "Balde de gelo + 5 unidades.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Baldinho Budweiser",
+          "name": "Baldinho Budweiser",
+          "description": "Balde de gelo + 5 unidades.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Budweiser",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bud Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Baldinho Spaten",
+          "name": "Baldinho Spaten",
+          "description": "Balde de gelo + 5 unidades.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Baldinho Corona",
+          "name": "Baldinho Corona",
+          "description": "Balde de gelo + 5 unidades.",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Corona",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Corona Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Doses",
+      "items": [
+        {
+          "sourceId": "Paratudo",
+          "name": "Paratudo",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Ypióca Ouro",
+          "name": "Ypióca Ouro",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Tequila",
+          "name": "Tequila",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Licor 43",
+          "name": "Licor 43",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Presidente",
+          "name": "Presidente",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Canelinha da Roça",
+          "name": "Canelinha da Roça",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Gin Tanqueray",
+          "name": "Gin Tanqueray",
+          "description": "",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pinga 51",
+          "name": "Pinga 51",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pinga Velho Barreiro",
+          "name": "Pinga Velho Barreiro",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Whisky Buchanan's",
+          "name": "Whisky Buchanan's",
+          "description": "",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Whisky Old Parr",
+          "name": "Whisky Old Parr",
+          "description": "",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Whisky White Horse",
+          "name": "Whisky White Horse",
+          "description": "",
+          "priceCents": 2490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Campari",
+          "name": "Campari",
+          "description": "",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Drinks",
+      "items": [
+        {
+          "sourceId": "Copélia",
+          "name": "Copélia",
+          "description": "Maracujá, soda limonada e vodka.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Piña colada",
+          "name": "Piña colada",
+          "description": "Rum, leite de coco, leite condensado e abacaxi.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Margarita",
+          "name": "Margarita",
+          "description": "Tequila, licor de laranja e suco de limão.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Negroni",
+          "name": "Negroni",
+          "description": "Campari, vermute e gim.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cosmopolitan",
+          "name": "Cosmopolitan",
+          "description": "Vodka, licor de laranja, cranberry e suco de limão.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Gin tropical",
+          "name": "Gin tropical",
+          "description": "Gim, suco de laranja e energético.",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Batida",
+          "name": "Batida",
+          "description": "",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Fruta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Preparo de cozumel",
+          "name": "Preparo de cozumel",
+          "description": "",
+          "priceCents": 1190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cozumel",
+          "name": "Cozumel",
+          "description": "Limão, sal, gelo e cerveja.",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Gin tônica",
+          "name": "Gin tônica",
+          "description": "Gin, suco de limão e água tônica.",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Sex on the beach",
+          "name": "Sex on the beach",
+          "description": "Vodka, licor de pêssego, suco de laranja e licor de morango.",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caipirinha",
+          "name": "Caipirinha",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caipiroska",
+          "name": "Caipiroska",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Cheff Red",
+          "name": "Cheff Red",
+          "description": "Soda limonada, limão, açúcar e uma fruta.",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Fruta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Caipifruta",
+          "name": "Caipifruta",
+          "description": "Cachaça, limão, morango, açúcar e uma fruta.",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Fruta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Drinks sem álcool",
+      "items": [
+        {
+          "sourceId": "Soda italiana",
+          "name": "Soda italiana",
+          "description": "Água com gás e xarope saborizado.",
+          "priceCents": 2290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maçã verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cranberry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frutas vermelhas",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Caipefruta",
+          "name": "Caipefruta",
+          "description": "Soda limonada, limão, açúcar e uma fruta.",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Fruta",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos e cremes",
+      "items": [
+        {
+          "sourceId": "Suco (copo)",
+          "name": "Suco (copo)",
+          "description": "",
+          "priceCents": 1390,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Suco misto",
+          "name": "Suco misto",
+          "description": "",
+          "priceCents": 1590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco (jarra)",
+          "name": "Suco (jarra)",
+          "description": "",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Creme",
+          "name": "Creme",
+          "description": "",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "Água sem gás",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Água com gás",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Água tônica",
+          "name": "Água tônica",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Gatorade",
+          "name": "Gatorade",
+          "description": "",
+          "priceCents": 950,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "H2O limão / Limoneto",
+          "name": "H2O limão / Limoneto",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "H2O limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limoneto",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Red Bull",
+          "name": "Red Bull",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Copo especial",
+          "name": "Copo especial",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Caldo de limão / CDB",
+          "name": "Caldo de limão / CDB",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Limão cortado",
+          "name": "Limão cortado",
+          "description": "",
+          "priceCents": 100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Balde com gelo",
+          "name": "Balde com gelo",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerante lata",
+          "name": "Refrigerante lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Antarctica",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sukita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepsi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Refrigerante 1 L",
+          "name": "Refrigerante 1 L",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Antarctica",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sukita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepsi",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Refrigerante 1,5 L",
+          "name": "Refrigerante 1,5 L",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Antarctica",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sukita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Refrigerante 2 L",
+          "name": "Refrigerante 2 L",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Antarctica",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sukita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Soda Limonada",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

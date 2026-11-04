@@ -1,0 +1,1343 @@
+{
+  "id": "karamello-s-confeitaria-cafe-agua-boa",
+  "platform": "visual",
+  "source": "https://drive.google.com/drive/folders/1QIsap84FnV70zl678WD6bw3GCTOTWl4s",
+  "capturedAt": "2026-11-04T12:00:00.000Z",
+  "hours": null,
+  "skipped": {
+    "sem preço (vitrine do dia, linguiça para levar, pão/caseirinhos zero)": 3
+  },
+  "notes": [
+    "Transcrito do \"cardápio mesa\" (10 artes numa pasta do Google Drive no link da bio do Instagram → Linktree; auditoria do Claude in Chrome, 04/11/2026): 79 produtos.",
+    "Fora (sem preço na arte): vitrine do dia (brownies, cookies, brigadeiros, bolo gelado, pudim, tortinhas, banoffe, bolo de pote, bombom aberto, pão de mel), linguiça Karamello's para levar, pão zero e caseirinhos zero.",
+    "Adicionais dos cafés (chantilly, brigadeiro, Nutella) aplicados aos cafés tradicionais; \"opção à escolha: leite zero lactose\" nas bebidas especiais.",
+    "Fotos: 18 recortadas das próprias artes e tratadas (EDSR 4x + nitidez) com scripts/menus/enhance.py; só onde a foto corresponde claramente ao produto."
+  ],
+  "sections": [
+    {
+      "name": "Mistos e lanches",
+      "items": [
+        {
+          "sourceId": "Misto tradicional",
+          "name": "Misto tradicional",
+          "description": "Feito com pão caseiro artesanal, produzido diariamente na Karamello's. Presunto e mussarela.",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/misto-tradicional.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Misto com ovo",
+          "name": "Misto com ovo",
+          "description": "Feito com pão caseiro artesanal, produzido diariamente na Karamello's. Presunto, mussarela e ovo.",
+          "priceCents": 1560,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Misto caipira",
+          "name": "Misto caipira",
+          "description": "Feito com pão caseiro artesanal, produzido diariamente na Karamello's. Presunto, mussarela, milho e tomate.",
+          "priceCents": 1560,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Misto completo",
+          "name": "Misto completo",
+          "description": "Feito com pão caseiro artesanal, produzido diariamente na Karamello's. Presunto, mussarela, ovo, alface, milho e tomate.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Misto 4 queijos",
+          "name": "Misto 4 queijos",
+          "description": "Feito com pão caseiro artesanal, produzido diariamente na Karamello's. Gorgonzola, provolone, prato e mussarela.",
+          "priceCents": 2550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Ovos mexidos",
+          "name": "Ovos mexidos",
+          "description": "Acompanha 4 mini torradas integrais.",
+          "priceCents": 1380,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/ovos-mexidos.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Sanduíche natural",
+          "name": "Sanduíche natural",
+          "description": "Frango cremoso, cenoura, milho, alface e tomate no pão integral.",
+          "priceCents": 1550,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/sanduiche-natural.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        }
+      ]
+    },
+    {
+      "name": "Coxinhas",
+      "items": [
+        {
+          "sourceId": "Coxinha de camarão",
+          "name": "Coxinha de camarão",
+          "description": "",
+          "priceCents": 1760,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coxinha de costela",
+          "name": "Coxinha de costela",
+          "description": "",
+          "priceCents": 1550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coxinha de frango",
+          "name": "Coxinha de frango",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coxinha de mandioca (carne)",
+          "name": "Coxinha de mandioca (carne)",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coxinha de mandioca (frango)",
+          "name": "Coxinha de mandioca (frango)",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Quiches",
+      "items": [
+        {
+          "sourceId": "Quiche de camarão",
+          "name": "Quiche de camarão",
+          "description": "Massa brisé.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Quiche 4 queijos",
+          "name": "Quiche 4 queijos",
+          "description": "Massa brisé.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Quiche de alho-poró",
+          "name": "Quiche de alho-poró",
+          "description": "Massa brisé.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Quiche de alho-poró e bacon",
+          "name": "Quiche de alho-poró e bacon",
+          "description": "Massa brisé.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Quiche de costela",
+          "name": "Quiche de costela",
+          "description": "Massa brisé.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Empadas",
+      "items": [
+        {
+          "sourceId": "Empada de frango com cheddar",
+          "name": "Empada de frango com cheddar",
+          "description": "Massa brisé.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Empada de frango com catupiry",
+          "name": "Empada de frango com catupiry",
+          "description": "Massa brisé.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Empada de costela",
+          "name": "Empada de costela",
+          "description": "Massa brisé.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Empada de palmito cremoso",
+          "name": "Empada de palmito cremoso",
+          "description": "Massa brisé.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Salgados assados da casa",
+      "items": [
+        {
+          "sourceId": "Salgado assado de calabresa",
+          "name": "Salgado assado de calabresa",
+          "description": "Calabresa, mussarela e requeijão.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Hot dog de forno (fechado)",
+          "name": "Hot dog de forno (fechado)",
+          "description": "Salsicha picada, milho verde, maionese e ketchup.",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Salgado assado de presunto e queijo",
+          "name": "Salgado assado de presunto e queijo",
+          "description": "Presunto e mussarela.",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Americano",
+          "name": "Americano",
+          "description": "Salsicha, presunto, mussarela, tomate, molho e requeijão.",
+          "priceCents": 1550,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Hambúrguer artesanal assado",
+          "name": "Hambúrguer artesanal assado",
+          "description": "Hambúrguer artesanal, mussarela, bacon em cubos, tomate, ketchup e molho.",
+          "priceCents": 2280,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Enroladão assado de salsicha e mussarela",
+          "name": "Enroladão assado de salsicha e mussarela",
+          "description": "",
+          "priceCents": 1150,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Pão com linguiça artesanal",
+          "name": "Pão com linguiça artesanal",
+          "description": "Pão, linguiça da casa (linguiça artesanal Karamello's), queijo cremoso e tomate.",
+          "priceCents": 2390,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/pao-com-linguica.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        }
+      ]
+    },
+    {
+      "name": "Risoles, disquinhos e tortas",
+      "items": [
+        {
+          "sourceId": "Risole de carne",
+          "name": "Risole de carne",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Risole de presunto e queijo",
+          "name": "Risole de presunto e queijo",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Enroladão frito de salsicha e mussarela",
+          "name": "Enroladão frito de salsicha e mussarela",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Disquinho de carne",
+          "name": "Disquinho de carne",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Disquinho de frango",
+          "name": "Disquinho de frango",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Torta de frango (fatia)",
+          "name": "Torta de frango (fatia)",
+          "description": "Frango cremoso, mussarela e Catupiry®.",
+          "priceCents": 2380,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/torta-de-frango.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        }
+      ]
+    },
+    {
+      "name": "Linha equilíbrio",
+      "items": [
+        {
+          "sourceId": "Salada de frutas",
+          "name": "Salada de frutas",
+          "description": "Acompanha iogurte natural e granola servida à parte.",
+          "priceCents": 2250,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/salada-de-frutas.png",
+          "options": [
+            {
+              "name": "Frutas (até 4)",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mamão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maçã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Manga",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Crepioca de frango",
+          "name": "Crepioca de frango",
+          "description": "Frango desfiado, ervas finas, tomates em cubos e temperos da casa incorporados à massa.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Crepioca de carne",
+          "name": "Crepioca de carne",
+          "description": "Carne seca, tomates em cubos e temperos da casa incorporados à massa.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Crepioca 4 queijos",
+          "name": "Crepioca 4 queijos",
+          "description": "Gorgonzola, provolone, mussarela e queijo prato incorporados à massa.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Muffin zero",
+          "name": "Muffin zero",
+          "description": "Sabor do dia: consulte a loja.",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/muffin-zero.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        }
+      ]
+    },
+    {
+      "name": "Doceria",
+      "items": [
+        {
+          "sourceId": "Fatia de caseirinho",
+          "name": "Fatia de caseirinho",
+          "description": "Sabor do dia: consulte a loja.",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/fatia-de-caseirinho.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Brownie supreme",
+          "name": "Brownie supreme",
+          "description": "Farofa secreta, brownie quente, brigadeiro cremoso e sorvete de creme.",
+          "priceCents": 2150,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/brownie-supreme.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Affogato",
+          "name": "Affogato",
+          "description": "Café expresso, sorvete de creme e chantilly.",
+          "priceCents": 1950,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/affogato.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        }
+      ]
+    },
+    {
+      "name": "Cafés tradicionais",
+      "items": [
+        {
+          "sourceId": "Espresso",
+          "name": "Espresso",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/espresso.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Espresso duplo",
+          "name": "Espresso duplo",
+          "description": "",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Café coado",
+          "name": "Café coado",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Café com leite",
+          "name": "Café com leite",
+          "description": "",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Leite com Nescau",
+          "name": "Leite com Nescau",
+          "description": "",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/leite-com-nescau.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Drip coffee",
+          "name": "Drip coffee",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/drip-coffe.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Cappuccino da casa",
+          "name": "Cappuccino da casa",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/cappuccino-da-casa.png",
+          "options": [
+            {
+              "name": "Canela",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem canela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Cappuccino zero",
+          "name": "Cappuccino zero",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Cappuccino italiano",
+          "name": "Cappuccino italiano",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/cappuccino-italiano.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Cappuccino com pistache",
+          "name": "Cappuccino com pistache",
+          "description": "",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/cappuccino-com-pistache.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Chantilly",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        }
+      ]
+    },
+    {
+      "name": "Cafés e bebidas especiais",
+      "items": [
+        {
+          "sourceId": "Latte Karamello's",
+          "name": "Latte Karamello's",
+          "description": "Com caramelo.",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Latte vanilla",
+          "name": "Latte vanilla",
+          "description": "Baunilha e leite condensado.",
+          "priceCents": 1650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Latte mineiro",
+          "name": "Latte mineiro",
+          "description": "Com doce de leite.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Mocaccino",
+          "name": "Mocaccino",
+          "description": "Brigadeiro.",
+          "priceCents": 1850,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Chocolate quente da casa",
+          "name": "Chocolate quente da casa",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Leitinho cremoso",
+          "name": "Leitinho cremoso",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Ice coffee clássico",
+          "name": "Ice coffee clássico",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Ice coffee avelã",
+          "name": "Ice coffee avelã",
+          "description": "Nutella.",
+          "priceCents": 1750,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Ice coffee mineiro",
+          "name": "Ice coffee mineiro",
+          "description": "Doce de leite.",
+          "priceCents": 1750,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Leite",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite integral",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite zero lactose",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas geladas",
+      "items": [
+        {
+          "sourceId": "Soda italiana",
+          "name": "Soda italiana",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/soda-italiana.png",
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limão siciliano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maçã verde",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Frapê de abacaxi e coco",
+          "name": "Frapê de abacaxi e coco",
+          "description": "",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/karamello-s-confeitaria-cafe-agua-boa/frape-abacaxi-e-coco.png",
+          "options": [],
+          "imageSource": "https://www.instagram.com/karamellosab/"
+        },
+        {
+          "sourceId": "Frapê de cappuccino",
+          "name": "Frapê de cappuccino",
+          "description": "",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Frapê de morango",
+          "name": "Frapê de morango",
+          "description": "",
+          "priceCents": 2350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco natural tradicional",
+          "name": "Suco natural tradicional",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo 300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jarra 750 ml",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Suco natural especial",
+          "name": "Suco natural especial",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo 300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jarra 750 ml",
+                  "priceCents": 1050
+                }
+              ]
+            },
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco verde",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Água sem gás 500 ml",
+          "name": "Água sem gás 500 ml",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Água com gás 500 ml",
+          "name": "Água com gás 500 ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerante lata",
+          "name": "Refrigerante lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Coca-Cola lata",
+          "name": "Coca-Cola lata",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coca-Cola 600 ml",
+          "name": "Coca-Cola 600 ml",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coca-Cola 2 L",
+          "name": "Coca-Cola 2 L",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerante 2 L",
+          "name": "Refrigerante 2 L",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Powerade (isotônico)",
+          "name": "Powerade (isotônico)",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Monster 473 ml",
+          "name": "Monster 473 ml",
+          "description": "",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco Kapo",
+          "name": "Suco Kapo",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco Del Valle lata",
+          "name": "Suco Del Valle lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Suco Del Valle 1 L",
+          "name": "Suco Del Valle 1 L",
+          "description": "",
+          "priceCents": 1385,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,856 @@
+{
+  "id": "portal-burguer-grill-nova-xavantina",
+  "platform": "visual",
+  "source": "https://drive.google.com/file/d/1n1jh2SIFVhORG06dLB82EW10NHi3P2QO/view",
+  "capturedAt": "2026-11-04T12:00:00.000Z",
+  "hours": null,
+  "skipped": {},
+  "notes": [
+    "Transcrito do PDF do cardápio (5 páginas; link da bio → Linktree → Google Drive; auditoria do Claude in Chrome, 04/11/2026): 30 produtos na fonte, 30 cadastrados.",
+    "Na escolha do lanche gourmet a casa oferece uma pequena porção de fritas (aviso do cardápio).",
+    "Porções: \"meia porção será cobrado 70% do valor\" (regra do cardápio) — meia calculada assim; Parmegiana e Frango grelhado usam o valor de meia impresso.",
+    "Adicionais do cardápio (página dos sandubões) aplicados aos hambúrgueres e sandubões; pão australiano +R$ 5,00 como opção nos hambúrgueres.",
+    "Delivery de segunda a quinta, 19h às 22h; sexta e sábado só retirada presencial (cardápio).",
+    "Fotos do PDF são de capa de seção, não de produto: cardápio sem fotos até a loja enviar."
+  ],
+  "sections": [
+    {
+      "name": "Hambúrgueres",
+      "items": [
+        {
+          "sourceId": "Classic Prime",
+          "name": "Classic Prime",
+          "description": "Hambúrguer bovino artesanal 160 g, bacon, cheddar, alface, tomate, cebola e maionese da casa.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão normal",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão australiano",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Duplo Prime",
+          "name": "Duplo Prime",
+          "description": "Dois hambúrgueres bovinos artesanais 160 g, bacon, cheddar, alface, tomate, cebola e maionese da casa.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão normal",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão australiano",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bite",
+          "name": "Bite",
+          "description": "Hambúrguer bovino artesanal 160 g, mussarela, alface, cebola e maionese da casa.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão normal",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão australiano",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Santo Burguer",
+          "name": "Santo Burguer",
+          "description": "Hambúrguer bovino artesanal 160 g, mussarela, cebola e maionese da casa.",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão normal",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão australiano",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Burguer Aberto",
+          "name": "Burguer Aberto",
+          "description": "Hambúrguer bovino 160 g, cheddar, cebola, alface, repolho, cenoura, pepino, azeitona, tomate cereja e molho da casa. Não acompanha pão.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Classic",
+          "name": "Classic",
+          "description": "Mussarela, alface, tomate, cebola e molho da casa.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão normal",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão australiano",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sandubão",
+      "items": [
+        {
+          "sourceId": "Sandubão de filé",
+          "name": "Sandubão de filé",
+          "description": "Pão bengala (30 cm), filé mignon, alface, tomate, cebola, mussarela e maionese da casa.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Sandubão de frango",
+          "name": "Sandubão de frango",
+          "description": "Pão bengala (30 cm), filé de frango, alface, tomate, cebola, mussarela e maionese da casa.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Sandubão vegetariano",
+          "name": "Sandubão vegetariano",
+          "description": "Pão bengala (30 cm), alface, tomate, cenoura, repolho, pepino, azeitona, mussarela e maionese da casa.",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Meio sandubão",
+          "name": "Meio sandubão",
+          "description": "Pão bengala (15 cm), filé mignon, alface, tomate, cebola, mussarela e maionese da casa.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Molho da casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Batata 80 g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mundo fit",
+      "items": [
+        {
+          "sourceId": "Bowl",
+          "name": "Bowl",
+          "description": "Tigela com tiras de filé mignon ou frango, mussarela, alface, cenoura, repolho, tomate cereja, pepino, azeitona, cebola e molho da casa.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bowl fit",
+          "name": "Bowl fit",
+          "description": "Tigela com mussarela, alface, cenoura, repolho, tomate cereja, pepino, azeitona, cebola e molho da casa.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "Batata frita",
+          "name": "Batata frita",
+          "description": "",
+          "priceCents": 2450,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Inteira",
+                  "priceCents": 1050
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Batata especial",
+          "name": "Batata especial",
+          "description": "Batata frita, bacon, cheddar e mussarela.",
+          "priceCents": 2940,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Inteira",
+                  "priceCents": 1260
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Filé com fritas",
+          "name": "Filé com fritas",
+          "description": "Filé mignon acebolado com porção de fritas e molho da casa.",
+          "priceCents": 5950,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Inteira",
+                  "priceCents": 2550
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Isca de frango",
+          "name": "Isca de frango",
+          "description": "Tiras de frango empanado e molho da casa.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Inteira",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Isca de tilápia",
+          "name": "Isca de tilápia",
+          "description": "Tiras de tilápia empanada e molho da casa.",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Inteira",
+                  "priceCents": 2010
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Para dividir",
+      "items": [
+        {
+          "sourceId": "Parmegiana",
+          "name": "Parmegiana",
+          "description": "Filé mignon à parmegiana 400 g, arroz e batata frita.",
+          "priceCents": 10700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Inteira",
+                  "priceCents": 4500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Frango grelhado",
+          "name": "Frango grelhado",
+          "description": "Filé de frango grelhado ao molho sugo, arroz e batata frita.",
+          "priceCents": 5300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Porção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Inteira",
+                  "priceCents": 2200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Salada Beira Rio",
+          "name": "Salada Beira Rio",
+          "description": "Tiras de filé mignon 200 g, alface, tomate cereja, repolho roxo, cenoura, pepino, azeitona, mussarela e molho da casa.",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Porção de arroz",
+          "name": "Porção de arroz",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "Água sem gás",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Água com gás",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Água tônica",
+          "name": "Água tônica",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Guaraná 1 L",
+          "name": "Guaraná 1 L",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coca-Cola 1,5 L",
+          "name": "Coca-Cola 1,5 L",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Coca-Cola 2 L",
+          "name": "Coca-Cola 2 L",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerante lata",
+          "name": "Refrigerante lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "Refrigerante 500 ml",
+          "name": "Refrigerante 500 ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "H2O / Limoneto",
+          "name": "H2O / Limoneto",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,375 @@
+{
+  "id": "doces-da-ana-barra-do-garcas",
+  "platform": "visual",
+  "source": "https://www.canva.com/design/DAGsKHJUOX4/0VgCj6UdFKn_jgRwreSDxA/view",
+  "capturedAt": "2026-11-04T12:00:00.000Z",
+  "hours": null,
+  "skipped": {},
+  "notes": [
+    "Transcrito do cardápio no Canva (link da bio do Instagram @docesdaanabg; auditoria do Claude in Chrome, 04/11/2026): potes (16 sabores, R$ 15), bolos caseiros (massas R$ 30 e especiais R$ 38, coberturas adicionais) e bolos recheados por peso.",
+    "Bolos com morango têm acréscimo de R$ 25,00 (aplicado ao recheio Ninho com morango). Recheio: uma escolha; outras combinações, combinar com a loja.",
+    "Informações do cardápio: encomendas com no mínimo 2 dias de antecedência, 50% antecipado, retirada em Barra do Garças. WhatsApp na arte: (62) 99149-2881.",
+    "Arte sem fotos de produto."
+  ],
+  "sections": [
+    {
+      "name": "Potes",
+      "items": [
+        {
+          "sourceId": "Pote",
+          "name": "Pote",
+          "description": "Doce de pote. Encomenda com no mínimo 2 dias de antecedência; retirada em Barra do Garças.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Dois brigadeiros",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de ninho com abacaxi e coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de ninho com geleia de morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro com ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro meio amargo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro de paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cocada cremosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro com amendoim",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Doce de leite com paçoca e ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cenoura com brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bombom",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pudim",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bolos caseiros",
+      "items": [
+        {
+          "sourceId": "Bolo caseiro",
+          "name": "Bolo caseiro",
+          "description": "Forma de 22 cm: serve de 20 a 22 fatias; peso aproximado de 1 a 1,8 kg. Encomenda com no mínimo 2 dias de antecedência; retirada em Barra do Garças.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Massa",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baunilha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cenoura",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Formigueiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fubá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fubá com laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Trigo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mesclado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Cobertura (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Brigadeiro de ninho",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Brigadeiro de paçoca",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Cocada cremosa",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Calda de porcelana",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Calda de açúcar",
+                  "priceCents": 1400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "Bolo caseiro especial",
+          "name": "Bolo caseiro especial",
+          "description": "Forma de 22 cm: serve de 20 a 22 fatias; peso aproximado de 1 a 1,8 kg. Encomenda com no mínimo 2 dias de antecedência; retirada em Barra do Garças.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Massa",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maçã com castanhas-do-pará",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cenoura com gotas de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fubá com goiabada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Amanteigada com mirtilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate especial",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Cobertura (adicional)",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Brigadeiro de ninho",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Brigadeiro de paçoca",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Cocada cremosa",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Calda de porcelana",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Calda de açúcar",
+                  "priceCents": 1400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bolos",
+      "items": [
+        {
+          "sourceId": "Bolo recheado",
+          "name": "Bolo recheado",
+          "description": "Encomenda com no mínimo 2 dias de antecedência; retirada em Barra do Garças.",
+          "priceCents": 10800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Aprox. 1 kg",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Aprox. 1,7 kg",
+                  "priceCents": 6000
+                },
+                {
+                  "name": "Aprox. 2 a 2,5 kg",
+                  "priceCents": 12000
+                },
+                {
+                  "name": "Aprox. 4 a 4,5 kg",
+                  "priceCents": 33200
+                }
+              ]
+            },
+            {
+              "name": "Massa",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baunilha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cenoura",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Recheio",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Doce de leite com paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ninho com abacaxi e coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dois brigadeiros",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ninho com morango",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "id": "gg-burguer-querencia",
+  "platform": "vemmenu",
+  "source": "https://vemmenu.com/sabordemae/",
+  "capturedAt": "2026-11-04T01:25:02.979Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "1005",
+          "name": "X-Salada Simples",
+          "description": "Pão, maionese, hambúrguer, ovo, presunto, mussarela, milho, ervilha, alface e...",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-0102e187741529ba.png",
+          "options": []
+        },
+        {
+          "sourceId": "1006",
+          "name": "X-Salada Especial",
+          "description": "Pão, maionese, hambúrguer, bacon, cheddar, cebola, presunto, mussarela, milho,...",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-c3f752e8f37f40df.png",
+          "options": []
+        },
+        {
+          "sourceId": "1008",
+          "name": "X-Tentação",
+          "description": "Pão, maionese, hambúrguer, bacon, ovo, abacaxi, cebola, presunto, mussarela, m...",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-6e9a8ea6f90c94cf.png",
+          "options": []
+        },
+        {
+          "sourceId": "1011",
+          "name": "X-Bacon",
+          "description": "Pão, maionese, hambúrguer, bacon, ovo, cheddar, presunto, mussarela, milho, er...",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-d9818e846437053d.png",
+          "options": []
+        },
+        {
+          "sourceId": "1007",
+          "name": "X-Coração",
+          "description": "Pão, maionese, hambúrguer, coração de frango, cheddar, catupiry, presunto, m...",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-fb652fbdc820cd3b.png",
+          "options": []
+        },
+        {
+          "sourceId": "1012",
+          "name": "X-Calabresa",
+          "description": "Pão, hambúrguer, calabresa, queijo mussarela, cebola, alface, tomate, milho, b...",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-1c52eb4ad16e13e1.png",
+          "options": []
+        },
+        {
+          "sourceId": "1009",
+          "name": "X-Tudo",
+          "description": "Pão, maionese, hambúrguer, frango, bacon, calabresa, ovo, salsicha, presunto,...",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-279848b1c206a05a.png",
+          "options": []
+        },
+        {
+          "sourceId": "1010",
+          "name": "X-gg",
+          "description": "Pão, maionese, 2 hambúrgueres, bacon, calabresa, 2 ovos, 2 salsichas, 2 presun...",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-3a0e8a92b4eab47a.png",
+          "options": []
+        },
+        {
+          "sourceId": "1015",
+          "name": "X Havaiano",
+          "description": "Pão, hambúrguer, banana assada, presunto, mussarela, batata palha, milho, ervi...",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-00c0702230d20405.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Marmitas",
+      "items": [
+        {
+          "sourceId": "998",
+          "name": "Marmita média",
+          "description": "Consultar cardapio do dia",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-a39003639a4015a7.png",
+          "options": []
+        },
+        {
+          "sourceId": "999",
+          "name": "Marmita grande",
+          "description": "Consultar cardapio do dia",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-c7b6f20066068b67.png",
+          "options": []
+        },
+        {
+          "sourceId": "1016",
+          "name": "Marmita Pequena",
+          "description": "Consultar cardápio do dia",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-f475bb01521f88c4.png",
+          "options": []
+        },
+        {
+          "sourceId": "1000",
+          "name": "Kit feijoada",
+          "description": "Feijoada somente aos sabados",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-f0e32e7076be872b.png",
+          "options": []
+        },
+        {
+          "sourceId": "1001",
+          "name": "Marmita pequena de churrasco",
+          "description": "Servidas somente aos domingos",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-a0c1f4a43dfe6976.png",
+          "options": []
+        },
+        {
+          "sourceId": "1002",
+          "name": "Marmita media de churrasco",
+          "description": "Servidas somente aos domingos",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-4dc6e5dcfa418f67.png",
+          "options": []
+        },
+        {
+          "sourceId": "1003",
+          "name": "Marmita grande de churrasco",
+          "description": "Servidas somente aos domingos",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-bf3ea7ab716859a0.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "985",
+          "name": "Coca cola 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-f15b6dc8cd67883d.png",
+          "options": []
+        },
+        {
+          "sourceId": "1004",
+          "name": "Coca cola 1,5l",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-456db6f307a80d0b.png",
+          "options": []
+        },
+        {
+          "sourceId": "986",
+          "name": "Coca cola 2l",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-cc5ea14902ee140e.png",
+          "options": []
+        },
+        {
+          "sourceId": "1013",
+          "name": "Guaraná 2 Litros",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-792a5901b763ce2d.png",
+          "options": []
+        },
+        {
+          "sourceId": "1017",
+          "name": "COCA COLA 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://vemmenu.com/sabordemae/images/produtos/img-produto-a519d32e8f932699.png",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

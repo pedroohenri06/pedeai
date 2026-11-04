@@ -1,8 +1,8 @@
 # Relatório de importação dos cardápios
 
-Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/cardapios/fontes.json`.
+Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/cardapios/fontes.json`.
 
-**99 cardápios importados** de 132 links de cardápio cadastrados · 972 categorias · 5684 produtos · 3806 grupos de opções · 11772 adicionais (opções opcionais) · 3473 fotos.
+**111 cardápios importados** de 139 links de cardápio cadastrados · 1063 categorias · 6230 produtos · 4101 grupos de opções · 13255 adicionais (opções opcionais) · 3965 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -17,6 +17,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 | OK | Ds'burguer | Água Boa | vendanozap | 2 | 17 | 7 | 42 | 17 | 0 | 0 |
 | OK | Eskimó Sorvetes | Água Boa | aiqfome | 18 | 73 | 1 | 0 | 10 | 0 | 9 |
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
+| OK | Golden Hamburgueria | Água Boa | brendi | 5 | 33 | 5 | 40 | 33 | 1 | 0 |
 | OK | Hamburgueria Raiz | Água Boa | maisdelivery | 7 | 31 | 46 | 63 | 12 | 0 | 0 |
 | OK | Kaingó Açaí | Água Boa | maisdelivery | 7 | 28 | 15 | 158 | 26 | 0 | 0 |
 | OK | Magnólia Confeitaria e Café | Água Boa | maisdelivery | 10 | 57 | 30 | 24 | 52 | 0 | 0 |
@@ -38,14 +39,18 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
+| OK | Frutos de Goiás Sorveteria | Barra do Garças | zapdelivery | 12 | 158 | 0 | 0 | 158 | 0 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
 | OK | Madrugordão Lanches | Barra do Garças | visual | 4 | 26 | 26 | 442 | 7 | 0 | 6 |
 | OK | Maria Filó | Barra do Garças | zapdelivery | 18 | 51 | 17 | 32 | 51 | 3 | 0 |
+| OK | Mistrô Massas Marmitas & Pizzaria | Barra do Garças | compraqui | 13 | 65 | 0 | 0 | 41 | 0 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 19 | 0 | 0 |
+| OK | Texas Grill - Burger & Churrasco | Barra do Garças | anotaai | 12 | 48 | 104 | 83 | 40 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | ALÊ Café & Empório | Canarana | maisdelivery | 10 | 39 | 24 | 22 | 32 | 0 | 0 |
 | OK | Buxadinha Lanches | Canarana | olaclick | 5 | 29 | 54 | 442 | 29 | 0 | 0 |
+| OK | Casa da Pizza Delivery | Canarana | anotaai | 4 | 24 | 17 | 150 | 24 | 0 | 0 |
 | OK | Casa do Açaí & Pastel | Canarana | maisdelivery | 8 | 33 | 10 | 67 | 18 | 0 | 0 |
 | OK | Chicken Box Canarana | Canarana | saipos | 12 | 77 | 25 | 186 | 48 | 7 | 0 |
 | OK | Hora do Lanche | Canarana | maisdelivery | 8 | 25 | 5 | 0 | 13 | 0 | 0 |
@@ -57,8 +62,10 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 | OK | Restaurante e Pizzaria Chopinho | Canarana | olaclick | 11 | 76 | 31 | 0 | 76 | 0 | 3 |
 | OK | Saboritos Burguer & Sorveteria | Canarana | brendi | 8 | 55 | 58 | 336 | 50 | 0 | 2 |
 | OK | Suprema Pizza & Pastelaria | Canarana | meucardapio | 16 | 221 | 212 | 99 | 52 | 1 | 0 |
+| OK | Texas Burger & Grill | Canarana | menudino | 7 | 42 | 0 | 0 | 38 | 0 | 0 |
 | OK | 1º Opção Lanches | Nova Xavantina | aiqfome | 7 | 35 | 10 | 35 | 0 | 0 | 0 |
 | OK | Açaí Foods & Crepe Mania | Nova Xavantina | aiqfome | 10 | 80 | 29 | 30 | 78 | 0 | 9 |
+| OK | Açaí Raiz do Pará | Nova Xavantina | godly | 5 | 23 | 0 | 0 | 23 | 0 | 0 |
 | OK | Araguaia Sushi NX | Nova Xavantina | bigdim | 29 | 147 | 63 | 451 | 140 | 0 | 0 |
 | OK | Big Belly Burguer | Nova Xavantina | takeat | 5 | 12 | 4 | 52 | 3 | 0 | 0 |
 | OK | Big Pizza Delivery NX | Nova Xavantina | olaclick | 9 | 56 | 52 | 5 | 32 | 0 | 0 |
@@ -72,19 +79,23 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 | OK | Sorveteria Creme Mania | Nova Xavantina | olaclick | 6 | 12 | 20 | 36 | 12 | 0 | 0 |
 | OK | SuntZu Sushi | Nova Xavantina | cardapioweb | 16 | 134 | 96 | 853 | 110 | 7 | 5 |
 | OK | Suprema Pizza | Nova Xavantina | meucardapio | 14 | 218 | 205 | 121 | 49 | 0 | 0 |
+| OK | Tribo do Açaí | Nova Xavantina | meucardapio | 13 | 45 | 117 | 954 | 41 | 0 | 0 |
 | OK | Braseiro Espetinhos | Querência | aiqfome | 3 | 26 | 0 | 0 | 0 | 0 | 0 |
 | OK | Campero Grill | Querência | aiqfome | 7 | 58 | 12 | 0 | 45 | 0 | 7 |
+| OK | Casa da Pizza de Querência | Querência | anotaai | 4 | 23 | 17 | 130 | 23 | 0 | 0 |
 | OK | Casa do Sushi | Querência | aiqfome | 14 | 90 | 7 | 70 | 15 | 7 | 6 |
 | OK | Chiquinho Sorvetes | Querência | aiqfome | 16 | 88 | 130 | 204 | 68 | 0 | 8 |
 | OK | Coral Sushi Delivery | Querência | brendi | 14 | 70 | 0 | 0 | 63 | 1 | 1 |
 | OK | Delícias do Pará | Querência | aiqfome | 4 | 53 | 1 | 0 | 10 | 0 | 8 |
 | OK | Dtalia Pizzaria Querência | Querência | foodsapp | 8 | 59 | 39 | 1 | 59 | 0 | 7 |
 | OK | Geladinhos Prisci | Querência | aiqfome | 4 | 12 | 1 | 0 | 9 | 0 | 9 |
+| OK | GG Burguer | Querência | vemmenu | 3 | 21 | 0 | 0 | 21 | 0 | 0 |
 | OK | Go Burger Delivery | Querência | zionpdv | 4 | 17 | 12 | 0 | 17 | 0 | 3 |
 | OK | Hot Dog Family | Querência | aiqfome | 6 | 26 | 6 | 0 | 0 | 0 | 0 |
 | OK | Janaina Lorrainy Doces | Querência | goomer | 4 | 14 | 0 | 0 | 14 | 0 | 0 |
 | OK | Lugano Querência | Querência | aiqfome | 14 | 73 | 27 | 91 | 28 | 0 | 6 |
 | OK | MC Lena | Querência | aiqfome | 7 | 42 | 16 | 143 | 8 | 0 | 4 |
+| OK | Owzi Burger | Querência | saipos | 11 | 59 | 35 | 126 | 45 | 5 | 0 |
 | OK | Picanhas Grill | Querência | foodsapp | 14 | 81 | 19 | 13 | 81 | 0 | 2 |
 | OK | Restaurante Toque Caseiro | Querência | beefood | 2 | 23 | 0 | 0 | 0 | 0 | 0 |
 | OK | Sabor Top 25 | Querência | aiqfome | 12 | 95 | 88 | 95 | 0 | 0 | 0 |
@@ -96,6 +107,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 | OK | Alberita's Hamburguer e Massas | Vila Rica | maisdelivery | 20 | 47 | 50 | 134 | 46 | 0 | 0 |
 | OK | Bia Lanches | Vila Rica | maisdelivery | 10 | 53 | 20 | 241 | 44 | 0 | 0 |
 | OK | Britzke Magia | Vila Rica | maisdelivery | 4 | 5 | 0 | 0 | 5 | 0 | 0 |
+| OK | Brownieria | Vila Rica | olaclick | 2 | 5 | 0 | 0 | 5 | 0 | 0 |
 | OK | Churra's Grego | Vila Rica | maisdelivery | 4 | 9 | 5 | 10 | 9 | 0 | 0 |
 | OK | Creme Mania Vila Rica | Vila Rica | maisdelivery | 13 | 22 | 28 | 170 | 19 | 0 | 0 |
 | OK | Flávio Brasa Burger | Vila Rica | maisdelivery | 2 | 6 | 4 | 4 | 6 | 0 | 0 |
@@ -198,6 +210,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 
 - Fonte: https://menu.brendi.com.br/goldenbird (brendi)
 - Categorias: 6 · Produtos: 15 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 15
+- Não importados: nenhum
+- Pendências: 0
+
+### Golden Hamburgueria (Água Boa) — OK
+
+- Fonte: https://goldenhamburgueria.com/ (brendi)
+- Categorias: 5 · Produtos: 33 · Grupos de opções: 5 (40 escolhas) · Adicionais: 40 · Fotos: 33
 - Não importados: nenhum
 - Pendências: 0
 
@@ -473,6 +492,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Não importados: 1 sem preço
 - Pendências: 0
 
+### Frutos de Goiás Sorveteria (Barra do Garças) — OK
+
+- Fonte: https://zapdelivery.me/frutosdegoiasbg (zapdelivery)
+- Categorias: 12 · Produtos: 158 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 158
+- Não importados: 1 sem preço
+- Pendências: 0
+
 ### Le Monde Burguer Hamburgueria (Barra do Garças) — OK
 
 - Fonte: https://app.cardapioweb.com/lemondeburguer (cardapioweb)
@@ -499,6 +525,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Não importados: 23 oculto na loja
 - Pendências: 0
 
+### Mistrô Massas Marmitas & Pizzaria (Barra do Garças) — OK
+
+- Fonte: https://mistromassasbg.compraqui.app/ (compraqui)
+- Categorias: 13 · Produtos: 65 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 41
+- Não importados: 2 sem preço, 7 escolha obrigatória não coletada
+- Observação: Itens com escolha obrigatória (acompanhamento, bebida do combo etc.) ficaram de fora: a plataforma só mostra as opções com a loja aberta.
+- Pendências: 0
+
 ### Pizzaria Coqueiros (Barra do Garças) — OK
 
 - Fonte: https://www.pizzariacoqueiros.com/?dvc=mobile (expresso)
@@ -515,6 +549,15 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Observação: Transcrito de 4 artes dos destaques do Instagram (Açaí, Lanches tradicionais, Lanches artesanais, Combo; prints enviados pelo Pedro em 31/10/2026): 19 produtos na fonte (confirmado pelo Pedro: a arte de lanches artesanais termina no Ponto Picles), 19 cadastrados.
 - Observação: Combos: preço base = menor combinação da arte ("a partir de"); cada hambúrguer escolhido soma a diferença para o Ponto Clássico, conforme os preços de combo da arte.
 - Observação: Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/recortes.json.
+- Pendências: 0
+
+### Texas Grill - Burger & Churrasco (Barra do Garças) — OK
+
+- Fonte: https://pedido.anota.ai/loja/texasgrillchurrascaria (anotaai)
+- Categorias: 12 · Produtos: 48 · Grupos de opções: 104 (212 escolhas) · Adicionais: 83 · Fotos: 40
+- Não importados: 97 esgotado
+- Observação: "Pizza meio metro": "Sabor MEIO METRO" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza 1 metro": "Sabor 1 METRO" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
 - Pendências: 0
 
 ### Sintonia Hamburgueria e Pizzaria (Campinápolis) — OK
@@ -536,6 +579,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Fonte: https://br-mt-canarana-buxadinha-seu-lanche-perfeito.ola.click/products (olaclick)
 - Categorias: 5 · Produtos: 29 · Grupos de opções: 54 (448 escolhas) · Adicionais: 442 · Fotos: 29
 - Não importados: nenhum
+- Pendências: 0
+
+### Casa da Pizza Delivery (Canarana) — OK
+
+- Fonte: https://pedido.anota.ai/loja/casa-da-pizza-215 (anotaai)
+- Categorias: 4 · Produtos: 24 · Grupos de opções: 17 (390 escolhas) · Adicionais: 150 · Fotos: 24
+- Não importados: 3 esgotado
+- Observação: "Pizza grande": "Sabor Grande" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza média": "Sabor Média" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza gigante": "Sabor Gigante" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza 1 metro": "Sabor PIZZA 1 METRO" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
 - Pendências: 0
 
 ### Casa do Açaí & Pastel (Canarana) — OK
@@ -638,6 +692,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Observação: Pizzas aceitam mais de um sabor na fonte (cobra a média); aqui cada sabor é um item e os outros sabores vão na observação.
 - Pendências: 0
 
+### Texas Burger & Grill (Canarana) — OK
+
+- Fonte: https://texasburgercn.menudino.com/ (menudino)
+- Categorias: 7 · Produtos: 42 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 38
+- Não importados: nenhum
+- Pendências: 0
+
 ### 1º Opção Lanches (Nova Xavantina) — OK
 
 - Fonte: https://aiqfome.com/MT/nova-xavantina/1-opcao-lanches (aiqfome)
@@ -667,6 +728,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Observação: Adicionais variam por tamanho em "Sorv. napolitano": não importados.
 - Observação: Adicionais variam por tamanho em "Sorv. ninho trufado": não importados.
 - Observação: Adicionais variam por tamanho em "Sorv. pudim de caramelo": não importados.
+- Pendências: 0
+
+### Açaí Raiz do Pará (Nova Xavantina) — OK
+
+- Fonte: https://acairaiz.godlysolucoes.net.br/ (godly)
+- Categorias: 5 · Produtos: 23 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 23
+- Não importados: 1 indisponível
 - Pendências: 0
 
 ### Araguaia Sushi NX (Nova Xavantina) — OK
@@ -777,6 +845,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Observação: Pizzas aceitam mais de um sabor na fonte (cobra a média); aqui cada sabor é um item e os outros sabores vão na observação.
 - Pendências: 0
 
+### Tribo do Açaí (Nova Xavantina) — OK
+
+- Fonte: https://tribodoacainx.meucardapio.ai/ (meucardapio)
+- Categorias: 13 · Produtos: 45 · Grupos de opções: 117 (1140 escolhas) · Adicionais: 954 · Fotos: 41
+- Não importados: nenhum
+- Pendências: 0
+
 ### Braseiro Espetinhos (Querência) — OK
 
 - Fonte: https://aiqfome.com/MT/querencia/braseiro-espetinhos (aiqfome)
@@ -789,6 +864,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/querencia/campero-grill (aiqfome)
 - Categorias: 7 · Produtos: 58 · Grupos de opções: 12 (26 escolhas) · Adicionais: 0 · Fotos: 45
 - Não importados: 2 sem preço, 7 indisponível
+- Pendências: 0
+
+### Casa da Pizza de Querência (Querência) — OK
+
+- Fonte: https://pedido.anota.ai/loja/casa-da-pizza-querencia (anotaai)
+- Categorias: 4 · Produtos: 23 · Grupos de opções: 17 (394 escolhas) · Adicionais: 130 · Fotos: 23
+- Não importados: 2 esgotado
+- Observação: "Pizza média": "Sabor Média" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza grande": "Sabor Grande" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza gg": "Sabor GG" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza metro": "Sabor METRO" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
 - Pendências: 0
 
 ### Casa do Sushi (Querência) — OK
@@ -844,6 +930,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### GG Burguer (Querência) — OK
+
+- Fonte: https://vemmenu.com/sabordemae/ (vemmenu)
+- Categorias: 3 · Produtos: 21 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 21
+- Não importados: nenhum
+- Pendências: 0
+
 ### Go Burger Delivery (Querência) — OK
 
 - Fonte: https://zionpdv-storefront.fly.dev/store/go-burger-delivery (zionpdv)
@@ -890,6 +983,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/querencia/mc-lena (aiqfome)
 - Categorias: 7 · Produtos: 42 · Grupos de opções: 16 (152 escolhas) · Adicionais: 143 · Fotos: 8
 - Não importados: 11 indisponível, 1 sem preço
+- Pendências: 0
+
+### Owzi Burger (Querência) — OK
+
+- Fonte: https://owziburger.com.br/home (saipos)
+- Categorias: 11 · Produtos: 59 · Grupos de opções: 35 (150 escolhas) · Adicionais: 126 · Fotos: 45
+- Não importados: 1 sem preço
 - Pendências: 0
 
 ### Picanhas Grill (Querência) — OK
@@ -976,6 +1076,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Brownieria (Vila Rica) — OK
+
+- Fonte: https://catlogo-sbrownie.ola.click/products (olaclick)
+- Categorias: 2 · Produtos: 5 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 5
+- Não importados: nenhum
+- Pendências: 0
+
 ### Churra's Grego (Vila Rica) — OK
 
 - Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTU5NTM= (maisdelivery)
@@ -1042,16 +1149,11 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 ### Frutos de Goiás Água Boa (Água Boa) — Pendente
 
 - Fonte: https://www.maisdeliveryapp.com.br/web/loja.php?id=MTA0OTc5 (maisdelivery)
-- Motivo: cardápio vazio na plataforma no dia da coleta
+- Motivo: cardápio vazio na plataforma (Mais Delivery) de novo em 04/11/2026
 
 ### Restaurante Ponto Certo e Conveniência (Canarana) — Pendente
 
 - Fonte: https://maisdeliveryapp.com.br/web/loja.php?id=ODQ2NTk= (maisdelivery)
-- Motivo: cardápio vazio na plataforma no dia da coleta
-
-### Texas Burger & Grill (Canarana) — Pendente
-
-- Fonte: https://maisdeliveryapp.com.br/web/loja.php?id=ODM5NjE= (maisdelivery)
 - Motivo: cardápio vazio na plataforma no dia da coleta
 
 ### Sabor de Verão (Querência) — Pendente
@@ -1077,12 +1179,12 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 ### Cheff do Espeto (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://cheff-do-espeto-cardapio.sacred-puppy-6546.chatgpt.site/ (site)
-- Motivo: cardápio publicado como imagens (8 fotos com preços): precisa de transcrição manual
+- Motivo: cardápio em 8 imagens (folheto): entra pela regra de cardápio em imagem
 
 ### Churrascaria O Panelão (Barra do Garças) — Sem cardápio público
 
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/churrascaria-o-panelao-centro/6aa02299-c63f-40a1-82f4-cf34904fbacd (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
+- Fonte: https://www.churrascariaopanelao.bidudelivery.app/ (bidu)
+- Motivo: o endereço do cardápio (churrascariaopanelao.bidudelivery.app) não existe mais; o link da bio aponta para ele
 
 ### Léo Pastéis & Saltenhas (Barra do Garças) — Sem cardápio público
 
@@ -1092,11 +1194,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 ### Marmitaria da Barra (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/marmitaria-da-barra-jardim-das-mangueiras/9e3e2a2a-f9ee-49bf-9931-b9c330332b6f (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
-
-### Mistrô Massas Marmitas & Pizzaria (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/mistro-massas-marmitas--pizzaria-barra-center-shopping-jardim-araguaia/e476c65f-eb87-4ae7-a2f6-9ca28d986c0f (ifood)
 - Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
 ### Panificadora São Paulo (Barra do Garças) — Sem cardápio público
@@ -1112,11 +1209,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 ### Sushi Loko Barra do Garças (Barra do Garças) — Sem cardápio público
 
 - Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/sushiloko--barra-do-garcas-jardim-araguaia/5768c097-a819-4055-abea-54db64fdceac (ifood)
-- Motivo: iFood bloqueia acesso automatizado (HTTP 403)
-
-### Texas Grill - Burger & Churrasco (Barra do Garças) — Sem cardápio público
-
-- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/texas-grill---burger--churrasco-setor-cristino-cortes/5dfcadd6-2545-49a3-be0b-6a0dcb76b408 (ifood)
 - Motivo: iFood bloqueia acesso automatizado (HTTP 403)
 
 ### Zhu Marmitas - Shopping Barra do Garças (Barra do Garças) — Sem cardápio público
@@ -1142,11 +1234,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 ### Mayhara Cakes (Novo São Joaquim) — Sem cardápio público
 
 - Fonte: https://wa.me/message/3OQ4BGEA3PW3A1 (whatsapp)
-- Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
-### Casa da Pizza de Querência (Querência) — Sem cardápio público
-
-- Fonte: https://play.google.com/store/apps/details?id=v001.app.deeliv.casadapizzaquerencia&hl=pt (app)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
 
 ### Churrascaria Restaurante e Hotel Estrela do Sul (Querência) — Sem cardápio público
@@ -1198,8 +1285,3 @@ Gerado por `node scripts/menus/report.js` em 2026-11-03. Fontes: `data/research/
 
 - Fonte: https://wa.me/message/SRL5TY4TX6PEP1 (whatsapp)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
-### Brownieria (Vila Rica) — Sem cardápio público
-
-- Fonte: https://contate.me/sbrownie (whatsapp)
-- Motivo: link de bio que leva ao WhatsApp: não é cardápio público

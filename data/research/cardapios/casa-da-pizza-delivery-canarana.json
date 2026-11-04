@@ -1,0 +1,1943 @@
+{
+  "id": "casa-da-pizza-delivery-canarana",
+  "platform": "anotaai",
+  "source": "https://pedido.anota.ai/loja/casa-da-pizza-215",
+  "capturedAt": "2026-11-04T01:25:02.050Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Pizza G (12 fatias/ 2 sabores)",
+      "items": [
+        {
+          "sourceId": "6a5147cf264f053ffc06599f",
+          "name": "Pizza grande",
+          "description": "Pizza com até 2 sabores e 8 fatias",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": "https://anotaai.s3.us-west-2.amazonaws.com/pizzas/2pizza",
+          "options": [
+            {
+              "name": "Sabor Grande",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água Boa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Da Roça",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Ao Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Margherita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza X Tudo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sertaneja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suprema",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon Ao Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tropical",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum Com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Boiadeira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne Seca Com Banana Da Terra",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff Com Carne Bovina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "2 Amores",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Goiabada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Picada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Casa Da Pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cowtry",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Borda Grande",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Recheada com Catupiry",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda Recheada com Mussarela",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Borda Recheada com Chocolate",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Recheada com Goiabada",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "Borda Recheada com Cheddar",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicional Grande",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme de leite",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Cogumelo",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Manjericao",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Pimentao",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Chedaar",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Ervilha",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pimenta",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 1100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas Salgadas e Doces",
+      "items": [
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ebb",
+          "name": "Pizza pequena",
+          "description": "Pizza com 1 sabor e 6 fatias",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://anotaai.s3.us-west-2.amazonaws.com/pizzas/1pizza",
+          "options": [
+            {
+              "name": "Sabor Pequena",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água Boa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Da Roça",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango Ao Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Especial",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Lombinho",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Margherita",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milano",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto Especial",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Pizza X Tudo",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Sertaneja",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Suprema",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bacon Ao Cheddar",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tropical",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Atum Com Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Boiadeira",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne Seca Com Banana Da Terra",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 700
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Strogonoff Com Carne Bovina",
+                  "priceCents": 800
+                },
+                {
+                  "name": "2 Amores",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Goiabada",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Brasileira",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Calabresa Da Casa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Calabresa Picada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Casa Da Pizza",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cowtry",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Borda Pequena",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Recheada com Catupiry",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Borda Recheada com Mussarela",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda Recheada com Goiabada",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda Recheada com Chocolate",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Borda Recheada com Cheddar",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pequena",
+              "min": 0,
+              "max": 24,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Creme de leite",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Chedaar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ervilha",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cogumelo",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Manjericao",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pimentao",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pimenta",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ebc",
+          "name": "Pizza média",
+          "description": "Pizza com até 2 sabores e 8 fatias",
+          "priceCents": 6300,
+          "originalPriceCents": null,
+          "imageUrl": "https://anotaai.s3.us-west-2.amazonaws.com/pizzas/2pizza",
+          "options": [
+            {
+              "name": "Sabor Média",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água Boa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Da Roça",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Ao Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Frango Especial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombinho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Margherita",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milano",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto Especial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pizza X Tudo",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Sertaneja",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Suprema",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Bacon Ao Cheddar",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tropical",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Atum Com Catupiry",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Boiadeira",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Carne Seca Com Banana Da Terra",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 400
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Strogonoff Com Carne Bovina",
+                  "priceCents": 600
+                },
+                {
+                  "name": "2 Amores",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Goiabada",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Brasileira",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa Da Casa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Calabresa Picada",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Casa Da Pizza",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cowtry",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Borda Média",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Recheada com Catupiry",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Borda Recheada com Mussarela",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Recheada com Goiabada",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Recheada com Chocolate",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Recheada com Cheddar",
+                  "priceCents": 1200
+                }
+              ]
+            },
+            {
+              "name": "Adicional Média",
+              "min": 0,
+              "max": 24,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Creme de leite",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Chedaar",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ervilha",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cogumelo",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Manjericao",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pimentao",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pimenta",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ebd",
+          "name": "Pizza grande",
+          "description": "Pizza com até 2 sabores e 12 fatias",
+          "priceCents": 7200,
+          "originalPriceCents": null,
+          "imageUrl": "https://anotaai.s3.us-west-2.amazonaws.com/pizzas/2pizza",
+          "options": [
+            {
+              "name": "Sabor Grande",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água Boa",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Da Roça",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Frango Ao Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Especial",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombinho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Margherita",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Milano",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Presunto Especial",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pizza X Tudo",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Sertaneja",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Suprema",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon Ao Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Tropical",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Atum Com Catupiry",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Boiadeira",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Carne Seca Com Banana Da Terra",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 900
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Strogonoff Com Carne Bovina",
+                  "priceCents": 900
+                },
+                {
+                  "name": "2 Amores",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Goiabada",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Brasileira",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Calabresa Da Casa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Calabresa Picada",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Casa Da Pizza",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cowtry",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Borda Grande",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Recheada com Catupiry",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Borda Recheada com Mussarela",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Borda Recheada com Goiabada",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "Borda Recheada com Chocolate",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Recheada com Cheddar",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicional Grande",
+              "min": 0,
+              "max": 24,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Creme de leite",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Chedaar",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ervilha",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Cogumelo",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Manjericao",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Pimentao",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pimenta",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ebe",
+          "name": "Pizza gigante",
+          "description": "Pizza com até 2 sabores e 16 fatias",
+          "priceCents": 11500,
+          "originalPriceCents": null,
+          "imageUrl": "https://anotaai.s3.us-west-2.amazonaws.com/pizzas/2pizza",
+          "options": [
+            {
+              "name": "Sabor Gigante",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água Boa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Da Roça",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Frango Ao Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Especial",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombinho",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Margherita",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Milano",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Presunto Especial",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Pizza X Tudo",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Sertaneja",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Suprema",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon Ao Cheddar",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Tropical",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Atum Com Catupiry",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Boiadeira",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Carne Seca Com Banana Da Terra",
+                  "priceCents": 1100
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Strogonoff Com Carne Bovina",
+                  "priceCents": 900
+                },
+                {
+                  "name": "2 Amores",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Goiabada",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Brasileira",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa Da Casa",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa Picada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casa Da Pizza",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cowtry",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Borda Gigante",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Recheada com Catupiry",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Borda Recheada com Mussarela",
+                  "priceCents": 1900
+                },
+                {
+                  "name": "Borda Recheada com Goiabada",
+                  "priceCents": 1700
+                },
+                {
+                  "name": "Borda Recheada com Chocolate",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "Borda Recheada com Cheddar",
+                  "priceCents": 1400
+                }
+              ]
+            },
+            {
+              "name": "Adicional Gigante",
+              "min": 0,
+              "max": 24,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palha",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Carne seca",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Chedaar",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Ervilha",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cogumelo",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Manjericao",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Pimentao",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pimenta",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza 1 metro",
+      "items": [
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec0",
+          "name": "Pizza 1 metro",
+          "description": "Pizza com até 4 sabores e 8 fatias",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/680aa36e727ff80019552a15/-1766254885249blob",
+          "options": [
+            {
+              "name": "Sabor PIZZA 1 METRO",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Água Boa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon Ao Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Picada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Casa Da Pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cowtry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Da Roça",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Espanhola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Ao Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Francesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Margherita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza X Tudo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sertaneja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suprema",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tropical",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum Com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Boiadeira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne Seca Com Banana Da Terra",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Peperoni",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Strogonoff Com Carne Bovina",
+                  "priceCents": 0
+                },
+                {
+                  "name": "2 Amores",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Goiabada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Borda PIZZA 1 METRO",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Borda de cheddar",
+                  "priceCents": 2300
+                },
+                {
+                  "name": "Borda de Chocolate",
+                  "priceCents": 2400
+                },
+                {
+                  "name": "Borda de goiabada",
+                  "priceCents": 2500
+                },
+                {
+                  "name": "Borda de mussarela",
+                  "priceCents": 2700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec1",
+          "name": "Coca Cola - Lata 350ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/671487de0d88160019730fc7/-1733846432018blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec2",
+          "name": "Coca Cola - 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733772101578blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec3",
+          "name": "Coca Cola - 1,5lts",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733772285818blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec4",
+          "name": "Coca Cola - 2lts",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733772360534blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec5",
+          "name": "Fanta Laranja - Lata 350ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66b65c7c19c2c800127a0b68/-1724960440222blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec6",
+          "name": "Fanta Laranja - 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/64d761cdc8389400125927cc/-1734359184720blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec7",
+          "name": "Fanta Laranja - 1,5lts",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733772324378blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec8",
+          "name": "Fanta Laranja - 2lts",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733772452587blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ec9",
+          "name": "Guaraná Antarctica - Lata 350ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66b65c7c19c2c800127a0b68/-1724961891114blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6eca",
+          "name": "Guaraná Antarctica - 600ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/675adc86cb5d8a001963494b/-1734029215734blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ecb",
+          "name": "Guaraná Antarctica - 1,5lts",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/6735eb10fd4fcc001951b6ba/-1734097657433blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ecc",
+          "name": "Guaraná Antarctica - 2lts",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66b65c7c19c2c800127a0b68/-1724961689632blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ecd",
+          "name": "Água Mineral com Gás - 500ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/6756ffa0cb53070012567557/-1733835908107blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ece",
+          "name": "Água Mineral sem Gás - 500ml",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/6756ffa0cb53070012567557/-1733835908107blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ecf",
+          "name": "Suco Del Valle Uva - 1lts",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/680aa36e727ff80019552a15/-1745978571908blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ed0",
+          "name": "Suco Del Valle Maracujá - 1lts",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/680aa36e727ff80019552a15/-1745978553883blob",
+          "options": []
+        },
+        {
+          "sourceId": "69f119c8a1ba37cc06ab6ed1",
+          "name": "Suco Del Valle Pêssego - 1lts",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/680aa36e727ff80019552a15/-1745978457881blob",
+          "options": []
+        },
+        {
+          "sourceId": "6a8a1b2d8d14d3e7bbb8caf2",
+          "name": "Coca Cola Zero - 2lts",
+          "description": "",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/69f116664b771d7c3c80b909/-1787435820689blob",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "esgotado": 3
+  },
+  "notes": [
+    "\"Pizza grande\": \"Sabor Grande\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Pizza média\": \"Sabor Média\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Pizza gigante\": \"Sabor Gigante\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Pizza 1 metro\": \"Sabor PIZZA 1 METRO\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação."
+  ],
+  "city": "CANARANA",
+  "phones": [
+    "(66) 9 9971-5226"
+  ]
+}

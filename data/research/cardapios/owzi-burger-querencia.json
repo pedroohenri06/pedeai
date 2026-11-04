@@ -1,0 +1,1453 @@
+{
+  "id": "owzi-burger-querencia",
+  "platform": "saipos",
+  "source": "https://owziburger.com.br/home",
+  "capturedAt": "2026-11-04T01:25:08.651Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Lançamento",
+      "items": [
+        {
+          "sourceId": "41260851",
+          "name": "Pioneiro",
+          "description": "Pão artesanal, frango empanado frito, queijo muçarela, geleia de bacon, pickles e molho honney mostarda.",
+          "priceCents": 3900,
+          "originalPriceCents": 4500,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/c621f20de84c65d2348b55a425aff1c4.png",
+          "options": [
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "41009781",
+          "name": "Combo Costela",
+          "description": "Hamburger Artesanal de Costela + Batata Frita Gourmet 150g",
+          "priceCents": 4890,
+          "originalPriceCents": 5590,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/0a49a7f227772d4bba287c3ac19104b5.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "41009809",
+          "name": "Combo Da Casa",
+          "description": "Hamburger Artesanal Da Casa + Batata Frita Gourmet 150g",
+          "priceCents": 4890,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/74e29204d105c00cf546ebf3c74ffc18.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Burgers",
+      "items": [
+        {
+          "sourceId": "39569698",
+          "name": "Da Casa",
+          "description": "Pão artesanal, hambúrguer 150g grelhado, queijo muçarela, bacon, alface, tomate, cebola caramelizada e molho owzi.",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/0e89d4777e8b8554137be65b1ba89041.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "42492734",
+          "name": "Cremosinho",
+          "description": "Pão Artesanal, Hambúrger 150g grelhado, queijo cheddar, molho owzi, piscina de cheddar com farofa de bacon.",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/68804f00937babafde3e556b38b4ae80.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "39569922",
+          "name": "Costela",
+          "description": "Pão artesanal, hamburguer de costela 150g grelhado, queijo muçarela, bacon, vinagrete, geleia de abacaxi e molho de alho.",
+          "priceCents": 3900,
+          "originalPriceCents": 4900,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/7ea259d68b546c00c652e831da8d0ce4.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "39569944",
+          "name": "Owzado",
+          "description": "Pão artesanal, hambúrguer 150g grelhado, queijo coalho chapeado com melaço de cana, banana da terra, crispy de mandioca, alface, tomate e molho owzi.",
+          "priceCents": 3900,
+          "originalPriceCents": 5200,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/5c9ba89f1dc1813e8b551428eb080210.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "39569996",
+          "name": "Mr. Owzi",
+          "description": "Pão artesanal, hambúrguer 150g grelhado, anel de cebola, queijo muçarela, bacon, alface, tomate, molho owzi e barbecue de goiaba.",
+          "priceCents": 3900,
+          "originalPriceCents": 4700,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/10f633b19bb98597bfa56289692782da.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "39570012",
+          "name": "Kids",
+          "description": "Pão brioche, hambúrguer 90g grelhado, queijo muçarela e molho owzi.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/bd4869b745357a6931ec6d719a88f529.png",
+          "options": [
+            {
+              "name": "Ponto da carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos da Casa",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Molho Verde Owzi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Barbecue de Goiaba",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho Honey Mostarda",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho de Alho",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Muçarela Fatiada",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar Fatiado",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Queijo Coalho Chapeado",
+                  "priceCents": 1400
+                },
+                {
+                  "name": "Geleia de abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Banana Frita",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Molhos Heinz",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Enviar molhos Heinz",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "42492326",
+          "name": "Clássica",
+          "description": "Batata frita 300g",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/12e618175c14e399748ae8848f685312.png",
+          "options": []
+        },
+        {
+          "sourceId": "42492219",
+          "name": "Cheddar & Bacon",
+          "description": "Batata frita 300g com molho cheddar e farofa de bacon 350g",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/03ccf8610f2375a6d1de0c44e337992f.png",
+          "options": []
+        },
+        {
+          "sourceId": "42492388",
+          "name": "Alho e Parmesão",
+          "description": "Batata frita 300g com molho de alho e parmesão ralado 350g",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/2441ef42f2c4a0abe4c7350308185209.png",
+          "options": []
+        },
+        {
+          "sourceId": "42629168",
+          "name": "[Adicional Batata 150g]",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "42491294",
+          "name": "Órbita",
+          "description": "Batata frita com Anel de cebola 400g",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/b88f4a7ec9953d95b89e811a3d14d6e3.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Molhos",
+      "items": [
+        {
+          "sourceId": "39488442",
+          "name": "Molho Verde Owzi",
+          "description": "Molho artesanal feito com ervas frescas e temperos secretos do Mr. Owzi - 60 ml",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/16eb32c053e58eb81d71b0f383e285cc.png",
+          "options": []
+        },
+        {
+          "sourceId": "39488430",
+          "name": "Barbecue de Goiaba",
+          "description": "Molho artesanal à base de Goiaba e Barbecue - 60ml",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/592a2256e50b523f694d5af1caf751c6.png",
+          "options": []
+        },
+        {
+          "sourceId": "42021559",
+          "name": "Molho de Alho",
+          "description": "Molho artesanal à base de alho - 60ml",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/abd6ee7a0037231367e0ec86c0ab2031.png",
+          "options": []
+        },
+        {
+          "sourceId": "42021575",
+          "name": "Molho Honey Mostarda",
+          "description": "Molho artesanal à base de mostarda e mel - 60ml",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/09ec8db0856dfa18bd6f26c0a83e98c6.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "37522543",
+          "name": "Água mineral c/ gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "37522549",
+          "name": "Água mineral s/ gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "39571716",
+          "name": "Suco Delvale uva 269ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "39571739",
+          "name": "Suco Delvale maracujá 269ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "39571791",
+          "name": "Suco Delvale pêssego 269ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "37394469",
+          "name": "Suco de Morango",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/b5b06de203b29cefa656be1538ae4aa0.png",
+          "options": []
+        },
+        {
+          "sourceId": "37394371",
+          "name": "Suco de Acerola",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/c139e52e5fa776b1ebff50e5caa7dbf7.png",
+          "options": []
+        },
+        {
+          "sourceId": "37394369",
+          "name": "Suco de Abacaxi c/ menta",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/98c69484f10e8091fc2c3d82878798cd.png",
+          "options": []
+        },
+        {
+          "sourceId": "37498382",
+          "name": "Suco de Abacaxi",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/e50eb7d06a503acf50fab2b49b19a473.png",
+          "options": []
+        },
+        {
+          "sourceId": "37394372",
+          "name": "Suco de Cupuaçu",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/0d9958681a862f361134a9a2dce2ab7d.png",
+          "options": []
+        },
+        {
+          "sourceId": "37394379",
+          "name": "Suco de Laranja",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/2a6b04fb13ee4dc7efe2d16553c289d5.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cremes",
+      "items": [
+        {
+          "sourceId": "39729372",
+          "name": "Creme de Morango",
+          "description": "500ml",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/da5df24448b3c01ac526e91498fd2de6.png",
+          "options": []
+        },
+        {
+          "sourceId": "43319275",
+          "name": "Creme de Acerola",
+          "description": "500ml",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/1eeb5749e6498e0204d0018f56d469c7.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "sourceId": "37394394",
+          "name": "Limoneto",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/4a93d29dfd6f9ef897b77fe3c6959a69.png",
+          "options": []
+        },
+        {
+          "sourceId": "37495587",
+          "name": "Coca-Cola Lata Original 310ml",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/fe5eaa0a78c9df87c1df7499ebab7314.png",
+          "options": []
+        },
+        {
+          "sourceId": "37495593",
+          "name": "Coca-Cola Lata Zero 310ml",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/1340b15ae531ae0b8cd575ba396df212.png",
+          "options": []
+        },
+        {
+          "sourceId": "37496393",
+          "name": "Guaraná Lata Zero 350ml",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/60c270b46e1ba6b15c5f48e9be9dd914.png",
+          "options": []
+        },
+        {
+          "sourceId": "37497668",
+          "name": "Guaraná Lata Original 350ml",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/c23db8eb96ad99f31897e89f2b4b747c.png",
+          "options": []
+        },
+        {
+          "sourceId": "37498739",
+          "name": "Coca-Cola Original 1,5 LT",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/ef0aa215e339a7a169edf079618a0348.png",
+          "options": []
+        },
+        {
+          "sourceId": "37498742",
+          "name": "Coca-Cola Zero 1,5 LT",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/6e5a2b1a27c4313cb052319c266b8f95.png",
+          "options": []
+        },
+        {
+          "sourceId": "37498801",
+          "name": "Guaraná Original 1,5LT",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/48e3c5eccc25e295adf3e0d5ead267fe.png",
+          "options": []
+        },
+        {
+          "sourceId": "37394402",
+          "name": "Red Bull lata trad 250ml",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/49a37d26a2a0fd6aab30556623c88c13.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cervejas",
+      "items": [
+        {
+          "sourceId": "37394391",
+          "name": "Stella 330ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "43292114",
+          "name": "Heineken Long Neck 330ml Zero",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "37733813",
+          "name": "Original Lata 269ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "37788061",
+          "name": "Brahma Lata 269ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "39066347",
+          "name": "Michelob Ultra Long Neck 330ml",
+          "description": "",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "39066593",
+          "name": "Heineken Long Neck 330ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "39064931",
+          "name": "Corona Long Neck 330ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Diversos",
+      "items": [
+        {
+          "sourceId": "42327156",
+          "name": "Trident Tutti-Frutti",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/354bb73ccc210d1caa192a0726dd7a82.png",
+          "options": []
+        },
+        {
+          "sourceId": "42327108",
+          "name": "Fini Tubes Morango e Nata",
+          "description": "15g",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/d3a36569eb88983d53e4c70062f956aa.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "42327180",
+          "name": "Trident Melancia",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/eaf9d035aad04a7b45b2707d26c569ef.png",
+          "options": []
+        },
+        {
+          "sourceId": "42328798",
+          "name": "Bubbaloo Tuttu-Frutti",
+          "description": "",
+          "priceCents": 80,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/0dbd244048401ff84fc00ca49033dba2.png",
+          "options": []
+        },
+        {
+          "sourceId": "42328840",
+          "name": "Bubbaloo Uva",
+          "description": "",
+          "priceCents": 80,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/e50e641c640caf6f79b16aeddc582cd9.png",
+          "options": []
+        },
+        {
+          "sourceId": "39362369",
+          "name": "Trident Senses",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/f6920a5f49c41908ea393a5216baff8b.png",
+          "options": []
+        },
+        {
+          "sourceId": "39362565",
+          "name": "Freegells",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "42326958",
+          "name": "Fini Amoras",
+          "description": "15g",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/37608a5e89deff65589e1d15811ff189.png",
+          "options": []
+        },
+        {
+          "sourceId": "42326986",
+          "name": "Fini Ursinhos",
+          "description": "15g",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/59a26275378efa28e9d7b7495c1f9689.png",
+          "options": []
+        },
+        {
+          "sourceId": "42327014",
+          "name": "Fini Beijos",
+          "description": "15g",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/6685d96c6148488c3ee8d85fa91fb399.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "42327069",
+          "name": "Fini Tubes Tutti-Frutti",
+          "description": "15g",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/ea689801e71a6f61b984465d6f1e9f35.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "42327130",
+          "name": "Fini Tubes Uva",
+          "description": "15g",
+          "priceCents": 250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.saipos.com/saipos-estatico/img-items/90551/store_item/a0d9c823638fed43dc1a86ff9bb34382.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 1
+  },
+  "notes": []
+}

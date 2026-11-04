@@ -1,0 +1,424 @@
+{
+  "id": "texas-burger-grill-canarana",
+  "platform": "menudino",
+  "source": "https://texasburgercn.menudino.com/",
+  "capturedAt": "2026-11-04T01:24:36.252Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Agua",
+      "items": [
+        {
+          "sourceId": "628dae1b-c16a-49e7-a97e-55f19c33693f",
+          "name": "Agua Mineral Com Gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/628dae1b-c16a-49e7-a97e-55f19c33693f_20260610004622.webp",
+          "options": []
+        },
+        {
+          "sourceId": "251919ff-0b28-43fd-970e-c13bc178ce02",
+          "name": "Agua Mineral sem gás 500ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/251919ff-0b28-43fd-970e-c13bc178ce02_20260610004623.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Isotonicos",
+      "items": [
+        {
+          "sourceId": "d2b56f87-a316-4dce-aab9-5b93fc923d6a",
+          "name": "Powerade Laranja 500ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/d2b56f87-a316-4dce-aab9-5b93fc923d6a_20260906213448.webp",
+          "options": []
+        },
+        {
+          "sourceId": "1e1d9b3a-21c9-4a1b-89e7-da78cce59860",
+          "name": "Powerade Pro Frutas Tropicais 500ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/1e1d9b3a-21c9-4a1b-89e7-da78cce59860_20260906213450.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e9542581-1e9d-4f20-a351-913d669d8e1b",
+          "name": "Powerade Uva 500ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/e9542581-1e9d-4f20-a351-913d669d8e1b_20260906213450.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "a374b8fc-571b-4dd0-808d-da0650e37df1",
+          "name": "Suco de Abacaxi 500ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/a374b8fc-571b-4dd0-808d-da0650e37df1_20260610004628.webp",
+          "options": []
+        },
+        {
+          "sourceId": "5e9ebfbd-098f-4fa5-af57-293d4c2036c6",
+          "name": "Suco de Laranja 500ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/5e9ebfbd-098f-4fa5-af57-293d4c2036c6_20260610004631.webp",
+          "options": []
+        },
+        {
+          "sourceId": "f1e2915e-b914-4c2c-8458-86289e1e116b",
+          "name": "Suco de Maracuja 500ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/f1e2915e-b914-4c2c-8458-86289e1e116b_20260610004633.webp",
+          "options": []
+        },
+        {
+          "sourceId": "32c1c8da-8378-41c5-86fb-0b71a4be9f11",
+          "name": "Suco de Morango 500ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/32c1c8da-8378-41c5-86fb-0b71a4be9f11_20260610004635.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e3711308-0245-4a06-83f4-d10a3cdc3024",
+          "name": "Suco Del Valle Maracuja 290ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/e3711308-0245-4a06-83f4-d10a3cdc3024_20260906213452.webp",
+          "options": []
+        },
+        {
+          "sourceId": "21f2c614-bb99-4ac9-8210-f5cb2b60d4d2",
+          "name": "Suco Del Valle Pessego 290ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/21f2c614-bb99-4ac9-8210-f5cb2b60d4d2_20260906213453.webp",
+          "options": []
+        },
+        {
+          "sourceId": "cbcde24d-c418-4ff8-8630-6f74d4c7ad55",
+          "name": "Suco Del Valle Uva 290ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/cbcde24d-c418-4ff8-8630-6f74d4c7ad55_20260906213453.webp",
+          "options": []
+        },
+        {
+          "sourceId": "c023c6db-e79a-424a-8fae-a02d65d9c7a8",
+          "name": "Suco Kapo Laranja 200ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/c023c6db-e79a-424a-8fae-a02d65d9c7a8_20260906213453.webp",
+          "options": []
+        },
+        {
+          "sourceId": "3d322e26-74c1-4b60-a47f-a2a00440b2a4",
+          "name": "Suco Kapo Maracuja 200ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/3d322e26-74c1-4b60-a47f-a2a00440b2a4_20260906213453.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2c66b00b-42ce-4b78-a972-d45f20ffa13a",
+          "name": "Suco Kapo Morango 200ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/2c66b00b-42ce-4b78-a972-d45f20ffa13a_20260906213454.webp",
+          "options": []
+        },
+        {
+          "sourceId": "31430c2a-232f-43b4-ab11-bf940a3d13d2",
+          "name": "Suco Kapo Uva 200ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/31430c2a-232f-43b4-ab11-bf940a3d13d2_20260906213454.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "cf482425-8ed4-472f-8391-201f17be661a",
+          "name": "Combo Classic",
+          "description": "",
+          "priceCents": 3890,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6979db54-4437-40b7-a4c6-3aca0ebc1035",
+          "name": "Promo de Terça",
+          "description": "",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "af0b2bea-ab48-42f9-bd40-b0f5868ada09",
+          "name": "Burger Fit",
+          "description": "Pão com Gergelim, Bend de 100g, Queijo Mussarela, Alface, Tomate, Cebola Roxa e Molho Especial",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/af0b2bea-ab48-42f9-bd40-b0f5868ada09_20260610194151.webp",
+          "options": []
+        },
+        {
+          "sourceId": "b61978bf-b14d-4c64-9f63-167bc73bd42b",
+          "name": "Burguer Bacon",
+          "description": "Pão Brioche,, Blend de 130g, Cheddar, Bacon Picado, Molho Especial",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/b61978bf-b14d-4c64-9f63-167bc73bd42b_20260610195936.webp",
+          "options": []
+        },
+        {
+          "sourceId": "29f282f3-a8e7-444b-9510-f31feb7c68c6",
+          "name": "Burguer Classic",
+          "description": "Pão Brioche,, Blend de 130g, Cheddar, Alface, Tomate, Molho Especial",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/29f282f3-a8e7-444b-9510-f31feb7c68c6_20260609170915.webp",
+          "options": []
+        },
+        {
+          "sourceId": "79a72e5d-d8fd-4ea8-bdeb-eb36d87422e3",
+          "name": "Burguer Doble",
+          "description": "Pão Brioche,2 Blend de 130g, Cebola Caramelizada,Cheddar, Bacon Picado, Molho Especial",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/79a72e5d-d8fd-4ea8-bdeb-eb36d87422e3_20260610194154.webp",
+          "options": []
+        },
+        {
+          "sourceId": "e8bf3dcb-174c-4f8b-92cb-c4a1d3010163",
+          "name": "Burguer Kids",
+          "description": "Pão Brioche, Blend 100G, Cheddar, Molho Especial.",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/e8bf3dcb-174c-4f8b-92cb-c4a1d3010163_20260610195939.webp",
+          "options": []
+        },
+        {
+          "sourceId": "814a8a48-6e9e-4a1c-9be1-42522aa2f8f6",
+          "name": "Burguer Smash",
+          "description": "Pão Brioche, 3 Blend de 100g, Cheddar, Cebola Roxa, Bacon Fatiado, Molho Barbecue, Molho Especial",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/814a8a48-6e9e-4a1c-9be1-42522aa2f8f6_20260609170922.webp",
+          "options": []
+        },
+        {
+          "sourceId": "555f8fe0-f9ce-4b50-83db-c9c76cb1c486",
+          "name": "Burguer Supremo",
+          "description": "Pão com Gergelim, Bend de 130g, Cheddar, Bacon Fatiado, Picles, Cebola Roxa, Alface, Tomate, Molho de Cheddar, Molho Especial",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/555f8fe0-f9ce-4b50-83db-c9c76cb1c486_20260609170925.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ffed6a1d-ea93-434d-82be-8dfa42660c51",
+          "name": "CheeserBurguer",
+          "description": "Pão com gergelim, Blend 130G, cheddar, cebola roxa, bacon fatiado, alface, tomate, molho especial",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/ffed6a1d-ea93-434d-82be-8dfa42660c51_20260609170928.webp",
+          "options": []
+        },
+        {
+          "sourceId": "58dfd058-11ac-4302-8131-ea2274b0e776",
+          "name": "Texas Burger",
+          "description": "Pão Brioche, 3 Blend de 130g, Cheddar, Alface, Picles, Cebola Roxa e Molho Texano",
+          "priceCents": 4600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/58dfd058-11ac-4302-8131-ea2274b0e776_20260610194157.webp",
+          "options": []
+        },
+        {
+          "sourceId": "980f9a7a-72c1-4f7e-bf39-28ad16b9ee78",
+          "name": "West Burger",
+          "description": "Pão Brioche,2 Blend de 100g, Cheddar e Mussarela, Cebola Caramelizada, Alface, Bacon em Fatias e molho Texano",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/980f9a7a-72c1-4f7e-bf39-28ad16b9ee78_20260610004625.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "43123ca9-1b2a-45f0-94ed-2ba0b55ea015",
+          "name": "Batata c/ Cheddar e Bacon 400g",
+          "description": "400g de batatinhas crocrantes cobertas com um delicioso cheddar cremoso e bacon.",
+          "priceCents": 4500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/43123ca9-1b2a-45f0-94ed-2ba0b55ea015_20261020215623.webp",
+          "options": []
+        },
+        {
+          "sourceId": "db1c1be0-d71d-4925-9c04-91fc52f89d52",
+          "name": "Batata Frita 200g",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/db1c1be0-d71d-4925-9c04-91fc52f89d52_20260610005728.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ab1fe9b5-e018-4e5d-b4c6-cbc693fb5f16",
+          "name": "Batata Frita 300g",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/ab1fe9b5-e018-4e5d-b4c6-cbc693fb5f16_20260610005731.webp",
+          "options": []
+        },
+        {
+          "sourceId": "62b9ae40-9154-48f2-8ee0-47ae57e6b1cd",
+          "name": "Batata Recheada 200g",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6ce61426-dfa2-4a6b-8ae6-05d5be75947a",
+          "name": "Onions Ring 100g",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "20ed4418-ede8-4fa8-a6f9-32e65195cb25",
+          "name": "Onions Rings 200g",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/20ed4418-ede8-4fa8-a6f9-32e65195cb25_20260610194200.webp",
+          "options": []
+        },
+        {
+          "sourceId": "ca0b9ac3-ed09-445e-a82b-9ff64db2278b",
+          "name": "Onions Rings 300g",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/ca0b9ac3-ed09-445e-a82b-9ff64db2278b_20260610194201.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes 310ml",
+      "items": [
+        {
+          "sourceId": "afdfca58-2d86-4b8b-8d74-33767c7edcfe",
+          "name": "Coca-Cola 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/afdfca58-2d86-4b8b-8d74-33767c7edcfe_20261010003024.webp",
+          "options": []
+        },
+        {
+          "sourceId": "228b7a1d-f893-4f21-a43c-a2853aa0e2c8",
+          "name": "Coca-Cola Zero 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/228b7a1d-f893-4f21-a43c-a2853aa0e2c8_20260610004626.webp",
+          "options": []
+        },
+        {
+          "sourceId": "de4643a2-e4bf-48bb-b289-cef87ab60a6d",
+          "name": "Fanta Laranja 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/de4643a2-e4bf-48bb-b289-cef87ab60a6d_20260609170929.webp",
+          "options": []
+        },
+        {
+          "sourceId": "390492e5-7b8a-493e-9911-f9351eb09cc2",
+          "name": "Fanta Laranja 310ml Sem açucar",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/390492e5-7b8a-493e-9911-f9351eb09cc2_20260906213452.webp",
+          "options": []
+        },
+        {
+          "sourceId": "6a89fc6f-33ab-43c0-acec-e63b9042a6d1",
+          "name": "Fanta Uva 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/6a89fc6f-33ab-43c0-acec-e63b9042a6d1_20260906213452.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2fe9c5fe-3ebf-4634-8d36-443373154443",
+          "name": "Kuat 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/2fe9c5fe-3ebf-4634-8d36-443373154443_20260906213452.webp",
+          "options": []
+        },
+        {
+          "sourceId": "2e612a21-d9b2-4378-b26b-3072172bec6d",
+          "name": "Sprite 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.menudino.com/merchants/352c67c3-3671-11f1-85b5-6045bd38ebc1/items/images/large/2e612a21-d9b2-4378-b26b-3072172bec6d_20260610004626.webp",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

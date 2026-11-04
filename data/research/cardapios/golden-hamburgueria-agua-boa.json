@@ -1,0 +1,566 @@
+{
+  "id": "golden-hamburgueria-agua-boa",
+  "platform": "brendi",
+  "source": "https://goldenhamburgueria.com/",
+  "capturedAt": "2026-11-04T01:25:14.042Z",
+  "hours": "Seg 18h–0h · Qua a Sáb 18h–0h · Dom 17h55–0h",
+  "sections": [
+    {
+      "name": "Hambúrgueres",
+      "items": [
+        {
+          "sourceId": "lJvs0QG4sF8euyWaDdJ5",
+          "name": "Duplo Golden",
+          "description": "Pão Brioche selado na Manteiga, Alface Fresca, Tomate em Rodelas, Ovo Frito, 2x Hambúrguer Suculento 150g, 2x Queijo Cheddar Derretido, Molho Barbecue Defumado",
+          "priceCents": 3790,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FlJvs0QG4sF8euyWaDdJ5-1790005877586.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Hamburguer 150g",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "BmObvZ5w4KthqMyyn3vv",
+          "name": "Golden Tropicali",
+          "description": "Pão Brioche selado na Manteiga, Alface Fresca, Tomate em Rodelas, Hambúrguer Suculento 150g, Queijo Cheddar Derretido, Abacaxi, Mel",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FBmObvZ5w4KthqMyyn3vv-1782236408004.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Hamburguer 150g",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6WJvOYCdioJBU7MNR0Xc",
+          "name": "Golden Caramelizado",
+          "description": "Pão Brioche selado na Manteiga, Alface Fresca, Tomate em Rodelas, Hambúrguer Suculento 150g, Queijo Cheddar Derretido, Cebola Caramelizada, Bacon Crocante, Molho Barbecue Defumado",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2F6WJvOYCdioJBU7MNR0Xc.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Hamburguer 150g",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "iwNVN9R0b5ZbBm6vehSC",
+          "name": "Bacon Supremo",
+          "description": "Pão Brioche selado na Manteiga, Alface Fresca, Tomate em Rodelas, Hambúrguer Suculento 150g, Queijo Cheddar Derretido, Cebola Picada, Bacon Fatiado EM DOBRO, Molho Barbecue Defumado",
+          "priceCents": 2890,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FiwNVN9R0b5ZbBm6vehSC.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Hamburguer 150g",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "jevGGgURCNY6q5o4rJWO",
+          "name": "Clássico Dourado",
+          "description": "Pão Brioche selado na Manteiga, Alface Fresca, Ovo Frito, Hambúrguer Suculento 150g, Queijo Cheddar Derretido, Molho Barbecue Defumado",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FjevGGgURCNY6q5o4rJWO.jpeg?alt=media",
+          "featured": false,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Hamburguer 150g",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cebola Caramelizada",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Alface",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Golden bird",
+      "items": [
+        {
+          "sourceId": "i32vp8D9iHBcPD7DPoRX",
+          "name": "Combo Golden Chicken",
+          "description": "Golden Chicken + Balde Pequeno + Coca Lata 310ml",
+          "priceCents": 5999,
+          "originalPriceCents": 6500,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2Fi32vp8D9iHBcPD7DPoRX-1790007227803.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "XCbGWC4ZXgnPIpgHm5Ui",
+          "name": "Golden Chicken",
+          "description": "Frango Empanado Crocante, Cheddar Derretido, Alface Fresca, Tomate Suculento e Molho Golden Cremoso no Pão Brioche",
+          "priceCents": 2799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FXCbGWC4ZXgnPIpgHm5Ui-1790015847304.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "LYyjIXOlYUq3YVHlJar1",
+          "name": "Balde de Frango Frito Gigante + Molho BBQ + Molho Golden",
+          "description": "1,2KG de frango frito super crocante, dourado e cheio de sabor. Acompanha molho BBQ e o exclusivo Molho Golden.",
+          "priceCents": 9299,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FLYyjIXOlYUq3YVHlJar1-1790006985460.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "3HLHuYXF73A1yHhDHBOa",
+          "name": "Balde de Frango Frito Médio + Molho BBQ + Molho Golden",
+          "description": "800g de frango frito super crocante, dourado e cheio de sabor. Acompanha molho BBQ e o exclusivo Molho Golden.",
+          "priceCents": 7299,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2F3HLHuYXF73A1yHhDHBOa-1790007003582.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "R9pbEKJBjFOsxl32IxDJ",
+          "name": "Balde de Frango Frito Pequeno + Molho BBQ + Molho Golden",
+          "description": "400g de frango frito super crocante, dourado e cheio de sabor. Acompanha molho BBQ e o exclusivo Molho Golden.",
+          "priceCents": 3799,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FR9pbEKJBjFOsxl32IxDJ-1790007100529.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "En8G9jMSsge75GvwWru4",
+          "name": "Batata Gratinada",
+          "description": "Batatas Fritas 300g Sequinhas e Crocantes por fora Macias por dentro, Queijo Cheddar, Bacon Crocante",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FEn8G9jMSsge75GvwWru4-1790015874753.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "CYNInTEGRKDdGkQ4f2vD",
+          "name": "Batata Simples",
+          "description": "Batata Frita 150g Sequinhas e Crocantes por fora Macias por dentro",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FCYNInTEGRKDdGkQ4f2vD-1790015886288.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "ps2rmi2IT9IHyIzHxCFq",
+          "name": "Chopp Brahma 500ml (Somente no Salão)",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2Fps2rmi2IT9IHyIzHxCFq-1790008366814.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "FY34BdY7U09YlNLs1x0t",
+          "name": "Chopp Brahma 300ml (Somente no Salão)",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FFY34BdY7U09YlNLs1x0t-1790008459517.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "U8qoW3JPTcEQV1klJJfq",
+          "name": "Suco de Laranja 300ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FU8qoW3JPTcEQV1klJJfq-1790007650098.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "ZPEDTeBDdiLBap4Ch6Tx",
+          "name": "Coca-Cola 1,5l",
+          "description": "Coca-Cola Original 1,5L – Clássica, gelada do jeito que você ama.",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FZPEDTeBDdiLBap4Ch6Tx-1790008161142.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "59E98PV3S0dcIL65jOmn",
+          "name": "Coca-Cola 1,5l Sem Açúcar",
+          "description": "Coca-Cola Sem Açúcar 1,5L – Todo o sabor, sem açúcar e super gelada.",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2F59E98PV3S0dcIL65jOmn-1790008189357.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "ZjtCIdrKs2OxOARZ6pr4",
+          "name": "Fanta 1,5l",
+          "description": "Coca-Cola Sem Açúcar 1,5L – Todo o sabor, sem açúcar e super gelada.",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FZjtCIdrKs2OxOARZ6pr4-1790008214143.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Ez586dEbqixZMWrC0wmh",
+          "name": "Coca-Cola 310ml",
+          "description": "Coca-Cola Lata 310ml – Gole curto, gelado e inesquecível.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FEz586dEbqixZMWrC0wmh-1790008260346.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "Rg4dbC9JuNuGIR7CGBFw",
+          "name": "Coca-Cola 310ml Sem Açúcar",
+          "description": "Coca-Cola Lata Sem Açúcar 310ml – Zero açúcar, mas 100% refrescância.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FRg4dbC9JuNuGIR7CGBFw-1790008503139.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "5Ca6icELI3d5xFc6YPU2",
+          "name": "Guaraná 350ml",
+          "description": "Guaraná Antarctica 350ml – Pequeno no tamanho, gigante na refrescância.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2F5Ca6icELI3d5xFc6YPU2-1790008287232.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "AvlL9cnJC81vsTLiudD4",
+          "name": "Fanta 310ml",
+          "description": "Coca-Cola Lata Sem Açúcar 310ml – Zero açúcar, mas 100% refrescância.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FAvlL9cnJC81vsTLiudD4-1790008523579.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "SBlRqmv9SMTDNNZNdSJl",
+          "name": "Sprite lata 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FSBlRqmv9SMTDNNZNdSJl-1790007573534.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "WBgGiDdswUo6eXiolcIy",
+          "name": "Energético Monster",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FWBgGiDdswUo6eXiolcIy-1790007543942.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "w03y1mFmmFR2iehVt9v1",
+          "name": "Energético Redbull",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2Fw03y1mFmmFR2iehVt9v1-1790007504810.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "j3RCIVzCoJd4L5OaLVBy",
+          "name": "Água com Gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2Fj3RCIVzCoJd4L5OaLVBy-1790007921804.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "YM2XF2D9EcYXQxpQUoND",
+          "name": "Água Mineral 500ml",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FYM2XF2D9EcYXQxpQUoND-1790008547562.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "X06j60AolZ98TBxp0uaJ",
+          "name": "Heineken Long Neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FX06j60AolZ98TBxp0uaJ-1789855827811.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "dfpFH6U1Ldc2S9eWdxdr",
+          "name": "Corona Long Neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FdfpFH6U1Ldc2S9eWdxdr-1790008129701.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "PQWDOw24Xx5GC7Vg0fJc",
+          "name": "Stella Artois Long Neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FPQWDOw24Xx5GC7Vg0fJc-1790008051082.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "ocMkbBEBV4dBmQWQGHaU",
+          "name": "Budweiser Long Neck",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FocMkbBEBV4dBmQWQGHaU-1790008088570.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Molhos",
+      "items": [
+        {
+          "sourceId": "xQfJ3vwPpaw6C4aaUDNq",
+          "name": "Molho BBQ",
+          "description": "Aproximadamente 30g de Molho Barbecue",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FxQfJ3vwPpaw6C4aaUDNq-1790009612513.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "ZSoRx4j241fQU8eUzFHr",
+          "name": "Molho Golden",
+          "description": "Porção generosa com cerca de 30g do irresistível Molho Golden, perfeito para realçar cada mordida.",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://firebasestorage.googleapis.com/v0/b/brendi-app.appspot.com/o/public%2Fstores%2FpeYA2XoIvrFSMf8S3aVl%2Fimages%2Fproducts%2FZSoRx4j241fQU8eUzFHr-1790009627404.jpeg?alt=media",
+          "featured": false,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

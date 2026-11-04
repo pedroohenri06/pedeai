@@ -15,9 +15,9 @@
       "platform": "maisdelivery"
     },
     "brownieria-vila-rica": {
-      "url": "https://contate.me/sbrownie",
-      "platform": "whatsapp",
-      "motivo": "link de bio que leva ao WhatsApp: não é cardápio público"
+      "url": "https://catlogo-sbrownie.ola.click/products",
+      "platform": "olaclick",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
     },
     "churra-s-grego-vila-rica": {
       "url": "https://maisdeliveryapp.com.br/web/loja.php?id=NTU5NTM=",
@@ -41,9 +41,9 @@
       "platform": "aiqfome"
     },
     "casa-da-pizza-de-querencia-querencia": {
-      "url": "https://play.google.com/store/apps/details?id=v001.app.deeliv.casadapizzaquerencia&hl=pt",
-      "platform": "app",
-      "motivo": "link de WhatsApp/aplicativo: não é cardápio público"
+      "url": "https://pedido.anota.ai/loja/casa-da-pizza-querencia",
+      "platform": "anotaai",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
     },
     "casa-do-sushi-querencia": {
       "url": "https://aiqfome.com/MT/querencia/casa-do-sushi",
@@ -179,10 +179,9 @@
       "via": "mesmo @ do Instagram na plataforma, auditoria automática 31/10/2026"
     },
     "texas-burger-grill-canarana": {
-      "url": "https://maisdeliveryapp.com.br/web/loja.php?id=ODM5NjE=",
-      "platform": "maisdelivery",
-      "via": "listagem da cidade no Mais Delivery, auditoria 01/11/2026",
-      "pendente": "cardápio vazio na plataforma no dia da coleta"
+      "url": "https://texasburgercn.menudino.com/",
+      "platform": "menudino",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
     },
     "booba-sorveteria-doceria-agua-boa": {
       "url": "https://pedir.delivery/booba",
@@ -200,7 +199,8 @@
     "frutos-de-goias-agua-boa-agua-boa": {
       "url": "https://www.maisdeliveryapp.com.br/web/loja.php?id=MTA0OTc5",
       "platform": "maisdelivery",
-      "pendente": "cardápio vazio na plataforma no dia da coleta"
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)",
+      "pendente": "cardápio vazio na plataforma (Mais Delivery) de novo em 04/11/2026"
     },
     "golden-bird-agua-boa": {
       "url": "https://menu.brendi.com.br/goldenbird",
@@ -279,12 +279,14 @@
     "cheff-do-espeto-barra-do-garcas": {
       "url": "https://cheff-do-espeto-cardapio.sacred-puppy-6546.chatgpt.site/",
       "platform": "site",
-      "motivo": "cardápio publicado como imagens (8 fotos com preços): precisa de transcrição manual"
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)",
+      "motivo": "cardápio em 8 imagens (folheto): entra pela regra de cardápio em imagem"
     },
     "churrascaria-o-panelao-barra-do-garcas": {
-      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/churrascaria-o-panelao-centro/6aa02299-c63f-40a1-82f4-cf34904fbacd",
-      "platform": "ifood",
-      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+      "url": "https://www.churrascariaopanelao.bidudelivery.app/",
+      "platform": "bidu",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)",
+      "motivo": "o endereço do cardápio (churrascariaopanelao.bidudelivery.app) não existe mais; o link da bio aponta para ele"
     },
     "dad-burger-barra-do-garcas": {
       "url": "https://dadburger.bigd.im/wapp/dadburger/store/#/delivery/loja/dadburger",
@@ -317,9 +319,9 @@
       "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
     },
     "mistro-massas-marmitas-pizzaria-barra-do-garcas": {
-      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/mistro-massas-marmitas--pizzaria-barra-center-shopping-jardim-araguaia/e476c65f-eb87-4ae7-a2f6-9ca28d986c0f",
-      "platform": "ifood",
-      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+      "url": "https://mistromassasbg.compraqui.app/",
+      "platform": "compraqui",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
     },
     "panificadora-sao-paulo-barra-do-garcas": {
       "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/panificadora-sao-paulo-centro/f0a54b51-d034-4fb4-9fb0-7a3e1f2a0cf1",
@@ -347,9 +349,9 @@
       "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
     },
     "texas-grill-burger-churrasco-barra-do-garcas": {
-      "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/texas-grill---burger--churrasco-setor-cristino-cortes/5dfcadd6-2545-49a3-be0b-6a0dcb76b408",
-      "platform": "ifood",
-      "motivo": "iFood bloqueia acesso automatizado (HTTP 403)"
+      "url": "https://pedido.anota.ai/loja/texasgrillchurrascaria",
+      "platform": "anotaai",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
     },
     "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas": {
       "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/zhu-marmitas---shopping-barra-do-garcas-jardim-araguaia/bde7124a-4c34-4ae0-9df0-d727b6e7111b",
@@ -631,6 +633,41 @@
       "url": "https://choppbrahmaexpress.meucardapio.ai/",
       "platform": "meucardapio",
       "via": "link enviado pelo Pedro em 03/11/2026 (Chopp Brahma Express; a página aponta para o Instagram @refugiodochoppnx)"
+    },
+    "tribo-do-acai-nova-xavantina": {
+      "url": "https://tribodoacainx.meucardapio.ai/",
+      "platform": "meucardapio",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
+    },
+    "frutos-de-goias-sorveteria-barra-do-garcas": {
+      "url": "https://zapdelivery.me/frutosdegoiasbg",
+      "platform": "zapdelivery",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
+    },
+    "casa-da-pizza-delivery-canarana": {
+      "url": "https://pedido.anota.ai/loja/casa-da-pizza-215",
+      "platform": "anotaai",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
+    },
+    "gg-burguer-querencia": {
+      "url": "https://vemmenu.com/sabordemae/",
+      "platform": "vemmenu",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
+    },
+    "owzi-burger-querencia": {
+      "url": "https://owziburger.com.br/home",
+      "platform": "saipos",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
+    },
+    "golden-hamburgueria-agua-boa": {
+      "url": "https://goldenhamburgueria.com/",
+      "platform": "brendi",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
+    },
+    "acai-raiz-do-para-nova-xavantina": {
+      "url": "https://acairaiz.godlysolucoes.net.br/",
+      "platform": "godly",
+      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)"
     }
   }
 }

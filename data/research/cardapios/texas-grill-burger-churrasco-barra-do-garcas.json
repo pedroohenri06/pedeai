@@ -1,0 +1,2117 @@
+{
+  "id": "texas-grill-burger-churrasco-barra-do-garcas",
+  "platform": "anotaai",
+  "source": "https://pedido.anota.ai/loja/texasgrillchurrascaria",
+  "capturedAt": "2026-11-04T01:24:52.459Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Pizza mini metro",
+      "items": [
+        {
+          "sourceId": "68ddabcda20b4e4da1510503",
+          "name": "Pizza pequena",
+          "description": "Pizza com 1 sabor e 4 fatias",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": "https://anotaai.s3.us-west-2.amazonaws.com/pizzas/1pizza",
+          "options": [
+            {
+              "name": "Sabor PEQUENA",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "3 queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne ao creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda da casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto e queijo",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Borda PEQUENA",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Catupiry",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza meio metro",
+      "items": [
+        {
+          "sourceId": "68c21b09c612ed42df1ed065",
+          "name": "Pizza meio metro",
+          "description": "Pizza com até 2 sabores e 12 fatias",
+          "priceCents": 5499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1757551367968blob",
+          "options": [
+            {
+              "name": "Sabor MEIO METRO",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calabresa",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Presunto e queijo",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Moda da casa",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Picanha ao creme",
+                  "priceCents": 6501
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Costelinha suina ao barbecue",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Strogonoff de frango",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "3 queijos",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Frango com catupiry",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Brócolis com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Califórnia",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Kids",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Prestigio",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Casadinho",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 6501
+                },
+                {
+                  "name": "Carne ao creme",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Churrasco",
+                  "priceCents": 4500
+                },
+                {
+                  "name": "Frango com requeijao",
+                  "priceCents": 4001
+                },
+                {
+                  "name": "Tropical",
+                  "priceCents": 6001
+                },
+                {
+                  "name": "Frutas vermelhas",
+                  "priceCents": 4001
+                }
+              ]
+            },
+            {
+              "name": "Borda MEIO METRO",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de catupiry",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda de mussarela",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda de cheddar",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda de requeijao",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional MEIO METRO",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca 1,5",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Guarana 1,5",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizza 1 metro",
+      "items": [
+        {
+          "sourceId": "68c22e05cb2c7a693edd7966",
+          "name": "Pizza 1 metro",
+          "description": "Pizza com até 4 sabores e 24 fatias",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1757556557203blob",
+          "options": [
+            {
+              "name": "Sabor 1 METRO",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vegetariana",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Strogonoff de frango",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Presunto e queijo",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Prestigio",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Picanha ao creme",
+                  "priceCents": 6500
+                },
+                {
+                  "name": "Pantaneira",
+                  "priceCents": 4999
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 4999
+                },
+                {
+                  "name": "Moda da casa",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Kids",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Frango com catupiry",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Costelinha suina ao barbecue",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Casadinho",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Califórnia",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Brócolis",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 3999
+                },
+                {
+                  "name": "3 queijos",
+                  "priceCents": 3999
+                }
+              ]
+            },
+            {
+              "name": "Borda 1 METRO",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda de cheddar",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Borda de requeijão",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Borda de catupiry",
+                  "priceCents": 1499
+                },
+                {
+                  "name": "Borda de mussarela",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Texas Smash Burger Artesanal 100g",
+      "items": [
+        {
+          "sourceId": "66e9c2317a244d001c9b860c",
+          "name": "Texas Burger",
+          "description": "Pão, Molho Texas, 100g de Burger Bovino e Queijo.",
+          "priceCents": 1899,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067577134blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c242aa6e9a001cc0b281",
+          "name": "Double Burger",
+          "description": "Pão, Molho Texas, 2 Burger Bovino 100g cada e Queijo.",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067562044blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c24ce23056001cde94e3",
+          "name": "Trio Burger",
+          "description": "Pão, Molho Texas, 3 Burger Bovino 100g cada, Queijo e Bacon Triturado.",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067654198blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c2b37a244d001c9b8a1a",
+          "name": "Burger Egg",
+          "description": "Pão, 100g de Burger Bovino, Queijo Cheddar, Ovo e Molho Texas.",
+          "priceCents": 2199,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067712877blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c2ce8ee357001d73bae8",
+          "name": "Burger Bacon",
+          "description": "Pão, 100g de Burger Bovino, Queijo Cheddar, Bacon e Molho Texas.",
+          "priceCents": 2299,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067726876blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c2db8ee357001d73bb0a",
+          "name": "Burger Salad",
+          "description": "Pão, 100g de Burger Bovino, Queijo Cheddar, Alface, Tomate, Cebola e Molho Texas.",
+          "priceCents": 2299,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067740013blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c2e7aa6e9a001cc0b5c1",
+          "name": "Burger Onion",
+          "description": "Pão, 100g de Burger Bovino, Queijo Cheddar, Bacon Triturado, Cebola Caramelizada e Molho Barbecue.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067754871blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "684df9e31cd0dabbb68d6dfc",
+          "name": "Burger banana",
+          "description": "Pao, aprox 100g de burger bovino, queijo, bacon, banana frita e molho texas",
+          "priceCents": 2799,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1749940705671blob",
+          "options": [
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "684dfae61cd0dabbb68d9074",
+          "name": "Burger dallas",
+          "description": "Pao, molho de alho, 2 burger bovino aprox 100g cada, queijo, ovo, bacon e cebola caramelizada",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1749940964109blob",
+          "options": [
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "684dfbd668cfa13b9b96d14c",
+          "name": "Burger coalho",
+          "description": "Pao, aprox 100g de burger bovino, queijo, geleia de pimenta, queijo coalho, mel, rucula e molho texas",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1749941204359blob",
+          "options": [
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "684dfc4e68cfa13b9b96ecdc",
+          "name": "Burger jhon",
+          "description": "Pao, aprox 100g de burger bovino, queijo, bacon, 2 ovos, alface, tomate, cebola, picles e molho texas",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1749941323812blob",
+          "options": [
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 100g + Queijo",
+                  "priceCents": 899
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "69cd54a3260fa2614dde9c4e",
+          "name": "Burger chicken",
+          "description": "PÃO, MOLHO TEXAS, 100g DE BURGER BOVINO,QUEIJO, RÚCULA, FRANGO DESFIADO E CATUPIRY",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escilha seu pão",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brioche",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Australiano",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu queijo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescimo: + burger de 100g + queijo",
+                  "priceCents": 899
+                }
+              ]
+            },
+            {
+              "name": "Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Combo 100g batata frita + refri lata ou suco lata",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6a18ad68d0e3f752e67a788a",
+          "name": "Burger cadilac",
+          "description": "Pao, molho, banana frita, burger, couve e requeijao",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1788389387512blob",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Texas Burger Artesanal 200g",
+      "items": [
+        {
+          "sourceId": "66e9c3573257c4001c8fad4b",
+          "name": "Burger Meat",
+          "description": "Pão, 200g de Burger Bovino, Queijo e Molho Texas.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728066860693blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c36caa6e9a001cc0b763",
+          "name": "Burger Fitness",
+          "description": "Pão, 200g de Burger Bovino, Queijo, Alface, Tomate, Cebola e Molho Texas.",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728066882052blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c379e23056001cdea029",
+          "name": "Burger Creamy",
+          "description": "Pão, Catupiry, 200g de Burger Bovino, Queijo, Cebola Caramelizada, Creme de Cheddar e Bacon Triturado.",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728066966075blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c38a07c072001cc7b2d6",
+          "name": "Burger Big Egg",
+          "description": "Pão, Molho Texas, 2 Burger Bovino 200g cada, Queijo, Ovo, Bacon e Alface.",
+          "priceCents": 4799,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728066992934blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c39c3257c4001c8faf64",
+          "name": "Burger Abacaxi",
+          "description": "Pão, Alface, 200g de Burger Bovino, Queijo, Picles, Abacaxi Grelhado, Mel e Molho Barbecue.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067018128blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c3c47a244d001c9b8e05",
+          "name": "Burger Catupiry",
+          "description": "Pão, Molho de Alho, Cebola, 200g de Burger Bovino, Catupiry Empanado e Molho Texas.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067108724blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c80caa6e9a001cc0f352",
+          "name": "Burger American",
+          "description": "Pão, Molho Texas, 2 Burger Bovino 200g cada, Creme de Cheddar, Bacon, Alface, Tomate e Picles.",
+          "priceCents": 4699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067196695blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c8233257c4001c8ff278",
+          "name": "Burger Big King",
+          "description": "Pão, Molho Texas, 3 Burger Bovino 200g cada, Queijo, Bacon e Tomate",
+          "priceCents": 5999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067215127blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9c8317a244d001c9bc5b6",
+          "name": "Burger Monster",
+          "description": "Pão, Molho Texas, 4 Burger Bovino 200g cada, Queijo, Bacon, Alface e Tomate",
+          "priceCents": 6999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728067252648blob",
+          "options": [
+            {
+              "name": "Escolha Seu Pão",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pão Australiano",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão Brioche",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha Seu Queijo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Queijo Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine Seu Burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente 1 Burger 200g + Queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em Combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita + 1 Refrigerante Lata ou Suco (ENVIE NO WHATS SUA PREFERENCIA)",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "69cd5833df2470e28a44b233",
+          "name": "Burger milly",
+          "description": "PÃO, 200g DE BURGER BOVINO, QUEIJO, DOCE DE LEITE ARTESANAL E COCO RALADO",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha seu pão",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brioche",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Australiano",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu queijo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da carne",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal pasada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente + 1 burger 200g + queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Combo 100g batata frita + refri lata ou suco lata",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "69cd590a06c2e0b7465fa980",
+          "name": "Burger bbq",
+          "description": "PÃO, MOLHO TEXAS, COUVE, 200g DE BURGER BOVINO, QUEIJO COALHO MAÇARICADO, CEBOLA E COSTELINHA SUINA BBQ",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha seu pão",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brioche",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Australiano",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu queijo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha seu ponto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Mal passada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ao ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem passada",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu burger",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acrescente + 200g de burger + queijo",
+                  "priceCents": 1599
+                }
+              ]
+            },
+            {
+              "name": "Transforme em combo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Combo 100g de batata frita + refri lata ou suco lata",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Executivos Especiais",
+      "items": [
+        {
+          "sourceId": "66e9cc4221b43e643ce4ef71",
+          "name": "PRATO EXECUTIVO Churrasco Texas",
+          "description": "Acompanha Arroz, Feijão Tropeiro, Mandioca, Vinagrete e Churrasco.",
+          "priceCents": 4499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728068308649blob",
+          "options": []
+        },
+        {
+          "sourceId": "66e9cc4221b43eb183e4ef77",
+          "name": "PRATO EXECUTIVO Strogonoff de Frango",
+          "description": "Acompanha Arroz, Batata Palha e Salada.",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728068403079blob",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Lançamentos",
+      "items": [
+        {
+          "sourceId": "66e9dd0ce23056001cdfc917",
+          "name": "Maramora",
+          "description": "Suco especial natural de maracuja com morango",
+          "priceCents": 2499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728074461787blob",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Álcool",
+                  "priceCents": 499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66e9dd1c55c261001c27b759",
+          "name": "Limamora",
+          "description": "Suco especial natural de limao com morango",
+          "priceCents": 2499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1728074590545blob",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Álcool",
+                  "priceCents": 499
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Marmita",
+      "items": [
+        {
+          "sourceId": "67139768c70e38001cb9afff",
+          "name": "Marmita g c/ churrasco",
+          "description": "Arroz, creme de queijo, mandioca, vinagrete, e churrasco misto",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1729337190282blob",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "67131b665b55f9001c94386b",
+          "name": "Coca lata",
+          "description": "Refri lata",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1729305445222blob",
+          "options": []
+        },
+        {
+          "sourceId": "67131bc65b55f9001c943909",
+          "name": "Coca lata zero",
+          "description": "Refri zero açucar",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1729305540989blob",
+          "options": []
+        },
+        {
+          "sourceId": "67131c605b55f9001c943a63",
+          "name": "Fanta lata",
+          "description": "Refri lata",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1729305695388blob",
+          "options": []
+        },
+        {
+          "sourceId": "67131cacc70e38001cb8d119",
+          "name": "Coca 500 ml",
+          "description": "Refri 500",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1729305770824blob",
+          "options": []
+        },
+        {
+          "sourceId": "69cd818e02fc5fb6c11ad7d8",
+          "name": "Água sem gás",
+          "description": "",
+          "priceCents": 499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "69cd81c0d623ba2e7ca30d43",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "69cd8261d623ba2e7ca32c81",
+          "name": "CREME 400ml",
+          "description": "Leite, leite condensado e fruta",
+          "priceCents": 1799,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha seu sabor",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Limão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracuja",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "6ad14bcf10a811d817c6cf4e",
+          "name": "Combo texas",
+          "description": "Burger batata e refri iti laranja",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1792101325788blob",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Executivos texanos",
+      "items": [
+        {
+          "sourceId": "69cd6f7302fc5fb6c1189581",
+          "name": "Executivo costelinha suina bbq",
+          "description": "Acompanha arroz, feijão tropeiro, purê de batata, vinagrete e molho barbecue",
+          "priceCents": 5999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "69cd7050d623ba2e7ca0d875",
+          "name": "Executivo tilápia empanada",
+          "description": "Acompanha arroz, creme de queijo, batata frita e salada",
+          "priceCents": 5499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cafeteria",
+      "items": [
+        {
+          "sourceId": "6abdc2b6dd9764a8b8b90953",
+          "name": "Calzone de frango",
+          "description": "Frango cremoso, molho gourmet e requeijão",
+          "priceCents": 1699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1790821044900blob",
+          "options": []
+        },
+        {
+          "sourceId": "6abdc32dcdb5a274d32f04c3",
+          "name": "Calzone moda da casa",
+          "description": "Frango presunto calabresa palmito ervilha milho tomate e queijo",
+          "priceCents": 1799,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1790821162820blob",
+          "options": []
+        },
+        {
+          "sourceId": "6abdc518cb028a9e3dea6ab2",
+          "name": "Trancado de presunto e queijo",
+          "description": "",
+          "priceCents": 1699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1790821655062blob",
+          "options": []
+        },
+        {
+          "sourceId": "6abdc59473430ddbda216555",
+          "name": "Salgado texano",
+          "description": "Carne desfiada x queijo requeijão e vinagrete",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1790821778973blob",
+          "options": []
+        },
+        {
+          "sourceId": "6abdc5e1cdb5a274d32f3d59",
+          "name": "Salgado de calabresa",
+          "description": "",
+          "priceCents": 1699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1790821856019blob",
+          "options": []
+        },
+        {
+          "sourceId": "6abdc622cdb5a274d32f4366",
+          "name": "Enroladinho de queijo coalho com calda de creme belga",
+          "description": "",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/65fc877746139e00122f1267/-1790821921718blob",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "esgotado": 97
+  },
+  "notes": [
+    "\"Pizza meio metro\": \"Sabor MEIO METRO\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Pizza 1 metro\": \"Sabor 1 METRO\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação."
+  ],
+  "city": "Barra do Garças",
+  "phones": [
+    "(66) 9 9248-6623"
+  ]
+}

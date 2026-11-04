@@ -1,0 +1,5901 @@
+{
+  "id": "tribo-do-acai-nova-xavantina",
+  "platform": "meucardapio",
+  "source": "https://tribodoacainx.meucardapio.ai/",
+  "capturedAt": "2026-11-04T01:24:54.941Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Combos Açaí",
+      "items": [
+        {
+          "sourceId": "512294",
+          "name": "Combo Trio Açaí 300 ml",
+          "description": "3 copos de açaí de 300 ml para o cliente escolher os adicionais conforme a preferencia. OBS: adicionais pagos será acrescentado valor por copo.",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Copo 1 - Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 1 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "512298",
+          "name": "Combo Família Açaí 300 ml",
+          "description": "4 copos de 300 ml para o cliente escolher os adicionais conforme a preferencia. OBS: adicionais pagos será acrescentado valor por copo.",
+          "priceCents": 7300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Copo 1 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 1 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 4 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 4 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copa 4 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 4 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 4 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 4 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 4 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 4 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 4 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 4 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "512283",
+          "name": "Combo Trio Açaí 400 ml",
+          "description": "3 copos de açaí de 400 ml para o cliente escolher os adicionais conforme a preferencia. OBS: adicionais pagos será acrescentado valor por copo.",
+          "priceCents": 6400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Copo 1 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 1 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "512289",
+          "name": "Combo Família Açaí 400 ml",
+          "description": "4 copos de 400 ml para o cliente escolher os adicionais conforme a preferencia. OBS: adicionais pagos será acrescentado valor por copo.",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Copo 1 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 1 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 1 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 1 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 1 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 1 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 1 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 2 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 2 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 2 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 2 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 2 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 2 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copo 3 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 3 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 3 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 3 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 3 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 3 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Copo 4 - Até 03 Acompanhamentos Grátis",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Copo 4 - Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 4 - Adicionar Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Copa 4 - Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Copo 4 - Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 4 - Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 4 - Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 4 - Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 4 - Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Copo 4 - Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Casquinha avulsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo 4 - Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Copo 4 - Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Copo 4 - Adicionar Farinha Láctea",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí",
+      "items": [
+        {
+          "sourceId": "465281",
+          "name": "Açaí - 200ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8b12a9f0-1f10-11f1-9409-d5d50ebc7238.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465282",
+          "name": "Açaí - 300ml",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8bb15af0-1f10-11f1-899a-dddc0a89d209.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465283",
+          "name": "Açaí - 400ml",
+          "description": "",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8c221e20-1f10-11f1-9f82-3b4cfa912594.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465284",
+          "name": "Açaí - 500ml",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8c728810-1f10-11f1-a57a-2b81ab6a39db.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465285",
+          "name": "Açaí - 700ml",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8cc9f6e0-1f10-11f1-b4c9-a571c1ff9346.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí Misto",
+      "items": [
+        {
+          "sourceId": "465287",
+          "name": "Misto - 300ml",
+          "description": "Açaí com sorvete",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8e4461e0-1f10-11f1-aa94-79f42c6cc71d.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465288",
+          "name": "Misto - 400ml",
+          "description": "Açaí com sorvete",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8ec61500-1f10-11f1-b48e-ad0b2f0df0e0.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465289",
+          "name": "Misto - 500ml",
+          "description": "Açaí com sorvete",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8f4b71a0-1f10-11f1-9687-c5b4df8833e4.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465290",
+          "name": "Misto - 700ml",
+          "description": "Açaí com sorvete",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/8fd429a0-1f10-11f1-bbca-b5b8339fe9d0.webp",
+          "options": [
+            {
+              "name": "Até 03 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Mais de 3 Acompanhamentos Pagos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Adicionar Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Calda de Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chantily",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Chocobol",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Confete",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Creme de Cupuaçu",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Limão",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granola",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Granulado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Kiwi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ouro Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Ovomaltine Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Adicionar Sonho de Valsa",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Adicionar castanha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cascão Avulso",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Casquinha avulsa",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae Tradicional",
+      "items": [
+        {
+          "sourceId": "465292",
+          "name": "Sundae Tradicional - 200ml",
+          "description": "Sorvete de baunilha com paçoca ou castanha e 01 cobertura",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/92abdab0-1f10-11f1-b9cf-2d9de589e219.webp",
+          "options": [
+            {
+              "name": "Paçoca ou Castanha?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione a Cobertura",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465293",
+          "name": "Sundae Tradicional - 300ml",
+          "description": "Sorvete de baunilha com paçoca ou castanha e 01 cobertura",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9477c110-1f10-11f1-bbca-b5b8339fe9d0.webp",
+          "options": [
+            {
+              "name": "Paçoca ou Castanha?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione a Cobertura",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465294",
+          "name": "Sundae Tradicional - 400ml",
+          "description": "Sorvete de baunilha com paçoca ou castanha e 01 cobertura",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/95d86280-1f10-11f1-899a-dddc0a89d209.webp",
+          "options": [
+            {
+              "name": "Paçoca ou Castanha?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione a Cobertura",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465295",
+          "name": "Sundae Tradicional - 500ml",
+          "description": "Sorvete de baunilha com paçoca ou castanha e 01 cobertura",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/963ddb10-1f10-11f1-899a-dddc0a89d209.webp",
+          "options": [
+            {
+              "name": "Paçoca ou Castanha?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione a Cobertura",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465296",
+          "name": "Sundae Tradicional - 700ml",
+          "description": "Sorvete de baunilha com paçoca ou castanha e 01 cobertura",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/96aaa6a0-1f10-11f1-89c7-37bf784a25d2.webp",
+          "options": [
+            {
+              "name": "Paçoca ou Castanha?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Castanha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione a Cobertura",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae Tribo Especial",
+      "items": [
+        {
+          "sourceId": "465298",
+          "name": "Tribo Especial - 300ml",
+          "description": "Sorvete de Baunilha com 01 Sabor",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/988b9ba0-1f10-11f1-8faa-ab48f65f1ce5.webp",
+          "options": [
+            {
+              "name": "Selecione o Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nutella e Morango em Calda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Ovomaltine em Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pistache e ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de Ovomaltine e Morango em Caldas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Nutella",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465299",
+          "name": "Tribo Especial - 400ml",
+          "description": "Sorvete de Baunilha com 01 Sabor",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/98f84020-1f10-11f1-a00e-31f6c257e162.webp",
+          "options": [
+            {
+              "name": "Selecione o Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nutella e Morango em Calda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Ovomaltine em Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pistache e ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de Ovomaltine e Morango em Caldas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Nutella",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465300",
+          "name": "Tribo Especial - 500ml",
+          "description": "Sorvete de Baunilha com 01 Sabor",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/996a89f0-1f10-11f1-b9cf-2d9de589e219.webp",
+          "options": [
+            {
+              "name": "Selecione o Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nutella e Morango em Calda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Ovomaltine em Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pistache e ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de Ovomaltine e Morango em Caldas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Nutella",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465301",
+          "name": "Tribo Especial - 700ml",
+          "description": "Sorvete de Baunilha com 01 Sabor",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/99d8b510-1f10-11f1-9687-c5b4df8833e4.webp",
+          "options": [
+            {
+              "name": "Selecione o Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nutella e Morango em Calda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Ovomaltine em Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pistache e ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Creme de Ovomaltine e Morango em Caldas",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine em Pó e Nutella",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae Fruit Mix",
+      "items": [
+        {
+          "sourceId": "465303",
+          "name": "Sundae Fruit Mix - 300ml",
+          "description": "Sorvete de baunilha com caldo de fruta",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9b829480-1f10-11f1-bfd7-b1a484cf0429.webp",
+          "options": [
+            {
+              "name": "Selecione o Caldo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calda de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465304",
+          "name": "Sundae Fruit Mix - 400ml",
+          "description": "Sorvete de baunilha com caldo de fruta",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9be80d10-1f10-11f1-b9cf-2d9de589e219.webp",
+          "options": [
+            {
+              "name": "Selecione o Caldo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calda de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465305",
+          "name": "Sundae Fruit Mix - 500ml",
+          "description": "Sorvete de baunilha com caldo de fruta",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9c63a5b0-1f10-11f1-8680-2fd172a114b2.webp",
+          "options": [
+            {
+              "name": "Selecione o Caldo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calda de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465306",
+          "name": "Sundae Fruit Mix - 700ml",
+          "description": "Sorvete de baunilha com caldo de fruta",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9ce5a6f0-1f10-11f1-89c7-37bf784a25d2.webp",
+          "options": [
+            {
+              "name": "Selecione o Caldo",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Calda de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calda de Morango",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sundae Kids",
+      "items": [
+        {
+          "sourceId": "465307",
+          "name": "Sundae Kids - 300ml",
+          "description": "Sorvete de Baunilha com M&M's e Granulado Colorido e 01 Cobertura - 300ml",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9dff5450-1f10-11f1-b4c9-a571c1ff9346.webp",
+          "options": [
+            {
+              "name": "Coberturas",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465308",
+          "name": "Sundae Kids - 400ml",
+          "description": "Sorvete de Baunilha com M&M's e Granulado Colorido e 01 Cobertura",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9e80b950-1f10-11f1-89c7-37bf784a25d2.webp",
+          "options": [
+            {
+              "name": "Coberturas",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465309",
+          "name": "Sundae Kids - 500ml",
+          "description": "Sorvete de Baunilha com M&M's e Granulado Colorido e 01 Cobertura",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9efcee30-1f10-11f1-a57a-2b81ab6a39db.webp",
+          "options": [
+            {
+              "name": "Coberturas",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465310",
+          "name": "Sundae Kids - 700ml",
+          "description": "Sorvete de Baunilha com M&M's e Granulado Colorido e 01 Cobertura",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/9f73a4d0-1f10-11f1-9081-d3129aa64270.webp",
+          "options": [
+            {
+              "name": "Coberturas",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cobertura de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cobertura de Beijinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milkshake",
+      "items": [
+        {
+          "sourceId": "465311",
+          "name": "Milkshake - 300ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a0fa44d0-1f10-11f1-a00e-31f6c257e162.webp",
+          "options": [
+            {
+              "name": "Selecione um Sabor Grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Milkshake de Bolacha Oreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Café Gelado Original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Paçoquinha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Extra Pagos",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Café Gelado Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Finalizar com Chantilly por cima",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoquinha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465312",
+          "name": "Milkshake - 400ml",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a18016a0-1f10-11f1-bfd7-b1a484cf0429.webp",
+          "options": [
+            {
+              "name": "Selecione um Sabor Grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Milkshake de Bolacha Oreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Café Gelado Original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Paçoquinha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Extra Pagos",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Café Gelado Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Finalizar com Chantilly por cima",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoquinha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465313",
+          "name": "Milkshake - 500ml",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a1f63100-1f10-11f1-972f-ebb561ef3add.webp",
+          "options": [
+            {
+              "name": "Selecione um Sabor Grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Milkshake de Bolacha Oreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Café Gelado Original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Paçoquinha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Extra Pagos",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Café Gelado Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Finalizar com Chantilly por cima",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoquinha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465314",
+          "name": "Milkshake - 700ml",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a263bfe0-1f10-11f1-b4c9-a571c1ff9346.webp",
+          "options": [
+            {
+              "name": "Selecione um Sabor Grátis",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Milkshake de Bolacha Oreo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Café Gelado Original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Menta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milkshake de Paçoquinha",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Extra Pagos",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Bolacha Oreo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Café Gelado Original",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Finalizar com Chantilly por cima",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine Creme",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoquinha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 700
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Vitamina de Açaí",
+      "items": [
+        {
+          "sourceId": "465315",
+          "name": "Vitamina de Açaí - 300ml",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a3f6e300-1f10-11f1-b48e-ad0b2f0df0e0.webp",
+          "options": [
+            {
+              "name": "Até 02 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Acima de 02 Acompanhamentos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465316",
+          "name": "Vitamina de Açaí - 400ml",
+          "description": "",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a47c8dc0-1f10-11f1-89c7-37bf784a25d2.webp",
+          "options": [
+            {
+              "name": "Até 02 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Acima de 02 Acompanhamentos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465317",
+          "name": "Vitamina de Açaí - 500ml",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a4c92720-1f10-11f1-a57a-2b81ab6a39db.webp",
+          "options": [
+            {
+              "name": "Até 02 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Acima de 02 Acompanhamentos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465318",
+          "name": "Vitamina de Açaí - 700ml",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a5183180-1f10-11f1-89c7-37bf784a25d2.webp",
+          "options": [
+            {
+              "name": "Até 02 Acompanhamentos Grátis",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Acima de 02 Acompanhamentos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Adicionar Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Mel",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Adicionar Paçoca",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí com Laranja",
+      "items": [
+        {
+          "sourceId": "465291",
+          "name": "Açaí com Laranja - 500 ml",
+          "description": "Açaí com Laranja",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/917a1170-1f10-11f1-ada1-f5b431c4cd32.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Vitamina de Cupuaçu",
+      "items": [
+        {
+          "sourceId": "465319",
+          "name": "Vitamina de Cupuaçu - 300 ml",
+          "description": "Batida de creme de cupuaçu com paçoca e leite ninho.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a68ef300-1f10-11f1-89c7-37bf784a25d2.webp",
+          "options": [
+            {
+              "name": "Vitamina de Cupuaçu",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com paçoca e leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem paçoca e leite ninho",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "465320",
+          "name": "Vitamina de Cupuaçu - 500 ml",
+          "description": "Batida de creme de cupuaçu com paçoca e leite ninho.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a72d07c0-1f10-11f1-bbca-b5b8339fe9d0.webp",
+          "options": [
+            {
+              "name": "Vitamina de Cupuaçu",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Com paçoca e leite ninho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem paçoca e leite ninho",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "465321",
+          "name": "Coca Cola Lata",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a8383630-1f10-11f1-9736-d9117dcbcc97.webp",
+          "options": []
+        },
+        {
+          "sourceId": "465322",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a8a1f480-1f10-11f1-bfd7-b1a484cf0429.webp",
+          "options": []
+        },
+        {
+          "sourceId": "465323",
+          "name": "Água Sem gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/a9230b60-1f10-11f1-b48e-ad0b2f0df0e0.webp",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cupuaçu",
+      "items": [
+        {
+          "sourceId": "475885",
+          "name": "Cupuaçu Puro 500 ml",
+          "description": "",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://tribodoacainx.meucardapio.ai/images/empresa/d0f42090-3f11-11f1-84b9-d3f81167d1d0.webp",
+          "options": [
+            {
+              "name": "Precisa de colher?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem colher",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Com colher",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

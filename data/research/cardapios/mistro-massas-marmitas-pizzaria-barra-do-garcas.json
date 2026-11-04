@@ -1,0 +1,671 @@
+{
+  "id": "mistro-massas-marmitas-pizzaria-barra-do-garcas",
+  "platform": "compraqui",
+  "source": "https://mistromassasbg.compraqui.app/",
+  "capturedAt": "2026-11-04T01:24:51.668Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Mistro kids",
+      "items": [
+        {
+          "sourceId": "37e67bc5-99fe-11ef-9ef0-16fbeb8dbbd7",
+          "name": "Kids file",
+          "description": "Delicioso file mignon em cubos grelhado, servido em porçao de 100g, acompahado de arroz soltinho, feijao, batatas fritas crocantes e ovo. uma refeiçao completa, saborosa e feita especialmente para os pequenos!",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Promoção",
+      "items": [
+        {
+          "sourceId": "eccb3feb-e3fa-11ef-9ef0-16fbeb8dbbd7",
+          "name": "Pizza Marguerita de 4 fatias",
+          "description": "Deliciosa pizza de 4 fatias, coberta com molho de tomate, mozarela, tomates frescos, manjericão e orégano.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/0194d7ad-1d6c-700e-acd7-48c4df7a87e1.png",
+          "options": []
+        },
+        {
+          "sourceId": "e7a12d97-5da3-11f0-9f93-16fbeb8dbbd7",
+          "name": "Pizza calabresa grande de 4 fatias",
+          "description": "Delicioso molho de tomates frescos, mozzarella, calabresa e orégano",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/019c7b90-6079-7080-a58f-a4392583b56b.png",
+          "options": []
+        },
+        {
+          "sourceId": "b884bf5a-2141-11f1-a441-16fbeb8dbbd7",
+          "name": "Pizza Portuguesa grande 4 fatias",
+          "description": "Delicioso molho de tomates fresco, mozzarella, presunto, calabresa, ovo, cebola e orégano.",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sugestões do Chef",
+      "items": [
+        {
+          "sourceId": "583d99fc-e9fa-11ed-a220-16fbeb8dbbd7",
+          "name": "Tagliatelle Especiale",
+          "description": "Bacon, calabresa, azeite, cebola roxa, alho, tomate seco, azeitona verde, queijo parmesão, cebolinha, orégano, molho bolonhesa e molho bechamel.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/6bfb68f6-bae5-4a2a-8775-5b883720cf93.png",
+          "options": []
+        },
+        {
+          "sourceId": "6c6e78f1-e9fa-11ed-a220-16fbeb8dbbd7",
+          "name": "Carbonara",
+          "description": "200g de massa espaguete, bacon, ovos, queijo parmesão, pimenta do reino, sal e cebolinha",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/64bd9e93-c199-4f51-bf46-48874cfc880c.png",
+          "options": []
+        },
+        {
+          "sourceId": "32654057-e9fb-11ed-a220-16fbeb8dbbd7",
+          "name": "Mac and Cheese",
+          "description": "Irresistivel porção de massa (aprox. 200g) temperado no capricho, bacon, alho, molho bechamel e queijos mozzarela, parmesão e cheddar.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/05c4bed1-e30e-44f3-9181-ba4ecc439415.png",
+          "options": []
+        },
+        {
+          "sourceId": "5b7c7696-e9fb-11ed-a220-16fbeb8dbbd7",
+          "name": "Filé de frango grelhado com talharim e brocolis",
+          "description": "Porção excelente (aprox.150g) filé de frango grelhado, acompanha 200g de talharim ao alho e azeite com brócolis.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/5ba7409e-3716-4e63-815a-b2c0fba76dff.png",
+          "options": []
+        },
+        {
+          "sourceId": "6d10e622-e9fb-11ed-a220-16fbeb8dbbd7",
+          "name": "Macarrão à Bolonhesa",
+          "description": "200g de espaguete, carne moída, molho bolonhesa especial, bacon, queijo parmesão e manjericão.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/7b01838a-f595-4cfc-b5d1-5dbdfd1cc619.png",
+          "options": []
+        },
+        {
+          "sourceId": "83134bba-e9fb-11ed-a220-16fbeb8dbbd7",
+          "name": "Filé mignon a milanesa",
+          "description": "Delicioso file mignon empanado na farinha panko, mais 200g de massa talharim ao molho bechamel com queijos mozzarella, parmesão e cebolinha",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9aaf33f0-e9fb-11ed-a220-16fbeb8dbbd7",
+          "name": "Talharim com frango e brócolis",
+          "description": "Deliciosos cubos de filé de frango, bacon, brócolis, cenoura, 200g de talharim, molho bechamel e queijo parmesão.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/fcca7fbd-b4c2-4bd4-b8a2-d3e4f4a90c56.png",
+          "options": []
+        },
+        {
+          "sourceId": "1b2f53b7-e9fc-11ed-a220-16fbeb8dbbd7",
+          "name": "Yakisoba à moda da casa",
+          "description": "Deliciosos cubos de filé mignon, frango, brócolis, cenoura, cebola, repolho roxo e shoyu.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/9989c9d8-7fab-4aed-9f15-ec1bc7ab58e2.png",
+          "options": []
+        },
+        {
+          "sourceId": "057b50b4-e9fd-11ed-a220-16fbeb8dbbd7",
+          "name": "Macarrão Mistrô",
+          "description": "Deliciosos camarões (aprox. 100g) bacon, alcaparras, alho, cebola, tomate, parmesão e molho bechamel.",
+          "priceCents": 6190,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/90701bbf-678f-4a7a-9155-370c418275f0.png",
+          "options": []
+        },
+        {
+          "sourceId": "52e3e264-e9fd-11ed-a220-16fbeb8dbbd7",
+          "name": "Medalhão de filé ao molho de mostarda",
+          "description": "Delicioso filé mignon (aprox.130g), creme de leite, mostarda. Acompanhado de uma deliciosa massa na manteiga de ervas, salsa, cebolinha, manjericão e orégano, finalizado com parmesão.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/c51c7fa9-0328-4ad4-8900-5418740069c2.png",
+          "options": []
+        },
+        {
+          "sourceId": "7789cf4a-e9fd-11ed-a220-16fbeb8dbbd7",
+          "name": "Espaguete ao sugo",
+          "description": "200g de uma deliciosa massa, alho, cebola, tomate, molho sugo e finalizado com parmesão.",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/fcf159de-396c-45c8-83c8-48584b7dbf64.png",
+          "options": []
+        },
+        {
+          "sourceId": "96b40798-e9fd-11ed-a220-16fbeb8dbbd7",
+          "name": "Medalhão de filé mignon grelhado",
+          "description": "Delicioso filé mignon (aprox.130g) grelhado. Acompanha uma generosa porção de massa ao molho quatro queijos, mussarela, parmesão, catupiry e provolone e cebolinha.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/8ef06f24-a943-4f19-9706-ae35e31ebd0c.png",
+          "options": []
+        },
+        {
+          "sourceId": "d69c11a1-e9fd-11ed-a220-16fbeb8dbbd7",
+          "name": "Talharim com isca de filé",
+          "description": "200g de talharim, alho, cebola, azeite, creme de leite, finalizado com parmesão e cebolinha.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/2bc51007-206c-4d64-9b11-65ff51aa64ac.png",
+          "options": []
+        },
+        {
+          "sourceId": "f01bd677-e9fd-11ed-a220-16fbeb8dbbd7",
+          "name": "Fettuccine ao gorgonzola",
+          "description": "200g de fettuccine, file mignon, alho, molho bechamel, queijo gorgonzola, pimenta preta, parmesão e cebolinha",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/3e3105ca-a2cd-4eb4-aff4-ee5b7051abdc.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pescados",
+      "items": [
+        {
+          "sourceId": "767f3e09-069f-11f0-a1c3-16fbeb8dbbd7",
+          "name": "Filé de tilapia grelhado",
+          "description": "Delicioso filé de tilápia grelhado, com tomate cereja, alcaparras, acompanhado de arroz, salada e batata frita.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/0195bac7-0ca6-7407-b4b6-ac68cd54fdd3.png",
+          "options": []
+        },
+        {
+          "sourceId": "d6cde3b1-069f-11f0-a1c3-16fbeb8dbbd7",
+          "name": "Filé de tilapia à milanesa",
+          "description": "Delicioso filé de tilápia empanado na farinha panko, crocante e suculento, acompanhado de arroz, salada e batata frita.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/0195bac6-78cb-748a-a184-6056243a2b3c.png",
+          "options": []
+        },
+        {
+          "sourceId": "436c26c7-06a0-11f0-a1c3-16fbeb8dbbd7",
+          "name": "Filé de tilapia à parmegiana",
+          "description": "Filé de tilapia temperado, empanado, coberto com delicioso molho de tomates, mussarela, acompanhado de arroz, salada e batata frita.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/0195bac6-aeac-76a8-84d0-a73222ae64b4.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Executivos",
+      "items": [
+        {
+          "sourceId": "2d2f3d7f-e9ff-11ed-a220-16fbeb8dbbd7",
+          "name": "Bife à cavalo",
+          "description": "Delicioso bife bovino (aprox.150g) Contrafilé, coberto por um ovo perfeito. Arroz, feijão, fritas e salada",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/e56a57f7-e28f-4010-bdab-9518581cc704.png",
+          "options": []
+        },
+        {
+          "sourceId": "1ae99a9e-e9ff-11ed-a220-16fbeb8dbbd7",
+          "name": "Bife acebolado",
+          "description": "Delicioso bife de contrafilé (aprox.150g), coberto por cebolas caramelizadas. Arroz, feijão, fritas e salada.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/85d3dd02-3402-4829-8c78-ae53ed139c12.png",
+          "options": []
+        },
+        {
+          "sourceId": "a84e9f84-e9ff-11ed-a220-16fbeb8dbbd7",
+          "name": "Filé mignon à moda da casa",
+          "description": "Irresistível bife de filé (aprox.130g) coberto por um ovo frito, mozzarella. Arroz, fritas, feijão e salada.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/ab1e5b17-84ee-407b-b82e-173bcdc7476b.png",
+          "options": []
+        },
+        {
+          "sourceId": "22ca942b-ea00-11ed-a220-16fbeb8dbbd7",
+          "name": "Frango ao molho 4 queijos",
+          "description": "Delicioso filé de frango (aprox. 150g) empanado e coberto por molho 4 queijos. arroz, fritas e salada",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/99df017d-19ef-4fcb-848d-227424a22454.png",
+          "options": []
+        },
+        {
+          "sourceId": "59aebffb-e9ff-11ed-a220-16fbeb8dbbd7",
+          "name": "Frango grelhado",
+          "description": "Generosa porção de filé de frango (aprox.150g) arroz, feijão, fritas e salada",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Estrogonofes",
+      "items": [
+        {
+          "sourceId": "913449c5-ea8e-11ed-a220-16fbeb8dbbd7",
+          "name": "Estrogonofe de Filé",
+          "description": "100g de filé mignon em cubos, alho, cebola, champignon, ketchup, mostarda, conhaque e mozzarella.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/4f4c372b-369f-4bcc-befd-b460a30b2d4f.png",
+          "options": []
+        },
+        {
+          "sourceId": "a5a395a9-ea8e-11ed-a220-16fbeb8dbbd7",
+          "name": "Estrogonofe de Frango",
+          "description": "100g de filé de frango em cubos, alho, cebola, champignon, ketchup, mostarda, conhaque e mozzarella.",
+          "priceCents": 3490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/955e356c-6f29-4f2d-87f6-bcf489b164f2.png",
+          "options": []
+        },
+        {
+          "sourceId": "b5091d37-ea8e-11ed-a220-16fbeb8dbbd7",
+          "name": "Estrogonofe de Camarão",
+          "description": "100g de camarão, alho, cebola, champignon, ketchup, mostarda, conhaque e mozzarella.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/df7b4225-e824-4d8b-a174-ebfb051c8ef4.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Parmegianas",
+      "items": [
+        {
+          "sourceId": "1ec7328c-e9fd-11ed-a220-16fbeb8dbbd7",
+          "name": "Frango - Serve 1 Pessoas",
+          "description": "Filé de frango empanado (aprox.130g) no capricho, coberto por mussarela e molho parmegiana caseiro, acompanhado de arroz, alface, tomate em rodelas, molho caseiro e batata fritas",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/3512dd0a-b669-4b52-8d16-3e41ed2d83d8.png",
+          "options": []
+        },
+        {
+          "sourceId": "110d3087-ea8f-11ed-a220-16fbeb8dbbd7",
+          "name": "Frango a parmegiana - Serve 2 Pessoas",
+          "description": "02 porções generosas de filé de frango empanado (aprox. 260g) no capricho, coberto por mussarela e molho parmegiana caseiro, acompanhado de arroz, alface, tomate em rodelas, molho caseiro e batata fritas",
+          "priceCents": 7590,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/c99c71cd-b4cf-4276-8d52-b052617b9b68.png",
+          "options": []
+        },
+        {
+          "sourceId": "49c8af1a-ea8f-11ed-a220-16fbeb8dbbd7",
+          "name": "Filé Mignon a parmegiana - Serve 2 Pessoas",
+          "description": "02 porções generosas de filés mignon empanado (aprox. 260g) no capricho, coberto por mussarela e molho parmegiana caseiro, acompanhado de arroz, alface, tomate em rodelas, molho caseiro e batata fritas",
+          "priceCents": 9990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/613126a5-3e6e-4a23-b8d9-7de1ae0b90c2.png",
+          "options": []
+        },
+        {
+          "sourceId": "b52cd9c0-ea8f-11ed-a220-16fbeb8dbbd7",
+          "name": "Filé Mignon a parmegiana - Serve 1 Pessoa",
+          "description": "Bife de filé mignon empanado (aprox. 130g) no capricho, coberto por mussarela e molho parmegiana caseiro, acompanhado de arroz, alface, tomate em rodelas, molho caseiro e batata fritas",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/fc788f40-495a-41c5-b548-c6a0606a6443.png",
+          "options": []
+        },
+        {
+          "sourceId": "aac96bd1-9e7a-11ee-a18a-16fbeb8dbbd7",
+          "name": "Frango - Serve 1 pessoa (Talharim)",
+          "description": "Filé de frango empanado (apróx. 130gr), coberto com mussarela e molho parmegiana caseiro, pra ficar perfeito macarrão talharim ao azeite e alho finalizado com salsa desidratada",
+          "priceCents": 3990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/31999bb3-73c2-491c-b3c9-cb30ada9483c.png",
+          "options": []
+        },
+        {
+          "sourceId": "465e4786-9e7b-11ee-a18a-16fbeb8dbbd7",
+          "name": "Filé mignon a parmegiana - Serve 1 Pessoa (Talharim)",
+          "description": "Filé mignon empanado (apróx. 130gr), coberto com mussarela e molho parmegiana caseiro, pra ficar perfeito macarrão talharim ao azeite e alho finalizado com salsa desidratada",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/7408ffdc-94d4-43a8-bf21-3b728179902a.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Saladas",
+      "items": [
+        {
+          "sourceId": "697035e0-ea90-11ed-a220-16fbeb8dbbd7",
+          "name": "Caeser com Filé",
+          "description": "Salada fresquinha de alface, tomate,queijo parmesão, croutons, molho especial. 150g de file mignon grelhado.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "8e08a97b-ea90-11ed-a220-16fbeb8dbbd7",
+          "name": "Caeser com Frango grelhado",
+          "description": "Salada fresquinha de alface, tomate, queijo parmesão, croutons, molho especial. 150g de frango grelhado.",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/f1ce6ecd-2318-47dd-aaf1-55c5589795c9.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Happy Hour",
+      "items": [
+        {
+          "sourceId": "0dc5794c-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Dupla dinâmica 600g",
+          "description": "Porção deliciosa de filé de frango(400g) cortados e temperados no capricho, mais (200g) de fritas crocantes.",
+          "priceCents": 5890,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/52957dbf-6240-4b93-be22-278c1ffadd01.png",
+          "options": []
+        },
+        {
+          "sourceId": "2aae40ee-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Fritas crocantes 500g",
+          "description": "Deliciosa porção de fritas feita no capricho.",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/5e41999c-d5f7-4348-b702-a8ab74492a8b.png",
+          "options": []
+        },
+        {
+          "sourceId": "4a6ec280-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Melhor de três 600g",
+          "description": "Para todos os gostos, fritas crocantes, calabresa e deliciosos cubos de filé mignon acebolado.",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/b49fa02c-9222-4d41-bc35-7d4237c606d1.png",
+          "options": []
+        },
+        {
+          "sourceId": "66ee87c6-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Fritas especial 500g",
+          "description": "Super porção de fritas crocantes, cheddar e bacon.",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/7657d734-5f0d-4f3b-8f0f-7b5fc9a89c56.png",
+          "options": []
+        },
+        {
+          "sourceId": "7bfee26e-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Tiras de carne com queijo e fritas",
+          "description": "Deliciosa porção de carne nobre (aprox.500g) temperada no capricho, acebolado com fritas.",
+          "priceCents": 7590,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/01998850-e2da-732b-a5fc-444882d1b458.png",
+          "options": []
+        },
+        {
+          "sourceId": "a80a4396-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Isca de frango C/bacon e cheddar",
+          "description": "Frango empanado com farinha panko, crocante e dourado, servido com molho cremoso de cheddar e bacon defumado, criando uma combinação perfeita de textura e sabor e 200 gramas de fritas crocante",
+          "priceCents": 6490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "e7f84c26-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Porçao de file frango 800g",
+          "description": "Generosa porçao de file de frango grelhado, bem temperado com alho, limao, páprica e ervas, finalizado com parmesao. uma porçao generosa, suculenta e cheio de sabor",
+          "priceCents": 6290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "fab68be3-ea91-11ed-a220-16fbeb8dbbd7",
+          "name": "Fritas Crocantes 250 gr",
+          "description": "Simplesmente uma delícia de fritas",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/b0f71b58-78ea-4135-86d9-905d25f17806.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pescados",
+      "items": [
+        {
+          "sourceId": "470822b6-ea92-11ed-a220-16fbeb8dbbd7",
+          "name": "Isca de Tilápia",
+          "description": "Porção especial de filé de tilápia (aprox.400g) temperada no capricho, cebolinha e pimenta biquinho. Acompanha delicioso molho tártaro.",
+          "priceCents": 6990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/2234af26-9c08-4fb3-9a2e-1f33728f7ea5.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "680729d9-ea95-11ed-a220-16fbeb8dbbd7",
+          "name": "Água Mineral",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "7f7a04f5-ea95-11ed-a220-16fbeb8dbbd7",
+          "name": "Suco Del Valle 360ml",
+          "description": "",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "938faed9-ea95-11ed-a220-16fbeb8dbbd7",
+          "name": "Suco Del Valle 450ml",
+          "description": "",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "c4499591-ea95-11ed-a220-16fbeb8dbbd7",
+          "name": "Refrigerante Lata",
+          "description": "350ml",
+          "priceCents": 1090,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "d0c29cff-ea95-11ed-a220-16fbeb8dbbd7",
+          "name": "Refrigerante 500ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "e2f3dd48-ea95-11ed-a220-16fbeb8dbbd7",
+          "name": "Copo Especial",
+          "description": "Limão e gelo",
+          "priceCents": 200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "044ff3da-ea96-11ed-a220-16fbeb8dbbd7",
+          "name": "Suco Natural",
+          "description": "500ml",
+          "priceCents": 1290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "eee90604-ea97-11ed-a220-16fbeb8dbbd7",
+          "name": "Refrigerante 1,5L",
+          "description": "",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1a33c212-ea98-11ed-a220-16fbeb8dbbd7",
+          "name": "H2oh",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas Alcoólicas",
+      "items": [
+        {
+          "sourceId": "21aed4fc-ea97-11ed-a220-16fbeb8dbbd7",
+          "name": "Cerveja long neck",
+          "description": "",
+          "priceCents": 1490,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Compartilhar é mais gostoso",
+      "items": [
+        {
+          "sourceId": "f4a32849-b287-11ef-9ef0-16fbeb8dbbd7",
+          "name": "Parmegiana de frango família",
+          "description": "Uma versão grande e generosa do prato, com carnes empanadas, molho de tomate e queijo derretido. ideal para compartilhar. serve ate 4 pessoas",
+          "priceCents": 13290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "7143bf0c-b288-11ef-9ef0-16fbeb8dbbd7",
+          "name": "Parmegiana de filé mignon família",
+          "description": "Uma versão grande e generosa do prato, com carnes empanadas, molho de tomate e queijo derretido. ideal para compartilhar. serve ate 4 pessoas.",
+          "priceCents": 15990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Massas Especiais da Casa",
+      "items": [
+        {
+          "sourceId": "0ad81d29-9b30-11f0-a441-16fbeb8dbbd7",
+          "name": "Talharim cremoso",
+          "description": "Deliciosos cubos de filé mignon, bacon, cenoura, 200g de talharim, molho bechamel, queijo mozarela, provolone e cebolinha",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/01998858-52ac-756c-a59c-47203708ca26.png",
+          "options": []
+        },
+        {
+          "sourceId": "7506a4e7-9b30-11f0-a441-16fbeb8dbbd7",
+          "name": "Talharim com camarão",
+          "description": "Irresistíveis porção de camarão (aprox. 100g) temperado no capricho com bacon, alho, páprica, cebola, brócolis 200g de talharim, limão, manjericão finalizado com molho bechamel, parmesão e cebolinha",
+          "priceCents": 6190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b8de5089-9b30-11f0-a441-16fbeb8dbbd7",
+          "name": "Carbonara Especial",
+          "description": "200g de massa espaguete, bacon, camarão, ovos, queijo parmesão, pimenta do reino, sal e cebolinha",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://wls-lets-eat.s3.amazonaws.com/item/0199885c-e5e3-7521-8698-f6f513f49407.png",
+          "options": []
+        },
+        {
+          "sourceId": "02db987b-9b31-11f0-a441-16fbeb8dbbd7",
+          "name": "Risoto de file mignon",
+          "description": "200g de file mignon salteado com cebola e paprica, combinado a 200g de arroz arboreo cremoso, finalizado com manteiga, parmesao e creme de leite. um risoto cremoso, saboroso e envolvente, com file mignon suculetos e um toque especial de paprica.",
+          "priceCents": 6990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4705d60b-9b31-11f0-a441-16fbeb8dbbd7",
+          "name": "Tilápia com talharim ao quatro queijos",
+          "description": "Delicioso file de tilapia empanado na farinha panko, acompanhado de 200g de massa talharim ao molho quatro queijos, mozzarella, gorgonzola, provolone, parmesão e cebolinha",
+          "priceCents": 5290,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "816ec236-9b31-11f0-a441-16fbeb8dbbd7",
+          "name": "Risoto de camarao",
+          "description": "200g de camarao salteado com cebola e paprica, combinado a 200g de arroz arboreo cremoso, finalizado com manteiga, parmesao e creme de leite, um risoto cremoso, saboroso e envolvente, com camaroes suculentos e um toque especial de paprica.",
+          "priceCents": 6990,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "eb420d27-9b31-11f0-a441-16fbeb8dbbd7",
+          "name": "Camarão cremoso",
+          "description": "200g de massa espaguete, bacon, camarão, alho, pimenta calabresa, molho bechamel, provolone finalizado com parmesão e cebolinha",
+          "priceCents": 6190,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "sem preço": 2,
+    "escolha obrigatória não coletada": 7
+  },
+  "notes": [
+    "Itens com escolha obrigatória (acompanhamento, bebida do combo etc.) ficaram de fora: a plataforma só mostra as opções com a loja aberta."
+  ]
+}

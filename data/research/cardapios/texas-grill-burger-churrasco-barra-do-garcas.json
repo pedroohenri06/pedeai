@@ -2110,6 +2110,10 @@
     "\"Pizza meio metro\": \"Sabor MEIO METRO\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
     "\"Pizza 1 metro\": \"Sabor 1 METRO\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação."
   ],
+  "ops": {
+    "deliveryMin": 60,
+    "deliveryMax": 95
+  },
   "city": "Barra do Garças",
   "phones": [
     "(66) 9 9248-6623"

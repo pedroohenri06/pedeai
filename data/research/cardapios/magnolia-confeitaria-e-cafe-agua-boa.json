@@ -1212,5 +1212,9 @@
     }
   ],
   "skipped": {},
-  "notes": []
+  "notes": [],
+  "ops": {
+    "deliveryMin": 25,
+    "deliveryMax": 35
+  }
 }

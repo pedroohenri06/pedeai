@@ -2,7 +2,7 @@
    sacola e envio pelo WhatsApp. Isolada do restante do site: expõe apenas window.PedeAiStore. */
 (function () {
   'use strict';
-  var C = window.PedeAiCore, esc = C.escapeHtml;
+  var C = window.PedeAiCore, S = window.PedeAiSchedule, esc = C.escapeHtml;
   var $ = function (id) { return document.getElementById(id); };
   var page = $('storePage'), drawer = $('cartDrawer');
   var motion = matchMedia('(prefers-reduced-motion: reduce)');
@@ -91,10 +91,30 @@
     return a.length ? '<div class="sp-actions">' + a.join('') + '</div>' : '';
   }
 
+  /* Horário: com grade confiável, status calculado agora + grade da semana (hoje em destaque); sem grade, o texto. */
+  function hoursHtml(s) {
+    var st = S.status(s.schedule), rows = S.weekRows(s.schedule);
+    if (!rows.length) return s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário' + (s.hoursEstimated ? ' <small class="sp-estimate">a confirmar</small>' : '') + '</strong><span>' + esc(s.hours) + '</span></div></li>' : '';
+    var today = S.today(s.schedule.tz);
+    return '<li>' + icon(I.clock) + '<div><strong>Horário <span class="sp-open is-' + st.state + '" data-sp-status><i aria-hidden="true"></i>' + esc(st.label || '') + '</span></strong>' +
+      (st.detail ? '<span data-sp-detail>' + esc(st.detail) + '</span>' : '') +
+      '<details class="sp-week"><summary>Horários da semana</summary><ul>' + rows.map(function (r) {
+        return '<li' + (r.key === today ? ' class="is-today"' : '') + '><span>' + esc(r.day) + '</span><span>' + esc(r.text) + '</span></li>';
+      }).join('') + '</ul></details></div></li>';
+  }
+
+  /* Entrega: previsão total e pedido mínimo, só quando a loja publicou esses dados. */
+  function deliveryHtml(s) {
+    var eta = S.deliveryEstimate(s), parts = [];
+    if (eta) parts.push('Previsão de ' + eta.label);
+    if (s.minOrderCents) parts.push('Pedido mínimo ' + C.formatBRL(s.minOrderCents));
+    return parts.length ? '<li>' + icon(I.bag) + '<div><strong>Entrega</strong><span>' + esc(parts.join(' · ')) + '</span></div></li>' : '';
+  }
+
   function infoHtml(s) {
     return '<section class="sp-card sp-info" aria-label="Informações do estabelecimento"><ul class="sp-facts">' +
       '<li>' + icon(I.pin) + '<div><strong>' + (s.address ? esc(s.address) : 'Endereço a confirmar') + '</strong><span>' + esc(s.city) + ', MT</span><a href="' + esc(mapsUrl(s)) + '" target="_blank" rel="noopener">Ver no mapa</a></div></li>' +
-      (s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário' + (s.hoursEstimated ? ' <small class="sp-estimate">a confirmar</small>' : '') + '</strong><span>' + esc(s.hours) + '</span></div></li>' : '') +
+      hoursHtml(s) + deliveryHtml(s) +
       '</ul>' + actionsHtml(s) +
       (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação. Os dados vêm de fontes públicas e ainda não foram confirmados pelo estabelecimento.</span></p>' : '') +
       '</section>';
@@ -703,6 +723,16 @@
     if (drawer.classList.contains('open')) { closeCart(); return true; }
     return false;
   }
+
+  /* Página aberta: o status do horário acompanha o relógio (abre/fecha/pausa) sem refazer a página. */
+  setInterval(function () {
+    var s = state.store, el = page.classList.contains('open') && !document.hidden && page.querySelector('[data-sp-status]');
+    if (!el || !s) return;
+    var st = S.status(s.schedule), detail = page.querySelector('[data-sp-detail]');
+    el.className = 'sp-open is-' + st.state;
+    el.lastChild.textContent = st.label || '';
+    if (detail) detail.textContent = st.detail || '';
+  }, 60000);
 
   window.PedeAiStore = {
     open: open, close: close, handleEscape: handleEscape,

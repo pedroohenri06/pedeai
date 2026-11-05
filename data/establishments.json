@@ -2760,6 +2760,11 @@
         "soft": "#f7e6e4",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTM4MTA="
       }
     },
     {
@@ -4969,7 +4974,12 @@
         "ink": "#1b1214",
         "surface": "#a88c6a"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 35,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDMyMjk="
+      }
     },
     {
       "id": "britzke-magia-vila-rica",
@@ -5094,6 +5104,11 @@
         "soft": "#f1e4e3",
         "ink": "#ffffff",
         "surface": "#8e1b12"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 35,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTI3NDI5"
       }
     },
     {
@@ -5581,6 +5596,11 @@
         "soft": "#fef8e9",
         "ink": "#1b1214",
         "surface": "#080a0b"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTU5NTM="
       }
     },
     {
@@ -7361,6 +7381,11 @@
         "soft": "#e3e7fd",
         "ink": "#ffffff",
         "surface": "#1537eb"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 30,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODcxNg=="
       }
     },
     {
@@ -7680,6 +7705,11 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTQzODk="
       }
     },
     {
@@ -9377,6 +9407,11 @@
         "soft": "#e6e3e3",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTA3Mzc="
       }
     },
     {
@@ -9743,6 +9778,11 @@
         "soft": "#fcf1f3",
         "ink": "#1b1214",
         "surface": "#fefaf2"
+      },
+      "deliveryTime": {
+        "minMinutes": 15,
+        "maxMinutes": 25,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTI1NDIx"
       }
     },
     {
@@ -10654,6 +10694,11 @@
         "soft": "#fdf7e8",
         "ink": "#1b1214",
         "surface": "#eebe41"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 30,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTM0OTk="
       }
     },
     {
@@ -14158,6 +14203,11 @@
         "soft": "#fef8e8",
         "ink": "#1b1214",
         "surface": "#f5c343"
+      },
+      "deliveryTime": {
+        "minMinutes": 50,
+        "maxMinutes": 90,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NzU5MDU="
       }
     },
     {
@@ -17525,6 +17575,11 @@
         "soft": "#edfaf7",
         "ink": "#1b1214",
         "surface": "#6dd5bf"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 35,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTE5MTI1"
       }
     },
     {
@@ -20740,6 +20795,11 @@
         "soft": "#efe6e6",
         "ink": "#ffffff",
         "surface": "#3b3c39"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 30,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTQ0MDA="
       }
     },
     {
@@ -24193,6 +24253,11 @@
         "soft": "#e3e3eb",
         "ink": "#ffffff",
         "surface": "#171356"
+      },
+      "deliveryTime": {
+        "minMinutes": 15,
+        "maxMinutes": 25,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTA5NjM="
       }
     },
     {
@@ -25501,7 +25566,12 @@
       "confidence": "media",
       "verifiedAt": "2026-11-01",
       "notes": "Aparece em três diretórios. O celular vem de diretório e não foi confirmado como WhatsApp.",
-      "rank": 4
+      "rank": 4,
+      "deliveryTime": {
+        "minMinutes": 70,
+        "maxMinutes": 80,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDcxMTQ="
+      }
     },
     {
       "id": "panificadora-e-lanchonete-ki-delicia-sao-felix-do-araguaia",
@@ -26238,7 +26308,13 @@
         "soft": "#fdede3",
         "ink": "#ffffff",
         "surface": "#ffffff"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/querencia/braseiro-espetinhos"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "campero-grill-querencia",
@@ -27354,6 +27430,11 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/querencia/campero-grill"
       }
     },
     {
@@ -29894,6 +29975,11 @@
         "soft": "#fceaf0",
         "ink": "#ffffff",
         "surface": "#e64e83"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 90,
+        "source": "https://pedido.anota.ai/loja/casa-da-pizza-querencia"
       }
     },
     {
@@ -31150,7 +31236,13 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#fef8fc"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/querencia/casa-do-sushi"
+      },
+      "minOrderCents": 2000
     },
     {
       "id": "chiquinho-sorvetes-querencia",
@@ -35501,6 +35593,11 @@
         "soft": "#f9f5ea",
         "ink": "#1b1214",
         "surface": "#d1ab52"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/querencia/chiquinho-sorvetes"
       }
     },
     {
@@ -37385,7 +37482,13 @@
         "soft": "#ffe1e1",
         "ink": "#ffffff",
         "surface": "#ffffff"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/querencia/delicias-do-para"
+      },
+      "minOrderCents": 1500
     },
     {
       "id": "dolce-affetto-confeitaria-querencia",
@@ -41286,7 +41389,13 @@
         "soft": "#eee6ef",
         "ink": "#ffffff",
         "surface": "#d5c0c7"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/querencia/geladinhos-prisci"
+      },
+      "minOrderCents": 800
     },
     {
       "id": "gg-burguer-querencia",
@@ -42591,7 +42700,13 @@
         "soft": "#fef7ea",
         "ink": "#1b1214",
         "surface": "#275332"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/querencia/hot-dog-family"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "janaina-lorrainy-doces-querencia",
@@ -44778,6 +44893,11 @@
         "soft": "#fefaf8",
         "ink": "#1b1214",
         "surface": "#fad9c4"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/querencia/lugano-querencia"
       }
     },
     {
@@ -46157,6 +46277,11 @@
         "soft": "#fce2e1",
         "ink": "#ffffff",
         "surface": "#e60f03"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/querencia/mc-lena"
       }
     },
     {
@@ -54488,6 +54613,11 @@
         "soft": "#faf7f3",
         "ink": "#1b1214",
         "surface": "#f4f1f4"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/querencia/sabor-top-25"
       }
     },
     {
@@ -55370,7 +55500,13 @@
         "soft": "#e9e6e4",
         "ink": "#ffffff",
         "surface": "#110f0d"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 60,
+        "maxMinutes": 90,
+        "source": "https://aiqfome.com/MT/querencia/santo-espeto"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "smash-burger-querencia",
@@ -56212,7 +56348,13 @@
         "soft": "#fdf6ea",
         "ink": "#1b1214",
         "surface": "#000000"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/querencia/smash-burger"
+      },
+      "minOrderCents": 1500
     },
     {
       "id": "takaki-sushi-querencia",
@@ -59194,6 +59336,11 @@
         "soft": "#efe1e1",
         "ink": "#ffffff",
         "surface": "#7a0604"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/querencia/tarantella-pizzaria"
       }
     },
     {
@@ -61160,6 +61307,11 @@
         "soft": "#f9f0e8",
         "ink": "#ffffff",
         "surface": "#f5efdd"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 50,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODQxNzM="
       }
     },
     {
@@ -67030,6 +67182,11 @@
         "soft": "#fcf2f4",
         "ink": "#1b1214",
         "surface": "#ea90a7"
+      },
+      "deliveryTime": {
+        "minMinutes": 60,
+        "maxMinutes": 63,
+        "source": "https://pedido.anota.ai/loja/casa-da-pizza-215"
       }
     },
     {
@@ -68247,6 +68404,11 @@
         "soft": "#f9f4ec",
         "ink": "#1b1214",
         "surface": "#5b3d27"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 60,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODM4MTc="
       }
     },
     {
@@ -71289,6 +71451,11 @@
         "soft": "#fceae5",
         "ink": "#ffffff",
         "surface": "#e85228"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTIyMjM3"
       }
     },
     {
@@ -72147,6 +72314,11 @@
         "soft": "#e9e4e8",
         "ink": "#ffffff",
         "surface": "#4e2149"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 35,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODk0OTc="
       }
     },
     {
@@ -72714,6 +72886,11 @@
         "soft": "#faf8f5",
         "ink": "#1b1214",
         "surface": "#0c0d16"
+      },
+      "deliveryTime": {
+        "minMinutes": 15,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTI0NDE1"
       }
     },
     {
@@ -101864,7 +102041,13 @@
         "soft": "#f0feed",
         "ink": "#1b1214",
         "surface": "#7ef569"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/atlas-sorveteria-e-acai"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "bocao-lanches-ab-agua-boa",
@@ -108030,7 +108213,12 @@
         "ink": "#ffffff",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTExNDg3"
+      }
     },
     {
       "id": "burguerzia-agua-boa",
@@ -109002,7 +109190,12 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTgzMg=="
+      }
     },
     {
       "id": "caipirao-restaurante-agua-boa",
@@ -109276,7 +109469,13 @@
         "soft": "#fdf5e8",
         "ink": "#1b1214",
         "surface": "#e9e8ed"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/caipirao-restaurante-e-churrascaria"
+      },
+      "minOrderCents": 1500
     },
     {
       "id": "cantina-das-massas-agua-boa",
@@ -109815,6 +110014,11 @@
         "soft": "#fef9eb",
         "ink": "#1b1214",
         "surface": "#ffffff"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 55,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/OTg2MzU="
       }
     },
     {
@@ -113329,7 +113533,13 @@
         "soft": "#f9f4ea",
         "ink": "#1b1214",
         "surface": "#cfa750"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/chiquinho-sorvetes"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "creme-mania-sorvetes-agua-boa",
@@ -115035,6 +115245,11 @@
         "soft": "#e3e3eb",
         "ink": "#ffffff",
         "surface": "#171356"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 50,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTY0Nw=="
       }
     },
     {
@@ -116878,7 +117093,13 @@
         "soft": "#fae9e8",
         "ink": "#ffffff",
         "surface": "#d64541"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/skimo-sorvetes"
+      },
+      "minOrderCents": 1500
     },
     {
       "id": "espetinho-do-jorge-agua-boa",
@@ -119873,6 +120094,11 @@
         "soft": "#fbf5ea",
         "ink": "#1b1214",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 60,
+        "maxMinutes": 70,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/OTMyMDk="
       }
     },
     {
@@ -121374,6 +121600,11 @@
         "soft": "#ece2eb",
         "ink": "#ffffff",
         "surface": "#5e105a"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/OTE1NjU="
       }
     },
     {
@@ -124568,6 +124799,11 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#3c5c3f"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 35,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDIzNzY="
       }
     },
     {
@@ -125567,7 +125803,13 @@
         "soft": "#fbf0e7",
         "ink": "#1b1214",
         "surface": "#e08234"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/mordidela-food"
+      },
+      "minOrderCents": 1500
     },
     {
       "id": "ms-espeto-burguer-grill-agua-boa",
@@ -130422,7 +130664,13 @@
         "soft": "#f9f7ec",
         "ink": "#1b1214",
         "surface": "#000000"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/agua-boa/okane-sushi"
+      },
+      "minOrderCents": 2000
     },
     {
       "id": "pizzaria-bendita-agua-boa",
@@ -132051,6 +132299,11 @@
         "soft": "#f0e6e3",
         "ink": "#ffffff",
         "surface": "#813019"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NTQ3NDE="
       }
     },
     {
@@ -160468,7 +160721,13 @@
         "soft": "#fae8ea",
         "ink": "#ffffff",
         "surface": "#d5414e"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 60,
+        "maxMinutes": 90,
+        "source": "https://aiqfome.com/MT/agua-boa/pizzaria-fornalha"
+      },
+      "minOrderCents": 2000
     },
     {
       "id": "pub-goiano-agua-boa",
@@ -161313,6 +161572,11 @@
         "soft": "#ebe7e5",
         "ink": "#ffffff",
         "surface": "#a4896c"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/pub-goiano"
       }
     },
     {
@@ -161674,7 +161938,13 @@
         "ink": "#1b1214",
         "surface": "#050301"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/rei-burguer"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "restaurante-alecrim-agua-boa",
@@ -162062,7 +162332,13 @@
         "soft": "#e7e5e3",
         "ink": "#ffffff",
         "surface": "#2c1808"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/tenda-restaurante"
+      },
+      "minOrderCents": 1500
     },
     {
       "id": "the-best-acai-agua-boa-agua-boa",
@@ -165370,7 +165646,13 @@
         "soft": "#fcf4e8",
         "ink": "#1b1214",
         "surface": "#e5a041"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/agua-boa/the-best-acai-agua-boa"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "tia-do-lanche-agua-boa",
@@ -167087,6 +167369,11 @@
         "soft": "#f9e7e6",
         "ink": "#ffffff",
         "surface": "#fefcfd"
+      },
+      "deliveryTime": {
+        "minMinutes": 55,
+        "maxMinutes": 65,
+        "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NzU4NjE="
       }
     },
     {
@@ -170857,7 +171144,13 @@
         "ink": "#1b1214",
         "surface": "#f8df6f"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/nova-xavantina/1-opcao-lanches"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "acai-foods-crepe-mania-nova-xavantina",
@@ -172873,7 +173166,13 @@
         "soft": "#ebe3ed",
         "ink": "#ffffff",
         "surface": "#ffffff"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "source": "https://aiqfome.com/MT/nova-xavantina/acai-foods-e-crepe-mania"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "acai-raiz-do-para-nova-xavantina",
@@ -184694,7 +184993,13 @@
         "soft": "#fdf5e6",
         "ink": "#1b1214",
         "surface": "#3b0000"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 60,
+        "maxMinutes": 90,
+        "source": "https://aiqfome.com/MT/nova-xavantina/casa-massa"
+      },
+      "minOrderCents": 1500
     },
     {
       "id": "celeiro-panificadora-e-confeitaria-nova-xavantina",
@@ -188044,7 +188349,13 @@
         "soft": "#f1e4e3",
         "ink": "#ffffff",
         "surface": "#ffffff"
-      }
+      },
+      "deliveryTime": {
+        "minMinutes": 60,
+        "maxMinutes": 90,
+        "source": "https://aiqfome.com/MT/nova-xavantina/hatsuki-sushi-lounge"
+      },
+      "minOrderCents": 1000
     },
     {
       "id": "kanoa-beach-nova-xavantina",
@@ -190664,6 +190975,11 @@
         "soft": "#fbf4ec",
         "ink": "#1b1214",
         "surface": "#fefefe"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "source": "https://aiqfome.com/MT/nova-xavantina/magnifico-burguer"
       }
     },
     {
@@ -325516,6 +325832,11 @@
         "soft": "#f4e5e4",
         "ink": "#ffffff",
         "surface": "#fefefe"
+      },
+      "deliveryTime": {
+        "minMinutes": 60,
+        "maxMinutes": 95,
+        "source": "https://pedido.anota.ai/loja/texasgrillchurrascaria"
       }
     },
     {

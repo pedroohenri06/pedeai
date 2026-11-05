@@ -825,5 +825,9 @@
     "sem preço": 2,
     "indisponível": 7
   },
-  "notes": []
+  "notes": [],
+  "ops": {
+    "deliveryMin": 40,
+    "deliveryMax": 60
+  }
 }

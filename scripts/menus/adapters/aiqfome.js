@@ -75,5 +75,6 @@ module.exports = function parse({ html, meta }) {
     return { name: cat.nome, items };
   });
   if (multiFlavor) notes.push('Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação.');
-  return L.snapshot(meta, sections, { hours: hoursOf(store), skipped, notes: Array.from(new Set(notes)) });
+  const eta = /^(\d+)\s*-\s*(\d+)$/.exec(String(store.tempo_entrega || '').trim());
+  return L.snapshot(meta, sections, { hours: hoursOf(store), ops: L.ops(eta && eta[1], eta && eta[2], store.pedido_minimo), skipped, notes: Array.from(new Set(notes)) });
 };

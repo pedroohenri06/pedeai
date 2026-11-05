@@ -7,6 +7,7 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const core = require('../js/core.js');
+const Schedule = require('../js/schedule.js');
 const { validateEstablishments } = require('./validate.js');
 
 const root = path.join(__dirname, '..');
@@ -52,6 +53,9 @@ function renderJs(db, menus) {
   menus = menus || renderMenus(db);
   const establishments = db.establishments.map(({ notes, ...s }) => {
     const out = versionAssets(s);
+    // Grade de funcionamento já estruturada (derivada do texto de horário + exceções/pausas): o navegador só calcula o status.
+    const schedule = Schedule.fromStore(s);
+    if (schedule) out.schedule = schedule; else delete out.schedule;
     const file = menus[s.id + '.json'];
     if (file) {
       out.menuCount = s.menu.length;

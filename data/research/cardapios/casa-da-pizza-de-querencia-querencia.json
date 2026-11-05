@@ -1943,6 +1943,10 @@
     "\"Pizza gg\": \"Sabor GG\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
     "\"Pizza metro\": \"Sabor METRO\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação."
   ],
+  "ops": {
+    "deliveryMin": 30,
+    "deliveryMax": 90
+  },
   "city": "Querência",
   "phones": [
     "66999999956"

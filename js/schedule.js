@@ -93,7 +93,7 @@
 
   /* Leitura tolerante para horário incompleto: aproveita o que o texto diz (dias, faixas, "a partir das 18h",
      "até 23h30", "fechado às segundas", "almoço") e completa o que falta com `fb` = { days: [...], start: 'HH:MM',
-     end: 'HH:MM' } (o horário típico da categoria). Usado só para montar a grade estimada ("a confirmar"). */
+     end: 'HH:MM' } (o horário típico da categoria). Usado só para montar a grade estimada. */
   var FROM = /(?:a partir d[ao]s?|abre(?: as)?|desde|das)\s*(\d{1,2})(?:[:h](\d{2}))?\s*h?/;
   var UNTIL = /ate(?: as)?\s*(\d{1,2})(?:[:h](\d{2}))?\s*h?/;
   function looseDays(seg) {
@@ -232,7 +232,7 @@
     if (!week) return null;
     var out = { tz: explicit.tz || DEFAULT_TZ, week: week };
     ['exceptions', 'closedUntil', 'pausedUntil'].forEach(function (k) { if (explicit[k]) out[k] = explicit[k]; });
-    if (week === explicit.week && explicit.estimated) out.estimated = true;   // grade estimada: a página mostra "a confirmar"
+    if (week === explicit.week && explicit.estimated) out.estimated = true;   // grade estimada (horário típico do segmento)
     return isValid(out) ? out : null;
   }
 

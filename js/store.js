@@ -94,10 +94,10 @@
   /* Horário: com grade confiável, status calculado agora + grade da semana (hoje em destaque); sem grade, o texto. */
   function hoursHtml(s) {
     var st = S.status(s.schedule), rows = S.weekRows(s.schedule);
-    if (!rows.length) return s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário' + (s.hoursEstimated ? ' <small class="sp-estimate">a confirmar</small>' : '') + '</strong><span>' + esc(s.hours) + '</span></div></li>' : '';
+    if (!rows.length) return s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário</strong><span>' + esc(s.hours) + '</span></div></li>' : '';
     var today = S.today(s.schedule.tz);
     return '<li>' + icon(I.clock) + '<div><strong>Horário <span class="sp-open is-' + st.state + '" data-sp-status><i aria-hidden="true"></i>' + esc(st.label || '') + '</span>' +
-      (s.schedule.estimated ? ' <small class="sp-estimate">a confirmar</small>' : '') + '</strong>' +
+      '</strong>' +
       (st.detail ? '<span data-sp-detail>' + esc(st.detail) + '</span>' : '') +
       '<details class="sp-week"><summary>Horários da semana</summary><ul>' + rows.map(function (r) {
         return '<li' + (r.key === today ? ' class="is-today"' : '') + '><span>' + esc(r.day) + '</span><span>' + esc(r.text) + '</span></li>';
@@ -107,14 +107,14 @@
   /* Entrega: previsão total e pedido mínimo, só quando a loja publicou esses dados. */
   function deliveryHtml(s) {
     var eta = S.deliveryEstimate(s), parts = [];
-    if (eta) parts.push('Previsão de ' + eta.label + (s.deliveryTime.estimated ? ' (a confirmar)' : ''));
+    if (eta) parts.push('Previsão de ' + eta.label);
     if (s.minOrderCents) parts.push('Pedido mínimo ' + C.formatBRL(s.minOrderCents));
     return parts.length ? '<li>' + icon(I.bag) + '<div><strong>Entrega</strong><span>' + esc(parts.join(' · ')) + '</span></div></li>' : '';
   }
 
   function infoHtml(s) {
     return '<section class="sp-card sp-info" aria-label="Informações do estabelecimento"><ul class="sp-facts">' +
-      '<li>' + icon(I.pin) + '<div><strong>' + (s.address ? esc(s.address) : 'Endereço a confirmar') + '</strong><span>' + esc(s.city) + ', MT</span><a href="' + esc(mapsUrl(s)) + '" target="_blank" rel="noopener">Ver no mapa</a></div></li>' +
+      '<li>' + icon(I.pin) + '<div><strong>' + esc(s.address || s.city + ', MT') + '</strong>' + (s.address ? '<span>' + esc(s.city) + ', MT</span>' : '') + '<a href="' + esc(mapsUrl(s)) + '" target="_blank" rel="noopener">Ver no mapa</a></div></li>' +
       hoursHtml(s) + deliveryHtml(s) +
       '</ul>' + actionsHtml(s) +
       (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação. Os dados vêm de fontes públicas e ainda não foram confirmados pelo estabelecimento.</span></p>' : '') +
@@ -682,7 +682,7 @@
     });
     lines.querySelectorAll('[data-cart-close]').forEach(function (b) { b.onclick = function () { closeCart(); }; });
     $('cartSubtotal').textContent = C.formatBRL(t.subtotal);
-    $('cartFee').textContent = state.mode === 'retirada' ? 'Grátis (retirada)' : t.feeKnown ? C.formatBRL(t.fee) : 'A confirmar';
+    $('cartFee').textContent = state.mode === 'retirada' ? 'Grátis (retirada)' : t.feeKnown ? C.formatBRL(t.fee) : 'A combinar';
     $('cartTotal').textContent = C.formatBRL(t.total);
     $('cartTotalLabel').textContent = t.feeKnown ? 'Total' : 'Total sem entrega';
     $('cartAddressField').hidden = state.mode === 'retirada';

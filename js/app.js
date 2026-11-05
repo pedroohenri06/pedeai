@@ -93,11 +93,13 @@
   function opsHtml(s, now) {
     var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), out = [];
     if (st.state !== 'unknown') out.push('<span class="store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i>' + esc(st.label) + '</span>');
-    if (st.state === 'open' || st.state === 'unknown') { if (eta) out.push('<span class="store-eta">' + esc(eta.label) + '</span>'); }
-    else if (st.short) out.push('<span class="store-next">' + esc(st.short) + '</span>');
+    if (eta) out.push('<span class="store-eta">' + esc(eta.label) + '</span>');
+    // Próxima abertura: cabe no card a partir do tablet; no celular fica na página da loja.
     if (!out.length && C.menuSize(s)) out.push('<span class="delivery-free">Cardápio</span>');
-    return out.join('<i class="dot"></i>');
+    var next = st.state !== 'open' && st.short ? '<span class="store-next"><i class="dot"></i>' + esc(st.short) + '</span>' : '';
+    return out.join('<i class="dot"></i>') + next;
   }
+
 
   /* Atualiza só a linha de status dos cards na tela (sem refazer a lista) — a cada minuto e ao voltar para a aba. */
   function refreshOps() {

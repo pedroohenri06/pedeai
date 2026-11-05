@@ -138,7 +138,7 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.match(await page.textContent('#cartBar'), /3.*R\$ 132,30/);
       await page.click('#cartBar');
       assert.equal(await page.textContent('#cartSubtotal'), 'R$ 132,30');
-      assert.equal(await page.textContent('#cartFee'), 'A confirmar');
+      assert.equal(await page.textContent('#cartFee'), 'A combinar');
       await page.click('#cartLines [data-key="refri"][data-delta="-1"]');
       assert.equal(await page.textContent('#cartSubtotal'), 'R$ 119,80');
       await page.keyboard.press('Escape');

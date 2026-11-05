@@ -1,0 +1,1387 @@
+{
+  "id": "toa-toa-sanduicheria-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/toa-toa-sanduicheria-jardim-vista-alegre-ll/4f6d968b-3f70-4655-90c5-08f18cc19484",
+  "capturedAt": "2026-11-05T01:11:38.877Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Sanduíches com hambúrguer",
+      "items": [
+        {
+          "sourceId": "6ff0148b-041d-435c-8213-6c0688e76d50",
+          "name": "Promoção X-tudo + Refri Lata",
+          "description": "X-tudo com Refri lata (Pepsi black, Guaraná ou Pepsi normal Pão, hambúrguer, mussarela, salsicha, ovo, presunto, bacon, salada, milho e batata",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202606181021_BAV2_i.jpg",
+          "options": [
+            {
+              "name": "Escolha sua bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepsi normal",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ace128c1-b0d5-4686-94bb-c6cafb5e2fb7",
+          "name": "Simples",
+          "description": "Pão, hambúrguer, mussarela, presunto, salada, milho e batata",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262131_UXH6_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2a6736d2-0749-4840-af81-f7e3c7e2e771",
+          "name": "Especial",
+          "description": "Pão, hambúrguer, mussarela, presunto, ovo, salada, milho e batata",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201912_WB31_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "62c4a285-4869-4ff8-a253-f62b8f29a01c",
+          "name": "Bacon Simples",
+          "description": "Pão, hambúrguer, mussarela, bacon, presunto, salada, milho e batata",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201913_62U4_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "672b9892-45df-4f17-a903-97860cd5cea2",
+          "name": "Bacon Especial",
+          "description": "Pão, hambúrguer, mussarela, bacon, presunto, ovo, salada, milho e batata",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201913_KD70_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2150940b-3357-4b87-ac11-ae8fd89388f6",
+          "name": "Rango simples",
+          "description": "Pão, hambúrguer, mussarela, salsicha, presunto, salada, milho e batata",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262127_JFT4_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "38740a1c-2ce0-4b32-92f4-a7800707b71e",
+          "name": "Rango Especial",
+          "description": "Pão, hambúrguer, mussarela, salsicha, ovo, presunto, salada, milho e batata",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201914_1G5P_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0893832f-5ab9-4494-bf69-c9b2925d9ca2",
+          "name": "X-Tudo",
+          "description": "Pão, hambúrguer, mussarela, salsicha, ovo, presunto, bacon, salada, milho e batata",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201919_DM32_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "767613e7-6e77-42ad-a765-81b940ec24db",
+          "name": "X-Tudo + Suco Laranja 300ml",
+          "description": "X-tudo com suco natural de laranja 300ml Pão, hambúrguer, mussarela, salsicha, ovo, presunto, bacon, salada, milho e batata",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202606181026_YX3B_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sanduiches com frango",
+      "items": [
+        {
+          "sourceId": "3e9dd182-c0ec-4473-a24b-c07e7d2dd950",
+          "name": "Promoção Frango Bacon Especial + suco de laranja ou Refri Lata",
+          "description": "Pão, hambúrguer, bacon, presunto, queijo, alface, tomate, batata e milho. (Acompanha um refri lata)",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202405101745_QX3T_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Escolha sua bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pepsi normal",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4810ebf0-7d9b-49b1-8cd5-14b13680616a",
+          "name": "Frango Simples",
+          "description": "Pão, frango, mussarela, presunto, salada, milho e batata",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262131_26SM_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "7a5443ba-5b9d-4402-9f5e-46afcfba07fc",
+          "name": "Frango Especial",
+          "description": "Pão, frango, mussarela, presunto, ovo, salada, milho e batata",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262131_PM34_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4b6dd1d7-d02e-4348-8aad-a0bec2c248d6",
+          "name": "Frango Bacon Simples",
+          "description": "Pão, frango, mussarela, bacon, presunto, salada, milho e batata",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201925_P7SY_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "45eba236-1e16-4d6b-a90d-86a71d33c25d",
+          "name": "Frango Bacon Especial",
+          "description": "Pão, frango, mussarela, bacon, presunto, ovo, salada, milho e batata",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201925_CF0L_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ed9595d6-0f4e-4bc4-8c9f-2b37cd64c832",
+          "name": "Frango Rango Simples",
+          "description": "Pão, frango, mussarela, salsicha, presunto, salada, milho e batata",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262129_K8O4_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "149ebcca-2ec8-44e2-96a5-8b91e8fc14e7",
+          "name": "Frango Rango Especial",
+          "description": "Pão, frango, mussarela, salsicha, presunto, salada, ovo, milho e batata",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262129_PH31_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4c8b3c11-936f-4c61-a96d-0ffc8bde5966",
+          "name": "Frango Tudo",
+          "description": "Pão, frango, mussarela, salsicha, ovo, presunto, bacon, salada, milho e batata",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262132_N57I_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanduiches com lombo",
+      "items": [
+        {
+          "sourceId": "c7972d90-90d9-4bb5-83e7-9b78d982f730",
+          "name": "Lombo simples",
+          "description": "Pão, lombo, mussarela, presunto, salada, milho e batata",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262132_4G7L_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "55872711-86b6-4b93-8058-1dee75c477f0",
+          "name": "Lombo especial",
+          "description": "Pão, lombo, mussarela, presunto, ovo, salada, milho e batata",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262132_8K23_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "688478e2-0b84-47ff-8537-0d8208f03fee",
+          "name": "Lombo bacon simples",
+          "description": "Pão, lombo, mussarela, bacon, presunto, salada, milho e batata",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262134_U70U_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "03f7b157-53b3-4b08-8d5a-ad3bfc22e3f7",
+          "name": "Lombo bacon especial",
+          "description": "Pão, lombo, mussarela, bacon, presunto, ovo, salada, milho e batata",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262134_TCK4_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "5621a37e-3ad2-4edc-b85c-96e7d9cd2bbf",
+          "name": "Lombo rango simples",
+          "description": "Pão, lombo, msusarela, salsicha, presunto, salada, milho e batata",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262133_W7MP_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "cdfebdf2-637c-4300-8cc8-d0bc449871a5",
+          "name": "Lombo rango especial",
+          "description": "Pão, lombo, mussarela, salsicha, ovo, presunto, salada, milho e batata",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262133_X18G_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4c38b6a4-7c1a-40e7-b689-4acc1b709c48",
+          "name": "Lombo tudo",
+          "description": "Pão, lombo, mussarela, salsicha, ovo, presunto, bacon, salada, milho e batat",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262133_SSEB_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sanduíches com filé mignon",
+      "items": [
+        {
+          "sourceId": "556df0e6-097a-4515-aecb-5f788fe0c215",
+          "name": "Filé simples",
+          "description": "Pão, filé mignon, mussarela, presunto, salada, milho e batata",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262133_5604_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "0d36caff-44ec-4a0b-b556-e93d727caa12",
+          "name": "Filé Especial",
+          "description": "Pão, filé mignon, mussarela, presunto, ovo, salada, milho e batata",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262138_Q41B_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "73f7a890-3448-45a1-8ec8-1e7ba78ebf90",
+          "name": "Filé bacon simples",
+          "description": "Pão, filé mignon, mussarela, bacon, presunto, salada, milho e batata",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262135_428F_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "0791fc19-a1a1-4d5c-a50d-91eb7f6754a6",
+          "name": "Filé Bacon Especial",
+          "description": "Pão, filé mignon, mussarela, bacon, presunto, ovo, salada, milho e batata",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201929_40YL_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b774d458-8946-4028-aaa5-0bc182bdbf4e",
+          "name": "Filé rango simples",
+          "description": "Pão, filé mignon, mussarela, salsicha, presunto, salada, milho e batata",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262140_B14D_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ec3b0043-1237-4afc-8217-1194f1255be6",
+          "name": "Filé rango especial",
+          "description": "Pão, filé mignon, mussarela, salsicha, ovo, presunto, salada, milho e batata",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262140_24H0_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "c9030c95-d506-4297-b077-ba8f261e8e1f",
+          "name": "Filé Tudo",
+          "description": "Pão, filé mignon, mussarela, salsicha, ovo, bacon, presunto, salada, milho e batata",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201929_FHQ8_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanduiches diversos",
+      "items": [
+        {
+          "sourceId": "63ec9a57-3977-4859-ada5-727cd985b6cc",
+          "name": "Bauru simpes",
+          "description": "Pão, 2 mussarela, 2 presuntos e tomate",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262155_3Q2D_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "cbfef01a-4592-4ab5-a3ff-0f235d83fe59",
+          "name": "Bauru especial",
+          "description": "Pão, 2 mussarela, 2 presuntos, ovo e tomate",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262155_6QMN_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "34698d4d-daa3-410c-9fd5-c941dc828eda",
+          "name": "Toa Toa",
+          "description": "Pão, frango, hambúrguer, 2 mussarelas, 2 presuntos, salada, milho e batata",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0d5188ef-f3ed-4a9f-9282-0b88ec2fe931",
+          "name": "Toa-Toa Especial",
+          "description": "Pão, frango, lombo, hambúrguer, mussarela, salsicha, bacon, presunto, salada, milho e batata",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402192022_3184_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3f453d1e-65b4-48d7-b42b-3bb6627d3cc5",
+          "name": "Super Toa-Toa",
+          "description": "Pão, frango, lombo, hambúrguer, filé mignon, mussarela, salsicha, bacon, presunto, salada, milho e batata",
+          "priceCents": 4300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402192020_P5A1_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Hambúrguer",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 850
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Filé mignon",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sucos e cremes",
+      "items": [
+        {
+          "sourceId": "eb6cbcf6-86a4-4cdf-b1ae-858f5ba036a0",
+          "name": "Suco Laranja 500ml",
+          "description": "Copo de suco 500ml - Suco laranja, 100% fruta (não industrializado)",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262148_FWR2_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçú",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b5da8e96-06c9-48fb-85cd-e9e0691e07cb",
+          "name": "Suco jarra 1 lt",
+          "description": "1 litro - Suco laranja, 100% fruta (não industrializado)",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262149_M0LU_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçú",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "86489081-f5b8-4dd7-8c2f-b28c970b5d03",
+          "name": "Creme",
+          "description": "500ml, abacaxi, acerola, Maracujá, cupuaçu ou morango.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202402201943_D1TK_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçú",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6fc20046-ecfb-42f1-85d1-24d15bd79764",
+          "name": "Refrigerante Lata",
+          "description": "Coca-Cola - Pepsi - Guaraná - 269ml",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262152_7MRU_i.jpg",
+          "options": [
+            {
+              "name": "Opções",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "70085e9d-ccd1-4adc-b9ae-bb51f1fb405d",
+          "name": "Guaraná litro",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202509091024_J010_i.jpg",
+          "options": [
+            {
+              "name": "Opções",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná 1l",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e576534f-db0b-4d74-a7e0-2a1d110f7975",
+          "name": "Refrigerante 1.5lt",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4f6d968b-3f70-4655-90c5-08f18cc19484/202502262152_N5ND_i.jpg",
+          "options": [
+            {
+              "name": "Opções",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola 1,5lt",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (42 itens na loja)."
+  ]
+}

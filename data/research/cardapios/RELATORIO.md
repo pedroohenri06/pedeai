@@ -1,8 +1,8 @@
 # Relatório de importação dos cardápios
 
-Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/cardapios/fontes.json`.
+Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/cardapios/fontes.json`.
 
-**118 cardápios importados** de 145 links de cardápio cadastrados · 1129 categorias · 6680 produtos · 4230 grupos de opções · 13369 adicionais (opções opcionais) · 3983 fotos.
+**146 cardápios importados** de 173 links de cardápio cadastrados · 1316 categorias · 7637 produtos · 5330 grupos de opções · 17892 adicionais (opções opcionais) · 4821 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -34,24 +34,52 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 | OK | The Best Açaí Água Boa | Água Boa | aiqfome | 6 | 36 | 46 | 112 | 36 | 2 | 0 |
 | OK | Tia do Lanche | Água Boa | maisdelivery | 35 | 165 | 3 | 0 | 39 | 0 | 0 |
 | OK | 062 Burguer | Barra do Garças | gynfood | 8 | 38 | 47 | 228 | 0 | 0 | 0 |
+| OK | Açaí Imperial | Barra do Garças | ifood | 11 | 51 | 95 | 502 | 50 | 0 | 0 |
+| OK | Açaí LS | Barra do Garças | ifood | 1 | 4 | 0 | 0 | 4 | 0 | 0 |
 | OK | Açaí Royal Delivery | Barra do Garças | visual | 3 | 13 | 24 | 178 | 13 | 0 | 0 |
+| OK | Acreano Pizzaria Delivery | Barra do Garças | ifood | 4 | 8 | 2 | 0 | 8 | 1 | 0 |
 | OK | Água Verde Espetaria e Tereré Delivery | Barra do Garças | menudino | 12 | 105 | 0 | 0 | 50 | 0 | 0 |
 | OK | Bolos do Sítio Empório | Barra do Garças | bigdim | 16 | 74 | 20 | 84 | 73 | 0 | 0 |
+| OK | Braseiro Du Chef Steak House | Barra do Garças | ifood | 5 | 30 | 8 | 30 | 21 | 0 | 0 |
+| OK | Bruttus Açaí | Barra do Garças | ifood | 3 | 63 | 0 | 0 | 36 | 0 | 0 |
 | OK | Buffalos Pizzaria | Barra do Garças | visual | 5 | 38 | 35 | 0 | 0 | 0 | 0 |
+| OK | Casa do Açaí BG | Barra do Garças | ifood | 7 | 25 | 10 | 140 | 25 | 0 | 0 |
 | OK | Casarão Beer / Churrascaria | Barra do Garças | brendi | 13 | 109 | 64 | 423 | 109 | 8 | 0 |
+| OK | Chapa Quente | Barra do Garças | ifood | 5 | 49 | 19 | 266 | 24 | 0 | 0 |
 | OK | Cheff do Espeto | Barra do Garças | visual | 16 | 109 | 24 | 0 | 0 | 0 | 0 |
+| OK | Clube do Hot Dog Prensados & Lanches | Barra do Garças | ifood | 9 | 42 | 18 | 28 | 27 | 6 | 0 |
 | OK | Dad Burger | Barra do Garças | bigdim | 6 | 48 | 65 | 488 | 48 | 0 | 3 |
 | OK | Dantes | Barra do Garças | bigdim | 10 | 77 | 38 | 226 | 75 | 0 | 0 |
+| OK | Di Matteo Açaí | Barra do Garças | ifood | 9 | 41 | 150 | 999 | 39 | 8 | 0 |
 | OK | Doces da Ana | Barra do Garças | visual | 3 | 4 | 8 | 12 | 0 | 0 | 0 |
+| OK | Duzé Pasteis | Barra do Garças | ifood | 5 | 28 | 22 | 220 | 28 | 0 | 0 |
+| OK | Flash Açaí | Barra do Garças | ifood | 13 | 58 | 3 | 0 | 58 | 10 | 0 |
+| OK | FNP Burger | Barra do Garças | ifood | 8 | 28 | 115 | 214 | 28 | 5 | 0 |
+| OK | Frango no Pote FNP | Barra do Garças | ifood | 11 | 45 | 187 | 340 | 45 | 0 | 0 |
+| OK | Fritudo Hamburgueria & Pizzaria | Barra do Garças | ifood | 2 | 9 | 6 | 25 | 9 | 5 | 0 |
 | OK | Frutos de Goiás Sorveteria | Barra do Garças | zapdelivery | 12 | 158 | 0 | 0 | 158 | 0 | 0 |
+| OK | Golden Chicken | Barra do Garças | ifood | 18 | 86 | 248 | 934 | 84 | 41 | 0 |
+| OK | Gulaçaí | Barra do Garças | ifood | 7 | 28 | 0 | 0 | 28 | 0 | 0 |
+| OK | Lau Lau Sanduíche Prensado | Barra do Garças | ifood | 5 | 20 | 20 | 134 | 20 | 4 | 0 |
 | OK | Le Monde Burguer Hamburgueria | Barra do Garças | cardapioweb | 10 | 113 | 167 | 818 | 113 | 0 | 0 |
+| OK | Líbano Esfiharia | Barra do Garças | ifood | 4 | 44 | 12 | 0 | 44 | 0 | 0 |
 | OK | Madrugordão Lanches | Barra do Garças | visual | 4 | 26 | 26 | 442 | 7 | 0 | 6 |
+| OK | Maria Doces | Barra do Garças | ifood | 1 | 10 | 0 | 0 | 10 | 0 | 0 |
 | OK | Maria Filó | Barra do Garças | zapdelivery | 18 | 51 | 17 | 32 | 51 | 3 | 0 |
+| OK | Max Burger | Barra do Garças | ifood | 7 | 40 | 14 | 100 | 20 | 0 | 0 |
+| OK | MD Chef's Pizzaria | Barra do Garças | ifood | 6 | 15 | 4 | 2 | 15 | 0 | 0 |
+| OK | Meiga Doces Confeitaria | Barra do Garças | ifood | 3 | 12 | 1 | 0 | 12 | 2 | 0 |
+| OK | MG Hot Dog, Açaíteria e Lanchonete | Barra do Garças | ifood | 6 | 26 | 21 | 108 | 26 | 0 | 0 |
 | OK | Mistrô Massas Marmitas & Pizzaria | Barra do Garças | compraqui | 13 | 65 | 0 | 0 | 41 | 0 | 0 |
 | OK | Pizzaria Coqueiros | Barra do Garças | expresso | 9 | 120 | 67 | 0 | 120 | 0 | 0 |
 | OK | Ponto Burguer (Ponto do Hambúrguer) | Barra do Garças | visual | 4 | 19 | 16 | 0 | 19 | 0 | 0 |
+| OK | Recheatta Batata Recheada | Barra do Garças | ifood | 11 | 12 | 23 | 40 | 12 | 5 | 0 |
 | OK | Restaurante Buteco do Bicudo | Barra do Garças | visual | 21 | 169 | 16 | 0 | 0 | 0 | 0 |
+| OK | Sedex da Pizza | Barra do Garças | ifood | 4 | 52 | 18 | 143 | 38 | 1 | 0 |
+| OK | Tempero de Mãe | Barra do Garças | ifood | 11 | 67 | 74 | 128 | 64 | 3 | 0 |
 | OK | Texas Grill - Burger & Churrasco | Barra do Garças | anotaai | 12 | 48 | 104 | 83 | 40 | 0 | 0 |
+| OK | Toa Toa Sanduicheria | Barra do Garças | ifood | 6 | 42 | 25 | 170 | 41 | 0 | 0 |
+| OK | VM Restaurante e Cia | Barra do Garças | ifood | 5 | 22 | 5 | 0 | 22 | 0 | 0 |
 | OK | Eclipse Lanchonete e Pizzaria | Campinápolis | visual | 8 | 53 | 17 | 0 | 0 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | ALÊ Café & Empório | Canarana | maisdelivery | 10 | 39 | 24 | 22 | 32 | 0 | 0 |
@@ -432,6 +460,22 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Fotos do servidor da plataforma (impulsionedelivery) não puderam ser baixadas; cardápio sem fotos até a loja enviar.
 - Pendências: 0
 
+### Açaí Imperial (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/acai-imperial-jardim-nova-barra-do-garcas/61238775-c018-45ed-81c0-06db151348b3 (ifood)
+- Categorias: 11 · Produtos: 51 · Grupos de opções: 95 (535 escolhas) · Adicionais: 502 · Fotos: 50
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (51 itens na loja).
+- Pendências: 0
+
+### Açaí LS (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/acai-ls-vila-serrinha/23e9bd39-deeb-468d-97b0-917a0906f2fe (ifood)
+- Categorias: 1 · Produtos: 4 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 4
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (4 itens na loja).
+- Pendências: 0
+
 ### Açaí Royal Delivery (Barra do Garças) — OK
 
 - Fonte: https://www.instagram.com/acairoyal__/ (visual)
@@ -440,6 +484,16 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Transcrito da arte "Cardápio completo" do destaque Cardápio do Instagram (print enviado pelo Pedro em 31/10/2026): 13 produtos na fonte, 13 cadastrados.
 - Observação: "Adicionais pagos" aparecem como lista geral na arte; aplicados ao Monte o seu açaí e aos copos especiais (não às marmitas). "Chocobool" da arte grafado Chocoball.
 - Observação: Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/acai-royal-delivery-barra-do-garcas/recortes.json.
+- Pendências: 0
+
+### Acreano Pizzaria Delivery (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/acreano-pizzaria-delivery-jardim-piracema/881a2864-b226-469a-9679-3bf2fa21f471 (ifood)
+- Categorias: 4 · Produtos: 8 · Grupos de opções: 2 (46 escolhas) · Adicionais: 0 · Fotos: 8
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (8 itens na loja).
+- Observação: "Pizza Media até 2 sabores": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Pizza Pequena até 2 sabores": opções não coletadas pela extensão (modal sem dados).
 - Pendências: 0
 
 ### Água Verde Espetaria e Tereré Delivery (Barra do Garças) — OK
@@ -488,6 +542,22 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: "Refrigerantes litro": cada opção de "Escolha seu refrigerante" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
 - Pendências: 0
 
+### Braseiro Du Chef Steak House (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/braseiro-du-chef-steak-house-jardim-piracema/2cd296f2-3053-48e8-b887-4b924a5cbe58 (ifood)
+- Categorias: 5 · Produtos: 30 · Grupos de opções: 8 (73 escolhas) · Adicionais: 30 · Fotos: 21
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (30 itens na loja).
+- Pendências: 0
+
+### Bruttus Açaí (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/bruttus-acai-bg-vila-sao-jose/af449f72-b66d-4154-8fe2-fd1c95d9b3c0 (ifood)
+- Categorias: 3 · Produtos: 63 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 36
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (63 itens na loja).
+- Pendências: 0
+
 ### Buffalos Pizzaria (Barra do Garças) — OK
 
 - Fonte: https://www.instagram.com/buffalos__oficial/ (visual)
@@ -500,11 +570,42 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Arte traz WhatsApp (66) 99227-1691 e endereço R. Sete, s/n, Residencial São Conrado; cadastro já tinha WhatsApp (66) 99275-9963 (mantido até confirmar).
 - Pendências: 0
 
+### Casa do Açaí BG (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/casa-do-acaibg-jardim-ouro-fino-ii/fda438a3-7af6-4f81-901a-c61eecb96803 (ifood)
+- Categorias: 7 · Produtos: 25 · Grupos de opções: 10 (140 escolhas) · Adicionais: 140 · Fotos: 25
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (25 itens na loja).
+- Observação: "Copo premium, Sonho de Valsa, Ouro Branco, Creme de Avelã, Creme Ninho, 480ml": opções não coletadas pela extensão (vazio).
+- Observação: "Copo premium, Sonho de Valsa, Ouro Branco, Creme de Avelã, Creme Ninho, 600ml": opções não coletadas pela extensão (vazio).
+- Observação: "Copo duplo sabor açai e cupuaçu com granola 300ml": opções não coletadas pela extensão (vazio).
+- Observação: "Copo duplo sabor Açai e cupuaçu com granola 480ml": opções não coletadas pela extensão (vazio).
+- Observação: "Copo duplo sabor Açai e cupuaçu com granola 600ml": opções não coletadas pela extensão (vazio).
+- Observação: "Kiwi Morango Banana Casado 600ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Copo tradiçao,Granola, Leite Condensado, Leite em Pó, Paçoca, Banana,300ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Copo tradiçao,Granola, Leite Condensado, Leite em Pó, Paçoca, Banana, 480ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Copo tradiçao, Granola, Leite Condensado, Leite em Pó, Paçoca, Banana, 600ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Creme de Avelã Chocoball Disqueti Ovomaltine Creme de Ninho Casado 296ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Creme de Avelã Chocoball Disqueti Ovomaltine Creme de Ninho Casado 480ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Creme de Avelã Chocoball Disqueti Ovomaltine Creme de Ninho Casado 600ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Copo cupuaçu com granola 300ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Copo cupuaçu com granola 480 ml": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Copo cupuaçu com granola 600ml": opções não coletadas pela extensão (modal sem dados).
+- Pendências: 0
+
 ### Casarão Beer / Churrascaria (Barra do Garças) — OK
 
 - Fonte: https://menu.brendi.com.br/casarao (brendi)
 - Categorias: 13 · Produtos: 109 · Grupos de opções: 64 (482 escolhas) · Adicionais: 423 · Fotos: 109
 - Não importados: nenhum
+- Pendências: 0
+
+### Chapa Quente (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/chapa-quente-jardim-ouro-fino/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9 (ifood)
+- Categorias: 5 · Produtos: 49 · Grupos de opções: 19 (266 escolhas) · Adicionais: 266 · Fotos: 24
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (49 itens na loja).
 - Pendências: 0
 
 ### Cheff do Espeto (Barra do Garças) — OK
@@ -515,6 +616,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Transcrito das 8 páginas do cardápio (site de visualização no link da bio do Instagram @cheffdoespeto_; auditoria do Claude in Chrome, 04/11/2026): 109 produtos.
 - Observação: Sabores de suco/creme listados uma vez na seção (laranja, maracujá, acerola, abacaxi, abacaxi com hortelã e morango) aplicados a suco copo, suco jarra e creme.
 - Observação: Fotos da arte são ilustrações de seção (não de um produto específico): cardápio sem fotos de produto.
+- Pendências: 0
+
+### Clube do Hot Dog Prensados & Lanches (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/clube-do-hot-dog-prensados--lanches-campinas/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8 (ifood)
+- Categorias: 9 · Produtos: 42 · Grupos de opções: 18 (44 escolhas) · Adicionais: 28 · Fotos: 27
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (42 itens na loja).
 - Pendências: 0
 
 ### Dad Burger (Barra do Garças) — OK
@@ -531,6 +640,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Não importados: 1 sem preço
 - Pendências: 0
 
+### Di Matteo Açaí (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/di-matteo-acai---barra-do-garcas-setor-sul-i/e13450df-dfe4-4fcf-9e90-16806486cc2a (ifood)
+- Categorias: 9 · Produtos: 41 · Grupos de opções: 150 (1135 escolhas) · Adicionais: 999 · Fotos: 39
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (41 itens na loja).
+- Pendências: 0
+
 ### Doces da Ana (Barra do Garças) — OK
 
 - Fonte: https://www.canva.com/design/DAGsKHJUOX4/0VgCj6UdFKn_jgRwreSDxA/view (visual)
@@ -542,11 +659,82 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Arte sem fotos de produto.
 - Pendências: 0
 
+### Duzé Pasteis (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/duze-pasteis-jardim-ouro-fino/72622860-103d-4737-a577-3331168f57ba (ifood)
+- Categorias: 5 · Produtos: 28 · Grupos de opções: 22 (242 escolhas) · Adicionais: 220 · Fotos: 28
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (28 itens na loja).
+- Pendências: 0
+
+### Flash Açaí (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/flash-acai-centro/38135e39-8040-40e4-a9eb-f792345c2347 (ifood)
+- Categorias: 13 · Produtos: 58 · Grupos de opções: 3 (15 escolhas) · Adicionais: 0 · Fotos: 58
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (58 itens na loja).
+- Pendências: 0
+
+### FNP Burger (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/fnp-burger---barra-do-garcas-campinas/818eee3f-a4ac-40ef-a3eb-1fe2f9c6ca7e (ifood)
+- Categorias: 8 · Produtos: 28 · Grupos de opções: 115 (306 escolhas) · Adicionais: 214 · Fotos: 28
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (28 itens na loja).
+- Observação: "Batata Frita": cada opção de "Fritas" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Adicional de Molhos": cada opção de "Selecione: Adicional de Molhos" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Escolha sua Bebida": cada opção de "Selecione: Vamos de Bebida Gelada" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Pendências: 0
+
+### Frango no Pote FNP (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/frango-no-pote---fnp---barra-do-garcas-campinas/b3b2b12d-1cc5-4443-b921-ce239fd9c6ee (ifood)
+- Categorias: 11 · Produtos: 45 · Grupos de opções: 187 (505 escolhas) · Adicionais: 340 · Fotos: 45
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (45 itens na loja).
+- Observação: "Croquinho": cada opção de "Selecione: Croquinho" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Batata Frita": cada opção de "Fritas" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Adicional de Molhos": cada opção de "Selecione: Adicional de Molhos" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Escolha sua Bebida": cada opção de "Selecione: Vamos de Bebida Gelada" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Pendências: 0
+
+### Fritudo Hamburgueria & Pizzaria (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/hamburgueriapizzaria-fritudo-loteamento-santa-emilia/a8c145c1-0203-4a38-a7dc-3cbb80337285 (ifood)
+- Categorias: 2 · Produtos: 9 · Grupos de opções: 6 (26 escolhas) · Adicionais: 25 · Fotos: 9
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (9 itens na loja).
+- Pendências: 0
+
 ### Frutos de Goiás Sorveteria (Barra do Garças) — OK
 
 - Fonte: https://zapdelivery.me/frutosdegoiasbg (zapdelivery)
 - Categorias: 12 · Produtos: 158 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 158
 - Não importados: 1 sem preço
+- Pendências: 0
+
+### Golden Chicken (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/golden-chicken---barra-center-shopping-setor-cristino-cortes/c3c675ee-82a6-4383-a691-6128a56792e9 (ifood)
+- Categorias: 18 · Produtos: 86 · Grupos de opções: 248 (1258 escolhas) · Adicionais: 934 · Fotos: 84
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (86 itens na loja).
+- Pendências: 0
+
+### Gulaçaí (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/gulacai-jardim-nova-barra-do-garcas/7851b687-df07-4776-b6f1-9fd1b6cb1da9 (ifood)
+- Categorias: 7 · Produtos: 28 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 28
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (28 itens na loja).
+- Pendências: 0
+
+### Lau Lau Sanduíche Prensado (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/lau-lau-sanduiche-prensado-de-15-e-20cm-jardim-mariano/540d36fb-c751-4564-a25e-e6d48cd687a6 (ifood)
+- Categorias: 5 · Produtos: 20 · Grupos de opções: 20 (134 escolhas) · Adicionais: 134 · Fotos: 20
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (20 itens na loja).
 - Pendências: 0
 
 ### Le Monde Burguer Hamburgueria (Barra do Garças) — OK
@@ -555,6 +743,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Categorias: 10 · Produtos: 113 · Grupos de opções: 167 (1189 escolhas) · Adicionais: 818 · Fotos: 113
 - Não importados: 2 indisponível
 - Observação: Alguns adicionais aceitam repetir a mesma opção na fonte (ex.: 2 bacons); aqui cada opção é escolhida uma vez, até o máximo do grupo.
+- Pendências: 0
+
+### Líbano Esfiharia (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/libano-esfiharia-jardim-nova-barra/39223934-f906-47f1-9337-47d5121dd72b (ifood)
+- Categorias: 4 · Produtos: 44 · Grupos de opções: 12 (142 escolhas) · Adicionais: 0 · Fotos: 44
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (44 itens na loja).
 - Pendências: 0
 
 ### Madrugordão Lanches (Barra do Garças) — OK
@@ -568,11 +764,61 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Arte: delivery (66) 99247-0493, 'Aberto todos os dias', 'Com entrega grátis!'.
 - Pendências: 0
 
+### Maria Doces (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/maria-doces-jardim-nova-barra-do-garcas/f74a166a-46de-4ac4-bf35-0067e4278394 (ifood)
+- Categorias: 1 · Produtos: 10 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 10
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (10 itens na loja).
+- Pendências: 0
+
 ### Maria Filó (Barra do Garças) — OK
 
 - Fonte: https://zapdelivery.me/mariafilobg (zapdelivery)
 - Categorias: 18 · Produtos: 51 · Grupos de opções: 17 (65 escolhas) · Adicionais: 32 · Fotos: 51
 - Não importados: 23 oculto na loja
+- Pendências: 0
+
+### Max Burger (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/max-burger-jardim-domingos-mariano/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3 (ifood)
+- Categorias: 7 · Produtos: 40 · Grupos de opções: 14 (112 escolhas) · Adicionais: 100 · Fotos: 20
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (40 itens na loja).
+- Observação: "Suco de Maracujá": cada opção de "Tamanhos" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Suco de Acerola": cada opção de "Tamanhos" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Suco de Abacaxi": cada opção de "Tamanhos" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Suco de Caju": cada opção de "Tamanhos" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Pendências: 0
+
+### MD Chef's Pizzaria (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/md-chefs---pizzaria-delivery-vila-maria-gomes-dos-santos/dd1b92e0-abc1-4290-9980-b8fe2813e907 (ifood)
+- Categorias: 6 · Produtos: 15 · Grupos de opções: 4 (12 escolhas) · Adicionais: 2 · Fotos: 15
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (15 itens na loja).
+- Observação: "Calabresa": opções não coletadas pela extensão (modal sem dados).
+- Observação: "4 queijo": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Frango c/ Catupiry": opções não coletadas pela extensão (modal sem dados).
+- Observação: "Portuguesa": opções não coletadas pela extensão (modal sem dados).
+- Observação: "A moda Md": opções não coletadas pela extensão (modal sem dados).
+- Pendências: 0
+
+### Meiga Doces Confeitaria (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/meiga-doces-confeitaria-jardim-nova-barra-norte/578f56b9-9212-44ee-bd88-1c170716ce06 (ifood)
+- Categorias: 3 · Produtos: 12 · Grupos de opções: 1 (3 escolhas) · Adicionais: 0 · Fotos: 12
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (12 itens na loja).
+- Pendências: 0
+
+### MG Hot Dog, Açaíteria e Lanchonete (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/hot-dog--acaiteria-mg-e-lanchonete-jardim-nova-barra-do-garcas/3a80938c-3fc5-4505-af0d-caf1555eae0c (ifood)
+- Categorias: 6 · Produtos: 26 · Grupos de opções: 21 (136 escolhas) · Adicionais: 108 · Fotos: 26
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (26 itens na loja).
+- Observação: "Cupuaçu Puro": opções não coletadas pela extensão (vazio).
 - Pendências: 0
 
 ### Mistrô Massas Marmitas & Pizzaria (Barra do Garças) — OK
@@ -601,6 +847,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Fotos: recortadas das artes do próprio cardápio e tratadas (super-resolução EDSR 4x + nitidez) com scripts/menus/enhance.py; coordenadas em visual/ponto-burguer-ponto-do-hamburguer-barra-do-garcas/recortes.json.
 - Pendências: 0
 
+### Recheatta Batata Recheada (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/recheattabg-batata-recheada-jardim-nova-barra-do-garcas/71f9ee65-0b72-47ee-833b-4029d11e9994 (ifood)
+- Categorias: 11 · Produtos: 12 · Grupos de opções: 23 (81 escolhas) · Adicionais: 40 · Fotos: 12
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (12 itens na loja).
+- Pendências: 0
+
 ### Restaurante Buteco do Bicudo (Barra do Garças) — OK
 
 - Fonte: https://drive.google.com/file/d/1DVv-PUZwUi84DR45oSCi357r_ZJWS6i7/view (visual)
@@ -612,6 +866,22 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Observação: Cardápio sem fotos de produto: fotos serão pedidas ao estabelecimento ao fechar a parceria.
 - Pendências: 0
 
+### Sedex da Pizza (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/sedex-da-pizza-bairro-b-n-h/86174ec0-a410-43ca-a098-ce098e4c63e6 (ifood)
+- Categorias: 4 · Produtos: 52 · Grupos de opções: 18 (204 escolhas) · Adicionais: 143 · Fotos: 38
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (52 itens na loja).
+- Pendências: 0
+
+### Tempero de Mãe (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/tempero-de-mae---jantinha-almoco-espetinhos-e-caldos-setor-dermat/554794fc-8845-4856-a35e-db6b2dafc763 (ifood)
+- Categorias: 11 · Produtos: 67 · Grupos de opções: 74 (259 escolhas) · Adicionais: 128 · Fotos: 64
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (67 itens na loja).
+- Pendências: 0
+
 ### Texas Grill - Burger & Churrasco (Barra do Garças) — OK
 
 - Fonte: https://pedido.anota.ai/loja/texasgrillchurrascaria (anotaai)
@@ -619,6 +889,22 @@ Gerado por `node scripts/menus/report.js` em 2026-11-04. Fontes: `data/research/
 - Não importados: 97 esgotado
 - Observação: "Pizza meio metro": "Sabor MEIO METRO" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
 - Observação: "Pizza 1 metro": "Sabor 1 METRO" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Pendências: 0
+
+### Toa Toa Sanduicheria (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/toa-toa-sanduicheria-jardim-vista-alegre-ll/4f6d968b-3f70-4655-90c5-08f18cc19484 (ifood)
+- Categorias: 6 · Produtos: 42 · Grupos de opções: 25 (192 escolhas) · Adicionais: 170 · Fotos: 41
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (42 itens na loja).
+- Pendências: 0
+
+### VM Restaurante e Cia (Barra do Garças) — OK
+
+- Fonte: https://www.ifood.com.br/delivery/barra-do-garcas-mt/vm-restaurante-e-cia-jardim-nova-barra-norte/4fd90e8e-8be1-468a-b42a-8ce04523ef06 (ifood)
+- Categorias: 5 · Produtos: 22 · Grupos de opções: 5 (16 escolhas) · Adicionais: 0 · Fotos: 22
+- Não importados: nenhum
+- Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (22 itens na loja).
 - Pendências: 0
 
 ### Eclipse Lanchonete e Pizzaria (Campinápolis) — OK

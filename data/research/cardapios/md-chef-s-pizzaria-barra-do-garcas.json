@@ -1,0 +1,261 @@
+{
+  "id": "md-chef-s-pizzaria-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/md-chefs---pizzaria-delivery-vila-maria-gomes-dos-santos/dd1b92e0-abc1-4290-9980-b8fe2813e907",
+  "capturedAt": "2026-11-04T11:00:32.077Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Super Combo",
+      "items": [
+        {
+          "sourceId": "c5fa0b67-c9e4-44fc-af76-92ab056bbb76",
+          "name": "Combo casal -Pizza 35cm +Pizza 25cm+ Refrigerante 1l",
+          "description": "Obs }Deixe Na Observação Do Pedido Onde Quer A Borda Ou Mande No Chat Por Favor. o sabor é na ordem da descrição.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202605020209_SN0I_i.jpg",
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "A moda md",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Borda Catupiry",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Catupiry",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo 25cm",
+      "items": [
+        {
+          "sourceId": "97abac5a-7af3-4787-9e3a-cd58c1f90a55",
+          "name": "2 pizza pequena + refrigerante 1l",
+          "description": "2 pizza pequena 25cm 6 pedaços a sua escolha + refrigerante 1 L",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202604052137_3141_i.jpg",
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "A moda md",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Borda Catupiry",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Catupiry",
+                  "priceCents": 1200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas 35cm (1)",
+      "items": [
+        {
+          "sourceId": "a1084294-eec3-4f40-b9b4-28bda38afbb0",
+          "name": "Calabresa",
+          "description": "(Pizza grande 35cm, 10 fatias), mussarela, calabresa fatiada, cebola e orégano.",
+          "priceCents": 5990,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051858_08AW_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "09c19965-e1e4-45aa-98f8-c60c0b9c2161",
+          "name": "4 queijo",
+          "description": "(Pizza grande 35cm, 10 fatias)Mussarela, Catupiry, parmesão, provolone, orégano.",
+          "priceCents": 6130,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051845_33P3_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "d39d2850-47be-49ff-aa8e-b0941128896c",
+          "name": "Frango c/ Catupiry",
+          "description": "(Pizza grande 35cm, 10 fatias)Frango desfiado, Catupiry, mussarela.",
+          "priceCents": 5999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051907_X038_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "8ba6d563-ec6d-437b-b9e9-9cf1439939c8",
+          "name": "Portuguesa",
+          "description": "(Pizza grande 35cm 10 fatias) Mussarela, presunto, ovo, cebola, azeitona, milho.",
+          "priceCents": 5495,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051915_R2VO_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "7dbdbc55-75f8-4b96-80e1-93a0d2c37d81",
+          "name": "A moda Md",
+          "description": "(Pizza grande 35cm 10 fatias)Calabresa, presunto, mussarela, Catupiry, cebola picada, tomate, orégano.",
+          "priceCents": 6145,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603041800_J23C_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pizzas 25 cm",
+      "items": [
+        {
+          "sourceId": "d05356f4-5ae3-4509-9da2-bee4eca5cd60",
+          "name": "Calabresa",
+          "description": "Mussarela, calabresa fatiada, cebola e orégano.",
+          "priceCents": 4590,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051858_08AW_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "b08bddf9-988b-4c4c-8057-cf9b8ade1f14",
+          "name": "4 queijo",
+          "description": "Mussarela, Catupiry, parmesão, provolone, orégano.",
+          "priceCents": 4650,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051845_33P3_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "27fd4941-d505-4b80-81be-476f56f1be0a",
+          "name": "Frango c/ Catupiry",
+          "description": "Frango desfiado, Catupiry, mussarela.",
+          "priceCents": 4570,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051907_X038_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "11814986-5eca-42b3-9cda-297bdae9357b",
+          "name": "Portuguesa",
+          "description": "Mussarela, presunto, ovo, cebola, azeitona, milho.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603051915_R2VO_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "669d1228-f6b8-4b9c-9d5c-b29fd10f4046",
+          "name": "A moda Md",
+          "description": "Calabresa, presunto, mussarela, Catupiry, cebola picada, tomate, orégano.",
+          "priceCents": 4690,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202603041800_J23C_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pizzas Doces",
+      "items": [
+        {
+          "sourceId": "28a030d3-cac9-4a65-8dc9-ee1cb2009b7a",
+          "name": "Romeu e Julieta 25cm",
+          "description": "Goiabada, Creme de Leite, Mussarela.",
+          "priceCents": 4390,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202604220039_7PVM_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "853c22ea-a295-4c26-aae7-6e4d5d4ef130",
+          "name": "Romeu e Julieta 35cm",
+          "description": "Goiabada, Creme de Leite, Mussarela.Catupiry",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202604220039_7PVM_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "2ef8eb4c-e516-4f55-96e5-b9240234105a",
+          "name": "Refrigerante",
+          "description": "Kitubaina 1l",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dd1b92e0-abc1-4290-9980-b8fe2813e907/202604030145_5YOH_i.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (15 itens na loja).",
+    "\"Calabresa\": opções não coletadas pela extensão (modal sem dados).",
+    "\"4 queijo\": opções não coletadas pela extensão (modal sem dados).",
+    "\"Frango c/ Catupiry\": opções não coletadas pela extensão (modal sem dados).",
+    "\"Portuguesa\": opções não coletadas pela extensão (modal sem dados).",
+    "\"A moda Md\": opções não coletadas pela extensão (modal sem dados)."
+  ]
+}

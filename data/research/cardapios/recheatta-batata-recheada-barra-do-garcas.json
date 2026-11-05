@@ -1,0 +1,671 @@
+{
+  "id": "recheatta-batata-recheada-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/recheattabg-batata-recheada-jardim-nova-barra-do-garcas/71f9ee65-0b72-47ee-833b-4029d11e9994",
+  "capturedAt": "2026-11-04T11:10:10.616Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Batata Mista",
+      "items": [
+        {
+          "sourceId": "88f42228-8027-4258-ac27-35396638a59d",
+          "name": "Batata Mista",
+          "description": "Batata Mista Recheatta Sua batata, do seu jeito! Escolha 2 sabores do nosso cardápio e monte sua combinação favorita. Uma batata recheada, preparada na hora, com muito sabor e aquele capricho especial da Recheatta. Ideal para matar a fome e deixar sua refeição ainda mais gostosa!",
+          "priceCents": 3399,
+          "originalPriceCents": 3899,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202606101950_9E18_.jpeg",
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata 4 Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Calabressa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Presunto e Queijo",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Escolha 3 sabores",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata 4 Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Presunto e Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Calabressa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata bacon",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "96548424-c1ff-463e-b230-7691473d8e02",
+          "name": "Combo Casal Recheatta",
+          "description": "Combo Casal Recheatta O combo perfeito para dividir e matar a fome! 1 Batata Recheada de Bacon 1 Batata Recheada de Calabresa 1 Refrigerante de 1 litro Duas batatas recheadas, muito sabor e a combinação perfeita para curtir uma refeição a dois! Serve 2 pessoas. Peça agora e aproveite!",
+          "priceCents": 5599,
+          "originalPriceCents": 6799,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202606180048_5TI5_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combo Recheatta Familia",
+      "items": [
+        {
+          "sourceId": "ec363127-f789-4c52-a6be-b98ca7d9c632",
+          "name": "Combo Recheatta Familia",
+          "description": "Combo Família Recheatta Perfeito para compartilhar! São 3 deliciosas batatas recheadas de 600g acompanhadas de 1 Guaraná 1,5l geladinho. Muito recheio, muito sabor e economia para toda a família!",
+          "priceCents": 8699,
+          "originalPriceCents": 11599,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202606181721_1X00_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Escolha 3 sabores",
+              "min": 3,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Batata 4 Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Pizza",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Presunto e Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Calabressa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata bacon",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata de Strogonoff de Frango",
+      "items": [
+        {
+          "sourceId": "6f965945-de39-45c4-b262-9220f7f9287d",
+          "name": "Batata Strogonoff de Frango",
+          "description": "Batata recheada com frango picado, requeijão cremoso, muçarela e batata palha.",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202606180052_681D_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata de Bacon",
+      "items": [
+        {
+          "sourceId": "bb29bf8c-f387-4e2d-84d5-1ef76ecac103",
+          "name": "Batata bacon",
+          "description": "Batata Bacon Recheatta Para quem ama bacon! Uma deliciosa batata recheada com bacon, cheddar, Catupiry e mussarela, preparada com muito recheio e uma combinação irresistível de sabores. Peça agora e descubra o sabor da Recheatta!",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202606101631_210L_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata de Pizza",
+      "items": [
+        {
+          "sourceId": "3e2b7dd5-8fb3-45a7-8b73-cec1a2b92500",
+          "name": "Batata Pizza",
+          "description": "Batata recheada com presunto, Catupiry, muçarela, tomate e orégano.",
+          "priceCents": 2799,
+          "originalPriceCents": 3299,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202606181637_SGXI_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata",
+      "items": [
+        {
+          "sourceId": "40757f82-b314-422d-b5e8-8543388cfa51",
+          "name": "Batata 4 Queijo",
+          "description": "Batata recheada com muçarela, requeijão cremoso, Catupiry e cheddar.",
+          "priceCents": 2899,
+          "originalPriceCents": 3399,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202605281940_4V02_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata de Frango Cremoso",
+      "items": [
+        {
+          "sourceId": "7c22fce8-aa79-46e8-8783-c3eca93074c6",
+          "name": "Batata Frango Cremoso",
+          "description": "Batata recheada com frango desfiado, creme especial da casa, Catupiry e muçarela.",
+          "priceCents": 2899,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202605281954_8Y08_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata de Calabressa",
+      "items": [
+        {
+          "sourceId": "8ac338a8-9691-46ad-8c47-09ad1ecb47a7",
+          "name": "Batata Calabressa",
+          "description": "Batata recheada com calabresa, muçarela, Catupiry e cheddar.",
+          "priceCents": 2799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202605281957_01WB_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata de Presunto e Queijo",
+      "items": [
+        {
+          "sourceId": "c70e33e9-73ee-4742-83df-57731070a883",
+          "name": "Batata Presunto e Queijo",
+          "description": "Batata recheada com presunto, queijo, requeijão cremoso e orégano.",
+          "priceCents": 2499,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/71f9ee65-0b72-47ee-833b-4029d11e9994/202606181631_4B3W_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bacon Extra",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Cheddar Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Requeijao Extra",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Mussarela Extra",
+                  "priceCents": 499
+                }
+              ]
+            },
+            {
+              "name": "Deseja Talheres",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, preciso de talheres",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nao, nao preciso",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Refri",
+      "items": [
+        {
+          "sourceId": "3746c247-b870-4e53-80b5-ce58c2ab8034",
+          "name": "Guaraná Antarctica 1,5 L",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202511291456_261wfasot4v.png",
+          "options": []
+        },
+        {
+          "sourceId": "f8efbd23-fbf0-473f-8a50-c137ba53a00a",
+          "name": "Refri Antártica 1 L",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202506221239_xnu6n2b1mfb.png",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (12 itens na loja)."
+  ]
+}

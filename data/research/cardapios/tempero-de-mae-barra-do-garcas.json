@@ -1,0 +1,2266 @@
+{
+  "id": "tempero-de-mae-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/tempero-de-mae---jantinha-almoco-espetinhos-e-caldos-setor-dermat/554794fc-8845-4856-a35e-db6b2dafc763",
+  "capturedAt": "2026-11-05T01:16:41.327Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Os Mais Pedidos do Tempero de Mãe",
+      "items": [
+        {
+          "sourceId": "f844920b-8159-4013-96cf-d6c03f85edf0",
+          "name": "Espetinho de Carne",
+          "description": "Suculento espetinho de carne, preparado para entregar muito sabor e maciez em cada pedaço. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503221951_3VW6_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "610cc6cd-dff0-4f54-8e52-00cbb02b466a",
+          "name": "Espetinho de Frango com Bacon",
+          "description": "Espetinho de frango macio envolto em bacon, uma combinação irresistível de sabores para deixar sua refeição ainda melhor. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231304_8TDE_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6ccbdee2-eef6-47da-8211-a8fb05a509c2",
+          "name": "Caldo de Frango 500ml",
+          "description": "Caldo de frango saboroso e bem temperado, uma opção quentinha e reconfortante para sua refeição, almoço ou jantinha. Porção de 500ml, acompanha 40g de queijo, 20g de cheiro-verde e 50g de torradas.",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241309_0HWP_i.jpg",
+          "options": [
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "994d557c-5b16-4c25-b8c4-742a413f32ad",
+          "name": "Meia Jantinha 450g",
+          "description": "Para quem não dispensa o clássico. Uma refeição com aproximadamente 450g. Nossa meia jantinha traz o equilíbrio perfeito entre o arroz soltinho e o sabor marcante do feijão tropeiro, acompanhados de uma mandioca que derrete na boca, maionese super cremosa e o frescor do nosso vinagrete artesanal. É aquela comida com tempero de verdade que abraça o paladar e mata a fome com prazer.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241353_15M1_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Qual Espetinho Vai na Sua Refeição?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tulipa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça sem pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça com pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela bovina",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela de Porco",
+                  "priceCents": 399
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            },
+            {
+              "name": "Adicione um extra de Guarnições",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Feijão Tropeiro P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mandioca P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Maionese P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Vinagrete P",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4d9c27c0-eb42-48ad-8d77-8f944e6a0926",
+          "name": "Jantinha 650g",
+          "description": "Para quem ama comida caseira bem servida. Um jantar com aproximadamente 650g. Nossa jantinha combina arroz branco soltinho, feijão tropeiro bem temperado, mandioca macia, maionese cremosa e vinagrete artesanal. Uma refeição completa, saborosa e caprichada, com ingredientes que combinam perfeitamente e aquele tempero caseiro de verdade que mata a fome e conquista o paladar.",
+          "priceCents": 3198,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241612_Q7KO_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Qual Espetinho Vai na Sua Refeição?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tulipa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça sem pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça com pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela bovina",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela de Porco",
+                  "priceCents": 399
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            },
+            {
+              "name": "Adicione um extra de Guarnições",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Feijão Tropeiro P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mandioca P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Maionese P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Vinagrete P",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ae7bb5f5-7bbe-42bf-a6e2-fc1a45ada51a",
+          "name": "Jantinha com Espetinho de Carne",
+          "description": "Nossa jantinha com aproximadamente 650g acompanha: Arroz, feijão tropeiro, mandioca, maionese, vinagrete e espetinho de carne. Jantinha completa e saborosa. Uma refeição bem servida.",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241420_M55B_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3d57a108-2f47-4140-8ef4-6467732da4fd",
+          "name": "Jantinha com Espetinho de Frango com Bacon",
+          "description": "Nossa jantinha com aproximadamente 650g acompanha: Arroz, feijão tropeiro, mandioca, maionese, vinagrete e espetinho de frango com bacon. Jantinha completa, saborosa e bem servida.",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241420_465V_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combinações Favoritas da Casa",
+      "items": [
+        {
+          "sourceId": "8694d98d-ea47-451e-b36d-8ffba9ee6ab9",
+          "name": "Combo Espetinho de Frango com Bacon + Carne",
+          "description": "A combinação perfeita para quem gosta de sabor e variedade! Espetinhos de frango com bacon e carne, uma dupla deliciosa para deixar sua refeição ainda mais especial.",
+          "priceCents": 2880,
+          "originalPriceCents": 3200,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e7c65bad-e417-4daa-81e2-8de7db3a2522",
+          "name": "Combo Espetinho de Cupim + Queijo",
+          "description": "Uma combinação irresistível para quem aprecia bons espetinhos! O sabor marcante do cupim junto com o delicioso queijo, ideal para aproveitar uma refeição saborosa.",
+          "priceCents": 3078,
+          "originalPriceCents": 3420,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0cf890ae-bf61-4981-b2f7-77b6fe556230",
+          "name": "Combo Espetinho de Carne + Frango + Linguiça sem Pimenta",
+          "description": "Três sabores para deixar sua refeição ainda mais completa! Combinação dos espetinhos de carne, frango e linguiça sem pimenta em uma opção variada e saborosa para aproveitar tudo de uma vez.",
+          "priceCents": 4248,
+          "originalPriceCents": 4720,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos de Jantinha",
+      "items": [
+        {
+          "sourceId": "6f698b09-5ef5-46b8-a980-33aa9ee9bb19",
+          "name": "Jantinha + Coca-Cola 310ml",
+          "description": "Nossa jantinha com aproximadamente 650g acompanha: Arroz, feijão tropeiro, mandioca, maionese, vinagrete e acompanha uma Coca-Cola 310ml. Jantinha completa com bebida. Refeição prática e saborosa.",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241617_4UXT_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Qual Espetinho Vai na Sua Refeição?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tulipa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça sem pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça com pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela bovina",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela de Porco",
+                  "priceCents": 399
+                }
+              ]
+            },
+            {
+              "name": "Bebidas",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fanta Uva lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca Cola Zero 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca Cola 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione um extra de Guarnições",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Feijão Tropeiro P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mandioca P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Maionese P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Vinagrete P",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3f63c69a-3899-442e-9567-7f681e693004",
+          "name": "Combo 2 Meia Jantinha + Guaraná 1l",
+          "description": "Combo com 2 meia jantinhas completas, cada uma com arroz branco soltinho, feijão tropeiro bem temperado, mandioca macia, maionese cremosa e vinagrete artesanal, acompanhadas de Guaraná de 1 Litro. Uma opção prática e saborosa para compartilhar, com comida caseira, tempero de verdade e uma refeição caprichada para matar a fome.",
+          "priceCents": 5799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241710_L72D_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Qual Espetinho Vai na Sua Refeição?",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tulipa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça sem pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça com pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela bovina",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela de Porco",
+                  "priceCents": 399
+                }
+              ]
+            },
+            {
+              "name": "Bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná de 1 litro",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione um extra de Guarnições",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Arroz P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Feijão Tropeiro P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mandioca P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Maionese P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Vinagrete P",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "7929a372-715b-4fb2-9d6f-4cc5d4e46390",
+          "name": "Combo Casado",
+          "description": "Um combo completo para compartilhar, com 2 jantinhas + refrigerante de 1 litro. Cada jantinha acompanha arroz branco soltinho, feijão tropeiro bem temperado, mandioca macia, maionese cremosa e vinagrete artesanal. Uma combinação de comida caseira, refeição completa e muito sabor, perfeita para quem busca uma jantinha caprichada para compartilhar.",
+          "priceCents": 7299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241655_3J0A_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Qual Espetinho Vai na Sua Refeição?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tulipa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça sem pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça com pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela bovina",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela de Porco",
+                  "priceCents": 399
+                }
+              ]
+            },
+            {
+              "name": "Bebida",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná de 1 litro",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicione um extra de Guarnições",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Feijão Tropeiro P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mandioca P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Maionese P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Vinagrete P",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jantinha Boa e Barata",
+      "items": [
+        {
+          "sourceId": "c22e6041-a965-4677-b736-c843bdd964a3",
+          "name": "Meia Jantinha 450g",
+          "description": "Para quem não dispensa o clássico. Uma refeição com aproximadamente 450g. Nossa meia jantinha traz o equilíbrio perfeito entre o arroz soltinho e o sabor marcante do feijão tropeiro, acompanhados de uma mandioca que derrete na boca, maionese super cremosa e o frescor do nosso vinagrete artesanal. É aquela comida com tempero de verdade que abraça o paladar e mata a fome com prazer.",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241353_15M1_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Qual Espetinho Vai na Sua Refeição?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tulipa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça sem pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça com pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela bovina",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela de Porco",
+                  "priceCents": 399
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            },
+            {
+              "name": "Adicione um extra de Guarnições",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Feijão Tropeiro P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mandioca P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Maionese P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Vinagrete P",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "43609855-ad1b-4d24-9a03-33aa855d1cd2",
+          "name": "Jantinha 650g",
+          "description": "Para quem ama comida caseira bem servida. Um jantar com aproximadamente 650g. Nossa jantinha combina arroz branco soltinho, feijão tropeiro bem temperado, mandioca macia, maionese cremosa e vinagrete artesanal. Uma refeição completa, saborosa e caprichada, com ingredientes que combinam perfeitamente e aquele tempero caseiro de verdade que mata a fome e conquista o paladar.",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241612_Q7KO_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Qual Espetinho Vai na Sua Refeição?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Filé de frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Tulipa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango com bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Kafta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça sem pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça com pimenta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo coalho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pão de alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela bovina",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Costela de Porco",
+                  "priceCents": 399
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            },
+            {
+              "name": "Adicione um extra de Guarnições",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Arroz P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Feijão Tropeiro P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Mandioca P",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Maionese P",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Vinagrete P",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "466b81c9-1927-4df4-8c74-213ecedcd546",
+          "name": "Jantinha com Espetinho de Carne",
+          "description": "Nossa jantinha com aproximadamente 650g acompanha: Arroz, feijão tropeiro, mandioca, maionese, vinagrete e espetinho de carne. Jantinha completa e saborosa. Uma refeição bem servida.",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241420_M55B_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0710f3e6-0426-4030-9e85-43d672d9987a",
+          "name": "Jantinha com Espetinho de Frango com Bacon",
+          "description": "Nossa jantinha com aproximadamente 650g acompanha: Arroz, feijão tropeiro, mandioca, maionese, vinagrete e espetinho de frango com bacon. Jantinha completa, saborosa e bem servida.",
+          "priceCents": 3199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241420_465V_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Porções Suculentas",
+      "items": [
+        {
+          "sourceId": "cb823fb1-3228-4dbe-ae3e-d3ca06f4a5ae",
+          "name": "Batata Frita Simples",
+          "description": "Porção de batata frita crocante e douradinha, perfeita para compartilhar ou complementar sua refeição, marmita, almoço ou jantinha. Peso aproximadamente de 500g.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241332_0NCU_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "37278512-627a-40b4-976e-57f66347a6de",
+          "name": "Frango à Passarinho",
+          "description": "Porção de frango a passarinho, crocante e saboroso, ideal para compartilhar com amigos. Uma combinação irresistível para compartilhar ou completar sua refeição. Porção de aproximadamente 1kg.",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241332_4U2M_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0bec6522-8721-43a1-b700-5334c7399faa",
+          "name": "Batata Frita Com Cheddar e Bacon",
+          "description": "Porção generosa de batata frita crocante, coberta com cheddar cremoso e bacon, uma combinação irresistível para compartilhar ou completar sua refeição. Peso aproximadamente de 650g.",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241333_YJ83_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Caldos Incríveis",
+      "items": [
+        {
+          "sourceId": "db6204a2-a43c-4d23-8f1e-10ba7cf0fb1e",
+          "name": "Caldo de Vaca Atolada 500ml",
+          "description": "Caldo de vaca atolada encorpado e saboroso, preparado com carne macia para uma refeição quentinha e cheia de sabor. Porção de 500ml, acompanha 40g de queijo, 20g de cheiro-verde e 50g de torradas.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241307_0XXY_i.jpg",
+          "options": [
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6d4e16dc-c17b-454d-8b32-03bc3970f149",
+          "name": "Caldo de Feijão 500ml",
+          "description": "Caldo de feijão cremoso, saboroso e bem temperado, perfeito para uma refeição quentinha e cheia de sabor. Porção de 500ml, acompanha 40g de queijo, 20g de cheiro-verde e 50g de torradas.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241308_EG1K_i.jpg",
+          "options": [
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6d77c474-09fe-47df-bd4b-a8c087e0fb34",
+          "name": "Caldo de Frango 500ml",
+          "description": "Caldo de frango saboroso e bem temperado, uma opção quentinha e reconfortante para sua refeição, almoço ou jantinha. Porção de 500ml, acompanha 40g de queijo, 20g de cheiro-verde e 50g de torradas.",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241309_0HWP_i.jpg",
+          "options": [
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "aae3b853-1297-4727-86e8-1b06daa68b2d",
+          "name": "Caldo de Franjão 500ml",
+          "description": "Caldo de franjão saboroso e bem preparado, uma opção quentinha e deliciosa para completar sua refeição, almoço ou jantinha. Porção de 500ml, acompanha 40g de queijo, 20g de cheiro-verde e 50g de torradas.",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241309_36H7_i.jpg",
+          "options": [
+            {
+              "name": "Vai uma Bebida Gelada?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca lata",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca lata Zero",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Guaraná Antarctica 350ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Sprite Original 310ml",
+                  "priceCents": 699
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Guarnições Saborosas",
+      "items": [
+        {
+          "sourceId": "89d10225-1851-4776-a2ed-5aedd06dcbb2",
+          "name": "Arroz",
+          "description": "Porção de arroz branco com aproximadamente de 250g, soltinho e saboroso, ideal para acompanhar sua refeição, marmita, almoço ou jantinha",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241409_VHXP_i.jpg",
+          "options": [
+            {
+              "name": "Aumente sua porção!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de 500g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4e91023d-aa7b-4fe7-9de3-2c9ea429e2b2",
+          "name": "Feijão Tropeiro",
+          "description": "Porção de feijão tropeiro com aproximadamente de 250g, saboroso e bem temperado, uma guarnição completa para deixar sua refeição ainda mais especial.",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241410_84PJ_i.jpg",
+          "options": [
+            {
+              "name": "Aumente sua porção!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de 500g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "00f5f921-3d12-45c2-99ac-3b23b1292dbf",
+          "name": "Mandioca",
+          "description": "Porção de mandioca com aproximadamente de 250g, macia e saborosa, uma excelente opção de acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241410_3U3I_i.jpg",
+          "options": [
+            {
+              "name": "Aumente sua porção!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de 500g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "982ecb65-2d82-47ad-b773-08f5c1183906",
+          "name": "Vinagrete",
+          "description": "Porção de vinagrete com aproximadamente de 250g, fresco e saboroso, perfeito para acompanhar carnes, espetinhos, marmitas e refeições do Dia a Dia.",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241411_1PO6_i.jpg",
+          "options": [
+            {
+              "name": "Aumente sua porção!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de 500g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1280923f-bc59-410c-b333-ab461080f9e6",
+          "name": "Maionese",
+          "description": "Porção de maionese com aproximadamente de 250g, cremosa e saborosa, ideal para complementar sua refeição, marmita, almoço, jantinha ou acompanhar seu espetinho.",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202609241412_18M4_i.jpg",
+          "options": [
+            {
+              "name": "Aumente sua porção!",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Porção de 500g",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Espetinhos Sensacionais",
+      "items": [
+        {
+          "sourceId": "7fe96880-c0b6-4915-81f0-221492d3dfb6",
+          "name": "Espetinho de Pão de Alho",
+          "description": "Pão de Alho dourado e crocante por fora, macio e saboroso por dentro, espetinho perfeito para acompanhar seu churrasco. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231303_IDUK_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4576096a-3495-419b-8bdb-e57597a7be64",
+          "name": "Espetinho de Queijo",
+          "description": "Espetinho de queijo dourado, derretido e cremoso, uma opção deliciosa para os amantes de queijo. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231303_37QI_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e06d03b3-71c6-4e9b-aea1-fd21636de34b",
+          "name": "Espetinho de Carne",
+          "description": "Suculento espetinho de carne, preparado para entregar muito sabor e maciez em cada pedaço. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503221951_3VW6_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "10e4b30c-b323-4574-b851-3f0d264c4c81",
+          "name": "Espetinho de Carne com Bacon",
+          "description": "Delicioso espetinho de carne envolto em bacon, combinando carne suculenta com o sabor marcante do bacon. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231304_F14H_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a6b40832-bc4a-482a-a3fc-70a6c9b33782",
+          "name": "Espetinho de Frango",
+          "description": "Espetinho de frango macio, suculento e bem preparado, uma opção saborosa para sua refeição. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1560,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231304_F547_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c26a3a39-4436-4be4-8c9c-b2503f444cdb",
+          "name": "Espetinho de Frango com Bacon",
+          "description": "Espetinho de frango macio envolto em bacon, uma combinação irresistível de sabores para deixar sua refeição ainda melhor. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231304_8TDE_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "766aac6d-884b-4506-ac60-c25a2cfb2a94",
+          "name": "Espetinho de Kafta",
+          "description": "Kafta temperada e suculenta, com sabor marcante e temperos que deixam o espetinho ainda mais especial. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1560,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231305_5E37_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "8cd6ddc6-82c6-4b30-bfcd-2312185cdbfc",
+          "name": "Espetinho de Linguiça Apimentada",
+          "description": "Linguiça apimentada, suculenta e cheia de sabor, ideal para quem gosta de um toque picante no espetinho. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1560,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231326_016G_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ac5eac9b-62b8-4982-8208-13c0106d3c57",
+          "name": "Espetinho de Linguiça sem Pimenta",
+          "description": "Linguiça suculenta e saborosa, preparada sem pimenta para quem prefere um sabor mais suave e tradicional. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1560,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231326_016G_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "7c044ef1-b250-47b0-b41b-409a815fe74f",
+          "name": "Espetinho de Coração",
+          "description": "Espetinho de coração macio e saboroso, uma opção tradicional para quem aprecia um sabor intenso e irresistível. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231325_2547_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e2b4ed8e-2a83-4c5c-9e46-08ab2c38a000",
+          "name": "Espetinho de Tulipa",
+          "description": "Tulipa de frango suculenta e bem preparada, perfeita para quem busca um espetinho saboroso e cheio de personalidade. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231326_A74R_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4487ab1c-4f5f-4bc6-951c-24f5ff8e3043",
+          "name": "Espetinho de Cupim",
+          "description": "Espetinho de cupim macio e saboroso, uma excelente escolha para quem aprecia carne bovina suculenta e cheia de sabor. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1920,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503231327_Q8W6_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f58b5a53-8352-4235-8488-7b67603409ed",
+          "name": "Espetinho de Língua",
+          "description": "Espetinho de língua macia e saborosa, uma opção diferenciada para quem aprecia cortes especiais e muito sabor. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1560,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202601032024_VU4B_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "19b5aa44-e7d1-4853-b5d4-8e4e54831d68",
+          "name": "Espetinho de Costela 3 Ripas Bovina",
+          "description": "Espetinho de costela bovina suculenta e saborosa, ideal para quem procura um corte especial para completar a refeição. Acompanha mandioca. Perfeito para pedir individualmente ou como acompanhamento para sua refeição, marmita, almoço ou jantinha.",
+          "priceCents": 1920,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202601032036_N84E_i.jpg",
+          "options": [
+            {
+              "name": "Deseja Talheres?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, desejo talheres.",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Ponto da Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ao Ponto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bem Passado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mal Passado",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "25d47680-6b6a-4c75-bee3-38a3b7c32658",
+          "name": "Água 500ml",
+          "description": "",
+          "priceCents": 529,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232219_OO48_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "5ccb855f-6c7b-401d-8762-b89483a02c35",
+          "name": "Água com Gás 500ml",
+          "description": "",
+          "priceCents": 599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232219_OO48_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "0721413a-f808-48b8-a2e6-db1153119e32",
+          "name": "Água Tônica 350ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232220_2G1P_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4e29e9d2-e17b-440a-b344-18414cc7e435",
+          "name": "H2O 500ml",
+          "description": "",
+          "priceCents": 899,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232224_51HY_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Gaseificadas",
+      "items": [
+        {
+          "sourceId": "ff61ff0d-7dd9-4615-9e7b-81dada36d599",
+          "name": "Coca Cola 310ml",
+          "description": "Refrigerante Coca Cola Lata 310ml",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503242027_Q8QC_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "6869ae03-a5da-4d16-bcef-b827d3b54bbf",
+          "name": "Coca Cola Zero 310ml",
+          "description": "Refrigerante Coca Cola Zero Açúcar de 310 ml",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503242025_XY3D_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "277bfd81-ccfd-465f-b9ff-50a93c26d45b",
+          "name": "Guaraná Antarctica 350ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503242033_6N4Q_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "5ef8fbb8-fd10-4e25-85b5-d2106429e951",
+          "name": "Fanta Laranja 310ml",
+          "description": "",
+          "priceCents": 720,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503242041_SJC2_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "749eba64-784c-454b-b179-f19db899ccec",
+          "name": "Fanta Uva 310ml",
+          "description": "Lata 310ml",
+          "priceCents": 720,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190227_5vc3wqecrmv.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "fcc5d117-c9fb-47e0-ad0a-de72e115f4a7",
+          "name": "Sprite Original 310ml",
+          "description": "Lata 310ml",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190419_5fzjyoovcs6.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "a536a7d0-b82e-47c2-9eb8-80ae8beae232",
+          "name": "Guaraná 1litro",
+          "description": "Garrafa 1l",
+          "priceCents": 1080,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210181754_xsm9mrik64k.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "f1a5d3a4-1601-4a5b-a8cd-aeb46a05018f",
+          "name": "Guaraná 1.5l",
+          "description": "",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503242023_B12G_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "d2d82590-cb25-4249-a708-8fdff47c29b1",
+          "name": "Coca Cola 1.5l",
+          "description": "Refrigerante Coca Cola Garrafa de 1,5 Litro",
+          "priceCents": 1440,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503242011_1DVP_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "dd605b33-fd86-4df9-908e-d6fae10391cb",
+          "name": "Refrigerante Zero Açúcar Coca Cola 1,5l",
+          "description": "",
+          "priceCents": 1440,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202405220939_wrhm38qj0e.png",
+          "options": []
+        },
+        {
+          "sourceId": "3e071137-882c-4419-b814-1ef5a186d23c",
+          "name": "Sprite 1,5l",
+          "description": "Garrafa 1,5l",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210192214_kxa3oygdv78.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "0b3431df-84e2-4fb7-a911-2d849e227e20",
+          "name": "Fanta Laranja 1,5l",
+          "description": "Garrafa 1,5l",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180103_5boiqk0yd7x.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "956fc6a0-98b3-4410-bd5b-31d644a79896",
+          "name": "Fanta Uva 1,5l",
+          "description": "Garrafa 1,5l",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190058_v5z8hxe5oeb.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "69af6194-dc9b-44dc-aad8-35a568a9ea2f",
+          "name": "Suco de Uva Lata 290ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202601032223_BX45_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "758124a4-82ba-4262-a329-ee9e7f11ac1b",
+          "name": "Suco de Maracujá Lata 290ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202601032224_E6G3_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "bd4d7eec-fda3-4b47-acd2-6c186bd0d5f9",
+          "name": "Suco de Pêssego Lata 290ml",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202601032225_10CH_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Alcoólicos",
+      "items": [
+        {
+          "sourceId": "03ca9945-221a-4548-a200-a52bbec746a9",
+          "name": "Brahma Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232205_0K1G_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "9cec560c-098f-46c1-9b45-fb94cfeebda6",
+          "name": "Skol Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232205_U6WT_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ce343784-86f0-43df-b0c3-1c735a4e834b",
+          "name": "Original Lata",
+          "description": "",
+          "priceCents": 720,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232204_3DLR_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "20ccc456-7f11-4357-a96a-4bd29198203c",
+          "name": "Heineken Lata",
+          "description": "",
+          "priceCents": 899,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/554794fc-8845-4856-a35e-db6b2dafc763/202503232204_Y70V_i.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (67 itens na loja)."
+  ]
+}

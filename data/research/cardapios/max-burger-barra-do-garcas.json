@@ -1,0 +1,972 @@
+{
+  "id": "max-burger-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/max-burger-jardim-domingos-mariano/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3",
+  "capturedAt": "2026-11-05T01:18:42.214Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Sanduíches De Hamburguer",
+      "items": [
+        {
+          "sourceId": "2712f72d-d82b-4730-ba5b-2555f5875762",
+          "name": "X-Burger",
+          "description": "Pão, Hambúrguer, Presunto e Queijo",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b015382b-08a6-487c-bd62-6bdc3616755b",
+          "name": "Vegetariano",
+          "description": "Pão, 2 Fatias de Queijo, Ovo, Batata Palha, Tomate, Alface e Milho",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c2589d6a-78ce-432c-9155-382a92014a88",
+          "name": "X-Salada",
+          "description": "Pão, Hambúrguer, Queijo, Presunto, Ovo, Tomate, Alface e Milho",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202604161808_7B64_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a8781fa6-2dbc-42c8-a172-a31412544802",
+          "name": "X-Bacon",
+          "description": "Pão, Hambúrguer, Queijo, Presunto, Bacon, Ovo, Tomate, Alface e Milho",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202604161828_2772_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4b82e9ba-d1b7-4473-a960-53cb0465a7c8",
+          "name": "X-Calabresa",
+          "description": "Pão, Hambúrguer, Queijo, Presunto, Calabresa, Ovo, Tomate, Alface e Milho",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202604161845_J5OA_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f9443488-ff51-4ec7-8a75-1cda72c7a220",
+          "name": "Max-Moda",
+          "description": "Pão, Hambúrguer, Queijo, Presunto, Bacon, Salsicha, Tomate, Alface e Milho",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ecbdd436-4aef-4ff1-a772-c3b0c45ff21a",
+          "name": "Max-Tudo",
+          "description": "Pão, Hambúrguer, Queijo, Presunto, Bacon, Calabresa, Ovo, Salsicha, Batata Palha, Tomate, Alface e Milho",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202604161821_636T_i.jpg",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b3f0d088-8106-4f05-a9fe-2f2c3092d935",
+          "name": "Max-Cademia",
+          "description": "Pão, Hambúrguer, 4 Fatias de Queijo, Tomate, Alface e Milho",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a2db8342-382e-4696-aba8-4c6bdf8f3067",
+          "name": "Big Tudo",
+          "description": "Pão, 2 Hambúrguer, 2 Salsichas, Queijo, Presunto, Bacon, Calabresa, Ovo, Batata Palha, Tomate, Alface e Milho",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b71b7be5-f5a9-4003-983c-61aa7c7b6b8f",
+          "name": "Max Burger",
+          "description": "Pão, 3 Hambúrguer, Queijo, Presunto, Bacon, Calabresa, Ovo, Salsicha, Batata Palha, Tomate, Alface e Milho",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Muçarela",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sanduíches De Filé de Frango",
+      "items": [
+        {
+          "sourceId": "316cf540-303d-408a-be11-242731dc30ac",
+          "name": "X-Burger Frango",
+          "description": "Pão, Filé de Frango, Presunto e Queijo",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "9efa63ba-91ae-4bfe-99ac-6a2ba3ad3574",
+          "name": "X-Salada Frango",
+          "description": "Pão, Filé de Frango, Queijo, Presunto, Ovo, Tomate, Alface e Milho",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "c051b1c3-e9d1-4145-8805-3486e1545d38",
+          "name": "X-Frango Bacon",
+          "description": "Pão, Filé de Frango, Queijo, Presunto, Bacon, Ovo, Tomate, Alface e Milho",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "83086fb8-a451-4879-92b3-664ab9f9854b",
+          "name": "X-Frango Calabresa",
+          "description": "Pão, Filé de Frango, Queijo, Presunto, Calabresa, Ovo, Tomate, Alface e Milho",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "22f96540-a694-4bdd-9b78-33d2e60bca10",
+          "name": "Max-Moda Frango",
+          "description": "Pão, Filé De Frango, Presunto e Queijo, Bacon, Salsicha, Tomate, Alface e Milho",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "172cdeb9-9052-48cd-8bcf-2bcc3d9fdc99",
+          "name": "Max-Frango Tudo",
+          "description": "Pão, Filé de Frango, Queijo, Presunto, Bacon, Calabresa, Ovo, Salsicha, Batata Palha, Tomate, Alface e Milho",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "82765c8f-fa97-4b48-b4fd-c045e0620e48",
+          "name": "Max-Frango Academia",
+          "description": "Pão, 3 Filé de Frango, 4 Fatias de Queijo, Tomate, Alface e Milho",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b4144bac-b4fe-4107-8979-f68f15342a86",
+          "name": "Big Frango Tudo",
+          "description": "Pão, 2 Filé de Frango, 2 Salsichas, Queijo, Presunto, Bacon, Calabresa, Ovo, Batata Palha, Tomate, Alface e Milho",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "f7e09d4a-37c1-47fc-bc61-68d3490988af",
+          "name": "Max Frango Burger",
+          "description": "Pão, 3 Filé de Frango, Queijo, Presunto, Bacon, Calabresa, Ovo, Salsicha, Batata Palha, Tomate, Alface e Milho",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "c1f77686-8b35-4afd-a512-f03af8a5c61a",
+          "name": "Batata Frita 300g",
+          "description": "Porção de 300g de batatas",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052300_3113_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "d463bdb6-e469-49a0-a0f4-27d629293b03",
+          "name": "Batata Frita 500g",
+          "description": "Porção de 500g de batatas",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052301_G4J6_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "8f81ca22-791e-46df-84e9-232748cbde8b",
+          "name": "Batata Frita 300g Especial",
+          "description": "Porção de 300g de batatas Com Muçarela, Bacon e Calabresa",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "7468dbbc-d4be-4710-b121-c7d747436a8d",
+          "name": "Batata Frita 500g Especial",
+          "description": "Porção de 500g de batatas Com Muçarela, Bacon e Calabresa",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "258ab263-00ac-40e5-9b70-352b45628f0d",
+          "name": "Calabresa 300g",
+          "description": "Porção de 300g de Calabresa",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai",
+      "items": [
+        {
+          "sourceId": "eb843f5f-d296-4877-8519-f01df6536dd6",
+          "name": "Açaí 300ml",
+          "description": "Leite Condensado, Leite em Pó, Paçoca, Granola E Banana",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1a4bd84f-6bc5-465c-99a4-c93de91f6223",
+          "name": "Açaí 500ml",
+          "description": "Leite Condensado, Leite em Pó, Paçoca, Granola E Banana",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes e Água",
+      "items": [
+        {
+          "sourceId": "8a4c3b7d-e860-435f-8a5a-bd0e9e30d71a",
+          "name": "Água Sem Gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252226_R89G_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "33cf9b8b-6b50-479e-86a9-002730c1a3eb",
+          "name": "Fanta Laranja Lata 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252213_I0ZN_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "ecb8b244-d218-46fc-8c52-2f9a0048fcfd",
+          "name": "Sprit Lata 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252208_XTFZ_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "a93eb7d8-bfcf-421f-8480-aaa8cfb04eb4",
+          "name": "Coca Cola Lata 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252158_3X3K_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "629de811-11a3-44f0-90d2-2f496475ae25",
+          "name": "Coca Cola Zero Lata 310ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252158_DZ73_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "45411abe-260d-4fb0-b4a0-d53cf2ee87b5",
+          "name": "Guaraná 1l",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252158_G0B7_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "5e54cb30-020e-4493-90fa-e6cb4d324797",
+          "name": "Coca Cola 1,5l",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252141_D457_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "5209125c-89cd-4077-95ea-8ed802384a9e",
+          "name": "Coca Cola Zero 1,5l",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605252131_DB9D_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "e55d36f5-3c00-4429-a9ec-e14e3314dae6",
+          "name": "Suco de Maracujá",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052241_2EE3_i.jpg",
+          "options": [
+            {
+              "name": "Tamanhos",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "1l",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0197de43-fb21-435c-a7e9-6a9c7b7e350b",
+          "name": "Suco de Acerola",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052246_73UH_i.jpg",
+          "options": [
+            {
+              "name": "Tamanhos",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "1l",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "844bd9d7-3d88-41a5-9aa6-694f056a6648",
+          "name": "Suco de Abacaxi",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052248_12N1_i.jpg",
+          "options": [
+            {
+              "name": "Tamanhos",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "1l",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "760a19c4-dc65-4654-9a18-8281bbbf37be",
+          "name": "Suco de Caju",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052252_YU3E_i.jpg",
+          "options": [
+            {
+              "name": "Tamanhos",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 400
+                },
+                {
+                  "name": "1l",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cremes",
+      "items": [
+        {
+          "sourceId": "dcfb47c7-2ec9-4148-ab82-707f928a2615",
+          "name": "Creme de Maracujá",
+          "description": "500ml do mais delicioso creme de maracujá",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052236_1AAW_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "80ea5b07-87dd-40b8-bb0a-d013d0069e72",
+          "name": "Creme de Morango",
+          "description": "500ml do mais delicioso creme de Morango",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3/202605052232_5MVH_i.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (40 itens na loja).",
+    "\"Suco de Maracujá\": cada opção de \"Tamanhos\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Suco de Acerola\": cada opção de \"Tamanhos\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Suco de Abacaxi\": cada opção de \"Tamanhos\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Suco de Caju\": cada opção de \"Tamanhos\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador."
+  ]
+}

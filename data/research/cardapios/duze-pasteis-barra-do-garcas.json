@@ -1,0 +1,1423 @@
+{
+  "id": "duze-pasteis-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/duze-pasteis-jardim-ouro-fino/72622860-103d-4737-a577-3331168f57ba",
+  "capturedAt": "2026-11-05T01:15:01.124Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Pastéis Especiais",
+      "items": [
+        {
+          "sourceId": "1ba729a6-40a5-47dd-9a99-150ec59d96e4",
+          "name": "Carne Seca",
+          "description": "Carne seca desfiada, Catupiry, queijo e cheiro Verde.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607281418_BY5E_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "8630ecdc-06c3-402d-880e-144e4f51b5cd",
+          "name": "Portuguesa",
+          "description": "Carne, apresuntado. Ovo, azeitona, cebola e cheiro Verde.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607281422_V144_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pasteis Salgados",
+      "items": [
+        {
+          "sourceId": "69eba0c6-1d27-4ac0-93ad-715b269a440d",
+          "name": "Carne",
+          "description": "Carne moída, cheiro Verde, cebola e tomate picado.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221502_XYC0_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "8683256d-5b53-48fe-92fd-7ca73aba0ea9",
+          "name": "Carne e Queijo",
+          "description": "Carne moída, muçarela, cheiro verde, cebola e tomate picado.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221539_08TR_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6df8990d-8cd9-4156-a222-8a43d71b4717",
+          "name": "Frango",
+          "description": "Frango desfiado, cheiro verde, cebola e tomate picado.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221504_4MP8_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "434c4782-d6d1-4cd6-8dd8-4b71ac668400",
+          "name": "Frango e Queijo",
+          "description": "Frango desfiado, muçarela, cheiro verde, cebola e tomate picado.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221539_Y6H5_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2bb7d4a3-cc69-45c4-bfda-2be0b5f16327",
+          "name": "Pizza",
+          "description": "Apresuntado, muçarela, tomate, orégano.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221539_8Q84_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "09ce2f56-3532-4fe0-86e2-7a2bd7ba4c68",
+          "name": "Calabresa",
+          "description": "Calabresa, Muçarela, cheiro verde, cebola e tomate picado e orégano.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221539_UB6C_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c46adaf9-5661-4e6f-a9c0-6d3458df737e",
+          "name": "Queijo",
+          "description": "Queijo Muçarela",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221540_2L2Y_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1d67fe94-8b9f-4285-9835-a5a07da62cb7",
+          "name": "Apresuntado e Queijo",
+          "description": "Apresuntado e muçarela.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221540_FHE7_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ba537c1c-fe48-45cb-88a8-bae65b9fa73b",
+          "name": "Bacon e Queijo",
+          "description": "Bacon em cubo, muçarela.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221505_2G01_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de Sachê?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sim, Quero Sachê.",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Não Quero Sachê, Obrigado (a).",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicional Pastéis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Molho Verde Pote 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Crem Cheese 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mussarela 30gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Carne Moída 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Apresuntado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado 40gr",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Guariroba 30gr",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ovo Picado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Milho 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Azeitona 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Ervilha 20gr",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Tomate Picado 20gr",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cebola Picada",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Cheiro Verde C/ Coentro",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Orégano",
+                  "priceCents": 100
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pasteis Doces",
+      "items": [
+        {
+          "sourceId": "1b884cda-2000-4d4c-86a3-f2061973ad81",
+          "name": "Nutella e Morango",
+          "description": "Nutella com Morango.",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202608291408_580H_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "a7583737-7801-43c9-96ed-a06818a67299",
+          "name": "Nutella e Banana",
+          "description": "Nutella com banana.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221540_8LPR_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "93b907e4-e639-45c6-9208-ac158c19d76e",
+          "name": "Romeu e Julieta",
+          "description": "Queijo muçarela e goiabada.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221541_2615_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "998b85b5-1643-4f8f-8ff6-4261ebd7b270",
+          "name": "Kitkat",
+          "description": "Muçarela com Kitkat e banana.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221541_14G8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4c9f3a02-aab5-42d1-a11b-94449b6b2ce2",
+          "name": "Doce de Leite e Banana",
+          "description": "Doce de leite com banana.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221541_K485_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "28b59766-238d-41fd-8b96-561bf2d35c19",
+          "name": "Suco Natural Laranja",
+          "description": "500ml",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221557_CT57_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "9e0f7e83-752f-449c-b5b7-cae63a77b8bd",
+          "name": "Suco Natural Maracujá",
+          "description": "500ml",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221558_IBIW_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "f7c2e588-0b5b-40e6-8dfc-56372d80255d",
+          "name": "Suco Natural Abacaxi",
+          "description": "500ml",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202607221558_TKM4_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "8728bf42-f3e1-4c7a-82f0-b25ec41eaa5f",
+          "name": "Suco Polpa - Acerola",
+          "description": "Garrafa de 500ml. Suco de polpa de acerola, refrescante e saboroso, preparado na hora para garantir aquele gostinho irresistível da fruta.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202608221428_MUY8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "770b0e15-c7ba-4d4b-b1b7-8f981eff1006",
+          "name": "Suco Polpa - Cupuaçu",
+          "description": "Garrafa de 500ml. Suco de polpa de cupuaçu, cremoso e refrescante, preparado na hora para você. Uma opção deliciosa para acompanhar sua refeição.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202608221422_F6B7_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "0c4bf09c-3528-44fb-b8c3-f858f261d797",
+          "name": "Suco Polpa - Morango",
+          "description": "Garrafa de 500ml. Suco de polpa de morango, delicioso, refrescante e preparado na hora, com o sabor marcante e irresistível da fruta.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202608221423_0031_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "6f7da222-2c9b-4bd8-81b9-a7055d3eab2e",
+          "name": "Suco Polpa - Amora",
+          "description": "Garrafa de 500ml. Suco de polpa de amora, refrescante e saboroso, preparado na hora com o delicioso sabor da fruta. Uma opção perfeita para acompanhar sua refeição.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/72622860-103d-4737-a577-3331168f57ba/202608221423_SA8K_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "a10c1fea-a25e-4bdf-b00b-a7ca88d79829",
+          "name": "Coca Cola 310 Ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202511281459_w83345k9okd.png",
+          "options": []
+        },
+        {
+          "sourceId": "4b9e6488-39dc-48b8-8feb-b08e0cad5019",
+          "name": "Refrigerante Coca-Cola Zero Lata 310ml",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202604221111_zrqk1oodgq.png",
+          "options": []
+        },
+        {
+          "sourceId": "19ffe2d3-ed22-4180-85a2-73e4907efde0",
+          "name": "Fanta Laranja 310ml",
+          "description": "Lata 310ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190227_f0kxwsxba5k.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "873382d2-26d6-4252-8d28-ecfdd21c0dfb",
+          "name": "Refrigerante Guaraná Antarctica Lata 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202302231327_s871e9d8h5.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "eda63d06-6cde-4acf-996b-e307cd048054",
+          "name": "Água Mineral com Gás Puríssima 500ml",
+          "description": "Embalagem 500ml",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202304041128_xnnix7gf46m.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (28 itens na loja)."
+  ]
+}

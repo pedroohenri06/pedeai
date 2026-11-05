@@ -1,0 +1,6051 @@
+{
+  "id": "di-matteo-acai-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/di-matteo-acai---barra-do-garcas-setor-sul-i/e13450df-dfe4-4fcf-9e90-16806486cc2a",
+  "capturedAt": "2026-11-05T01:14:32.580Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Quarta Gourmet",
+      "items": [
+        {
+          "sourceId": "7f8d721e-9690-4a52-bc75-6aea6de7ee27",
+          "name": "Quarta Gourmet",
+          "description": "Açaí cremoso com 1x Creme de Pistache, 1x Ninho Gourmet e 1x Morangos fresquinhos. Uma combinação irresistível pra sua quarta ser ainda mais deliciosa!",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202507261146_5YSC_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Novidades Di Matteo",
+      "items": [
+        {
+          "sourceId": "95e5cd8e-2af5-49f7-b6db-129cd015e88f",
+          "name": "Açai - Super Promoção",
+          "description": "Monte do seu jeito, selecione o tamanho do copo e os adicionais que deseja!",
+          "priceCents": 1799,
+          "originalPriceCents": 2199,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202407301416_WOL0_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "#Tigela de 200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "#Tigela de 300ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "#Tigela de 500ml",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2600
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "62946914-e2e2-4f32-81db-89809f33af7c",
+          "name": "Açaí com Pistache",
+          "description": "Açaí cremoso Di Matteo com pistache, A tigela de 200ml já vem com 30g de pistache incluso, somente acima da tigela ou copo. Ao escolher copos maiores, a quantidade de pistache permanece 30g.",
+          "priceCents": 2299,
+          "originalPriceCents": 3099,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202601210948_II4Q_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "#Tigela de 200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "#Tigela de 300ml",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "#Tigela de 500ml",
+                  "priceCents": 1600
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2600
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "910cd767-e44b-468f-9c7a-a2bbbe09104c",
+          "name": "Copo Di Matteo Duo",
+          "description": "O Copo Di Matteo Duo chegou para transformar cada colherada em uma explosão de sabor: a crocância do Bis Preto, a intensidade do Creme de Avelã Di Matteo e toda a cremosidade do Ninho Gourmet em uma combinação perfeita. O nome Duo representa a união de dois cremes irresistíveis, que se complementam para entregar uma experiência ainda mais marcante e cheia de sabor.",
+          "priceCents": 3899,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202607221016_170M_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo e 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c36fe25a-20cf-4882-9616-fdd7d735e9d7",
+          "name": "Milk Shake de Limão Suíço",
+          "description": "Refrescante, cremoso e surpreendente: o equilíbrio perfeito do doce com o cítrico. Novidade Por Tempo Limitado!",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202603100924_W5IL_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Ninho",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "06c696dc-abf1-4102-99ce-0667d8e1ab17",
+          "name": "Milkshake de Açaí",
+          "description": "Milkshake de Açaí Di Matteo: cremosidade irresistível e o sabor marcante do açaí Di Matteo em uma combinação perfeita para refrescar e deixar seu momento ainda mais gostoso.",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202610050924_Q5TE_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mais Pedidos da Di Matteo",
+      "items": [
+        {
+          "sourceId": "c0995941-029e-4b85-b14e-4cab987e3738",
+          "name": "Açaí + 3 adicionais grátis",
+          "description": "Escolha o tamanho do seu Di Matteo + 3 adicionais grátis deliciosos para você turbinar seu açaí!",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e13450df-dfe4-4fcf-9e90-16806486cc2a/202601231045_JVXP_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus 3 adicionais grátis",
+              "min": 3,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f8cf215c-87d6-4ddb-b656-a09fb980c2a7",
+          "name": "Açaí Premium + 3 adicionais grátis",
+          "description": "Escolha o tamanho do seu Di Matteo com 3 adicionais grátis premium para você turbinar seu açaí!",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e13450df-dfe4-4fcf-9e90-16806486cc2a/202601231045_BC1C_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus 3 adicionais premium grátis",
+              "min": 3,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "7bd0b005-345e-47e2-a634-cf4ffc13aac4",
+          "name": "Açai de 500ml com +5 adicionais grátis",
+          "description": "Escolha o tamanho do seu Di Matteo com até +5 adicionais grátis deliciosos para você turbinar seu açaí!",
+          "priceCents": 3699,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/425e8831-93eb-4394-bb77-c28ee36165c6/202606241217_3HI1_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus adicionais grátis",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f919a6c3-134a-48b4-b759-e65216fa55d9",
+          "name": "Açaí Premium de 500ml com + 5 adicionais grátis",
+          "description": "Escolha o tamanho do seu Di Matteo com até 5 adicionais grátis premium para você turbinar seu açaí!",
+          "priceCents": 4299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/425e8831-93eb-4394-bb77-c28ee36165c6/202606241204_43R5_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Escolha seus adicionais premium grátis",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocoball",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monte seu Di Matteo",
+      "items": [
+        {
+          "sourceId": "3ce41ff9-b885-402c-b755-97ccf657a432",
+          "name": "Açaí",
+          "description": "Monte do seu jeito, selecione o tamanho do copo e os adicionais que deseja!",
+          "priceCents": 2199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202407301416_WOL0_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "#Tigela de 200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "#Tigela de 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "#Tigela de 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2200
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a2a2265b-6cb7-4f94-a8ad-99d142b229bd",
+          "name": "Açaí Low Sugar",
+          "description": "Açaí com menor adição de açúcares, pensado para quem busca uma opção mais leve, mantendo sabor e cremosidade. *Este produto não é indicado para dietas restritivas.",
+          "priceCents": 2499,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202603201124_JMP4_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "#Tigela 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "#Tigela de 500ml",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5740368a-54f8-44b8-a2fe-be2f66452c25",
+          "name": "#Cupuaçu",
+          "description": "Monte do seu jeito, selecione o tamanho do copo e os adicionais que deseja!",
+          "priceCents": 2199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202407301119_WGU2_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "#Tigela 200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "#Tigela 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "#Tigela 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2200
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2d41a6cf-a089-498a-846c-8ce91ff1c2e1",
+          "name": "#Casadinho (Cupuaçu e Açaí)",
+          "description": "Monte do seu jeito, selecione o tamanho do copo e os adicionais que deseja! Sendo metade Cupuaçu e Açaí.",
+          "priceCents": 2199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202407301512_0EPB_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "#Tigela de 200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "#Tigela de 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "#Tigela de 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2200
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "7c596338-e1b6-442d-8aed-1db068da591e",
+          "name": "Iogurte Grecco",
+          "description": "Monte do seu jeito, selecione o tamanho do copo e os adicionais que deseja! Com o delicioso Iogurte Grecco agora como polpa!",
+          "priceCents": 2199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031540_2NW0_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "#Tigela 200ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "#Tigela de 300ml",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "#Tigela de 500ml",
+                  "priceCents": 1200
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2200
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Copos Clássicos com Descontão!",
+      "items": [
+        {
+          "sourceId": "8106ba32-1365-4261-ac5a-d4972ed14323",
+          "name": "Duplo Grecco",
+          "description": "Açaí com 2x Yogurte Grecco e 1x Creme de Ninho Gourmet",
+          "priceCents": 1999,
+          "originalPriceCents": 4599,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e13450df-dfe4-4fcf-9e90-16806486cc2a/202601201017_3E21_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d7abfa2f-709b-4fa0-b48b-cd13bb662371",
+          "name": "Ninho Cremoso",
+          "description": "Açaí com 1x Ninho gourmet, 1x Leite condensado e 1x Leite em pó. Uma combinação intensa, doce e aveludada, feita para quem busca mais que sabor: uma experiência de puro conforto.",
+          "priceCents": 1999,
+          "originalPriceCents": 3699,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e13450df-dfe4-4fcf-9e90-16806486cc2a/202601201019_4Y0C_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "21066427-c489-4b90-9e54-4b218351a454",
+          "name": "Nuts & Avelã",
+          "description": "Açai com 1x Avelã Di Matteo, 1x Paçoca e 1x Granola. A combinação perfeita entre o crocante, o doce e o intenso sabor do açaí com creme de avelã. Ideal pra quem ama uma experiência marcante e cheia de textura!",
+          "priceCents": 1999,
+          "originalPriceCents": 3449,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e13450df-dfe4-4fcf-9e90-16806486cc2a/202601201021_MBF7_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Experiência Di Matteo",
+      "items": [
+        {
+          "sourceId": "4bdef7b9-04e6-4927-8eed-0775f5987629",
+          "name": "Copo dos Deuses",
+          "description": "Açai com 2x Creme de Pistache, 1x Ninho Gourmet e 1x Morango. Copos mais desejado da Di Matteo que vai elevar seu paladar aos céus.",
+          "priceCents": 4799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202411111808_MLH6_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f76001b6-b712-42c2-a4e0-bd51d9269f75",
+          "name": "Copo da Barbie",
+          "description": "O copo mais pink da Di Matteo, com 1x Mousse de Morango, 1x Morango, 1x Iogurte Grecco e 1x Ouro Branco.",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031455_CDSA_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a58fb180-77a1-4c1d-a1df-eb0b6d500b38",
+          "name": "Cookies de Ninho com Pistache",
+          "description": "A crocância do nosso Cookies de Ninho com creme de Pistache, 1x Cookies de Ninho, 1x Pistache e 1x Uva, uma das combinações mais queridas na Di Matteo.",
+          "priceCents": 4299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031510_SW5M_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ba378057-e709-46bf-841a-21ebf4dc337b",
+          "name": "Copo Pistache Lovers",
+          "description": "Para os verdadeiros Pistache Lovers com 2x Creme de Pistache, 1x Iogurte Grecco, 1x Brigadeiro de Pistache e o 1x Granelatto de Pistache para adicionar a crocância ideal.",
+          "priceCents": 5499,
+          "originalPriceCents": 6500,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031536_T6YH_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "59088e57-e626-4395-8c4d-6807a798b7f9",
+          "name": "Ninho & Avelã",
+          "description": "A combinação perfeita dos nossos cremes exclusivos 1x Avelã Di Matteo, 1x Ninho Gourmet e 1x Leite Ninho",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031506_Y47V_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5e538109-ff3a-4bd7-9822-570a12517594",
+          "name": "Super Ovomaltine",
+          "description": "Para os amantes de Ovomaltine, o Super Ovomaltine vai te surpreender com a combinação de - 1x Ovomaltine Gourmet + 1x Rocks Ovomaltine e 1x Ovomaltine",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031508_68WJ_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "80d9ee7c-8e50-4ddd-99a6-fe7f7d315b16",
+          "name": "Chocolate Trufado",
+          "description": "Especialmente feito para os chocólatras de plantão com 2x avelã Di Matteo + Chocoball + Ovomaltine e Ouro Branco",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031458_7723_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo de 700ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Cremes",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Avelã Di Matteo",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Ninho Gourmet",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Pistache",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Creme Sonho de Valsa",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella Branca",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Leite Ninho C/ Chocolate Branco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Creme Laka",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Iogurte Grecco",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Creme de Ovomaltine Gourmet",
+                  "priceCents": 750
+                },
+                {
+                  "name": "Mousse de Maracujá",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Mousse de Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cookies de Ninho",
+                  "priceCents": 650
+                },
+                {
+                  "name": "Nutella 0 Diet",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 500
+                }
+              ]
+            },
+            {
+              "name": "Diversos",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "name": "Brigadeiro de Pistache",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Granelatto de Pistache",
+                  "priceCents": 700
+                },
+                {
+                  "name": "Leite Condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite Condensado (Moça)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Leite em Pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em Pó Integral (Ninho)",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Granola Tradicional",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Cocco Ralado",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Sucrilhos",
+                  "priceCents": 200
+                }
+              ]
+            },
+            {
+              "name": "Chocolates",
+              "min": 0,
+              "max": 10,
+              "choices": [
+                {
+                  "name": "Bis Preto",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Bis Branco",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Confeti",
+                  "priceCents": 250
+                },
+                {
+                  "name": "Kitkat",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ferrero Rocher",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Ovomaltine",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Rocks Ovomaltine",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Gotas de Chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Choco Ball",
+                  "priceCents": 250
+                }
+              ]
+            },
+            {
+              "name": "Frutas",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cereja",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Adicionais Fit",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Paçoca Fit",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Nutella Fit",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Creme de Amendoim Integral",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Whey Protein",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Milk Shake Di Matteo",
+      "items": [
+        {
+          "sourceId": "8cc7e131-350f-47f5-82b1-a53f05eaa19c",
+          "name": "Milkshake de Maracujá Cremoso",
+          "description": "O sabor do verão chegou à Di Matteo! O Milkshake de Maracujá Cremoso combina o azedinho irresistível da fruta com a cremosidade e o frescor que só o nosso milkshake tem.",
+          "priceCents": 2799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202601051111_AE5U_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f10ec893-e1b9-4458-a4b4-95f19bc951b4",
+          "name": "Milk Shake de Sonho de Valsa",
+          "description": "Sabor do clássico bom bom irresistível.",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/bc0346e5-3ed4-4410-a9ac-7fbd576f4c9a/202508121115_8A6T_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "46f9b3c8-54a0-416f-b2f0-73fa497aad2e",
+          "name": "Milk Shake de Ninho Maltine",
+          "description": "Doçura e crocância em harmonia.",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/bc0346e5-3ed4-4410-a9ac-7fbd576f4c9a/202508121109_24O5_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "66556fc7-78a7-4ead-a494-f95ab91476a1",
+          "name": "Milk Shake de Ninho",
+          "description": "Sabor marcante do Leite Ninho com toque Di Matteo.",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/bc0346e5-3ed4-4410-a9ac-7fbd576f4c9a/202508121113_CCM3_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f25ca921-654b-4011-8e13-969cc0b5dbbd",
+          "name": "Milk Shake de Nutella com Ninho",
+          "description": "Dois clássicos em perfeita sintonia.",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/bc0346e5-3ed4-4410-a9ac-7fbd576f4c9a/202508121106_H1H5_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "878cf127-647d-4a71-b2fd-c421986af32f",
+          "name": "Milk Shake de Pistache",
+          "description": "Cremoso e marcante, para quem ama Pistache Di Matteo.",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/bc0346e5-3ed4-4410-a9ac-7fbd576f4c9a/202508121048_411K_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0bf8bf66-1d90-47fc-9965-2221a7996528",
+          "name": "Milk Shake de Nutella",
+          "description": "Nutella na sua melhor forma para transformar experiências.",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/bc0346e5-3ed4-4410-a9ac-7fbd576f4c9a/202508120908_0LF1_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3d6af783-fe11-4bcd-ae2e-b937743d7697",
+          "name": "Milk Shake de Morango Supremo",
+          "description": "Cremosidade irresistível com o sabor marcante do morango como nunca se viu. Novidade Por Tempo Limitado!",
+          "priceCents": 2799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/bc0346e5-3ed4-4410-a9ac-7fbd576f4c9a/202510020919_33JD_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Copo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo de 300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo de 500ml",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pistache Lover's",
+      "items": [
+        {
+          "sourceId": "70490956-0382-42f9-bd75-f87f42516b2d",
+          "name": "Copo de Pistache Puro - 300ml",
+          "description": "Pistache Puro Di Matteo no copo de 300ml. O autentico e inconfundivel creme de pistache gourmet.",
+          "priceCents": 8999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202407311725_6222_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "af71344b-8527-49ec-8385-6775a60ef5fe",
+          "name": "Brigadeiro de Pistache com 4 un.",
+          "description": "Brigadeiro feito com o sabor inconfundível do creme de Pistache Di Matteo, com nosso granellato de Pistache é a combinação perfeita para quem é Pistache Lover!",
+          "priceCents": 3499,
+          "originalPriceCents": 3996,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202409031413_34X2_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "479f97e2-6766-440c-a05f-2936016790dc",
+          "name": "Combo Pistache Lover's",
+          "description": "2 Copos de Açaí, Com 2x Creme de Pistache, Para os amantes do pistache, 'Pistache Lover's' oferece dois copos generosos de açaí fresco com duas Porções de creme de pistache, criando uma combinação irresistível.",
+          "priceCents": 7999,
+          "originalPriceCents": 8398,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202407171625_2AJN_i.jpg",
+          "options": [
+            {
+              "name": "Escolha o Tamanho do Seu Copo (Copo 1)",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo 300ml (copo 1)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 500ml (copo 1)",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo 700ml (copo 1)",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Escolha o Tamanho do Seu Copo (Copo 2)",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo 300ml (copo 2)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Copo 500ml (copo 2)",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Copo 700ml (copo 2)",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a84b235f-c28c-4e29-a9a4-ed5aae63b526",
+          "name": "Brigadeiro de Pistache Unitário",
+          "description": "O mais amado brigadeiro artesanal com a cremosidade do nosso Pistache e a crocância da castanha de pistache, agora em unidade para você matar aquela vontade de doce. Sendo o queridinho da Di Matteo.",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/dddac8fb-2627-4cfb-bb27-e79a202fcfb2/202507261119_MK82_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "a1d957fc-7e36-4527-864d-6e6bfbd92ff8",
+          "name": "Água Crystal com gás",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "513158c0-49d7-4841-bb0b-b37945fc54b3",
+          "name": "Água Crystal sem gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3b0a3dc7-b20c-4930-b339-95bfcc4bdb45",
+          "name": "Coca-Cola Original 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180219_3yjf6nlpmcl.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "c5cc2086-bedf-4ed3-889b-772540db033e",
+          "name": "Coca-Cola sem Açúcar 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180734_t4nsuhf6m4.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (41 itens na loja)."
+  ]
+}

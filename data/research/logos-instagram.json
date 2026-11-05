@@ -1,1150 +1,1274 @@
 {
-  "_sobre": "Logotipos oficiais tirados da foto de perfil do Instagram de cada loja (prints enviados pelo dono do projeto em 28/10/2026). Arquivos-fonte: recorte circular da foto de perfil ampliada; 'portal-vetor.png' é a renderização do vetor data/research/logos/portal-burguer-grill.svg (o perfil usa uma foto do letreiro). Aplicar com: python3 scripts/apply-logos.py <pasta-com-os-arquivos> Lote de 29/10/2026 (10 cidades): foto de perfil recortada dos prints de data/research/instagram-2026-10-29, ampliada 4x com super-resolução (EDSR) e sem o círculo do Instagram.",
-  "logos": {
-    "sabor-na-brasa-nova-xavantina": {
-      "file": "sabor.png",
-      "instagram": "sabor.na.brasa.26"
-    },
-    "bitus-burguer-nova-xavantina": {
-      "file": "bitus.png",
-      "instagram": "bitusburguer"
-    },
-    "suntzu-sushi-nova-xavantina": {
-      "file": "suntzu.png",
-      "instagram": "suntzusushi"
-    },
-    "1-opcao-lanches-nova-xavantina": {
-      "file": "opcao.png",
-      "instagram": "primeiraopcaolanchesnx"
-    },
-    "portal-burguer-grill-nova-xavantina": {
-      "file": "portal-vetor.png",
-      "instagram": "portalburguergril"
-    },
-    "araguaia-sushi-nx-nova-xavantina": {
-      "file": "araguaia.png",
-      "instagram": "araguaiasushinx"
-    },
-    "sorveteria-creme-mania-nova-xavantina": {
-      "file": "cremamania.png",
-      "instagram": "crememania.nx"
-    },
-    "hatsuki-nova-xavantina-nova-xavantina": {
-      "file": "hatsuki.png",
-      "instagram": "hatsukinovaxavantina"
-    },
-    "kanoa-beach-nova-xavantina": {
-      "file": "kanoa.png",
-      "instagram": "kanoa.nx"
-    },
-    "big-belly-burguer-nova-xavantina": {
-      "file": "bigbelly.png",
-      "instagram": "bigbelly_burgernx"
-    },
-    "tribo-do-acai-nova-xavantina": {
-      "file": "tribo.png",
-      "instagram": "tribodoacainx"
-    },
-    "nexy-acai-nova-xavantina": {
-      "file": "nexy-acai-nova-xavantina.png",
-      "instagram": "nexyacai",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "pizza-grill-delivery-nova-xavantina": {
-      "file": "pizzagrill.png",
-      "instagram": "pizza_grilldelivery"
-    },
-    "gran-pizza-nova-xavantina": {
-      "file": "granpizza.png",
-      "instagram": "granpizzanx"
-    },
-    "frescor-acaiteria-nova-xavantina": {
-      "file": "frescor-acaiteria-nova-xavantina.png",
-      "instagram": "frescoracaiterianx",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "acai-raiz-do-para-nova-xavantina": {
-      "file": "acairaiz.png",
-      "instagram": "souacairaiz"
-    },
-    "acai-foods-crepe-mania-nova-xavantina": {
-      "file": "crepemania.png",
-      "instagram": "acaifoods.crepemania"
-    },
-    "the-best-acai-nova-xavantina": {
-      "file": "thebest.png",
-      "instagram": "franqueado_the_best_acai_nx"
-    },
-    "bocao-lanches-ab-agua-boa": {
-      "file": "bocao-lanches-ab-agua-boa.png",
-      "instagram": "bocaolanches.ab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "okane-sushi-agua-boa": {
-      "file": "okane-sushi-agua-boa.png",
-      "instagram": "okanesushi.ab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "caipirao-restaurante-agua-boa": {
-      "file": "caipirao-restaurante-agua-boa.png",
-      "instagram": "caipiraoaguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "du-matuto-bar-cozinha-agua-boa": {
-      "file": "du-matuto-bar-cozinha-agua-boa.png",
-      "instagram": "dumatuto",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "mordidela-food-agua-boa": {
-      "file": "mordidela-food-agua-boa.png",
-      "instagram": "mordidelaaguaboamt",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "brasa-som-agua-boa": {
-      "file": "brasa-som-agua-boa.png",
-      "instagram": "brasaesom",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/brasa-som-agua-boa.svg"
-    },
-    "kaingo-acai-agua-boa": {
-      "file": "kaingo-acai-agua-boa.png",
-      "instagram": "kaingo.aguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/kaingo-acai-agua-boa.svg"
-    },
-    "eskimo-sorvetes-agua-boa": {
-      "file": "eskimo-sorvetes-agua-boa.png",
-      "instagram": "eskimosorvetesaguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/eskimo-sorvetes-agua-boa.svg"
-    },
-    "la-casa-de-acai-agua-boa": {
-      "file": "la-casa-de-acai-agua-boa.png",
-      "instagram": "lacasadeacaiab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "lanchonete-e-sorveteria-rodoviaria-agua-boa": {
-      "file": "lanchonete-e-sorveteria-rodoviaria-agua-boa.png",
-      "instagram": "lanchonete_rodoviariaab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "ms-espeto-burguer-grill-agua-boa": {
-      "file": "ms-espeto-burguer-grill-agua-boa.png",
-      "instagram": "msespertoeburguergrillab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/ms-espeto-burguer-grill-agua-boa.svg"
-    },
-    "oishi-sushi-nova-xavantina-nova-xavantina": {
-      "file": "oishinx.png",
-      "instagram": "oishisushinx"
-    },
-    "pizzaria-bendita-agua-boa": {
-      "file": "pizzaria-bendita-agua-boa.png",
-      "instagram": "pizzariabendita",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/pizzaria-bendita-agua-boa.svg"
-    },
-    "tia-do-lanche-agua-boa": {
-      "file": "tia-do-lanche-agua-boa.png",
-      "instagram": "tiadolancheab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/tia-do-lanche-agua-boa.svg"
-    },
-    "tenda-restaurant-and-grill-agua-boa": {
-      "file": "tenda-restaurant-and-grill-agua-boa.png",
-      "instagram": "tendaaguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "galeria-espeto-agua-boa": {
-      "file": "galeria-espeto-agua-boa.png",
-      "instagram": "galeria_espeto",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "oishi-sushi-agua-boa-agua-boa": {
-      "file": "oishi-sushi-agua-boa-agua-boa.png",
-      "instagram": "oishisushiab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/oishi-sushi-agua-boa-agua-boa.svg"
-    },
-    "pizzaria-fornalha-agua-boa": {
-      "file": "pizzaria-fornalha-agua-boa.png",
-      "instagram": "fornalha_ab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/pizzaria-fornalha-agua-boa.svg"
-    },
-    "ds-burguer-agua-boa": {
-      "file": "ds-burguer-agua-boa.png",
-      "instagram": "ds_burguer_",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "frutos-de-goias-agua-boa-agua-boa": {
-      "file": "frutos-de-goias-agua-boa-agua-boa.png",
-      "instagram": "frutosdegoiasaguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "magnolia-confeitaria-e-cafe-agua-boa": {
-      "file": "magnolia-confeitaria-e-cafe-agua-boa.png",
-      "instagram": "magnoliaconfeitariaa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/magnolia-confeitaria-e-cafe-agua-boa.svg"
-    },
-    "hamburgueria-raiz-agua-boa": {
-      "file": "hamburgueria-raiz-agua-boa.png",
-      "instagram": "hamburgueriaraiz_",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "d-talia-agua-boa-agua-boa": {
-      "file": "d-talia-agua-boa-agua-boa.png",
-      "instagram": "dtaliaaguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/d-talia-agua-boa-agua-boa.svg"
-    },
-    "o-grego-lanches-agua-boa": {
-      "file": "o-grego-lanches-agua-boa.png",
-      "instagram": "ogrego_lanches",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "atlas-sorveteria-e-acai-agua-boa": {
-      "file": "atlas-sorveteria-e-acai-agua-boa.png",
-      "instagram": "atlassorveteria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "booba-sorveteria-doceria-agua-boa": {
-      "file": "booba-sorveteria-doceria-agua-boa.png",
-      "instagram": "booba_sorvete",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "cantina-das-massas-agua-boa": {
-      "file": "cantina-das-massas-agua-boa.png",
-      "instagram": "cantina_dass_massas",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "bom-manjare-agua-boa": {
-      "file": "bom-manjare-agua-boa.png",
-      "instagram": "bom_manjare_ab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "golden-bird-agua-boa": {
-      "file": "golden-bird-agua-boa.png",
-      "instagram": "goldenbirdab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/golden-bird-agua-boa.svg"
-    },
-    "the-best-acai-agua-boa-agua-boa": {
-      "file": "the-best-acai-agua-boa-agua-boa.png",
-      "instagram": "thebestacaiaguaboa_mt",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/the-best-acai-agua-boa-agua-boa.svg"
-    },
-    "rei-burguer-agua-boa": {
-      "file": "rei-burguer-agua-boa.png",
-      "instagram": "reiburguerr",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "karamello-s-confeitaria-cafe-agua-boa": {
-      "file": "karamello-s-confeitaria-cafe-agua-boa.png",
-      "instagram": "karamellosab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "jah-acai-e-sorvetes-agua-boa": {
-      "file": "jah-acai-e-sorvetes-agua-boa.png",
-      "instagram": "jah_aguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/jah-acai-e-sorvetes-agua-boa.svg"
-    },
-    "golden-hamburgueria-agua-boa": {
-      "file": "golden-hamburgueria-agua-boa.png",
-      "instagram": "goldenhamburgueriaab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/golden-hamburgueria-agua-boa.svg"
-    },
-    "pub-goiano-agua-boa": {
-      "file": "pub-goiano-agua-boa.png",
-      "instagram": "pubgoianoab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "doces-do-vale-agua-boa": {
-      "file": "doces-do-vale-agua-boa.png",
-      "instagram": "doce.sdovale",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/doces-do-vale-agua-boa.svg"
-    },
-    "delicias-da-jujuzinha-agua-boa": {
-      "file": "delicias-da-jujuzinha-agua-boa.png",
-      "instagram": "deliciasdajujuzinhaa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "caseiro-s-marmitaria-agua-boa": {
-      "file": "caseiro-s-marmitaria-agua-boa.png",
-      "instagram": "caseiros_marmitaria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "espetinho-do-jorge-agua-boa": {
-      "file": "espetinho-do-jorge-agua-boa.png",
-      "instagram": "espetinhodojorgeab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "chiquinho-sorvetes-agua-boa-agua-boa": {
-      "file": "chiquinho-sorvetes-agua-boa-agua-boa.png",
-      "instagram": "chiquinhoaguaboa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/chiquinho-sorvetes-agua-boa-agua-boa.svg"
-    },
-    "burguerzia-agua-boa": {
-      "file": "burguerzia-agua-boa.png",
-      "instagram": "burguerzia.ab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "restaurante-alecrim-agua-boa": {
-      "file": "restaurante-alecrim-agua-boa.png",
-      "instagram": "restaurante_alecrimab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/restaurante-alecrim-agua-boa.svg"
-    },
-    "creme-mania-sorvetes-agua-boa": {
-      "file": "creme-mania-sorvetes-agua-boa.png",
-      "instagram": "crememaniaab",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "agua-verde-espetaria-e-terere-delivery-barra-do-garcas": {
-      "file": "agua-verde-espetaria-e-terere-delivery-barra-do-garcas.png",
-      "instagram": "aguaverdee",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "dantes-barra-do-garcas": {
-      "file": "dantes-barra-do-garcas.png",
-      "instagram": "dantes.bg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/dantes-barra-do-garcas.svg"
-    },
-    "emporio-pizzaria-barra-barra-do-garcas": {
-      "file": "emporio-pizzaria-barra-barra-do-garcas.png",
-      "instagram": "emporiopizzariabarra",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "le-monde-burguer-hamburgueria-barra-do-garcas": {
-      "file": "le-monde-burguer-hamburgueria-barra-do-garcas.png",
-      "instagram": "lemondeburguer",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/le-monde-burguer-hamburgueria-barra-do-garcas.svg"
-    },
-    "marmitaria-da-barra-barra-do-garcas": {
-      "file": "marmitaria-da-barra-barra-do-garcas.png",
-      "instagram": "marmitariadabarra",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "pizzaria-coqueiros-barra-do-garcas": {
-      "file": "pizzaria-coqueiros-barra-do-garcas.png",
-      "instagram": "pizzariacoqueiros",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/pizzaria-coqueiros-barra-do-garcas.svg"
-    },
-    "sushi-loko-barra-do-garcas-barra-do-garcas": {
-      "file": "sushi-loko-barra-do-garcas-barra-do-garcas.png",
-      "instagram": "sushilokomt",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas": {
-      "file": "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas.png",
-      "instagram": "zhu.marmitas",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas.svg"
-    },
-    "panificadora-sao-paulo-barra-do-garcas": {
-      "file": "panificadora-sao-paulo-barra-do-garcas.png",
-      "instagram": "panificadora.saopaulo",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/panificadora-sao-paulo-barra-do-garcas.svg"
-    },
-    "madrugordao-lanches-barra-do-garcas": {
-      "file": "madrugordao-lanches-barra-do-garcas.png",
-      "instagram": "madrugordao_bg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "jose-lanches-barra-do-garcas": {
-      "file": "jose-lanches-barra-do-garcas.png",
-      "instagram": "jose_lanches_bg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "ponto-burguer-ponto-do-hamburguer-barra-do-garcas": {
-      "file": "ponto-burguer-ponto-do-hamburguer-barra-do-garcas.png",
-      "instagram": "ponto.burguerbg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "062-burguer-barra-do-garcas": {
-      "file": "062-burguer-barra-do-garcas.png",
-      "instagram": "062burguer",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "ponto-do-acai-barra-do-garcas": {
-      "file": "ponto-do-acai-barra-do-garcas.png",
-      "instagram": "acaipontobg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "acai-royal-delivery-barra-do-garcas": {
-      "file": "acai-royal-delivery-barra-do-garcas.png",
-      "instagram": "acairoyal__",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "leo-pasteis-saltenhas-barra-do-garcas": {
-      "file": "leo-pasteis-saltenhas-barra-do-garcas.png",
-      "instagram": "pastelariadoleobg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/leo-pasteis-saltenhas-barra-do-garcas.svg"
-    },
-    "frutos-de-goias-sorveteria-barra-do-garcas": {
-      "file": "frutos-de-goias-sorveteria-barra-do-garcas.png",
-      "instagram": "frutosdegoiasbgoficial",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "ana-docura-confeitaria-barra-do-garcas": {
-      "file": "ana-docura-confeitaria-barra-do-garcas.png",
-      "instagram": "ana.docura",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "maria-filo-barra-do-garcas": {
-      "file": "maria-filo-barra-do-garcas.png",
-      "instagram": "mariafilo_bg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "bolos-do-sitio-emporio-barra-do-garcas": {
-      "file": "bolos-do-sitio-emporio-barra-do-garcas.png",
-      "instagram": "bolosdositiobarra",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/bolos-do-sitio-emporio-barra-do-garcas.svg"
-    },
-    "doces-da-ana-barra-do-garcas": {
-      "file": "doces-da-ana-barra-do-garcas.png",
-      "instagram": "docesdaanabg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "pizzaria-sabor-carioca-barra-do-garcas": {
-      "file": "pizzaria-sabor-carioca-barra-do-garcas.png",
-      "instagram": "pizzariasaborcariocabg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/pizzaria-sabor-carioca-barra-do-garcas.svg"
-    },
-    "cheff-do-espeto-barra-do-garcas": {
-      "file": "cheff-do-espeto-barra-do-garcas.png",
-      "instagram": "cheffdoespeto_",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "restaurante-buteco-do-bicudo-barra-do-garcas": {
-      "file": "restaurante-buteco-do-bicudo-barra-do-garcas.png",
-      "instagram": "butecodobicudobg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "casarao-beer-churrascaria-barra-do-garcas": {
-      "file": "casarao-beer-churrascaria-barra-do-garcas.png",
-      "instagram": "casaraobeer.bg",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "sintonia-hamburgueria-e-pizzaria-campinapolis": {
-      "file": "sintonia-hamburgueria-e-pizzaria-campinapolis.png",
-      "instagram": "sintoniahamburgueepizzas"
-    },
-    "eclipse-lanchonete-e-pizzaria-campinapolis": {
-      "file": "eclipse-lanchonete-e-pizzaria-campinapolis.png",
-      "instagram": "eclipse.lanchonete"
-    },
-    "pizzaria-d-italia-canarana": {
-      "file": "pizzaria-d-italia-canarana.png",
-      "instagram": "dtalia.canarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/pizzaria-d-italia-canarana.svg"
-    },
-    "chicken-box-canarana-canarana": {
-      "file": "chicken-box-canarana-canarana.png",
-      "instagram": "chickenbox.canarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/chicken-box-canarana-canarana.svg"
-    },
-    "saboritos-burguer-sorveteria-canarana": {
-      "file": "saboritos-burguer-sorveteria-canarana.png",
-      "instagram": "saboritosburguer",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "buxadinha-lanches-canarana": {
-      "file": "buxadinha-lanches-canarana.png",
-      "instagram": "buxadinhaa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/buxadinha-lanches-canarana.svg"
-    },
-    "restaurante-ponto-certo-e-conveniencia-canarana": {
-      "file": "restaurante-ponto-certo-e-conveniencia-canarana.png",
-      "instagram": "restaurantepontocerto2026",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "rossi-batataria-e-pizzaria-canarana": {
-      "file": "rossi-batataria-e-pizzaria-canarana.png",
-      "instagram": "rossibatatariacanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "mordatto-canarana": {
-      "file": "mordatto-canarana.png",
-      "instagram": "mordattohamburgueria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "casa-da-pizza-delivery-canarana": {
-      "file": "casa-da-pizza-delivery-canarana.png",
-      "instagram": "casadapizzacanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "poke-poke-ao-quadrado-canarana": {
-      "file": "poke-poke-ao-quadrado-canarana.png",
-      "instagram": "pokeriacanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/poke-poke-ao-quadrado-canarana.svg"
-    },
-    "suprema-pizza-pastelaria-canarana": {
-      "file": "suprema-pizza-pastelaria-canarana.png",
-      "instagram": "suprema_cnn",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "o-mestre-da-pizza-canarana": {
-      "file": "o-mestre-da-pizza-canarana.png",
-      "instagram": "omestredapizzadelivery",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "massas-delivery-canarana-canarana": {
-      "file": "massas-delivery-canarana-canarana.png",
-      "instagram": "massas_deliverycanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "bruto-espetaria-canarana": {
-      "file": "bruto-espetaria-canarana.png",
-      "instagram": "bruto_espetaria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "churrascaria-do-jiovani-canarana": {
-      "file": "churrascaria-do-jiovani-canarana.png",
-      "instagram": "churrascariadojiovani_canarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/churrascaria-do-jiovani-canarana.svg"
-    },
-    "dona-sonia-restaurante-canarana": {
-      "file": "dona-sonia-restaurante-canarana.png",
-      "instagram": "donasoniarestaurante8",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/dona-sonia-restaurante-canarana.svg"
-    },
-    "acai-das-meninas-canarana": {
-      "file": "acai-das-meninas-canarana.png",
-      "instagram": "acai.das.meninas.ofc",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "la-pastelli-canarana": {
-      "file": "la-pastelli-canarana.png",
-      "instagram": "la_pastellicanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "ale-cafe-emporio-canarana": {
-      "file": "ale-cafe-emporio-canarana.png",
-      "instagram": "alecafeeemporio",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "jah-acai-e-sorvetes-canarana": {
-      "file": "jah-acai-e-sorvetes-canarana.png",
-      "instagram": "jahcanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/jah-acai-e-sorvetes-canarana.svg"
-    },
-    "flomas-burguer-canarana": {
-      "file": "flomas-burguer-canarana.png",
-      "instagram": "flomas_burguer",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "chapa-quente-lanches-canarana": {
-      "file": "chapa-quente-lanches-canarana.png",
-      "instagram": "chapaquente_cnn",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "paulus-cafe-central-canarana": {
-      "file": "paulus-cafe-central-canarana.png",
-      "instagram": "pauluscafecentral",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "real-gelados-canarana-canarana": {
-      "file": "real-gelados-canarana-canarana.png",
-      "instagram": "realgeladoscanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "delicias-da-keylla-canarana": {
-      "file": "delicias-da-keylla-canarana.png",
-      "instagram": "delicias_da_keillla",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "frangolino-canarana": {
-      "file": "frangolino-canarana.png",
-      "instagram": "frangolinocanarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "texas-burger-grill-canarana": {
-      "file": "texas-burger-grill-canarana.png",
-      "instagram": "texasburgeregrill24",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "tipo": "foto de perfil (prato; sem logo própria)"
-    },
-    "bolo-bom-canarana": {
-      "file": "bolo-bom-canarana.png",
-      "instagram": "bolo_bomboloedoces",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/bolo-bom-canarana.svg"
-    },
-    "casa-do-acai-pastel-canarana": {
-      "file": "casa-do-acai-pastel-canarana.png",
-      "instagram": "casadoacaiepastel2024",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "la-no-tche-churrascaria-canarana": {
-      "file": "la-no-tche-churrascaria-canarana.png",
-      "instagram": "lanotche_churrascaria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/la-no-tche-churrascaria-canarana.svg"
-    },
-    "restaurante-tempero-baiano-canarana": {
-      "file": "restaurante-tempero-baiano-canarana.png",
-      "instagram": "restaurante_temperobaianolu",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/restaurante-tempero-baiano-canarana.svg"
-    },
-    "gabriela-cakes-canarana": {
-      "file": "gabriela-cakes-canarana.png",
-      "instagram": "gabrielacakes.canarana",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "hora-do-lanche-canarana": {
-      "file": "hora-do-lanche-canarana.png",
-      "instagram": "horadolanche.66",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "lanchonete-e-chopp-do-luizao-nova-xavantina": {
-      "file": "luizao-vetor.png",
-      "instagram": "lanchonete__e_chopp_do_luizao",
-      "vetor": "data/research/logos/lanchonete-e-chopp-do-luizao.svg"
-    },
-    "pizzaria-sinal-verde-nova-xavantina": {
-      "file": "pizzaria-sinal-verde-nova-xavantina.png",
-      "instagram": "pizzaria_sinal_verde",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "casa-do-espeto-nova-xavantina": {
-      "file": "casa-do-espeto-nova-xavantina.png",
-      "instagram": "casadoespetonx",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "magnifico-burguer-nx-nova-xavantina": {
-      "file": "magnifico-burguer-nx-nova-xavantina.png",
-      "instagram": "magnificoburguernx",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "magnifico-hot-dog-nx-nova-xavantina": {
-      "file": "magnifico-hot-dog-nx-nova-xavantina.png",
-      "instagram": "magnificohotdognx",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "celeiro-panificadora-e-confeitaria-nova-xavantina": {
-      "file": "celeiro-panificadora-e-confeitaria-nova-xavantina.png",
-      "instagram": "celeiropanificadoranx",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "forja-burguer-nova-xavantina": {
-      "file": "forja-burguer-nova-xavantina.png",
-      "instagram": "forjaburguer_nxa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "casa-da-pizza-de-querencia-querencia": {
-      "file": "casa-da-pizza-de-querencia-querencia.png",
-      "instagram": "casadapizzaquerencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "casa-do-sushi-querencia": {
-      "file": "casa-do-sushi-querencia.png",
-      "instagram": "casadosushi.querencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/casa-do-sushi-querencia.svg"
-    },
-    "chiquinho-sorvetes-querencia": {
-      "file": "chiquinho-sorvetes-querencia.png",
-      "instagram": "chiquinhoquerenciamt",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/chiquinho-sorvetes-querencia.svg"
-    },
-    "dtalia-pizzaria-querencia-querencia": {
-      "file": "dtalia-pizzaria-querencia-querencia.png",
-      "instagram": "dtaliaquerencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/dtalia-pizzaria-querencia-querencia.svg"
-    },
-    "go-burger-delivery-querencia": {
-      "file": "go-burger-delivery-querencia.png",
-      "instagram": "goburger_querencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "takaki-sushi-querencia": {
-      "file": "takaki-sushi-querencia.png",
-      "instagram": "takakisushi",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "coral-sushi-delivery-querencia": {
-      "file": "coral-sushi-delivery-querencia.png",
-      "instagram": "coral_sushi_",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "gg-burguer-querencia": {
-      "file": "gg-burguer-querencia.png",
-      "instagram": "ggburguer_quer",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "rei-do-hamburguer-querencia": {
-      "file": "rei-do-hamburguer-querencia.png",
-      "instagram": "rei_do_hamburguer_qrc",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "dolce-affetto-confeitaria-querencia": {
-      "file": "dolce-affetto-confeitaria-querencia.png",
-      "instagram": "dolce_affettoconfeitaria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/dolce-affetto-confeitaria-querencia.svg"
-    },
-    "quintal-sorveteria-querencia": {
-      "file": "quintal-sorveteria-querencia.png",
-      "instagram": "quintalsorveteria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "restaurante-toque-caseiro-querencia": {
-      "file": "restaurante-toque-caseiro-querencia.png",
-      "instagram": "toquecaseiroquerencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/restaurante-toque-caseiro-querencia.svg"
-    },
-    "real-gelados-querencia": {
-      "file": "real-gelados-querencia.png",
-      "instagram": "real_geladosquerencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "santo-espeto-pao-de-alho-s-e-querencia": {
-      "file": "santo-espeto-pao-de-alho-s-e-querencia.png",
-      "instagram": "santo_.espeto",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "sabor-na-caixa-querencia": {
-      "file": "sabor-na-caixa-querencia.png",
-      "instagram": "delivery_sabor_na_caixa",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "encanto-de-sabores-querencia": {
-      "file": "encanto-de-sabores-querencia.png",
-      "instagram": "encantodesabores_26",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "bom-sabor-sorveteria-e-acaiteria-querencia": {
-      "file": "bom-sabor-sorveteria-e-acaiteria-querencia.png",
-      "instagram": "bom.sabor_querencia"
-    },
-    "60-sabores-artesanal-querencia-querencia": {
-      "file": "60-sabores-artesanal-querencia-querencia.png",
-      "instagram": "60sabores_querencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/60-sabores-artesanal-querencia-querencia.svg"
-    },
-    "degust-massas-querencia": {
-      "file": "degust-massas-querencia.png",
-      "instagram": "degustquerencia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/degust-massas-querencia.svg"
-    },
-    "kali-doces-querencia": {
-      "file": "kali-doces-querencia.png",
-      "instagram": "kali_doces27",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "nini-gelato-artesanal-querencia": {
-      "file": "nini-gelato-artesanal-querencia.png",
-      "instagram": "ninigelatoartesanal_",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "tia-do-lanche-querencia": {
-      "file": "tia-do-lanche-querencia.png",
-      "instagram": "tiadolancheee",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "tipo": "foto de perfil (ilustração da dona; sem logo própria)"
-    },
-    "hot-dog-family-querencia": {
-      "file": "hot-dog-family-querencia.png",
-      "instagram": "hotdogfamilyy",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "cuscuz-da-mainha-querencia": {
-      "file": "cuscuz-da-mainha-querencia.png",
-      "instagram": "cuscuzdamainha",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "mp-sabor-e-docura-querencia": {
-      "file": "mp-sabor-e-docura-querencia.png",
-      "instagram": "mpsaboredocura",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "espetinho-do-gordinho-querencia": {
-      "file": "espetinho-do-gordinho-querencia.png",
-      "instagram": "espetinhodogordinhomt",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/espetinho-do-gordinho-querencia.svg"
-    },
-    "owzi-burger-querencia": {
-      "file": "owzi-burger-querencia.png",
-      "instagram": "owziburger",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/owzi-burger-querencia.svg"
-    },
-    "panificadora-central-querencia": {
-      "file": "panificadora-central-querencia.png",
-      "instagram": "panificadora_central_",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "campero-grill-querencia": {
-      "file": "campero-grill-querencia.png",
-      "instagram": "campero.grill",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/campero-grill-querencia.svg"
-    },
-    "churrascaria-rancho-do-vale-querencia": {
-      "file": "churrascaria-rancho-do-vale-querencia.png",
-      "instagram": "churrascariaranchodovale",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/churrascaria-rancho-do-vale-querencia.svg"
-    },
-    "geladinhos-prisci-querencia": {
-      "file": "geladinhos-prisci-querencia.png",
-      "instagram": "geladinhosprisci",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "leidy-cakes-querencia": {
-      "file": "leidy-cakes-querencia.png",
-      "instagram": "coelho.leidycakes",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/leidy-cakes-querencia.svg"
-    },
-    "prii-pipocas-gourmet-querencia": {
-      "file": "prii-pipocas-gourmet-querencia.png",
-      "instagram": "priipipocas.gourmet",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "armazem-pizzaria-artesanal-querencia": {
-      "file": "armazem-pizzaria-artesanal-querencia.png",
-      "instagram": "artesanal_armazem",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/armazem-pizzaria-artesanal-querencia.svg"
-    },
-    "picanhas-grill-querencia": {
-      "file": "picanhas-grill-querencia.png",
-      "instagram": "picanhasgrillmt",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "pizzaria-kabanas-ribeirao-cascalheira": {
-      "file": "pizzaria-kabanas-ribeirao-cascalheira.png",
-      "instagram": "pizzariakabanas20",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/pizzaria-kabanas-ribeirao-cascalheira.svg"
-    },
-    "sorveteria-d-acai-ribeirao-cascalheira": {
-      "file": "sorveteria-d-acai-ribeirao-cascalheira.png",
-      "instagram": "d.mais.acai",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "amor-sabor-ribeirao-cascalheira": {
-      "file": "amor-sabor-ribeirao-cascalheira.png",
-      "instagram": "amoresaborrc",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "delicias-da-nutri-ribeirao-cascalheira": {
-      "file": "delicias-da-nutri-ribeirao-cascalheira.png",
-      "instagram": "deliciasdanutri_rc",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "vania-confeitaria-sao-felix-do-araguaia": {
-      "file": "vania-confeitaria-sao-felix-do-araguaia.png",
-      "instagram": "vania_confeitaria_oficial",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "ice-mix-gelados-vila-rica": {
-      "file": "ice-mix-gelados-vila-rica.png",
-      "instagram": "icemix.gelados",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/ice-mix-gelados-vila-rica.svg"
-    },
-    "britzke-magia-vila-rica": {
-      "file": "britzke-magia-vila-rica.png",
-      "instagram": "britzke_magia",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/britzke-magia-vila-rica.svg"
-    },
-    "tche-hamburgueria-e-sorveteria-vila-rica": {
-      "file": "tche-hamburgueria-e-sorveteria-vila-rica.png",
-      "instagram": "tcheburgueresorvetevr",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "tare-sushi-vila-rica": {
-      "file": "tare-sushi-vila-rica.png",
-      "instagram": "taresushi2024",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "fort-sabor-vila-rica-vila-rica": {
-      "file": "fort-sabor-vila-rica-vila-rica.png",
-      "instagram": "fortsabor_vr",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "flavio-brasa-burger-vila-rica": {
-      "file": "flavio-brasa-burger-vila-rica.png",
-      "instagram": "flaviobrasa_burger",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "pastelar-vila-rica": {
-      "file": "pastelar-vila-rica.png",
-      "instagram": "pastelar2026",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "tipo": "foto de perfil (panfleto com a marca; sem logo isolada)"
-    },
-    "villa-grill-churrascaria-e-restaurante-vila-rica": {
-      "file": "villa-grill-churrascaria-e-restaurante-vila-rica.png",
-      "instagram": "villagrill2026",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "bia-lanches-vila-rica": {
-      "file": "bia-lanches-vila-rica.png",
-      "instagram": "bia_lanches_oficial",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "churra-s-grego-vila-rica": {
-      "file": "churra-s-grego-vila-rica.png",
-      "instagram": "churras_gregovr",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "creme-mania-vila-rica-vila-rica": {
-      "file": "creme-mania-vila-rica-vila-rica.png",
-      "instagram": "crememania_vr",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "mily-doces-vila-rica": {
-      "file": "mily-doces-vila-rica.png",
-      "instagram": "mily.doces_",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "ke-pudim-vila-rica": {
-      "file": "ke-pudim-vila-rica.png",
-      "instagram": "pudim_ke",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "crep-s-da-mari-vila-rica": {
-      "file": "crep-s-da-mari-vila-rica.png",
-      "instagram": "creps_dmari",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "doce-estouro-pipocas-gourmet-vila-rica": {
-      "file": "doce-estouro-pipocas-gourmet-vila-rica.png",
-      "instagram": "doceesttouro",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/doce-estouro-pipocas-gourmet-vila-rica.svg"
-    },
-    "cforno-cia-artesanal-vila-rica": {
-      "file": "cforno-cia-artesanal-vila-rica.png",
-      "instagram": "cfornoecia.artesanal",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/cforno-cia-artesanal-vila-rica.svg"
-    },
-    "rs-confeitaria-vila-rica": {
-      "file": "rs-confeitaria-vila-rica.png",
-      "instagram": "rsconfeitaria374",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "minis-da-michele-vila-rica": {
-      "file": "minis-da-michele-vila-rica.png",
-      "instagram": "minisdamichele",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "brownieria-vila-rica": {
-      "file": "brownieria-vila-rica.png",
-      "instagram": "sbrownieartesanal",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/brownieria-vila-rica.svg"
-    },
-    "savianinha-sorveteria-e-acaiteria-vila-rica": {
-      "file": "savianinha-sorveteria-e-acaiteria-vila-rica.png",
-      "instagram": "savianinhasorveteria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "alberita-s-hamburguer-e-massas-vila-rica": {
-      "file": "alberita-s-hamburguer-e-massas-vila-rica.png",
-      "instagram": "alberitasoficial",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "pizzaria-gomes-vila-rica": {
-      "file": "pizzaria-gomes-vila-rica.png",
-      "instagram": "gomespizzaria_vr",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "morango-moreno-sorvetes-vila-rica": {
-      "file": "morango-moreno-sorvetes-vila-rica.png",
-      "instagram": "dio_morangomoreno_sorvetes",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "pizzaria-bella-vila-rica": {
-      "file": "pizzaria-bella-vila-rica.png",
-      "instagram": "bellapizzaria_vilarica",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "emporio-do-chocolate-e-brigadeiria-canarana": {
-      "file": "emporio-do-chocolate-e-brigadeiria-canarana.png",
-      "instagram": "emporiodochocolateebrigadeiria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "tipo": "foto de perfil (a confeiteira; sem logo própria)"
-    },
-    "rancho-dos-sabores-querencia": {
-      "file": "rancho-dos-sabores-querencia.png",
-      "instagram": "rancho_dos__sabores",
-      "tipo": "foto de perfil (ilustração da dona na cozinha)",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "janaina-lorrainy-doces-querencia": {
-      "file": "janaina-lorrainy-doces-querencia.png",
-      "instagram": "janaina_lorrainy_doces",
-      "tipo": "foto de perfil (a confeiteira; sem logo própria)",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "karol-doces-querencia": {
-      "file": "karol-doces-querencia.png",
-      "instagram": "karoldocesg",
-      "tipo": "foto de perfil (a confeiteira; sem logo própria)",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "kendyy-lanches-ribeirao-cascalheira": {
-      "file": "kendyy-lanches-ribeirao-cascalheira.png",
-      "instagram": "kendylla_lanches_2.0",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "tipo": "foto de perfil (a dona; sem logo própria)"
-    },
-    "mayhara-cakes-novo-sao-joaquim": {
-      "file": "mayhara-cakes-novo-sao-joaquim.png",
-      "instagram": "mayhara.cakes",
-      "vetor": "data/research/logos/mayhara-cakes.svg",
-      "tipo": "logo criada (foto de perfil é a confeiteira)"
-    },
-    "maia-s-brigadeiria-artesanal-nova-xavantina": {
-      "file": "maia-s-brigadeiria-artesanal-nova-xavantina.png",
-      "instagram": "maiasbrigadeiriaartesanal",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "burguer-s-house-gourmet-nova-xavantina": {
-      "file": "burguer-s-house-gourmet-nova-xavantina.png",
-      "instagram": "burguershouse_nx",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "pizzaria-gaucha-nova-xavantina": {
-      "file": "gaucha-vetor.png",
-      "instagram": "pizzariagaucha",
-      "vetor": "data/research/logos/pizzaria-gaucha.svg"
-    },
-    "refugio-do-chopp-nova-xavantina": {
-      "file": "refugio-do-chopp-nova-xavantina.png",
-      "instagram": "refugiodochoppnx",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "dad-burger-barra-do-garcas": {
-      "file": "dad-burger-barra-do-garcas.png",
-      "instagram": "dadburgeroficial",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/dad-burger-barra-do-garcas.svg"
-    },
-    "churrascaria-o-panelao-barra-do-garcas": {
-      "file": "churrascaria-o-panelao-barra-do-garcas.png",
-      "instagram": "opanelaochurrascaria",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/churrascaria-o-panelao-barra-do-garcas.svg"
-    },
-    "mistro-massas-marmitas-pizzaria-barra-do-garcas": {
-      "file": "mistro-massas-marmitas-pizzaria-barra-do-garcas.png",
-      "instagram": "mistromassasoficial",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "tipo": "foto de perfil (as sócias; sem logo própria)"
-    },
-    "texas-grill-burger-churrasco-barra-do-garcas": {
-      "file": "texas-grill-burger-churrasco-barra-do-garcas.png",
-      "instagram": null,
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/texas-grill-burger-churrasco-barra-do-garcas.svg"
-    },
-    "buffalos-pizzaria-barra-do-garcas": {
-      "file": "buffalos-pizzaria-barra-do-garcas.png",
-      "instagram": "buffalos__oficial",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
-      "vetor": "data/research/logos/buffalos-pizzaria-barra-do-garcas.svg"
-    },
-    "creme-mania-sorvetes-novo-sao-joaquim": {
-      "file": "creme-mania-sorvetes-novo-sao-joaquim.png",
-      "instagram": "creme_maniasorvetesnsj",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
-    },
-    "restaurante-martinao-agua-boa": {
-      "file": "restaurante-martinao-agua-boa.png",
-      "instagram": "",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "restaurante-e-pizzaria-chopinho-canarana": {
-      "file": "restaurante-e-pizzaria-chopinho-canarana.png",
-      "instagram": "restaurantechopinho",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
-      "vetor": "data/research/logos/restaurante-e-pizzaria-chopinho-canarana.svg"
-    },
-    "sorveteria-e-lanchonete-paloma-canarana": {
-      "file": "sorveteria-e-lanchonete-paloma-canarana.png",
-      "instagram": "sorveteriapaloma_mt",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "marcio-lanches-canarana": {
-      "file": "marcio-lanches-canarana.png",
-      "instagram": "marcio.lanchonete",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
-    },
-    "creme-mania-sorvetes-e-acai-sao-felix-do-araguaia": {
-      "file": "creme-mania-sorvetes-e-acai-sao-felix-do-araguaia.png",
-      "fonte": "logo oficial da rede Creme Mania (a mesma da foto de perfil de @crememaniaab, Água Boa), a pedido do Pedro em 30/10/2026; a loja de São Félix não tem Instagram próprio cadastrado"
-    },
-    "braseiro-espetinhos-querencia": {
-      "file": "braseiro-espetinhos-querencia.png",
-      "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/braseiro-espetinhos); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "delicias-do-para-querencia": {
-      "file": "delicias-do-para-querencia.png",
-      "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/delicias-do-para); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "lugano-querencia-querencia": {
-      "file": "lugano-querencia-querencia.png",
-      "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/lugano-querencia); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "mc-lena-querencia": {
-      "file": "mc-lena-querencia.png",
-      "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/mc-lena); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "sabor-top-25-querencia": {
-      "file": "sabor-top-25-querencia.png",
-      "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/sabor-top-25); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "smash-burger-querencia": {
-      "file": "smash-burger-querencia.png",
-      "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/smash-burger); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "tarantella-pizzaria-querencia": {
-      "file": "tarantella-pizzaria-querencia.png",
-      "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/tarantella-pizzaria); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "sabor-de-verao-querencia": {
-      "file": "sabor-de-verao-querencia.png",
-      "fonte": "logo do cardápio digital da própria loja (https://sabordeverao.foodsapp.com.br/loja); sem Instagram encontrado na pesquisa de 30/10/2026"
-    },
-    "nt-distribuidora-nova-xavantina": {
-      "file": "nt-distribuidora-nova-xavantina.png",
-      "instagram": "nt_distribuidorabeer",
-      "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 31/10/2026)"
-    }
+ "_sobre": "Logotipos oficiais tirados da foto de perfil do Instagram de cada loja (prints enviados pelo dono do projeto em 28/10/2026). Arquivos-fonte: recorte circular da foto de perfil ampliada; 'portal-vetor.png' é a renderização do vetor data/research/logos/portal-burguer-grill.svg (o perfil usa uma foto do letreiro). Aplicar com: python3 scripts/apply-logos.py <pasta-com-os-arquivos> Lote de 29/10/2026 (10 cidades): foto de perfil recortada dos prints de data/research/instagram-2026-10-29, ampliada 4x com super-resolução (EDSR) e sem o círculo do Instagram.",
+ "logos": {
+  "sabor-na-brasa-nova-xavantina": {
+   "file": "sabor.png",
+   "instagram": "sabor.na.brasa.26"
+  },
+  "bitus-burguer-nova-xavantina": {
+   "file": "bitus.png",
+   "instagram": "bitusburguer"
+  },
+  "suntzu-sushi-nova-xavantina": {
+   "file": "suntzu.png",
+   "instagram": "suntzusushi"
+  },
+  "1-opcao-lanches-nova-xavantina": {
+   "file": "opcao.png",
+   "instagram": "primeiraopcaolanchesnx"
+  },
+  "portal-burguer-grill-nova-xavantina": {
+   "file": "portal-vetor.png",
+   "instagram": "portalburguergril"
+  },
+  "araguaia-sushi-nx-nova-xavantina": {
+   "file": "araguaia.png",
+   "instagram": "araguaiasushinx"
+  },
+  "sorveteria-creme-mania-nova-xavantina": {
+   "file": "cremamania.png",
+   "instagram": "crememania.nx"
+  },
+  "hatsuki-nova-xavantina-nova-xavantina": {
+   "file": "hatsuki.png",
+   "instagram": "hatsukinovaxavantina"
+  },
+  "kanoa-beach-nova-xavantina": {
+   "file": "kanoa.png",
+   "instagram": "kanoa.nx"
+  },
+  "big-belly-burguer-nova-xavantina": {
+   "file": "bigbelly.png",
+   "instagram": "bigbelly_burgernx"
+  },
+  "tribo-do-acai-nova-xavantina": {
+   "file": "tribo.png",
+   "instagram": "tribodoacainx"
+  },
+  "nexy-acai-nova-xavantina": {
+   "file": "nexy-acai-nova-xavantina.png",
+   "instagram": "nexyacai",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "pizza-grill-delivery-nova-xavantina": {
+   "file": "pizzagrill.png",
+   "instagram": "pizza_grilldelivery"
+  },
+  "gran-pizza-nova-xavantina": {
+   "file": "granpizza.png",
+   "instagram": "granpizzanx"
+  },
+  "frescor-acaiteria-nova-xavantina": {
+   "file": "frescor-acaiteria-nova-xavantina.png",
+   "instagram": "frescoracaiterianx",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "acai-raiz-do-para-nova-xavantina": {
+   "file": "acairaiz.png",
+   "instagram": "souacairaiz"
+  },
+  "acai-foods-crepe-mania-nova-xavantina": {
+   "file": "crepemania.png",
+   "instagram": "acaifoods.crepemania"
+  },
+  "the-best-acai-nova-xavantina": {
+   "file": "thebest.png",
+   "instagram": "franqueado_the_best_acai_nx"
+  },
+  "bocao-lanches-ab-agua-boa": {
+   "file": "bocao-lanches-ab-agua-boa.png",
+   "instagram": "bocaolanches.ab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "okane-sushi-agua-boa": {
+   "file": "okane-sushi-agua-boa.png",
+   "instagram": "okanesushi.ab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "caipirao-restaurante-agua-boa": {
+   "file": "caipirao-restaurante-agua-boa.png",
+   "instagram": "caipiraoaguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "du-matuto-bar-cozinha-agua-boa": {
+   "file": "du-matuto-bar-cozinha-agua-boa.png",
+   "instagram": "dumatuto",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "mordidela-food-agua-boa": {
+   "file": "mordidela-food-agua-boa.png",
+   "instagram": "mordidelaaguaboamt",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "brasa-som-agua-boa": {
+   "file": "brasa-som-agua-boa.png",
+   "instagram": "brasaesom",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/brasa-som-agua-boa.svg"
+  },
+  "kaingo-acai-agua-boa": {
+   "file": "kaingo-acai-agua-boa.png",
+   "instagram": "kaingo.aguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/kaingo-acai-agua-boa.svg"
+  },
+  "eskimo-sorvetes-agua-boa": {
+   "file": "eskimo-sorvetes-agua-boa.png",
+   "instagram": "eskimosorvetesaguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/eskimo-sorvetes-agua-boa.svg"
+  },
+  "la-casa-de-acai-agua-boa": {
+   "file": "la-casa-de-acai-agua-boa.png",
+   "instagram": "lacasadeacaiab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "lanchonete-e-sorveteria-rodoviaria-agua-boa": {
+   "file": "lanchonete-e-sorveteria-rodoviaria-agua-boa.png",
+   "instagram": "lanchonete_rodoviariaab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "ms-espeto-burguer-grill-agua-boa": {
+   "file": "ms-espeto-burguer-grill-agua-boa.png",
+   "instagram": "msespertoeburguergrillab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/ms-espeto-burguer-grill-agua-boa.svg"
+  },
+  "oishi-sushi-nova-xavantina-nova-xavantina": {
+   "file": "oishinx.png",
+   "instagram": "oishisushinx"
+  },
+  "pizzaria-bendita-agua-boa": {
+   "file": "pizzaria-bendita-agua-boa.png",
+   "instagram": "pizzariabendita",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/pizzaria-bendita-agua-boa.svg"
+  },
+  "tia-do-lanche-agua-boa": {
+   "file": "tia-do-lanche-agua-boa.png",
+   "instagram": "tiadolancheab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/tia-do-lanche-agua-boa.svg"
+  },
+  "tenda-restaurant-and-grill-agua-boa": {
+   "file": "tenda-restaurant-and-grill-agua-boa.png",
+   "instagram": "tendaaguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "galeria-espeto-agua-boa": {
+   "file": "galeria-espeto-agua-boa.png",
+   "instagram": "galeria_espeto",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "oishi-sushi-agua-boa-agua-boa": {
+   "file": "oishi-sushi-agua-boa-agua-boa.png",
+   "instagram": "oishisushiab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/oishi-sushi-agua-boa-agua-boa.svg"
+  },
+  "pizzaria-fornalha-agua-boa": {
+   "file": "pizzaria-fornalha-agua-boa.png",
+   "instagram": "fornalha_ab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/pizzaria-fornalha-agua-boa.svg"
+  },
+  "ds-burguer-agua-boa": {
+   "file": "ds-burguer-agua-boa.png",
+   "instagram": "ds_burguer_",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "frutos-de-goias-agua-boa-agua-boa": {
+   "file": "frutos-de-goias-agua-boa-agua-boa.png",
+   "instagram": "frutosdegoiasaguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "magnolia-confeitaria-e-cafe-agua-boa": {
+   "file": "magnolia-confeitaria-e-cafe-agua-boa.png",
+   "instagram": "magnoliaconfeitariaa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/magnolia-confeitaria-e-cafe-agua-boa.svg"
+  },
+  "hamburgueria-raiz-agua-boa": {
+   "file": "hamburgueria-raiz-agua-boa.png",
+   "instagram": "hamburgueriaraiz_",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "d-talia-agua-boa-agua-boa": {
+   "file": "d-talia-agua-boa-agua-boa.png",
+   "instagram": "dtaliaaguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/d-talia-agua-boa-agua-boa.svg"
+  },
+  "o-grego-lanches-agua-boa": {
+   "file": "o-grego-lanches-agua-boa.png",
+   "instagram": "ogrego_lanches",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "atlas-sorveteria-e-acai-agua-boa": {
+   "file": "atlas-sorveteria-e-acai-agua-boa.png",
+   "instagram": "atlassorveteria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "booba-sorveteria-doceria-agua-boa": {
+   "file": "booba-sorveteria-doceria-agua-boa.png",
+   "instagram": "booba_sorvete",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "cantina-das-massas-agua-boa": {
+   "file": "cantina-das-massas-agua-boa.png",
+   "instagram": "cantina_dass_massas",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "bom-manjare-agua-boa": {
+   "file": "bom-manjare-agua-boa.png",
+   "instagram": "bom_manjare_ab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "golden-bird-agua-boa": {
+   "file": "golden-bird-agua-boa.png",
+   "instagram": "goldenbirdab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/golden-bird-agua-boa.svg"
+  },
+  "the-best-acai-agua-boa-agua-boa": {
+   "file": "the-best-acai-agua-boa-agua-boa.png",
+   "instagram": "thebestacaiaguaboa_mt",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/the-best-acai-agua-boa-agua-boa.svg"
+  },
+  "rei-burguer-agua-boa": {
+   "file": "rei-burguer-agua-boa.png",
+   "instagram": "reiburguerr",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "karamello-s-confeitaria-cafe-agua-boa": {
+   "file": "karamello-s-confeitaria-cafe-agua-boa.png",
+   "instagram": "karamellosab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "jah-acai-e-sorvetes-agua-boa": {
+   "file": "jah-acai-e-sorvetes-agua-boa.png",
+   "instagram": "jah_aguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/jah-acai-e-sorvetes-agua-boa.svg"
+  },
+  "golden-hamburgueria-agua-boa": {
+   "file": "golden-hamburgueria-agua-boa.png",
+   "instagram": "goldenhamburgueriaab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/golden-hamburgueria-agua-boa.svg"
+  },
+  "pub-goiano-agua-boa": {
+   "file": "pub-goiano-agua-boa.png",
+   "instagram": "pubgoianoab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "doces-do-vale-agua-boa": {
+   "file": "doces-do-vale-agua-boa.png",
+   "instagram": "doce.sdovale",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/doces-do-vale-agua-boa.svg"
+  },
+  "delicias-da-jujuzinha-agua-boa": {
+   "file": "delicias-da-jujuzinha-agua-boa.png",
+   "instagram": "deliciasdajujuzinhaa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "caseiro-s-marmitaria-agua-boa": {
+   "file": "caseiro-s-marmitaria-agua-boa.png",
+   "instagram": "caseiros_marmitaria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "espetinho-do-jorge-agua-boa": {
+   "file": "espetinho-do-jorge-agua-boa.png",
+   "instagram": "espetinhodojorgeab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "chiquinho-sorvetes-agua-boa-agua-boa": {
+   "file": "chiquinho-sorvetes-agua-boa-agua-boa.png",
+   "instagram": "chiquinhoaguaboa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/chiquinho-sorvetes-agua-boa-agua-boa.svg"
+  },
+  "burguerzia-agua-boa": {
+   "file": "burguerzia-agua-boa.png",
+   "instagram": "burguerzia.ab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "restaurante-alecrim-agua-boa": {
+   "file": "restaurante-alecrim-agua-boa.png",
+   "instagram": "restaurante_alecrimab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/restaurante-alecrim-agua-boa.svg"
+  },
+  "creme-mania-sorvetes-agua-boa": {
+   "file": "creme-mania-sorvetes-agua-boa.png",
+   "instagram": "crememaniaab",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "agua-verde-espetaria-e-terere-delivery-barra-do-garcas": {
+   "file": "agua-verde-espetaria-e-terere-delivery-barra-do-garcas.png",
+   "instagram": "aguaverdee",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "dantes-barra-do-garcas": {
+   "file": "dantes-barra-do-garcas.png",
+   "instagram": "dantes.bg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/dantes-barra-do-garcas.svg"
+  },
+  "emporio-pizzaria-barra-barra-do-garcas": {
+   "file": "emporio-pizzaria-barra-barra-do-garcas.png",
+   "instagram": "emporiopizzariabarra",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "le-monde-burguer-hamburgueria-barra-do-garcas": {
+   "file": "le-monde-burguer-hamburgueria-barra-do-garcas.png",
+   "instagram": "lemondeburguer",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/le-monde-burguer-hamburgueria-barra-do-garcas.svg"
+  },
+  "marmitaria-da-barra-barra-do-garcas": {
+   "file": "marmitaria-da-barra-barra-do-garcas.png",
+   "instagram": "marmitariadabarra",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "pizzaria-coqueiros-barra-do-garcas": {
+   "file": "pizzaria-coqueiros-barra-do-garcas.png",
+   "instagram": "pizzariacoqueiros",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/pizzaria-coqueiros-barra-do-garcas.svg"
+  },
+  "sushi-loko-barra-do-garcas-barra-do-garcas": {
+   "file": "sushi-loko-barra-do-garcas-barra-do-garcas.png",
+   "instagram": "sushilokomt",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas": {
+   "file": "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas.png",
+   "instagram": "zhu.marmitas",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas.svg"
+  },
+  "panificadora-sao-paulo-barra-do-garcas": {
+   "file": "panificadora-sao-paulo-barra-do-garcas.png",
+   "instagram": "panificadora.saopaulo",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/panificadora-sao-paulo-barra-do-garcas.svg"
+  },
+  "madrugordao-lanches-barra-do-garcas": {
+   "file": "madrugordao-lanches-barra-do-garcas.png",
+   "instagram": "madrugordao_bg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "jose-lanches-barra-do-garcas": {
+   "file": "jose-lanches-barra-do-garcas.png",
+   "instagram": "jose_lanches_bg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "ponto-burguer-ponto-do-hamburguer-barra-do-garcas": {
+   "file": "ponto-burguer-ponto-do-hamburguer-barra-do-garcas.png",
+   "instagram": "ponto.burguerbg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "062-burguer-barra-do-garcas": {
+   "file": "062-burguer-barra-do-garcas.png",
+   "instagram": "062burguer",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "ponto-do-acai-barra-do-garcas": {
+   "file": "ponto-do-acai-barra-do-garcas.png",
+   "instagram": "acaipontobg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "acai-royal-delivery-barra-do-garcas": {
+   "file": "acai-royal-delivery-barra-do-garcas.png",
+   "instagram": "acairoyal__",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "leo-pasteis-saltenhas-barra-do-garcas": {
+   "file": "leo-pasteis-saltenhas-barra-do-garcas.png",
+   "instagram": "pastelariadoleobg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/leo-pasteis-saltenhas-barra-do-garcas.svg"
+  },
+  "frutos-de-goias-sorveteria-barra-do-garcas": {
+   "file": "frutos-de-goias-sorveteria-barra-do-garcas.png",
+   "instagram": "frutosdegoiasbgoficial",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "ana-docura-confeitaria-barra-do-garcas": {
+   "file": "ana-docura-confeitaria-barra-do-garcas.png",
+   "instagram": "ana.docura",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "maria-filo-barra-do-garcas": {
+   "file": "maria-filo-barra-do-garcas.png",
+   "instagram": "mariafilo_bg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "bolos-do-sitio-emporio-barra-do-garcas": {
+   "file": "bolos-do-sitio-emporio-barra-do-garcas.png",
+   "instagram": "bolosdositiobarra",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/bolos-do-sitio-emporio-barra-do-garcas.svg"
+  },
+  "doces-da-ana-barra-do-garcas": {
+   "file": "doces-da-ana-barra-do-garcas.png",
+   "instagram": "docesdaanabg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "pizzaria-sabor-carioca-barra-do-garcas": {
+   "file": "pizzaria-sabor-carioca-barra-do-garcas.png",
+   "instagram": "pizzariasaborcariocabg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/pizzaria-sabor-carioca-barra-do-garcas.svg"
+  },
+  "cheff-do-espeto-barra-do-garcas": {
+   "file": "cheff-do-espeto-barra-do-garcas.png",
+   "instagram": "cheffdoespeto_",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "restaurante-buteco-do-bicudo-barra-do-garcas": {
+   "file": "restaurante-buteco-do-bicudo-barra-do-garcas.png",
+   "instagram": "butecodobicudobg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "casarao-beer-churrascaria-barra-do-garcas": {
+   "file": "casarao-beer-churrascaria-barra-do-garcas.png",
+   "instagram": "casaraobeer.bg",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "sintonia-hamburgueria-e-pizzaria-campinapolis": {
+   "file": "sintonia-hamburgueria-e-pizzaria-campinapolis.png",
+   "instagram": "sintoniahamburgueepizzas"
+  },
+  "eclipse-lanchonete-e-pizzaria-campinapolis": {
+   "file": "eclipse-lanchonete-e-pizzaria-campinapolis.png",
+   "instagram": "eclipse.lanchonete"
+  },
+  "pizzaria-d-italia-canarana": {
+   "file": "pizzaria-d-italia-canarana.png",
+   "instagram": "dtalia.canarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/pizzaria-d-italia-canarana.svg"
+  },
+  "chicken-box-canarana-canarana": {
+   "file": "chicken-box-canarana-canarana.png",
+   "instagram": "chickenbox.canarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/chicken-box-canarana-canarana.svg"
+  },
+  "saboritos-burguer-sorveteria-canarana": {
+   "file": "saboritos-burguer-sorveteria-canarana.png",
+   "instagram": "saboritosburguer",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "buxadinha-lanches-canarana": {
+   "file": "buxadinha-lanches-canarana.png",
+   "instagram": "buxadinhaa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/buxadinha-lanches-canarana.svg"
+  },
+  "restaurante-ponto-certo-e-conveniencia-canarana": {
+   "file": "restaurante-ponto-certo-e-conveniencia-canarana.png",
+   "instagram": "restaurantepontocerto2026",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "rossi-batataria-e-pizzaria-canarana": {
+   "file": "rossi-batataria-e-pizzaria-canarana.png",
+   "instagram": "rossibatatariacanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "mordatto-canarana": {
+   "file": "mordatto-canarana.png",
+   "instagram": "mordattohamburgueria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "casa-da-pizza-delivery-canarana": {
+   "file": "casa-da-pizza-delivery-canarana.png",
+   "instagram": "casadapizzacanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "poke-poke-ao-quadrado-canarana": {
+   "file": "poke-poke-ao-quadrado-canarana.png",
+   "instagram": "pokeriacanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/poke-poke-ao-quadrado-canarana.svg"
+  },
+  "suprema-pizza-pastelaria-canarana": {
+   "file": "suprema-pizza-pastelaria-canarana.png",
+   "instagram": "suprema_cnn",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "o-mestre-da-pizza-canarana": {
+   "file": "o-mestre-da-pizza-canarana.png",
+   "instagram": "omestredapizzadelivery",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "massas-delivery-canarana-canarana": {
+   "file": "massas-delivery-canarana-canarana.png",
+   "instagram": "massas_deliverycanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "bruto-espetaria-canarana": {
+   "file": "bruto-espetaria-canarana.png",
+   "instagram": "bruto_espetaria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "churrascaria-do-jiovani-canarana": {
+   "file": "churrascaria-do-jiovani-canarana.png",
+   "instagram": "churrascariadojiovani_canarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/churrascaria-do-jiovani-canarana.svg"
+  },
+  "dona-sonia-restaurante-canarana": {
+   "file": "dona-sonia-restaurante-canarana.png",
+   "instagram": "donasoniarestaurante8",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/dona-sonia-restaurante-canarana.svg"
+  },
+  "acai-das-meninas-canarana": {
+   "file": "acai-das-meninas-canarana.png",
+   "instagram": "acai.das.meninas.ofc",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "la-pastelli-canarana": {
+   "file": "la-pastelli-canarana.png",
+   "instagram": "la_pastellicanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "ale-cafe-emporio-canarana": {
+   "file": "ale-cafe-emporio-canarana.png",
+   "instagram": "alecafeeemporio",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "jah-acai-e-sorvetes-canarana": {
+   "file": "jah-acai-e-sorvetes-canarana.png",
+   "instagram": "jahcanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/jah-acai-e-sorvetes-canarana.svg"
+  },
+  "flomas-burguer-canarana": {
+   "file": "flomas-burguer-canarana.png",
+   "instagram": "flomas_burguer",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "chapa-quente-lanches-canarana": {
+   "file": "chapa-quente-lanches-canarana.png",
+   "instagram": "chapaquente_cnn",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "paulus-cafe-central-canarana": {
+   "file": "paulus-cafe-central-canarana.png",
+   "instagram": "pauluscafecentral",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "real-gelados-canarana-canarana": {
+   "file": "real-gelados-canarana-canarana.png",
+   "instagram": "realgeladoscanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "delicias-da-keylla-canarana": {
+   "file": "delicias-da-keylla-canarana.png",
+   "instagram": "delicias_da_keillla",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "frangolino-canarana": {
+   "file": "frangolino-canarana.png",
+   "instagram": "frangolinocanarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "texas-burger-grill-canarana": {
+   "file": "texas-burger-grill-canarana.png",
+   "instagram": "texasburgeregrill24",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "tipo": "foto de perfil (prato; sem logo própria)"
+  },
+  "bolo-bom-canarana": {
+   "file": "bolo-bom-canarana.png",
+   "instagram": "bolo_bomboloedoces",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/bolo-bom-canarana.svg"
+  },
+  "casa-do-acai-pastel-canarana": {
+   "file": "casa-do-acai-pastel-canarana.png",
+   "instagram": "casadoacaiepastel2024",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "la-no-tche-churrascaria-canarana": {
+   "file": "la-no-tche-churrascaria-canarana.png",
+   "instagram": "lanotche_churrascaria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/la-no-tche-churrascaria-canarana.svg"
+  },
+  "restaurante-tempero-baiano-canarana": {
+   "file": "restaurante-tempero-baiano-canarana.png",
+   "instagram": "restaurante_temperobaianolu",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/restaurante-tempero-baiano-canarana.svg"
+  },
+  "gabriela-cakes-canarana": {
+   "file": "gabriela-cakes-canarana.png",
+   "instagram": "gabrielacakes.canarana",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "hora-do-lanche-canarana": {
+   "file": "hora-do-lanche-canarana.png",
+   "instagram": "horadolanche.66",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "lanchonete-e-chopp-do-luizao-nova-xavantina": {
+   "file": "luizao-vetor.png",
+   "instagram": "lanchonete__e_chopp_do_luizao",
+   "vetor": "data/research/logos/lanchonete-e-chopp-do-luizao.svg"
+  },
+  "pizzaria-sinal-verde-nova-xavantina": {
+   "file": "pizzaria-sinal-verde-nova-xavantina.png",
+   "instagram": "pizzaria_sinal_verde",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "casa-do-espeto-nova-xavantina": {
+   "file": "casa-do-espeto-nova-xavantina.png",
+   "instagram": "casadoespetonx",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "magnifico-burguer-nx-nova-xavantina": {
+   "file": "magnifico-burguer-nx-nova-xavantina.png",
+   "instagram": "magnificoburguernx",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "magnifico-hot-dog-nx-nova-xavantina": {
+   "file": "magnifico-hot-dog-nx-nova-xavantina.png",
+   "instagram": "magnificohotdognx",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "celeiro-panificadora-e-confeitaria-nova-xavantina": {
+   "file": "celeiro-panificadora-e-confeitaria-nova-xavantina.png",
+   "instagram": "celeiropanificadoranx",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "forja-burguer-nova-xavantina": {
+   "file": "forja-burguer-nova-xavantina.png",
+   "instagram": "forjaburguer_nxa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "casa-da-pizza-de-querencia-querencia": {
+   "file": "casa-da-pizza-de-querencia-querencia.png",
+   "instagram": "casadapizzaquerencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "casa-do-sushi-querencia": {
+   "file": "casa-do-sushi-querencia.png",
+   "instagram": "casadosushi.querencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/casa-do-sushi-querencia.svg"
+  },
+  "chiquinho-sorvetes-querencia": {
+   "file": "chiquinho-sorvetes-querencia.png",
+   "instagram": "chiquinhoquerenciamt",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/chiquinho-sorvetes-querencia.svg"
+  },
+  "dtalia-pizzaria-querencia-querencia": {
+   "file": "dtalia-pizzaria-querencia-querencia.png",
+   "instagram": "dtaliaquerencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/dtalia-pizzaria-querencia-querencia.svg"
+  },
+  "go-burger-delivery-querencia": {
+   "file": "go-burger-delivery-querencia.png",
+   "instagram": "goburger_querencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "takaki-sushi-querencia": {
+   "file": "takaki-sushi-querencia.png",
+   "instagram": "takakisushi",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "coral-sushi-delivery-querencia": {
+   "file": "coral-sushi-delivery-querencia.png",
+   "instagram": "coral_sushi_",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "gg-burguer-querencia": {
+   "file": "gg-burguer-querencia.png",
+   "instagram": "ggburguer_quer",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "rei-do-hamburguer-querencia": {
+   "file": "rei-do-hamburguer-querencia.png",
+   "instagram": "rei_do_hamburguer_qrc",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "dolce-affetto-confeitaria-querencia": {
+   "file": "dolce-affetto-confeitaria-querencia.png",
+   "instagram": "dolce_affettoconfeitaria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/dolce-affetto-confeitaria-querencia.svg"
+  },
+  "quintal-sorveteria-querencia": {
+   "file": "quintal-sorveteria-querencia.png",
+   "instagram": "quintalsorveteria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "restaurante-toque-caseiro-querencia": {
+   "file": "restaurante-toque-caseiro-querencia.png",
+   "instagram": "toquecaseiroquerencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/restaurante-toque-caseiro-querencia.svg"
+  },
+  "real-gelados-querencia": {
+   "file": "real-gelados-querencia.png",
+   "instagram": "real_geladosquerencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "santo-espeto-pao-de-alho-s-e-querencia": {
+   "file": "santo-espeto-pao-de-alho-s-e-querencia.png",
+   "instagram": "santo_.espeto",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "sabor-na-caixa-querencia": {
+   "file": "sabor-na-caixa-querencia.png",
+   "instagram": "delivery_sabor_na_caixa",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "encanto-de-sabores-querencia": {
+   "file": "encanto-de-sabores-querencia.png",
+   "instagram": "encantodesabores_26",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "bom-sabor-sorveteria-e-acaiteria-querencia": {
+   "file": "bom-sabor-sorveteria-e-acaiteria-querencia.png",
+   "instagram": "bom.sabor_querencia"
+  },
+  "60-sabores-artesanal-querencia-querencia": {
+   "file": "60-sabores-artesanal-querencia-querencia.png",
+   "instagram": "60sabores_querencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/60-sabores-artesanal-querencia-querencia.svg"
+  },
+  "degust-massas-querencia": {
+   "file": "degust-massas-querencia.png",
+   "instagram": "degustquerencia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/degust-massas-querencia.svg"
+  },
+  "kali-doces-querencia": {
+   "file": "kali-doces-querencia.png",
+   "instagram": "kali_doces27",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "nini-gelato-artesanal-querencia": {
+   "file": "nini-gelato-artesanal-querencia.png",
+   "instagram": "ninigelatoartesanal_",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "tia-do-lanche-querencia": {
+   "file": "tia-do-lanche-querencia.png",
+   "instagram": "tiadolancheee",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "tipo": "foto de perfil (ilustração da dona; sem logo própria)"
+  },
+  "hot-dog-family-querencia": {
+   "file": "hot-dog-family-querencia.png",
+   "instagram": "hotdogfamilyy",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "cuscuz-da-mainha-querencia": {
+   "file": "cuscuz-da-mainha-querencia.png",
+   "instagram": "cuscuzdamainha",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "mp-sabor-e-docura-querencia": {
+   "file": "mp-sabor-e-docura-querencia.png",
+   "instagram": "mpsaboredocura",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "espetinho-do-gordinho-querencia": {
+   "file": "espetinho-do-gordinho-querencia.png",
+   "instagram": "espetinhodogordinhomt",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/espetinho-do-gordinho-querencia.svg"
+  },
+  "owzi-burger-querencia": {
+   "file": "owzi-burger-querencia.png",
+   "instagram": "owziburger",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/owzi-burger-querencia.svg"
+  },
+  "panificadora-central-querencia": {
+   "file": "panificadora-central-querencia.png",
+   "instagram": "panificadora_central_",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "campero-grill-querencia": {
+   "file": "campero-grill-querencia.png",
+   "instagram": "campero.grill",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/campero-grill-querencia.svg"
+  },
+  "churrascaria-rancho-do-vale-querencia": {
+   "file": "churrascaria-rancho-do-vale-querencia.png",
+   "instagram": "churrascariaranchodovale",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/churrascaria-rancho-do-vale-querencia.svg"
+  },
+  "geladinhos-prisci-querencia": {
+   "file": "geladinhos-prisci-querencia.png",
+   "instagram": "geladinhosprisci",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "leidy-cakes-querencia": {
+   "file": "leidy-cakes-querencia.png",
+   "instagram": "coelho.leidycakes",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/leidy-cakes-querencia.svg"
+  },
+  "prii-pipocas-gourmet-querencia": {
+   "file": "prii-pipocas-gourmet-querencia.png",
+   "instagram": "priipipocas.gourmet",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "armazem-pizzaria-artesanal-querencia": {
+   "file": "armazem-pizzaria-artesanal-querencia.png",
+   "instagram": "artesanal_armazem",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/armazem-pizzaria-artesanal-querencia.svg"
+  },
+  "picanhas-grill-querencia": {
+   "file": "picanhas-grill-querencia.png",
+   "instagram": "picanhasgrillmt",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "pizzaria-kabanas-ribeirao-cascalheira": {
+   "file": "pizzaria-kabanas-ribeirao-cascalheira.png",
+   "instagram": "pizzariakabanas20",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/pizzaria-kabanas-ribeirao-cascalheira.svg"
+  },
+  "sorveteria-d-acai-ribeirao-cascalheira": {
+   "file": "sorveteria-d-acai-ribeirao-cascalheira.png",
+   "instagram": "d.mais.acai",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "amor-sabor-ribeirao-cascalheira": {
+   "file": "amor-sabor-ribeirao-cascalheira.png",
+   "instagram": "amoresaborrc",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "delicias-da-nutri-ribeirao-cascalheira": {
+   "file": "delicias-da-nutri-ribeirao-cascalheira.png",
+   "instagram": "deliciasdanutri_rc",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "vania-confeitaria-sao-felix-do-araguaia": {
+   "file": "vania-confeitaria-sao-felix-do-araguaia.png",
+   "instagram": "vania_confeitaria_oficial",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "ice-mix-gelados-vila-rica": {
+   "file": "ice-mix-gelados-vila-rica.png",
+   "instagram": "icemix.gelados",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/ice-mix-gelados-vila-rica.svg"
+  },
+  "britzke-magia-vila-rica": {
+   "file": "britzke-magia-vila-rica.png",
+   "instagram": "britzke_magia",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/britzke-magia-vila-rica.svg"
+  },
+  "tche-hamburgueria-e-sorveteria-vila-rica": {
+   "file": "tche-hamburgueria-e-sorveteria-vila-rica.png",
+   "instagram": "tcheburgueresorvetevr",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "tare-sushi-vila-rica": {
+   "file": "tare-sushi-vila-rica.png",
+   "instagram": "taresushi2024",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "fort-sabor-vila-rica-vila-rica": {
+   "file": "fort-sabor-vila-rica-vila-rica.png",
+   "instagram": "fortsabor_vr",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "flavio-brasa-burger-vila-rica": {
+   "file": "flavio-brasa-burger-vila-rica.png",
+   "instagram": "flaviobrasa_burger",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "pastelar-vila-rica": {
+   "file": "pastelar-vila-rica.png",
+   "instagram": "pastelar2026",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "tipo": "foto de perfil (panfleto com a marca; sem logo isolada)"
+  },
+  "villa-grill-churrascaria-e-restaurante-vila-rica": {
+   "file": "villa-grill-churrascaria-e-restaurante-vila-rica.png",
+   "instagram": "villagrill2026",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "bia-lanches-vila-rica": {
+   "file": "bia-lanches-vila-rica.png",
+   "instagram": "bia_lanches_oficial",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "churra-s-grego-vila-rica": {
+   "file": "churra-s-grego-vila-rica.png",
+   "instagram": "churras_gregovr",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "creme-mania-vila-rica-vila-rica": {
+   "file": "creme-mania-vila-rica-vila-rica.png",
+   "instagram": "crememania_vr",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "mily-doces-vila-rica": {
+   "file": "mily-doces-vila-rica.png",
+   "instagram": "mily.doces_",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "ke-pudim-vila-rica": {
+   "file": "ke-pudim-vila-rica.png",
+   "instagram": "pudim_ke",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "crep-s-da-mari-vila-rica": {
+   "file": "crep-s-da-mari-vila-rica.png",
+   "instagram": "creps_dmari",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "doce-estouro-pipocas-gourmet-vila-rica": {
+   "file": "doce-estouro-pipocas-gourmet-vila-rica.png",
+   "instagram": "doceesttouro",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/doce-estouro-pipocas-gourmet-vila-rica.svg"
+  },
+  "cforno-cia-artesanal-vila-rica": {
+   "file": "cforno-cia-artesanal-vila-rica.png",
+   "instagram": "cfornoecia.artesanal",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/cforno-cia-artesanal-vila-rica.svg"
+  },
+  "rs-confeitaria-vila-rica": {
+   "file": "rs-confeitaria-vila-rica.png",
+   "instagram": "rsconfeitaria374",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "minis-da-michele-vila-rica": {
+   "file": "minis-da-michele-vila-rica.png",
+   "instagram": "minisdamichele",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "brownieria-vila-rica": {
+   "file": "brownieria-vila-rica.png",
+   "instagram": "sbrownieartesanal",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/brownieria-vila-rica.svg"
+  },
+  "savianinha-sorveteria-e-acaiteria-vila-rica": {
+   "file": "savianinha-sorveteria-e-acaiteria-vila-rica.png",
+   "instagram": "savianinhasorveteria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "alberita-s-hamburguer-e-massas-vila-rica": {
+   "file": "alberita-s-hamburguer-e-massas-vila-rica.png",
+   "instagram": "alberitasoficial",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "pizzaria-gomes-vila-rica": {
+   "file": "pizzaria-gomes-vila-rica.png",
+   "instagram": "gomespizzaria_vr",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "morango-moreno-sorvetes-vila-rica": {
+   "file": "morango-moreno-sorvetes-vila-rica.png",
+   "instagram": "dio_morangomoreno_sorvetes",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "pizzaria-bella-vila-rica": {
+   "file": "pizzaria-bella-vila-rica.png",
+   "instagram": "bellapizzaria_vilarica",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "emporio-do-chocolate-e-brigadeiria-canarana": {
+   "file": "emporio-do-chocolate-e-brigadeiria-canarana.png",
+   "instagram": "emporiodochocolateebrigadeiria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "tipo": "foto de perfil (a confeiteira; sem logo própria)"
+  },
+  "rancho-dos-sabores-querencia": {
+   "file": "rancho-dos-sabores-querencia.png",
+   "instagram": "rancho_dos__sabores",
+   "tipo": "foto de perfil (ilustração da dona na cozinha)",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "janaina-lorrainy-doces-querencia": {
+   "file": "janaina-lorrainy-doces-querencia.png",
+   "instagram": "janaina_lorrainy_doces",
+   "tipo": "foto de perfil (a confeiteira; sem logo própria)",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "karol-doces-querencia": {
+   "file": "karol-doces-querencia.png",
+   "instagram": "karoldocesg",
+   "tipo": "foto de perfil (a confeiteira; sem logo própria)",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "kendyy-lanches-ribeirao-cascalheira": {
+   "file": "kendyy-lanches-ribeirao-cascalheira.png",
+   "instagram": "kendylla_lanches_2.0",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "tipo": "foto de perfil (a dona; sem logo própria)"
+  },
+  "mayhara-cakes-novo-sao-joaquim": {
+   "file": "mayhara-cakes-novo-sao-joaquim.png",
+   "instagram": "mayhara.cakes",
+   "vetor": "data/research/logos/mayhara-cakes.svg",
+   "tipo": "logo criada (foto de perfil é a confeiteira)"
+  },
+  "maia-s-brigadeiria-artesanal-nova-xavantina": {
+   "file": "maia-s-brigadeiria-artesanal-nova-xavantina.png",
+   "instagram": "maiasbrigadeiriaartesanal",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "burguer-s-house-gourmet-nova-xavantina": {
+   "file": "burguer-s-house-gourmet-nova-xavantina.png",
+   "instagram": "burguershouse_nx",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "pizzaria-gaucha-nova-xavantina": {
+   "file": "gaucha-vetor.png",
+   "instagram": "pizzariagaucha",
+   "vetor": "data/research/logos/pizzaria-gaucha.svg"
+  },
+  "refugio-do-chopp-nova-xavantina": {
+   "file": "refugio-do-chopp-nova-xavantina.png",
+   "instagram": "refugiodochoppnx",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "dad-burger-barra-do-garcas": {
+   "file": "dad-burger-barra-do-garcas.png",
+   "instagram": "dadburgeroficial",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/dad-burger-barra-do-garcas.svg"
+  },
+  "churrascaria-o-panelao-barra-do-garcas": {
+   "file": "churrascaria-o-panelao-barra-do-garcas.png",
+   "instagram": "opanelaochurrascaria",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/churrascaria-o-panelao-barra-do-garcas.svg"
+  },
+  "mistro-massas-marmitas-pizzaria-barra-do-garcas": {
+   "file": "mistro-massas-marmitas-pizzaria-barra-do-garcas.png",
+   "instagram": "mistromassasoficial",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "tipo": "foto de perfil (as sócias; sem logo própria)"
+  },
+  "texas-grill-burger-churrasco-barra-do-garcas": {
+   "file": "texas-grill-burger-churrasco-barra-do-garcas.png",
+   "instagram": null,
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/texas-grill-burger-churrasco-barra-do-garcas.svg"
+  },
+  "buffalos-pizzaria-barra-do-garcas": {
+   "file": "buffalos-pizzaria-barra-do-garcas.png",
+   "instagram": "buffalos__oficial",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)",
+   "vetor": "data/research/logos/buffalos-pizzaria-barra-do-garcas.svg"
+  },
+  "creme-mania-sorvetes-novo-sao-joaquim": {
+   "file": "creme-mania-sorvetes-novo-sao-joaquim.png",
+   "instagram": "creme_maniasorvetesnsj",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 29/10/2026)"
+  },
+  "restaurante-martinao-agua-boa": {
+   "file": "restaurante-martinao-agua-boa.png",
+   "instagram": "",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "restaurante-e-pizzaria-chopinho-canarana": {
+   "file": "restaurante-e-pizzaria-chopinho-canarana.png",
+   "instagram": "restaurantechopinho",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)",
+   "vetor": "data/research/logos/restaurante-e-pizzaria-chopinho-canarana.svg"
+  },
+  "sorveteria-e-lanchonete-paloma-canarana": {
+   "file": "sorveteria-e-lanchonete-paloma-canarana.png",
+   "instagram": "sorveteriapaloma_mt",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "marcio-lanches-canarana": {
+   "file": "marcio-lanches-canarana.png",
+   "instagram": "marcio.lanchonete",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 30/10/2026)"
+  },
+  "creme-mania-sorvetes-e-acai-sao-felix-do-araguaia": {
+   "file": "creme-mania-sorvetes-e-acai-sao-felix-do-araguaia.png",
+   "fonte": "logo oficial da rede Creme Mania (a mesma da foto de perfil de @crememaniaab, Água Boa), a pedido do Pedro em 30/10/2026; a loja de São Félix não tem Instagram próprio cadastrado"
+  },
+  "braseiro-espetinhos-querencia": {
+   "file": "braseiro-espetinhos-querencia.png",
+   "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/braseiro-espetinhos); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "delicias-do-para-querencia": {
+   "file": "delicias-do-para-querencia.png",
+   "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/delicias-do-para); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "lugano-querencia-querencia": {
+   "file": "lugano-querencia-querencia.png",
+   "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/lugano-querencia); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "mc-lena-querencia": {
+   "file": "mc-lena-querencia.png",
+   "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/mc-lena); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "sabor-top-25-querencia": {
+   "file": "sabor-top-25-querencia.png",
+   "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/sabor-top-25); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "smash-burger-querencia": {
+   "file": "smash-burger-querencia.png",
+   "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/smash-burger); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "tarantella-pizzaria-querencia": {
+   "file": "tarantella-pizzaria-querencia.png",
+   "fonte": "logo da loja no aiqfome (https://aiqfome.com/MT/querencia/tarantella-pizzaria); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "sabor-de-verao-querencia": {
+   "file": "sabor-de-verao-querencia.png",
+   "fonte": "logo do cardápio digital da própria loja (https://sabordeverao.foodsapp.com.br/loja); sem Instagram encontrado na pesquisa de 30/10/2026"
+  },
+  "nt-distribuidora-nova-xavantina": {
+   "file": "nt-distribuidora-nova-xavantina.png",
+   "instagram": "nt_distribuidorabeer",
+   "fonte": "foto de perfil aberta no app do Instagram (print enviado pelo Pedro em 31/10/2026)"
+  },
+  "acai-ls-barra-do-garcas": {
+   "file": "acai-ls-barra-do-garcas.jpeg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/acai-ls-vila-serrinha/23e9bd39-deeb-468d-97b0-917a0906f2fe), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "braseiro-du-chef-steak-house-barra-do-garcas": {
+   "file": "braseiro-du-chef-steak-house-barra-do-garcas.jpeg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/braseiro-du-chef-steak-house-jardim-piracema/2cd296f2-3053-48e8-b887-4b924a5cbe58), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "flash-acai-barra-do-garcas": {
+   "file": "flash-acai-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/flash-acai-centro/38135e39-8040-40e4-a9eb-f792345c2347), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "libano-esfiharia-barra-do-garcas": {
+   "file": "libano-esfiharia-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/libano-esfiharia-jardim-nova-barra/39223934-f906-47f1-9337-47d5121dd72b), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "degust-hamburgueria-artesanal-barra-do-garcas": {
+   "file": "degust-hamburgueria-artesanal-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/degust-hamburgueria-artesanal-vila-maria/394219c6-c9b3-4dcf-84ae-fbac8ae26baa), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "mg-hot-dog-acaiteria-e-lanchonete-barra-do-garcas": {
+   "file": "mg-hot-dog-acaiteria-e-lanchonete-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/hot-dog--acaiteria-mg-e-lanchonete-jardim-nova-barra-do-garcas/3a80938c-3fc5-4505-af0d-caf1555eae0c), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "toa-toa-sanduicheria-barra-do-garcas": {
+   "file": "toa-toa-sanduicheria-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/toa-toa-sanduicheria-jardim-vista-alegre-ll/4f6d968b-3f70-4655-90c5-08f18cc19484), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "vm-restaurante-e-cia-barra-do-garcas": {
+   "file": "vm-restaurante-e-cia-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/vm-restaurante-e-cia-jardim-nova-barra-norte/4fd90e8e-8be1-468a-b42a-8ce04523ef06), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "lau-lau-sanduiche-prensado-barra-do-garcas": {
+   "file": "lau-lau-sanduiche-prensado-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/lau-lau-sanduiche-prensado-de-15-e-20cm-jardim-mariano/540d36fb-c751-4564-a25e-e6d48cd687a6), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "tempero-de-mae-barra-do-garcas": {
+   "file": "tempero-de-mae-barra-do-garcas.jpeg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/tempero-de-mae---jantinha-almoco-espetinhos-e-caldos-setor-dermat/554794fc-8845-4856-a35e-db6b2dafc763), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "meiga-doces-confeitaria-barra-do-garcas": {
+   "file": "meiga-doces-confeitaria-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/meiga-doces-confeitaria-jardim-nova-barra-norte/578f56b9-9212-44ee-bd88-1c170716ce06), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "acai-imperial-barra-do-garcas": {
+   "file": "acai-imperial-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/acai-imperial-jardim-nova-barra-do-garcas/61238775-c018-45ed-81c0-06db151348b3), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "recheatta-batata-recheada-barra-do-garcas": {
+   "file": "recheatta-batata-recheada-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/recheattabg-batata-recheada-jardim-nova-barra-do-garcas/71f9ee65-0b72-47ee-833b-4029d11e9994), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "duze-pasteis-barra-do-garcas": {
+   "file": "duze-pasteis-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/duze-pasteis-jardim-ouro-fino/72622860-103d-4737-a577-3331168f57ba), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "gulacai-barra-do-garcas": {
+   "file": "gulacai-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/gulacai-jardim-nova-barra-do-garcas/7851b687-df07-4776-b6f1-9fd1b6cb1da9), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "fnp-burger-barra-do-garcas": {
+   "file": "fnp-burger-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/fnp-burger---barra-do-garcas-campinas/818eee3f-a4ac-40ef-a3eb-1fe2f9c6ca7e), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "sedex-da-pizza-barra-do-garcas": {
+   "file": "sedex-da-pizza-barra-do-garcas.jpeg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/sedex-da-pizza-bairro-b-n-h/86174ec0-a410-43ca-a098-ce098e4c63e6), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "acreano-pizzaria-delivery-barra-do-garcas": {
+   "file": "acreano-pizzaria-delivery-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/acreano-pizzaria-delivery-jardim-piracema/881a2864-b226-469a-9679-3bf2fa21f471), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "fritudo-hamburgueria-pizzaria-barra-do-garcas": {
+   "file": "fritudo-hamburgueria-pizzaria-barra-do-garcas.jpeg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/hamburgueriapizzaria-fritudo-loteamento-santa-emilia/a8c145c1-0203-4a38-a7dc-3cbb80337285), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "clube-do-hot-dog-prensados-lanches-barra-do-garcas": {
+   "file": "clube-do-hot-dog-prensados-lanches-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/clube-do-hot-dog-prensados--lanches-campinas/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "texanas-hamburgueria-artesanal-barra-do-garcas": {
+   "file": "texanas-hamburgueria-artesanal-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/texanas-hamburgueria-artesanal---hamburguer-jardim-pitaluga/ad330750-a794-470a-b86f-a9a8b68002ef), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "bruttus-acai-barra-do-garcas": {
+   "file": "bruttus-acai-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/bruttus-acai-bg-vila-sao-jose/af449f72-b66d-4154-8fe2-fd1c95d9b3c0), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "frango-no-pote-fnp-barra-do-garcas": {
+   "file": "frango-no-pote-fnp-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/frango-no-pote---fnp---barra-do-garcas-campinas/b3b2b12d-1cc5-4443-b921-ce239fd9c6ee), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "golden-chicken-barra-do-garcas": {
+   "file": "golden-chicken-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/golden-chicken---barra-center-shopping-setor-cristino-cortes/c3c675ee-82a6-4383-a691-6128a56792e9), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "max-burger-barra-do-garcas": {
+   "file": "max-burger-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/max-burger-jardim-domingos-mariano/cdfcc8b7-f2dd-4bdd-90fe-daf922f00ed3), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "md-chef-s-pizzaria-barra-do-garcas": {
+   "file": "md-chef-s-pizzaria-barra-do-garcas.jpeg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/md-chefs---pizzaria-delivery-vila-maria-gomes-dos-santos/dd1b92e0-abc1-4290-9980-b8fe2813e907), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "di-matteo-acai-barra-do-garcas": {
+   "file": "di-matteo-acai-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/di-matteo-acai---barra-do-garcas-setor-sul-i/e13450df-dfe4-4fcf-9e90-16806486cc2a), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "casa-da-coxinha-e-cia-barra-do-garcas": {
+   "file": "casa-da-coxinha-e-cia-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/casa-da-coxinha-e-cia-santo-antonio/e725fd7c-93c4-4261-94e5-e284adfeff4b), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "chapa-quente-barra-do-garcas": {
+   "file": "chapa-quente-barra-do-garcas.jpg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/chapa-quente-jardim-ouro-fino/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "maria-doces-barra-do-garcas": {
+   "file": "maria-doces-barra-do-garcas.jpeg",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/maria-doces-jardim-nova-barra-do-garcas/f74a166a-46de-4ac4-bf35-0067e4278394), coletado pelo Claude in Chrome em 05/11/2026"
+  },
+  "casa-do-acai-bg-barra-do-garcas": {
+   "file": "casa-do-acai-bg-barra-do-garcas.png",
+   "fonte": "logotipo da loja no iFood (https://www.ifood.com.br/delivery/barra-do-garcas-mt/casa-do-acaibg-jardim-ouro-fino-ii/fda438a3-7af6-4f81-901a-c61eecb96803), coletado pelo Claude in Chrome em 05/11/2026"
   }
+ }
 }

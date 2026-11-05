@@ -1,0 +1,684 @@
+{
+  "id": "flash-acai-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/flash-acai-centro/38135e39-8040-40e4-a9eb-f792345c2347",
+  "capturedAt": "2026-11-05T01:17:04.482Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Atenção",
+      "items": [
+        {
+          "sourceId": "2f72b2fc-aa18-4fbb-9e28-7078eb06b2cf",
+          "name": "Adicionar Seu Contato Quando Efetuar O Pedido",
+          "description": "Para Qualquer Dúvida Nosso Whatsap (66) 99243-4308",
+          "priceCents": 1,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202605300020_624I_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai simples",
+      "items": [
+        {
+          "sourceId": "5c4b2895-9708-4450-a793-8b6d2230dfc7",
+          "name": "Simples 300ml",
+          "description": "Escolha 2 opções de adicionais L.Ninho L.condesado Paçoca Granola",
+          "priceCents": 2235,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161727_4429_.jpeg",
+          "options": [
+            {
+              "name": "Escolha 2 adicional gratis",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nenhum adicional",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e36d6fe9-5852-4401-8427-3be7676e3c75",
+          "name": "Simples 480ml",
+          "description": "Escolha 2 opções de adicionais L.Ninho L.condesado Paçoca Granola",
+          "priceCents": 2555,
+          "originalPriceCents": 2805,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504152137_YR5P_i.jpg",
+          "options": [
+            {
+              "name": "Escolha 2 adicional gratis",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nenhum adicional",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3486dda5-22db-4563-9a12-0d616a62ada7",
+          "name": "Simples 600ml",
+          "description": "Escolha 2 opções de adicionais L.Ninho L.condesado Paçoca Granola",
+          "priceCents": 2898,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504152118_16TO_i.jpg",
+          "options": [
+            {
+              "name": "Escolha 2 adicional gratis",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nenhum adicional",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açaí tradicional",
+      "items": [
+        {
+          "sourceId": "a284902c-05d9-4ec7-848a-a4504b9df59c",
+          "name": "Tradicional 300ml",
+          "description": "Granola, Leite em pó, Leite condensado e Banana",
+          "priceCents": 2250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161748_LML9_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "d65c0a77-316a-462e-9c51-9833a4e0123a",
+          "name": "Tradicional 480ml",
+          "description": "Granola, Leite em pó, Leite condensado e Banana",
+          "priceCents": 2595,
+          "originalPriceCents": 2895,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161750_TZ6F_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4686ddec-6a4d-46e8-98b5-bad780c6838a",
+          "name": "Tradicional 600ml",
+          "description": "Granola, Leite em pó, Leite condensado e Banana",
+          "priceCents": 2960,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161751_J6VG_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai supremo",
+      "items": [
+        {
+          "sourceId": "01a1d5e4-c694-4399-ac46-2bedbbc8c863",
+          "name": "Supremo 300ml",
+          "description": "Creme de morango, creme avelã Disquete, chocoball",
+          "priceCents": 2250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202511302126_352S_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "d549081f-5690-41c9-9fe5-ecc35c1a7263",
+          "name": "Supremo 480ml",
+          "description": "Creme de morango, creme avelã Disquete, chocoball",
+          "priceCents": 2718,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202511302126_352S_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "cae74b15-a643-4b6d-8185-765f4dd7e53e",
+          "name": "Supremo 600ml",
+          "description": "Creme de morango, creme avelã Disquete, chocoball",
+          "priceCents": 2975,
+          "originalPriceCents": 3270,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202511302126_352S_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Cupuaçu",
+      "items": [
+        {
+          "sourceId": "492da593-6041-439a-af19-3885c5a8dc98",
+          "name": "Cupuaçu 300ml",
+          "description": "Granola, l.condesado, leite em pó",
+          "priceCents": 2240,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202512012233_T1FU_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "2e5cab00-a7d3-4bfd-95e2-395b60953c09",
+          "name": "Cupuaçu 480 ml",
+          "description": "Granola, l.condesado, leite em pó",
+          "priceCents": 2699,
+          "originalPriceCents": 2799,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202512012233_T1FU_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "cd377513-1786-46d8-959c-3783a331da9d",
+          "name": "Cupuaçu 600ml",
+          "description": "Granola, l.condesado, leite em pó",
+          "priceCents": 2953,
+          "originalPriceCents": 3120,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202512012233_T1FU_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai frutado",
+      "items": [
+        {
+          "sourceId": "ba68e3f6-e89b-4249-87eb-1f7153ba2ee1",
+          "name": "Frutado 300ml",
+          "description": "Banana, Morango e Kiwi",
+          "priceCents": 2250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161759_ZA1P_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "cf795ebb-cf78-4d0a-8b1f-3426cf5bb1d6",
+          "name": "Frutado 480ml",
+          "description": "Banana, Morango e Kiwi",
+          "priceCents": 2705,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161801_81GO_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "d1974c7b-d2ce-45c6-80ae-37afc16d263a",
+          "name": "Frutado 600ml",
+          "description": "Banana, Morango e Kiwi",
+          "priceCents": 2965,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161802_1L54_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai euforia",
+      "items": [
+        {
+          "sourceId": "7a174313-fc30-45ab-8cbe-f5eb537dd5be",
+          "name": "Euforia 300ml",
+          "description": "Ovomaltine em pó, Bis e Creme de Ninho",
+          "priceCents": 2235,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161813_W87M_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c63ff6f9-6aef-48b7-aa8b-aa6beed4d363",
+          "name": "Euforia 480ml",
+          "description": "Ovomaltine em pó, Bis e Creme de Ninho",
+          "priceCents": 2698,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161814_E62P_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "ac1316b6-f321-4c86-ad38-d4eaf347b8b6",
+          "name": "Euforia 600ml",
+          "description": "Ovomaltine em pó, Bis e Creme de Ninho",
+          "priceCents": 2960,
+          "originalPriceCents": 3175,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161815_7J8G_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai explosão",
+      "items": [
+        {
+          "sourceId": "815e0901-18c2-4500-8af6-fe5e6f0e0d12",
+          "name": "Explosão 300ml",
+          "description": "Kit Kat, Sonho de Valsa e Oreo",
+          "priceCents": 2245,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202505092140_0IV4_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "aea22798-ce8a-4fe7-bf43-694e35469ce2",
+          "name": "Explosão 480ml",
+          "description": "Kit Kat, Sonho de Valsa e Oreo",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202505092141_880S_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "85a23196-3962-40ee-8108-0a6169ed4fb6",
+          "name": "Explosão 600ml",
+          "description": "Kit Kat, Sonho de Valsa e Oreo",
+          "priceCents": 2959,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202505092141_15II_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai misto",
+      "items": [
+        {
+          "sourceId": "35ad5f46-fed3-42dd-86a0-0d3690a434db",
+          "name": "Misto 300ml",
+          "description": "Cupuaçu, Açaí, Leite em pó e Leite condensado",
+          "priceCents": 2240,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161743_HNN9_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "1a42de07-7667-40df-ba67-de1761b7cafa",
+          "name": "Misto 480ml",
+          "description": "Cupuaçu, Açaí, Leite em pó e Leite condensado",
+          "priceCents": 2695,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161744_7GK6_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3828d0c7-97bc-43c1-b2af-cdd8e3d15819",
+          "name": "Misto 600ml",
+          "description": "Cupuaçu, Açaí, Leite em pó e Leite condensado",
+          "priceCents": 2898,
+          "originalPriceCents": 3100,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161746_ARK4_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai do chefe",
+      "items": [
+        {
+          "sourceId": "9c59494b-be06-457e-9b43-394e747664f9",
+          "name": "Do Chefe 300ml",
+          "description": "Ovomaltine creme, disquete e Paçoca",
+          "priceCents": 2248,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161753_K937_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "a5ae84aa-86db-4364-919b-8cb8c1d65bab",
+          "name": "Do Chefe 480ml",
+          "description": "Ovomaltine creme, disquete e Paçoca",
+          "priceCents": 2720,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161755_9041_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "0c709356-65b7-4b1f-9a3e-5491ade06457",
+          "name": "Do Chefe 600ml",
+          "description": "Ovomaltine creme, disquete e Paçoca",
+          "priceCents": 2965,
+          "originalPriceCents": 3272,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161757_13F0_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai tentação",
+      "items": [
+        {
+          "sourceId": "8d9ab331-55b1-488d-94ee-abfcd21370b7",
+          "name": "Tentação 300ml",
+          "description": "Creme de avelã, Creme Ninho, Chocoball e Bom bom Ouro Branco",
+          "priceCents": 2260,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161730_6RM7_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "41936f00-d62b-4505-a7fd-6d6476d902c3",
+          "name": "Tentação 600ml",
+          "description": "Creme de avelã, creme de ninh, chocoball Ouro Branco",
+          "priceCents": 2990,
+          "originalPriceCents": 3292,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202512212247_0IPU_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "51233a11-914b-4ef8-83db-bf6bbf84ce45",
+          "name": "Tentação 480ml",
+          "description": "Creme de avelã, Creme Ninho, Chocoball e Bom bom Ouro Branco",
+          "priceCents": 2738,
+          "originalPriceCents": 2935,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202504161731_J83A_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Adicionais",
+      "items": [
+        {
+          "sourceId": "441f379f-2837-4153-92eb-9e2c54d314eb",
+          "name": "Bis",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142001_2GGT_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "e93d49f6-990a-4f62-8f6e-ccb8c0fc3343",
+          "name": "Bolacha Oreo",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142002_PP8C_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "0c4dd931-96e5-42cb-957b-088aeb7fb467",
+          "name": "Chocoball",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141856_U5AX_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "12095f95-3c66-4f09-89be-92085e346218",
+          "name": "Creme de avelã",
+          "description": "",
+          "priceCents": 525,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142006_V0Z5_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "a88025c7-f7cf-4e45-afa9-711dd08e12e1",
+          "name": "Creme de morango",
+          "description": "",
+          "priceCents": 460,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142001_5KK3_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "74a36e1a-167c-441d-a520-86faa1e4cfe7",
+          "name": "Disquete",
+          "description": "",
+          "priceCents": 360,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141858_ERDL_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "7ac726ca-dfdf-4c8d-8788-0843f4298699",
+          "name": "Nutela",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141823_YTVZ_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "e8b60309-6531-474a-ad5d-ad8669c43af8",
+          "name": "Kiwi",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141902_SCE1_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "b826ac36-761a-42be-b04a-9e0a14d65e99",
+          "name": "Banana",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141900_NDY0_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "e88c49a1-7ed3-44eb-bb72-eb45c4b13b21",
+          "name": "Granola",
+          "description": "",
+          "priceCents": 220,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141954_CH58_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c86d9b82-c78c-4aa1-b692-304e7bb30c28",
+          "name": "Leite em pó",
+          "description": "",
+          "priceCents": 315,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141900_BSN8_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "fe680b78-2ca2-401d-8404-fcb5433f147a",
+          "name": "Leite condensado",
+          "description": "",
+          "priceCents": 315,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141859_29MD_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "354ecf3b-08a4-48b5-b0d4-9acbd307ca3f",
+          "name": "Ovomaltine em po",
+          "description": "",
+          "priceCents": 470,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142004_U53P_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "690a6c79-b104-479c-a61f-f47cc5734c6b",
+          "name": "Ovomaltine creme",
+          "description": "",
+          "priceCents": 560,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142003_873J_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "d7229dca-739d-451d-888c-e979935169ac",
+          "name": "Creme de Ninho",
+          "description": "",
+          "priceCents": 460,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142003_1ITD_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "e63973af-0ec6-48fa-ac23-90e027ad425d",
+          "name": "Paçoca",
+          "description": "",
+          "priceCents": 145,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142006_3H7P_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "e53f3204-2617-4862-aca8-7f4d5dd5fb1e",
+          "name": "Bom bom Ouro Branco",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141854_000T_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "372f0c43-4257-480b-9597-415c77fdc1a1",
+          "name": "Kit Kat",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601142002_3WY5_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "cc024a77-698e-4156-8a8c-d2dce58591e1",
+          "name": "Sonho de Valsa",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202601141855_3VW0_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes",
+      "items": [
+        {
+          "sourceId": "5b568ba5-72ef-4664-81f7-21ef7c865310",
+          "name": "Coca cola 310ml",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202603212316_7C6L_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "ec5b30c4-a12f-4143-af3c-5e45f4772d4e",
+          "name": "Fanta 310 ml",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202603212328_UKBW_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4f6ce0f6-8bae-427f-b939-a5d67cf0a956",
+          "name": "Guaraná Antárctica 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202301241118_8j4rz3pv6a7.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "227edf33-55b5-42c6-a922-cc30d101b8d3",
+          "name": "Kitubaina 310 ml",
+          "description": "",
+          "priceCents": 550,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202603212317_BMVE_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "24a7deef-4dfe-4bfc-9e2c-e3b3304c37c7",
+          "name": "Energético Monster 473ml",
+          "description": "",
+          "priceCents": 1499,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202603212318_7Y94_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "96cd6982-cc92-467a-8ca4-30f258c34512",
+          "name": "H2O limoneto",
+          "description": "",
+          "priceCents": 775,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202603212322_1UX2_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "32950338-fb55-4028-bafc-9d252a686ea1",
+          "name": "Água c/gás",
+          "description": "",
+          "priceCents": 450,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202603212320_LEZX_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "33c3a964-d1bc-433b-b180-5f14019c6c96",
+          "name": "Água s/gás",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/38135e39-8040-40e4-a9eb-f792345c2347/202603212321_DIE8_.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (58 itens na loja)."
+  ]
+}

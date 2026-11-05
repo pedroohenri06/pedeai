@@ -1,0 +1,340 @@
+{
+  "id": "vm-restaurante-e-cia-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/vm-restaurante-e-cia-jardim-nova-barra-norte/4fd90e8e-8be1-468a-b42a-8ce04523ef06",
+  "capturedAt": "2026-11-05T01:16:54.117Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Jantinha / Espetos",
+      "items": [
+        {
+          "sourceId": "f6f32bab-9c58-40e0-aa90-8a167aaec7cc",
+          "name": "Jantinha + Espeto",
+          "description": "Acompanha: Arroz, Feijão Tropeiro, Vinagrete, Mandioca, Maionese e 1 Espeto.",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202401271847_6MGU_i.jpg",
+          "options": [
+            {
+              "name": "Espetos",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Carne Tradicional",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Com Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Linguiça",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupim",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Meio da Asa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Língua",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coração de Frango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1d7f9b25-5270-4897-a496-82ddf21a757e",
+          "name": "Espeto de Carne Tradicional",
+          "description": "Acompanha Mandioca",
+          "priceCents": 1640,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011245_H6I8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "7a1e73d9-2873-46f0-b052-2fe11a2d1532",
+          "name": "Espeto de Cupim",
+          "description": "Acompanha Mandioca",
+          "priceCents": 1640,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011245_H6I8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "aa71f657-cd04-4b4b-a59a-13d6f034b54f",
+          "name": "Espeto de Frango com Bacon",
+          "description": "Acompanha Mandioca",
+          "priceCents": 1640,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011245_H6I8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "b485d140-8095-4676-bba4-e9e56c5e9ff6",
+          "name": "Espeto de Queijo",
+          "description": "Acompanha Mandioca",
+          "priceCents": 1640,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011245_H6I8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "4cb3d6ea-75cd-4fb0-96ca-283f8cb5adaf",
+          "name": "Espeto de Linguiça Mista",
+          "description": "Acompanha Mandioca",
+          "priceCents": 1640,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011245_H6I8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "a550f41a-d7a2-4cd1-a0cf-f6f638134612",
+          "name": "Espeto de Coração de Frango",
+          "description": "Acompanha Mandioca",
+          "priceCents": 1640,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011245_H6I8_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "913067ff-b52c-4792-8742-b324997883f2",
+          "name": "Espeto de Língua",
+          "description": "Acompanha Mandioca",
+          "priceCents": 1640,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011245_H6I8_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos",
+      "items": [
+        {
+          "sourceId": "adee32e5-29c9-4203-a5c2-85bb85d1ad56",
+          "name": "Suco de Laranja (Natural)",
+          "description": "",
+          "priceCents": 1099,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011342_7SIO_i.jpg",
+          "options": [
+            {
+              "name": "Tamanho do Suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo 380ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jarra 780ml",
+                  "priceCents": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "103dc89a-2cfb-48ff-a29f-60c5afad351d",
+          "name": "Suco de Abacaxi",
+          "description": "",
+          "priceCents": 1099,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011342_7SIO_i.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo 380ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jarra 780ml",
+                  "priceCents": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0e6b17cc-d972-4c70-9491-195de47b00e1",
+          "name": "Suco de Maracuja",
+          "description": "",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402011342_7SIO_i.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Copo 380ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Jarra 780ml",
+                  "priceCents": 900
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "e780032f-fd6d-4897-b84a-5f5f3e40f378",
+          "name": "Caldo de Frango",
+          "description": "Acompanha: Queijo, Cebolinha e Torradas.",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402072324_B40H_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ed7b4047-425d-4b1b-b6b6-c0ca04ef202c",
+          "name": "Caldo de Feijão",
+          "description": "Acompanha: Queijo, Cebolinha e Torradas.",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402072324_B40H_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "e387eaff-52da-494c-8f08-524e3d877391",
+          "name": "Caldo de Dobradinha",
+          "description": "Acompanha: Queijo, Cebolinha e Torradas.",
+          "priceCents": 2999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202402072324_B40H_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "09f77b66-69a2-4df8-8e78-4eeec3d4a024",
+          "name": "Coca-Cola Original 1,5l",
+          "description": "Garrafa 1,5l",
+          "priceCents": 1599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210192214_pcatvoxm2a.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "08e4a6b4-a3ea-4705-8d01-3294c2faf309",
+          "name": "Coca-Cola Original 310ml",
+          "description": "Lata 310ml",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180558_48gu7bqmv17.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "063e76ab-f011-4a42-a470-ccc55a21b747",
+          "name": "Fanta Laranja 310ml",
+          "description": "",
+          "priceCents": 750,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202603261152_hlx3wxa4b.png",
+          "options": []
+        },
+        {
+          "sourceId": "193c239c-c270-4d35-83e0-f0289ca68303",
+          "name": "Refrigerante Zero Açúcar Coca-Cola 1,5l",
+          "description": "",
+          "priceCents": 1599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202611031657_1qevbzpj4b3.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "fe27087f-40e6-4cc5-a09c-e691c660ab7a",
+          "name": "Coca-Cola Original 2l",
+          "description": "Garrafa 2l",
+          "priceCents": 1899,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190049_yw77eon3u4o.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ad94cc27-b9f5-4d5f-a678-efffee80d0bf",
+          "name": "Energético Energy Monster 473ml",
+          "description": "Lata 473ml",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202305021419_wfs2gnw9yp7.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "29622954-e825-48c2-9590-13ab82a49c76",
+          "name": "Guaraná Antarctica 1l",
+          "description": "Embalagem 1l",
+          "priceCents": 1150,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190235_7yak7flqtt9.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Batata Frita",
+      "items": [
+        {
+          "sourceId": "0ab54e65-8b48-41b8-a7ce-e1f159e342e7",
+          "name": "Batata Frita Especial",
+          "description": "Batata Frita, Queijo, Calabresa e Molhos.",
+          "priceCents": 3399,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/4fd90e8e-8be1-468a-b42a-8ce04523ef06/202405300242_N8O6_i.jpg",
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300g (Media)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500g (Grande)",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (22 itens na loja)."
+  ]
+}

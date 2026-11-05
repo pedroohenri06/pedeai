@@ -209,7 +209,7 @@
     out.push('');
     out.push('Subtotal: ' + formatBRL(t.subtotal));
     if (mode === 'entrega') {
-      out.push(t.feeKnown ? 'Taxa de entrega: ' + formatBRL(t.fee) : 'Taxa de entrega: a confirmar');
+      out.push(t.feeKnown ? 'Taxa de entrega: ' + formatBRL(t.fee) : 'Taxa de entrega: a combinar');
       out.push((t.feeKnown ? 'Total: ' : 'Total (sem taxa de entrega): ') + formatBRL(t.total));
     } else {
       out.push('Total: ' + formatBRL(t.total));

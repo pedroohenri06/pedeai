@@ -90,7 +90,7 @@ test('mensagem do WhatsApp lista itens, totais e dados do cliente', () => {
   assert.match(msg, /2x Calabresa G — R\$ 119,80/);
   assert.match(msg, /1x Refrigerante 2L — R\$ 12,50/);
   assert.match(msg, /Subtotal: R\$ 132,30/);
-  assert.match(msg, /Taxa de entrega: a confirmar/);
+  assert.match(msg, /Taxa de entrega: a combinar/);
   assert.match(msg, /Total \(sem taxa de entrega\): R\$ 132,30/);
   assert.match(msg, /Endereço: Rua 1, 10/);
   assert.match(msg, /Pagamento: Dinheiro \(troco para R\$ 150\)/);

@@ -1498,5 +1498,10 @@
     "Adicionais variam por tamanho em \"Sorv. napolitano\": não importados.",
     "Adicionais variam por tamanho em \"Sorv. ninho trufado\": não importados.",
     "Adicionais variam por tamanho em \"Sorv. pudim de caramelo\": não importados."
-  ]
+  ],
+  "ops": {
+    "deliveryMin": 20,
+    "deliveryMax": 40,
+    "minOrderCents": 1000
+  }
 }

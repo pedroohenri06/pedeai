@@ -721,5 +721,10 @@
   "skipped": {
     "sem preço": 1
   },
-  "notes": []
+  "notes": [],
+  "ops": {
+    "deliveryMin": 40,
+    "deliveryMax": 60,
+    "minOrderCents": 1500
+  }
 }

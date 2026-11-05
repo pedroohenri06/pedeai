@@ -2572,5 +2572,9 @@
     }
   ],
   "skipped": {},
-  "notes": []
+  "notes": [],
+  "ops": {
+    "deliveryMin": 50,
+    "deliveryMax": 90
+  }
 }

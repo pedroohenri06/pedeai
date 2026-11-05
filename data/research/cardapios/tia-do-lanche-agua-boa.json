@@ -1808,5 +1808,9 @@
     }
   ],
   "skipped": {},
-  "notes": []
+  "notes": [],
+  "ops": {
+    "deliveryMin": 55,
+    "deliveryMax": 65
+  }
 }

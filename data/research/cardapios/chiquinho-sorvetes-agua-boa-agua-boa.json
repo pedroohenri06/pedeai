@@ -2824,5 +2824,10 @@
     "Adicionais variam por tamanho em \"Apenas o bolinho do petit gateau\": não importados.",
     "Adicionais variam por tamanho em \"Petit gateau + sorvete\": não importados.",
     "Adicionais variam por tamanho em \"Monte o seu\": não importados."
-  ]
+  ],
+  "ops": {
+    "deliveryMin": 20,
+    "deliveryMax": 40,
+    "minOrderCents": 1000
+  }
 }

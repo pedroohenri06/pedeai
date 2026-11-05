@@ -59,6 +59,9 @@ function main() {
     store.menuSource = snap.source;
     if (!store.sources.includes(snap.source)) store.sources.push(snap.source);
     if (!store.hours && snap.hours) store.hours = snap.hours;
+    // Tempo de entrega e pedido mínimo que a loja configurou na própria plataforma de pedidos (atualizados a cada coleta).
+    if (snap.ops && snap.ops.deliveryMin) store.deliveryTime = { minMinutes: snap.ops.deliveryMin, maxMinutes: snap.ops.deliveryMax, source: snap.source };
+    if (snap.ops && snap.ops.minOrderCents) store.minOrderCents = snap.ops.minOrderCents;
     // WhatsApp de pedidos publicado no cardápio digital da própria loja: canal verificado (libera o pedido online).
     if (!store.whatsapp && snap.whatsapp && core.isValidWhatsApp(snap.whatsapp)) { store.whatsapp = snap.whatsapp; store.whatsappSource = snap.source; }
     store.verifiedAt = snap.capturedAt.slice(0, 10);

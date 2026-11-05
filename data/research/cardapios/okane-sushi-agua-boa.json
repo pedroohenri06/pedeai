@@ -2274,5 +2274,10 @@
     }
   ],
   "skipped": {},
-  "notes": []
+  "notes": [],
+  "ops": {
+    "deliveryMin": 40,
+    "deliveryMax": 60,
+    "minOrderCents": 2000
+  }
 }

@@ -23563,5 +23563,10 @@
     "Adicionais variam por tamanho em \"Chocobana\": não importados.",
     "Adicionais variam por tamanho em \"Portuguesa\": não importados.",
     "Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação."
-  ]
+  ],
+  "ops": {
+    "deliveryMin": 60,
+    "deliveryMax": 90,
+    "minOrderCents": 2000
+  }
 }

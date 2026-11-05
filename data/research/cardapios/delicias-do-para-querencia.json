@@ -596,5 +596,10 @@
     "sem preço": 1,
     "indisponível": 1
   },
-  "notes": []
+  "notes": [],
+  "ops": {
+    "deliveryMin": 20,
+    "deliveryMax": 40,
+    "minOrderCents": 1500
+  }
 }

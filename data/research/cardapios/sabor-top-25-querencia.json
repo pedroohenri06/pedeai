@@ -2996,5 +2996,9 @@
   "skipped": {},
   "notes": [
     "Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação."
-  ]
+  ],
+  "ops": {
+    "deliveryMin": 20,
+    "deliveryMax": 40
+  }
 }

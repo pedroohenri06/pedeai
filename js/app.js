@@ -1,7 +1,8 @@
 /* PedeAi — interface: listagem por cidade/categoria, página do estabelecimento, carrinho e envio pelo WhatsApp. */
 (function () {
   'use strict';
-  var C = window.PedeAiCore, DB = window.PEDEAI_DATA || { establishments: [] }, STORES = DB.establishments;
+  var S = window.PedeAiSchedule, C = window.PedeAiCore, DB = window.PEDEAI_DATA || { establishments: [] }, STORES = DB.establishments, BY_ID = {};
+  STORES.forEach(function (s) { BY_ID[s.id] = s; });
   var esc = C.escapeHtml;
 
   /* Fotos das categorias (as mesmas já aprovadas na faixa de categorias). São ilustrativas e não representam o estabelecimento. */
@@ -87,14 +88,35 @@
     return s.confidence === 'baixa' ? '<span class="badge badge-pending">Em verificação</span>' : '';
   }
 
+  /* Linha operacional do card: status calculado pela grade da loja (fuso da loja, não do aparelho), previsão de entrega
+     quando aberta ou sem status, e a próxima abertura quando fechada. Sem dado confiável, nada é exibido. */
+  function opsHtml(s, now) {
+    var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), out = [];
+    if (st.state !== 'unknown') out.push('<span class="store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i>' + esc(st.label) + '</span>');
+    if (st.state === 'open' || st.state === 'unknown') { if (eta) out.push('<span class="store-eta">' + esc(eta.label) + '</span>'); }
+    else if (st.short) out.push('<span class="store-next">' + esc(st.short) + '</span>');
+    if (!out.length && C.menuSize(s)) out.push('<span class="delivery-free">Cardápio</span>');
+    return out.join('<i class="dot"></i>');
+  }
+
+  /* Atualiza só a linha de status dos cards na tela (sem refazer a lista) — a cada minuto e ao voltar para a aba. */
+  function refreshOps() {
+    var now = new Date();
+    grid.querySelectorAll('.restaurant-meta[data-ops]').forEach(function (el) {
+      var s = BY_ID[el.dataset.ops], html = s && opsHtml(s, now);
+      if (s && el.innerHTML !== html) el.innerHTML = html;
+    });
+  }
+
   function render() {
     var q = search.value, list = C.rankStores(C.filterStores(STORES, { city: state.city, category: state.category, query: q }));
     var inCity = storesInCity().length;
     title.textContent = q ? 'Resultado da busca' : state.category === 'Todos' ? 'Em ' + state.city : state.category + ' em ' + state.city;
     count.textContent = list.length + ' ' + (list.length === 1 ? 'lugar' : 'lugares');
+    var now = new Date();
     grid.innerHTML = list.map(function (s) {
-      var meta = [s.kind];
-      return '<a class="restaurant reveal visible" href="#/loja/' + s.id + '" data-id="' + s.id + '"><div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div><div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta"><span>' + esc(s.category) + '</span>' + (C.menuSize(s) ? '<i class="dot"></i><span class="delivery-free">Cardápio</span>' : '') + '</div></div></a>';
+      var meta = [s.category].concat(s.kind && C.normalize(s.kind) !== C.normalize(s.category) ? [s.kind] : []);
+      return '<a class="restaurant reveal visible" href="#/loja/' + s.id + '" data-id="' + s.id + '"><div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div><div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
     }).join('');
     empty.style.display = list.length ? 'none' : 'block';
     empty.querySelector('h3').textContent = inCity ? 'Nada por aqui ainda' : 'Chegando em ' + state.city;
@@ -175,4 +197,7 @@
   renderCampaign();
   render();
   route();
+  /* Status muda com o relógio (abre/fecha/pausa): atualiza a linha dos cards a cada minuto e ao voltar para a aba. */
+  setInterval(function () { if (!document.hidden) refreshOps(); }, 60000);
+  document.addEventListener('visibilitychange', function () { if (!document.hidden) refreshOps(); });
 })();

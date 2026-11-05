@@ -557,3 +557,14 @@ body.store-open .bottom-nav{display:none}
 .sp-sheet-media{position:relative;overflow:hidden}
 .sp-sheet-media img:not(.sp-sheet-bg){position:relative;object-fit:contain}
 .sp-sheet-bg{position:absolute;inset:-24px;width:calc(100% + 48px)!important;height:calc(100% + 48px)!important;object-fit:cover;filter:blur(22px) saturate(1.1) brightness(.85);transform:scale(1.05)}
+
+/* Horário: status calculado (cores da marca: verde aberto, vermelho fechado/pausado) e grade da semana recolhível. */
+.sp-open{display:inline-flex;align-items:center;gap:5px;margin-left:8px;font-size:11.5px;font-weight:800;vertical-align:1px;transition:color .3s ease}
+.sp-open i{width:7px;height:7px;border-radius:50%;background:currentColor}
+.sp-open.is-open{color:var(--green)}.sp-open.is-closed,.sp-open.is-paused{color:var(--red)}.sp-open.is-unknown{display:none}
+.sp-week{margin-top:6px;font-size:12.5px}
+.sp-week summary{cursor:pointer;color:var(--red);font-weight:700;list-style:none}
+.sp-week summary::-webkit-details-marker{display:none}
+.sp-week ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:4px}
+.sp-week li{display:flex;justify-content:space-between;gap:12px;color:var(--muted)}
+.sp-week li.is-today{color:var(--ink);font-weight:700}

@@ -802,5 +802,10 @@
   "notes": [
     "Adicionais variam por tamanho em \"Açaí 300ml\": não importados.",
     "Adicionais variam por tamanho em \"Açaí 500ml\": não importados."
-  ]
+  ],
+  "ops": {
+    "deliveryMin": 20,
+    "deliveryMax": 40,
+    "minOrderCents": 1500
+  }
 }

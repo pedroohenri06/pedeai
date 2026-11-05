@@ -1936,6 +1936,10 @@
     "\"Pizza gigante\": \"Sabor Gigante\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
     "\"Pizza 1 metro\": \"Sabor PIZZA 1 METRO\" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação."
   ],
+  "ops": {
+    "deliveryMin": 60,
+    "deliveryMax": 63
+  },
   "city": "CANARANA",
   "phones": [
     "(66) 9 9971-5226"

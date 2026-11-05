@@ -39,5 +39,5 @@ module.exports = function parse({ responses, meta }) {
     }).filter(Boolean)
   }));
   const unit = establishment && establishment.units && establishment.units[0];
-  return L.snapshot(meta, sections, { skipped, notes: Array.from(new Set(notes)), city: unit && unit.address && unit.address.city, phones: unit && (unit.phones || []).map(p => p.number) });
+  return L.snapshot(meta, sections, { skipped, notes: Array.from(new Set(notes)), ops: unit ? L.ops(unit.time_delivery_min, unit.time_delivery_max, establishment && establishment.minimum_order_amount) : null, city: unit && unit.address && unit.address.city, phones: unit && (unit.phones || []).map(p => p.number) });
 };

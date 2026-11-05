@@ -1,6 +1,7 @@
 /* Validação do cadastro de estabelecimentos. Retorna lista de erros (vazia = válido). */
 'use strict';
 const core = require('../js/core.js');
+const Schedule = require('../js/schedule.js');
 
 const URL_RE = /^https:\/\/[^\s]+$/;
 
@@ -30,6 +31,17 @@ function validateEstablishments(list) {
     }
     if (s.phone != null && !/^55\d{10,11}$/.test(s.phone)) err(`telefone inválido: ${s.phone}`);
     if (s.hoursEstimated != null && (s.hoursEstimated !== true || !s.hours)) err('hoursEstimated só com horário preenchido');
+    if (s.schedule != null) {
+      const sc = Object.assign({ week: Schedule.parseHours(s.hours) || {} }, s.schedule);
+      if (!Schedule.isValid(sc)) err('schedule inválido (week/exceptions: "HH:MM-HH:MM"; dias seg…dom; datas AAAA-MM-DD)');
+      if (s.schedule.pausedUntil != null && isNaN(Date.parse(s.schedule.pausedUntil))) err('schedule.pausedUntil inválido');
+      if (s.schedule.closedUntil != null && !/^\d{4}-\d{2}-\d{2}$/.test(s.schedule.closedUntil)) err('schedule.closedUntil inválido');
+    }
+    if (s.deliveryTime != null) {
+      if (!Schedule.deliveryEstimate(s)) err('deliveryTime inválido (minMinutes/maxMinutes ou prepMinutes + deliveryMinutes, até 240 min)');
+      if (!s.deliveryTime.source || !URL_RE.test(s.deliveryTime.source)) err('deliveryTime sem fonte');
+    }
+    if (s.minOrderCents != null && (!Number.isInteger(s.minOrderCents) || s.minOrderCents <= 0)) err('pedido mínimo inválido');
     if (s.deliveryFeeCents != null && (!Number.isInteger(s.deliveryFeeCents) || s.deliveryFeeCents < 0)) err('taxa de entrega inválida');
     if (s.image != null) {
       if (!s.image.src) err('imagem sem src');

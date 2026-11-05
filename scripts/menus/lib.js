@@ -141,6 +141,16 @@ function compactHours(text) {
   return groups.map(g => (g.from === g.to ? g.from : WEEK.indexOf(g.to) - WEEK.indexOf(g.from) === 1 ? g.from + ' e ' + g.to : g.from + ' a ' + g.to) + ' ' + nice(g.r)).join(' · ');
 }
 
+/* Condições operacionais publicadas pela própria loja na plataforma (tempo de entrega total e pedido mínimo).
+   Devolve null se não houver número coerente (nada de estimativa inventada). */
+function ops(min, max, minOrderReais) {
+  const a = Math.round(Number(min)), b = Math.round(Number(max == null ? min : max)), o = cents(minOrderReais);
+  const out = {};
+  if (a > 0 && b >= a && b <= 240) { out.deliveryMin = a; out.deliveryMax = b; }
+  if (o > 0) out.minOrderCents = o;
+  return Object.keys(out).length ? out : null;
+}
+
 function count(obj, key) { obj[key] = (obj[key] || 0) + 1; }
 
-module.exports = { cleanText, displayName, displayText, cents, idFactory, optionGroup, sizesToItem, snapshot, count, realHours, compactHours, priceFromRequiredGroup };
+module.exports = { ops, cleanText, displayName, displayText, cents, idFactory, optionGroup, sizesToItem, snapshot, count, realHours, compactHours, priceFromRequiredGroup };

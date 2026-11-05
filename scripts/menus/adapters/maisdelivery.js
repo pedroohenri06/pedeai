@@ -44,5 +44,6 @@ module.exports = function parse({ responses, meta }) {
     if ((c.produtos || []).length) sections.push({ name: c.dsCategoria, items: c.produtos.map(keep) });
     (c.subcategorias || []).forEach(s => sections.push({ name: s.dsSubCategoria, items: (s.produtos || []).map(keep) }));
   });
-  return L.snapshot(meta, sections, { hours: hoursOf(b.restaurante || {}), skipped });
+  const r = b.restaurante || {};
+  return L.snapshot(meta, sections, { hours: hoursOf(r), ops: L.ops(r.nrTempoMin, r.nrTempoMax, r.vlMinimo), skipped });
 };

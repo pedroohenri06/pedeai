@@ -1,0 +1,980 @@
+{
+  "id": "mg-hot-dog-acaiteria-e-lanchonete-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/hot-dog--acaiteria-mg-e-lanchonete-jardim-nova-barra-do-garcas/3a80938c-3fc5-4505-af0d-caf1555eae0c",
+  "capturedAt": "2026-11-05T01:30:25.030Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Cachorro quente",
+      "items": [
+        {
+          "sourceId": "525f983f-6aa1-4766-b4df-d5f8d9e48e3b",
+          "name": "Cachorro-quente Simples",
+          "description": "Molho especial, uma salsicha, milho, tomate, mussarela e batata palha crocante.",
+          "priceCents": 1600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202605200014_399S_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "6cf2aa9b-fe02-4454-9474-724e6a9167c7",
+          "name": "Cachorro-quente Especial",
+          "description": "Molho especial, 2 salsicha, milho, tomate, mussarela e batata palha crocante.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202605200005_HAJL_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Ofertas (2)",
+      "items": [
+        {
+          "sourceId": "b2013e15-311e-4222-b0ba-9869be4f98ff",
+          "name": "Coca Cola Lata Zero 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202511281150_jjmiy3l5iwn.png",
+          "options": []
+        },
+        {
+          "sourceId": "cac76a3f-d536-469e-b464-7b52f12220b4",
+          "name": "Guaraná Antarctica Lata 350 Ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202511291052_z4idnjcl988.png",
+          "options": []
+        },
+        {
+          "sourceId": "355aa5f8-5dde-4df8-9e78-3d19fd0b93f1",
+          "name": "Refrigerante Coca-Cola 1,5",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202611031656_52kf27tzy.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "1d167d53-4242-4c57-b43f-b1a37200750f",
+          "name": "Refrigerante Coca-Cola Original Lata 310ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202606161820_ar1wk3lom57.png",
+          "options": []
+        },
+        {
+          "sourceId": "59e0dc9b-6cf9-4aa5-815e-f597d9f432ec",
+          "name": "Refrigerante Guaraná Antártica 1l",
+          "description": "Garrafa 1l",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210202157_idv4s7wc1v.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Açai Simples",
+      "items": [
+        {
+          "sourceId": "f7b01450-e99c-4d1c-a2d2-e2cca455ef24",
+          "name": "Açaí Puro",
+          "description": "Açaí",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202605200021_3IU1_.jpeg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 900
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a6874cab-b44b-4126-bb0d-1867eae2662c",
+          "name": "Da Casa",
+          "description": "Açaí, Paçoca, Leite condensado e Banana.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202603061733_4CQ7_i.jpg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "25ca767d-36b9-457c-a97b-956ad9538992",
+          "name": "Açai Ll",
+          "description": "Açaí, Leite condensado, Leite em pó.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202605200027_1G78_.jpeg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "73868c81-5271-494b-b17b-fdf5b14c6676",
+          "name": "Láctea",
+          "description": "Açaí, Farinha Láctea, Leite condensado, Banana.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202603061542_XPN6_i.jpg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "17348387-66ad-480a-af97-d2629a8ed06b",
+          "name": "Tradicional",
+          "description": "Açaí, Leite condensado, Leite em pó, Granola e Banana.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202605200018_0793_.jpeg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Escolha os complementos",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "44614342-a122-4d11-91d0-c19a55362529",
+          "name": "Verão",
+          "description": "Açaí, Banana, Uva, Morango e Leite Condensado.",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202610171925_RGA3_.jpeg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Açai Especiais",
+      "items": [
+        {
+          "sourceId": "333ec35a-1b80-4caa-86a1-2b026ba27a93",
+          "name": "Chocotella",
+          "description": "Açaí, Chocoball, Biz, Leite em Pó e Nutella",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202605200016_0T32_.jpeg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1250
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f24c6798-be79-474a-938c-16ca9918dd68",
+          "name": "Sonho de Valsa",
+          "description": "Açai, Sonho de Valsa, Leite condensado e leite em pó.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609180138_6GW0_.jpeg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1250
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ea630536-e5be-4db2-bc19-93b9460f7799",
+          "name": "Tentação",
+          "description": "Açai, Nutella, Creme de Ninho e Morango.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202610161813_12V1_.jpeg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1250
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "656f002d-b73a-45ba-9bb0-b6c7de85c14c",
+          "name": "Disquete",
+          "description": "Açai, Creme de Ninho e Disquete.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202604181414_762B_i.jpg",
+          "options": [
+            {
+              "name": "Escolha um tamanho",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300 ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500 ml",
+                  "priceCents": 700
+                },
+                {
+                  "name": "700 ml",
+                  "priceCents": 1250
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Leite em pó",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Leite condensado",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Granola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Paçoca",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Disquete",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bombom Sonho de Valsa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Farinha Láctea",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Creme de Ninho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Nutella",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cupuaçu",
+      "items": [
+        {
+          "sourceId": "d2ac8fd1-a992-42b9-b056-36534e134904",
+          "name": "Casadinho",
+          "description": "Açaí, Cupuaçu e Granola",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202604272340_H4BU_.jpeg",
+          "options": [
+            {
+              "name": "Escola um tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "300ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "500ml",
+                  "priceCents": 900
+                },
+                {
+                  "name": "700ml",
+                  "priceCents": 1400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1014cb29-965b-4eac-9007-118b129df9bd",
+          "name": "Cupuaçu Puro",
+          "description": "Cupuaçu",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202605200011_42S8_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "9dfe6287-8aa4-41bc-9f31-9af9e0cda071",
+          "name": "X-Burguer",
+          "description": "Pão, Hambúrguer e Queijo.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609170142_2PSI_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "6feb55c8-6085-4c04-9b32-bac9d2965996",
+          "name": "X-Salada",
+          "description": "Pão, Hambúrguer, Queijo, Milho, Alface e Tomate.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609170143_558W_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "1991583f-1429-4db1-996c-a72dfdf3cb3d",
+          "name": "X-Salada Especial",
+          "description": "Pão, Hambúrguer, Queijo, Ovo, Milho, Tomate e Alface.",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609170144_6497_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "4375d35a-d143-4095-ba45-25dec88b6151",
+          "name": "X-Calabresa",
+          "description": "Pão, Hambúrguer, Queijo, Calabresa, Milho, Alface e Tomate",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609170155_83GI_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c9e2765e-589a-4200-8aea-64cb713a20b9",
+          "name": "X-Bacon",
+          "description": "Pão, Hambúrguer, Queijo, Bacon, Milho, Tomate e Alface.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609170156_00F4_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "1fbee0e8-1dc0-44a7-8a0c-474b03aed8e5",
+          "name": "X-Tudo",
+          "description": "Pão, Hambúrguer, Queijo, Calabresa, Ovo, Salsicha, Bacon, Milho, Tomate e Alface.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609170202_G9V3_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "7ce0e06f-e415-4e29-b9e7-eda6f1cc9667",
+          "name": "X-Mg Bruto",
+          "description": "Pão, 2 Hambúrguer, Queijo, 2 Ovos, Bacon, Calabresa, 2 Salsicha, Milho, Batata Palha, Tomate e Alface",
+          "priceCents": 4100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/3a80938c-3fc5-4505-af0d-caf1555eae0c/202609170207_U9J0_.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (26 itens na loja).",
+    "\"Cupuaçu Puro\": opções não coletadas pela extensão (vazio)."
+  ]
+}

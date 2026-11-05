@@ -1,0 +1,754 @@
+{
+  "id": "clube-do-hot-dog-prensados-lanches-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/clube-do-hot-dog-prensados--lanches-campinas/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8",
+  "capturedAt": "2026-11-04T11:01:09.853Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "#Combos#",
+      "items": [
+        {
+          "sourceId": "ffa85657-b487-469b-b14f-c0894e4f1d0e",
+          "name": "Combo Simples (2 simples tradicionais + 1 refrigerante lata)",
+          "description": "2 Hot Dog's Simples 1 Refrigerante ou Suco Lata (Consultar Sabor)",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Qual Refrigerante/Suco?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco de Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f985f7a5-4446-4299-bf8c-70b8646c5a34",
+          "name": "Combo 1 com chocolate (2 especial tradicional + Guaraná 1 Litro + 2 Bombons)",
+          "description": "2 Especial Tradicional 1 Litro de Guaraná 2 Bombons (Ouro Branco ou Sonho de Valsa)",
+          "priceCents": 7760,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            },
+            {
+              "name": "Quais Bombons?",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sonho de Valsa",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "716eb787-95be-4ec7-9b01-9369b01a38db",
+          "name": "Combo Mix Casal 2 - (1 especial tradicional + 1 especial carne de panela + 1 Litro Guaraná)",
+          "description": "1 especial tradicional 1 especial carne de panela 1 Litro Guaraná",
+          "priceCents": 6212,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "0b683c9d-521c-4cf4-afb7-6a23fdbb89f1",
+          "name": "Combo Mix - (2 simples tradicionais + 2 simples strogonoff + 1 simples carne de Panela + 1 Guaraná 1 litro)",
+          "description": "2 simples tradicional 2 simples strogonoff 1 simples carne de panela 1 Guaraná 1 litro",
+          "priceCents": 12026,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ba317cf9-0942-48fd-bbc8-13206b2f73e1",
+          "name": "Combo especial - (4 especial tradicional + 1 Guaraná 1 litro)",
+          "description": "4 especial tradicional 1 Guaraná 1 litro",
+          "priceCents": 10860,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12c2a58e-5d40-4360-bb09-1134129fc2b6",
+          "name": "Combo especial e simples - (2 especial tradicional + 2 simples tradicionais + 1 Guaraná 1 litro)",
+          "description": "2 especial tradicional 2 simples tradicional 1 Guaraná 1 litro",
+          "priceCents": 10098,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Carne de panela",
+      "items": [
+        {
+          "sourceId": "52e5dd67-4bab-4eb3-8982-caff05bb8af3",
+          "name": "Simples com Molho Carne de Panela",
+          "description": "1 salsicha, Catupiry, molho com carne de panela e batata palha",
+          "priceCents": 1988,
+          "originalPriceCents": 2420,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202402220322_xxsM_.jpeg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "5ac42101-d411-41b9-a885-029e1af6d3a0",
+          "name": "Especial com Molho de Carne de Panela",
+          "description": "2 salcisha, Catupiry, molho com carne de panela e batata palha",
+          "priceCents": 2499,
+          "originalPriceCents": 2832,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202402220323_LuMN_.jpeg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Molho Verde caseiro",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3ecb2c3b-81ed-496e-9bb1-8db3c6ba393c",
+          "name": "Faminto de Panela",
+          "description": "Pão, 2 salsicha, milho, mussarela, Catupiry, molho carne de panela e batata palha",
+          "priceCents": 3215,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202402220532_ScNi_.jpeg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cachorro quente Strogonof",
+      "items": [
+        {
+          "sourceId": "006e0ea2-95b3-4f9d-a0ab-602a1fdad110",
+          "name": "Cachorro-quente Simples c/ molho strogonoff",
+          "description": "Hot dog simples. Pão, 1 salsicha, molho de strogonoff, mussarela, milho e batata palha acompanha maionese caseira.",
+          "priceCents": 1935,
+          "originalPriceCents": 2352,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202402220326_sLfZ_.jpeg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6bcfa7fe-a871-4c21-8a93-64dbaefa1993",
+          "name": "Cachorro-quente Especial c/ molho strogonoff",
+          "description": "Hot dog especial. Pão, 2 salsicha, molho de strogonoff, mussarela, milho e batata palha acompanha maionese caseira.",
+          "priceCents": 2623,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202402220327_wdpF_.jpeg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hot Dog",
+      "items": [
+        {
+          "sourceId": "1fa6bcd3-5c61-4f7d-9457-27c98b9720a3",
+          "name": "Hot Dog Especial",
+          "description": "Hot Dog Especial, pão, 2 salsichas, dobro de mussarela, molho com frango desfiado, milho, tomate picado, batata palha, maionese caseira",
+          "priceCents": 2480,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202108302010_6W52_.jpeg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Molho Verde caseiro",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "7631958a-4bb9-44ff-bbad-784f7e4274d5",
+          "name": "Hot Dog Simples",
+          "description": "Hot Dog Simples, pão, 1 salsicha, mussarela, molho com frango desfiado, milho, tomate picado, batata palha, maionese caseira",
+          "priceCents": 1850,
+          "originalPriceCents": 2198,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202205262108_M6U2_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseiro",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6d5aa27b-3a3b-45db-a5e1-29a9ea58089a",
+          "name": "Hot Dog Triplo",
+          "description": "Hot Dog Triplo, pão, 3 salsichas, mussarela, molho com frango desfiado, milho, tomate picado, batata palha, maionese caseira",
+          "priceCents": 2832,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202205262108_04IX_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "96067105-55e6-40a0-8031-3c90527740c9",
+          "name": "Cachorro quente kids",
+          "description": "Cachorro quente kids,pão salsciha, molho de tomate e batata. Acompanha maionese caseira",
+          "priceCents": 1550,
+          "originalPriceCents": 1831,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202206290002_4P8U_i.jpg",
+          "options": [
+            {
+              "name": "Gostaria de um adicional?",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Maionese Caseira",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lanches tradicionais",
+      "items": [
+        {
+          "sourceId": "c81ad6ab-ef20-45e1-8529-29d9008b57af",
+          "name": "X-Tudão",
+          "description": "Pão, molho da casa, 2 hambúrguer, bacon, calabresa, salsicha, presunto, mussarela, milho, tomate e batata",
+          "priceCents": 4715,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "987cd9a4-4e84-4caa-b303-2aec7492d54d",
+          "name": "X-Tudinho",
+          "description": "Pão, molho da casa, hambúrguer, tomate, milho, bacon, calabresa, salsicha e mussarela",
+          "priceCents": 3493,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "160b808d-0484-4286-9e5d-3aff36d06c84",
+          "name": "Kids burguer",
+          "description": "Pão, molho da casa, hambúrguer, salsicha e mussarela",
+          "priceCents": 2528,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Prensados",
+      "items": [
+        {
+          "sourceId": "15c7d3ec-2c86-4901-bb6e-55531c6cc4c3",
+          "name": "Filé em tiras",
+          "description": "Pão, salsicha, molho da casa, mussarela, filé em cubos, cream cheese, milho e batata palha",
+          "priceCents": 3318,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "159bbfb6-2992-4662-9f08-2aad328bd425",
+          "name": "Frango desfiado",
+          "description": "Pão, salsicha, bacon, molho da casa, purê, milho, mussarela, Catupiry, frango desfiado e batata palha",
+          "priceCents": 3137,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "8821e99f-13d0-4a1d-a9b8-8c308a79b39a",
+          "name": "Carne desfiada",
+          "description": "Pão, salsicha, bacon, calabresa, molho da casa, Catupiry, mussarela e batata palha",
+          "priceCents": 2765,
+          "originalPriceCents": 3096,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Gourmet",
+      "items": [
+        {
+          "sourceId": "acc6e081-07f4-47f2-9db7-23bc49225e56",
+          "name": "Candy bacon",
+          "description": "Pão, molho da casa, 2 hambúrguer, cheddar fatiado, bacon caramelizado, cebola roxa.",
+          "priceCents": 4095,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202610250805_E2S5_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sobremesas",
+      "items": [
+        {
+          "sourceId": "3a170813-3d7a-471b-80a4-2f9c0a48dc77",
+          "name": "Bombom Lacta Ouro Branco Chocolate Recheado 20g",
+          "description": "Unidade 20g",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210182330_197y08xl4vw.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "7225dee4-82ce-458e-afe7-88ddf70892a0",
+          "name": "Bombom Sonho Valsa Lacta 20g",
+          "description": "Embalagem 20g",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210182330_1mamavaaj4a.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "a915f109-478d-40dc-9b66-b2cb13cf02a1",
+          "name": "Trident",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Extra Forte",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Hotelã",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Tutti-Fruit",
+                  "priceCents": 450
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e96a5419-a513-4e9e-825a-6c0b6b40f9cc",
+          "name": "Halls",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Extra Forte",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Menta",
+                  "priceCents": 450
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 450
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "97dec007-0576-4dc2-b342-65e9b538b7bd",
+          "name": "Bala de cereja",
+          "description": "",
+          "priceCents": 50,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "1534b390-9358-4cc0-ab0d-3889d7f863aa",
+          "name": "Coca-Cola 1l",
+          "description": "Garrafa 1l",
+          "priceCents": 1900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210202129_d656wj0qk97.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "5b4046bc-cda0-4569-83ac-308b5ad0afd7",
+          "name": "Coca-Cola Original 1,5l",
+          "description": "Garrafa 1,5l",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190019_ttqv3elwy5.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "140cf229-06ff-4736-bc59-001a3213a12d",
+          "name": "Coca-Cola Original 310ml",
+          "description": "Unidade Unidade 1",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202306261541_uwa5bfhs3m.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "a6ced0b2-11ff-47c1-b1b9-c379aa297713",
+          "name": "Refrigerante Coca-Cola Zero Lata 310ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202604221111_zrqk1oodgq.png",
+          "options": []
+        },
+        {
+          "sourceId": "9ce134b0-e018-4304-88f8-e656aeb31394",
+          "name": "Fanta Laranja 310ml",
+          "description": "Lata 310ml",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190158_y304titm5ep.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "86812784-baaa-4acb-a8c4-ead088865c7b",
+          "name": "Refrigerante Guaraná Antarctica Lata 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202302231326_ah6cgd7dsni.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "41d259b1-e43e-4c5e-9a51-03f73beaca7a",
+          "name": "Sprite Original 310ml",
+          "description": "Lata 310ml",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190419_5fzjyoovcs6.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "abe76c73-0bc7-497e-98c9-a7b60531636b",
+          "name": "Néctar Pronto La Fruit Uva Lata 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180234_q6znye98tn.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "b3eadb0f-fd71-4fe8-9245-a377552740dc",
+          "name": "Suco Pronto La Fruit Goiaba Lata 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180426_gbcmfw7tuim.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "1f7b5d84-5f08-4a95-9fe6-7043a5032ae7",
+          "name": "Suco Pronto La Fruit Néctar de Maracujá Lata 350ml",
+          "description": "Lata 350ml",
+          "priceCents": 1100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210180426_mhjnkyrbnq.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3c5cbffe-af4a-4846-90f8-3bbad7f3e3b3",
+          "name": "Refrigerante de Limão H2oh 500ml",
+          "description": "Garrafa 500ml",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202310021904_t5ewfd4d5j.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "67bf2a26-d45f-4352-88e7-18d35898f5e4",
+          "name": "Refrigerante Limoneto H2oh 500ml",
+          "description": "Garrafa 500ml",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202510031645_v6dr97ds3yo.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "f15defad-d86e-44fe-acfd-f7632dd49d82",
+          "name": "Refrigerante Guaraná Antarctica Garrafa 1l",
+          "description": "Garrafa 1l",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202601082334_zrnzmwlkt9j.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "016ce88a-d0b7-4f80-9bff-83d0f1be9fc3",
+          "name": "Água mineral 500ml sem gás",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202411020659_2EKF_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "399c1d45-8f98-4f66-933f-fc7b494fd0f3",
+          "name": "Água mineral com gás 500ml",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/ac0b9689-099b-4c47-89b2-e3ad91d6d7c8/202411020659_T0LX_.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (42 itens na loja)."
+  ]
+}

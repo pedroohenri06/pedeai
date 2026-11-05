@@ -1,0 +1,1695 @@
+{
+  "id": "chapa-quente-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/chapa-quente-jardim-ouro-fino/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9",
+  "capturedAt": "2026-11-04T04:20:28.613Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "47a39bdb-996b-4fcc-b8ee-ce90be464d3a",
+          "name": "Misto Quente",
+          "description": "Pão, presunto, queijo, ovo e tomate",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200817_P7CN_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "066f838a-1ccf-4984-9d8e-aa6b741e2837",
+          "name": "X Burguer(kids)",
+          "description": "Pão, hamburguer, presunto, queijo",
+          "priceCents": 2040,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200818_F2B5_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "e181d095-50f4-4c2e-a86f-46f887c1b07d",
+          "name": "X Calabresa Simples",
+          "description": "Pão, hamburguer, calabresa, presunto, queijo, tomate, alface e milho",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200818_5HB7_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "80f61906-3485-4011-921e-b1b66732bb61",
+          "name": "X Salada Especial",
+          "description": "Pão, hamburguer, ovo, presunto, queijo, tomate, alface e milho",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200819_IQ7R_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bd4a3a45-f4e7-4e8f-bd53-b27d3e852b92",
+          "name": "X Salada Simples",
+          "description": "Pão, hambuerguer, presunto, queijo, tomate, alface e milho",
+          "priceCents": 2160,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200819_11YK_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "83513a0f-7c86-4d3c-a34b-e5e44f881864",
+          "name": "X Bacon Especial",
+          "description": "Pão, hamburguer, bacon, ovo,presunto, queijo, tomate, alface, milho",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200819_85F2_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "406b43a7-5a71-4ad2-b452-e6f2dcf4bcd4",
+          "name": "X Bacon Simples",
+          "description": "Pão, hamburguer, bacon, presunto, queijo, tomate, alface, milho",
+          "priceCents": 2200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200820_EMUJ_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ccefeec1-7b45-40b2-9bb8-6be6627d4e0c",
+          "name": "X Bagunça",
+          "description": "Pão, hamburguer, bacon, Catupiry, ovo, salsicha, presunto, queijo, tomate, alface e milho",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200820_FXUJ_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "64a4ed25-8a1f-4161-b288-4d1513d8bd82",
+          "name": "X Calabresa Especial",
+          "description": "Pão, hamburguer, calabresa, ovo, presunto, queijo, tomate, alface e milho",
+          "priceCents": 2300,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200821_14O5_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "99bfdbc8-8e78-464b-9e1c-4d54c4c3c511",
+          "name": "Marta Rocha",
+          "description": "Pão, 2 filé mignon, 3 queijos, tomate e alface",
+          "priceCents": 3121,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200821_3SUV_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "fe2daa03-66d4-4f40-b642-79f5175a8382",
+          "name": "X Academia",
+          "description": "Pão, 3 hamburguers, 4 queijos, tomate, alface e milho",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200822_PR7Y_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "40740dbd-a451-4a8f-8aa2-c3b5afe2dabc",
+          "name": "X Fox Burguer",
+          "description": "Pão, hamburguer, calabresa, Catupiry, salsicha, presunto, queijo, tomate, alface, milho e batata palha.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200822_387R_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "40830773-a66f-4625-8827-13ab44d916e4",
+          "name": "X Filé Simples",
+          "description": "Pão, filé de carne, presunto, queijo, tomate, alface e milho",
+          "priceCents": 2160,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200823_1EDQ_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "de6497a1-25cb-42a1-99e5-a68f05b57b6e",
+          "name": "X Frango Especial",
+          "description": "Pão, filé de frango, bacon, ovo, presunto, queijo, cebola, tomate, alface e milho",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200823_8YOM_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d607c597-60c6-4641-bddd-1596234dac98",
+          "name": "X Frango Simples",
+          "description": "Pão, filé de frango, presunto, queijo, tomate, alface e milho",
+          "priceCents": 2160,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200823_31H5_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "42ac181f-3a5d-4a69-979f-2a4cea55ea46",
+          "name": "Max Burguer",
+          "description": "Pão, 3 hamburguers, bacon, calabresa, ovo, salsicha, presunto, queijo, tomate, alface, milho e batata palha.",
+          "priceCents": 3841,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200824_F2U2_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "98f1fdfb-2c23-4c43-b0b8-8936464b4eaa",
+          "name": "X Bagunça Tudo",
+          "description": "Pão, hamburguer, bacon, calabresa, frango desfiado, cebola, ovo, salsicha, presunto, queijo, tomate, alface, milho e batata palha",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200824_HXMA_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f7af320d-c64b-4423-b313-e7316121c9d0",
+          "name": "X Filé Especial",
+          "description": "Pão, filé de carne, ovo, presunto, queijo, cebola, tomate, alface e milho",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200824_55BN_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "3bca27e9-4542-4b40-9e7d-53a434615931",
+          "name": "X Tudo",
+          "description": "Pão, hamburguer, bacon, calabresa, ovo, salsicha, presunto, queijo, tomate, alface, milho e batata palha",
+          "priceCents": 2641,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200824_8R7S_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2b006aea-8d42-4fda-8403-2a4b3ec50313",
+          "name": "Cris Burguer",
+          "description": "Pão, 3 hamburguers, filé de frango, bacon, calabresa, ovo, salsicha, presunto, queijo, tomate, alface, milho e batata palha.",
+          "priceCents": 4100,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200825_75X7_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "00d7f5d2-6edd-46a1-95e7-9ed927182ec0",
+          "name": "X Big Tudo",
+          "description": "Pão, 2 hamburgures, bacon, calabresa, 2 ovos, 2 salsichas, presunto, queijo, tomate, alface, milho e batata palha",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e9ca932e-6b9b-4941-b34d-b9ad3b0b44c9/202506200825_57EO_i.jpg",
+          "options": [
+            {
+              "name": "Turbine seu lanche",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Filé Mignon",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Frango Desfiado",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Cheddar",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Cebola",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Catupiry",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "299c3f22-39f5-499e-83f0-5a9186a38384",
+          "name": "Coca-Cola Original 1,5l",
+          "description": "Garrafa 1,5l",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210190235_l1i08iy5u7h.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3fc75af3-687d-4536-8045-a917adade3c5",
+          "name": "Fanta Laranja Fanta 1,5l",
+          "description": "Garrafa 1,5l",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210202122_2arnb49x49i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "9a71b3f6-6d32-499f-b878-91d3630722f4",
+          "name": "Refrigerante Guaraná Antarctica 1,5l",
+          "description": "Garrafa 1,51l",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202305020910_zf9p8fo5bo.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Moda Da Casa",
+      "items": [
+        {
+          "sourceId": "511357c9-10d3-48c1-a883-d4157f2d6e54",
+          "name": "Combo Salada",
+          "description": "4 Salada Especial + Coca 1,5l",
+          "priceCents": 9300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "e4e859e7-f3ec-48b0-9d3c-92a5bfd74522",
+          "name": "Combo Bagunça + tubaina litro + Batata 300g",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "8be8aec8-0709-4d27-a580-6c873b1f9e0d",
+          "name": "Melhor Combo",
+          "description": "X Tudo + X Bagunça + Guaraná litro",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "63890271-34a5-4a80-a042-42fab540c7bf",
+          "name": "Combo Casal",
+          "description": "2 X Tudo + Tubaína 1 litro",
+          "priceCents": 6100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "562503e6-20ab-48fc-a815-92dbe02c092c",
+          "name": "Super Promo",
+          "description": "2 X-Tudo + Refri",
+          "priceCents": 6100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "dab06090-be8c-4e86-a669-09322a2543d0",
+          "name": "Combo Burguer",
+          "description": "2 X Tudo + Salada Especial + Tubaína 1l",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "97daf60c-0ed7-459e-9f53-e688416f9d01",
+          "name": "3 X Tudo + Coca 1,5l",
+          "description": "",
+          "priceCents": 9100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4bf094cd-bce8-4e78-9b30-3ab093d9e5bb",
+          "name": "2 X Tudo + Batata 500g 1 Coca 1.5",
+          "description": "",
+          "priceCents": 9100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "b0f645b7-a342-4a92-a982-d5ceab73bfd1",
+          "name": "Promo 3 X Tudo + Guaraná 1,5l",
+          "description": "",
+          "priceCents": 8900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "475368a1-aa45-4766-9b11-dca169745a39",
+          "name": "Combo Família",
+          "description": "4 x tudo 1 coca 2 litros",
+          "priceCents": 11800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4bb92195-dac0-445b-bbf7-8902c36e8afa",
+          "name": "Combo Família Grande",
+          "description": "5 X Tudo + Coca 2l",
+          "priceCents": 14400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "fc8052c0-dd46-4976-8839-ef2e100807ec",
+          "name": "Combo",
+          "description": "1 x tudo + 1 açai 500ml",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "f4f80b22-9a8a-4690-a187-1dd380ee1f31",
+          "name": "Combo Salada",
+          "description": "4 Salada Especial + Coca 1,5l",
+          "priceCents": 9300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Hot Dog Prensado",
+      "items": [
+        {
+          "sourceId": "4461f059-602b-4461-b5fb-e6d8679b45f2",
+          "name": "Hot dog Frango",
+          "description": "Pão, bacon, frango desfiado, queijo, 1 salsicha, milho, purê de batata, ketchup e mostarda",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "599e69dc-2620-4e40-844b-5b1aea7255c6",
+          "name": "Hot dog Misto",
+          "description": "Carne moída, frango desfiado, bacon, 1 salsicha, milho, queijo, purê de batata, mostarda, queijo, ketchup, vinagrete e batata palha",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2cd37ae1-d451-41eb-a691-4192fd7f1b25",
+          "name": "Hot dog Calabresa",
+          "description": "Pão, calabresa, 2 salsicha, bacon, milho, queijo, purê de batata, ketchup e mostarda",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "3611b41a-a4fd-47b3-8052-0b209248d5d5",
+          "name": "Hot dog Turbinado",
+          "description": "Pão, carne moída, frango desfiado, 2 salsicha, bacon, queijo, milho, purê de batata, ketchup, mostarda, ovo de codorna e barbecue.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "03f2a633-d1fc-4aed-b771-279f37eb4bbe",
+          "name": "Hot dog Carne seca",
+          "description": "Pão, 2 salsicha, carne seca, milho, bacon, Catupiry, ketchup, queijo, mostarda e purê de batata.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "54a11a4b-274e-4718-8eb5-0f67d1aa1493",
+          "name": "Hot dog Costela bovina desfiada",
+          "description": "Pão, 2 salsicha, Catupiry, barbecue, costela desfiada, queijo, purê de batata, cheddar, batata palha e vinagrete.",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1eb7e74f-955e-4b0d-996f-f373fc824c50",
+          "name": "Hot dog Bacon e Calabresa",
+          "description": "Pão, calabresa, bacon, 2 salsicha, milho, queijo, purê de batata, ketchup e vinagrete.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "4c314f04-ff8b-42b5-becd-dc2cff558302",
+          "name": "Hot Dog Frango e bacon",
+          "description": "Pão, frango desfiado, bacon, cebola frita na chapa, ovo de codorna, barbecue, queijo, mostarda, ketchup e purê de batata",
+          "priceCents": 3100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "7ab4519c-cb6d-4b37-a7e3-16522ff78e6e",
+          "name": "Mega Dogão",
+          "description": "Pão, 3 salsicha, ketchup, Catupiry, mostarda, queijo, bacon, vinagrete, cheddar e purê de batata.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "56f4c8c5-3ce7-44f3-85d3-2bb4d1f44609",
+          "name": "Ultra Dogão",
+          "description": "Pão, 2 salsicha, Catupiry, mostarda, bacon, milho, ketchup, maionese, queijo, purê de batata e batata palha.",
+          "priceCents": 3400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6e20bb1a-3d8d-4bd6-9670-9eedfc2cd3a8",
+          "name": "Dogão da Casa",
+          "description": "Pão, 3 salsicha, cheddar, barbecue, ketchup, purê de batata, Catupiry, queijo, bacon, calabresa e vinagrete.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "717ae555-9d79-42fd-b1b8-ddccf322e5a6",
+          "name": "Dog Kids",
+          "description": "Pão, 1 salsicha, milho, Catupiry, queijo, ketchup e batata palha.",
+          "priceCents": 2600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (49 itens na loja)."
+  ]
+}

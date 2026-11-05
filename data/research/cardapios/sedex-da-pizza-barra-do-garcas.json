@@ -1,0 +1,1458 @@
+{
+  "id": "sedex-da-pizza-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/sedex-da-pizza-bairro-b-n-h/86174ec0-a410-43ca-a098-ce098e4c63e6",
+  "capturedAt": "2026-11-04T11:05:54.622Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Combo Coca Cola",
+      "items": [
+        {
+          "sourceId": "b0db7351-a50f-4ac5-9870-d424d9d465b6",
+          "name": "2 Pizza (cada uma 25cm serve 1 pessoa, 6 fatias) + refrigerante de 1.5",
+          "description": "Sabor Quatro queijos / Alemã",
+          "priceCents": 7999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202504160932_VQXS_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "aab40b6f-ead9-4a3b-af35-cb6cba98c2e2",
+          "name": "Calabresa (40cm serve 4 pessoa, 12 fatias) + refrigerante1.5",
+          "description": "Molho, Mussarela, Calabresa, Cebola e Orégano",
+          "priceCents": 8899,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202504160936_0654_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "faeaa480-e138-4bd5-9e4a-a1e40b3ecd31",
+          "name": "Frango com cheddar (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho de tomate, frango, cheddar, mussarela e oregano.",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202611031630_308T_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "596ddbed-825d-42e8-baf2-7d657e90ad86",
+          "name": "Guaraná Antártica 1,5litro",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "0ec1ee93-f1d1-4cc9-af6c-b51b1f93309d",
+          "name": "Coca Cola 1,5l",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202511291220_gdeky08gvpp.png",
+          "options": []
+        },
+        {
+          "sourceId": "9b107347-21fa-4972-947a-98ccedd9eb03",
+          "name": "Coca cola zero 1,5lt",
+          "description": "",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "54cac6de-6524-419f-aec8-b7257a12f7b0",
+          "name": "2 Pizza (cada uma 25cm serve 1 pessoa, 6 fatias)",
+          "description": "Escolha ate 2 sabores \"acompanha maionese caseira em sache\".",
+          "priceCents": 7299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202207281751_K363_i.jpg",
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Frango Catupiry (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom camilo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6066bc00-5f24-4de8-869d-9eed66ce347d",
+          "name": "3 pizza (cada uma 25cm serve 1 pessoa, 6 pedaços)",
+          "description": "Escolha ate 3 sabores \"acompanha maionese caseira em sache\".",
+          "priceCents": 9249,
+          "originalPriceCents": 10497,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202207281805_05GY_i.jpg",
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Frango Catupiry (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom camilo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "cd63fb36-c058-460d-8911-b9a1cb6c70ff",
+          "name": "Combo 2 Pizza (cada uma 25cm serve 1 pessoa, 6 fatias)+ refrigerante de 1.5",
+          "description": "Escolha ate 2 sabores \"acompanha maionese caseira em sache\".+ Coca cola 1,5litro",
+          "priceCents": 7999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "d107373d-7332-4865-8867-ab42ef503792",
+          "name": "1 Pizza de sal 6 fatias ( 25 cm) + 1 Pizza Doce 6 fatias ( 25 cm)",
+          "description": "Cada pizza apenas 1 sabor.",
+          "priceCents": 6999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202312161724_F1CN_i.jpg",
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Frango Catupiry (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom camilo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Pizza Doce",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate com morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana com Canela",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "40282e2f-0afe-4f30-8cfb-8bf522b2ead6",
+          "name": "2 Pizza (25 cm, 6 fatias) + 1 Pizza Doce (25 cm, 6 fatias)",
+          "description": "Cada Pizza apenas 1 sabor.",
+          "priceCents": 9199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202312161719_0HD7_i.jpg",
+          "options": [
+            {
+              "name": "Sabores",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Frango Catupiry (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 queijos (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom camilo (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Pizza Doce",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate com morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana com Canela",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "2a43a1eb-8d02-479a-ae46-83b3e3fedac4",
+          "name": "1 Pizza ( 40 cm serve 4 pessoas, 12 fatias) + 1 Pizza Doce (25 cm, 6 fatias)",
+          "description": "Pizza 12 fatias 2 sabores.",
+          "priceCents": 9099,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202312161722_38CC_i.jpg",
+          "options": [
+            {
+              "name": "Pizza Doce",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate com morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate (25 cm serve 1 pessoa, 6 fatias)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana com Canela",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Promocionais (1)",
+      "items": [
+        {
+          "sourceId": "907cdaea-ed1a-439f-b5e5-8608565ab4f1",
+          "name": "Calabresa (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, calabresa, cebola e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202204131120_Y483_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "25146556-34eb-4b4e-a581-b6e29b05d60b",
+          "name": "Frango Catupiry (25cm serve 1 pessoa, 6 fatias).",
+          "description": "Molho, frango, Catupiry, mussarela e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202204131121_P22V_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "82442080-20ad-4074-ac87-44d15ad27371",
+          "name": "Baiana (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, calabresa, pimenta calabresa e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202204131120_Y483_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ea646529-f012-4143-83e8-d37faa7bd88a",
+          "name": "4 queijos (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, queijo provolone, queijo prato, Catupiry e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282123_PF31_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "fc3bd669-f482-4c3c-9991-66234e9a18e3",
+          "name": "Mussarela (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, Catupiry, tomate em rodelas e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282123_PF31_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "3957e50e-f9cd-4c0f-8cdf-b88dc1acc1c0",
+          "name": "Napolitana (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, presunto, tomate em rodelas e oregano",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282131_UB7U_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "c790fa4c-2fd1-45fb-b192-97fa4ab28140",
+          "name": "Alho e Óleo (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, tomate em rodelas, alho frito e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282131_UB7U_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "45e37420-a068-4c5c-91f6-72e1b371c070",
+          "name": "Milho (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, milho e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202204131116_IF5Q_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "b610030f-36fd-427e-9cb3-95dc8feaae1a",
+          "name": "Dom Camilo (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, calabresa, creme de leite e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282118_2F72_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "53ad5d1b-45d5-4d2b-86ea-a34f68ca6566",
+          "name": "Frango Catupiry (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, frango, Catupiry, mussarela e orégano.",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202204131121_P22V_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "79b53f56-7a37-4af1-b993-b6db664743e1",
+          "name": "Napolitana (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Presunto, Tomate em rodelas e Orégano.",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282120_UO4Q_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "758260fd-7ab8-4356-9cfd-886ce0a953d0",
+          "name": "Calabresa (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Clabresa, Cebola e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202204131120_Y483_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6d931d36-8281-49ec-b6ef-0f8d643389cb",
+          "name": "Baiana (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Clabresa, Pimenta calabresa e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282047_YOK3_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "8b370cd4-15a0-4ddf-96d3-cee91630a963",
+          "name": "Mussarela (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Catupiry, tomate em rodelas e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203281940_17L4_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6185e7f4-6e8d-4441-9319-0c0c2cfaa7a6",
+          "name": "Alho e Óleo (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, tomate em rodelas, Alho frito e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203281944_6L8K_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e8ccc7c6-8676-4ce5-8cdc-e5818f6b791e",
+          "name": "Milho (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Milho e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282123_PF31_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "28458e7e-a63a-4b53-95a6-6e4f7f326627",
+          "name": "Dom Camilo (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Calabresa, Creme de leite e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203281949_1Y12_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6484dd5e-17a4-4fc4-909d-ed5e0079eae2",
+          "name": "Marguerita (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Tomate em rodelas, Manjericão e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282131_UB7U_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1ae962f3-b62e-4f1b-830c-dcad30a35d6e",
+          "name": "Quatro queijo especial (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, Mussarela, Calabresa, Catupiry, Provolone, Queijo prato e Orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203281952_WXD4_i.jpg",
+          "options": [
+            {
+              "name": "Metade",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Marguerita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijo especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Toscana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alemã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Americana",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "24b7f31b-f711-40c3-b3e1-2caf8148fe96",
+          "name": "Toscana (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, Mussarela, Calabresa, Alho frito e Orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203281950_IWE7_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "10f2a72d-fd30-469b-a6fb-974bc09d08dd",
+          "name": "Frango Especial (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Frango cremoso, mussarela, tomate rodelas e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282121_NSW5_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "76cf7a13-f348-4360-a75a-c660170cb9ac",
+          "name": "Alemã (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, milho, bacon e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282126_830S_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "8cf9f4fb-f201-4099-9a82-52216226002d",
+          "name": "Do chef (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, presunto picado, pimentão e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282118_2F72_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "aa7f29a2-60f0-41e7-813e-dd8be747c864",
+          "name": "Americana (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, Catupiry, bata palha e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202203282128_8P0C_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "b867a1d4-37a1-468e-9199-ad0b18a626a0",
+          "name": "Frango com Catupiry e bacon (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho de tomate, frango, Catupiry, bacon, mussarela e orégano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202611031620_3743_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "53f8628a-43e5-418e-a877-df4bc1d3617c",
+          "name": "Marguerita (25 cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, tomate rodelas, manjericão e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202312161349_47U1_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ada989b6-768f-423c-a7f9-06ec05a93c46",
+          "name": "Calabresa com Catupiry (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, mussarela, calabresa, Catupiry e oregano.",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202611031634_6588_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "399a3b57-2e94-4557-8146-e7e54f11c75a",
+          "name": "4 queijos especial (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, calabresa, Catupiry, queijo prato, queijo provolone e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "0f5ebcdf-5a98-48df-9a08-4ce1f04794e0",
+          "name": "4 queijos especial (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, mussarela, calabresa fatiada, Catupiry, queigo prato, queijo provolone e oregano.",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "8d6ecc30-cd7a-47f3-8493-a49339dee2c1",
+          "name": "Cabaresa e bacon (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, mussarela,calabresa, bacon e oregano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1cdc78a3-280e-40df-aa60-b9f5374dda99",
+          "name": "Calabresa com Catupiry (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho,mussarela, calabresa, Catupiry e oregano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "57346283-531d-4333-8dae-84ce28e4ccb6",
+          "name": "Calabresa e bacon (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, calabresa, Catupiry, bacon e oregano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "22bbcbe8-9c6a-426b-aa96-187b93640733",
+          "name": "Casadinho (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, palmito, Catupiry, tomate, molho de barbecue e maionese verde",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "c0780e28-f598-407f-a013-d8a187d2cf32",
+          "name": "Casadinho (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, mussarela, palmito, tomate fatiado, molho barbecue e maionese verde.",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "dd5e9ad4-e9e9-4c35-9206-ebd11e0666f2",
+          "name": "Chocolate com morango (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Leite condensado, mussarela, chocolate em pasta, granulado e morango",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202611031812_813K_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "9aabe9d9-5e66-4b39-85fd-5cce8f31b1fd",
+          "name": "Frango com bacon (25cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, mussarela, frango, Catupiry, bacon e oregano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "5a35afa1-2bef-4f5b-ba26-e4d6e27fa92b",
+          "name": "Frango com cheddar (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, frango, cheddar e oregano",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "2d61dc08-75f4-403a-b00e-6deaf356d4e9",
+          "name": "Palmito (25cm serve 1 pessoa, 6 fatias)",
+          "description": "Molho, mussarela, palmito, Catupiry, tomate e orégano.",
+          "priceCents": 4870,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "68f96d07-71c5-4923-9530-193e9648dc3b",
+          "name": "Palmito (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Molho, mussarela, palmito, tomate e oregano",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "fcac8392-a4a9-421f-b517-c3264e00bfc1",
+          "name": "Chocolate com morango (40cm serve 4 pessoa, 12 fatias)",
+          "description": "Leite condensado, mussarela, chocolate em pasta, granulado e morango.",
+          "priceCents": 8799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/86174ec0-a410-43ca-a098-ce098e4c63e6/202611031818_T666_i.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (52 itens na loja)."
+  ]
+}

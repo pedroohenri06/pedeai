@@ -1,0 +1,307 @@
+{
+  "id": "acreano-pizzaria-delivery-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/acreano-pizzaria-delivery-jardim-piracema/881a2864-b226-469a-9679-3bf2fa21f471",
+  "capturedAt": "2026-11-05T01:05:21.966Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Observação",
+      "items": [
+        {
+          "sourceId": "fa752321-d814-4da8-933d-cba0f956e4f7",
+          "name": "Adicionar o Seu Contato Quando Efetuar o Seu Pedido",
+          "description": "Pra Agilizar Na Entrega",
+          "priceCents": 1,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202608121952_0632_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Promoção pizza grande 35cm 10 pedaços",
+      "items": [
+        {
+          "sourceId": "2fcab4d2-a630-4a5c-8a04-5fb9b756cbf6",
+          "name": "Calabresa",
+          "description": "Molho,mussarela,calabresa,cebola e orégano",
+          "priceCents": 5998,
+          "originalPriceCents": 7800,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202601132317_995I_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Escolha o Tamanho e os Sabores",
+      "items": [
+        {
+          "sourceId": "56637360-ae17-487e-999a-bfd41776f2b1",
+          "name": "Pizza Família até 3 Sabores + Guaraná 1,5l",
+          "description": "Pizza Família 40cm 12 Fatias + Guaraná 1,5l (Grátis)",
+          "priceCents": 9099,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202607311740_26CT_i.jpg",
+          "options": [
+            {
+              "name": "Escolha seus Sabores",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "A Moda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizzaiolo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "5 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa c/ Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Tipo Canadense",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carbonaria",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestigio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana c/ Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana c/ Canela",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "348f98ae-d128-4d9e-825a-81923d22b498",
+          "name": "Pizza Grande até 2 sabores + Guaraná 1l",
+          "description": "Pizza Grande 35cm 10 Fatias + Guaraná 1l (Grátis)",
+          "priceCents": 7899,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202607311740_ERYA_i.jpg",
+          "options": [
+            {
+              "name": "Escolha seus Sabores",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "A Moda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizzaiolo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "5 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa Especial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa c/ Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo Tipo Canadense",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Cremoso",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango c/ Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Dom Camilo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carbonaria",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestigio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana c/ Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana c/ Canela",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "09ef8e92-e13b-4abe-bfe5-0fb16cb4d924",
+          "name": "Pizza Media até 2 sabores",
+          "description": "Pizza Media 30cm 8 Fatias",
+          "priceCents": 6199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202607311747_OV0Y_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "24ea627c-0218-440f-900f-37f95033e2f4",
+          "name": "Pizza Pequena até 2 sabores",
+          "description": "Pizza Pequena 25cm 6 Fatias",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202607311744_8QQ3_i.jpg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "92a35583-cf79-4172-aa2b-c935b9fe068f",
+          "name": "Guarana 1,5",
+          "description": "",
+          "priceCents": 1199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202512161630_IM77_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "9da87ab1-02a8-4961-a22d-f17011952ccf",
+          "name": "Guarana 1l",
+          "description": "",
+          "priceCents": 799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/881a2864-b226-469a-9679-3bf2fa21f471/202512161631_J242_.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (8 itens na loja).",
+    "\"Pizza Media até 2 sabores\": opções não coletadas pela extensão (modal sem dados).",
+    "\"Pizza Pequena até 2 sabores\": opções não coletadas pela extensão (modal sem dados)."
+  ]
+}

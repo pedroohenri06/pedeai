@@ -1,0 +1,2364 @@
+{
+  "id": "fnp-burger-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/fnp-burger---barra-do-garcas-campinas/818eee3f-a4ac-40ef-a3eb-1fe2f9c6ca7e",
+  "capturedAt": "2026-11-05T01:18:10.266Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Fnp Ofertas",
+      "items": [
+        {
+          "sourceId": "556fcd3f-c7f1-4266-85b1-5ca340119e6e",
+          "name": "4 em 1",
+          "description": "Esse combo magnífico inclui nosso saboroso sanduíche Meladinho, acompanhado de um irresistível frango empanado, crocante e dourado e um molho Bbq caseiro, rico e defumado. Para finalizar, presenteie seu paladar com uma sobremesa divina: nosso famoso chocolate Fnp. Este combo é a combinação perfeita de sabor, textura e prazer culinário.",
+          "priceCents": 2900,
+          "originalPriceCents": 3600,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/edc98341-0b56-45ea-bf9f-2dd3e842ac46/202607311415_5szh0yie8lo.png",
+          "options": [
+            {
+              "name": "Sanduíche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Meladinho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Acompanhamento de Molhos",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "67dc98e8-ead0-4923-bab5-1c06d3217bc9",
+          "name": "2x1 Fnp Clássico Ou Fnp Bbq",
+          "description": "Nossos sanduíches queridinhos em dobro! Fnp Clássico é feito de pão brioche, filé de sassami empanado, maionese, alface, tomate e queijo. A outra opção é o Fnp Bbq, feito com pão brioche, filé de sassami empanado, maionese, bacon, barbecue, tomate e queijo.",
+          "priceCents": 3700,
+          "originalPriceCents": 4950,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202603231508_3k14vx3zps6.png",
+          "options": [
+            {
+              "name": "Selecione seu Fnp Burger",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Clássico",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fnp Bbq",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Os Mais Vendidos",
+      "items": [
+        {
+          "sourceId": "654c91e1-d2ae-4904-b2f6-1e10c3242ef6",
+          "name": "4 Fnp Clássico + Pote de Fritas + Croquinho G (Cócombo Francolosso)",
+          "description": "Um excelente motivo para reunir a galera é esse combo com 4 Fnp Clássico, Pote de Fritas e porção de Croquinho (G).",
+          "priceCents": 10950,
+          "originalPriceCents": 13250,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_vmhel3zqzan.png",
+          "options": [
+            {
+              "name": "Croquinho Grande",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Grande",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Sanduíche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Clássico",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Pote de Fritas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pote de Fritas",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "402b3e08-1abe-4d06-99dd-a6910df2811f",
+          "name": "2 Fnp Jr + Croquinho G + Fritas M(Cócombo Frandelícia)",
+          "description": "Desfrute deste combo incrível com dois sanduíches Fnp Jr, uma generosa porção de Croquinho G e fritas M. Uma refeição irresistível para matar sua fome!",
+          "priceCents": 5550,
+          "originalPriceCents": 6450,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/93112d6c-6d8d-4dce-a6ce-4097535feeb7/202607302052_m72qtjwzdd8.png",
+          "options": [
+            {
+              "name": "Sanduíche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Jr",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "147c0055-8e54-440e-85bd-2f4cb1284a77",
+          "name": "2 Fnp Jr + Croquinho M + Sobremesa (Cócombo Frangnífico)",
+          "description": "Delicie-se com dois magníficos sanduíches Fnp Jr. Acompanhados por uma porção de Croquinho (M) 120g e uma sobremesa.",
+          "priceCents": 4150,
+          "originalPriceCents": 4850,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_hvv96ce6p9.png",
+          "options": [
+            {
+              "name": "Escolha seu sanduíche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Jr",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Sobremesa",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "5654446a-41dc-411a-8c2a-59f680624ae3",
+          "name": "Combo Fnp Parme",
+          "description": "Pão macio, frango crocante, maionese Fnp exclusiva, alho crocante, molho de tomate especial, queijo derretido e alface fresquinha. Uma combinação perfeita de crocância e cremosidade! Acompanha fritas e refrigerante lata.",
+          "priceCents": 1349,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_nx0newe6kv.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp parme",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "da0dc843-84e5-40ad-bffa-a0ffd0229b3d",
+          "name": "Combo Fnp Bbq",
+          "description": "Pão macio, filé de sassami crocante, maionese Fnp exclusiva, molho barbecue envolvente, bacon triturado, queijo derretido e tomate suculento. Acompanha fritas e refrigerante lata.",
+          "priceCents": 2049,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_pn5g1j3p4ko.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Bbq",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "9b4c43a0-f59a-495b-a65e-18ec30ec0416",
+          "name": "Combo Fnp Clássico",
+          "description": "Pão fresquinho, maionese Fnp exclusiva, alface crocante, frango empanado irresistível, tomate suculento e queijo derretido. Acompanha fritas e refrigerante em lata.",
+          "priceCents": 1649,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_l0qsvcefwpb.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Clássico",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "51836bf5-b097-4542-9ddb-a8939c29ffac",
+          "name": "Combo Fnp Brazuka.",
+          "description": "Pão macio, filés de sassami crocantes, dois anéis de cebola empanados, maionese Fnp exclusiva, alho crocante, queijo derretido, alface fresquinha e tomate suculento. Acompanha fritas e refrigerante lata.",
+          "priceCents": 2449,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_cxua9dfao9r.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brazuka",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "dc0ea8b6-3c67-4405-95b5-4203156bb639",
+          "name": "Combo Fnp Chefe",
+          "description": "Pão fresquinho, hambúrguer suculento de 100g, maionese Fnp exclusiva, alface crocante, tomate suculento e queijo derretido. Acompanha fritas e refrigerante lata.",
+          "priceCents": 2049,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_bqj9tzgj0i5.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Chefe",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "29b49d52-ce24-432c-b4a9-62a3f0410f66",
+          "name": "Combo Fnp Bravo.",
+          "description": "Pão brioche amanteigado, hambúrguer suculento de 100g, maionese, bacon, barbecue, tomate e queijo. Acompanha fritas e refrigerante lata.",
+          "priceCents": 2649,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_ejsvrtrj39.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Bravo",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d5a61f7f-ac14-41d4-a12f-c952b9b76c32",
+          "name": "Combo Fnp Braza",
+          "description": "Pão macio, hambúrguer suculento de 100g, dois anéis de cebola empanados, maionese Fnp exclusiva, alho crocante, bacon triturado, queijo derretido, alface fresquinha e tomate suculento. Acompanha fritas e refrigerante lata.",
+          "priceCents": 3349,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_yb94ypriuze.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Braza",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6f60779a-9af3-4146-a17e-7dd99adf949a",
+          "name": "Combo Fnp Chefão",
+          "description": "Pão macio, dois hambúrgueres suculentos de 100g cada, maionese Fnp exclusiva, molho barbecue saboroso, bacon, queijo derretido, alface crocante e tomate suculento. Acompanha fritas e refrigerante lata.",
+          "priceCents": 3649,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_a6mm0zp2wle.png",
+          "options": [
+            {
+              "name": "Lanche",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fnp Chefão",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Escolha a Batata Frita",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 1
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 101
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Bebidas Combos Ifood",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Fnp Burger",
+      "items": [
+        {
+          "sourceId": "87b3bd1b-6c66-4455-825b-c7c2cd5f9b7f",
+          "name": "Fnp Bravo",
+          "description": "Pão fresquinho, hambúrguer suculento de 100g, maionese Fnp exclusiva, molho barbecue irresistível, bacon triturado, queijo derretido e tomate suculento. Uma combinação que vai te conquistar!",
+          "priceCents": 3850,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_jypa90o4rsn.png",
+          "options": [
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "b63069a7-a492-4096-959c-1ed9c2077b60",
+          "name": "Fnp Bbq",
+          "description": "Pão macio, filé de sassami crocante, maionese Fnp exclusiva, molho barbecue envolvente, bacon triturado, queijo derretido e tomate suculento. Uma explosão de sabor em cada mordida!",
+          "priceCents": 3350,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_b4uxojxrfiv.png",
+          "options": [
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "79d14a2f-5ac9-4620-b206-333de8e2d6af",
+          "name": "Fnp Brazuka",
+          "description": "Pão macio, filés de sassami crocantes, dois anéis de cebola empanados, maionese Fnp exclusiva, alho crocante, bacon triturado, queijo derretido, alface fresquinha e tomate suculento. Uma explosão de sabor e textura em cada mordida!",
+          "priceCents": 3950,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_58d2qw4ngyi.png",
+          "options": [
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "dd2d56da-9b0b-4020-8e3d-28c5d63270b3",
+          "name": "Fnp Chefe",
+          "description": "Pão fresquinho, hambúrguer suculento de 100g, maionese Fnp exclusiva, alface crocante, tomate suculento e queijo derretido. Sabor e qualidade em cada mordida!",
+          "priceCents": 3550,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_naavm9qod4r.png",
+          "options": [
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "12113ebb-9272-4ccb-9bbc-dfdadb91f53a",
+          "name": "Fnp Braza",
+          "description": "Pão macio, hambúrguer suculento de 100g, dois anéis de cebola empanados, maionese Fnp exclusiva, alho crocante, bacon triturado, queijo derretido, alface fresquinha e tomate suculento. Uma combinação irresistível de crocância e sabor!",
+          "priceCents": 4850,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_k0g3lhb3ja.png",
+          "options": [
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "622a3964-6384-4f5f-b8b0-1dea945a89c4",
+          "name": "Fnp Clássico",
+          "description": "Pão fresquinho, maionese Fnp exclusiva, alface crocante, frango empanado irresistível, tomate suculento e queijo derretido. O equilíbrio perfeito entre crocância e cremosidade!",
+          "priceCents": 2950,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_xe9h3y7ky2.png",
+          "options": [
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 900
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d727335f-20d9-4e92-8767-ece7a4ccbe0e",
+          "name": "Fnp Parme",
+          "description": "Pão macio, frango crocante, maionese Fnp exclusiva, alho crocante, molho de tomate especial, queijo derretido e alface fresquinha. Uma combinação perfeita de crocância e cremosidade!",
+          "priceCents": 2650,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_h0o9iyk62vo.png",
+          "options": [
+            {
+              "name": "Selecione: Adicionais no Sanduíche",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Anéis de Cebola",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "fc12c75f-28e6-4d00-913a-3b1c9e385810",
+          "name": "Batata Frita",
+          "description": "Extremamente crocantes por fora e suculentas por dentro. Preparadas no óleo de algodão.",
+          "priceCents": 1250,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e221c94a-1a84-493c-b5e6-b4084696b123/202511061347_xga2o0wq6x.png",
+          "options": [
+            {
+              "name": "Fritas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fritas Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fritas Grande",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6e7d3c7d-fcaf-4105-99ac-d03e70f932d2",
+          "name": "Anéis de Cebola",
+          "description": "Anéis de Cebola",
+          "priceCents": 2650,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e221c94a-1a84-493c-b5e6-b4084696b123/202511061347_a6btwxhvzup.png",
+          "options": [
+            {
+              "name": "Selecione: Cebola",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cebola Grande",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pote de Cebola",
+                  "priceCents": 1800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f4615d01-ef8c-41dc-a843-7a4d75abfd60",
+          "name": "Cebola Empanada Suprema",
+          "description": "Empanados e dourados, servidos com dois molhos à sua escolha, e opcionalmente incrementados com alho frito ou bacon crocante triturado. Uma explosão de sabor a cada mordida!",
+          "priceCents": 4950,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081506_stemn7t9qtg.png",
+          "options": [
+            {
+              "name": "Adicional",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Alho Triturado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon Triturado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem Acompanhamento",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Mostarda e Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Sem Molho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4840bab4-fbdd-4d1f-82cc-4bb9f26cce6a",
+          "name": "Batata Frita Suprema",
+          "description": "Crocante e deliciosa, servida com dois molhos à sua escolha e ainda incrementada com alho frito ou bacon crocante triturado. O acompanhamento perfeito!",
+          "priceCents": 4950,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_d3qgvzkhgj.png",
+          "options": [
+            {
+              "name": "Adicional",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Alho Triturado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon Triturado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sem Acompanhamento",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Mostarda e Mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Sem Molho",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 800
+                }
+              ]
+            },
+            {
+              "name": "Selecione: Que Tal uma Sobremesa",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Fnp",
+                  "priceCents": 600
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "94fdc99e-5120-4acc-9297-0cc446ddf5e1",
+          "name": "Tirinhas Bacon",
+          "description": "Desperte seus sentidos com deliciosas 3 tirinhas de bacon crocantes e perfeitamente empanadas. Uma explosão de sabor em cada pedaço, garantindo uma experiência gastronômica única.",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/59b773e6-ec14-4402-bb5e-4bfabfd603fe/202511201111_hs26l0f7vuh.png",
+          "options": [
+            {
+              "name": "Tirinhas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "P",
+                  "priceCents": 0
+                },
+                {
+                  "name": "M",
+                  "priceCents": 650
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sobremesa",
+      "items": [
+        {
+          "sourceId": "84090b83-8ac8-47fb-843a-6a40efbd7a70",
+          "name": "Chocolate Fnp",
+          "description": "Chocolate em bastão empanado, uma combinação irresistível de crocância por fora e cremosidade por dentro.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e221c94a-1a84-493c-b5e6-b4084696b123/202511061347_e593c6185k.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Adicionais",
+      "items": [
+        {
+          "sourceId": "9f2de526-d1e0-49ab-9dd1-398f588bd488",
+          "name": "Adicional de Molhos",
+          "description": "A gente sabe! É difícil escolher um só.",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/e221c94a-1a84-493c-b5e6-b4084696b123/202511061347_axi3vpvf0hq.png",
+          "options": [
+            {
+              "name": "Selecione: Adicional de Molhos",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Agridoce Picante",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Barbecue",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pasta de Alho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mostarda e mel",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baconese",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "f4dc6acf-f88e-4d5f-80e3-490221f8af29",
+          "name": "Escolha sua Bebida",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/b8ec0379-86a2-468b-b76c-7c2d2d2dc64f/202605081454_1fkezvtwgvr.png",
+          "options": [
+            {
+              "name": "Selecione: Vamos de Bebida Gelada",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pepsi Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guarana Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sukita Laranja Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Soda Antártica Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (28 itens na loja).",
+    "\"Batata Frita\": cada opção de \"Fritas\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Adicional de Molhos\": cada opção de \"Selecione: Adicional de Molhos\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Escolha sua Bebida\": cada opção de \"Selecione: Vamos de Bebida Gelada\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador."
+  ]
+}

@@ -1,0 +1,664 @@
+{
+  "id": "braseiro-du-chef-steak-house-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/braseiro-du-chef-steak-house-jardim-piracema/2cd296f2-3053-48e8-b887-4b924a5cbe58",
+  "capturedAt": "2026-11-04T10:55:05.202Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Dia Das Crianças",
+      "items": [
+        {
+          "sourceId": "c41a7623-8bae-4e9f-9526-592532c6f811",
+          "name": "Combo Braseirinho",
+          "description": "1 braseirinho (pão, hambúrguer 120g, mussarela, molho da casa), 1 suco de caixinha, 1 batata frita, 1 bombom, ganhe 1 copinho para colorir",
+          "priceCents": 3299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202610111935_FGEJ_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Individuais",
+      "items": [
+        {
+          "sourceId": "ca58e07e-e4ef-4234-8759-75a9c6c700f0",
+          "name": "Macarrão Flambado",
+          "description": "",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221132_47J1_i.jpg",
+          "options": [
+            {
+              "name": "Escolha 8 Ingredientes",
+              "min": 1,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Palmito Picado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ervilha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brócolis",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ovo De Codorna",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Presunto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Carne Moida",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a1362788-7242-440d-a7c1-ca661ca413b0",
+          "name": "Panqueca",
+          "description": "Acompanha Arroz E Batata Frita",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221309_R4MH_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ead9b491-1801-4c4a-aedc-c588c664a7e5",
+          "name": "Parmegiana",
+          "description": "Acompanha Arroz E Batata Frita",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221132_JJ0Q_i.jpg",
+          "options": [
+            {
+              "name": "Escolha A Carne",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Filé De Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bife Bovino",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "d5049cf0-5847-4f1a-b6b8-35eea1ec5e1a",
+          "name": "Bife a cavalo",
+          "description": "Arroz, Feijão, Batata Frita, Salada, Bife Bovino Com Ovo E Cebola.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "ce454c3c-f1ed-40bc-9696-fc496b1b36ff",
+          "name": "Bife de contra filé",
+          "description": "Delicioso contra filé (150g a 200g)",
+          "priceCents": 4799,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202609111854_41TL_.jpeg",
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz Biro Biro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de alface e tomate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "9a56c4c2-8dba-4d3f-8ce7-f20acc906cd1",
+          "name": "Bife de contra filé com queijo",
+          "description": "Delicioso contra filé (150g a 200g) com queijo mussarela",
+          "priceCents": 5299,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz Biro Biro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de alface e tomate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "87ab2b07-ae15-4dd2-b872-cd5af3eeb13f",
+          "name": "Filé de frango",
+          "description": "Filé de frango grelhado (150 a 200g)",
+          "priceCents": 3599,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz Biro Biro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de alface e tomate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "1da72ecf-1775-4fe9-96df-c44542a29c94",
+          "name": "Filé de frango com queijo",
+          "description": "File de frango grelhado (150g a 200g) com queijo mussarela",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz Biro Biro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de alface e tomate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e06fd8d6-44a6-482b-a1d6-b7310b28420f",
+          "name": "Picanha Bovina",
+          "description": "Aproximadamente 200g",
+          "priceCents": 6399,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221226_35L4_i.jpg",
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz Biro Biro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de alface e tomate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "e715f53d-ab44-4660-aade-f117b5abdd7b",
+          "name": "Picanha Suína",
+          "description": "Aproximadamente 150g",
+          "priceCents": 4099,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221226_5N7J_i.jpg",
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 1,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Arroz Biro Biro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Batata frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Purê de batata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Vinagrete",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de alface e tomate",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada de maionese",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão tropeiro",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4066e02e-4af7-42fd-9f87-6de131cc7b1f",
+          "name": "Panelinha mista",
+          "description": "Arroz Cremoso Com Linguiça, Bacon, Carne Serenada, Milho, Azeitona, Tomate, Queijo E Temperos Especial (serve três pessoas)",
+          "priceCents": 6999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202609111854_602A_.jpeg",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Burger feito na Brasa",
+      "items": [
+        {
+          "sourceId": "bc5e979a-157f-4c06-92e9-d318dd826252",
+          "name": "Braseiro Rib",
+          "description": "Pão Brioche, Burguer 180g 100% Costela Bovina, Queijo Cheddar, Bacon Crocante, Alface,Tomate Cereja, Abacaxi Caramelizado E Grelhado Na Brasa, Molho Barbecue.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221119_V4T2_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "c9528b6b-ee3c-499c-a34f-9e7f547df175",
+          "name": "Braseiro Nachos",
+          "description": "Pão Brioche, 2 Hamburgúeres De 100g, Queijo Cheddar, Creme Cheddar, Farofa De Bacon, Doritos E Ketchup De Goiabada.",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221120_4O17_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "119d5d2d-f96b-4140-ab34-a7c7ee37cea3",
+          "name": "Braseiro Smoked",
+          "description": "Pão Brioche, Burguer Bovino Defumado 180g, Queijo Muçarela, Alface, Tomate E Molho Verde.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202609111858_A0UA_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c7b151c2-5eec-42e6-b40b-3801a6b41fae",
+          "name": "Braseiro Salad",
+          "description": "Pão Brioche, Burguer Bovino 180g, Queijo Muçarela, Alface,Tomate, Cebola Roxa, Picles E Molho Da Casa.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221131_3EXX_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "8b2f2e1a-558d-4e08-9515-d8f2745e91ec",
+          "name": "Braseiro Monster",
+          "description": "Pão Brioche, Duplo Burguer Bovino 180g Cada, Duplo Queijo Cheddar, Duplo Bacon Crocante E Molho Barbecue.",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221121_8I85_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "eb8a4f24-9446-492d-8e5e-dfef68f2e6a3",
+          "name": "Braseiro Nordestino",
+          "description": "Pão Brioche, Burguer Bovino 180g, Carne Desfiada Com Requeijão Cremoso, Queijo Muçarela, Banana Da Terra, Cebola Roxa E Maionese.",
+          "priceCents": 4199,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202609111857_DSX1_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "a681e361-50be-4273-8fc1-efaba85f248f",
+          "name": "Braseiro Onion",
+          "description": "Pão Australiano, Burguer Bovino 180g, Queijo Cheddar, Onion Rings, Bacon Crocante E Molho Barbecue.",
+          "priceCents": 4999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202609111857_GEWZ_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "2cbd239d-9066-478b-87ee-9e78bcbbf108",
+          "name": "Braseiro Melt",
+          "description": "Pão Brioche, Burguer Bovino 180g, Queijo Cheddar, Bacon Crocante, Creme Cheddar E Molho Da Casa.",
+          "priceCents": 3999,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221124_82W0_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "603052e5-9ca3-482b-bde2-dd819f72fcf8",
+          "name": "Braseiro Rock",
+          "description": "Pão Australiano, Burguer Bovino 180g, Queijo Muçarela, Bacon Crocante, Cebola Caramelizada E Maionese.",
+          "priceCents": 4299,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202411221124_DD4U_i.jpg",
+          "options": []
+        },
+        {
+          "sourceId": "ac9ae242-1f58-495c-b109-5df838c294eb",
+          "name": "Tranforme Hamburguer Em Combo",
+          "description": "Batata Frita E Refri",
+          "priceCents": 1999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "47336d0f-18f6-47dc-8f33-b3ea199a8c3f",
+          "name": "Batata frita 150g",
+          "description": "",
+          "priceCents": 1499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "e95ea27d-764e-409a-bb70-bf9f9773eff8",
+          "name": "Batata frita 300g",
+          "description": "",
+          "priceCents": 2599,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202108231325_5K53_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "3cc7878f-340c-4588-8ee9-2d73ecdbe524",
+          "name": "Batata Frita Especial 300g",
+          "description": "Fritas Crocantes Com Cheddar e bacon",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "1c738d9f-0ff6-433c-b3eb-73f263238582",
+          "name": "Contra filé 500g",
+          "description": "Aproximadamente 500g De Contrafilé, Fatiado Com Mandioca Cozida",
+          "priceCents": 9999,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "6a69c548-87ea-4099-92e7-b3eb28b1643f",
+          "name": "Agua mineral com Gás 500 ml",
+          "description": "Agua c/Gás",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "0bb58dca-d0c9-4dba-83f1-3a862dd682c2",
+          "name": "Agua s/ Gás",
+          "description": "Agua s/ Gás",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202108231257_8V73_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "d8c16304-7e40-43de-b897-9e79d36b8b64",
+          "name": "Coca-Cola Original 310 Lata",
+          "description": "Coca-Cola Lata 310ml",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202108231251_6K4E_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "ee6fc447-61f9-4b5a-814b-5bc0ab8649a0",
+          "name": "Fanta lata",
+          "description": "Fanta lata 310ml",
+          "priceCents": 850,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/2cd296f2-3053-48e8-b887-4b924a5cbe58/202108231253_4JA0_.jpeg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (30 itens na loja)."
+  ]
+}

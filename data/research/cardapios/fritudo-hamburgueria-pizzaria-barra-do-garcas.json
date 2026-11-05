@@ -1,0 +1,255 @@
+{
+  "id": "fritudo-hamburgueria-pizzaria-barra-do-garcas",
+  "platform": "ifood",
+  "source": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/hamburgueriapizzaria-fritudo-loteamento-santa-emilia/a8c145c1-0203-4a38-a7dc-3cbb80337285",
+  "capturedAt": "2026-11-04T11:04:48.073Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Combos & Burguers Fritudo",
+      "items": [
+        {
+          "sourceId": "b2865455-4967-4721-8d06-a351ea998c4a",
+          "name": "Combo Casal Canta Galo",
+          "description": "Acompanha 2xsalada Original+ 200 gramas de batata com bacon e cheddar",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202607242216_73LH_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "c54b45b7-a722-4cba-a70c-71dade764e41",
+          "name": "Combo Quarteto Fantástico",
+          "description": "Acompanha 4x-Saladas Originais+ 300 gramas de batata com calabresa e cheddar",
+          "priceCents": 11999,
+          "originalPriceCents": 12500,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202607242212_53C1_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "e3fe448e-ba16-455d-bd3a-cd5bca6417d3",
+          "name": "X- Bacon Fritudo",
+          "description": "Acompanha: Pão, hambúrguer artesanal, queijo, bacon, alface e tomate",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202607242219_42UX_.jpeg",
+          "options": []
+        },
+        {
+          "sourceId": "cc94fc18-bcef-4d62-9e7c-47cac70ccdab",
+          "name": "X - Salada Burguer Original",
+          "description": "Foto Meramente Ilustrativa*Composto por pão brioche macio, hambúrguer artesanal de 120g, queijo derretido, ovo, tomate fresco, alface crocante e o exclusivo molho da casa.",
+          "priceCents": 1999,
+          "originalPriceCents": 2199,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202506052154_ED71_i.jpg",
+          "options": [
+            {
+              "name": "Molhos e Complementos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Hambúrguer Artesanal",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Mussarela Fatiada Queijo",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Ovo Unidade",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Adicional Frango Empanado 150g",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "ce9af5be-b836-4c64-9014-2738239b70e3",
+          "name": "X - Tudo Monstro",
+          "description": "Pão macio selado na chapa, hambúrguer suculento, queijo derretido, presunto selecionado, bacon crocante, calabresa, ovo frito no ponto, salsicha, alface fresquinha, tomate, milho, batata palha crocante e finalizado com nossa maionese especial da casa. Um lanche gigante, bem recheado e com sabor em cada mordida! Perfeito pra quem quer qualidade, quantidade e muito sabor!",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202606202308_811S_i.jpg",
+          "options": [
+            {
+              "name": "Molhos e Complementos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Hambúrguer Artesanal",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Mussarela Fatiada Queijo",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Ovo Unidade",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Adicional Frango Empanado 150g",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "c56c7c4d-1dfe-49f7-9f39-244f02018ebd",
+          "name": "X- Egg duplo",
+          "description": "Foto Meramente Ilustrativa*Acompanha pão brioche, hambúrguer artesanal, 2 ovos, queijo, tomate, alface e o molho da casa.",
+          "priceCents": 1999,
+          "originalPriceCents": 2299,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202511140018_3577_.jpeg",
+          "options": [
+            {
+              "name": "Molhos e Complementos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Hambúrguer Artesanal",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Mussarela Fatiada Queijo",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Ovo Unidade",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Adicional Frango Empanado 150g",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "f88b9649-27dd-4040-af1c-3fdbccb91cba",
+          "name": "X- Frango Empanado",
+          "description": "Foto Meramente Ilustrativa*Este saboroso lanche é composto por pão brioche, frango empanado, queijo, tomate e alface e o molho da casa.",
+          "priceCents": 2299,
+          "originalPriceCents": 2499,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202511140003_4594_.jpeg",
+          "options": [
+            {
+              "name": "Molhos e Complementos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Hambúrguer Artesanal",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Mussarela Fatiada Queijo",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Ovo Unidade",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Adicional Frango Empanado 150g",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "a1449cdf-60ac-4c09-ba75-a6bd924703bd",
+          "name": "Combo Individual Brabíssimo+ 1 refri 250ml",
+          "description": "Acompanha 1 salada Original, 200g de batata frita crocante coberta com bacon e cheddar cremoso, além de 100g de frango empanado sequinho e saboroso+1 refrigerante geladissimo de 250ml.",
+          "priceCents": 4799,
+          "originalPriceCents": 5399,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/a8c145c1-0203-4a38-a7dc-3cbb80337285/202604270323_Q24J_i.jpg",
+          "options": [
+            {
+              "name": "Fritudo Pets Free",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Ref Maraja Kitubaina Pet 250ml",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Molhos e Complementos",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 499
+                },
+                {
+                  "name": "Hambúrguer Artesanal",
+                  "priceCents": 900
+                },
+                {
+                  "name": "Mussarela Fatiada Queijo",
+                  "priceCents": 399
+                },
+                {
+                  "name": "Ovo Unidade",
+                  "priceCents": 350
+                },
+                {
+                  "name": "Adicional Frango Empanado 150g",
+                  "priceCents": 1499
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas Fritudo",
+      "items": [
+        {
+          "sourceId": "3e2a66f0-08e1-4828-bb84-b197a63db382",
+          "name": "Ref Maraja Kitubaina Pet 250ml",
+          "description": "Garrafa 250ml",
+          "priceCents": 399,
+          "originalPriceCents": null,
+          "imageUrl": "https://static.ifood-static.com.br/image/upload/t_high/pratos/820af392-002c-47b1-bfae-d7ef31743c7f/202210181011_zrsqyods8f.jpg",
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (9 itens na loja)."
+  ]
+}

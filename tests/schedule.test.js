@@ -127,3 +127,18 @@ test('previsão de entrega: total, preparo + entrega, e sem dado', () => {
   assert.equal(S.deliveryEstimate({ deliveryTime: { minMinutes: 50, maxMinutes: 30 } }), null);
   assert.equal(S.deliveryEstimate({ deliveryTime: { prepMinutes: 20 } }), null);   // só preparo não é o tempo total
 });
+
+test('grade estimada: completa o texto incompleto e cede ao horário publicado', () => {
+  const fb = { days: S.DAYS.slice(), start: '18:00', end: '23:00' };
+  assert.deepEqual(S.parseLoose('Seg a sáb', fb).sab, ['18:00-23:00']);
+  assert.equal(S.parseLoose('Seg a sáb', fb).dom, undefined);
+  assert.deepEqual(S.parseLoose('15h às 22h30', fb).dom, ['15:00-22:30']);
+  assert.deepEqual(S.parseLoose('Terça a domingo, a partir das 17h', fb).ter, ['17:00-23:00']);
+  assert.deepEqual(S.parseLoose('Seg a sáb, almoço', fb).seg, ['10:30-14:00']);
+  assert.deepEqual(S.parseLoose(null, fb).qua, ['18:00-23:00']);
+  const est = { hours: 'Seg a sáb', schedule: { week: { seg: ['18:00-23:00'] }, estimated: true } };
+  assert.equal(S.fromStore(est).estimated, true);
+  est.hours = 'Todos os dias, 10h às 14h';                              // a loja publicou o horário completo
+  assert.equal(S.fromStore(est).estimated, undefined);
+  assert.deepEqual(S.fromStore(est).week.dom, ['10:00-14:00']);
+});

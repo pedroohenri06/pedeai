@@ -96,7 +96,8 @@
     var st = S.status(s.schedule), rows = S.weekRows(s.schedule);
     if (!rows.length) return s.hours ? '<li>' + icon(I.clock) + '<div><strong>Horário' + (s.hoursEstimated ? ' <small class="sp-estimate">a confirmar</small>' : '') + '</strong><span>' + esc(s.hours) + '</span></div></li>' : '';
     var today = S.today(s.schedule.tz);
-    return '<li>' + icon(I.clock) + '<div><strong>Horário <span class="sp-open is-' + st.state + '" data-sp-status><i aria-hidden="true"></i>' + esc(st.label || '') + '</span></strong>' +
+    return '<li>' + icon(I.clock) + '<div><strong>Horário <span class="sp-open is-' + st.state + '" data-sp-status><i aria-hidden="true"></i>' + esc(st.label || '') + '</span>' +
+      (s.schedule.estimated ? ' <small class="sp-estimate">a confirmar</small>' : '') + '</strong>' +
       (st.detail ? '<span data-sp-detail>' + esc(st.detail) + '</span>' : '') +
       '<details class="sp-week"><summary>Horários da semana</summary><ul>' + rows.map(function (r) {
         return '<li' + (r.key === today ? ' class="is-today"' : '') + '><span>' + esc(r.day) + '</span><span>' + esc(r.text) + '</span></li>';

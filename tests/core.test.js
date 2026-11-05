@@ -231,3 +231,11 @@ test('cardápio sob demanda: contagem, pedido online e busca por prato sem o men
   assert.deepEqual(core.filterStores([lazy], { query: 'coca-cola' }).map(s => s.id), [store.id]);
   assert.deepEqual(core.filterStores([lazy], { query: 'sushi' }), []);
 });
+
+test('searchScore: nome da loja vem antes de categoria e de prato', () => {
+  const pizzaria = { name: 'Pizzaria Bella', category: 'Pizza' }, lanche = { name: 'Dantes', category: 'Hambúrguer', kind: 'Hamburgueria, pizzas' }, bolo = { name: 'Bolos do Sítio', category: 'Café' };
+  assert.equal(core.searchScore(pizzaria, 'pizza'), 0);
+  assert.equal(core.searchScore(lanche, 'pizza'), 1);
+  assert.equal(core.searchScore(bolo, 'pizza'), 3);
+  assert.equal(core.searchScore(bolo, ''), 0);
+});

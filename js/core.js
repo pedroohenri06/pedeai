@@ -73,6 +73,17 @@
     });
   }
 
+  /* Relevância da busca (menor = mais relevante): 0 nome da loja, 1 categoria ou tipo, 2 bairro, 3 só nos pratos.
+     Sem busca, todas valem 0. */
+  function searchScore(s, query) {
+    var q = normalize(query);
+    if (!q) return 0;
+    if (normalize(s.name).indexOf(q) > -1) return 0;
+    if (normalize(s.category + ' ' + (s.kind || '')).indexOf(q) > -1) return 1;
+    if (normalize(s.neighborhood || '').indexOf(q) > -1) return 2;
+    return 3;
+  }
+
   /* Ordem da listagem: "rank" calculado por scripts/rank-stores.js (destaques, qualidade da imagem e popularidade);
      sem rank, destaques (featured) primeiro, depois onde dá para pedir, com cardápio, com foto ou logo própria e mais
      verificados; cadastros "Em verificação" vão para o fim. Empate: ordem alfabética. Não altera a lista recebida. */
@@ -240,7 +251,7 @@
     CITIES: CITIES, CATEGORIES: CATEGORIES, MAX_QTY: MAX_QTY,
     normalize: normalize, slugify: slugify, escapeHtml: escapeHtml,
     toCents: toCents, formatBRL: formatBRL, isValidWhatsApp: isValidWhatsApp, formatPhone: formatPhone,
-    canOrder: canOrder, menuSize: menuSize, filterStores: filterStores, rankStores: rankStores, countByCity: countByCity,
+    canOrder: canOrder, menuSize: menuSize, searchScore: searchScore, filterStores: filterStores, rankStores: rankStores, countByCity: countByCity,
     emptyCart: emptyCart, addItem: addItem, setQty: setQty, reconcileCart: reconcileCart, itemQty: itemQty,
     validateSelection: validateSelection, unitPrice: unitPrice, lineKey: lineKey,
     cartCount: cartCount, cartTotals: cartTotals, buildOrderMessage: buildOrderMessage,

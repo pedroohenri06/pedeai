@@ -568,3 +568,11 @@ body.store-open .bottom-nav{display:none}
 .sp-week ul{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:4px}
 .sp-week li{display:flex;justify-content:space-between;gap:12px;color:var(--muted)}
 .sp-week li.is-today{color:var(--ink);font-weight:700}
+
+/* Cabeçalho compacto do cardápio (sem repetir logo e nome do topo) e instrução em uma linha. */
+.sp-menu-title{margin:6px 0 14px}
+.sp-menu-title .sp-vitrine-facts{margin-top:6px;font-size:13px;color:var(--muted);font-weight:600}
+.sp-guide--line{margin:0 0 16px;font-size:13px;color:var(--muted)}
+/* Carrossel de destaques: o primeiro card alinha na margem da página (16 px), também ao deslizar. */
+.sp-hl-track{scroll-padding-inline:16px}
+@media (min-width:760px){.sp-hl-track{scroll-padding-inline:2px}}

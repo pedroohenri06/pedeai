@@ -117,7 +117,7 @@
       '<li>' + icon(I.pin) + '<div><strong>' + esc(s.address || s.city + ', MT') + '</strong>' + (s.address ? '<span>' + esc(s.city) + ', MT</span>' : '') + '<a href="' + esc(mapsUrl(s)) + '" target="_blank" rel="noopener">Ver no mapa</a></div></li>' +
       hoursHtml(s) + deliveryHtml(s) +
       '</ul>' + actionsHtml(s) +
-      (s.confidence === 'baixa' ? '<p class="sp-notice store-warning">' + icon(I.info) + '<span>Cadastro em verificação. Os dados vêm de fontes públicas e ainda não foram confirmados pelo estabelecimento.</span></p>' : '') +
+
       '</section>';
   }
 
@@ -198,11 +198,7 @@
 
   /* Instrução do pedido, logo abaixo do título do cardápio. */
   function guideHtml(s) {
-    if (!C.canOrder(s)) return '<p class="sp-guide">Monte seu pedido para conferir os valores. O envio pelo WhatsApp é liberado assim que <strong>' + esc(s.name) + '</strong> confirmar o número.</p>';
-    return '<ol class="sp-guide sp-guide--steps">' +
-      '<li><b>Monte seu pedido</b><span>Escolha os itens e as quantidades.</span></li>' +
-      '<li><b>Informe o endereço</b><span>Ou escolha retirar no local.</span></li>' +
-      '<li><b>Finalize no WhatsApp</b><span>O pedido chega pronto para ' + esc(s.name) + '. O pagamento você combina direto com o estabelecimento.</span></li></ol>';
+    return C.canOrder(s) ? '<p class="sp-guide sp-guide--line">Monte o pedido, informe o endereço e finalize no WhatsApp de <strong>' + esc(s.name) + '</strong>.</p>' : '';
   }
 
   /* Cardápio sob demanda: enquanto data/menus/<id>.json chega, a página mostra a estrutura do cardápio (sem conteúdo
@@ -217,13 +213,12 @@
       '</section>';
   }
 
-  /* Vitrine da marca no topo do cardápio: logo, nome e números do cardápio sobre a cor da loja (brand). */
+  /* Cabeçalho compacto do cardápio (logo e nome já estão no topo da página): título + números do cardápio. */
   function vitrineHtml(s, secs) {
     var promos = s.menu.filter(function (m) { return m.originalPriceCents > m.priceCents; }).length;
     var facts = [s.menu.length + ' itens', secs.length + (secs.length === 1 ? ' categoria' : ' categorias')];
     if (promos) facts.push(promos + (promos === 1 ? ' promoção' : ' promoções'));
-    return '<header class="sp-vitrine">' + badgeTile(s) + '<div class="sp-vitrine-text"><p class="sp-vitrine-kicker"><span class="sp-speed" aria-hidden="true"><i></i><i></i><i></i></span>Cardápio oficial</p>' +
-      '<h2 id="storeMenuTitle">' + esc(s.name) + '</h2><p class="sp-vitrine-facts">' + facts.map(function (f) { return '<span>' + esc(f) + '</span>'; }).join(' ') + '</p></div></header>';
+    return '<div class="sp-menu-head sp-menu-title">' + eyebrow('Escolha seus itens') + '<h2 id="storeMenuTitle">Cardápio</h2><p class="sp-vitrine-facts">' + facts.map(function (f) { return '<span>' + esc(f) + '</span>'; }).join(' ') + '</p></div>';
   }
 
   /* Destaques: só itens que a própria loja marcou como destaque na plataforma de origem; sem marcação, as promoções. */
@@ -251,7 +246,7 @@
     }
     var secs = sectionsOf(s.menu), many = s.menu.length >= 12;
     return '<section class="sp-menu" aria-labelledby="storeMenuTitle">' + vitrineHtml(s, secs) +
-      '<div class="sp-menu-head">' + guideHtml(s) + '<p class="sp-source">Preços de <a href="' + esc(s.menuSource) + '" target="_blank" rel="noopener">' + esc(hostOf(s.menuSource)) + '</a>, consultados em ' + esc(formatDate(s.verifiedAt)) + '. O estabelecimento confirma valores e disponibilidade.</p></div>' +
+      guideHtml(s) +
       (secs.length > 1 || many ? '<div class="sp-sticky">' +
         (secs.length > 1 ? '<nav class="sp-cats" aria-label="Categorias do cardápio"><div class="sp-cats-track">' + secs.map(function (sec, i) {
           return '<a class="sp-cat" href="#sp-sec-' + i + '" data-sec="' + i + '"' + (i === 0 ? ' aria-current="true"' : '') + '>' + esc(sec.name) + '</a>';

@@ -62,6 +62,11 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.equal(await page.locator('.restaurant').count(), 0);
       await page.fill('#search', 'x-tudo');
       assert.equal(await page.locator('.restaurant').count(), 2);
+      assert.equal(await page.evaluate(() => document.body.classList.contains('is-searching')), true);
+      assert.equal(await page.isVisible('.campaign'), false, 'com busca ativa, o banner sai de cena');
+      assert.match(await page.textContent('#resultTitle'), /Resultados para “x-tudo”/);
+      const top = await page.evaluate(() => document.getElementById('restaurantes').getBoundingClientRect().top);
+      assert.ok(top < 300, 'resultados logo abaixo do campo de busca (' + top + ')');
       await page.fill('#search', 'monte a sua');
       assert.equal(await page.locator('.restaurant').count(), 1);
       await page.fill('#search', '');
@@ -194,7 +199,8 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       await page.click('#cartBar');
       assert.equal(await page.isDisabled('#cartSend'), true);
       assert.match(await page.textContent('#cartNote'), /não foi verificado/);
-      assert.match(await page.textContent('.store-warning'), /em verificação/i);
+      assert.equal(await page.locator('.store-warning').count(), 0, 'estado interno de cadastro não aparece para o consumidor');
+      assert.equal(await page.locator('.sp-source').count(), 0, 'sem aviso de origem dos preços');
       assert.equal(await page.locator('.sp-hero--empty').count(), 1, 'sem foto: capa tipográfica, sem imagem inventada');
       await page.keyboard.press('Escape');
     });
@@ -210,7 +216,7 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       await page.goto(base + '#/loja/burger-marca-querencia');
       await page.waitForSelector('.sp-item');
       assert.equal(await page.locator('.sp-li').count(), 3);
-      assert.equal(await page.textContent('#storeMenuTitle'), 'Burger Marca');
+      assert.equal(await page.textContent('#storeMenuTitle'), 'Cardápio');
       assert.match(await page.textContent('.sp-vitrine-facts'), /3 itens.*2 categorias.*1 promoção/);
       assert.equal(await page.locator('.sp-hl').count(), 2);
       assert.match(await page.textContent('[data-item="combo-casa"] .sp-item-price'), /R\$ 45,90.*R\$ 39,90/);

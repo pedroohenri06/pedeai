@@ -62,7 +62,7 @@
           '<span class="cat-caption">' + esc(c.name) + '</span></button>';
       }).join('');
       catBox.querySelectorAll('.cat').forEach(function (b) {
-        b.onclick = function () { state.category = b.dataset.cat; renderCats(); renderCampaign(); render(); b.scrollIntoView({ behavior: reduceMotion, inline: 'nearest', block: 'nearest' }); };
+        b.onclick = function () { state.category = b.dataset.cat; renderCats(); renderCampaign(); render(); catBox.scrollTo({ left: Math.max(0, b.offsetLeft - catBox.clientWidth / 2 + b.offsetWidth / 2), behavior: reduceMotion }); requestAnimationFrame(function () { revealResults(true); }); };
       });
     }
     catBox.querySelectorAll('.cat').forEach(function (b) {
@@ -85,7 +85,7 @@
 
   /* Nos cards, só o aviso de cadastro em verificação; contatos e pedido ficam na página da loja. */
   function badgeOf(s) {
-    return s.confidence === 'baixa' ? '<span class="badge badge-pending">Em verificação</span>' : '';
+    return ''; /* estado interno de cadastro não aparece para o consumidor */
   }
 
   /* Linha operacional do card: status calculado pela grade da loja (fuso da loja, não do aparelho), previsão de entrega
@@ -110,19 +110,38 @@
     });
   }
 
+  /* Com busca: primeiro onde o termo está no nome, depois na categoria, no bairro e por último só nos pratos.
+     Em cada grupo, lojas abertas agora antes das fechadas, mantendo a ordem de destaque (sort estável). */
+  function openFirst(list, now, q) {
+    var weight = { open: 0, unknown: 1, paused: 2, closed: 2 };
+    return list.map(function (s, i) { return { s: s, i: i, r: C.searchScore(s, q), w: weight[S.status(s.schedule, now).state] }; })
+      .sort(function (a, b) { return a.r - b.r || a.w - b.w || a.i - b.i; }).map(function (x) { return x.s; });
+  }
+
+  /* Leva a lista de resultados para logo abaixo do cabeçalho fixo (busca e categoria). Rola só se o título
+     não estiver visível, sem animação durante a digitação (evita "pulos" com o teclado aberto). */
+  function revealResults(smooth) {
+    var head = $('header').getBoundingClientRect().height, top = $('restaurantes').getBoundingClientRect().top;
+    if (top >= head - 1 && top <= head + 24) return;
+    var y = Math.max(0, scrollY + top - head - 4);
+    if (smooth && !matchMedia('(prefers-reduced-motion: reduce)').matches) scrollTo({ top: y, behavior: 'smooth' });
+    else { var root = document.documentElement, prev = root.style.scrollBehavior; root.style.scrollBehavior = 'auto'; scrollTo(0, y); root.style.scrollBehavior = prev; }
+  }
+
   function render() {
-    var q = search.value, list = C.rankStores(C.filterStores(STORES, { city: state.city, category: state.category, query: q }));
+    var q = search.value.trim(), now = new Date();
+    var list = openFirst(C.rankStores(C.filterStores(STORES, { city: state.city, category: state.category, query: q })), now, q);
     var inCity = storesInCity().length;
-    title.textContent = q ? 'Resultado da busca' : state.category === 'Todos' ? 'Em ' + state.city : state.category + ' em ' + state.city;
+    document.body.classList.toggle('is-searching', !!q);
+    title.textContent = q ? 'Resultados para “' + q + '”' : state.category === 'Todos' ? 'Em ' + state.city : state.category + ' em ' + state.city;
     count.textContent = list.length + ' ' + (list.length === 1 ? 'lugar' : 'lugares');
-    var now = new Date();
     grid.innerHTML = list.map(function (s) {
       var meta = [s.category].concat(s.kind && C.normalize(s.kind) !== C.normalize(s.category) ? [s.kind] : []);
       return '<a class="restaurant reveal visible" href="#/loja/' + s.id + '" data-id="' + s.id + '"><div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div><div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
     }).join('');
     empty.style.display = list.length ? 'none' : 'block';
-    empty.querySelector('h3').textContent = inCity ? 'Nada por aqui ainda' : 'Chegando em ' + state.city;
-    empty.querySelector('p').textContent = inCity ? 'Tente buscar outro prato ou categoria.' : 'Estamos cadastrando os estabelecimentos desta cidade. Tem um negócio aqui? Fale com a gente.';
+    empty.querySelector('h3').textContent = q ? 'Nada encontrado para “' + q + '”' : inCity ? 'Nada por aqui ainda' : 'Chegando em ' + state.city;
+    empty.querySelector('p').textContent = q ? 'Confira a escrita ou tente outro prato, como pizza, açaí ou lanche.' : inCity ? 'Tente buscar outro prato ou categoria.' : 'Estamos cadastrando os estabelecimentos desta cidade. Tem um negócio aqui? Fale com a gente.';
   }
 
   /* ---------------- Página do estabelecimento (js/store.js) ---------------- */
@@ -168,8 +187,22 @@
   });
   addEventListener('hashchange', route);
   addEventListener('popstate', route);
-  search.oninput = function () { clear.style.display = search.value ? 'grid' : 'none'; render(); };
-  clear.onclick = function () { search.value = ''; clear.style.display = 'none'; search.focus(); render(); };
+  /* Busca: filtra a cada tecla (lista leve: um innerHTML por tecla) e mostra os resultados logo abaixo
+     do campo — banner e categorias saem de cena enquanto há texto. Enter fecha o teclado. */
+  var lastQuery = '';
+  function runSearch() {
+    var q = search.value.trim();
+    clear.style.display = search.value ? 'grid' : 'none';
+    if (q === lastQuery) return;
+    var started = !lastQuery && q, ended = lastQuery && !q;
+    lastQuery = q;
+    render();
+    if (started || (q && !ended)) revealResults(false);
+    if (ended) { var root = document.documentElement, prev = root.style.scrollBehavior; root.style.scrollBehavior = 'auto'; scrollTo(0, 0); root.style.scrollBehavior = prev; }
+  }
+  search.oninput = runSearch;
+  search.onkeydown = function (e) { if (e.key === 'Enter') { e.preventDefault(); search.blur(); } else if (e.key === 'Escape' && search.value) { search.value = ''; runSearch(); } };
+  clear.onclick = function () { search.value = ''; runSearch(); search.focus({ preventScroll: true }); };
   $('allCats').onclick = function () { state.category = 'Todos'; renderCats(); catBox.scrollTo({ left: 0, behavior: reduceMotion }); renderCampaign(); render(); };
   document.addEventListener('pedeai:city', function (e) { state.city = e.detail; renderCats(); renderCampaign(); render(); });
   $('partnerBtn').onclick = function () { window.open('https://wa.me/5512936290045?text=' + encodeURIComponent('Olá! Quero cadastrar meu restaurante no PedeAi Delivery.'), '_blank', 'noopener'); };

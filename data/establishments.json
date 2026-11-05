@@ -86,6 +86,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Av. Mato Grosso: 09:00 às 22:00; BR-158 (Posto Bege): 12:30 às 22:00\") completado com horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -5286,6 +5292,12 @@
         "soft": "#f8ecf5",
         "ink": "#ffffff",
         "surface": "#fffdff"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -5359,6 +5371,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -5413,6 +5431,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -5763,6 +5787,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -5826,6 +5856,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -7619,6 +7655,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -7689,6 +7731,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -7743,6 +7791,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -10090,6 +10144,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -10145,6 +10205,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -10215,6 +10281,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -10289,6 +10361,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -11094,6 +11172,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -11149,6 +11233,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -11204,6 +11294,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -11277,6 +11373,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -14712,6 +14814,12 @@
         "soft": "#fceef3",
         "ink": "#1b1214",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -14763,6 +14871,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -14817,6 +14931,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -14869,6 +14989,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -14920,6 +15046,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -14990,6 +15122,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -18197,6 +18335,12 @@
         "soft": "#f9e8e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -21453,6 +21597,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -21526,6 +21676,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -21580,6 +21736,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -21635,6 +21797,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -21696,6 +21864,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -21757,6 +21931,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -25065,6 +25245,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -25116,6 +25302,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -25171,6 +25363,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -25227,6 +25425,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -25282,6 +25486,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -26510,6 +26720,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -26564,6 +26780,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -26629,6 +26851,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -26694,6 +26922,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -26745,6 +26979,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -26809,6 +27049,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -26860,6 +27106,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -26946,6 +27198,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -27016,6 +27274,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -27070,6 +27334,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -27143,6 +27413,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -27189,6 +27465,12 @@
         "soft": "#fcf4e8",
         "ink": "#1b1214",
         "surface": "#e6a33c"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -27262,6 +27544,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -36870,6 +37158,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -36931,6 +37225,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -37001,6 +37301,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -37039,7 +37345,13 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-28",
       "notes": "Tripadvisor (nota 3,5, 4 avaliações). Fonte antiga; atividade atual não confirmada. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca. Instagram @rest.estreladosulquerencia conferido em 2026-10-28 (pesquisa via Claude no Chrome).",
-      "rank": 52
+      "rank": 52,
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
+      }
     },
     {
       "id": "churrascaria-retiros-rocha-querencia",
@@ -37101,6 +37413,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -38147,6 +38465,12 @@
         "soft": "#f7ebe9",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -38220,6 +38544,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -38293,6 +38623,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -38923,6 +39259,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Produção de quarta a sábado\") completado com horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -42468,6 +42810,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Ter a dom; rodízio qui e sex (20h às 21h30)\") completado com horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -42538,6 +42886,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -42611,6 +42965,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -43243,6 +43603,12 @@
         "soft": "#fcf7ec",
         "ink": "#1b1214",
         "surface": "#080401"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -43843,6 +44209,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -44482,6 +44854,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -44552,6 +44930,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -44622,6 +45006,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -44687,6 +45077,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -44757,6 +45153,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -46573,6 +46975,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -47990,6 +48398,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -48063,6 +48477,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -49958,6 +50378,12 @@
         "soft": "#fde9e8",
         "ink": "#ffffff",
         "surface": "#eb473c"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -50031,6 +50457,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -52604,6 +53036,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -52690,6 +53128,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -52751,6 +53195,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Sex, sáb e dom\") completado com horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -52825,6 +53275,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -52898,6 +53354,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -52971,6 +53433,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -53044,6 +53512,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"18h às 23h\") completado com horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -53277,6 +53751,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Seg a sáb\") completado com horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -53362,6 +53842,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -53408,6 +53894,12 @@
         "soft": "#ece6e4",
         "ink": "#ffffff",
         "surface": "#010101"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -58371,6 +58863,12 @@
         "soft": "#f6e8e8",
         "ink": "#ffffff",
         "surface": "#b03f3c"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -61385,6 +61883,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"18h30 à 0h\") completado com horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -61455,6 +61959,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Delivery seg a sex 9h às 11h; sábado o dia todo\") completado com horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -61509,6 +62019,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -61579,6 +62095,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -61643,6 +62165,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -61698,6 +62226,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -61752,6 +62286,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -61826,6 +62366,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -61891,6 +62437,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -61930,7 +62482,13 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-28",
       "notes": "CNPJ 41.409.447/0001-04 (aberto c. 2021). Telefone oculto nos diretórios. Instagram @sabordoaraguaia conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa endereço \"Av. Padre João Bosco\", diferente do cadastro. E-mail na bio: sabordoaraguaiarc@gmail.com.",
-      "rank": 12
+      "rank": 12,
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
+      }
     },
     {
       "id": "lanchonete-xingu-ribeirao-cascalheira",
@@ -61985,6 +62543,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -62049,6 +62613,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -62103,6 +62673,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -62157,6 +62733,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -62242,6 +62824,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -62307,6 +62895,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -62359,6 +62953,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -62410,6 +63010,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -62461,6 +63067,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -62527,6 +63139,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -62581,6 +63199,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -62645,6 +63269,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -62731,6 +63361,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"14h às 22h30\") completado com horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -62785,6 +63421,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -62859,6 +63501,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -63986,6 +64634,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -64059,6 +64713,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -67311,6 +67971,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -67366,6 +68032,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -71219,6 +71891,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -73453,6 +74131,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -73499,6 +74183,12 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#201d20"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -73569,6 +74259,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -73639,6 +74335,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -73709,6 +74411,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -73783,6 +74491,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -73857,6 +74571,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -73927,6 +74647,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -74450,6 +75176,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -75351,6 +76083,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sushi: 18:30–22:30"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -75397,6 +76135,12 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -75470,6 +76214,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -75525,6 +76275,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -75599,6 +76355,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -75645,6 +76407,12 @@
         "soft": "#ebe3e4",
         "ink": "#ffffff",
         "surface": "#5a121d"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -76343,6 +77111,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -76397,6 +77171,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -76463,6 +77243,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -76546,6 +77332,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -76610,6 +77402,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -76683,6 +77481,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -80811,6 +81615,12 @@
         "soft": "#f9e7e6",
         "ink": "#ffffff",
         "surface": "#d13531"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -86271,6 +87081,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sushi: 18:30–22:30"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -86345,6 +87161,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -86418,6 +87240,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -86473,6 +87301,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -88368,6 +89202,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -88452,6 +89292,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"9h às 22h (segundo o agregador)\") completado com horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -88522,6 +89368,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Segunda a sábado\") completado com horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -88583,6 +89435,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -88630,6 +89488,12 @@
         "soft": "#f5e5e4",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -92476,6 +93340,12 @@
         "soft": "#e7e4e3",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -92562,6 +93432,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -104158,6 +105034,12 @@
         "soft": "#fbf0e9",
         "ink": "#1b1214",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -104862,6 +105744,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -105634,6 +106522,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -105704,6 +106598,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -111268,6 +112168,12 @@
         "soft": "#fce9ed",
         "ink": "#ffffff",
         "surface": "#e84a66"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -113695,6 +114601,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Seg a sáb, almoço\") completado com horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -118927,6 +119839,12 @@
         "soft": "#fffeea",
         "ink": "#1b1214",
         "surface": "#fef84f"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -118997,6 +119915,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -119339,6 +120263,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -119932,6 +120862,12 @@
         "soft": "#f5eee8",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -120005,6 +120941,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -120877,6 +121819,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -120923,6 +121871,12 @@
         "soft": "#e6eae4",
         "ink": "#ffffff",
         "surface": "#2b4c1c"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -120979,6 +121933,12 @@
         "soft": "#e6e2e3",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -121254,6 +122214,12 @@
         "soft": "#fcf0e6",
         "ink": "#1b1214",
         "surface": "#e98230"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -122076,6 +123042,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -123931,6 +124903,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -126839,6 +127817,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -126913,6 +127897,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -126997,6 +127987,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Aberto 24 horas\") completado com horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -129750,6 +130746,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -129824,6 +130826,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -132019,6 +133027,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Seg a sáb; salão 18h30 às 23h, delivery 18h30 às 22h30\") completado com horário típico de sushi: 18:30–22:30"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -165989,6 +167003,12 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#cfccc0"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -166070,6 +167090,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -171502,6 +172528,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -171578,6 +172610,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -171633,6 +172671,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -171717,6 +172761,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Atendimento das 13:00 às 22:00\") completado com horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -171772,6 +172822,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -171826,6 +172882,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -171881,6 +172943,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -171961,6 +173029,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -172015,6 +173089,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -172070,6 +173150,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -172125,6 +173211,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -172180,6 +173272,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -172244,6 +173342,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -173195,6 +174299,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -173249,6 +174359,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -173303,6 +174419,12 @@
         },
         "estimated": true,
         "basis": "horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -173357,6 +174479,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região"
       }
     },
     {
@@ -173412,6 +174540,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -173484,6 +174618,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -175063,6 +176203,12 @@
         "soft": "#ece1e1",
         "ink": "#ffffff",
         "surface": "#0d0606"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -175118,6 +176264,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -178227,6 +179379,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -183343,6 +184501,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sushi: 18:30–22:30"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -183799,6 +184963,12 @@
         "soft": "#fdfaf0",
         "ink": "#1b1214",
         "surface": "#24130d"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -185970,6 +187140,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -188427,6 +189603,12 @@
         "soft": "#e3e7f0",
         "ink": "#ffffff",
         "surface": "#193586"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -188501,6 +189683,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -188574,6 +189762,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -189842,6 +191036,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Segunda a segunda\") completado com horário típico de padaria: 06:00–20:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região"
       }
     },
     {
@@ -189916,6 +191116,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -189962,6 +191168,12 @@
         "soft": "#eee4ed",
         "ink": "#ffffff",
         "surface": "#9b4c99"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -190036,6 +191248,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"19h às 22h30\") completado com horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -195062,6 +196280,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Aberto todos os dias\") completado com horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região"
       }
     },
     {
@@ -195136,6 +196360,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -195931,6 +197161,12 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#0e0c0b"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -196001,6 +197237,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região"
       }
     },
     {
@@ -196074,6 +197316,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Delivery das 14h às 23h\") completado com horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -196147,6 +197395,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -196220,6 +197474,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sushi: 18:30–22:30"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -196304,6 +197564,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -196350,6 +197616,12 @@
         "soft": "#fdf8ec",
         "ink": "#1b1214",
         "surface": "#0d0807"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -196434,6 +197706,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -196518,6 +197796,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -197468,6 +198752,12 @@
           ]
         },
         "basis": "cardápio da loja (PDF): delivery seg a qui 19h às 22h; sex e sáb 19h às 22h só retirada presencial; cozinha seg a sáb 18h30 às 23h"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -201484,6 +202774,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região"
       }
     },
     {
@@ -202595,6 +203891,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região"
       }
     },
     {
@@ -203556,6 +204858,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Delivery: 13h às 21h30. Balcão: 13h às 22h\") completado com horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -211078,6 +212386,12 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região"
       }
     },
     {
@@ -223351,6 +224665,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Todos os dias\") completado com horário típico de noite: 18:00–23:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 40,
+        "maxMinutes": 60,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região"
       }
     },
     {
@@ -223424,6 +224744,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -230900,6 +232226,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
       }
     },
     {
@@ -233163,6 +234495,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Seg a qui 18h30 às 01h; sex e sáb até 04h; dom até 00h\") completado com horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -237504,7 +238842,13 @@
         "ink": "#ffffff",
         "surface": "#6b275b"
       },
-      "rank": 29
+      "rank": 29,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "acai-ls-barra-do-garcas",
@@ -237611,7 +238955,13 @@
         "ink": "#ffffff",
         "surface": "#28170d"
       },
-      "rank": 30
+      "rank": 30,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "acai-royal-delivery-barra-do-garcas",
@@ -239178,6 +240528,12 @@
         },
         "estimated": true,
         "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -239597,7 +240953,13 @@
         "ink": "#1b1214",
         "surface": "#000000"
       },
-      "rank": 31
+      "rank": 31,
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "agua-verde-espetaria-e-terere-delivery-barra-do-garcas",
@@ -240868,6 +242230,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -240914,6 +242282,12 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#fcfaf6"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -242905,6 +244279,12 @@
         "soft": "#fbf2ea",
         "ink": "#1b1214",
         "surface": "#ffffff"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -243778,7 +245158,13 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "rank": 32
+      "rank": 32,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "bruttus-acai-barra-do-garcas",
@@ -244554,7 +245940,13 @@
         "ink": "#ffffff",
         "surface": "#250534"
       },
-      "rank": 33
+      "rank": 33,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "buffalos-pizzaria-barra-do-garcas",
@@ -245742,6 +247134,12 @@
         "soft": "#ede4e4",
         "ink": "#ffffff",
         "surface": "#682221"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -245788,7 +247186,13 @@
         "ink": "#1b1214",
         "surface": "#d8aba8"
       },
-      "rank": 34
+      "rank": 34,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "casa-do-acai-bg-barra-do-garcas",
@@ -247010,7 +248414,13 @@
         "ink": "#ffffff",
         "surface": "#ffffff"
       },
-      "rank": 35
+      "rank": 35,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "casarao-beer-churrascaria-barra-do-garcas",
@@ -251725,6 +253135,12 @@
         "soft": "#e7e4e3",
         "ink": "#ffffff",
         "surface": "#2a1710"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -253827,7 +255243,13 @@
         "ink": "#ffffff",
         "surface": "#ffffff"
       },
-      "rank": 36
+      "rank": 36,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "cheff-do-espeto-barra-do-garcas",
@@ -255240,6 +256662,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -255321,6 +256749,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Abre às 9h30 (iFood)\") completado com horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -256287,7 +257721,13 @@
         "ink": "#ffffff",
         "surface": "#fefefe"
       },
-      "rank": 38
+      "rank": 38,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "dad-burger-barra-do-garcas",
@@ -260156,6 +261596,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -263874,6 +265320,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -263920,7 +265372,13 @@
         "ink": "#1b1214",
         "surface": "#000000"
       },
-      "rank": 39
+      "rank": 39,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "di-matteo-acai-barra-do-garcas",
@@ -271526,7 +272984,13 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "rank": 40
+      "rank": 40,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "doces-da-ana-barra-do-garcas",
@@ -272008,6 +273472,12 @@
         },
         "estimated": true,
         "basis": "horário típico de confeitaria: 08:00–18:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -273890,7 +275360,13 @@
         "ink": "#ffffff",
         "surface": "#ffffff"
       },
-      "rank": 41
+      "rank": 41,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "emporio-pizzaria-barra-barra-do-garcas",
@@ -273974,6 +275450,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -275011,7 +276493,13 @@
         "ink": "#ffffff",
         "surface": "#7b2178"
       },
-      "rank": 42
+      "rank": 42,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "fnp-burger-barra-do-garcas",
@@ -277992,7 +279480,13 @@
         "ink": "#1b1214",
         "surface": "#222731"
       },
-      "rank": 43
+      "rank": 43,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "frango-no-pote-fnp-barra-do-garcas",
@@ -282831,7 +284325,13 @@
         "ink": "#ffffff",
         "surface": "#cf0000"
       },
-      "rank": 44
+      "rank": 44,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "fritudo-hamburgueria-pizzaria-barra-do-garcas",
@@ -283207,7 +284707,13 @@
         "ink": "#1b1214",
         "surface": "#eba41b"
       },
-      "rank": 45
+      "rank": 45,
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "frutos-de-goias-sorveteria-barra-do-garcas",
@@ -285633,6 +287139,12 @@
         "soft": "#e6ede7",
         "ink": "#ffffff",
         "surface": "#3c6127"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -295386,7 +296898,13 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "rank": 46
+      "rank": 46,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "gulacai-barra-do-garcas",
@@ -295853,7 +297371,13 @@
         "ink": "#1b1214",
         "surface": "#22072e"
       },
-      "rank": 47
+      "rank": 47,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "jose-lanches-barra-do-garcas",
@@ -295926,6 +297450,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"19h às 00h\") completado com horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -297153,7 +298683,13 @@
         "ink": "#ffffff",
         "surface": "#000000"
       },
-      "rank": 48
+      "rank": 48,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "le-monde-burguer-hamburgueria-barra-do-garcas",
@@ -306320,6 +307856,12 @@
         "soft": "#fbe7e6",
         "ink": "#ffffff",
         "surface": "#030001"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -306366,6 +307908,12 @@
         "soft": "#fdf6ea",
         "ink": "#1b1214",
         "surface": "#fefefe"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -307892,7 +309440,13 @@
         "ink": "#ffffff",
         "surface": "#a02523"
       },
-      "rank": 49
+      "rank": 49,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "madrugordao-lanches-barra-do-garcas",
@@ -310681,6 +312235,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Todos os dias\") completado com horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -310880,7 +312440,13 @@
         "ink": "#1b1214",
         "surface": "#fff3f5"
       },
-      "rank": 50
+      "rank": 50,
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "maria-filo-barra-do-garcas",
@@ -312181,6 +313747,12 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#c5a5b0"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de pastel e salgados nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -312252,6 +313824,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Segunda a sábado, almoço (aprox. 9h30 às 13h)\") completado com horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -313442,7 +315020,13 @@
         "ink": "#1b1214",
         "surface": "#f3cf17"
       },
-      "rank": 51
+      "rank": 51,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "md-chef-s-pizzaria-barra-do-garcas",
@@ -313812,7 +315396,13 @@
         "ink": "#1b1214",
         "surface": "#292b31"
       },
-      "rank": 52
+      "rank": 52,
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "meiga-doces-confeitaria-barra-do-garcas",
@@ -314066,7 +315656,13 @@
         "ink": "#ffffff",
         "surface": "#fceeec"
       },
-      "rank": 53
+      "rank": 53,
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de doces e confeitaria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "mg-hot-dog-acaiteria-e-lanchonete-barra-do-garcas",
@@ -315376,7 +316972,13 @@
         "ink": "#ffffff",
         "surface": "#460e0a"
       },
-      "rank": 54
+      "rank": 54,
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "mistro-massas-marmitas-pizzaria-barra-do-garcas",
@@ -316286,6 +317888,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"10h às 22h\") completado com horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -316351,6 +317959,12 @@
         "soft": "#fcfaee",
         "ink": "#1b1214",
         "surface": "#fefefe"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de padaria e café nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -320452,6 +322066,12 @@
         "soft": "#f1e4e3",
         "ink": "#ffffff",
         "surface": "#8e1b12"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -320525,6 +322145,12 @@
         },
         "estimated": true,
         "basis": "horário típico de noite: 18:00–24:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -321220,6 +322846,12 @@
         "soft": "#fdf4e7",
         "ink": "#1b1214",
         "surface": "#efa338"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -321293,6 +322925,12 @@
         },
         "estimated": true,
         "basis": "texto do horário (\"Delivery 13h30 às 22h; no local até 22h30\") completado com horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 25,
+        "maxMinutes": 40,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -322135,7 +323773,13 @@
         "ink": "#1b1214",
         "surface": "#260109"
       },
-      "rank": 55
+      "rank": 55,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "restaurante-buteco-do-bicudo-barra-do-garcas",
@@ -323736,6 +325380,12 @@
         "soft": "#f8f0e9",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -325673,7 +327323,13 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "rank": 56
+      "rank": 56,
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de pizza nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "sushi-loko-barra-do-garcas-barra-do-garcas",
@@ -325731,6 +327387,12 @@
         "soft": "#f9e6e5",
         "ink": "#ffffff",
         "surface": "#161616"
+      },
+      "deliveryTime": {
+        "minMinutes": 45,
+        "maxMinutes": 65,
+        "estimated": true,
+        "basis": "média de sushi nas plataformas da região (+5 min em Barra do Garças)"
       }
     },
     {
@@ -328754,7 +330416,13 @@
         "ink": "#ffffff",
         "surface": "#600108"
       },
-      "rank": 57
+      "rank": 57,
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "texanas-hamburgueria-artesanal-barra-do-garcas",
@@ -328800,7 +330468,13 @@
         "ink": "#ffffff",
         "surface": "#0c0503"
       },
-      "rank": 58
+      "rank": 58,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "texas-grill-burger-churrasco-barra-do-garcas",
@@ -333417,7 +335091,13 @@
         "ink": "#ffffff",
         "surface": "#ffffff"
       },
-      "rank": 59
+      "rank": 59,
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de hambúrguer e lanches nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "vm-restaurante-e-cia-barra-do-garcas",
@@ -333937,7 +335617,13 @@
         "ink": "#ffffff",
         "surface": "#000000"
       },
-      "rank": 60
+      "rank": 60,
+      "deliveryTime": {
+        "minMinutes": 30,
+        "maxMinutes": 45,
+        "estimated": true,
+        "basis": "média de marmita e restaurante nas plataformas da região (+5 min em Barra do Garças)"
+      }
     },
     {
       "id": "zhu-marmitas-shopping-barra-do-garcas-barra-do-garcas",
@@ -334008,6 +335694,12 @@
         },
         "estimated": true,
         "basis": "horário típico de almoco: 10:30–14:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 35,
+        "maxMinutes": 50,
+        "estimated": true,
+        "basis": "média de espetinho e churrasco nas plataformas da região (+5 min em Barra do Garças)"
       }
     }
   ]

@@ -39,7 +39,7 @@ function validateEstablishments(list) {
     }
     if (s.deliveryTime != null) {
       if (!Schedule.deliveryEstimate(s)) err('deliveryTime inválido (minMinutes/maxMinutes ou prepMinutes + deliveryMinutes, até 240 min)');
-      if (!s.deliveryTime.source || !URL_RE.test(s.deliveryTime.source)) err('deliveryTime sem fonte');
+      if (s.deliveryTime.estimated ? !s.deliveryTime.basis : (!s.deliveryTime.source || !URL_RE.test(s.deliveryTime.source))) err('deliveryTime sem fonte (ou sem base, se estimado)');
     }
     if (s.minOrderCents != null && (!Number.isInteger(s.minOrderCents) || s.minOrderCents <= 0)) err('pedido mínimo inválido');
     if (s.deliveryFeeCents != null && (!Number.isInteger(s.deliveryFeeCents) || s.deliveryFeeCents < 0)) err('taxa de entrega inválida');

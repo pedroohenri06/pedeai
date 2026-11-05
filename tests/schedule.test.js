@@ -142,3 +142,12 @@ test('grade estimada: completa o texto incompleto e cede ao horário publicado',
   assert.equal(S.fromStore(est).estimated, undefined);
   assert.deepEqual(S.fromStore(est).week.dom, ['10:00-14:00']);
 });
+
+test('previsão estimada por segmento: válida e marcada', () => {
+  const { validateEstablishments } = require('../scripts/validate.js');
+  const db = require('../data/establishments.json').establishments;
+  assert.equal(db.filter(s => S.deliveryEstimate(s)).length, db.length);              // todas as lojas com previsão
+  const est = db.filter(s => s.deliveryTime.estimated);
+  assert.ok(est.every(s => s.deliveryTime.basis && s.deliveryTime.maxMinutes <= 65));  // interior: nada exagerado
+  assert.deepEqual(validateEstablishments(db), []);
+});

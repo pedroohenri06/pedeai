@@ -107,7 +107,7 @@
   /* Entrega: previsão total e pedido mínimo, só quando a loja publicou esses dados. */
   function deliveryHtml(s) {
     var eta = S.deliveryEstimate(s), parts = [];
-    if (eta) parts.push('Previsão de ' + eta.label);
+    if (eta) parts.push('Previsão de ' + eta.label + (s.deliveryTime.estimated ? ' (a confirmar)' : ''));
     if (s.minOrderCents) parts.push('Pedido mínimo ' + C.formatBRL(s.minOrderCents));
     return parts.length ? '<li>' + icon(I.bag) + '<div><strong>Entrega</strong><span>' + esc(parts.join(' · ')) + '</span></div></li>' : '';
   }

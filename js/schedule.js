@@ -91,6 +91,55 @@
     return Object.keys(week).length ? week : null;
   }
 
+  /* Leitura tolerante para horário incompleto: aproveita o que o texto diz (dias, faixas, "a partir das 18h",
+     "até 23h30", "fechado às segundas", "almoço") e completa o que falta com `fb` = { days: [...], start: 'HH:MM',
+     end: 'HH:MM' } (o horário típico da categoria). Usado só para montar a grade estimada ("a confirmar"). */
+  var FROM = /(?:a partir d[ao]s?|abre(?: as)?|desde|das)\s*(\d{1,2})(?:[:h](\d{2}))?\s*h?/;
+  var UNTIL = /ate(?: as)?\s*(\d{1,2})(?:[:h](\d{2}))?\s*h?/;
+  function looseDays(seg) {
+    var words = seg.replace(/[,()]/g, ' ').split(/\s+/).filter(Boolean), out = [];
+    if (/todos os dias|diariamente|seg(unda)? a seg(unda)?/.test(seg)) return DAYS.slice();
+    for (var i = 0; i < words.length; i++) {
+      var d = dayOf(words[i]);
+      if (!d) continue;
+      if (words[i + 1] === 'a' && dayOf(words[i + 2] || '')) { span(d, dayOf(words[i + 2])).forEach(function (x) { out.push(x); }); i += 2; }
+      else out.push(d);
+    }
+    return out;
+  }
+  function parseLoose(text, fb) {
+    var t = fold(text || '').replace(/\([^)]*\)/g, ' ').replace(/24 horas/g, '0h-24h'), week = {}, closed = [], prevStart = null;
+    var segs = t.split(/\s*(?:·|;|\.\s|\|)\s*/).filter(function (x) { return x.trim() && !COMMENT.test(x); });
+    if (!segs.length) segs = [''];
+    segs.forEach(function (seg) {
+      seg = seg.replace(/fechad[oa]s? (?:aos|ao|as|nas|nos|na|no|de|em|a)? ?([a-z\- ,]+)/, function (m, days) {
+        days.split(/[\s,]+/).forEach(function (w) { var d = dayOf(w); if (d) closed.push(d); }); return ' ';
+      });
+      var ranges = [];
+      seg = seg.replace(RANGE, function (m, h1, m1, h2, m2) {
+        var a = hm(h1, m1), b = hm(h2, m2); if (b <= a) b += 1440;
+        if (b - a >= 15 && b - a <= 1440) ranges.push(clock(a) + '-' + (b === 1440 ? '24:00' : clock(b)));
+        return ' ';
+      });
+      if (!ranges.length) {
+        var f = FROM.exec(seg), u = UNTIL.exec(seg);
+        var start = f ? clock(hm(f[1], f[2])) : /almoco/.test(seg) ? '10:30' : /jantar/.test(seg) ? '18:00' : prevStart || fb.start;
+        var end = u ? clock(hm(u[1], u[2])) : /almoco/.test(seg) && !f ? '14:00' : fb.end;
+        if (end === '00:00') end = '24:00';
+        if (toMinutes(start + '-' + end)) ranges.push(start + '-' + end);
+      }
+      if (!ranges.length) return;
+      prevStart = ranges[0].slice(0, 5);
+      var days = looseDays(seg);
+      (days.length ? days : (Object.keys(week).length ? [] : fb.days)).forEach(function (d) {
+        week[d] = (week[d] || []).concat(ranges.filter(function (r) { return (week[d] || []).indexOf(r) < 0; }));
+      });
+    });
+    closed.forEach(function (d) { delete week[d]; });
+    if (!Object.keys(week).length) fb.days.forEach(function (d) { if (closed.indexOf(d) < 0) week[d] = [fb.start + '-' + fb.end]; });
+    return week;
+  }
+
   /* ---------------- Hora local da loja ---------------- */
 
   function localParts(now, tz) {
@@ -177,10 +226,13 @@
      pausa e fechamento temporário cadastrados em `schedule`. Horário estimado (`hoursEstimated`) não vira grade. */
   function fromStore(store) {
     if (!store) return null;
-    var explicit = store.schedule || {}, week = explicit.week || (store.hours && !store.hoursEstimated ? parseHours(store.hours) : null);
+    var explicit = store.schedule || {}, parsed = store.hours && !store.hoursEstimated ? parseHours(store.hours) : null;
+    // Grade estimada só vale enquanto não há horário publicado completo; grade confirmada (sem `estimated`) sempre vale.
+    var week = explicit.week && !(explicit.estimated && parsed) ? explicit.week : parsed;
     if (!week) return null;
     var out = { tz: explicit.tz || DEFAULT_TZ, week: week };
     ['exceptions', 'closedUntil', 'pausedUntil'].forEach(function (k) { if (explicit[k]) out[k] = explicit[k]; });
+    if (week === explicit.week && explicit.estimated) out.estimated = true;   // grade estimada: a página mostra "a confirmar"
     return isValid(out) ? out : null;
   }
 
@@ -215,7 +267,7 @@
 
   return {
     DAYS: DAYS, DEFAULT_TZ: DEFAULT_TZ,
-    parseHours: parseHours, isValid: isValid, fromStore: fromStore, status: status, weekRows: weekRows, hourLabel: hourLabel,
+    parseHours: parseHours, parseLoose: parseLoose, isValid: isValid, fromStore: fromStore, status: status, weekRows: weekRows, hourLabel: hourLabel,
     deliveryEstimate: deliveryEstimate, localParts: localParts, today: today
   };
 });

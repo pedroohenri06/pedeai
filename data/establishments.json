@@ -59,6 +59,33 @@
         "soft": "#eae3e9",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Av. Mato Grosso: 09:00 às 22:00; BR-158 (Posto Bege): 12:30 às 22:00\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -4979,6 +5006,33 @@
         "minMinutes": 25,
         "maxMinutes": 35,
         "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NDMyMjk="
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -5278,6 +5332,33 @@
         "soft": "#ede9e4",
         "ink": "#ffffff",
         "surface": "#fafae1"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -5305,7 +5386,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretório (Apontador). Sem telefone ou endereço completo obtidos.",
-      "rank": 30
+      "rank": 30,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "churra-s-grego-vila-rica",
@@ -5628,7 +5736,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretório; telefone fixo de diretório. Endereço completo não obtido.",
-      "rank": 31
+      "rank": 31,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "churrascaria-silva-vila-rica",
@@ -5667,7 +5802,31 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "CNPJ 18.138.298/0001-66, ativa, aberta em 2013. Telefone de diretório no formato antigo de 8 dígitos ((66) 8431-2933) — provavelmente hoje (66) 9 8431-2933, não confirmado.",
-      "rank": 23
+      "rank": 23,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "creme-mania-vila-rica-vila-rica",
@@ -7433,7 +7592,34 @@
         "ink": "#ffffff",
         "surface": "#ffffff"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "doce-estouro-pipocas-gourmet-vila-rica",
@@ -7479,6 +7665,30 @@
         "soft": "#f3e7e8",
         "ink": "#ffffff",
         "surface": "#9d3a40"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -7506,7 +7716,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretório (título da página 'Ezequiel Restaurante e Pizzaria em Vila Rica-MT'); sem detalhes obtidos (fetch bloqueado).",
-      "rank": 32
+      "rank": 32,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "flavio-brasa-burger-vila-rica",
@@ -9829,6 +10066,30 @@
         "soft": "#fdfbf7",
         "ink": "#1b1214",
         "surface": "#efdbbd"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -9857,7 +10118,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Citada em listagem de lanchonetes do Solutudo; endereço/telefone não obtidos (fetch bloqueado). Foto do Street View indisponível fora do Google Maps; pendente. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 33,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "mily-doces-vila-rica",
@@ -9903,6 +10191,30 @@
         "soft": "#ece5e9",
         "ink": "#ffffff",
         "surface": "#936aae"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -9950,7 +10262,34 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "morango-moreno-sorvetes-vila-rica",
@@ -10728,7 +11067,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "TripAdvisor (avaliação antiga, ~11 anos) e diretórios (como Panificadora Alvorada). TripAdvisor mostra 'Avenida Perimetral, 76 St Norte'; diretórios mostram nº 768.",
-      "rank": 27
+      "rank": 27,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "panificadora-e-lanchonete-sabor-de-minas-vila-rica",
@@ -10756,7 +11122,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretórios.",
-      "rank": 34
+      "rank": 34,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "panificadora-fruto-do-trigo-vila-rica",
@@ -10784,7 +11177,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretórios.",
-      "rank": 35
+      "rank": 35,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "pastelar-vila-rica",
@@ -10830,6 +11250,33 @@
         "soft": "#fdf9f1",
         "ink": "#1b1214",
         "surface": "#f0d08b"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -14292,7 +14739,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretório (guiatelefone), 1 avaliação. Sem telefone verificado.",
-      "rank": 36
+      "rank": 36,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "restaurante-e-espetinho-chico-anizio-vila-rica",
@@ -14319,7 +14790,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretório; sem telefone, horário ou redes próprias.",
-      "rank": 37
+      "rank": 37,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "restaurante-file-do-brasil-vila-rica",
@@ -14347,7 +14845,31 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Razão social Restaurante File do Brasil Ltda (também listado como Churrascaria File Brasil). Telefone vem de diretório (não conta como WhatsApp). Perfis 'Restaurante Filé Brasil' no Instagram são de Goiânia (DDD 62), não deste.",
-      "rank": 28
+      "rank": 28,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "restaurante-passe-bem-vila-rica",
@@ -14374,7 +14896,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Citado como listagem relacionada no guiatelefone (endereço só 'Centro'). Existência atual não confirmada.",
-      "rank": 38
+      "rank": 38,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "rs-confeitaria-vila-rica",
@@ -14420,6 +14966,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#eae5db"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -20800,6 +21370,33 @@
         "minMinutes": 20,
         "maxMinutes": 30,
         "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTQ0MDA="
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "15:00-22:30"
+          ],
+          "seg": [
+            "15:00-22:30"
+          ],
+          "ter": [
+            "15:00-22:30"
+          ],
+          "qua": [
+            "15:00-22:30"
+          ],
+          "qui": [
+            "15:00-22:30"
+          ],
+          "sex": [
+            "15:00-22:30"
+          ],
+          "sab": [
+            "15:00-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"15h às 22h30\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -20829,7 +21426,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "CNPJ 45.685.523/0001-57, ativa desde 17/03/2022, CNAE restaurantes. Existe perfil @restaurantevillachopp no Instagram (comida caseira, hambúrguer, pizza e picanha após 16h), mas não foi confirmado que seja o de Vila Rica-MT. Sem telefone verificado.",
-      "rank": 29
+      "rank": 29,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "villa-grill-churrascaria-e-restaurante-vila-rica",
@@ -20875,6 +21499,33 @@
         "soft": "#ede7e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -20902,7 +21553,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só há o registro de CNPJ (00.879.635/0001-00) no Econodata. Telefone não encontrado e situação atual não confirmada.",
-      "rank": 11
+      "rank": 11,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "baroni-burger-sao-felix-do-araguaia",
@@ -20930,7 +21608,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece na Solutudo (nota 5,0). Uma busca pelo nome não achou canal próprio. Foto do Street View indisponível fora do Google Maps; pendente. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 12,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "beef-point-sao-felix-do-araguaia",
@@ -20967,7 +21672,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece em diretório. Fica no distrito de Espigão do Leste, que pertence ao município, longe da sede. O tipo de cozinha não está confirmado.",
-      "rank": 7
+      "rank": 7,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "churrascaria-araguaia-sao-felix-do-araguaia",
@@ -21004,7 +21733,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "O diretório traz o telefone antigo de 8 dígitos (66) 8434-3499, anterior ao nono dígito (hoje seria provavelmente 9 8434-3499, não confirmado). Por isso phone=null. Funcionamento atual não confirmado.",
-      "rank": 8
+      "rank": 8,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "creme-mania-sorvetes-e-acai-sao-felix-do-araguaia",
@@ -24285,7 +25038,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece em diretório, com o telefone antigo de 8 dígitos (66) 9602-5569, por isso phone=null.",
-      "rank": 13
+      "rank": 13,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "di-casa-da-brasa-marmitaria-sao-felix-do-araguaia",
@@ -24312,7 +25092,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "O diretório traz o telefone antigo de 8 dígitos (66) 8445-9320, por isso phone=null. Endereço não obtido.",
-      "rank": 14
+      "rank": 14,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "dubai-pizzaria-sao-felix-do-araguaia",
@@ -24340,7 +25144,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece em diretórios. O mesmo telefone aparece em outra lista como 'Fc Comércio e Serviços'. Fica no distrito de Espigão do Leste.",
-      "rank": 15
+      "rank": 15,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "dubay-lanches-sao-felix-do-araguaia",
@@ -24369,7 +25200,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "O diretório traz o telefone antigo de 8 dígitos (66) 9650-2862. Pode ter ligação com a Dubai Pizzaria, de Espigão do Leste (não confirmado). Endereço não obtido. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 16,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "espeto-cia-sao-felix-do-araguaia",
@@ -24397,7 +25255,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "O endereço vem da Solutudo e o celular do Guia Fácil, onde aparece como 'Espeto E Cia'. Não confirmado como WhatsApp.",
-      "rank": 10
+      "rank": 10,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "lobao-lanches-sao-felix-do-araguaia",
@@ -25598,7 +26483,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece no Guia Fácil. O celular não foi confirmado como WhatsApp.",
-      "rank": 17
+      "rank": 17,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pizza-e-espeto-lider-sao-felix-do-araguaia",
@@ -25625,7 +26537,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece na lista da Solutudo. Sem telefone.",
-      "rank": 18
+      "rank": 18,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pizzaria-casa-da-sogra-sao-felix-do-araguaia",
@@ -25663,7 +26602,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Tem CNPJ 21.213.832/0001-66 (Econodata). O diretório traz o telefone antigo de 8 dígitos (66) 8433-2134, por isso phone=null. Endereço completo não obtido.",
-      "rank": 5
+      "rank": 5,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pizzaria-do-pakotinho-sao-felix-do-araguaia",
@@ -25701,7 +26667,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Aparece em dois diretórios com o mesmo celular, que não foi confirmado como WhatsApp em canal próprio.",
-      "rank": 6
+      "rank": 6,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "restaurante-agua-na-boca-sao-felix-do-araguaia",
@@ -25728,7 +26721,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece no Tripadvisor. Sem telefone, e funcionamento atual não confirmado.",
-      "rank": 19
+      "rank": 19,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "restaurante-do-jean-sao-felix-do-araguaia",
@@ -25768,7 +26785,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Os dados vêm só de diretórios. O Econodata mostra o CNPJ 10.603.316/0001-21 como 'Inapta', então pode estar fechado.",
-      "rank": 9
+      "rank": 9,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "restaurante-encontro-das-aguas-sao-felix-do-araguaia",
@@ -25795,7 +26836,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Listado no Tripadvisor com uma única avaliação. Sem telefone, e funcionamento atual não confirmado.",
-      "rank": 20
+      "rank": 20,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "restaurante-solar-das-aguas-sao-felix-do-araguaia",
@@ -25857,6 +26922,30 @@
         "soft": "#fcf4e4",
         "ink": "#1b1214",
         "surface": "#755141"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -25903,6 +26992,30 @@
         "soft": "#fdf8f9",
         "ink": "#1b1214",
         "surface": "#f1c5cb"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -25930,7 +27043,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Nome no diretório: 'Vitória Lanchonete, pizzaria e publicidades'. Só aparece em diretório.",
-      "rank": 21
+      "rank": 21,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "60-sabores-artesanal-querencia-querencia",
@@ -25976,6 +27116,33 @@
         "soft": "#fbeef4",
         "ink": "#ffffff",
         "surface": "#dc70a0"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -26068,6 +27235,33 @@
         "soft": "#fee1ed",
         "ink": "#ffffff",
         "surface": "#f60569"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -35598,6 +36792,33 @@
         "minMinutes": 20,
         "maxMinutes": 40,
         "source": "https://aiqfome.com/MT/querencia/chiquinho-sorvetes"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "12:30-23:30"
+          ],
+          "seg": [
+            "12:30-23:30"
+          ],
+          "ter": [
+            "12:30-23:30"
+          ],
+          "qua": [
+            "12:30-23:30"
+          ],
+          "qui": [
+            "12:30-23:30"
+          ],
+          "sex": [
+            "12:30-23:30"
+          ],
+          "sab": [
+            "12:30-23:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"12h30 às 23h30\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -35625,7 +36846,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Citada em diretório local (resultado de busca; página não pôde ser aberta para confirmar). WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca.",
-      "rank": 53
+      "rank": 53,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "churrascaria-e-restaurante-quintal-festas-querencia",
@@ -35662,7 +36907,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Citada em diretório local (resultado de busca; página não pôde ser aberta para confirmar). WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca.",
-      "rank": 49
+      "rank": 49,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "churrascaria-rancho-do-vale-querencia",
@@ -35708,6 +36977,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -35784,7 +37077,31 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Tripadvisor (nota 4,2, 11 avaliações). Diretório também cita 'Restaurante e Churrascaria Rocha' na Av. Sul, S/N, Qd 23 Lt 07 — possivelmente o mesmo estabelecimento (consolidado). Atividade atual não confirmada. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca.",
-      "rank": 42
+      "rank": 42,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "coral-sushi-delivery-querencia",
@@ -36876,6 +38193,33 @@
         "soft": "#f9f4ed",
         "ink": "#1b1214",
         "surface": "#d1a569"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -36922,6 +38266,33 @@
         "soft": "#fdfcfa",
         "ink": "#1b1214",
         "surface": "#436344"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -37534,6 +38905,24 @@
         "soft": "#e9e4e2",
         "ink": "#ffffff",
         "surface": "#fefefe"
+      },
+      "schedule": {
+        "week": {
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Produção de quarta a sábado\") completado com horário típico de padaria: 06:00–20:00"
       }
     },
     {
@@ -41055,6 +42444,30 @@
         "soft": "#f1e4e2",
         "ink": "#ffffff",
         "surface": "#881b10"
+      },
+      "schedule": {
+        "week": {
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ],
+          "dom": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Ter a dom; rodízio qui e sex (20h às 21h30)\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -41101,6 +42514,30 @@
         "soft": "#faf1f4",
         "ink": "#1b1214",
         "surface": "#f9e6ea"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -41147,6 +42584,33 @@
         "soft": "#f9eae9",
         "ink": "#ffffff",
         "surface": "#fefefe"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -42352,7 +43816,34 @@
         "ink": "#ffffff",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "hot-dog-family-querencia",
@@ -42967,6 +44458,30 @@
         "soft": "#fafbf4",
         "ink": "#1b1214",
         "surface": "#7d414a"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -43013,6 +44528,30 @@
         "soft": "#e7e4e3",
         "ink": "#ffffff",
         "surface": "#2d1a0e"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -43059,6 +44598,30 @@
         "soft": "#ece8e6",
         "ink": "#ffffff",
         "surface": "#503020"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -43097,7 +44660,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Apenas diretório (guiatelefone). Sem endereço/telefone extraídos. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 50,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "leidy-cakes-querencia",
@@ -43143,6 +44733,30 @@
         "soft": "#fbfbf7",
         "ink": "#1b1214",
         "surface": "#fef7d9"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -44935,7 +46549,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Apenas agregador (Mindtrip). Número do endereço não informado. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca.",
-      "rank": 51
+      "rank": 51,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "mc-lena-querencia",
@@ -46328,6 +47966,30 @@
         "soft": "#fdf9fc",
         "ink": "#1b1214",
         "surface": "#f7e0f3"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -46374,6 +48036,33 @@
         "soft": "#fdfaf7",
         "ink": "#1b1214",
         "surface": "#fcfbf4"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -48315,6 +50004,33 @@
         "soft": "#fffef2",
         "ink": "#1b1214",
         "surface": "#fbf492"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
       }
     },
     {
@@ -50861,7 +52577,34 @@
         "ink": "#ffffff",
         "surface": "#c5bbb1"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pizzaria-imperial-delivery-querencia",
@@ -50920,6 +52663,33 @@
         "soft": "#fdf6e1",
         "ink": "#1b1214",
         "surface": "#021a11"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -50966,6 +52736,21 @@
         "soft": "#fce7ee",
         "ink": "#ffffff",
         "surface": "#e23972"
+      },
+      "schedule": {
+        "week": {
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ],
+          "dom": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Sex, sáb e dom\") completado com horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -51013,6 +52798,33 @@
         "soft": "#e8e3e6",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -51059,6 +52871,33 @@
         "soft": "#fbf7f1",
         "ink": "#1b1214",
         "surface": "#6c3d2f"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -51105,6 +52944,33 @@
         "soft": "#fefcf0",
         "ink": "#1b1214",
         "surface": "#fbf9ea"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -51151,6 +53017,33 @@
         "soft": "#e7e4e2",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"18h às 23h\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -51360,6 +53253,30 @@
         "soft": "#fcf6eb",
         "ink": "#1b1214",
         "surface": "#1d1d1d"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Seg a sáb\") completado com horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -51418,6 +53335,33 @@
         "soft": "#faeae9",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -54618,6 +56562,33 @@
         "minMinutes": 20,
         "maxMinutes": 40,
         "source": "https://aiqfome.com/MT/querencia/sabor-top-25"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-22:30"
+          ],
+          "seg": [
+            "18:00-22:30"
+          ],
+          "ter": [
+            "18:00-22:30"
+          ],
+          "qua": [
+            "18:00-22:30"
+          ],
+          "qui": [
+            "18:00-22:30"
+          ],
+          "sex": [
+            "18:00-22:30"
+          ],
+          "sab": [
+            "18:00-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"18:00–22:30 (listagem aiqfome)\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -59387,6 +61358,33 @@
         "soft": "#f7f2ec",
         "ink": "#1b1214",
         "surface": "#fefefe"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:30-24:00"
+          ],
+          "seg": [
+            "18:30-24:00"
+          ],
+          "ter": [
+            "18:30-24:00"
+          ],
+          "qua": [
+            "18:30-24:00"
+          ],
+          "qui": [
+            "18:30-24:00"
+          ],
+          "sex": [
+            "18:30-24:00"
+          ],
+          "sab": [
+            "18:30-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"18h30 à 0h\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -59433,6 +61431,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "09:00-11:00"
+          ],
+          "ter": [
+            "09:00-11:00"
+          ],
+          "qua": [
+            "09:00-11:00"
+          ],
+          "qui": [
+            "09:00-11:00"
+          ],
+          "sex": [
+            "09:00-11:00"
+          ],
+          "sab": [
+            "09:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Delivery seg a sex 9h às 11h; sábado o dia todo\") completado com horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -59460,7 +61482,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só no guia Coisas de Mato Grosso (pode estar desatualizado). Telefone fixo de diretório.",
-      "rank": 13
+      "rank": 13,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "delicias-da-nutri-ribeirao-cascalheira",
@@ -59506,6 +61555,30 @@
         "soft": "#f1f8ea",
         "ink": "#1b1214",
         "surface": "#8dc74d"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -59543,7 +61616,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só cadastro CNPJ 18.324.660/0001-93; endereço e contato não obtidos (WebFetch indisponível).",
-      "rank": 9
+      "rank": 9,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "jeriva-hotel-lanchonete-ribeirao-cascalheira",
@@ -59571,7 +61671,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Listado no Tripadvisor como hotel; lanchonete não confirmada como operação independente/delivery. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 14,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "k-delicia-ribeirao-cascalheira",
@@ -59598,7 +61725,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Telefone (66) 9725-7771 de diretório, formato antigo de 8 dígitos; não verificado como WhatsApp.",
-      "rank": 15
+      "rank": 15,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "kendyy-lanches-ribeirao-cascalheira",
@@ -59645,7 +61799,34 @@
         "ink": "#1b1214",
         "surface": "#80593d"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "lanchonete-e-restaurante-rodoviario-ribeirao-cascalheira",
@@ -59683,7 +61864,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Telefone fixo só de diretório (Yelp). cardapio.menu indica nota 4/5 com 62 avaliações, sugerindo atividade, mas não foi possível abrir as páginas para ver cardápio.",
-      "rank": 6
+      "rank": 6,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "lanchonete-e-restaurante-sabor-do-araguaia-ribeirao-cascalheira",
@@ -59750,7 +61958,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Só citada na lista do Tripadvisor da cidade; sem endereço/contato. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 16,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "panificadora-mana-ribeirao-cascalheira",
@@ -59787,7 +62022,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Listada no Tripadvisor (avaliação de 2014 elogia pães e quitandas). Não há confirmação recente de funcionamento nem telefone.",
-      "rank": 7
+      "rank": 7,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "panificadora-novo-sabor-ribeirao-cascalheira",
@@ -59814,7 +62076,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Telefone (66) 9912-7145 publicado em diretório no formato antigo de 8 dígitos (sem o nono dígito); não verificado como WhatsApp.",
-      "rank": 17
+      "rank": 17,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "panificadora-sabor-do-povo-ribeirao-cascalheira",
@@ -59841,7 +62130,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só citada na lista do Tripadvisor da cidade. Sem telefone ou confirmação de atividade.",
-      "rank": 18
+      "rank": 18,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "pizzaria-kabanas-ribeirao-cascalheira",
@@ -59899,6 +62215,33 @@
         "soft": "#f8eae9",
         "ink": "#ffffff",
         "surface": "#fefefe"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -59937,7 +62280,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Só citado na lista do Tripadvisor da cidade; sem endereço/contato. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 10,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "restaurante-e-churrascaria-serve-bem-ribeirao-cascalheira",
@@ -59965,7 +62335,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "CNPJ 20.048.736/0001-47 (MEI). Telefone (66) 9608-8442 do cadastro CNPJ, formato antigo de 8 dígitos; não verificado como WhatsApp. Situação atual não confirmada.",
-      "rank": 19
+      "rank": 19,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "restaurante-nossa-senhora-de-fatima-ribeirao-cascalheira",
@@ -59992,7 +62386,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só no guia Coisas de Mato Grosso (pode estar desatualizado). Telefone fixo de diretório.",
-      "rank": 20
+      "rank": 20,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "restaurante-seu-lucio-ribeirao-cascalheira",
@@ -60019,7 +62437,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "CNPJ 17.560.097/0001-90; telefone parcialmente oculto no diretório. Situação atual não confirmada.",
-      "rank": 21
+      "rank": 21,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "rocha-restaurante-e-lanchonete-ribeirao-cascalheira",
@@ -60058,7 +62500,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Telefone fixo (66) 3489-1307 vem do Cadastur (dados abertos do Ministério do Turismo, 2019) como 'Churrascaria Rocha'; o Tripadvisor mostra um número corrompido. O Guia Cidade menciona WhatsApp, mas não foi possível abrir a página para conferir. Nenhum WhatsApp verificado no canal próprio. Foto do Google Maps não representava o estabelecimento; pendente.",
-      "rank": 8
+      "rank": 8,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "sorveteria-lanchonete-gelo-doce-ribeirao-cascalheira",
@@ -60085,7 +62554,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "CNPJ 33.756.493/0001-43, aberto em 28/05/2019 (fabricação de sorvetes). Sem contato confirmado.",
-      "rank": 22
+      "rank": 22,
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "sorveteria-betel-ribeirao-cascalheira",
@@ -60122,7 +62618,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só no Guia Cidade; contato não obtido (página não pôde ser aberta).",
-      "rank": 11
+      "rank": 11,
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "sorveteria-d-acai-ribeirao-cascalheira",
@@ -60181,6 +62704,33 @@
         "soft": "#f0f6fe",
         "ink": "#1b1214",
         "surface": "#83b8f8"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "14:00-22:30"
+          ],
+          "seg": [
+            "14:00-22:30"
+          ],
+          "ter": [
+            "14:00-22:30"
+          ],
+          "qua": [
+            "14:00-22:30"
+          ],
+          "qui": [
+            "14:00-22:30"
+          ],
+          "sex": [
+            "14:00-22:30"
+          ],
+          "sab": [
+            "14:00-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"14h às 22h30\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -60208,7 +62758,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Listada no diretório Numzap (categoria Sorvete e Açaí); número não visível no trecho e, sendo diretório, não contaria como WhatsApp verificado.",
-      "rank": 23
+      "rank": 23,
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "acai-das-meninas-canarana",
@@ -60255,6 +62832,33 @@
         "soft": "#f9edf3",
         "ink": "#ffffff",
         "surface": "#1f041f"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -61358,6 +63962,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#fdfbf9"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -61404,6 +64032,33 @@
         "soft": "#eae3e3",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -64629,7 +67284,34 @@
         "ink": "#1b1214",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "cantinho-da-familia-canarana",
@@ -64657,7 +67339,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "O diretório lanchonetes.net diz ter endereço e WhatsApp, mas a página não pôde ser aberta (fetch bloqueado), então nenhum número foi confirmado. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 43,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "casa-da-pizza-delivery-canarana",
@@ -68409,6 +71118,33 @@
         "minMinutes": 30,
         "maxMinutes": 60,
         "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/ODM4MTc="
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-23:30"
+          ],
+          "seg": [
+            "13:00-23:30"
+          ],
+          "ter": [
+            "13:00-23:30"
+          ],
+          "qua": [
+            "13:00-23:30"
+          ],
+          "qui": [
+            "13:00-23:30"
+          ],
+          "sex": [
+            "13:00-23:30"
+          ],
+          "sab": [
+            "13:00-23:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Até 23h30\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -68456,7 +71192,34 @@
         "ink": "#1b1214",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "chicken-box-canarana-canarana",
@@ -70663,7 +73426,34 @@
         "ink": "#ffffff",
         "surface": "#ffffff"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "churrascaria-do-jiovani-canarana",
@@ -70755,6 +73545,30 @@
         "soft": "#faf5f1",
         "ink": "#1b1214",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -70801,6 +73615,30 @@
         "soft": "#f2e8e5",
         "ink": "#ffffff",
         "surface": "#923d25"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -70847,6 +73685,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#8c8f8e"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -70894,7 +73756,34 @@
         "ink": "#ffffff",
         "surface": "#ffffff"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "frangolino-canarana",
@@ -70941,6 +73830,33 @@
         "soft": "#f4e6e5",
         "ink": "#ffffff",
         "surface": "#a32b26"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -70987,6 +73903,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -71483,7 +74423,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Aparece numa lista de lanchonetes de diretório (Solutudo). O diretório não pôde ser aberto para confirmar o telefone.",
-      "rank": 44
+      "rank": 44,
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "jah-acai-e-sorvetes-canarana",
@@ -72357,7 +75324,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Os agregadores falam em delivery, retirada e reservas, com faixa de R$ 80 a 100 por pessoa. ATENÇÃO: a página do Corner mostrava status 'fechado'; não foi possível saber se fechou de vez. Confirmar se ainda funciona.",
-      "rank": 40
+      "rank": 40,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:30-22:30"
+          ],
+          "seg": [
+            "18:30-22:30"
+          ],
+          "ter": [
+            "18:30-22:30"
+          ],
+          "qua": [
+            "18:30-22:30"
+          ],
+          "qui": [
+            "18:30-22:30"
+          ],
+          "sex": [
+            "18:30-22:30"
+          ],
+          "sab": [
+            "18:30-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sushi: 18:30–22:30"
+      }
     },
     {
       "id": "la-no-tche-churrascaria-canarana",
@@ -72449,6 +75443,33 @@
         "soft": "#fcf8f1",
         "ink": "#1b1214",
         "surface": "#1e0f07"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -72477,7 +75498,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece na listagem do Tripadvisor, com 1 avaliação. Sem endereço, sem contato e sem confirmação de que ainda funciona. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 45,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "marcio-lanches-canarana",
@@ -72524,7 +75572,34 @@
         "ink": "#1b1214",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "massas-delivery-canarana-canarana",
@@ -73241,6 +76316,33 @@
         "soft": "#fefbf8",
         "ink": "#1b1214",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -73268,7 +76370,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só há fonte de diretório (Guia Fácil). Sem telefone nem horário.",
-      "rank": 46
+      "rank": 46,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "parada-obrigatoria-burguer-canarana",
@@ -73307,7 +76436,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "O telefone +55 66 99639-6747 e o endereço na Av. Rio Grande do Sul vêm do trecho da página do Facebook (o número no resultado da busca). Não está escrito que é WhatsApp, por isso whatsapp=null. Número do endereço não encontrado. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 37,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pastelaria-do-grima-canarana",
@@ -73363,6 +76519,33 @@
         "soft": "#fff4eb",
         "ink": "#1b1214",
         "surface": "#deb1aa"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -73400,7 +76583,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só há fonte de diretório, com o bairro Centro e o telefone fixo (66) 3478-1245. Rua não encontrada.",
-      "rank": 41
+      "rank": 41,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "paulus-cafe-central-canarana",
@@ -73446,6 +76656,33 @@
         "soft": "#e7e4e2",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
       }
     },
     {
@@ -83007,6 +86244,33 @@
         "soft": "#f4f7e8",
         "ink": "#1b1214",
         "surface": "#a0bf3c"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:30-22:30"
+          ],
+          "seg": [
+            "18:30-22:30"
+          ],
+          "ter": [
+            "18:30-22:30"
+          ],
+          "qua": [
+            "18:30-22:30"
+          ],
+          "qui": [
+            "18:30-22:30"
+          ],
+          "sex": [
+            "18:30-22:30"
+          ],
+          "sab": [
+            "18:30-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sushi: 18:30–22:30"
       }
     },
     {
@@ -83054,6 +86318,33 @@
         "soft": "#f6e6e5",
         "ink": "#ffffff",
         "surface": "#aebcbc"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -83100,6 +86391,33 @@
         "soft": "#fefcf0",
         "ink": "#1b1214",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -83128,7 +86446,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só há fontes de diretório (nota 3,8 em 71 avaliações). Sem telefone confirmado. Foto do Street View indisponível fora do Google Maps; pendente.",
-      "rank": 47
+      "rank": 47,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "restaurante-e-pizzaria-chopinho-canarana",
@@ -84996,6 +88341,33 @@
         "soft": "#e8f2e8",
         "ink": "#ffffff",
         "surface": "#fefefe"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -85053,6 +88425,33 @@
         "soft": "#e4e6eb",
         "ink": "#ffffff",
         "surface": "#544c53"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "09:00-22:00"
+          ],
+          "seg": [
+            "09:00-22:00"
+          ],
+          "ter": [
+            "09:00-22:00"
+          ],
+          "qua": [
+            "09:00-22:00"
+          ],
+          "qui": [
+            "09:00-22:00"
+          ],
+          "sex": [
+            "09:00-22:00"
+          ],
+          "sab": [
+            "09:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"9h às 22h (segundo o agregador)\") completado com horário típico de padaria: 06:00–20:00"
       }
     },
     {
@@ -85099,6 +88498,30 @@
         "soft": "#fcf4e9",
         "ink": "#1b1214",
         "surface": "#fef4e0"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Segunda a sábado\") completado com horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -85136,7 +88559,31 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece no Tripadvisor (nota 4,2 com 6 avaliações). Endereço e telefone não obtidos porque o fetch foi bloqueado. Confirmar se ainda funciona.",
-      "rank": 42
+      "rank": 42,
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
+      }
     },
     {
       "id": "rossi-batataria-e-pizzaria-canarana",
@@ -89088,6 +92535,33 @@
         "soft": "#fcf9f5",
         "ink": "#1b1214",
         "surface": "#e9c9af"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -101361,7 +104835,34 @@
         "ink": "#ffffff",
         "surface": "#352111"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "atlas-sorveteria-e-acai-agua-boa",
@@ -102106,7 +105607,34 @@
         "ink": "#ffffff",
         "surface": "#6e2611"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "bom-manjare-agua-boa",
@@ -102152,6 +105680,30 @@
         "soft": "#eee3e2",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -108218,6 +111770,33 @@
         "minMinutes": 35,
         "maxMinutes": 45,
         "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTExNDg3"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -109195,6 +112774,33 @@
         "minMinutes": 35,
         "maxMinutes": 45,
         "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTgzMg=="
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -110065,6 +113671,30 @@
         "soft": "#fef8ed",
         "ink": "#1b1214",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Seg a sáb, almoço\") completado com horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -115343,6 +118973,30 @@
         "soft": "#f9e9ee",
         "ink": "#ffffff",
         "surface": "#f9d5e1"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -115661,6 +119315,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -116300,6 +119978,33 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -117145,6 +120850,33 @@
         "soft": "#f5e5e3",
         "ink": "#ffffff",
         "surface": "#f5f5f5"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -118317,7 +122049,34 @@
         "ink": "#1b1214",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "hamburgueria-raiz-agua-boa",
@@ -120145,6 +123904,33 @@
         "soft": "#e9e4e9",
         "ink": "#ffffff",
         "surface": "#4e214b"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -123026,6 +126812,33 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#fcf8f5"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
       }
     },
     {
@@ -123073,6 +126886,33 @@
         "soft": "#f7e6e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -123130,6 +126970,33 @@
         "soft": "#ebe2e1",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "00:00-24:00"
+          ],
+          "seg": [
+            "00:00-24:00"
+          ],
+          "ter": [
+            "00:00-24:00"
+          ],
+          "qua": [
+            "00:00-24:00"
+          ],
+          "qui": [
+            "00:00-24:00"
+          ],
+          "sex": [
+            "00:00-24:00"
+          ],
+          "sab": [
+            "00:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Aberto 24 horas\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -125856,7 +129723,34 @@
         "ink": "#1b1214",
         "surface": "#0e090a"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "o-grego-lanches-agua-boa",
@@ -125903,7 +129797,34 @@
         "ink": "#ffffff",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "oishi-sushi-agua-boa-agua-boa",
@@ -128074,6 +131995,30 @@
         "soft": "#f8edec",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "18:30-22:30"
+          ],
+          "ter": [
+            "18:30-22:30"
+          ],
+          "qua": [
+            "18:30-22:30"
+          ],
+          "qui": [
+            "18:30-22:30"
+          ],
+          "sex": [
+            "18:30-22:30"
+          ],
+          "sab": [
+            "18:30-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Seg a sáb; salão 18h30 às 23h, delivery 18h30 às 22h30\") completado com horário típico de sushi: 18:30–22:30"
       }
     },
     {
@@ -160727,7 +164672,34 @@
         "maxMinutes": 90,
         "source": "https://aiqfome.com/MT/agua-boa/pizzaria-fornalha"
       },
-      "minOrderCents": 2000
+      "minOrderCents": 2000,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"A partir das 18h (fins de semana até mais tarde), segundo bio do Instagram\") completado com horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pub-goiano-agua-boa",
@@ -161944,7 +165916,34 @@
         "maxMinutes": 40,
         "source": "https://aiqfome.com/MT/agua-boa/rei-burguer"
       },
-      "minOrderCents": 1000
+      "minOrderCents": 1000,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "restaurante-alecrim-agua-boa",
@@ -162047,6 +166046,30 @@
         "soft": "#eee8e7",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -165652,7 +169675,34 @@
         "maxMinutes": 40,
         "source": "https://aiqfome.com/MT/agua-boa/the-best-acai-agua-boa"
       },
-      "minOrderCents": 1000
+      "minOrderCents": 1000,
+      "schedule": {
+        "week": {
+          "dom": [
+            "14:00-22:00"
+          ],
+          "seg": [
+            "14:00-22:00"
+          ],
+          "ter": [
+            "14:00-22:00"
+          ],
+          "qua": [
+            "14:00-22:00"
+          ],
+          "qui": [
+            "14:00-22:00"
+          ],
+          "sex": [
+            "14:00-22:00"
+          ],
+          "sab": [
+            "14:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"14h às 22h\") completado com horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "tia-do-lanche-agua-boa",
@@ -167374,6 +171424,30 @@
         "minMinutes": 55,
         "maxMinutes": 65,
         "source": "https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/NzU4NjE="
+      },
+      "schedule": {
+        "week": {
+          "ter": [
+            "17:00-23:00"
+          ],
+          "qua": [
+            "17:00-23:00"
+          ],
+          "qui": [
+            "17:00-23:00"
+          ],
+          "sex": [
+            "17:00-23:00"
+          ],
+          "sab": [
+            "17:00-23:00"
+          ],
+          "dom": [
+            "17:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Terça a domingo, a partir das 17h\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -167401,7 +171475,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Diretório Solutudo, categoria Lanches - Lanchonetes, registrada desde 2018. O nome parece genérico (possivelmente nome fantasia de cadastro). Sem contato, e não consegui confirmar se está ativa.",
-      "rank": 5
+      "rank": 5,
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "beliskos-lanchonete-e-restaurante-novo-sao-joaquim",
@@ -167450,7 +171551,34 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "brancos-lanchonete-e-sorveteria-novo-sao-joaquim",
@@ -167478,7 +171606,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única: agregador Sluurpy. Sem contato. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 6,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "creme-mania-sorvetes-novo-sao-joaquim",
@@ -167535,6 +171690,33 @@
         "soft": "#e3e8f4",
         "ink": "#ffffff",
         "surface": "#193da3"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Atendimento das 13:00 às 22:00\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -167563,7 +171745,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Dados só de diretórios (trecho do resultado de busca; as páginas não puderam ser abertas). O telefone foi listado como (66) 9915-2811, no formato antigo de 8 dígitos; pode faltar o 9 inicial, mas isso não foi verificado. O endereço está incompleto.",
-      "rank": 7
+      "rank": 7,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "lanchonete-e-restaurante-vereda-tropical-novo-sao-joaquim",
@@ -167590,7 +171799,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única: agregador Sluurpy. Sem contato. A categoria Brasileira foi escolhida por ser também restaurante.",
-      "rank": 8
+      "rank": 8,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "lanchonete-salgado-filho-novo-sao-joaquim",
@@ -167618,7 +171854,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única: agregador Sluurpy. Sem contato. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 9,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "mayhara-cakes-novo-sao-joaquim",
@@ -167674,6 +171937,30 @@
         "soft": "#fef8fa",
         "ink": "#1b1214",
         "surface": "#f3c8d2"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -167701,7 +171988,34 @@
       "confidence": "media",
       "verifiedAt": "2026-10-25",
       "notes": "Aparece na lista de estabelecimentos de Novo São Joaquim na rede credenciada da Ticket para Mato Grosso (maio de 2025), segundo o trecho do resultado de busca. Sem endereço nem contato.",
-      "rank": 4
+      "rank": 4,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "pizzaria-napolitana-novo-sao-joaquim",
@@ -167729,7 +172043,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Aparece no Tripadvisor (uma avaliação só) e no Sluurpy. Não há contato publicado e não consegui confirmar se ainda está aberta.",
-      "rank": 10
+      "rank": 10,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pizzaria-paladar-novo-sao-joaquim",
@@ -167757,7 +172098,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Dados só de diretórios. O telefone fixo é (66) 3479-1560, e o endereço vem como 'Rua, 05 - Casa - Jardim Das Palmeiras'. Não consegui confirmar se ainda funciona.",
-      "rank": 11
+      "rank": 11,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "skinao-lanchonete-e-restaurante-novo-sao-joaquim",
@@ -167785,7 +172153,34 @@
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única: agregador Sluurpy (escrito 'Skinao'). Sem contato. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "rank": 12,
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "buffalos-grill-campinapolis",
@@ -167822,7 +172217,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única (diretório GP Guia), que também lista a Avenida Benônio José Lourenço, 01. O Instagram @buffalos.grill usa DDD 47 (SC) e NÃO é este estabelecimento. Não foi confirmado que segue ativo.",
-      "rank": 4
+      "rank": 4,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "eclipse-lanchonete-e-pizzaria-campinapolis",
@@ -168746,6 +173168,33 @@
         "soft": "#fdf6e3",
         "ink": "#1b1214",
         "surface": "#060606"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -168773,7 +173222,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "CNPJ 07.718.019/0001-17, aberto em 24/11/2005 e com situação 'ativa' segundo o trecho do resultado de busca. Não há número do endereço, telefone nem presença online própria. Pode ser só a razão social, com outro nome comercial.",
-      "rank": 5
+      "rank": 5,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "panificadora-pao-dourado-campinapolis",
@@ -168800,7 +173276,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Nome fantasia de J. Bento Filho, CNAE 4721-1/02 (padaria e confeitaria), aberta em 28/01/2014 em Campinápolis segundo trecho de busca. Sem endereço nem telefone.",
-      "rank": 6
+      "rank": 6,
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de padaria: 06:00–20:00"
+      }
     },
     {
       "id": "pastelaria-e-lanchonete-predileta-campinapolis",
@@ -168827,7 +173330,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única (diretório). O mesmo telefone fixo aparece para outra empresa (Rf Blocos) no mesmo diretório, então pode estar errado. Não foi confirmado que segue ativa.",
-      "rank": 7
+      "rank": 7,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "pizzaria-ponto-livre-campinapolis",
@@ -168855,7 +173385,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece em diretórios. O telefone está no formato antigo de 8 dígitos. Não há canal próprio nem confirmação de que segue ativa.",
-      "rank": 8
+      "rank": 8,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "restaurante-casa-da-vovo-campinapolis",
@@ -168903,6 +173460,30 @@
         "soft": "#fdf9f5",
         "ink": "#1b1214",
         "surface": "#eecba9"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -170510,7 +175091,34 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "O diretório traz endereço incompleto ('Rua, SN - Centro'). Sem telefone e sem confirmação de que segue ativa.",
-      "rank": 9
+      "rank": 9,
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "1-opcao-lanches-nova-xavantina",
@@ -171150,7 +175758,34 @@
         "maxMinutes": 60,
         "source": "https://aiqfome.com/MT/nova-xavantina/1-opcao-lanches"
       },
-      "minOrderCents": 1000
+      "minOrderCents": 1000,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "acai-foods-crepe-mania-nova-xavantina",
@@ -173565,6 +178200,33 @@
         "soft": "#e6e3e4",
         "ink": "#ffffff",
         "surface": "#7d6842"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -178654,6 +183316,33 @@
         "soft": "#eae6e3",
         "ink": "#ffffff",
         "surface": "#522d17"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:30-22:30"
+          ],
+          "seg": [
+            "18:30-22:30"
+          ],
+          "ter": [
+            "18:30-22:30"
+          ],
+          "qua": [
+            "18:30-22:30"
+          ],
+          "qui": [
+            "18:30-22:30"
+          ],
+          "sex": [
+            "18:30-22:30"
+          ],
+          "sab": [
+            "18:30-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sushi: 18:30–22:30"
       }
     },
     {
@@ -181254,6 +185943,33 @@
         "soft": "#f6e3e4",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -183758,7 +188474,34 @@
         "ink": "#ffffff",
         "surface": "#000000"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "casa-do-espeto-nova-xavantina",
@@ -183804,6 +188547,33 @@
         "soft": "#fcf6ed",
         "ink": "#1b1214",
         "surface": "#fefdf9"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -185045,6 +189815,33 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "06:00-20:00"
+          ],
+          "seg": [
+            "06:00-20:00"
+          ],
+          "ter": [
+            "06:00-20:00"
+          ],
+          "qua": [
+            "06:00-20:00"
+          ],
+          "qui": [
+            "06:00-20:00"
+          ],
+          "sex": [
+            "06:00-20:00"
+          ],
+          "sab": [
+            "06:00-20:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Segunda a segunda\") completado com horário típico de padaria: 06:00–20:00"
       }
     },
     {
@@ -185092,7 +189889,34 @@
         "ink": "#1b1214",
         "surface": "#ffffff"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "frescor-acaiteria-nova-xavantina",
@@ -185185,6 +190009,33 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#130b07"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "19:00-22:30"
+          ],
+          "seg": [
+            "19:00-22:30"
+          ],
+          "ter": [
+            "19:00-22:30"
+          ],
+          "qua": [
+            "19:00-22:30"
+          ],
+          "qui": [
+            "19:00-22:30"
+          ],
+          "sex": [
+            "19:00-22:30"
+          ],
+          "sab": [
+            "19:00-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"19h às 22h30\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -190184,6 +195035,33 @@
         "soft": "#f1eae3",
         "ink": "#ffffff",
         "surface": "#8b4f18"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Aberto todos os dias\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -190231,7 +195109,34 @@
         "ink": "#1b1214",
         "surface": "#0d0b0a"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "magnifico-burguer-nx-nova-xavantina",
@@ -191072,6 +195977,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#0a0a0a"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -191118,6 +196047,33 @@
         "soft": "#fef7e8",
         "ink": "#1b1214",
         "surface": "#f3b942"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "14:00-23:00"
+          ],
+          "seg": [
+            "14:00-23:00"
+          ],
+          "ter": [
+            "14:00-23:00"
+          ],
+          "qua": [
+            "14:00-23:00"
+          ],
+          "qui": [
+            "14:00-23:00"
+          ],
+          "sex": [
+            "14:00-23:00"
+          ],
+          "sab": [
+            "14:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Delivery das 14h às 23h\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -191164,7 +196120,34 @@
         "ink": "#1b1214",
         "surface": "#e4c89f"
       },
-      "rank": 21
+      "rank": 21,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "oishi-sushi-nova-xavantina-nova-xavantina",
@@ -191210,6 +196193,33 @@
         "soft": "#eee8e7",
         "ink": "#ffffff",
         "surface": "#0a0605"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:30-22:30"
+          ],
+          "seg": [
+            "18:30-22:30"
+          ],
+          "ter": [
+            "18:30-22:30"
+          ],
+          "qua": [
+            "18:30-22:30"
+          ],
+          "qui": [
+            "18:30-22:30"
+          ],
+          "sex": [
+            "18:30-22:30"
+          ],
+          "sab": [
+            "18:30-22:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sushi: 18:30–22:30"
       }
     },
     {
@@ -191267,6 +196277,33 @@
         "soft": "#ede3e3",
         "ink": "#ffffff",
         "surface": "#6b1514"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -191370,6 +196407,33 @@
         "soft": "#fdf8ee",
         "ink": "#1b1214",
         "surface": "#131b13"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -191427,6 +196491,33 @@
         "soft": "#fbf6ea",
         "ink": "#1b1214",
         "surface": "#e0b64e"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -192354,6 +197445,29 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#0a0a0a"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "19:00-22:00"
+          ],
+          "ter": [
+            "19:00-22:00"
+          ],
+          "qua": [
+            "19:00-22:00"
+          ],
+          "qui": [
+            "19:00-22:00"
+          ],
+          "sex": [
+            "19:00-22:00"
+          ],
+          "sab": [
+            "19:00-22:00"
+          ]
+        },
+        "basis": "cardápio da loja (PDF): delivery seg a qui 19h às 22h; sex e sáb 19h às 22h só retirada presencial; cozinha seg a sáb 18h30 às 23h"
       }
     },
     {
@@ -196343,7 +201457,34 @@
         "ink": "#ffffff",
         "surface": "#d7d5d3"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "sabor-na-brasa-nova-xavantina",
@@ -197427,7 +202568,34 @@
         "ink": "#1b1214",
         "surface": "#060606"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–23:00"
+      }
     },
     {
       "id": "sorveteria-creme-mania-nova-xavantina",
@@ -198361,6 +203529,33 @@
         "soft": "#e2e2ed",
         "ink": "#ffffff",
         "surface": "#0c1065"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-21:30"
+          ],
+          "seg": [
+            "13:00-21:30"
+          ],
+          "ter": [
+            "13:00-21:30"
+          ],
+          "qua": [
+            "13:00-21:30"
+          ],
+          "qui": [
+            "13:00-21:30"
+          ],
+          "sex": [
+            "13:00-21:30"
+          ],
+          "sab": [
+            "13:00-21:30"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Delivery: 13h às 21h30. Balcão: 13h às 22h\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -218129,6 +223324,33 @@
         "soft": "#fcefe6",
         "ink": "#1b1214",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-23:00"
+          ],
+          "seg": [
+            "18:00-23:00"
+          ],
+          "ter": [
+            "18:00-23:00"
+          ],
+          "qua": [
+            "18:00-23:00"
+          ],
+          "qui": [
+            "18:00-23:00"
+          ],
+          "sex": [
+            "18:00-23:00"
+          ],
+          "sab": [
+            "18:00-23:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Todos os dias\") completado com horário típico de noite: 18:00–23:00"
       }
     },
     {
@@ -218175,6 +223397,33 @@
         "soft": "#fdf4e8",
         "ink": "#1b1214",
         "surface": "#eda440"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -225624,6 +230873,33 @@
         "soft": "#e9e2e6",
         "ink": "#ffffff",
         "surface": "#201d1e"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -227860,6 +233136,33 @@
         "soft": "#fdf7eb",
         "ink": "#1b1214",
         "surface": "#1f1f1f"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "18:30-01:00"
+          ],
+          "ter": [
+            "18:30-01:00"
+          ],
+          "qua": [
+            "18:30-01:00"
+          ],
+          "qui": [
+            "18:30-01:00"
+          ],
+          "sex": [
+            "18:30-04:00"
+          ],
+          "sab": [
+            "18:30-04:00"
+          ],
+          "dom": [
+            "18:30-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Seg a qui 18h30 às 01h; sex e sáb até 04h; dom até 00h\") completado com horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -233848,6 +239151,33 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#000000"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -235511,6 +240841,33 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#304e3d"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -249856,6 +255213,33 @@
         "soft": "#f1e4e3",
         "ink": "#ffffff",
         "surface": "#881a12"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -249913,6 +255297,30 @@
         "soft": "#efe7e6",
         "ink": "#ffffff",
         "surface": "#873d36"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "09:30-14:00"
+          ],
+          "ter": [
+            "09:30-14:00"
+          ],
+          "qua": [
+            "09:30-14:00"
+          ],
+          "qui": [
+            "09:30-14:00"
+          ],
+          "sex": [
+            "09:30-14:00"
+          ],
+          "sab": [
+            "09:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Abre às 9h30 (iFood)\") completado com horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -254721,7 +260129,34 @@
         "ink": "#1b1214",
         "surface": "#fef84f"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–24:00"
+      }
     },
     {
       "id": "dantes-barra-do-garcas",
@@ -258412,7 +263847,34 @@
         "ink": "#ffffff",
         "surface": "#9e2824"
       },
-      "hoursEstimated": true
+      "hoursEstimated": true,
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–24:00"
+      }
     },
     {
       "id": "degust-hamburgueria-artesanal-barra-do-garcas",
@@ -266522,6 +271984,30 @@
         "soft": "#e6e5e5",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "08:00-18:00"
+          ],
+          "ter": [
+            "08:00-18:00"
+          ],
+          "qua": [
+            "08:00-18:00"
+          ],
+          "qui": [
+            "08:00-18:00"
+          ],
+          "sex": [
+            "08:00-18:00"
+          ],
+          "sab": [
+            "08:00-18:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de confeitaria: 08:00–18:00"
       }
     },
     {
@@ -268461,6 +273947,33 @@
         "soft": "#faf8f2",
         "ink": "#1b1214",
         "surface": "#1a120c"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -290386,6 +295899,33 @@
         "soft": "#fcf4e9",
         "ink": "#1b1214",
         "surface": "#0e0101"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "19:00-24:00"
+          ],
+          "seg": [
+            "19:00-24:00"
+          ],
+          "ter": [
+            "19:00-24:00"
+          ],
+          "qua": [
+            "19:00-24:00"
+          ],
+          "qui": [
+            "19:00-24:00"
+          ],
+          "sex": [
+            "19:00-24:00"
+          ],
+          "sab": [
+            "19:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"19h às 00h\") completado com horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -305114,6 +310654,33 @@
         "soft": "#fdf5e8",
         "ink": "#1b1214",
         "surface": "#f1af3d"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Todos os dias\") completado com horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -306661,6 +312228,30 @@
         "soft": "#f4e4e4",
         "ink": "#ffffff",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Segunda a sábado, almoço (aprox. 9h30 às 13h)\") completado com horário típico de almoco: 10:30–14:00"
       }
     },
     {
@@ -310668,6 +316259,33 @@
         "soft": "#fbf7f3",
         "ink": "#1b1214",
         "surface": "#ffffff"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "10:00-22:00"
+          ],
+          "seg": [
+            "10:00-22:00"
+          ],
+          "ter": [
+            "10:00-22:00"
+          ],
+          "qua": [
+            "10:00-22:00"
+          ],
+          "qui": [
+            "10:00-22:00"
+          ],
+          "sex": [
+            "10:00-22:00"
+          ],
+          "sab": [
+            "10:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"10h às 22h\") completado com horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -314880,6 +320498,33 @@
         "soft": "#fffef2",
         "ink": "#1b1214",
         "surface": "#fefefe"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -315621,6 +321266,33 @@
         "soft": "#ebe4ec",
         "ink": "#ffffff",
         "surface": "#5a1d5d"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:30-22:00"
+          ],
+          "seg": [
+            "13:30-22:00"
+          ],
+          "ter": [
+            "13:30-22:00"
+          ],
+          "qua": [
+            "13:30-22:00"
+          ],
+          "qui": [
+            "13:30-22:00"
+          ],
+          "sex": [
+            "13:30-22:00"
+          ],
+          "sab": [
+            "13:30-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Delivery 13h30 às 22h; no local até 22h30\") completado com horário típico de sorveteria: 13:00–22:00"
       }
     },
     {
@@ -325837,6 +331509,33 @@
         "minMinutes": 60,
         "maxMinutes": 95,
         "source": "https://pedido.anota.ai/loja/texasgrillchurrascaria"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "18:00-24:00"
+          ],
+          "seg": [
+            "18:00-24:00"
+          ],
+          "ter": [
+            "18:00-24:00"
+          ],
+          "qua": [
+            "18:00-24:00"
+          ],
+          "qui": [
+            "18:00-24:00"
+          ],
+          "sex": [
+            "18:00-24:00"
+          ],
+          "sab": [
+            "18:00-24:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de noite: 18:00–24:00"
       }
     },
     {
@@ -328285,6 +333984,30 @@
         "soft": "#fcf5e8",
         "ink": "#1b1214",
         "surface": "#e5a940"
+      },
+      "schedule": {
+        "week": {
+          "seg": [
+            "10:30-14:00"
+          ],
+          "ter": [
+            "10:30-14:00"
+          ],
+          "qua": [
+            "10:30-14:00"
+          ],
+          "qui": [
+            "10:30-14:00"
+          ],
+          "sex": [
+            "10:30-14:00"
+          ],
+          "sab": [
+            "10:30-14:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de almoco: 10:30–14:00"
       }
     }
   ]

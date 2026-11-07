@@ -13,3 +13,10 @@ Pipeline reutilizável para trazer cardápios publicados pelos próprios estabel
 7. `node scripts/build-data.js && node scripts/menus/report.js && npm test` — gera `data/menus/<id>.json`, o relatório (`data/research/cardapios/RELATORIO.md`) e valida.
 
 Nova plataforma: um arquivo em `adapters/` que recebe `{ html, responses, meta }` e devolve `L.snapshot(meta, sections, extra)` (veja `lib.js`). Nunca invente preço, descrição, foto ou opção: o que não está na fonte fica vazio, e item sem preço fica de fora (contado em `skipped`).
+
+## Agente de Cardápios (Claude in Chrome + Instagram)
+Para as lojas cujo cardápio só aparece no Instagram (link da bio, Linktree, destaques):
+- **Fila:** `fila-cardapios.html` (no ar em https://www.pedeaionline.com.br/fila-cardapios.html, `noindex`). Gerada pelo `build-data.js` (`data/fila-cardapios.js`): lojas sem cardápio, com foto/logo real, sem `motivo` de bloqueio em `fontes.json`. Imagem ilustrativa = loja não mapeada, fica de fora.
+- **Prompt do agente:** `data/research/cardapios/AGENTE-CARDAPIOS.md` (botão "Copiar prompt do agente" da fila; o texto vai embutido no `fila-cardapios.js`). Editou o prompt → rode `build-data.js`.
+- O agente registra uma linha JSON por loja no card (salva no localStorage do Chrome). No fim da cidade, "Copiar resultados da cidade" → salvar em `data/research/cardapios/agente/<cidade>-<data>.jsonl`.
+- **Importar:** `node scripts/menus/import-fila.js <arquivo.jsonl>` (prévia) e depois `--apply`. Link de plataforma com leitor → `fontes.json` (seguir capture → normalize → images → apply); Drive/Canva/PDF → `pendente` para transcrição (skill cardapio-visual); WhatsApp só com fonte (perfil/link da bio); Instagram só com cidade conferida; itens de destaque → rascunho `visual` sem foto, **conferido antes do apply**. Divergências só aparecem no relatório.

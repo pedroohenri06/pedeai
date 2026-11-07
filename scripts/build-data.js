@@ -17,6 +17,8 @@ const outMd = path.join(root, 'data', 'STATUS.md');
 const indexHtml = path.join(root, 'index.html');
 const menusDir = path.join(root, 'data', 'menus');
 const previewHtml = path.join(root, 'cardapios.html');
+const queueHtml = path.join(root, 'fila-cardapios.html');
+const queueJs = path.join(root, 'data', 'fila-cardapios.js');
 
 /* Versão pelo conteúdo (?v=hash): quando um arquivo muda, o endereço muda e o navegador baixa o novo
    em vez de mostrar o que guardou em cache (logo trocada com o mesmo nome de arquivo, por exemplo). */
@@ -33,9 +35,10 @@ function versionAssets(value) {
 }
 
 /* index.html e cardapios.html (prévia interna dos cardápios) carregam css/js/dados com ?v= do conteúdo atual (o de data/establishments.js vem de `js`, ainda não gravado). */
-function renderIndex(html, js) {
+function renderIndex(html, js, extra) {
+  extra = extra || {};
   return html.replace(/(<(?:script|link)[^>]*(?:src|href)=")((?:js|css|data)\/[\w.-]+\.(?:js|css))(?:\?v=[0-9a-f]+)?(")/g, (m, a, rel, b) =>
-    a + rel + '?v=' + (rel === 'data/establishments.js' ? hashOf(js) : hashOf(fs.readFileSync(path.join(root, rel)))) + b);
+    a + rel + '?v=' + (rel === 'data/establishments.js' ? hashOf(js) : rel in extra ? hashOf(extra[rel]) : hashOf(fs.readFileSync(path.join(root, rel)))) + b);
 }
 
 /* Cardápios ficam fora do arquivo da listagem: data/menus/<id>.json, baixado quando a loja abre. A listagem leva só
@@ -67,6 +70,27 @@ function renderJs(db, menus) {
   });
   return '/* Gerado por scripts/build-data.js a partir de data/establishments.json — não edite à mão. */\n' +
     'window.PEDEAI_DATA=' + JSON.stringify(Object.assign({}, db, { establishments })) + ';\n';
+}
+
+/* Fila do agente de cardápios (fila-cardapios.html): lojas sem cardápio, com foto ou logo real (as de imagem
+   ilustrativa ainda não foram mapeadas e ficam de fora), sem bloqueio conhecido, mais o que a auditoria anterior
+   do Claude in Chrome já viu de cada uma. */
+function renderQueue(db) {
+  const fontes = JSON.parse(fs.readFileSync(path.join(root, 'data', 'research', 'cardapios', 'fontes.json'), 'utf8')).fontes;
+  const histFile = path.join(root, 'data', 'research', 'cardapios', 'auditoria-chrome-2026-11-04.jsonl');
+  const hist = fs.existsSync(histFile) ? Object.fromEntries(fs.readFileSync(histFile, 'utf8').trim().split('\n').map(l => JSON.parse(l)).map(h => [h.id, h])) : {};
+  const items = db.establishments.filter(s => !s.menu.length && (s.logo || s.image)).filter(s => {
+    const f = fontes[s.id];
+    return !(f && f.motivo && !/whatsapp/.test(f.platform || ''));
+  }).map(s => {
+    const h = hist[s.id];
+    return { id: s.id, name: s.name, city: s.city, kind: s.kind || s.category, instagram: s.instagram || null,
+      antes: h ? [h.linkBio ? 'link da bio: ' + h.linkBio : 'sem link da bio', h.destaqueCardapio ? 'destaque: ' + h.destaqueCardapio : null, h.obs || null].filter(Boolean).join(' · ') : null };
+  });
+  // O prompt do agente vem de data/research (fora do deploy): vai embutido aqui, para o botão "Copiar prompt" funcionar no ar.
+  const md = fs.readFileSync(path.join(root, 'data', 'research', 'cardapios', 'AGENTE-CARDAPIOS.md'), 'utf8');
+  const prompt = md.split(/\n---\n/).slice(1).join('\n---\n').trim();
+  return '/* Gerado por scripts/build-data.js — fila do agente de cardápios. Não edite à mão. */\nwindow.PEDEAI_FILA=' + JSON.stringify({ geradoEm: db.updatedAt, prompt, lojas: items }) + ';\n';
 }
 
 function renderStatus(db) {
@@ -109,10 +133,11 @@ function main() {
   }
   const menus = renderMenus(db), js = renderJs(db, menus), md = renderStatus(db), html = renderIndex(fs.readFileSync(indexHtml, 'utf8'), js);
   const preview = renderIndex(fs.readFileSync(previewHtml, 'utf8'), js);
+  const queueData = renderQueue(db), queue = renderIndex(fs.readFileSync(queueHtml, 'utf8'), js, { 'data/fila-cardapios.js': queueData });
   const menuPairs = Object.entries(menus).map(([f, c]) => [path.join(menusDir, f), c]);
   const orphans = fs.existsSync(menusDir) ? fs.readdirSync(menusDir).filter(f => !menus[f]).map(f => path.join(menusDir, f)) : [];
   if (check) {
-    const stale = [[outJs, js], [outMd, md], [indexHtml, html], [previewHtml, preview]].concat(menuPairs).filter(([f, c]) => !fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c)
+    const stale = [[outJs, js], [outMd, md], [indexHtml, html], [previewHtml, preview], [queueHtml, queue], [queueJs, queueData]].concat(menuPairs).filter(([f, c]) => !fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c)
       .concat(orphans.map(f => [f]));
     if (stale.length) {
       console.error('Arquivos gerados desatualizados. Rode: node scripts/build-data.js\n' + stale.map(s => ' - ' + path.relative(root, s[0])).join('\n'));
@@ -123,6 +148,8 @@ function main() {
     fs.writeFileSync(outMd, md);
     fs.writeFileSync(indexHtml, html);
     fs.writeFileSync(previewHtml, preview);
+    fs.writeFileSync(queueHtml, queue);
+    fs.writeFileSync(queueJs, queueData);
     fs.mkdirSync(menusDir, { recursive: true });
     menuPairs.forEach(([f, c]) => { if (!fs.existsSync(f) || fs.readFileSync(f, 'utf8') !== c) fs.writeFileSync(f, c); });
     orphans.forEach(f => fs.unlinkSync(f));

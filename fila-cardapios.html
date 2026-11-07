@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Fila de cardápios | PedeAi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Fila de trabalho do Agente de Cardápios (Claude in Chrome): lojas sem cardápio, por cidade, com os links para o
+   Instagram e um campo onde o agente registra o resultado. O progresso fica salvo neste navegador (localStorage). */
+:root{--red:#e51b2b;--wine:#7d1019;--ink:#221719;--muted:#76696a;--cream:#f8f5ef;--paper:#fff;--line:rgba(51,8,14,.12);--green:#23864a}
+*{box-sizing:border-box;margin:0}
+body{background:var(--cream);color:var(--ink);font:15px/1.5 'DM Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{width:min(100% - 32px,980px);margin:0 auto;padding:28px 0 60px}
+h1{font:800 clamp(26px,5vw,36px)/1.1 Montserrat,sans-serif;letter-spacing:-.03em}
+.lede{color:var(--muted);margin-top:6px;max-width:70ch}
+.bar{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 6px;align-items:center}
+.btn{height:42px;padding:0 16px;border-radius:12px;border:1px solid var(--line);background:var(--paper);font:700 14px 'DM Sans',sans-serif;color:var(--ink);cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.btn--primary{background:var(--red);border-color:var(--red);color:#fff}
+.btn:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.progress{font-weight:700}
+.cities{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.cities button{height:38px;padding:0 14px;border-radius:99px;border:1px solid var(--line);background:var(--paper);font:700 13px Montserrat,sans-serif;color:var(--ink);cursor:pointer}
+.cities button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
+.cities small{opacity:.7;font-weight:600}
+ol.list{list-style:none;padding:0;display:grid;gap:12px}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px 18px}
+.card.done{border-color:rgba(35,134,74,.45)}
+.head{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 12px}
+.num{font:800 13px Montserrat,sans-serif;color:var(--muted)}
+.name{font:800 18px/1.25 Montserrat,sans-serif}
+.kind{color:var(--muted);font-size:13px}
+.status{margin-left:auto;font-size:12px;font-weight:800;padding:3px 10px;border-radius:99px;background:#f3ebe6;color:var(--muted)}
+.done .status{background:rgba(35,134,74,.12);color:var(--green)}
+.links{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.links .btn{height:36px;font-size:13px}
+.before{font-size:12.5px;color:var(--muted);margin:2px 0 8px}
+label{display:block;font-size:12px;font-weight:700;color:var(--muted);margin-bottom:4px}
+textarea{width:100%;min-height:64px;border:1px solid var(--line);border-radius:12px;padding:10px 12px;font:13px/1.45 ui-monospace,Menlo,monospace;color:var(--ink);background:#fffdfb;resize:vertical}
+.row{display:flex;gap:8px;align-items:center;margin-top:8px;flex-wrap:wrap}
+.msg{font-size:12.5px;font-weight:700}
+.msg.err{color:var(--red)}.msg.ok{color:var(--green)}
+.how{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin-top:16px}
+.how ol{padding-left:20px}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <h1>Fila de cardápios</h1>
+  <p class="lede">Lojas do PedeAi ainda sem cardápio, com foto ou logo real (as de imagem ilustrativa ainda não foram mapeadas e ficam de fora). O Agente de Cardápios (Claude in Chrome) trabalha esta lista, cidade por cidade, e registra o resultado em cada card. O progresso fica salvo neste navegador.</p>
+  <div class="how">
+    <strong>Como usar</strong>
+    <ol>
+      <li>Abra esta página no Chrome, com o Instagram logado.</li>
+      <li>Clique em <b>Copiar prompt do agente</b>, abra a extensão do Claude e cole. Diga a cidade: “comece por Querência”.</li>
+      <li>No fim da cidade, clique em <b>Copiar resultados da cidade</b> e cole no Claude Code.</li>
+    </ol>
+  </div>
+  <div class="bar">
+    <button class="btn btn--primary" type="button" id="copyPrompt">Copiar prompt do agente</button>
+    <button class="btn" type="button" id="copyCity">Copiar resultados da cidade</button>
+    <button class="btn" type="button" id="copyAll">Copiar todos os resultados</button>
+    <span class="progress" id="progress"></span>
+  </div>
+  <div class="cities" id="cities" role="group" aria-label="Cidades"></div>
+  <ol class="list" id="list"></ol>
+</main>
+<script src="data/fila-cardapios.js?v=4f4405a063"></script>
+<script>
+(function () {
+  'use strict';
+  var DATA = window.PEDEAI_FILA || { lojas: [] }, KEY = 'pedeai-fila:';
+  var $ = function (id) { return document.getElementById(id); };
+  var esc = function (v) { return String(v == null ? '' : v).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  function read(id) { try { return localStorage.getItem(KEY + id) || ''; } catch (e) { return ''; } }
+  function write(id, v) { try { if (v) localStorage.setItem(KEY + id, v); else localStorage.removeItem(KEY + id); } catch (e) { /* armazenamento indisponível */ } }
+  var ORDER = ['Querência', 'Canarana', 'Nova Xavantina', 'Água Boa', 'Vila Rica', 'Ribeirão Cascalheira', 'Barra do Garças', 'São Félix do Araguaia', 'Novo São Joaquim', 'Campinápolis'];
+  var cities = ORDER.filter(function (c) { return DATA.lojas.some(function (s) { return s.city === c; }); });
+  var city = (location.hash.slice(1) && decodeURIComponent(location.hash.slice(1))) || cities[0];
+
+  function lojas(c) { return DATA.lojas.filter(function (s) { return s.city === c; }); }
+  function igSearch(s) { return 'https://www.instagram.com/explore/search/keyword/?q=' + encodeURIComponent(s.name + ' ' + s.city); }
+
+  function renderCities() {
+    $('cities').innerHTML = cities.map(function (c) {
+      var l = lojas(c), done = l.filter(function (s) { return read(s.id); }).length;
+      return '<button type="button" data-city="' + esc(c) + '" aria-pressed="' + (c === city) + '">' + esc(c) + ' <small>' + done + '/' + l.length + '</small></button>';
+    }).join('');
+    var all = DATA.lojas.length, done = DATA.lojas.filter(function (s) { return read(s.id); }).length;
+    $('progress').textContent = done + ' de ' + all + ' lojas feitas';
+  }
+
+  function renderList() {
+    $('list').innerHTML = lojas(city).map(function (s, i) {
+      var res = read(s.id);
+      return '<li class="card' + (res ? ' done' : '') + '" data-id="' + esc(s.id) + '">' +
+        '<div class="head"><span class="num">#' + (i + 1) + '</span><span class="name">' + esc(s.name) + '</span><span class="kind">' + esc(s.kind) + ' · ' + esc(s.city) + '</span><span class="status">' + (res ? 'Feito' : 'Pendente') + '</span></div>' +
+        '<div class="links">' +
+          (s.instagram ? '<a class="btn" target="_blank" rel="noopener" href="https://www.instagram.com/' + encodeURIComponent(s.instagram) + '/">Abrir Instagram (@' + esc(s.instagram) + ')</a>'
+                       : '<a class="btn" target="_blank" rel="noopener" href="' + esc(igSearch(s)) + '">Buscar no Instagram</a>') +
+          '<a class="btn" target="_blank" rel="noopener" href="index.html#/loja/' + esc(s.id) + '">Página no PedeAi</a>' +
+        '</div>' +
+        (s.antes ? '<p class="before">Auditoria anterior: ' + esc(s.antes) + '</p>' : '') +
+        '<label for="r-' + esc(s.id) + '">Resultado (linha JSON da loja)</label>' +
+        '<textarea id="r-' + esc(s.id) + '" spellcheck="false" placeholder=\'{"id":"' + esc(s.id) + '", ...}\'>' + esc(res) + '</textarea>' +
+        '<div class="row"><button class="btn btn--primary" type="button" data-save>Salvar</button><button class="btn" type="button" data-clear>Limpar</button><span class="msg" aria-live="polite"></span></div></li>';
+    }).join('');
+  }
+
+  function render() { renderCities(); renderList(); }
+
+  $('cities').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-city]');
+    if (!b) return;
+    city = b.dataset.city; history.replaceState(null, '', '#' + encodeURIComponent(city)); render(); scrollTo(0, 0);
+  });
+
+  $('list').addEventListener('click', function (e) {
+    var card = e.target.closest('.card'); if (!card) return;
+    var id = card.dataset.id, ta = card.querySelector('textarea'), msg = card.querySelector('.msg');
+    if (e.target.closest('[data-clear]')) { ta.value = ''; write(id, ''); msg.textContent = ''; card.classList.remove('done'); card.querySelector('.status').textContent = 'Pendente'; renderCities(); return; }
+    if (!e.target.closest('[data-save]')) return;
+    var text = ta.value.trim().replace(/^```(?:json)?\s*|\s*```$/g, '');
+    try {
+      var obj = JSON.parse(text);
+      if (!obj || typeof obj !== 'object') throw new Error('não é um objeto JSON');
+      obj.id = id;                                   // o card manda: evita resultado salvo na loja errada
+      var line = JSON.stringify(obj);
+      ta.value = line; write(id, line);
+      msg.className = 'msg ok'; msg.textContent = 'Salvo.';
+      card.classList.add('done'); card.querySelector('.status').textContent = 'Feito'; renderCities();
+    } catch (err) { msg.className = 'msg err'; msg.textContent = 'JSON inválido: ' + err.message; }
+  });
+
+  function copy(text, btn, label) {
+    var done = function () { var t = btn.textContent; btn.textContent = label; setTimeout(function () { btn.textContent = t; }, 1600); };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, function () { prompt('Copie o texto:', text); });
+    else prompt('Copie o texto:', text);
+  }
+  function results(list) { return list.map(function (s) { return read(s.id); }).filter(Boolean).join('\n'); }
+  $('copyCity').onclick = function () { copy(results(lojas(city)) || '(nenhum resultado salvo nesta cidade)', this, 'Copiado!'); };
+  $('copyAll').onclick = function () { copy(results(DATA.lojas) || '(nenhum resultado salvo)', this, 'Copiado!'); };
+  $('copyPrompt').onclick = function () { copy(DATA.prompt || '', this, 'Prompt copiado!'); };
+  render();
+})();
+</script>
+</body>
+</html>

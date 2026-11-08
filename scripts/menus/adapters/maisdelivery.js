@@ -11,9 +11,10 @@ function hoursOf(r) {
   return h.length ? h.map(d => d.dia.slice(0, 3) + ' ' + d.horarios.join(', ').replace(/ às /g, '–')).join(' · ') : null;
 }
 
-function product(p) {
-  const base = L.cents(p.vlItem);
-  if (!(base > 0)) return null;
+/* Produto com preço zero e valor na escolha obrigatória (ex.: bola de sorvete por sabor, açaí por tamanho): o menor
+   valor da escolha vira o preço base (L.priceFromRequiredGroup). */
+function product(p, notes) {
+  const base = L.cents(p.vlItem) || 0;
   const options = [];
   (p.niveis || []).slice().sort((a, b) => a.nrOrdem - b.nrOrdem).forEach(n => {
     const g = L.optionGroup(n.dsTitulo, Number(n.qtMinOpcao), Number(n.qtMaxOpcao),
@@ -32,18 +33,18 @@ function product(p) {
     if (g) options.push(g);
   }
   const img = p.dsImgPro || p.dsImagem;
-  return { sourceId: String(p.idCardapio), name: L.displayName(p.dsNome), description: L.displayText(p.dsDescricao), priceCents: base, originalPriceCents: null, imageUrl: img ? IMG + img : null, options };
+  return L.priceFromRequiredGroup({ sourceId: String(p.idCardapio), name: L.displayName(p.dsNome), description: L.displayText(p.dsDescricao), priceCents: base, originalPriceCents: null, imageUrl: img ? IMG + img : null, options }, notes);
 }
 
 module.exports = function parse({ responses, meta }) {
   const hit = responses.find(r => /operacao_oapi/.test(r.url) && r.body && r.body.cardapio);
   if (!hit) throw new Error('resposta do cardápio não encontrada');
-  const b = hit.body, skipped = {}, sections = [];
-  const keep = p => { const it = product(p); if (!it) L.count(skipped, 'sem preço'); return it; };
+  const b = hit.body, skipped = {}, sections = [], notes = [];
+  const keep = p => { const it = product(p, notes); if (!it) L.count(skipped, 'sem preço'); return it; };
   (b.cardapio.categorias || []).slice().sort((a, c) => a.nrOrdem - c.nrOrdem).forEach(c => {
     if ((c.produtos || []).length) sections.push({ name: c.dsCategoria, items: c.produtos.map(keep) });
     (c.subcategorias || []).forEach(s => sections.push({ name: s.dsSubCategoria, items: (s.produtos || []).map(keep) }));
   });
   const r = b.restaurante || {};
-  return L.snapshot(meta, sections, { hours: hoursOf(r), ops: L.ops(r.nrTempoMin, r.nrTempoMax, r.vlMinimo), skipped });
+  return L.snapshot(meta, sections, { hours: hoursOf(r), ops: L.ops(r.nrTempoMin, r.nrTempoMax, r.vlMinimo), skipped, notes });
 };

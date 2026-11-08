@@ -1,0 +1,409 @@
+{
+  "id": "restaurante-zero-grau-canarana",
+  "platform": "anotaai",
+  "source": "https://pedido.anota.ai/loja/churrascaria-zero-grau-1",
+  "capturedAt": "2026-11-08T20:22:20.828Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Cardápio Domingo",
+      "items": [
+        {
+          "sourceId": "67e2a4eaf880f1f76b9c95d1",
+          "name": "Marmitex Tamanho N. 9",
+          "description": "Escolha seus itens nos adicionais",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/67608c1ed352f70019e66554/-1734644506238blob",
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 4,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Churrasco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Macarrão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Escondidinho De Bacon Com Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicionar 200g De Carne",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "67e2a4eaf880f1f76b9c95ef",
+          "name": "Marmitex Tamanho N. 8",
+          "description": "Escolha seus itens nos adicionais",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/67608c1ed352f70019e66554/-1734644517405blob",
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 4,
+              "max": 7,
+              "choices": [
+                {
+                  "name": "Arroz",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Feijão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Salada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Churrasco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Macarrão",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Escondidinho De Bacon Com Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Farofa De Banana",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicionar 200g De Carne",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "67e6f08260d492a22f2d815a",
+          "name": "Marmitex com churrasco",
+          "description": "Escolha o tamanho nos adicionais",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha seu tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nº 8",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nº 9",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "67e6f09acfabad9e1e16c37f",
+          "name": "Marmitex com carne do dia",
+          "description": "Escolha o tamanho nos adicionais",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha seu tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Nº 8",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Nº 9",
+                  "priceCents": 300
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cardápio Fit Do Dia",
+      "items": [
+        {
+          "sourceId": "67e2a4eaf880f1f76b9c9775",
+          "name": "Marmitex Tamanho N. 8 fit",
+          "description": "Escolha seus itens nos adicionais",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/67608c1ed352f70019e66554/-1734644517405blob",
+          "options": [
+            {
+              "name": "Acompanhamentos",
+              "min": 1,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Batata Soute",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Grelhado",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Saladas Variadas",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Adicionar 200g De Carne",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "67e2a4e8f880f1f76b9c8d43",
+          "name": "Refrigerante Lata 310ml",
+          "description": "Escolha seu refrigerante nos adicionais",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/67dc688538cf8f0012bf8907/-1743188183715blob",
+          "options": [
+            {
+              "name": "Selecione",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Refri Lata 310ml - Coca Cola",
+                  "priceCents": 150
+                },
+                {
+                  "name": "Refri Lata 310ml - Guaraná Antártica",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Refri Lata 300ml - Pepsi Black",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Refri Lata 350ml - Sukita Laranja",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Refri Lata 310ml - Pepsi",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Refri Lata 310ml - Schweppes",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Refri Lata 310ml - Fanta Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Refri Lata 350ml - Guaraná Zero",
+                  "priceCents": 50
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "67e2a4e8f880f1f76b9c8d61",
+          "name": "Refrigerante 500ml - Coca Cola",
+          "description": "500ml",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/6756ffa0cb53070012567557/-1733835580704blob",
+          "options": []
+        },
+        {
+          "sourceId": "67e2a4e8f880f1f76b9c8d7f",
+          "name": "Refrigerante 600ml - Guaraná Antártica",
+          "description": "600ml",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/675adc86cb5d8a001963494b/-1734029215734blob",
+          "options": []
+        },
+        {
+          "sourceId": "67e2a4e8f880f1f76b9c8d9d",
+          "name": "Refrigerante 1,5 Litro - Coca Cola",
+          "description": "1,5L",
+          "priceCents": 1350,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733772285818blob",
+          "options": []
+        },
+        {
+          "sourceId": "67e2a4e8f880f1f76b9c8dbb",
+          "name": "Refrigerante 2 Litros - Coca Cola",
+          "description": "2L",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733772360534blob",
+          "options": []
+        },
+        {
+          "sourceId": "67e2a4e8f880f1f76b9c8df7",
+          "name": "Suco Polpa Viagem 500ml",
+          "description": "Escolha o seu suco nos adicionais",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/66a38bae6c8ee10019640631/-1733770397422blob",
+          "options": [
+            {
+              "name": "Selecione",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Suco Abacaxi Com Hortelã 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco Abacaxi 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco Morango 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco Maracujá 500ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Suco Acerola 500ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "680910a30cbcbe9ec6b67bbf",
+          "name": "Fanta laranja 1,5",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6824bb453391633547ee1fb3",
+          "name": "H2o",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6824bb9029f4b62a364eed59",
+          "name": "H2o limoneto",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6824bc5c29f4b62a364efec0",
+          "name": "Guarana 2litro",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "68beccd582b1875649e2b3aa",
+          "name": "Coca mini",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "esgotado": 3
+  },
+  "notes": [
+    "\"Refrigerante Lata 310ml\": cada opção de \"Selecione\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Suco Polpa Viagem 500ml\": cada opção de \"Selecione\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador."
+  ],
+  "ops": {
+    "deliveryMin": 25,
+    "deliveryMax": 50,
+    "minOrderCents": 2800
+  },
+  "city": "Canarana",
+  "phones": [
+    "(66) 9 8447-9920"
+  ]
+}

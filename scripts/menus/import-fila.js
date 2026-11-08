@@ -5,6 +5,7 @@
 
    Uso: node scripts/menus/import-fila.js <resultados.jsonl>            → só mostra o plano (nada é gravado)
         node scripts/menus/import-fila.js <resultados.jsonl> --apply    → grava
+        --sem-rascunhos: não gera os rascunhos de cardápio transcrito (só links, WhatsApp e Instagram)
 
    O que grava (com --apply):
    - link de cardápio digital de plataforma com leitor → data/research/cardapios/fontes.json (depois: capture → normalize → images → apply);
@@ -44,11 +45,13 @@ function platformOf(url) {
   return { platform: 'manual', label: 'site próprio' };
 }
 
-/* WhatsApp brasileiro: 55 + DDD + 8 ou 9 dígitos. */
+/* WhatsApp brasileiro: 55 + DDD + celular de 9 dígitos. Celular antigo de 8 dígitos (começa com 6–9) ganha o 9 da
+   regra nacional do nono dígito; fixo (começa com 2–5) não é aceito como WhatsApp do PedeAi. */
 function waNumber(v) {
   let d = digits(v);
   if (d.length === 10 || d.length === 11) d = '55' + d;
-  return /^55\d{10,11}$/.test(d) ? d : null;
+  if (/^55\d{2}[6-9]\d{7}$/.test(d)) d = d.slice(0, 4) + '9' + d.slice(4);
+  return /^55\d{2}9\d{8}$/.test(d) ? d : null;
 }
 
 /* Itens transcritos → seções no formato normalizado (preço obrigatório; sem preço legível fica de fora). */
@@ -71,7 +74,7 @@ function sectionsFrom(itens, notes) {
 }
 
 function main() {
-  const file = process.argv[2], apply = process.argv.includes('--apply');
+  const file = process.argv[2], apply = process.argv.includes('--apply'), noDrafts = process.argv.includes('--sem-rascunhos');
   if (!file || !fs.existsSync(file)) { console.error('Uso: node scripts/menus/import-fila.js <resultados.jsonl> [--apply]'); process.exit(1); }
   const dbRaw = JSON.parse(fs.readFileSync(DB_FILE, 'utf8')), byId = new Map(dbRaw.establishments.map(s => [s.id, s]));
   const fontesRaw = JSON.parse(fs.readFileSync(FONTES_FILE, 'utf8')), fontes = fontesRaw.fontes;
@@ -95,7 +98,9 @@ function main() {
     else if (h && s.instagram && s.instagram.toLowerCase() !== h) plan.revisar.push(`${tag}: Instagram do agente @${h} ≠ cadastro @${s.instagram}`);
 
     // Cardápio digital
-    if (isUrl(r.cardapio)) {
+    // Catálogo do WhatsApp (wa.me/c, wa.me/p) não é cardápio público coletável: só o número conta (abaixo).
+    if (isUrl(r.cardapio) && /wa\.me|whatsapp\.com/i.test(r.cardapio)) plan.revisar.push(`${tag}: cardápio é catálogo do WhatsApp (${r.cardapio.trim()}) — não coletável`);
+    else if (isUrl(r.cardapio)) {
       const url = r.cardapio.trim(), p = platformOf(url), cur = fontes[s.id];
       if (cur && !cur.motivo && !cur.pendente && cur.url !== url) plan.revisar.push(`${tag}: link novo ${url} ≠ fontes ${cur.url}`);
       else if (!s.menu.length) {
@@ -110,12 +115,13 @@ function main() {
     // WhatsApp (canal do próprio estabelecimento)
     const wa = waNumber(r.whatsapp), fonte = /link da bio/i.test(r.whatsappFonte || '') ? (isUrl(r.linkBio) ? r.linkBio.trim() : null)
       : /perfil/i.test(r.whatsappFonte || '') ? perfil : /card[aá]pio/i.test(r.whatsappFonte || '') ? (isUrl(r.cardapio) ? r.cardapio.trim() : null) : null;
+    if (!wa && digits(r.whatsapp).length >= 10) plan.revisar.push(`${tag}: ${r.whatsapp} é telefone fixo, não entra como WhatsApp`);
     if (wa && fonte && !s.whatsapp) { plan.whatsapp.push(`${tag}: ${wa} (fonte ${fonte})`); if (apply) { s.whatsapp = wa; s.whatsappSource = fonte; } did = true; }
     else if (wa && s.whatsapp && digits(s.whatsapp) !== wa) plan.revisar.push(`${tag}: WhatsApp do agente ${wa} ≠ cadastro ${s.whatsapp}`);
     else if (wa && !fonte && !s.whatsapp) plan.revisar.push(`${tag}: WhatsApp ${wa} sem fonte (perfil/link da bio) — não entra`);
 
     // Itens transcritos de destaque → rascunho visual (conferência antes de ir ao ar)
-    if (Array.isArray(r.itens) && r.itens.length && !s.menu.length && !isUrl(r.cardapio)) {
+    if (!noDrafts && Array.isArray(r.itens) && r.itens.length && !s.menu.length && !isUrl(r.cardapio)) {
       const notes = ['Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque ' + (r.destaque || '?') + ': conferir contra a arte antes do apply.'];
       const { sections, skipped } = sectionsFrom(r.itens, notes);
       const total = sections.reduce((a, x) => a + x.items.length, 0);

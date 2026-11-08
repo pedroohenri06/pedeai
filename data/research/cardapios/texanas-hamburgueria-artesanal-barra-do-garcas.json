@@ -1,0 +1,4120 @@
+{
+  "id": "texanas-hamburgueria-artesanal-barra-do-garcas",
+  "platform": "anotaai",
+  "source": "https://pedido.anota.ai/loja/texanas-burguer",
+  "capturedAt": "2026-11-08T20:22:29.456Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Os mais pedidos",
+      "items": [
+        {
+          "sourceId": "6883d658503c9dbb02491461",
+          "name": "Tx burguer",
+          "description": "Pão Macio, Blend Bovina (130g), Musarella e Molho verde da Casa O famoso Simples com sabor e Qualidade pra você experimentar!",
+          "priceCents": 1990,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1760638563893blob",
+          "options": [
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Porções",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Batata 250g",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Batata 500g",
+                  "priceCents": 2990
+                },
+                {
+                  "name": "Batata cheddar bacon 250g",
+                  "priceCents": 2699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883d870dc230bf93bf6e90b",
+          "name": "Tx salada",
+          "description": "Pão Macio, Blend Bovina (130g), Mussarela, Tomate, Alface Crocante, Cebola Roxa, picles e Molho Verde da casa",
+          "priceCents": 2590,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1760638590749blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883d97eeb20fb5af2de10c3",
+          "name": "Tx bacon",
+          "description": "Pão Macio, Blend Bovina (130g), Mussarela, Delicioso Bacon e Magnifica Maionese de Bacon da Casa",
+          "priceCents": 2699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790320330136blob",
+          "options": [
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883d9d2dc230bf93bf7129b",
+          "name": "Tx magalhaes",
+          "description": "Pão Brioche, Blend Bovina (150g), Mussarela, Alface Crocante, Abacaxi Caramelisado, Bacon Crocante, Molho Barbecue e Maionese da Casa",
+          "priceCents": 2899,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1760638620243blob",
+          "options": [
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6a91a7ccb75a2a0aa26179b2",
+          "name": "Tx onion melt",
+          "description": "Pão brioche artesanal, hambúrguer de 140g grelhado na brasa, mussarela derretida, bacon crocante, cebola caramelizada e nossa irresistível maionese de bacon.",
+          "priceCents": 2999,
+          "originalPriceCents": 3690,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1787930570878blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883d92d3e0cc3ba4c83a295",
+          "name": "Tx cheddar-bacon",
+          "description": "Pão Macio, Blend Bovina (130g), Mussarela, Saboroso Bacon,Cheddar e Magnífica Maionese de Bacon da Casa",
+          "priceCents": 2990,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790320226799blob",
+          "options": [
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6aa1b59d13a43f51b5cc0299",
+          "name": "Tx cream melt",
+          "description": "Pão artesanal, 2 burgers de 140g, mussarela, cream cheese, bacon e cebola caramelizada, com maionese de bacon e barbecue, alface e tomate",
+          "priceCents": 4290,
+          "originalPriceCents": 4990,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1788982683812blob",
+          "options": [
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Porções",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Batata 250g",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Batata 500g",
+                  "priceCents": 2990
+                },
+                {
+                  "name": "Batata cheddar bacon 250g",
+                  "priceCents": 2699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6a280e26938c6d2109daa894",
+          "name": "TX Cheese Stuffed (burguer recheado)",
+          "description": "200g de carne bovina recheada com mussarela, bacon crocante, alface, tomate, molho verde especial e pão artesanal. Suculento, cremoso e irresistível.",
+          "priceCents": 3690,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1781009957197blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Porções",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "name": "Batata 250g",
+                  "priceCents": 1999
+                },
+                {
+                  "name": "Batata 500g",
+                  "priceCents": 2990
+                },
+                {
+                  "name": "Batata cheddar bacon 250g",
+                  "priceCents": 2699
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6949913e4c05156ff2da9e94",
+          "name": "Tx sweet bbq",
+          "description": "Hambúrguer bovino suculento com mussarela derretida, banana caramelizada, alface e tomate, finalizado com molho barbecue no pão brioche. Um lanche que combina o doce da banana com o defumado do BBQ, equilibrado e cheio de personalidade Texanas.",
+          "priceCents": 3190,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1786728538547blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883db728edeb3247c3f519d",
+          "name": "Texanas",
+          "description": "Pão Macio, 2 Blend's Bovinas (130g), Mussarela, Alface crocante, Tomate, Delicioso Bacon Caramelizado, Banana Caramelizada, Molho cheddar e Maionese de Bacon da Casa",
+          "priceCents": 4190,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1753471857372blob",
+          "options": [
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6949836d4c05156ff2d956ef",
+          "name": "Texano tropical",
+          "description": "Três hambúrgueres bovinos suculentos com mussarela derretida, duas camadas de abacaxi grelhado com bacon crocante, finalizados com maionese de bacon no pão brioche. Um lanche intenso, que equilibra o defumado do bacon com o agridoce do abacaxi grelhado. Pesado, marcante e feito pra quem tem fome de verdade.",
+          "priceCents": 5499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1781012873935blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos promocionais",
+      "items": [
+        {
+          "sourceId": "6ab7f54fd5331a6cdee226a8",
+          "name": "Combo TX burguer+batata70g+coca lata 310ml",
+          "description": "COMBO TX BURGUER Pão artesanal, burger 140g na brasa, mussarela derretida e molho verde. Acompanha batata 70g + Coca-Cola lata 310ml.",
+          "priceCents": 3290,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790440780928blob",
+          "options": [
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6a04a3404f0e37bc5c91ca83",
+          "name": "COMBO TX Bacon+ batata70g+ coca cola lata 310ml.",
+          "description": "",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790320514951blob",
+          "options": [
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "68b34d72af070f8c0d0fe884",
+          "name": "COMBO TEXANAS 1 texanas + coca lata 310ml + batata 70g",
+          "description": "",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790320666852blob",
+          "options": [
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "68b1a4a020363c881991024f",
+          "name": "COMBO TX CHEDDAR BACON + coca lata 310ml + batata 70g",
+          "description": "",
+          "priceCents": 3999,
+          "originalPriceCents": 5099,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790441201338blob",
+          "options": [
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6ab7f59d3466e948497dee1f",
+          "name": "COMBO TX salada+batata70g+coca lata310ml.",
+          "description": "COMBO TX SALADA Pão artesanal, burger 140g na brasa, mussarela derretida, alface, tomate, cebola roxa, picles e molho verde. Acompanha batata 70g + Coca-Cola lata 310ml.",
+          "priceCents": 4290,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790441930639blob",
+          "options": [
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6ab6a135220d9847bfab98df",
+          "name": "COMBO TX CREAM MELT 1tx cream melt+batata70g+coca lata 310g.",
+          "description": "COMBO TX CREAM MELT Pão artesanal, alface, tomate, 2 burgers na brasa, mussarela, cream cheese, bacon crocante, cebola caramelizada, barbecue e maionese de bacon. Acompanha batata + Coca-Cola 310ml.",
+          "priceCents": 5690,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790353715928blob",
+          "options": [
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6ab7f634ca8f4397ad36790d",
+          "name": "Combo TX sweet BBQ+batata70g+coca lata 310ml",
+          "description": "COMBO TX SWEET BBQ Pão artesanal, burger 140g na brasa, mussarela derretida, banana caramelizada, barbecue, alface e tomate. Acompanha batata 70g + Coca-Cola lata 310ml.",
+          "priceCents": 4490,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790441010261blob",
+          "options": [
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "68f141a2cf2444b1a492e5ec",
+          "name": "COMBO TX BURGUER 2 TX Burguer + Duas cocas lata 310ml + batata 250g",
+          "description": "",
+          "priceCents": 5490,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1765571125315blob",
+          "options": [
+            {
+              "name": "Coca zero ou original",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "69c80ba43243753cb918ae27",
+          "name": "Combo TX Salada 2tx salada + batata250g+2coca lata 310ml.",
+          "description": "COMBO TX SALADA 2 burgers com pão macio, hambúrguer, mussarela, alface, tomate, cebola roxa e picles + batata (250g) + 2 coca lata 310ml. Ideal pra dividir… ou não Peça agora!",
+          "priceCents": 5990,
+          "originalPriceCents": 6990,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1774717859131blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Coca zero ou original",
+              "min": 2,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Coca lata original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca lata zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883dc83eb20fb5af2de6d2d",
+          "name": "2 tx bacon+ 1 Guaraná Antártita 1 Litro",
+          "description": "Tx - Bacon Pão, burger(140g), mussarela, bacon e maionese de bacon. Acompanhado de uma bebida 1 Litro grátis",
+          "priceCents": 5990,
+          "originalPriceCents": 6490,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1783717889981blob",
+          "options": [
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883dd178edeb3247c3f8d03",
+          "name": "1 Tx Salada + 1 Tx Bacon+ 1 Guaraná Antártica 1l",
+          "description": "2 Hamburgueres e um Guaraná 1 Litro Grátis com um super desconto Tx Salada: Pão, Burguer (130g), mussarela, tomate, alface, rúcula, cebola roxa, picles e molho verde.",
+          "priceCents": 5999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1766515523912blob",
+          "options": [
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6a7cd0d653e361ab1f18d220",
+          "name": "COMBO TEXANAS 1 Texanas + batata 70g.",
+          "description": "",
+          "priceCents": 4990,
+          "originalPriceCents": 6290,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1786564820633blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 8,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6a86094375bb3849d7df0a49",
+          "name": "Combo 2 TX SALADA + batata 250g",
+          "description": "2 TX Saladas na brasa, com pão brioche macio, burger de 140g, mussarela, picles, alface, tomate e cebola, acompanhados de batata crocante de 250g.",
+          "priceCents": 4499,
+          "originalPriceCents": 5990,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1787169090532blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "694ae3d34c05156ff2f56960",
+          "name": "Combo Tx Magalhães + Tx Sweet Bbq + Guaraná 1l.",
+          "description": "Combo Magalhães & Sweet Combo com 2 hambúrgueres especiais + 1 Guaraná Antarctica 1l. Tx Magalhães: Pão hambúrguer, hambúrguer, abacaxi grelhado, mussarela, bacon, alface, tomate e molho barbecue. Sweet: Pão hambúrguer, hambúrguer, banana caramelizada, mussarela, alface, tomate e molho barbecue. Ideal para dividir e aproveitar dois sabores únicos.",
+          "priceCents": 6290,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1766515666477blob",
+          "options": [
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6883de2a503c9dbb024a6d1e",
+          "name": "Combo casal texanas, 2 Texanas + batata 250g+ coca cola 1,5.",
+          "description": "2 texanas+ batata 250g+ coca 1,5 GRÁTIS!",
+          "priceCents": 8990,
+          "originalPriceCents": 9490,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1781384305413blob",
+          "options": [
+            {
+              "name": "Coca cola 1,5 normal ou zero",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "68b75f470627a4ab27ce8e87",
+          "name": "COMBO TX Magalhães + TX salada + batata 250g+ coca 1,5L.",
+          "description": "",
+          "priceCents": 7190,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1761057749281blob",
+          "options": [
+            {
+              "name": "Coca cola 1,5 normal ou zero",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6ab620ea60cbce57f482ae19",
+          "name": "COMBO SUPREME Cheddar Bacon 2tx cheddar bacon+ batata 250g cheddar bacon+ coca cola 1,5l",
+          "description": "COMBO 2X TX CHEDDAR BACON 2 burgers 140g na brasa, cheddar cremoso, mussarela, bacon crocante e maionese de bacon. Acompanha batata cheddar bacon 250g + Coca-Cola 1,5L.",
+          "priceCents": 7690,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790320872502blob",
+          "options": [
+            {
+              "name": "Coca cola 1,5 normal ou zero",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "693c6b23ca6bfcf893912695",
+          "name": "COMBO TRIPLO TX Salada, 3 TX Salada+ coca cola 1,5.",
+          "description": "",
+          "priceCents": 7990,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1765567265658blob",
+          "options": [
+            {
+              "name": "Coca cola 1,5 normal ou zero",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "693c6de4509383509c82e2b1",
+          "name": "COMBO FAMÍLIA, 4 TX Bacon + coca cola 1,5 grátis!.",
+          "description": "",
+          "priceCents": 9999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1765569685682blob",
+          "options": [
+            {
+              "name": "Coca cola 1,5 normal ou zero",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca cola original",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca cola zero",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Turbine seu Lanche",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Bacon",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Banana Caramelizada",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Queijo Mussarela",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Hamburguer",
+                  "priceCents": 1000
+                },
+                {
+                  "name": "Batata palito 70g",
+                  "priceCents": 599
+                },
+                {
+                  "name": "Adicional de salada",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Cebola roxa crua",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Picles",
+                  "priceCents": 90
+                },
+                {
+                  "name": "Cebola caramelizada",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 190
+                },
+                {
+                  "name": "Cream cheese no hamburguer",
+                  "priceCents": 490
+                },
+                {
+                  "name": "Burguer recheado com mussarela 200g",
+                  "priceCents": 1590
+                },
+                {
+                  "name": "Abacaxi caramelizado",
+                  "priceCents": 599
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "6883de88265f732561b13a80",
+          "name": "Coca cola lata 310ml",
+          "description": "",
+          "priceCents": 699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1753472647583blob",
+          "options": []
+        },
+        {
+          "sourceId": "6883dfd7c23eac113b2d8746",
+          "name": "Coca cola 1,5",
+          "description": "",
+          "priceCents": 1299,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1753472982453blob",
+          "options": []
+        },
+        {
+          "sourceId": "68b0d46118a3e1c882aa66de",
+          "name": "Coca lata zero",
+          "description": "Coca lata zero",
+          "priceCents": 699,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1756419168344blob",
+          "options": []
+        },
+        {
+          "sourceId": "6ab6a1819f92f0be01c86b7d",
+          "name": "Guarana1l",
+          "description": "",
+          "priceCents": 999,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1790353792991blob",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "6883e959c23eac113b2f107c",
+          "name": "Batata chaddar bacon 250g",
+          "description": "Promoção Irresistível: Batata Cheddar Bacon! A explosão de sabor que você ama com um preço especial! Nossas batatas crocantes, cobertas com muito cheddar cremoso e pedacinhos crocantes de bacon, estão com desconto por tempo limitado. Perfeita para compartilhar (ou não ), essa delícia vai conquistar seu paladar! Garanta já a sua! Só enquanto durar a promoção!",
+          "priceCents": 2790,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1781013738036blob",
+          "options": []
+        },
+        {
+          "sourceId": "68b9b8da128950b7bff3a2fc",
+          "name": "Batata cheddar bacon 500g",
+          "description": "Promoção Irresistível: Batata Cheddar Bacon! A explosão de sabor que você ama com um preço especial! Nossas batatas crocantes, cobertas com muito cheddar cremoso e pedacinhos crocantes de bacon, estão com desconto por tempo limitado. Perfeita para compartilhar (ou não ), essa delícia vai conquistar seu paladar! Garanta já a sua! Só enquanto durar a promoção!",
+          "priceCents": 3499,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1781013759397blob",
+          "options": []
+        },
+        {
+          "sourceId": "68c49d2aed7c2aa9a2a74399",
+          "name": "Salada tropical",
+          "description": "Uma explosão de sabores tropicais! Alface fresquinha, tomate suculento, banana caramelizada no ponto certo, cebola roxa marcante, hambúrguer artesanal suculento e mussarela derretida. Uma combinação leve, surpreendente e deliciosa",
+          "priceCents": 2499,
+          "originalPriceCents": 2999,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1757715753237blob",
+          "options": []
+        },
+        {
+          "sourceId": "6a281abffbd459bcb547c320",
+          "name": "Batata frita 250g",
+          "description": "",
+          "priceCents": 2190,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1781013182253blob",
+          "options": [
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            },
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "6a281b024875959f8b679268",
+          "name": "Batata frita 500g",
+          "description": "",
+          "priceCents": 2790,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/688127fa3e7ccd00120f7054/-1781013249685blob",
+          "options": [
+            {
+              "name": "Bebida com 30% de desconto",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Coca-Cola Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Coca Cola Zero Lata 310ml",
+                  "priceCents": 699
+                },
+                {
+                  "name": "Refrigerante Guaraná Antártica 1l",
+                  "priceCents": 999
+                },
+                {
+                  "name": "Refrigerante Coca Cola 1.5 Litros",
+                  "priceCents": 1399
+                }
+              ]
+            },
+            {
+              "name": "Gostaria de um Molho?",
+              "min": 0,
+              "max": 5,
+              "choices": [
+                {
+                  "name": "Maionese de Bacon",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho Verde",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho de Cheddar",
+                  "priceCents": 290
+                },
+                {
+                  "name": "Molho barbecue",
+                  "priceCents": 390
+                },
+                {
+                  "name": "Adicional de ketchup e maiosene extra",
+                  "priceCents": 490
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {
+    "esgotado": 8
+  },
+  "notes": [
+    "\"Tx burguer\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx burguer\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx burguer\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx onion melt\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx onion melt\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx onion melt\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx cream melt\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx cream melt\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Tx cream melt\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"TX Cheese Stuffed (burguer recheado)\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"TX Cheese Stuffed (burguer recheado)\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"TX Cheese Stuffed (burguer recheado)\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX burguer+batata70g+coca lata 310ml\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX burguer+batata70g+coca lata 310ml\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX burguer+batata70g+coca lata 310ml\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX Bacon+ batata70g+ coca cola lata 310ml.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX Bacon+ batata70g+ coca cola lata 310ml.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX Bacon+ batata70g+ coca cola lata 310ml.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TEXANAS 1 texanas + coca lata 310ml + batata 70g\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TEXANAS 1 texanas + coca lata 310ml + batata 70g\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TEXANAS 1 texanas + coca lata 310ml + batata 70g\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX CHEDDAR BACON + coca lata 310ml + batata 70g\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX CHEDDAR BACON + coca lata 310ml + batata 70g\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX CHEDDAR BACON + coca lata 310ml + batata 70g\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX salada+batata70g+coca lata310ml.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX salada+batata70g+coca lata310ml.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX salada+batata70g+coca lata310ml.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX CREAM MELT 1tx cream melt+batata70g+coca lata 310g.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX CREAM MELT 1tx cream melt+batata70g+coca lata 310g.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX CREAM MELT 1tx cream melt+batata70g+coca lata 310g.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX sweet BBQ+batata70g+coca lata 310ml\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX sweet BBQ+batata70g+coca lata 310ml\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX sweet BBQ+batata70g+coca lata 310ml\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX BURGUER 2 TX Burguer + Duas cocas lata 310ml + batata 250g\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX BURGUER 2 TX Burguer + Duas cocas lata 310ml + batata 250g\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX BURGUER 2 TX Burguer + Duas cocas lata 310ml + batata 250g\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX Salada 2tx salada + batata250g+2coca lata 310ml.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX Salada 2tx salada + batata250g+2coca lata 310ml.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo TX Salada 2tx salada + batata250g+2coca lata 310ml.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo 2 TX SALADA + batata 250g\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo 2 TX SALADA + batata 250g\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo 2 TX SALADA + batata 250g\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo casal texanas, 2 Texanas + batata 250g+ coca cola 1,5.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo casal texanas, 2 Texanas + batata 250g+ coca cola 1,5.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Combo casal texanas, 2 Texanas + batata 250g+ coca cola 1,5.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX Magalhães + TX salada + batata 250g+ coca 1,5L.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX Magalhães + TX salada + batata 250g+ coca 1,5L.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TX Magalhães + TX salada + batata 250g+ coca 1,5L.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO SUPREME Cheddar Bacon 2tx cheddar bacon+ batata 250g cheddar bacon+ coca cola 1,5l\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO SUPREME Cheddar Bacon 2tx cheddar bacon+ batata 250g cheddar bacon+ coca cola 1,5l\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO SUPREME Cheddar Bacon 2tx cheddar bacon+ batata 250g cheddar bacon+ coca cola 1,5l\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TRIPLO TX Salada, 3 TX Salada+ coca cola 1,5.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TRIPLO TX Salada, 3 TX Salada+ coca cola 1,5.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO TRIPLO TX Salada, 3 TX Salada+ coca cola 1,5.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO FAMÍLIA, 4 TX Bacon + coca cola 1,5 grátis!.\": \"Turbine seu Lanche\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO FAMÍLIA, 4 TX Bacon + coca cola 1,5 grátis!.\": \"Gostaria de um Molho?\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"COMBO FAMÍLIA, 4 TX Bacon + coca cola 1,5 grátis!.\": \"Bebida com 30% de desconto\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação."
+  ],
+  "ops": {
+    "deliveryMin": 45,
+    "deliveryMax": 75
+  },
+  "city": "Barra do Garças",
+  "phones": [
+    "(66) 9 9929-4772",
+    "(66) 9 9209-8110"
+  ]
+}

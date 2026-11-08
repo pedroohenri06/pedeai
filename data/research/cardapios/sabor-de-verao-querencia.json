@@ -1,0 +1,2141 @@
+{
+  "id": "sabor-de-verao-querencia",
+  "platform": "foodsapp",
+  "source": "https://sabordeverao.foodsapp.com.br/loja/pedidos",
+  "capturedAt": "2026-11-08T20:22:16.575Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Lanches",
+      "items": [
+        {
+          "sourceId": "217880",
+          "name": "X-Burguer",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Batata Palha, Hambúrguer Artesanal, Presunto e Mussarela.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217881",
+          "name": "X-Dog",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Batata Palha, Salsicha ao Molho, Presunto e Mussarela.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217882",
+          "name": "X-Salada",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Hambúrguer Artesanal, Presunto, Mussarela, Tomate e Alface",
+          "priceCents": 2700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217883",
+          "name": "X-Egg",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Ovo, Hambúrguer Artesanal, Presunto, Mussarela, Tomate e Alface.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217887",
+          "name": "X-Calabresa",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Calabresa, Hambúrguer Artesanal, Presunto, Mussarela, Tomate e Alface.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217888",
+          "name": "X-Frango",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Frango, Hambúrguer Artesanal, Presunto, Mussarela, Tomate e Alface.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217889",
+          "name": "X-Bacon",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Bacon, Hambúrguer Artesanal, Presunto, Mussarela, Tomate e Alface.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217890",
+          "name": "X-Moda da Casa",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Batata Palha, Calabresa, Cebola Frita, Hambúrguer Artesanal, Presunto e Mussarela, Tomate e Alface.",
+          "priceCents": 3200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217892",
+          "name": "X-Franbacon",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Frango, Bacon, Salsicha, Hambúrguer Artesanal, Presunto, Mussarela, Tomate e Alface.",
+          "priceCents": 3700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217893",
+          "name": "X-Filé",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Filé, Mussarela, Tomate e Alface.",
+          "priceCents": 3900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217896",
+          "name": "X-Tudo",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Frango, Bacon, Calabresa, Salsicha, Hambúrguer Artesanal, Ovo, Presunto, Mussarela, Tomate e Alface.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217900",
+          "name": "X-Filé Especial",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Presunto, Mussarela, Filé, Bacon, Calabresa, Cebola, Tomate e Alface.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217901",
+          "name": "X-Picanha",
+          "description": "Pão Com Gergelim Preto, Molho Mac, Milho, Batata Palha, Filé, Presunto, Mussarela, Cebola, Tomate e Alface.",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "217788",
+          "name": "Porção - Azeitona",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a5505edcftj58r.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217803",
+          "name": "Porção - Tábua de Frios",
+          "description": "Presunto, Mussarela, Azeitona, Ovo de Codorna, Pepino e Salame.",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217802",
+          "name": "Porção - Salame",
+          "description": "",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a457a980egaier.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217800",
+          "name": "Porção - Peixe Filé de Tilápia",
+          "description": "",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217799",
+          "name": "Porção - Alcatra Acebolada",
+          "description": "Com Mandioca ou Batata Frita.",
+          "priceCents": 8000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217798",
+          "name": "Porção - Filé Acebolado",
+          "description": "Com Mandioca ou Batata Frita.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217797",
+          "name": "Porção - Picanha Acebolada",
+          "description": "Com Mandioca ou Batata Frita.",
+          "priceCents": 10500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o acompanhamento",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Batata Frita",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mandioca",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "904660",
+          "name": "Porção Frango com Batata",
+          "description": "",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6840e342ad1a6r3k52.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217795",
+          "name": "Porção - Frango à Passarinho",
+          "description": "",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63599fcc28d8daoi6t.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217794",
+          "name": "Porção - Calafrita",
+          "description": "Calabresa e Batata.",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217793",
+          "name": "Porção - Calabresa",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63599fb61a2b4qlggp.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217789",
+          "name": "Porção - Batata",
+          "description": "",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63599f82e594fqi6b3.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217792",
+          "name": "Porção - Batata Flambada",
+          "description": "Queijo, Bacon e Cheddar.",
+          "priceCents": 5800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217790",
+          "name": "Porção - Batata com Bacon",
+          "description": "",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217791",
+          "name": "Porção - Batata com Bacon e Queijo",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217796",
+          "name": "Porção - Mandioca com Bacon",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Guarnições extras",
+      "items": [
+        {
+          "sourceId": "217806",
+          "name": "Salada",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217805",
+          "name": "Feijão",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217804",
+          "name": "Arroz",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua fome!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pratos feitos",
+      "items": [
+        {
+          "sourceId": "217872",
+          "name": "Prato Feito - Bife Acebolado",
+          "description": "Arroz, Feijão, Ovo, Batata Frita, Alface e Tomate.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Que tal um extra no PF?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bife Acebolado",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Filé de Tilápia",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217879",
+          "name": "Prato Feito - Filé de Tilápia",
+          "description": "Arroz, Feijão, Ovo, Batata Frita, Alface e Tomate.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Que tal um extra no PF?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bife Acebolado",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Filé de Tilápia",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217877",
+          "name": "Prato Feito - Filé de Frango",
+          "description": "Arroz, Feijão, Ovo, Batata Frita, Alface e Tomate.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Que tal um extra no PF?",
+              "min": 0,
+              "max": 4,
+              "choices": [
+                {
+                  "name": "Bife Acebolado",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Filé de Frango",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Filé de Tilápia",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Ovo",
+                  "priceCents": 300
+                }
+              ]
+            },
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Panquecas",
+      "items": [
+        {
+          "sourceId": "217809",
+          "name": "Panqueca - Estrogonoff de Carne",
+          "description": "Acompanha porção de arroz e salada.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217808",
+          "name": "Panqueca - Frango com Catupiry",
+          "description": "Acompanha porção de arroz e salada.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217807",
+          "name": "Panqueca - Carne com Queijo",
+          "description": "Acompanha porção de arroz e salada.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Batata recheada",
+      "items": [
+        {
+          "sourceId": "217866",
+          "name": "Batata Recheada - Bolonhesa",
+          "description": "Molho, Carne Moída, Milho, Ervilha, Batata Palha e Mussarela. Acompanha porção de arroz e salada.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217868",
+          "name": "Batata Recheada - Pizza",
+          "description": "Presunto, Mussarela, Milho, Ervilha, Batata Palha e Orégano. Acompanha porção de arroz e salada.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217867",
+          "name": "Batata Recheada - Estrogonoff",
+          "description": "Estrogonoff de Carne, Milho, Ervilha, Batata Palha e Mussarela. Acompanha porção de arroz e salada.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217810",
+          "name": "Batata Recheada - Frango e Catupiry",
+          "description": "Milho, Ervilha, Batata Palha e Mussarela. Acompanha porção de arroz e salada.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Guarnição extra?",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Arroz - Média",
+                  "priceCents": 1300
+                },
+                {
+                  "name": "Arroz - Grande",
+                  "priceCents": 1800
+                },
+                {
+                  "name": "Feijão - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Feijão - Grande",
+                  "priceCents": 2000
+                },
+                {
+                  "name": "Salada - Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Salada - Grande",
+                  "priceCents": 2000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "217869",
+          "name": "Caldo - Frango",
+          "description": "Acompanha: Queijo, Cheiro Verde e Torradas.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a686ade925zamv.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217871",
+          "name": "Caldo - Franjão (Frango com Feijão)",
+          "description": "Acompanha: Queijo, Cheiro Verde e Torradas.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217870",
+          "name": "Caldo - Feijão",
+          "description": "Acompanha: Queijo, Cheiro Verde e Torradas.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a69a3776cxd662.webp",
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Mega combo de fritas",
+      "items": [
+        {
+          "sourceId": "217777",
+          "name": "Combo 1",
+          "description": "Frango + Calabresa + Fritas.",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217778",
+          "name": "Combo 2",
+          "description": "Peixe + Calabresa + Fritas.",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217779",
+          "name": "Combo 3",
+          "description": "Frango + Calabresa + Argolas de Cebola.",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217780",
+          "name": "Combo 4",
+          "description": "Picanha + Peixe + Calabresa + Fritas.",
+          "priceCents": 12000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217781",
+          "name": "Combo 5",
+          "description": "Filé + Frios + Peixe + Fritas.",
+          "priceCents": 12000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217782",
+          "name": "Combo 6",
+          "description": "Picanha + Frango + Toscana + Fritas.",
+          "priceCents": 12000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217783",
+          "name": "Combo 7",
+          "description": "Filé + Frango + Calabresa + Argolas de Cebola.",
+          "priceCents": 12000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217784",
+          "name": "Combo 8",
+          "description": "Picanha + Frango + Peixe + Calabresa + Fritas.",
+          "priceCents": 15000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217785",
+          "name": "Combo 9 - Torre de Batata",
+          "description": "TORRE DE BATATA Batata Frita + Queijo + Bacon + Calabresa + Molho Branco.",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217786",
+          "name": "Combo 10 - Torre de Batata",
+          "description": "TORRE DE BATATA Batata Frita + Strogonoff + Bacon + Batata Palha + Queijo + Molho Branco.",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217787",
+          "name": "Combo 11 - Torre de Batata",
+          "description": "TORRE DE BATATA Batata Frita + Frango Desfiado + Bacon + Batata Palha + Queijo + Molho Branco.",
+          "priceCents": 9500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Pizzas salgadas",
+      "items": [
+        {
+          "sourceId": "217775",
+          "name": "Grande - 12 Pedaços",
+          "description": "Até 2 sabores.",
+          "priceCents": 9000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileirinha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon com Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caprichosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cremosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fornalha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoff",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda Da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sabor de Verão",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217774",
+          "name": "Média - 8 Pedaços",
+          "description": "Até 2 sabores.",
+          "priceCents": 7500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileirinha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon com Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caprichosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cremosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fornalha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoff",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda Da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sabor de Verão",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217773",
+          "name": "Pequena - 4 Pedaços",
+          "description": "Somente 1 sabor.",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a03b2a01eeoa7k.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brasileirinha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Bacon com Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Baiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caprichosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cremosa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fornalha",
+                  "priceCents": 0
+                },
+                {
+                  "name": "4 Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Frango Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Estrogonoff",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Italiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda Da Casa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sabor de Verão",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas doces",
+      "items": [
+        {
+          "sourceId": "217768",
+          "name": "Pequena - 4 Pedaços",
+          "description": "Somente 1 sabor.",
+          "priceCents": 4800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Chocolate Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217770",
+          "name": "Grande - 12 Pedaços",
+          "description": "Até 2 sabores.",
+          "priceCents": 8500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Chocolate Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217769",
+          "name": "Média - 8 Pedaços",
+          "description": "Até 2 sabores.",
+          "priceCents": 7500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor da pizza",
+              "min": 1,
+              "max": 2,
+              "choices": [
+                {
+                  "name": "Chocolate Preto",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Chocolate Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Banana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Ouro Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Prestígio",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Refrigerantes e bebidas",
+      "items": [
+        {
+          "sourceId": "217921",
+          "name": "Água com gás - 500ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a08abea22qg09a.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217922",
+          "name": "Água sem gás - 500ml",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a07089b3b9dkbe.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217915",
+          "name": "Água de Coco - 1 Litro",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217920",
+          "name": "Água H2OH!",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63598b8db0b1crw7xa.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217914",
+          "name": "Água Tõnica - Lata 350ml",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359a3307d87fc658r.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217923",
+          "name": "Coca-Cola Original",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6356e70191a04up27u.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola Original - Lata 310ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola Original - 500ml",
+                  "priceCents": 100
+                },
+                {
+                  "name": "Coca-Cola Original - 2 Litros",
+                  "priceCents": 900
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217924",
+          "name": "Fanta",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6356e72faeac19g752.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Fanta Laranja - Lata 310ml",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217925",
+          "name": "Guaraná Antarctica",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6356e7ad2d29bf05pf.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Do tamanho da sua sede!",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná Antarctica - Lata 269ml",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Guaraná Antarctica - 600ml",
+                  "priceCents": 50
+                },
+                {
+                  "name": "Guaraná Antarctica - 1 Litro",
+                  "priceCents": 550
+                },
+                {
+                  "name": "Guaraná Antarctica - 2 Litros",
+                  "priceCents": 950
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217904",
+          "name": "Energético - TNT",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63598589c317bmlngi.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217905",
+          "name": "Energético - Red Bull",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/635985ae01fd035wha.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217916",
+          "name": "Gatorade",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63598ba51bc9alz6ii.webp",
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217910",
+          "name": "Ice",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        },
+        {
+          "sourceId": "217917",
+          "name": "Schweppes Citrus - Lata 310ml",
+          "description": "",
+          "priceCents": 650,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Sucos e cremes",
+      "items": [
+        {
+          "sourceId": "217933",
+          "name": "Creme Especial Copo - 310ml",
+          "description": "Com leite condensado.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor do Suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com Hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Goiaba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218853",
+          "name": "Suco Garrafa - 400ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor do Suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com Hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Goiaba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218852",
+          "name": "Suco Garrafa - 1 Litro",
+          "description": "",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor do Suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com Hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Goiaba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "217932",
+          "name": "Creme Copo - 310ml",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "featured": false,
+          "options": [
+            {
+              "name": "Escolha o sabor do Suco",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Abacaxi com Hortelã",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Acerola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Açaí",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caju",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Cupuaçu",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Laranja",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Goiaba",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Uva",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cervejas geladas",
+      "items": [
+        {
+          "sourceId": "218648",
+          "name": "Skol",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63599289c2bd42uqib.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual a sua gelada?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Skol - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218688",
+          "name": "Amstel",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359951698ac0j4mxz.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual a sua gelada?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Amstel - Lata",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218687",
+          "name": "Brahma",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359962f3fe792te4v.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual a sua gelada?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brahma - Lata",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Brahma Zero - Long Neck",
+                  "priceCents": 500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218652",
+          "name": "Budweiser",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/635997032654dd13hk.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual a sua gelada?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Budweiser - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218651",
+          "name": "Caracu",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/6359980a2cadcparma.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual a sua gelada?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Caracu - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218650",
+          "name": "Corona",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63599927ae8denmto1.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual a sua gelada?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Corona - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "218649",
+          "name": "Heineken",
+          "description": "",
+          "priceCents": 1300,
+          "originalPriceCents": null,
+          "imageUrl": "https://alloydeliveryimages.ligafiles.com.br/item_images/6617/63599cda8c602zrui2.webp",
+          "featured": false,
+          "options": [
+            {
+              "name": "Qual a sua gelada?",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Heineken - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": []
+}

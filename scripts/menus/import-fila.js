@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-/* Importa os resultados do Agente de Cardápios (Claude in Chrome), colados da página fila-cardapios.html.
+/* Importa os resultados do Agente de Cardápios (Claude in Chrome): o bloco de linhas JSON que ele devolve no fim de cada cidade
+   (prompts gerados por scripts/menus/agent-prompts.js).
    Uma linha JSON por loja (formato em data/research/cardapios/AGENTE-CARDAPIOS.md).
 
    Uso: node scripts/menus/import-fila.js <resultados.jsonl>            → só mostra o plano (nada é gravado)

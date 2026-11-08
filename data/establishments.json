@@ -2786,7 +2786,7 @@
         "sourceUrl": "https://www.instagram.com/alberitasoficial/",
         "tile": "assets/stores/alberita-s-hamburguer-e-massas-vila-rica-logo-tile.webp"
       },
-      "rank": 8,
+      "rank": 9,
       "brand": {
         "primary": "#bb2b1e",
         "deep": "#bb2b1e",
@@ -7569,7 +7569,7 @@
         "sourceUrl": "https://www.instagram.com/crememania_vr/",
         "tile": "assets/stores/creme-mania-vila-rica-vila-rica-logo-tile.webp"
       },
-      "rank": 10,
+      "rank": 11,
       "brand": {
         "primary": "#1537eb",
         "deep": "#1537eb",
@@ -10113,7 +10113,7 @@
         "sourceUrl": "https://www.instagram.com/pudim_ke/",
         "tile": "assets/stores/ke-pudim-vila-rica-logo-tile.webp"
       },
-      "rank": 9,
+      "rank": 10,
       "brand": {
         "primary": "#efdbbd",
         "deep": "#7f7464",
@@ -15071,13 +15071,35 @@
       "hours": null,
       "deliveryFeeCents": null,
       "image": null,
-      "menuSource": null,
-      "menu": [],
+      "menuSource": "https://www.instagram.com/rsconfeitaria374/",
+      "menu": [
+        {
+          "id": "brigadeiros-tradicionais-cento",
+          "section": "Brigadeiros",
+          "name": "Brigadeiros tradicionais (cento)",
+          "description": "Sabores: brigadeiro 50%, ninho, ninho e nutella, maracujá, amendoim, ferrero rocher. Cento: escolher 4 sabores; meio cento (50 un): 2 sabores",
+          "priceCents": 18000
+        },
+        {
+          "id": "bolo-de-festa-por-kg",
+          "section": "Bolo de festa (por quilo)",
+          "name": "Bolo de festa (por kg)",
+          "description": "Recheios: ninho, brigadeiro 50%, abacaxi, coco, bombom, morango, doce de leite, maracujá, ameixa, amendoim, oreo, paçoca, limão. Massas: branca tradicional, branca baunilha, chocolate",
+          "priceCents": 7000
+        },
+        {
+          "id": "bolo-de-festa-com-morango-e-frutas-por-kg",
+          "section": "Bolo de festa (por quilo)",
+          "name": "Bolo de festa com morango e frutas (por kg)",
+          "description": "",
+          "priceCents": 7500
+        }
+      ],
       "sources": [
         "https://www.instagram.com/rsconfeitaria374/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-28",
+      "verifiedAt": "2026-11-08",
       "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @rsconfeitaria374 (541 posts, 743 seguidores, último post 2026-10-25). Bio: \"Empreendedor(a). Ronise Silva. Desde 2019 deixando o seu dia mais doce e feliz... 💜 • Vila Rica - MT • Pedidos, informações e encomendas:66992314274\". Último post sem alfinete 2026-10-25 (3 fixados).",
       "logo": {
         "src": "assets/stores/rs-confeitaria-vila-rica-logo.webp",
@@ -15091,7 +15113,7 @@
         "sourceUrl": "https://www.instagram.com/rsconfeitaria374/",
         "tile": "assets/stores/rs-confeitaria-vila-rica-logo-tile.webp"
       },
-      "rank": 11,
+      "rank": 7,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",
@@ -21502,7 +21524,7 @@
         "sourceUrl": "https://www.instagram.com/tcheburgueresorvetevr/",
         "tile": "assets/stores/tche-hamburgueria-e-sorveteria-vila-rica-logo-tile.webp"
       },
-      "rank": 7,
+      "rank": 8,
       "brand": {
         "primary": "#762c2d",
         "deep": "#762c2d",
@@ -27458,7 +27480,7 @@
         "sourceUrl": "https://www.instagram.com/artesanal_armazem/",
         "tile": "assets/stores/armazem-pizzaria-artesanal-querencia-logo-tile.webp"
       },
-      "rank": 18,
+      "rank": 19,
       "brand": {
         "primary": "#e6a33c",
         "deep": "#976b27",
@@ -32711,7 +32733,7 @@
         "sourceUrl": "https://www.instagram.com/casadosushi.querencia/",
         "tile": "assets/stores/casa-do-sushi-querencia-logo-tile.webp"
       },
-      "rank": 27,
+      "rank": 29,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",
@@ -37270,7 +37292,7 @@
         "sourceUrl": "https://www.instagram.com/churrascariaranchodovale/",
         "tile": "assets/stores/churrascaria-rancho-do-vale-querencia-logo-tile.webp"
       },
-      "rank": 16,
+      "rank": 17,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",
@@ -38458,7 +38480,7 @@
         "sourceUrl": "https://www.instagram.com/coral_sushi_/",
         "tile": "assets/stores/coral-sushi-delivery-querencia-logo-tile.webp"
       },
-      "rank": 24,
+      "rank": 26,
       "brand": {
         "primary": "#bf5546",
         "deep": "#bf5546",
@@ -38490,13 +38512,91 @@
       "hours": null,
       "deliveryFeeCents": null,
       "image": null,
-      "menuSource": null,
-      "menu": [],
+      "menuSource": "https://www.instagram.com/cuscuzdamainha/",
+      "menu": [
+        {
+          "id": "tradicional",
+          "section": "Cuscuz salgado",
+          "name": "Tradicional",
+          "description": "Manteiga e queijo.",
+          "priceCents": 1000
+        },
+        {
+          "id": "calabresa-especial",
+          "section": "Cuscuz salgado",
+          "name": "Calabresa especial",
+          "description": "Calabresa acebolada, queijo e catupiry.",
+          "priceCents": 1200
+        },
+        {
+          "id": "frango-cremoso",
+          "section": "Cuscuz salgado",
+          "name": "Frango cremoso",
+          "description": "Frango desfiado, catupiry e queijo.",
+          "priceCents": 1300
+        },
+        {
+          "id": "carne-moida",
+          "section": "Cuscuz salgado",
+          "name": "Carne moída",
+          "description": "Carne moída, queijo e catupiry.",
+          "priceCents": 1400
+        },
+        {
+          "id": "cuscuz-arretado",
+          "section": "Cuscuz salgado",
+          "name": "Cuscuz arretado",
+          "description": "Carne de sol, catupiry, banana da terra e queijo.",
+          "priceCents": 1500
+        },
+        {
+          "id": "especial-da-mainha",
+          "section": "Cuscuz salgado",
+          "name": "Especial da mainha",
+          "description": "Carne seca, ovo, catupiry e queijo.",
+          "priceCents": 1800
+        },
+        {
+          "id": "casadinho",
+          "section": "Cuscuz salgado",
+          "name": "Casadinho",
+          "description": "Flocão de arroz, flocão de milho, carne seca e catupiry",
+          "priceCents": 2000
+        },
+        {
+          "id": "maria-bonita",
+          "section": "Cuscuz doce",
+          "name": "Maria bonita",
+          "description": "Banana com canela e leite condensado.",
+          "priceCents": 1500
+        },
+        {
+          "id": "romeu-e-julieta",
+          "section": "Cuscuz doce",
+          "name": "Romeu e Julieta",
+          "description": "Goiabada e queijo.",
+          "priceCents": 1500
+        },
+        {
+          "id": "cuscuz-lampiao",
+          "section": "Cuscuz doce",
+          "name": "Cuscuz lampião",
+          "description": "Coco ralado e leite condensado.",
+          "priceCents": 1800
+        },
+        {
+          "id": "paixao-nordestina",
+          "section": "Cuscuz doce",
+          "name": "Paixão nordestina",
+          "description": "Morango e chocolate.",
+          "priceCents": 2500
+        }
+      ],
       "sources": [
         "https://www.instagram.com/cuscuzdamainha/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-28",
+      "verifiedAt": "2026-11-08",
       "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @cuscuzdamainha (20 posts, 239 seguidores, último post 2026-07-29). Bio: \"cuscuz da mainha. Restaurante. 🌽 Cuscuz recheado no pote. ❤️ Sabor que vem do Nordeste e aquece o coração. 📍 Querência – MT. 🛵 entregas 5,00 apenas\". Último post sem alfinete 2026-07-29 (no limite dos 3 meses). O wa.me da bio é de DDD 67 (67 99922-8155): vai em phone, não em whatsapp. Entrega R$ 5.",
       "logo": {
         "src": "assets/stores/cuscuz-da-mainha-querencia-logo.webp",
@@ -38510,7 +38610,7 @@
         "sourceUrl": "https://www.instagram.com/cuscuzdamainha/",
         "tile": "assets/stores/cuscuz-da-mainha-querencia-logo-tile.webp"
       },
-      "rank": 32,
+      "rank": 20,
       "brand": {
         "primary": "#d1a569",
         "deep": "#896c45",
@@ -39170,7 +39270,7 @@
       "confidence": "media",
       "verifiedAt": "2026-10-30",
       "notes": "Página própria no aiqfome confirma delivery de camarão, caldo e porções. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca.",
-      "rank": 25,
+      "rank": 27,
       "logo": {
         "src": "assets/stores/delicias-do-para-querencia-logo.webp",
         "thumb": "assets/stores/delicias-do-para-querencia-logo-card.webp",
@@ -39214,13 +39314,68 @@
       "hours": "Produção de quarta a sábado",
       "deliveryFeeCents": null,
       "image": null,
-      "menuSource": null,
-      "menu": [],
+      "menuSource": "https://www.instagram.com/dolce_affettoconfeitaria/",
+      "menu": [
+        {
+          "id": "frango-queijo-e-requeijao-cremoso",
+          "section": "Baguete recheada",
+          "name": "Frango, queijo e requeijão cremoso",
+          "description": "",
+          "priceCents": 2800,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "p",
+                  "name": "P",
+                  "priceCents": 0
+                },
+                {
+                  "id": "g",
+                  "name": "G",
+                  "priceCents": 2100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "carne-desfiada-queijo-e-requeijao-cremoso",
+          "section": "Baguete recheada",
+          "name": "Carne desfiada, queijo e requeijão cremoso",
+          "description": "",
+          "priceCents": 3800,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "p",
+                  "name": "P",
+                  "priceCents": 0
+                },
+                {
+                  "id": "g",
+                  "name": "G",
+                  "priceCents": 2400
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "sources": [
         "https://www.instagram.com/dolce_affettoconfeitaria/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-28",
+      "verifiedAt": "2026-11-08",
       "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @dolce_affettoconfeitaria (18 posts, 461 seguidores, último post 2026-10-16). Bio: \"🍰🍞 Confeitaria e Panificação 🤎 Produção de quarta à sábado 📍Querência - MT 📱Encomendas👇 wa.me/5566992013176\".",
       "logo": {
         "src": "assets/stores/dolce-affetto-confeitaria-querencia-logo.webp",
@@ -39234,7 +39389,7 @@
         "sourceUrl": "https://www.instagram.com/dolce_affettoconfeitaria/",
         "tile": "assets/stores/dolce-affetto-confeitaria-querencia-logo-tile.webp"
       },
-      "rank": 29,
+      "rank": 15,
       "brand": {
         "primary": "#491c10",
         "deep": "#491c10",
@@ -42931,7 +43086,7 @@
         "sourceUrl": "https://www.instagram.com/espetinhodogordinhomt/",
         "tile": "assets/stores/espetinho-do-gordinho-querencia-logo-tile.webp"
       },
-      "rank": 23,
+      "rank": 25,
       "brand": {
         "primary": "#cd514a",
         "deep": "#b84943",
@@ -43206,7 +43361,7 @@
         "sourceUrl": "https://www.instagram.com/geladinhosprisci/",
         "tile": "assets/stores/geladinhos-prisci-querencia-logo-tile.webp"
       },
-      "rank": 19,
+      "rank": 21,
       "brand": {
         "primary": "#752b76",
         "deep": "#752b76",
@@ -43596,7 +43751,7 @@
         "sourceUrl": "https://www.instagram.com/ggburguer_quer/",
         "tile": "assets/stores/gg-burguer-querencia-logo-tile.webp"
       },
-      "rank": 15,
+      "rank": 16,
       "brand": {
         "primary": "#e7bf64",
         "deep": "#88713b",
@@ -48367,7 +48522,7 @@
         "sourceUrl": "https://www.instagram.com/mpsaboredocura/",
         "tile": "assets/stores/mp-sabor-e-docura-querencia-logo-tile.webp"
       },
-      "rank": 26,
+      "rank": 28,
       "brand": {
         "primary": "#f2cee7",
         "deep": "#816d7b",
@@ -48443,7 +48598,7 @@
         "sourceUrl": "https://www.instagram.com/ninigelatoartesanal_/",
         "tile": "assets/stores/nini-gelato-artesanal-querencia-logo-tile.webp"
       },
-      "rank": 28,
+      "rank": 30,
       "brand": {
         "primary": "#f1d8bc",
         "deep": "#807364",
@@ -50421,7 +50576,7 @@
         "sourceUrl": "https://www.instagram.com/panificadora_central_/",
         "tile": "assets/stores/panificadora-central-querencia-logo-tile.webp"
       },
-      "rank": 21,
+      "rank": 23,
       "brand": {
         "primary": "#fbf492",
         "deep": "#403832",
@@ -53171,7 +53326,7 @@
         "sourceUrl": "https://www.instagram.com/priipipocas.gourmet/",
         "tile": "assets/stores/prii-pipocas-gourmet-querencia-logo-tile.webp"
       },
-      "rank": 31,
+      "rank": 32,
       "brand": {
         "primary": "#e23972",
         "deep": "#cb3367",
@@ -53318,7 +53473,7 @@
         "sourceUrl": "https://www.instagram.com/rancho_dos__sabores/",
         "tile": "assets/stores/rancho-dos-sabores-querencia-logo-tile.webp"
       },
-      "rank": 30,
+      "rank": 31,
       "brand": {
         "primary": "#e0bf8b",
         "deep": "#847152",
@@ -53718,7 +53873,7 @@
         "sourceUrl": "https://www.instagram.com/toquecaseiroquerencia/",
         "tile": "assets/stores/restaurante-toque-caseiro-querencia-logo-tile.webp"
       },
-      "rank": 20,
+      "rank": 22,
       "brand": {
         "primary": "#e9b75b",
         "deep": "#8a6c36",
@@ -60270,7 +60425,7 @@
         "sourceUrl": "https://www.instagram.com/santo_.espeto/",
         "tile": "assets/stores/santo-espeto-pao-de-alho-s-e-querencia-logo-tile.webp"
       },
-      "rank": 22,
+      "rank": 24,
       "brand": {
         "primary": "#492d22",
         "deep": "#492d22",
@@ -61170,7 +61325,7 @@
         "sourceUrl": "https://www.instagram.com/takakisushi/",
         "tile": "assets/stores/takaki-sushi-querencia-logo-tile.webp"
       },
-      "rank": 17,
+      "rank": 18,
       "brand": {
         "primary": "#b03f3c",
         "deep": "#b03f3c",
@@ -112588,14 +112743,1219 @@
         "kind": "ambiente",
         "sourceUrl": "https://www.google.com/maps/place/Boc%C3%A3o+Lanches/@-14.0591635,-52.1558886,17z/data=!4m6!3m5!1s0x936db71266ca4c45:0x1ec81f2079829843!8m2!3d-14.0591635!4d-52.1558886!16s%2Fg%2F11h002ysg9"
       },
-      "menuSource": null,
-      "menu": [],
+      "menuSource": "https://www.instagram.com/bocaolanches.ab/",
+      "menu": [
+        {
+          "id": "misto-quente",
+          "section": "Lanches",
+          "name": "Misto Quente",
+          "description": "Pão, presunto e queijo.",
+          "priceCents": 1600,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-bauru-especial",
+          "section": "Lanches",
+          "name": "X-Bauru Especial",
+          "description": "Pão, presunto, queijo, ovo e tomate.",
+          "priceCents": 1900,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-burguer",
+          "section": "Lanches",
+          "name": "X-Burguer",
+          "description": "Pão, hambúrguer bovino, queijo, ovo e tomate.",
+          "priceCents": 2100,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-egg",
+          "section": "Lanches",
+          "name": "X-Egg",
+          "description": "Pão, hambúrguer bovino, queijo e 2 ovos.",
+          "priceCents": 2100,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-milho",
+          "section": "Lanches",
+          "name": "X-Milho",
+          "description": "Pão, hambúrguer bovino, queijo, ovo e milho.",
+          "priceCents": 2100,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-americano",
+          "section": "Lanches",
+          "name": "X-Americano",
+          "description": "Pão, hambúrguer bovino, presunto, queijo, ovo, tomate e milho.",
+          "priceCents": 2400,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-frango",
+          "section": "Lanches",
+          "name": "X-Frango",
+          "description": "Pão, hambúrguer de frango, queijo, ovo, alface, tomate e milho.",
+          "priceCents": 2400,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-salada",
+          "section": "Lanches",
+          "name": "X-Salada",
+          "description": "Pão, hambúrguer bovino, queijo, ovo, alface, tomate, milho e ervilha.",
+          "priceCents": 2400,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-salada-especial",
+          "section": "Lanches",
+          "name": "X-Salada Especial",
+          "description": "Pão, hambúrguer bovino, presunto, queijo, ovo, alface, tomate, milho, ervilha e batata palha.",
+          "priceCents": 2700,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-calabresa",
+          "section": "Lanches",
+          "name": "X-Calabresa",
+          "description": "Pão, calabresa, queijo, ovo, tomate e ervilha.",
+          "priceCents": 3200,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-bacon",
+          "section": "Lanches",
+          "name": "X-Bacon",
+          "description": "Pão, hambúrguer bovino, queijo, bacon, ovo e tomate.",
+          "priceCents": 3200,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-bagunca",
+          "section": "Lanches",
+          "name": "X-Bagunça",
+          "description": "Pão, hambúrguer bovino, presunto, queijo, bacon, salsicha, ovo, alface, tomate, milho e ervilha.",
+          "priceCents": 3200,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-file",
+          "section": "Lanches",
+          "name": "X-Filé",
+          "description": "Pão, filé bovino, queijo e tomate.",
+          "priceCents": 3500,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-file-de-frango",
+          "section": "Lanches",
+          "name": "X-Filé de Frango",
+          "description": "Pão, filé de frango, queijo e tomate.",
+          "priceCents": 3500,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-moda-da-casa",
+          "section": "Lanches",
+          "name": "X-Moda da Casa",
+          "description": "Pão, filé bovino, presunto, queijo, salsicha, bacon, ovo, alface, tomate, milho e ervilha.",
+          "priceCents": 4200,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "x-bocao",
+          "section": "Lanches",
+          "name": "X-Bocão",
+          "description": "Pão, filé, hambúrguer bovino, hambúrguer de frango, presunto, queijo, bacon, calabresa, salsicha, ovo, alface, tomate, milho e ervilha.",
+          "priceCents": 5000,
+          "options": [
+            {
+              "id": "adicionais",
+              "name": "Adicionais",
+              "min": 0,
+              "max": 9,
+              "choices": [
+                {
+                  "id": "hamburguer",
+                  "name": "Hambúrguer",
+                  "priceCents": 600
+                },
+                {
+                  "id": "bacon",
+                  "name": "Bacon",
+                  "priceCents": 600
+                },
+                {
+                  "id": "presunto",
+                  "name": "Presunto",
+                  "priceCents": 200
+                },
+                {
+                  "id": "batata-palha",
+                  "name": "Batata palha",
+                  "priceCents": 200
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 600
+                },
+                {
+                  "id": "file",
+                  "name": "Filé",
+                  "priceCents": 800
+                },
+                {
+                  "id": "ovo",
+                  "name": "Ovo",
+                  "priceCents": 200
+                },
+                {
+                  "id": "queijo",
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "id": "salsicha",
+                  "name": "Salsicha",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "batata-frita",
+          "section": "Porções",
+          "name": "Batata frita",
+          "description": "",
+          "priceCents": 2500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "meia",
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "id": "inteira",
+                  "name": "Inteira",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "calabresa",
+          "section": "Porções",
+          "name": "Calabresa",
+          "description": "Calabresa, alface e tomate.",
+          "priceCents": 4500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "meia",
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "id": "inteira",
+                  "name": "Inteira",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "file",
+          "section": "Porções",
+          "name": "Filé",
+          "description": "Filé, cebola, tomate e cebola.",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "meia",
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "id": "inteira",
+                  "name": "Inteira",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "frios",
+          "section": "Porções",
+          "name": "Frios",
+          "description": "Presunto, muçarela, calabresa, salsicha, alface e tomate.",
+          "priceCents": 2500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "meia",
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "id": "inteira",
+                  "name": "Inteira",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "salsicha",
+          "section": "Porções",
+          "name": "Salsicha",
+          "description": "Salsicha, alface e tomate.",
+          "priceCents": 2500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "meia",
+                  "name": "Meia",
+                  "priceCents": 0
+                },
+                {
+                  "id": "inteira",
+                  "name": "Inteira",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "agua-mineral",
+          "section": "Bebidas",
+          "name": "Água mineral",
+          "description": "",
+          "priceCents": 400
+        },
+        {
+          "id": "agua-mineral-com-gas",
+          "section": "Bebidas",
+          "name": "Água mineral com gás",
+          "description": "",
+          "priceCents": 500
+        },
+        {
+          "id": "refrigerante-lata",
+          "section": "Bebidas",
+          "name": "Refrigerante lata",
+          "description": "",
+          "priceCents": 600
+        },
+        {
+          "id": "refrigerante-500-ml",
+          "section": "Bebidas",
+          "name": "Refrigerante 500 ml",
+          "description": "",
+          "priceCents": 800
+        },
+        {
+          "id": "refrigerante-1-litro",
+          "section": "Bebidas",
+          "name": "Refrigerante 1 litro",
+          "description": "",
+          "priceCents": 1000
+        },
+        {
+          "id": "refrigerante-1-5-litro",
+          "section": "Bebidas",
+          "name": "Refrigerante 1,5 litro",
+          "description": "",
+          "priceCents": 1300
+        },
+        {
+          "id": "coca-cola-2-l",
+          "section": "Bebidas",
+          "name": "Coca-Cola 2 L",
+          "description": "",
+          "priceCents": 1700
+        },
+        {
+          "id": "fanta-2-l",
+          "section": "Bebidas",
+          "name": "Fanta 2 L",
+          "description": "",
+          "priceCents": 1500
+        },
+        {
+          "id": "guarana-antarctica-2-l",
+          "section": "Bebidas",
+          "name": "Guaraná Antarctica 2 L",
+          "description": "",
+          "priceCents": 1500
+        },
+        {
+          "id": "suco-de-laranja",
+          "section": "Bebidas",
+          "name": "Suco de laranja",
+          "description": "",
+          "priceCents": 1400
+        },
+        {
+          "id": "suco-del-valle",
+          "section": "Bebidas",
+          "name": "Suco Del Valle",
+          "description": "",
+          "priceCents": 800
+        }
+      ],
       "sources": [
         "https://www.instagram.com/bocaolanches.ab/",
         "https://www.instagram.com/bocaolanchesab/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-28",
+      "verifiedAt": "2026-11-08",
       "notes": "Bio informa pedidos somente pelo telefone fixo (número não capturado). Cardápio não localizado. Instagram próprio @bocaolanches.ab (print de 28/10/2026): 'Melhor lanche do Vale do Araguaia. Mais de 30 anos de tradição e qualidade. Lanches, porções e bebidas! Wpp- 66 3468-3355', Rua 03 nº 212, Centro. O número é fixo (3468) marcado como 'Wpp': ficou em phone. Logo trocada pela do perfil atual (a anterior era a arte antiga do Google Maps). Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "logo": {
         "src": "assets/stores/bocao-lanches-ab-agua-boa-logo.webp",
@@ -112670,13 +114030,884 @@
       "hours": null,
       "deliveryFeeCents": null,
       "image": null,
-      "menuSource": null,
-      "menu": [],
+      "menuSource": "https://www.instagram.com/bom_manjare_ab/",
+      "menu": [
+        {
+          "id": "salgados-de-festa-cento",
+          "section": "Festas e eventos - salgados",
+          "name": "Salgados de festa (cento)",
+          "description": "Massa cozida: coxinha frango tradicional, coxinha frango cheddar, bolinha peito de peru c/ queijo, risoles creme de milho, bolinha queijo, risoles carne, croquete presunto/queijo, enrolado salsicha, croquete calabresa. Assados: empada frango, enrolado salsicha, enrolado presunto/queijo, americano carne, americano presunto/queijo, calzone calabresa, empada palmito, empada milho/proteína de soja/requeijão. Pastelzinhos: frango, carne, carne/queijo, presunto/queijo, queijo. Outros: kibe, croquete carne, croquete frango",
+          "priceCents": 16000
+        },
+        {
+          "id": "torta-assada-frango-carne-presunto-queijo-brocolis-ou-portuguesa",
+          "section": "Torta assada (média de 1 kg)",
+          "name": "Torta assada (frango, carne, presunto/queijo, brócolis ou portuguesa)",
+          "description": "",
+          "priceCents": 6000
+        },
+        {
+          "id": "torta-fria-frango-ou-legumes",
+          "section": "Torta fria (por kg)",
+          "name": "Torta fria (frango ou legumes)",
+          "description": "",
+          "priceCents": 6500
+        },
+        {
+          "id": "mini-pizza-frango-presunto-calabresa-queijo",
+          "section": "Especiais (pedido mínimo 25 unidades de cada)",
+          "name": "Mini pizza (frango, presunto, calabresa, queijo)",
+          "description": "",
+          "priceCents": 350
+        },
+        {
+          "id": "canudinhos-frango-batatinha-ou-sem-recheio",
+          "section": "Especiais (pedido mínimo 25 unidades de cada)",
+          "name": "Canudinhos (frango, batatinha ou sem recheio)",
+          "description": "",
+          "priceCents": 350
+        },
+        {
+          "id": "mini-cachorro-quente",
+          "section": "Especiais (pedido mínimo 25 unidades de cada)",
+          "name": "Mini cachorro quente",
+          "description": "",
+          "priceCents": 350
+        },
+        {
+          "id": "mini-sanduiche-natural",
+          "section": "Especiais (pedido mínimo 25 unidades de cada)",
+          "name": "Mini sanduíche natural",
+          "description": "",
+          "priceCents": 350
+        },
+        {
+          "id": "mini-hamburguer",
+          "section": "Especiais (pedido mínimo 25 unidades de cada)",
+          "name": "Mini hambúrguer",
+          "description": "",
+          "priceCents": 350
+        },
+        {
+          "id": "empadao-goiano-media-de-1-kg",
+          "section": "Empadão",
+          "name": "Empadão goiano (média de 1 kg)",
+          "description": "",
+          "priceCents": 6500
+        },
+        {
+          "id": "bolo-de-chocolate-cobertura-de-chocolate",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de chocolate (cobertura de chocolate)",
+          "description": "",
+          "priceCents": 5000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-cenoura-cobertura-de-chocolate",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de cenoura (cobertura de chocolate)",
+          "description": "",
+          "priceCents": 5000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-leite-ninho",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de leite ninho",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-pacoca",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de paçoca",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-churros",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de churros",
+          "description": "",
+          "priceCents": 5000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-limao",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de limão",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-red-velvet-cobertura-de-cream-cheese",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo Red Velvet (cobertura de cream cheese)",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-fuba-com-goiabada",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de fubá com goiabada",
+          "description": "",
+          "priceCents": 5000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-milho-cobertura-de-requeijao",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de milho (cobertura de requeijão)",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-milho-cobertura-de-creme-de-milho",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de milho (cobertura de creme de milho)",
+          "description": "",
+          "priceCents": 5000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-formigueiro",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo formigueiro",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-de-laranja",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo de laranja",
+          "description": "",
+          "priceCents": 5000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "bolo-camafeu",
+          "section": "Bolos caseirinhos",
+          "name": "Bolo camafeu",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "medio",
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "adicional",
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "vulcao",
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pizza",
+          "section": "Pizzas",
+          "name": "Pizza",
+          "description": "",
+          "priceCents": 3500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "brotinho",
+                  "name": "Brotinho",
+                  "priceCents": 0
+                },
+                {
+                  "id": "media",
+                  "name": "Média",
+                  "priceCents": 1500
+                },
+                {
+                  "id": "grande",
+                  "name": "Grande",
+                  "priceCents": 2500
+                }
+              ]
+            },
+            {
+              "id": "sabor",
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "frango",
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "moda",
+                  "name": "Moda",
+                  "priceCents": 0
+                },
+                {
+                  "id": "calabresa",
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "id": "quatro-queijos",
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "id": "portuguesa",
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "id": "caipira",
+                  "name": "Caipira",
+                  "priceCents": 0
+                },
+                {
+                  "id": "lombo",
+                  "name": "Lombo",
+                  "priceCents": 0
+                },
+                {
+                  "id": "mussarela",
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "id": "atum",
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "id": "california",
+                  "name": "Califórnia",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "agnoline-frango-bandeja-500gr",
+          "section": "Massas",
+          "name": "Agnoline frango (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000
+        },
+        {
+          "id": "agnoline-carne-bandeja-500gr",
+          "section": "Massas",
+          "name": "Agnoline carne (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000
+        },
+        {
+          "id": "agnoline-quatro-queijos-bandeja-500gr",
+          "section": "Massas",
+          "name": "Agnoline quatro queijos (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000
+        },
+        {
+          "id": "lasanha-de-frango-molho-branco",
+          "section": "Massas",
+          "name": "Lasanha de frango (molho branco)",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "media-1kg",
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande-1-5kg",
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lasanha-bolonhesa-carne-moida-ao-sugo",
+          "section": "Massas",
+          "name": "Lasanha bolonhesa (carne moída ao sugo)",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "media-1kg",
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande-1-5kg",
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lasanha-de-brocolis-molho-branco",
+          "section": "Massas",
+          "name": "Lasanha de brócolis (molho branco)",
+          "description": "",
+          "priceCents": 5500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "media-1kg",
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande-1-5kg",
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lasanha-de-pintado-peixe-de-couro",
+          "section": "Massas",
+          "name": "Lasanha de pintado (peixe de couro)",
+          "description": "",
+          "priceCents": 7500,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "media-1kg",
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande-1-5kg",
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 3700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lasanha-de-strogonoff-de-frango",
+          "section": "Massas",
+          "name": "Lasanha de strogonoff de frango",
+          "description": "",
+          "priceCents": 6000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "media-1kg",
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande-1-5kg",
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "lasanha-de-almondegas-de-carne",
+          "section": "Massas",
+          "name": "Lasanha de almôndegas de carne",
+          "description": "",
+          "priceCents": 6000,
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "media-1kg",
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "id": "grande-1-5kg",
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "tortei-de-moranga-cabotia-bandeja-500gr",
+          "section": "Massas",
+          "name": "Tortéi de moranga cabotiá (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000
+        },
+        {
+          "id": "canelone-presunto-e-queijo-media-1kg",
+          "section": "Massas",
+          "name": "Canelone presunto e queijo (média 1kg)",
+          "description": "",
+          "priceCents": 6500
+        }
+      ],
       "sources": [
         "https://www.instagram.com/bom_manjare_ab/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-28",
+      "verifiedAt": "2026-11-08",
       "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-28): @bom_manjare_ab (186 posts, 782 seguidores, último post 2026-10-12). Nome \"SandraMarakochan. AGUA BOA - MT\"; foco em encomendas/orçamentos (dúvida se faz delivery).",
       "logo": {
         "src": "assets/stores/bom-manjare-agua-boa-logo.webp",
@@ -112690,7 +114921,7 @@
         "sourceUrl": "https://www.instagram.com/bom_manjare_ab/",
         "tile": "assets/stores/bom-manjare-agua-boa-logo-tile.webp"
       },
-      "rank": 25,
+      "rank": 14,
       "brand": {
         "primary": "#721911",
         "deep": "#721911",
@@ -118284,7 +120515,7 @@
         "sourceUrl": "https://www.instagram.com/booba_sorvete/",
         "tile": "assets/stores/booba-sorveteria-doceria-agua-boa-logo-tile.webp"
       },
-      "rank": 18,
+      "rank": 19,
       "brand": {
         "primary": "#e84a66",
         "deep": "#d1435c",
@@ -124191,7 +126422,7 @@
         "sourceUrl": "https://www.instagram.com/chiquinhoaguaboa/",
         "tile": "assets/stores/chiquinho-sorvetes-agua-boa-agua-boa-logo-tile.webp"
       },
-      "rank": 19,
+      "rank": 20,
       "brand": {
         "primary": "#cfa750",
         "deep": "#886e34",
@@ -126355,7 +128586,7 @@
         "sourceUrl": "https://www.instagram.com/doce.sdovale/",
         "tile": "assets/stores/doces-do-vale-agua-boa-logo-tile.webp"
       },
-      "rank": 17,
+      "rank": 18,
       "brand": {
         "primary": "#2b2326",
         "deep": "#2b2326",
@@ -127908,7 +130139,7 @@
         "sourceUrl": "https://www.instagram.com/espetinhodojorgeab/",
         "tile": "assets/stores/espetinho-do-jorge-agua-boa-logo-tile.webp"
       },
-      "rank": 23,
+      "rank": 24,
       "brand": {
         "primary": "#aa2519",
         "deep": "#aa2519",
@@ -129328,7 +131559,7 @@
         "sourceUrl": "https://www.instagram.com/frutosdegoiasaguaboa/",
         "tile": "assets/stores/frutos-de-goias-agua-boa-agua-boa-logo-tile.webp"
       },
-      "rank": 21,
+      "rank": 22,
       "brand": {
         "primary": "#2b4c1c",
         "deep": "#2b4c1c",
@@ -129389,7 +131620,7 @@
         "sourceUrl": "https://www.instagram.com/galeria_espeto/",
         "tile": "assets/stores/galeria-espeto-agua-boa-logo-tile.webp"
       },
-      "rank": 20,
+      "rank": 21,
       "brand": {
         "primary": "#311014",
         "deep": "#311014",
@@ -132281,7 +134512,7 @@
         "sourceUrl": "https://www.instagram.com/hamburgueriaraiz_/",
         "tile": "assets/stores/hamburgueria-raiz-agua-boa-logo-tile.webp"
       },
-      "rank": 16,
+      "rank": 17,
       "brand": {
         "primary": "#e1ab51",
         "deep": "#947035",
@@ -132332,7 +134563,7 @@
         "sourceUrl": "https://www.instagram.com/jah_aguaboa/",
         "tile": "assets/stores/jah-acai-e-sorvetes-agua-boa-logo-tile.webp"
       },
-      "rank": 15,
+      "rank": 16,
       "brand": {
         "primary": "#481b44",
         "deep": "#481b44",
@@ -135326,7 +137557,7 @@
         "sourceUrl": "https://www.instagram.com/lacasadeacaiab/",
         "tile": "assets/stores/la-casa-de-acai-agua-boa-logo-tile.webp"
       },
-      "rank": 22,
+      "rank": 23,
       "brand": {
         "primary": "#c0302a",
         "deep": "#c0302a",
@@ -174377,7 +176608,7 @@
         "sourceUrl": "https://www.instagram.com/reiburguerr/",
         "tile": "assets/stores/rei-burguer-agua-boa-logo-tile.webp"
       },
-      "rank": 14,
+      "rank": 15,
       "brand": {
         "primary": "#fdf654",
         "deep": "#050301",
@@ -178149,7 +180380,7 @@
         "sourceUrl": "https://www.instagram.com/thebestacaiaguaboa_mt/",
         "tile": "assets/stores/the-best-acai-agua-boa-agua-boa-logo-tile.webp"
       },
-      "rank": 24,
+      "rank": 25,
       "brand": {
         "primary": "#e5a041",
         "deep": "#96692b",
@@ -198522,13 +200753,35 @@
       "hours": "Todos os dias, 18h às 23h",
       "deliveryFeeCents": null,
       "image": null,
-      "menuSource": null,
-      "menu": [],
+      "menuSource": "https://www.instagram.com/forjaburguer_nxa/",
+      "menu": [
+        {
+          "id": "chimichurri-burguer",
+          "section": "Lanches feitos na chapa",
+          "name": "Chimichurri Burguer",
+          "description": "Hambúrguer de 180g, queijo mussarela, bacon, maionese caseira e chimichurri.",
+          "priceCents": 2500
+        },
+        {
+          "id": "sweet-burguer",
+          "section": "Lanches feitos na chapa",
+          "name": "Sweet Burguer",
+          "description": "Hambúrguer de 180g, queijo mussarela, bacon, maionese caseira e cebola caramelizada.",
+          "priceCents": 2500
+        },
+        {
+          "id": "tartaro-burguer",
+          "section": "Lanches feitos na chapa",
+          "name": "Tártaro Burguer",
+          "description": "Hambúrguer de 180g, queijo mussarela, bacon, maionese caseira e molho tártaro.",
+          "priceCents": 2500
+        }
+      ],
       "sources": [
         "https://www.instagram.com/forjaburguer_nxa/"
       ],
       "confidence": "media",
-      "verifiedAt": "2026-10-29",
+      "verifiedAt": "2026-11-08",
       "notes": "Pesquisa Instagram via Claude no Chrome (2026-10-29): @forjaburguer_nxa (5 posts, 189 seguidores, último post 2026-10-03). Perfil novo. Bio \"📍Nova Xavantina\", apenas delivery. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.",
       "logo": {
         "src": "assets/stores/forja-burguer-nova-xavantina-logo.webp",

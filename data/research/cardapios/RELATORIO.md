@@ -2,11 +2,13 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/cardapios/fontes.json`.
 
-**152 cardápios importados** de 177 links de cardápio cadastrados · 1365 categorias · 7979 produtos · 5536 grupos de opções · 18751 adicionais (opções opcionais) · 5067 fotos.
+**158 cardápios importados** de 182 links de cardápio cadastrados · 1382 categorias · 8064 produtos · 5593 grupos de opções · 18908 adicionais (opções opcionais) · 5067 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | OK | Atlas Sorveteria e Açaí | Água Boa | aiqfome | 5 | 23 | 11 | 26 | 9 | 0 | 5 |
+| OK | Bocão Lanches AB | Água Boa | visual | 3 | 32 | 21 | 144 | 0 | 0 | 0 |
+| OK | Bom Manjare | Água Boa | visual | 8 | 34 | 34 | 13 | 0 | 0 | 0 |
 | OK | Booba Sorveteria & Doceria | Água Boa | pedirdelivery | 17 | 82 | 65 | 600 | 79 | 1 | 3 |
 | OK | Brasa & Som | Água Boa | maisdelivery | 12 | 37 | 0 | 0 | 22 | 0 | 0 |
 | OK | Burguerzia | Água Boa | maisdelivery | 9 | 40 | 17 | 60 | 0 | 0 | 0 |
@@ -109,6 +111,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 | OK | Big Pizza Delivery NX | Nova Xavantina | olaclick | 9 | 56 | 52 | 5 | 32 | 0 | 0 |
 | OK | Bitus Burguer | Nova Xavantina | brendi | 5 | 17 | 78 | 271 | 17 | 15 | 3 |
 | OK | Casa Massa | Nova Xavantina | aiqfome | 8 | 78 | 33 | 0 | 0 | 0 | 0 |
+| OK | Forja Burguer | Nova Xavantina | whatsapp | 1 | 3 | 0 | 0 | 0 | 0 | 0 |
 | OK | Gran Pizza | Nova Xavantina | takeat | 2 | 12 | 6 | 6 | 7 | 0 | 0 |
 | OK | Hatsuki Nova Xavantina | Nova Xavantina | aiqfome | 12 | 77 | 73 | 262 | 42 | 0 | 10 |
 | OK | Kanoa Beach | Nova Xavantina | bigdim | 17 | 110 | 5 | 1 | 95 | 2 | 0 |
@@ -126,7 +129,9 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 | OK | Casa do Sushi | Querência | aiqfome | 14 | 90 | 7 | 70 | 15 | 7 | 6 |
 | OK | Chiquinho Sorvetes | Querência | aiqfome | 16 | 88 | 130 | 204 | 68 | 0 | 8 |
 | OK | Coral Sushi Delivery | Querência | brendi | 14 | 70 | 0 | 0 | 63 | 1 | 1 |
+| OK | Cuscuz da Mainha | Querência | visual | 2 | 11 | 0 | 0 | 0 | 0 | 0 |
 | OK | Delícias do Pará | Querência | aiqfome | 4 | 53 | 1 | 0 | 10 | 0 | 8 |
+| OK | Dolce Affetto Confeitaria | Querência | visual | 1 | 2 | 2 | 0 | 0 | 0 | 0 |
 | OK | Dtalia Pizzaria Querência | Querência | foodsapp | 8 | 59 | 39 | 1 | 59 | 0 | 7 |
 | OK | Geladinhos Prisci | Querência | aiqfome | 4 | 12 | 1 | 0 | 9 | 0 | 9 |
 | OK | GG Burguer | Querência | vemmenu | 3 | 21 | 0 | 0 | 21 | 0 | 0 |
@@ -156,6 +161,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 | OK | Ice Mix Gelados | Vila Rica | maisdelivery | 6 | 17 | 3 | 6 | 17 | 0 | 0 |
 | OK | Morango Moreno Sorvetes | Vila Rica | maisdelivery | 8 | 40 | 2 | 0 | 37 | 0 | 0 |
 | OK | Pizzaria Bella | Vila Rica | maisdelivery | 21 | 62 | 22 | 45 | 60 | 0 | 0 |
+| OK | RS Confeitaria | Vila Rica | visual | 2 | 3 | 0 | 0 | 0 | 0 | 0 |
 | OK | Savianinha Sorveteria e Açaiteria | Vila Rica | maisdelivery | 12 | 35 | 39 | 43 | 26 | 0 | 0 |
 | OK | Tchê Hamburgueria e Sorveteria | Vila Rica | maisdelivery | 18 | 64 | 90 | 129 | 43 | 0 | 0 |
 
@@ -166,6 +172,23 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/agua-boa/atlas-sorveteria-e-acai (aiqfome)
 - Categorias: 5 · Produtos: 23 · Grupos de opções: 11 (56 escolhas) · Adicionais: 26 · Fotos: 9
 - Não importados: nenhum
+- Pendências: 0
+
+### Bocão Lanches AB (Água Boa) — OK
+
+- Fonte: https://www.instagram.com/bocaolanches.ab/ (visual)
+- Categorias: 3 · Produtos: 32 · Grupos de opções: 21 (154 escolhas) · Adicionais: 144 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque CARDÁPIO (~8 telas; transcritas 3): conferir contra a arte antes do apply.
+- Observação: Cervejas e doses (tela 4 do destaque) não transcritas.
+- Pendências: 0
+
+### Bom Manjare (Água Boa) — OK
+
+- Fonte: https://www.instagram.com/bom_manjare_ab/ (visual)
+- Categorias: 8 · Produtos: 34 · Grupos de opções: 34 (64 escolhas) · Adicionais: 13 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque cardápio (6 telas): conferir contra a arte antes do apply.
 - Pendências: 0
 
 ### Booba Sorveteria & Doceria (Água Boa) — OK
@@ -1233,6 +1256,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 - Observação: Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação.
 - Pendências: 0
 
+### Forja Burguer (Nova Xavantina) — OK
+
+- Fonte: https://www.instagram.com/forjaburguer_nxa/ (whatsapp)
+- Categorias: 1 · Produtos: 3 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio (1 tela): conferir contra a arte antes do apply.
+- Pendências: 0
+
 ### Gran Pizza (Nova Xavantina) — OK
 
 - Fonte: https://pedido.takeat.app/granpizza (takeat)
@@ -1392,11 +1423,27 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Cuscuz da Mainha (Querência) — OK
+
+- Fonte: https://www.instagram.com/cuscuzdamainha/ (visual)
+- Categorias: 2 · Produtos: 11 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque cardápio (1 tela): conferir contra a arte antes do apply.
+- Pendências: 0
+
 ### Delícias do Pará (Querência) — OK
 
 - Fonte: https://aiqfome.com/MT/querencia/delicias-do-para (aiqfome)
 - Categorias: 4 · Produtos: 53 · Grupos de opções: 1 (7 escolhas) · Adicionais: 0 · Fotos: 10
 - Não importados: 1 sem preço, 1 indisponível
+- Pendências: 0
+
+### Dolce Affetto Confeitaria (Querência) — OK
+
+- Fonte: https://www.instagram.com/dolce_affettoconfeitaria/ (visual)
+- Categorias: 1 · Produtos: 2 · Grupos de opções: 2 (4 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio (1 tela): conferir contra a arte antes do apply.
 - Pendências: 0
 
 ### Dtalia Pizzaria Querência (Querência) — OK
@@ -1622,6 +1669,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### RS Confeitaria (Vila Rica) — OK
+
+- Fonte: https://www.instagram.com/rsconfeitaria374/ (visual)
+- Categorias: 2 · Produtos: 3 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio bolos (2 telas): conferir contra a arte antes do apply.
+- Pendências: 0
+
 ### Savianinha Sorveteria e Açaiteria (Vila Rica) — OK
 
 - Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTE5MTI1 (maisdelivery)
@@ -1694,11 +1749,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/
 ### Flomas Burguer (Canarana) — Sem cardápio público
 
 - Fonte: https://wa.me/message/CEMJILIXGAGQF1 (whatsapp)
-- Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
-### Forja Burguer (Nova Xavantina) — Sem cardápio público
-
-- Fonte: https://wa.me/message/TOXY47JLK5NBG1 (whatsapp)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
 
 ### Pizzaria Gaúcha (Nova Xavantina) — Sem cardápio público

@@ -1,0 +1,50 @@
+{
+  "id": "rs-confeitaria-vila-rica",
+  "platform": "visual",
+  "source": "https://www.instagram.com/rsconfeitaria374/",
+  "capturedAt": "2026-11-08T21:09:07.525Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Brigadeiros",
+      "items": [
+        {
+          "sourceId": "brigadeiros-tradicionais-cento",
+          "name": "Brigadeiros tradicionais (cento)",
+          "description": "Sabores: brigadeiro 50%, ninho, ninho e nutella, maracujá, amendoim, ferrero rocher. Cento: escolher 4 sabores; meio cento (50 un): 2 sabores",
+          "priceCents": 18000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bolo de festa (por quilo)",
+      "items": [
+        {
+          "sourceId": "bolo-de-festa",
+          "name": "Bolo de festa (por kg)",
+          "description": "Recheios: ninho, brigadeiro 50%, abacaxi, coco, bombom, morango, doce de leite, maracujá, ameixa, amendoim, oreo, paçoca, limão. Massas: branca tradicional, branca baunilha, chocolate",
+          "priceCents": 7000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "bolo-de-festa-com-morango-e-frutas",
+          "name": "Bolo de festa com morango e frutas (por kg)",
+          "description": "",
+          "priceCents": 7500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio bolos (2 telas): conferir contra a arte antes do apply."
+  ]
+}

@@ -1,0 +1,873 @@
+{
+  "id": "bom-manjare-agua-boa",
+  "platform": "visual",
+  "source": "https://www.instagram.com/bom_manjare_ab/",
+  "capturedAt": "2026-11-08T21:09:07.524Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Festas e eventos - salgados",
+      "items": [
+        {
+          "sourceId": "salgados-de-festa-massa-cozida-assados-pastelzinhos-e-outros",
+          "name": "Salgados de festa (cento)",
+          "description": "Massa cozida: coxinha frango tradicional, coxinha frango cheddar, bolinha peito de peru c/ queijo, risoles creme de milho, bolinha queijo, risoles carne, croquete presunto/queijo, enrolado salsicha, croquete calabresa. Assados: empada frango, enrolado salsicha, enrolado presunto/queijo, americano carne, americano presunto/queijo, calzone calabresa, empada palmito, empada milho/proteína de soja/requeijão. Pastelzinhos: frango, carne, carne/queijo, presunto/queijo, queijo. Outros: kibe, croquete carne, croquete frango",
+          "priceCents": 16000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Torta assada (média de 1 kg)",
+      "items": [
+        {
+          "sourceId": "torta-assada-frango-carne-presunto-queijo-brocolis-ou-portuguesa",
+          "name": "Torta assada (frango, carne, presunto/queijo, brócolis ou portuguesa)",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Torta fria (por kg)",
+      "items": [
+        {
+          "sourceId": "torta-fria-frango-ou-legumes",
+          "name": "Torta fria (frango ou legumes)",
+          "description": "",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Especiais (pedido mínimo 25 unidades de cada)",
+      "items": [
+        {
+          "sourceId": "mini-pizza-frango-presunto-calabresa-queijo",
+          "name": "Mini pizza (frango, presunto, calabresa, queijo)",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "canudinhos-frango-batatinha-ou-sem-recheio",
+          "name": "Canudinhos (frango, batatinha ou sem recheio)",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "mini-cachorro-quente",
+          "name": "Mini cachorro quente",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "mini-sanduiche-natural",
+          "name": "Mini sanduíche natural",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "mini-hamburguer",
+          "name": "Mini hambúrguer",
+          "description": "",
+          "priceCents": 350,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Empadão",
+      "items": [
+        {
+          "sourceId": "empadao-goiano-media-de-1-kg",
+          "name": "Empadão goiano (média de 1 kg)",
+          "description": "",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bolos caseirinhos",
+      "items": [
+        {
+          "sourceId": "bolo-de-chocolate-cobertura-de-chocolate",
+          "name": "Bolo de chocolate (cobertura de chocolate)",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-cenoura-cobertura-de-chocolate",
+          "name": "Bolo de cenoura (cobertura de chocolate)",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-leite-ninho",
+          "name": "Bolo de leite ninho",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-pacoca",
+          "name": "Bolo de paçoca",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-churros",
+          "name": "Bolo de churros",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-limao",
+          "name": "Bolo de limão",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-red-velvet-cobertura-de-cream-cheese",
+          "name": "Bolo Red Velvet (cobertura de cream cheese)",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-fuba-com-goiabada",
+          "name": "Bolo de fubá com goiabada",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-milho-cobertura-de-requeijao",
+          "name": "Bolo de milho (cobertura de requeijão)",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-milho-cobertura-de-creme-de-milho",
+          "name": "Bolo de milho (cobertura de creme de milho)",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-formigueiro",
+          "name": "Bolo formigueiro",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-de-laranja",
+          "name": "Bolo de laranja",
+          "description": "",
+          "priceCents": 5000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bolo-camafeu",
+          "name": "Bolo camafeu",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Médio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "name": "Adicional",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Vulcão",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas",
+      "items": [
+        {
+          "sourceId": "pizza",
+          "name": "Pizza",
+          "description": "",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Brotinho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Média",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Grande",
+                  "priceCents": 2500
+                }
+              ]
+            },
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Moda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Quatro queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Caipira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Lombo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Atum",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Califórnia",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Massas",
+      "items": [
+        {
+          "sourceId": "agnoline-frango-bandeja-500gr",
+          "name": "Agnoline frango (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "agnoline-carne-bandeja-500gr",
+          "name": "Agnoline carne (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "agnoline-quatro-queijos-bandeja-500gr",
+          "name": "Agnoline quatro queijos (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "lasanha-de-frango-molho-branco",
+          "name": "Lasanha de frango (molho branco)",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "lasanha-bolonhesa-carne-moida-ao-sugo",
+          "name": "Lasanha bolonhesa (carne moída ao sugo)",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "lasanha-de-brocolis-molho-branco",
+          "name": "Lasanha de brócolis (molho branco)",
+          "description": "",
+          "priceCents": 5500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 2500
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "lasanha-de-pintado-peixe-de-couro",
+          "name": "Lasanha de pintado (peixe de couro)",
+          "description": "",
+          "priceCents": 7500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 3700
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "lasanha-de-strogonoff-de-frango",
+          "name": "Lasanha de strogonoff de frango",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "lasanha-de-almondegas-de-carne",
+          "name": "Lasanha de almôndegas de carne",
+          "description": "",
+          "priceCents": 6000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Média (1kg)",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Grande (1,5kg)",
+                  "priceCents": 3000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "tortei-de-moranga-cabotia-bandeja-500gr",
+          "name": "Tortéi de moranga cabotiá (bandeja 500gr)",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "canelone-presunto-e-queijo-media-1kg",
+          "name": "Canelone presunto e queijo (média 1kg)",
+          "description": "",
+          "priceCents": 6500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque cardápio (6 telas): conferir contra a arte antes do apply."
+  ]
+}

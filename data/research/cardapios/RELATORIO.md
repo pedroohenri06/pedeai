@@ -1,12 +1,14 @@
 # Relatório de importação dos cardápios
 
-Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/cardapios/fontes.json`.
+Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/cardapios/fontes.json`.
 
-**146 cardápios importados** de 173 links de cardápio cadastrados · 1316 categorias · 7637 produtos · 5330 grupos de opções · 17892 adicionais (opções opcionais) · 4821 fotos.
+**158 cardápios importados** de 182 links de cardápio cadastrados · 1382 categorias · 8064 produtos · 5593 grupos de opções · 18908 adicionais (opções opcionais) · 5067 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
 | OK | Atlas Sorveteria e Açaí | Água Boa | aiqfome | 5 | 23 | 11 | 26 | 9 | 0 | 5 |
+| OK | Bocão Lanches AB | Água Boa | visual | 3 | 32 | 21 | 144 | 0 | 0 | 0 |
+| OK | Bom Manjare | Água Boa | visual | 8 | 34 | 34 | 13 | 0 | 0 | 0 |
 | OK | Booba Sorveteria & Doceria | Água Boa | pedirdelivery | 17 | 82 | 65 | 600 | 79 | 1 | 3 |
 | OK | Brasa & Som | Água Boa | maisdelivery | 12 | 37 | 0 | 0 | 22 | 0 | 0 |
 | OK | Burguerzia | Água Boa | maisdelivery | 9 | 40 | 17 | 60 | 0 | 0 | 0 |
@@ -17,6 +19,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 | OK | Doces do Vale | Água Boa | visual | 1 | 6 | 12 | 12 | 0 | 0 | 0 |
 | OK | Ds'burguer | Água Boa | vendanozap | 2 | 17 | 7 | 42 | 17 | 0 | 0 |
 | OK | Eskimó Sorvetes | Água Boa | aiqfome | 18 | 73 | 1 | 0 | 10 | 0 | 9 |
+| OK | Frutos de Goiás Água Boa | Água Boa | maisdelivery | 8 | 8 | 11 | 70 | 6 | 0 | 0 |
 | OK | Golden Bird | Água Boa | brendi | 6 | 15 | 0 | 0 | 15 | 1 | 0 |
 | OK | Golden Hamburgueria | Água Boa | brendi | 5 | 33 | 5 | 40 | 33 | 1 | 0 |
 | OK | Hamburgueria Raiz | Água Boa | maisdelivery | 7 | 31 | 46 | 63 | 12 | 0 | 0 |
@@ -77,6 +80,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 | OK | Restaurante Buteco do Bicudo | Barra do Garças | visual | 21 | 169 | 16 | 0 | 0 | 0 | 0 |
 | OK | Sedex da Pizza | Barra do Garças | ifood | 4 | 52 | 18 | 143 | 38 | 1 | 0 |
 | OK | Tempero de Mãe | Barra do Garças | ifood | 11 | 67 | 74 | 128 | 64 | 3 | 0 |
+| OK | Texanas Hamburgueria Artesanal | Barra do Garças | anotaai | 4 | 39 | 111 | 687 | 39 | 9 | 0 |
 | OK | Texas Grill - Burger & Churrasco | Barra do Garças | anotaai | 12 | 48 | 104 | 83 | 40 | 0 | 0 |
 | OK | Toa Toa Sanduicheria | Barra do Garças | ifood | 6 | 42 | 25 | 170 | 41 | 0 | 0 |
 | OK | VM Restaurante e Cia | Barra do Garças | ifood | 5 | 22 | 5 | 0 | 22 | 0 | 0 |
@@ -89,11 +93,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 | OK | Chicken Box Canarana | Canarana | saipos | 12 | 77 | 25 | 186 | 48 | 7 | 0 |
 | OK | Hora do Lanche | Canarana | maisdelivery | 8 | 25 | 5 | 0 | 13 | 0 | 0 |
 | OK | Jah Açaí e Sorvetes | Canarana | maisdelivery | 5 | 5 | 13 | 79 | 5 | 0 | 0 |
+| OK | Ketsui Sushi Restaurante Japonês | Canarana | yooga | 19 | 181 | 29 | 21 | 159 | 0 | 0 |
 | OK | Mordatto | Canarana | maisdelivery | 3 | 7 | 4 | 18 | 7 | 0 | 0 |
 | OK | O Mestre da Pizza | Canarana | menudino | 3 | 19 | 0 | 0 | 19 | 0 | 0 |
 | OK | Pizzaria D'Italia | Canarana | foodsapp | 7 | 41 | 42 | 0 | 41 | 0 | 5 |
 | OK | POKE² Poke ao Quadrado | Canarana | yooga | 8 | 29 | 114 | 396 | 29 | 0 | 3 |
 | OK | Restaurante e Pizzaria Chopinho | Canarana | olaclick | 11 | 76 | 31 | 0 | 76 | 0 | 3 |
+| OK | Restaurante Zero Grau | Canarana | anotaai | 3 | 16 | 10 | 3 | 9 | 0 | 0 |
 | OK | Saboritos Burguer & Sorveteria | Canarana | brendi | 8 | 55 | 58 | 336 | 50 | 0 | 2 |
 | OK | Suprema Pizza & Pastelaria | Canarana | meucardapio | 16 | 221 | 212 | 99 | 52 | 1 | 0 |
 | OK | Texas Burger & Grill | Canarana | menudino | 7 | 42 | 0 | 0 | 38 | 0 | 0 |
@@ -105,6 +111,8 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 | OK | Big Pizza Delivery NX | Nova Xavantina | olaclick | 9 | 56 | 52 | 5 | 32 | 0 | 0 |
 | OK | Bitus Burguer | Nova Xavantina | brendi | 5 | 17 | 78 | 271 | 17 | 15 | 3 |
 | OK | Casa Massa | Nova Xavantina | aiqfome | 8 | 78 | 33 | 0 | 0 | 0 | 0 |
+| OK | Forja Burguer | Nova Xavantina | whatsapp | 1 | 3 | 0 | 0 | 0 | 0 | 0 |
+| OK | Gran Pizza | Nova Xavantina | takeat | 2 | 12 | 6 | 6 | 7 | 0 | 0 |
 | OK | Hatsuki Nova Xavantina | Nova Xavantina | aiqfome | 12 | 77 | 73 | 262 | 42 | 0 | 10 |
 | OK | Kanoa Beach | Nova Xavantina | bigdim | 17 | 110 | 5 | 1 | 95 | 2 | 0 |
 | OK | Magnífico Burguer NX | Nova Xavantina | aiqfome | 5 | 26 | 19 | 39 | 4 | 0 | 4 |
@@ -121,7 +129,9 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 | OK | Casa do Sushi | Querência | aiqfome | 14 | 90 | 7 | 70 | 15 | 7 | 6 |
 | OK | Chiquinho Sorvetes | Querência | aiqfome | 16 | 88 | 130 | 204 | 68 | 0 | 8 |
 | OK | Coral Sushi Delivery | Querência | brendi | 14 | 70 | 0 | 0 | 63 | 1 | 1 |
+| OK | Cuscuz da Mainha | Querência | visual | 2 | 11 | 0 | 0 | 0 | 0 | 0 |
 | OK | Delícias do Pará | Querência | aiqfome | 4 | 53 | 1 | 0 | 10 | 0 | 8 |
+| OK | Dolce Affetto Confeitaria | Querência | visual | 1 | 2 | 2 | 0 | 0 | 0 | 0 |
 | OK | Dtalia Pizzaria Querência | Querência | foodsapp | 8 | 59 | 39 | 1 | 59 | 0 | 7 |
 | OK | Geladinhos Prisci | Querência | aiqfome | 4 | 12 | 1 | 0 | 9 | 0 | 9 |
 | OK | GG Burguer | Querência | vemmenu | 3 | 21 | 0 | 0 | 21 | 0 | 0 |
@@ -133,6 +143,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 | OK | Owzi Burger | Querência | saipos | 11 | 59 | 35 | 126 | 45 | 5 | 0 |
 | OK | Picanhas Grill | Querência | foodsapp | 14 | 81 | 19 | 13 | 81 | 0 | 2 |
 | OK | Restaurante Toque Caseiro | Querência | beefood | 2 | 23 | 0 | 0 | 0 | 0 | 0 |
+| OK | Sabor de Verão | Querência | foodsapp | 13 | 86 | 39 | 72 | 26 | 0 | 0 |
 | OK | Sabor Top 25 | Querência | aiqfome | 12 | 95 | 88 | 95 | 0 | 0 | 0 |
 | OK | Santo Espeto (Pão de Alho S.E.) | Querência | aiqfome | 8 | 47 | 17 | 33 | 10 | 0 | 5 |
 | OK | Smash Burger | Querência | aiqfome | 4 | 22 | 11 | 96 | 5 | 0 | 5 |
@@ -150,6 +161,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 | OK | Ice Mix Gelados | Vila Rica | maisdelivery | 6 | 17 | 3 | 6 | 17 | 0 | 0 |
 | OK | Morango Moreno Sorvetes | Vila Rica | maisdelivery | 8 | 40 | 2 | 0 | 37 | 0 | 0 |
 | OK | Pizzaria Bella | Vila Rica | maisdelivery | 21 | 62 | 22 | 45 | 60 | 0 | 0 |
+| OK | RS Confeitaria | Vila Rica | visual | 2 | 3 | 0 | 0 | 0 | 0 | 0 |
 | OK | Savianinha Sorveteria e Açaiteria | Vila Rica | maisdelivery | 12 | 35 | 39 | 43 | 26 | 0 | 0 |
 | OK | Tchê Hamburgueria e Sorveteria | Vila Rica | maisdelivery | 18 | 64 | 90 | 129 | 43 | 0 | 0 |
 
@@ -160,6 +172,23 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/agua-boa/atlas-sorveteria-e-acai (aiqfome)
 - Categorias: 5 · Produtos: 23 · Grupos de opções: 11 (56 escolhas) · Adicionais: 26 · Fotos: 9
 - Não importados: nenhum
+- Pendências: 0
+
+### Bocão Lanches AB (Água Boa) — OK
+
+- Fonte: https://www.instagram.com/bocaolanches.ab/ (visual)
+- Categorias: 3 · Produtos: 32 · Grupos de opções: 21 (154 escolhas) · Adicionais: 144 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque CARDÁPIO (~8 telas; transcritas 3): conferir contra a arte antes do apply.
+- Observação: Cervejas e doses (tela 4 do destaque) não transcritas.
+- Pendências: 0
+
+### Bom Manjare (Água Boa) — OK
+
+- Fonte: https://www.instagram.com/bom_manjare_ab/ (visual)
+- Categorias: 8 · Produtos: 34 · Grupos de opções: 34 (64 escolhas) · Adicionais: 13 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque cardápio (6 telas): conferir contra a arte antes do apply.
 - Pendências: 0
 
 ### Booba Sorveteria & Doceria (Água Boa) — OK
@@ -250,6 +279,21 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Fonte: https://aiqfome.com/MT/agua-boa/skimo-sorvetes (aiqfome)
 - Categorias: 18 · Produtos: 73 · Grupos de opções: 1 (23 escolhas) · Adicionais: 0 · Fotos: 10
 - Não importados: nenhum
+- Pendências: 0
+
+### Frutos de Goiás Água Boa (Água Boa) — OK
+
+- Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTA0OTc5 (maisdelivery)
+- Categorias: 8 · Produtos: 8 · Grupos de opções: 11 (226 escolhas) · Adicionais: 70 · Fotos: 6
+- Não importados: 1 sem preço
+- Observação: "Bola de sorvete": cada opção de "Escolha o Sabor da Sua Bola de Sorvete" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Picolés tradicionais": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Paletas": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Picolés gourmet": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Picolés kids": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Picolés premium": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Picolés zero açucar": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Bebidas": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
 - Pendências: 0
 
 ### Golden Bird (Água Boa) — OK
@@ -882,6 +926,70 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (67 itens na loja).
 - Pendências: 0
 
+### Texanas Hamburgueria Artesanal (Barra do Garças) — OK
+
+- Fonte: https://pedido.anota.ai/loja/texanas-burguer (anotaai)
+- Categorias: 4 · Produtos: 39 · Grupos de opções: 111 (715 escolhas) · Adicionais: 687 · Fotos: 39
+- Não importados: 8 esgotado
+- Observação: "Tx burguer": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx burguer": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx burguer": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx onion melt": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx onion melt": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx onion melt": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx cream melt": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx cream melt": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Tx cream melt": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "TX Cheese Stuffed (burguer recheado)": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "TX Cheese Stuffed (burguer recheado)": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "TX Cheese Stuffed (burguer recheado)": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX burguer+batata70g+coca lata 310ml": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX burguer+batata70g+coca lata 310ml": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX burguer+batata70g+coca lata 310ml": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX Bacon+ batata70g+ coca cola lata 310ml.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX Bacon+ batata70g+ coca cola lata 310ml.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX Bacon+ batata70g+ coca cola lata 310ml.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TEXANAS 1 texanas + coca lata 310ml + batata 70g": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TEXANAS 1 texanas + coca lata 310ml + batata 70g": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TEXANAS 1 texanas + coca lata 310ml + batata 70g": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX CHEDDAR BACON + coca lata 310ml + batata 70g": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX CHEDDAR BACON + coca lata 310ml + batata 70g": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX CHEDDAR BACON + coca lata 310ml + batata 70g": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX salada+batata70g+coca lata310ml.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX salada+batata70g+coca lata310ml.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX salada+batata70g+coca lata310ml.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX CREAM MELT 1tx cream melt+batata70g+coca lata 310g.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX CREAM MELT 1tx cream melt+batata70g+coca lata 310g.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX CREAM MELT 1tx cream melt+batata70g+coca lata 310g.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX sweet BBQ+batata70g+coca lata 310ml": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX sweet BBQ+batata70g+coca lata 310ml": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX sweet BBQ+batata70g+coca lata 310ml": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX BURGUER 2 TX Burguer + Duas cocas lata 310ml + batata 250g": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX BURGUER 2 TX Burguer + Duas cocas lata 310ml + batata 250g": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX BURGUER 2 TX Burguer + Duas cocas lata 310ml + batata 250g": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX Salada 2tx salada + batata250g+2coca lata 310ml.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX Salada 2tx salada + batata250g+2coca lata 310ml.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo TX Salada 2tx salada + batata250g+2coca lata 310ml.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo 2 TX SALADA + batata 250g": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo 2 TX SALADA + batata 250g": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo 2 TX SALADA + batata 250g": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo casal texanas, 2 Texanas + batata 250g+ coca cola 1,5.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo casal texanas, 2 Texanas + batata 250g+ coca cola 1,5.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Combo casal texanas, 2 Texanas + batata 250g+ coca cola 1,5.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX Magalhães + TX salada + batata 250g+ coca 1,5L.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX Magalhães + TX salada + batata 250g+ coca 1,5L.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TX Magalhães + TX salada + batata 250g+ coca 1,5L.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO SUPREME Cheddar Bacon 2tx cheddar bacon+ batata 250g cheddar bacon+ coca cola 1,5l": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO SUPREME Cheddar Bacon 2tx cheddar bacon+ batata 250g cheddar bacon+ coca cola 1,5l": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO SUPREME Cheddar Bacon 2tx cheddar bacon+ batata 250g cheddar bacon+ coca cola 1,5l": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TRIPLO TX Salada, 3 TX Salada+ coca cola 1,5.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TRIPLO TX Salada, 3 TX Salada+ coca cola 1,5.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO TRIPLO TX Salada, 3 TX Salada+ coca cola 1,5.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO FAMÍLIA, 4 TX Bacon + coca cola 1,5 grátis!.": "Turbine seu Lanche" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO FAMÍLIA, 4 TX Bacon + coca cola 1,5 grátis!.": "Gostaria de um Molho?" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "COMBO FAMÍLIA, 4 TX Bacon + coca cola 1,5 grátis!.": "Bebida com 30% de desconto" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Pendências: 0
+
 ### Texas Grill - Burger & Churrasco (Barra do Garças) — OK
 
 - Fonte: https://pedido.anota.ai/loja/texasgrillchurrascaria (anotaai)
@@ -978,6 +1086,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Ketsui Sushi Restaurante Japonês (Canarana) — OK
+
+- Fonte: https://delivery.yooga.app/ketsui-canarana/tabs/home (yooga)
+- Categorias: 19 · Produtos: 181 · Grupos de opções: 29 (77 escolhas) · Adicionais: 21 · Fotos: 159
+- Não importados: nenhum
+- Observação: Ordem das seções: Sua experiência ainda melhor!, Que tal uma bebida? movida(s) para o fim (bebidas/acompanhamentos depois dos pratos).
+- Pendências: 0
+
 ### Mordatto (Canarana) — OK
 
 - Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTI0NDE1 (maisdelivery)
@@ -1030,6 +1146,15 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Fonte: https://chopinho-3.ola.click/products (olaclick)
 - Categorias: 11 · Produtos: 76 · Grupos de opções: 31 (62 escolhas) · Adicionais: 0 · Fotos: 76
 - Não importados: 3 sem preço
+- Pendências: 0
+
+### Restaurante Zero Grau (Canarana) — OK
+
+- Fonte: https://pedido.anota.ai/loja/churrascaria-zero-grau-1 (anotaai)
+- Categorias: 3 · Produtos: 16 · Grupos de opções: 10 (37 escolhas) · Adicionais: 3 · Fotos: 9
+- Não importados: 3 esgotado
+- Observação: "Refrigerante Lata 310ml": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Suco Polpa Viagem 500ml": cada opção de "Selecione" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
 - Pendências: 0
 
 ### Saboritos Burguer & Sorveteria (Canarana) — OK
@@ -1129,6 +1254,24 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Categorias: 8 · Produtos: 78 · Grupos de opções: 33 (51 escolhas) · Adicionais: 0 · Fotos: 0
 - Não importados: nenhum
 - Observação: Pizzas aceitam mais de um sabor na fonte; aqui cada sabor é um item, e a combinação vai na observação.
+- Pendências: 0
+
+### Forja Burguer (Nova Xavantina) — OK
+
+- Fonte: https://www.instagram.com/forjaburguer_nxa/ (whatsapp)
+- Categorias: 1 · Produtos: 3 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio (1 tela): conferir contra a arte antes do apply.
+- Pendências: 0
+
+### Gran Pizza (Nova Xavantina) — OK
+
+- Fonte: https://pedido.takeat.app/granpizza (takeat)
+- Categorias: 2 · Produtos: 12 · Grupos de opções: 6 (79 escolhas) · Adicionais: 6 · Fotos: 7
+- Não importados: nenhum
+- Observação: "Pizza P (4 pedaços)": "Pizza P" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza G ( 8 pedaços)": "Pizza G" cobra a média dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: Ordem das seções: Bebidas movida(s) para o fim (bebidas/acompanhamentos depois dos pratos).
 - Pendências: 0
 
 ### Hatsuki Nova Xavantina (Nova Xavantina) — OK
@@ -1280,11 +1423,27 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### Cuscuz da Mainha (Querência) — OK
+
+- Fonte: https://www.instagram.com/cuscuzdamainha/ (visual)
+- Categorias: 2 · Produtos: 11 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque cardápio (1 tela): conferir contra a arte antes do apply.
+- Pendências: 0
+
 ### Delícias do Pará (Querência) — OK
 
 - Fonte: https://aiqfome.com/MT/querencia/delicias-do-para (aiqfome)
 - Categorias: 4 · Produtos: 53 · Grupos de opções: 1 (7 escolhas) · Adicionais: 0 · Fotos: 10
 - Não importados: 1 sem preço, 1 indisponível
+- Pendências: 0
+
+### Dolce Affetto Confeitaria (Querência) — OK
+
+- Fonte: https://www.instagram.com/dolce_affettoconfeitaria/ (visual)
+- Categorias: 1 · Produtos: 2 · Grupos de opções: 2 (4 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio (1 tela): conferir contra a arte antes do apply.
 - Pendências: 0
 
 ### Dtalia Pizzaria Querência (Querência) — OK
@@ -1380,6 +1539,13 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Categorias: 2 · Produtos: 23 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 0
 - Não importados: nenhum
 - Observação: Opções e adicionais só aparecem ao abrir cada produto na fonte; não importados.
+- Pendências: 0
+
+### Sabor de Verão (Querência) — OK
+
+- Fonte: https://sabordeverao.foodsapp.com.br/loja/pedidos (foodsapp)
+- Categorias: 13 · Produtos: 86 · Grupos de opções: 39 (224 escolhas) · Adicionais: 72 · Fotos: 26
+- Não importados: nenhum
 - Pendências: 0
 
 ### Sabor Top 25 (Querência) — OK
@@ -1503,6 +1669,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
+### RS Confeitaria (Vila Rica) — OK
+
+- Fonte: https://www.instagram.com/rsconfeitaria374/ (visual)
+- Categorias: 2 · Produtos: 3 · Grupos de opções: 0 (0 escolhas) · Adicionais: 0 · Fotos: 0
+- Não importados: nenhum
+- Observação: Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio bolos (2 telas): conferir contra a arte antes do apply.
+- Pendências: 0
+
 ### Savianinha Sorveteria e Açaiteria (Vila Rica) — OK
 
 - Fonte: https://maisdeliveryapp.com.br/pwa/shop/detail/list/product/subcategorie/MTE5MTI1 (maisdelivery)
@@ -1517,19 +1691,9 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 - Não importados: nenhum
 - Pendências: 0
 
-### Frutos de Goiás Água Boa (Água Boa) — Pendente
-
-- Fonte: https://www.maisdeliveryapp.com.br/web/loja.php?id=MTA0OTc5 (maisdelivery)
-- Motivo: cardápio vazio na plataforma (Mais Delivery) de novo em 04/11/2026
-
 ### Restaurante Ponto Certo e Conveniência (Canarana) — Pendente
 
 - Fonte: https://maisdeliveryapp.com.br/web/loja.php?id=ODQ2NTk= (maisdelivery)
-- Motivo: cardápio vazio na plataforma no dia da coleta
-
-### Sabor de Verão (Querência) — Pendente
-
-- Fonte: https://aiqfome.com/MT/querencia/sabor-de-verao (aiqfome)
 - Motivo: cardápio vazio na plataforma no dia da coleta
 
 ### Du Matuto Bar & Cozinha (Água Boa) — Sem cardápio público
@@ -1585,11 +1749,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-05. Fontes: `data/research/
 ### Flomas Burguer (Canarana) — Sem cardápio público
 
 - Fonte: https://wa.me/message/CEMJILIXGAGQF1 (whatsapp)
-- Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
-### Forja Burguer (Nova Xavantina) — Sem cardápio público
-
-- Fonte: https://wa.me/message/TOXY47JLK5NBG1 (whatsapp)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
 
 ### Pizzaria Gaúcha (Nova Xavantina) — Sem cardápio público

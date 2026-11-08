@@ -125,9 +125,9 @@
       "via": "https://is.gd/HrFlAa"
     },
     "sabor-de-verao-querencia": {
-      "url": "https://aiqfome.com/MT/querencia/sabor-de-verao",
-      "platform": "aiqfome",
-      "pendente": "cardápio vazio na plataforma no dia da coleta"
+      "url": "https://sabordeverao.foodsapp.com.br/loja/pedidos",
+      "platform": "foodsapp",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08"
     },
     "sabor-na-caixa-querencia": {
       "url": "https://wa.me/message/KQA44LPDHNSBM1",
@@ -199,8 +199,7 @@
     "frutos-de-goias-agua-boa-agua-boa": {
       "url": "https://www.maisdeliveryapp.com.br/web/loja.php?id=MTA0OTc5",
       "platform": "maisdelivery",
-      "via": "link da bio do Instagram, auditoria do Claude in Chrome (planilha do Pedro, 04/11/2026)",
-      "pendente": "cardápio vazio na plataforma (Mais Delivery) de novo em 04/11/2026"
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08"
     },
     "golden-bird-agua-boa": {
       "url": "https://menu.brendi.com.br/goldenbird",
@@ -837,6 +836,51 @@
       "url": "https://www.ifood.com.br/delivery/barra-do-garcas-mt/casa-do-acaibg-jardim-ouro-fino-ii/fda438a3-7af6-4f81-901a-c61eecb96803",
       "platform": "ifood",
       "via": "iFood pelo Claude in Chrome (JSON enviado pelo Pedro em 2026-11-05); o iFood bloqueia coleta automatizada daqui"
+    },
+    "ketsui-sushi-restaurante-japones-canarana": {
+      "url": "https://delivery.yooga.app/ketsui-canarana",
+      "platform": "yooga",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08"
+    },
+    "restaurante-zero-grau-canarana": {
+      "url": "https://pedido.anota.ai/loja/churrascaria-zero-grau-1",
+      "platform": "anotaai",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08"
+    },
+    "gran-pizza-nova-xavantina": {
+      "url": "https://pedido.takeat.app/granpizza",
+      "platform": "takeat",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08"
+    },
+    "texanas-hamburgueria-artesanal-barra-do-garcas": {
+      "url": "https://pedido.anota.ai/loja/texanas-burguer",
+      "platform": "anotaai",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08"
+    },
+    "cuscuz-da-mainha-querencia": {
+      "url": "https://www.instagram.com/cuscuzdamainha/",
+      "platform": "visual",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08; destaque cardápio (1 tela); rascunho a conferir"
+    },
+    "dolce-affetto-confeitaria-querencia": {
+      "url": "https://www.instagram.com/dolce_affettoconfeitaria/",
+      "platform": "visual",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08; destaque Cardápio (1 tela); rascunho a conferir"
+    },
+    "bocao-lanches-ab-agua-boa": {
+      "url": "https://www.instagram.com/bocaolanches.ab/",
+      "platform": "visual",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08; destaque CARDÁPIO (~8 telas; transcritas 3); rascunho a conferir"
+    },
+    "bom-manjare-agua-boa": {
+      "url": "https://www.instagram.com/bom_manjare_ab/",
+      "platform": "visual",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08; destaque cardápio (6 telas); rascunho a conferir"
+    },
+    "rs-confeitaria-vila-rica": {
+      "url": "https://www.instagram.com/rsconfeitaria374/",
+      "platform": "visual",
+      "via": "Agente de Cardápios (Claude in Chrome), 2026-11-08; destaque Cardápio bolos (2 telas); rascunho a conferir"
     }
   }
 }

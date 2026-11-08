@@ -1,0 +1,68 @@
+{
+  "id": "dolce-affetto-confeitaria-querencia",
+  "platform": "visual",
+  "source": "https://www.instagram.com/dolce_affettoconfeitaria/",
+  "capturedAt": "2026-11-08T21:09:07.517Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Baguete recheada",
+      "items": [
+        {
+          "sourceId": "frango-queijo-e-requeijao-cremoso",
+          "name": "Frango, queijo e requeijão cremoso",
+          "description": "",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "P",
+                  "priceCents": 0
+                },
+                {
+                  "name": "G",
+                  "priceCents": 2100
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "carne-desfiada-queijo-e-requeijao-cremoso",
+          "name": "Carne desfiada, queijo e requeijão cremoso",
+          "description": "",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "P",
+                  "priceCents": 0
+                },
+                {
+                  "name": "G",
+                  "priceCents": 2400
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Transcrito pelo Agente de Cardápios (Claude in Chrome) do destaque Cardápio (1 tela): conferir contra a arte antes do apply."
+  ]
+}

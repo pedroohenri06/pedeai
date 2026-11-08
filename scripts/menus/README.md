@@ -13,3 +13,9 @@ Pipeline reutilizável para trazer cardápios publicados pelos próprios estabel
 7. `node scripts/build-data.js && node scripts/menus/report.js && npm test` — gera `data/menus/<id>.json`, o relatório (`data/research/cardapios/RELATORIO.md`) e valida.
 
 Nova plataforma: um arquivo em `adapters/` que recebe `{ html, responses, meta }` e devolve `L.snapshot(meta, sections, extra)` (veja `lib.js`). Nunca invente preço, descrição, foto ou opção: o que não está na fonte fica vazio, e item sem preço fica de fora (contado em `skipped`).
+
+## Agente de Cardápios (Claude in Chrome + Instagram) — trabalho por fora do site
+Para as lojas cujo cardápio só aparece no Instagram (link da bio, Linktree, destaques). Nada disso vai para o site.
+- `node scripts/menus/agent-prompts.js` → um prompt por cidade em `data/research/cardapios/agente/prompt-<cidade>.txt`, já com a lista de lojas (sem cardápio, com foto/logo real; imagem ilustrativa = não mapeada, fica de fora). Modelo do prompt: `data/research/cardapios/AGENTE-CARDAPIOS.md`.
+- O dono cola o prompt da cidade na extensão Claude in Chrome (Instagram logado). No fim, o agente devolve um bloco com uma linha JSON por loja, que o dono cola no Claude Code → salvar em `data/research/cardapios/agente/resultado-<cidade>-<data>.jsonl`.
+- **Importar:** `node scripts/menus/import-fila.js <arquivo.jsonl>` (prévia) e depois `--apply`. Link de plataforma com leitor → `fontes.json` (seguir capture → normalize → images → apply); Drive/Canva/PDF → `pendente` para transcrição (skill cardapio-visual); WhatsApp só com fonte (perfil/link da bio); Instagram só com cidade conferida; itens de destaque → rascunho `visual` sem foto, **conferido antes do apply**. Divergências só aparecem no relatório.

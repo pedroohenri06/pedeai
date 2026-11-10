@@ -305,8 +305,7 @@
   /* Monta a página (de novo quando o cardápio sob demanda chega, mantendo a rolagem). */
   function render(s) {
     var again = state.store === s && page.classList.contains('open'), keep = again && $('storeScroll') ? $('storeScroll').scrollTop : 0;
-    closeSheet(false);
-    closeCart(false);
+    state.quiet = true; closeSheet(false); closeCart(false); state.quiet = false;
     disconnect();
     state.store = s;
     state.cart = loadCart(s);
@@ -327,6 +326,7 @@
     renderQty(false);
     page.classList.add('open');
     page.setAttribute('aria-hidden', 'false');
+    deferSections(again);
     document.body.classList.add('store-open');
     document.title = s.name + ' em ' + s.city + ' | PedeAi Delivery';
     $('storeScroll').scrollTop = keep;
@@ -338,9 +338,22 @@
     requestAnimationFrame(function () { page.focus({ preventScroll: true }); });
   }
 
+  /* Cardápio grande em Android de entrada: na abertura, o navegador só calcula layout/pintura das seções perto da
+     tela (content-visibility via .sp-lazy); quando o aparelho fica ocioso, a classe sai e o resto é montado de uma
+     vez, para que posições (rolagem até a categoria, realce da seção) fiquem exatas. */
+  var lazyTimer = null;
+  function deferSections(again) {
+    clearTimeout(lazyTimer);
+    if (again || page.querySelectorAll('.sp-li').length < 40) { page.classList.remove('sp-lazy'); return; }
+    page.classList.add('sp-lazy');
+    lazyTimer = setTimeout(function () {
+      (window.requestIdleCallback || function (f) { return setTimeout(f, 0); })(settleSections, { timeout: 2000 });
+    }, 900);
+  }
+  function settleSections() { clearTimeout(lazyTimer); page.classList.remove('sp-lazy'); }
+
   function close(silent) {
-    closeSheet(false);
-    closeCart(false);
+    state.quiet = true; closeSheet(false); closeCart(false); state.quiet = false;
     disconnect();
     page.classList.remove('open');
     page.setAttribute('aria-hidden', 'true');
@@ -414,11 +427,24 @@
     links.forEach(function (a) {
       a.onclick = function (e) {
         e.preventDefault();
+        settleSections(); // posições exatas antes de rolar até a seção
         var i = Number(a.dataset.sec), sec = sections[i], sticky = page.querySelector('.sp-sticky');
         locked = Date.now() + 900;
         current = i;
         activate(i);
-        scroller.scrollTo({ top: offsetIn(scroller, sec) - page.querySelector('.sp-top').offsetHeight - (sticky ? sticky.offsetHeight : 0) - 8, behavior: behavior() });
+        var targetOf = function () { var st = page.querySelector('.sp-sticky'); return offsetIn(scroller, sec) - page.querySelector('.sp-top').offsetHeight - (st ? st.offsetHeight : 0) - 8; };
+        scroller.scrollTo({ top: targetOf(), behavior: behavior() });
+        /* Durante a rolagem o topo da loja condensa (muda de altura) e o alvo calculado no toque fica deslocado:
+           quando a rolagem para, confere e faz o ajuste fino. */
+        var last = -1, still = 0, tries = 0;
+        (function settle() {
+          if (++tries > 30) return;
+          var y = scroller.scrollTop;
+          still = Math.abs(y - last) < 1 ? still + 1 : 0; last = y;
+          if (still < 2) return setTimeout(settle, 80);
+          var fix = targetOf();
+          if (Math.abs(fix - y) > 6) { locked = Date.now() + 600; scroller.scrollTo({ top: fix, behavior: behavior() }); }
+        })();
         sec.querySelector('.sp-section-title').setAttribute('tabindex', '-1');
         sec.querySelector('.sp-section-title').focus({ preventScroll: true });
       };
@@ -553,10 +579,32 @@
   }
 
   /* ---------------- Detalhe do produto ---------------- */
+  /* Camadas (detalhe do produto e sacola) entram no histórico: o "voltar" do Android/navegador fecha só a camada
+     de cima, como nos apps nativos, em vez de fechar a loja inteira. Fechar pela interface (X, fundo, adicionar)
+     consome essa entrada com history.back(), sem refazer a página. */
+  var layerPop = false;
+  function pushLayer(kind) {
+    try { if (!history.state || history.state.pedeaiLayer !== kind) history.pushState(Object.assign({}, history.state || {}, { pedeaiLayer: kind }), '', location.href); } catch (e) { /* sem histórico */ }
+  }
+  function popLayer(kind) {
+    if (state.quiet || !history.state || history.state.pedeaiLayer !== kind) return;
+    layerPop = true;
+    history.back();
+  }
+  /* Chamado pelo roteador em todo popstate. true = o evento foi tratado aqui (não rotear). */
+  function handlePop() {
+    if (layerPop) { layerPop = false; return true; }
+    var layer = history.state && history.state.pedeaiLayer;
+    if ($('spSheet') && $('spSheet').classList.contains('open') && layer !== 'sheet') { closeSheet(true, true); return true; }
+    if (drawer.classList.contains('open') && layer !== 'cart') { closeCart(undefined, true); return true; }
+    return false;
+  }
+
   function openSheet(id, opener) {
     var item = findItem(id), sheet = $('spSheet');
     if (!item) return;
     state.sheet = { item: item, qty: 1, opener: opener || null };
+    pushLayer('sheet');
     var groups = (item.options || []).map(function (g) {
       var min = g.min || 0, max = g.max == null ? g.choices.length : g.max, single = max === 1;
       var hint = min > 0 ? (min === max ? 'Escolha ' + min : 'Escolha de ' + min + ' a ' + max) : (single ? 'Escolha até 1' : 'Escolha até ' + max);
@@ -630,9 +678,10 @@
     if (target) target.focus({ preventScroll: true });
   }
 
-  function closeSheet(returnFocus) {
+  function closeSheet(returnFocus, viaHistory) {
     var sheet = $('spSheet');
     if (!sheet || !sheet.classList.contains('open')) return;
+    if (!viaHistory) popLayer('sheet');
     sheet.classList.remove('open');
     sheet.setAttribute('aria-hidden', 'true');
     var opener = state.sheet && state.sheet.opener;
@@ -651,13 +700,15 @@
   /* ---------------- Sacola ---------------- */
   function openCart() {
     renderCart();
+    pushLayer('cart');
     drawer.classList.add('open');
     drawer.setAttribute('aria-hidden', 'false');
     requestAnimationFrame(function () { drawer.querySelector('.cart-close').focus({ preventScroll: true }); });
   }
 
-  function closeCart(returnFocus) {
+  function closeCart(returnFocus, viaHistory) {
     if (!drawer.classList.contains('open')) return;
+    if (!viaHistory) popLayer('cart');
     drawer.classList.remove('open');
     drawer.setAttribute('aria-hidden', 'true');
     if (returnFocus !== false) { var bar = $('cartBar'); if (bar && !bar.hidden) bar.focus({ preventScroll: true }); else { var back = page.querySelector('.store-back'); if (back) back.focus({ preventScroll: true }); } }
@@ -739,7 +790,8 @@
   }, 60000);
 
   window.PedeAiStore = {
-    open: open, close: close, handleEscape: handleEscape,
+    open: open, close: close, handleEscape: handleEscape, handlePop: handlePop,
+    currentId: function () { return page.classList.contains('open') && state.store ? state.store.id : null; },
     isOpen: function () { return page.classList.contains('open'); },
     onBack: function () { /* substituído por app.js */ }
   };

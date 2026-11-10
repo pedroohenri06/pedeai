@@ -142,13 +142,20 @@
 
   /* ---------------- Hora local da loja ---------------- */
 
+  /* Criar um Intl.DateTimeFormat custa caro (milissegundos em Android de entrada) e o status de cada card chama isto:
+     o formatador fica guardado por fuso, e o resultado é reaproveitado dentro do mesmo minuto. */
+  var FORMATTERS = {}, PARTS = {};
   function localParts(now, tz) {
     tz = tz || DEFAULT_TZ;
+    var minuteKey = tz + '|' + Math.floor(now.getTime() / 60000), hit = PARTS[minuteKey];
+    if (hit) return { y: hit.y, m: hit.m, d: hit.d, min: hit.min };
     try {
       var p = {};
-      new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' })
-        .formatToParts(now).forEach(function (x) { p[x.type] = x.value; });
-      return { y: +p.year, m: +p.month, d: +p.day, min: (+p.hour % 24) * 60 + +p.minute };
+      var fmt = FORMATTERS[tz] || (FORMATTERS[tz] = new Intl.DateTimeFormat('en-CA', { timeZone: tz, year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }));
+      fmt.formatToParts(now).forEach(function (x) { p[x.type] = x.value; });
+      var out = { y: +p.year, m: +p.month, d: +p.day, min: (+p.hour % 24) * 60 + +p.minute };
+      PARTS = {}; PARTS[minuteKey] = out;
+      return { y: out.y, m: out.m, d: out.d, min: out.min };
     } catch (e) {
       var shifted = new Date(now.getTime() + (TZ_FALLBACK[tz] == null ? -240 : TZ_FALLBACK[tz]) * 60000);
       return { y: shifted.getUTCFullYear(), m: shifted.getUTCMonth() + 1, d: shifted.getUTCDate(), min: shifted.getUTCHours() * 60 + shifted.getUTCMinutes() };

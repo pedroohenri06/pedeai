@@ -111,10 +111,7 @@
   /* Atualiza só a linha de status dos cards na tela (sem refazer a lista) — a cada minuto e ao voltar para a aba. */
   function refreshOps() {
     var now = new Date();
-    grid.querySelectorAll('.restaurant-meta[data-ops]').forEach(function (el) {
-      var s = BY_ID[el.dataset.ops], html = s && opsHtml(s, now);
-      if (s && el.innerHTML !== html) el.innerHTML = html;
-    });
+    [].forEach.call(grid.children, function (card) { var s = BY_ID[card.dataset.id]; if (s) cardOf(s, now); });
   }
 
   /* Com busca: primeiro onde o termo está no nome, depois na categoria, no bairro e por último só nos pratos.
@@ -135,6 +132,27 @@
     else { var root = document.documentElement, prev = root.style.scrollBehavior; root.style.scrollBehavior = 'auto'; scrollTo(0, y); root.style.scrollBehavior = prev; }
   }
 
+  var CARDS = {};
+  function cardHtml(s, now) {
+    var meta = [s.category].concat(s.kind && C.normalize(s.kind) !== C.normalize(s.category) ? [s.kind] : []);
+    var media = isSoon(s) ? SOON_MEDIA : '<div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div>';
+    return '<a class="restaurant reveal visible' + (isSoon(s) ? ' restaurant--soon' : '') + '" href="#/loja/' + s.id + '" data-id="' + s.id + '">' + media + '<div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
+  }
+  function cardOf(s, now) {
+    var el = CARDS[s.id];
+    if (!el) {
+      var t = document.createElement('template');
+      t.innerHTML = cardHtml(s, now);
+      el = CARDS[s.id] = t.content.firstChild;
+      el._ops = el.querySelector('.restaurant-meta');
+      el._opsSrc = opsHtml(s, now);
+    } else {
+      var html = opsHtml(s, now); // status muda com o relógio: só a linha operacional é refeita, e só se mudou
+      if (html !== el._opsSrc) { el._ops.innerHTML = html; el._opsSrc = html; }
+    }
+    return el;
+  }
+
   function render() {
     var q = search.value.trim(), now = new Date();
     var list = openFirst(C.rankStores(C.filterStores(STORES, { city: state.city, category: state.category, query: q })), now, q);
@@ -142,11 +160,9 @@
     document.body.classList.toggle('is-searching', !!q);
     title.textContent = q ? 'Resultados para “' + q + '”' : state.category === 'Todos' ? 'Em ' + state.city : state.category + ' em ' + state.city;
     count.textContent = list.length + ' ' + (list.length === 1 ? 'lugar' : 'lugares');
-    grid.innerHTML = list.map(function (s) {
-      var meta = [s.category].concat(s.kind && C.normalize(s.kind) !== C.normalize(s.category) ? [s.kind] : []);
-      var media = isSoon(s) ? SOON_MEDIA : '<div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div>';
-      return '<a class="restaurant reveal visible' + (isSoon(s) ? ' restaurant--soon' : '') + '" href="#/loja/' + s.id + '" data-id="' + s.id + '">' + media + '<div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
-    }).join('');
+    // Cards montados uma vez por loja e reaproveitados: buscar/filtrar só reordena nós já prontos (sem refazer HTML
+    // nem redecodificar imagens), o que mantém a digitação fluida em Android de entrada.
+    grid.replaceChildren.apply(grid, list.map(function (s) { return cardOf(s, now); }));
     empty.style.display = list.length ? 'none' : 'block';
     empty.querySelector('h3').textContent = q ? 'Nada encontrado para “' + q + '”' : inCity ? 'Nada por aqui ainda' : 'Chegando em ' + state.city;
     empty.querySelector('p').textContent = q ? 'Confira a escrita ou tente outro prato, como pizza, açaí ou lanche.' : inCity ? 'Tente buscar outro prato ou categoria.' : 'Estamos cadastrando os estabelecimentos desta cidade. Tem um negócio aqui? Fale com a gente.';
@@ -157,6 +173,7 @@
   Store.onBack = goHome;
 
   function openStore(id) {
+    if (Store.currentId && Store.currentId() === id) return; // mesma loja já aberta (ex.: voltar de uma camada)
     var s = STORES.find(function (x) { return x.id === id; });
     if (!s) { toast('Estabelecimento não encontrado'); history.replaceState(null, '', location.pathname + location.search); return Store.close(true); }
     Store.open(s);
@@ -194,7 +211,7 @@
     route();
   });
   addEventListener('hashchange', route);
-  addEventListener('popstate', route);
+  addEventListener('popstate', function () { if (!(Store.handlePop && Store.handlePop())) route(); });
   /* Busca: filtra a cada tecla (lista leve: um innerHTML por tecla) e mostra os resultados logo abaixo
      do campo — banner e categorias saem de cena enquanto há texto. Enter fecha o teclado. */
   var lastQuery = '';
@@ -205,7 +222,9 @@
     var started = !lastQuery && q, ended = lastQuery && !q;
     lastQuery = q;
     render();
-    if (started || (q && !ended)) revealResults(false);
+    // Só ao começar a digitar: as teclas seguintes não mudam a posição do título, e medir o layout a cada tecla
+    // (getBoundingClientRect) força um reflow completo da página.
+    if (started) revealResults(false);
     if (ended) { var root = document.documentElement, prev = root.style.scrollBehavior; root.style.scrollBehavior = 'auto'; scrollTo(0, 0); root.style.scrollBehavior = prev; }
   }
   search.oninput = runSearch;

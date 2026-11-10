@@ -208143,6 +208143,14 @@
           "name": "Guaraná lata",
           "description": "",
           "priceCents": 500,
+          "image": {
+            "src": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/9c07255d29a4.webp",
+            "thumb": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/9c07255d29a4-sm.webp",
+            "alt": "Guaraná lata — Magnífico Hot Dog NX",
+            "credit": "Magnífico Hot Dog NX",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
+          },
           "options": [
             {
               "id": "tipo",
@@ -208170,6 +208178,14 @@
           "name": "Coca-Cola lata",
           "description": "",
           "priceCents": 500,
+          "image": {
+            "src": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/0b80962017eb.webp",
+            "thumb": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/0b80962017eb-sm.webp",
+            "alt": "Coca-Cola lata — Magnífico Hot Dog NX",
+            "credit": "Magnífico Hot Dog NX",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
+          },
           "options": [
             {
               "id": "tipo",
@@ -208196,14 +208212,30 @@
           "section": "Bebidas",
           "name": "Fanta lata",
           "description": "",
-          "priceCents": 500
+          "priceCents": 500,
+          "image": {
+            "src": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/c1ae167c04c3.webp",
+            "thumb": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/c1ae167c04c3-sm.webp",
+            "alt": "Fanta lata — Magnífico Hot Dog NX",
+            "credit": "Magnífico Hot Dog NX",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
+          }
         },
         {
           "id": "agua-com-gas",
           "section": "Bebidas",
           "name": "Água com gás",
           "description": "",
-          "priceCents": 400
+          "priceCents": 400,
+          "image": {
+            "src": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/44788e77ef28.webp",
+            "thumb": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/44788e77ef28-sm.webp",
+            "alt": "Água com gás — Magnífico Hot Dog NX",
+            "credit": "Magnífico Hot Dog NX",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
+          }
         },
         {
           "id": "refrigerante-500-ml",
@@ -208237,7 +208269,15 @@
           "section": "Bebidas",
           "name": "Guaraná 1 litro",
           "description": "",
-          "priceCents": 800
+          "priceCents": 800,
+          "image": {
+            "src": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/2bee48373c94.webp",
+            "thumb": "assets/menu/magnifico-hot-dog-nx-nova-xavantina/2bee48373c94-sm.webp",
+            "alt": "Guaraná 1 litro — Magnífico Hot Dog NX",
+            "credit": "Magnífico Hot Dog NX",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
+          }
         },
         {
           "id": "refrigerante-1-5-l",

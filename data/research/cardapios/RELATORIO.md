@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/cardapios/fontes.json`.
 
-**159 cardápios importados** de 183 links de cardápio cadastrados · 1387 categorias · 8094 produtos · 5611 grupos de opções · 18986 adicionais (opções opcionais) · 5072 fotos.
+**159 cardápios importados** de 183 links de cardápio cadastrados · 1387 categorias · 8094 produtos · 5611 grupos de opções · 18986 adicionais (opções opcionais) · 5077 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -116,7 +116,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 | OK | Hatsuki Nova Xavantina | Nova Xavantina | aiqfome | 12 | 77 | 73 | 262 | 42 | 0 | 10 |
 | OK | Kanoa Beach | Nova Xavantina | bigdim | 17 | 110 | 5 | 1 | 95 | 2 | 0 |
 | OK | Magnífico Burguer NX | Nova Xavantina | aiqfome | 5 | 26 | 19 | 39 | 4 | 0 | 4 |
-| OK | Magnífico Hot Dog NX | Nova Xavantina | visual | 5 | 30 | 18 | 78 | 5 | 0 | 3 |
+| OK | Magnífico Hot Dog NX | Nova Xavantina | visual | 5 | 30 | 18 | 78 | 10 | 0 | 3 |
 | OK | Portal Burguer & Grill | Nova Xavantina | visual | 6 | 30 | 24 | 60 | 0 | 0 | 0 |
 | OK | Refúgio do Chopp | Nova Xavantina | meucardapio | 22 | 208 | 16 | 104 | 201 | 0 | 0 |
 | OK | Sabor na Brasa | Nova Xavantina | brendi | 3 | 12 | 65 | 0 | 12 | 0 | 0 |
@@ -1303,9 +1303,10 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 ### Magnífico Hot Dog NX (Nova Xavantina) — OK
 
 - Fonte: https://www.instagram.com/magnificoburguernx/ (visual)
-- Categorias: 5 · Produtos: 30 · Grupos de opções: 18 (91 escolhas) · Adicionais: 78 · Fotos: 5
+- Categorias: 5 · Produtos: 30 · Grupos de opções: 18 (91 escolhas) · Adicionais: 78 · Fotos: 10
 - Não importados: nenhum
 - Observação: Transcrito dos prints do catálogo do WhatsApp da Magnífico (enviados pelo Pedro em 10/11/2026): Hambúrgueres, Hot dog + Bebidas, Combo + Sobremesa e card de funcionamento (seg a dom 18h–23h, entrega R$ 8,00, Pix/dinheiro/débito/crédito). Fotos dos 4 lanches: aiqfome da própria Magnífico; mousse: recorte da arte.
+- Observação: Bebidas industrializadas (lata, garrafa, água) com foto padrão do produto: regra do Pedro de 10/11/2026.
 - Pendências: 0
 
 ### Portal Burguer & Grill (Nova Xavantina) — OK

@@ -11,7 +11,7 @@
     'Sushi': 'assets/restaurant-f7e71caf6cf6.webp', 'Açaí': 'assets/restaurant-c7acf49ef428.webp',
     'Brasileira': 'assets/restaurant-044a480791d2.webp', 'Pastel': 'assets/restaurant-46a1b369aad4.webp',
     'Churrasco': 'assets/restaurant-4674ee361a2b.webp', 'Doces': 'assets/restaurant-295265dcbf3c.webp',
-    'Saudável': 'assets/restaurant-9b67528e7ae2.webp', 'Café': 'assets/restaurant-b965f13d4032.webp'
+    'Saudável': 'assets/restaurant-9b67528e7ae2.webp', 'Padaria': 'assets/restaurant-b965f13d4032.webp'
   };
   var CAMPAIGNS = { 'Hambúrguer': ['assets/media-b3a1a3df0863.webp', 'Hambúrguer que dá vontade só de olhar'], 'Pizza': ['assets/media-be017289232c.webp', 'Pizza: o clássico da noite'], 'Sushi': ['assets/media-be042ef87c49.webp', 'Japonês com apresentação impecável'], 'Açaí': ['assets/media-c4516edfbce2.webp', 'Açaí do seu jeito'] };
   var GENERIC_CAMPAIGN = ['assets/media-ba6e416c2463.webp', 'Seu pedido, direto no WhatsApp'];
@@ -39,7 +39,7 @@
      Mostra só as categorias com lugares na cidade, da maior para a menor. */
   var CATEGORY_ICONS = {
     'Hambúrguer': 'hamburguer', 'Pizza': 'pizza', 'Sushi': 'sushi', 'Açaí': 'acai', 'Brasileira': 'brasileira',
-    'Pastel': 'pastel', 'Churrasco': 'churrasco', 'Doces': 'doces', 'Café': 'cafe'
+    'Pastel': 'pastel', 'Churrasco': 'churrasco', 'Doces': 'doces', 'Padaria': 'cafe'
   };
   var BRAND_MARK = 'assets/media-eec8624c4b7f.png';
 

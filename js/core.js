@@ -6,7 +6,7 @@
   'use strict';
 
   var CITIES = ['Vila Rica', 'São Félix do Araguaia', 'Querência', 'Ribeirão Cascalheira', 'Canarana', 'Água Boa', 'Novo São Joaquim', 'Campinápolis', 'Nova Xavantina', 'Barra do Garças'];
-  var CATEGORIES = ['Hambúrguer', 'Pizza', 'Sushi', 'Açaí', 'Brasileira', 'Pastel', 'Churrasco', 'Doces', 'Saudável', 'Café'];
+  var CATEGORIES = ['Hambúrguer', 'Pizza', 'Sushi', 'Açaí', 'Brasileira', 'Pastel', 'Churrasco', 'Doces', 'Saudável', 'Padaria'];
   var MAX_QTY = 99;
 
   function normalize(value) {

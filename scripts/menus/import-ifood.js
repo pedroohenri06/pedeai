@@ -24,7 +24,7 @@ const FONTES = path.join(DIR, 'fontes.json');
 const DAYS = { MONDAY: 'Seg', TUESDAY: 'Ter', WEDNESDAY: 'Qua', THURSDAY: 'Qui', FRIDAY: 'Sex', SATURDAY: 'Sáb', SUNDAY: 'Dom' };
 const ORDER = ['MONDAY', 'TUESDAY', 'WEDNESDAY', 'THURSDAY', 'FRIDAY', 'SATURDAY', 'SUNDAY'];
 const CATEGORY = { 'Lanches': 'Hambúrguer', 'Pizza': 'Pizza', 'Açaí': 'Açaí', 'Comida Brasileira': 'Brasileira', 'Marmita': 'Brasileira',
-  'Carnes': 'Churrasco', 'Doces & Bolos': 'Doces', 'Pastel': 'Pastel', 'Japonesa': 'Sushi', 'Saudável': 'Saudável', 'Café': 'Café', 'Padarias': 'Café' };
+  'Carnes': 'Churrasco', 'Doces & Bolos': 'Doces', 'Pastel': 'Pastel', 'Japonesa': 'Sushi', 'Saudável': 'Saudável', 'Café': 'Padaria', 'Padarias': 'Padaria' };
 
 const pad = n => String(n).padStart(2, '0');
 const hhmm = min => pad(Math.floor(min / 60) % 24) + ':' + pad(min % 60);

@@ -145,7 +145,7 @@ test('escapeHtml neutraliza HTML', () => {
 
 test('cidades e categorias originais preservadas', () => {
   assert.equal(core.CITIES.length, 10);
-  assert.deepEqual(core.CATEGORIES, ['Hambúrguer', 'Pizza', 'Sushi', 'Açaí', 'Brasileira', 'Pastel', 'Churrasco', 'Doces', 'Saudável', 'Café']);
+  assert.deepEqual(core.CATEGORIES, ['Hambúrguer', 'Pizza', 'Sushi', 'Açaí', 'Brasileira', 'Pastel', 'Churrasco', 'Doces', 'Saudável', 'Padaria']);
 });
 
 const pizza = {
@@ -233,7 +233,7 @@ test('cardápio sob demanda: contagem, pedido online e busca por prato sem o men
 });
 
 test('searchScore: nome da loja vem antes de categoria e de prato', () => {
-  const pizzaria = { name: 'Pizzaria Bella', category: 'Pizza' }, lanche = { name: 'Dantes', category: 'Hambúrguer', kind: 'Hamburgueria, pizzas' }, bolo = { name: 'Bolos do Sítio', category: 'Café' };
+  const pizzaria = { name: 'Pizzaria Bella', category: 'Pizza' }, lanche = { name: 'Dantes', category: 'Hambúrguer', kind: 'Hamburgueria, pizzas' }, bolo = { name: 'Bolos do Sítio', category: 'Padaria' };
   assert.equal(core.searchScore(pizzaria, 'pizza'), 0);
   assert.equal(core.searchScore(lanche, 'pizza'), 1);
   assert.equal(core.searchScore(bolo, 'pizza'), 3);

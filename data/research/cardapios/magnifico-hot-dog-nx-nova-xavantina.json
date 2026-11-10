@@ -624,7 +624,7 @@
           "description": "",
           "priceCents": 500,
           "originalPriceCents": null,
-          "imageUrl": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/magnifico-hot-dog-nx-nova-xavantina/guarana-lata.png",
           "options": [
             {
               "name": "Tipo",
@@ -641,7 +641,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "imageSource": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
         },
         {
           "sourceId": "coca-cola-lata",
@@ -649,7 +650,7 @@
           "description": "",
           "priceCents": 500,
           "originalPriceCents": null,
-          "imageUrl": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/magnifico-hot-dog-nx-nova-xavantina/coca-cola-lata.png",
           "options": [
             {
               "name": "Tipo",
@@ -666,7 +667,8 @@
                 }
               ]
             }
-          ]
+          ],
+          "imageSource": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
         },
         {
           "sourceId": "fanta-lata",
@@ -674,8 +676,9 @@
           "description": "",
           "priceCents": 500,
           "originalPriceCents": null,
-          "imageUrl": null,
-          "options": []
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/magnifico-hot-dog-nx-nova-xavantina/fanta-lata.png",
+          "options": [],
+          "imageSource": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
         },
         {
           "sourceId": "agua-com-gas",
@@ -683,8 +686,9 @@
           "description": "",
           "priceCents": 400,
           "originalPriceCents": null,
-          "imageUrl": null,
-          "options": []
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/magnifico-hot-dog-nx-nova-xavantina/agua-com-gas.png",
+          "options": [],
+          "imageSource": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
         },
         {
           "sourceId": "refrigerante-500-ml",
@@ -717,8 +721,9 @@
           "description": "",
           "priceCents": 800,
           "originalPriceCents": null,
-          "imageUrl": null,
-          "options": []
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/magnifico-hot-dog-nx-nova-xavantina/guarana-1-litro.png",
+          "options": [],
+          "imageSource": "foto padrão do produto industrializado (banco de bebidas do PedeAi)"
         },
         {
           "sourceId": "refrigerante-1-5-l",
@@ -814,6 +819,7 @@
   ],
   "skipped": {},
   "notes": [
-    "Transcrito dos prints do catálogo do WhatsApp da Magnífico (enviados pelo Pedro em 10/11/2026): Hambúrgueres, Hot dog + Bebidas, Combo + Sobremesa e card de funcionamento (seg a dom 18h–23h, entrega R$ 8,00, Pix/dinheiro/débito/crédito). Fotos dos 4 lanches: aiqfome da própria Magnífico; mousse: recorte da arte."
+    "Transcrito dos prints do catálogo do WhatsApp da Magnífico (enviados pelo Pedro em 10/11/2026): Hambúrgueres, Hot dog + Bebidas, Combo + Sobremesa e card de funcionamento (seg a dom 18h–23h, entrega R$ 8,00, Pix/dinheiro/débito/crédito). Fotos dos 4 lanches: aiqfome da própria Magnífico; mousse: recorte da arte.",
+    "Bebidas industrializadas (lata, garrafa, água) com foto padrão do produto: regra do Pedro de 10/11/2026."
   ]
 }

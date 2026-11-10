@@ -85,7 +85,8 @@
     var a = [];
     if (s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Falar no WhatsApp</a>');
     if (s.phone) a.push('<a class="sp-btn" href="tel:+' + esc(s.phone) + '">' + icon(I.phone) + 'Ligar</a>');
-    if (s.orderUrl) a.push('<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Cardápio online</a>');
+    // orderUrl só é link de WhatsApp da própria loja (wa.me/message, sem número aberto): nunca cardápio externo.
+    if (s.orderUrl && !s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Falar no WhatsApp</a>');
     if (s.instagram) a.push('<a class="sp-btn" href="https://www.instagram.com/' + encodeURIComponent(s.instagram) + '/" target="_blank" rel="noopener">' + icon(I.link) + 'Instagram</a>');
     if (s.website) a.push('<a class="sp-btn" href="' + esc(s.website) + '" target="_blank" rel="noopener">' + icon(I.link) + 'Site</a>');
     return a.length ? '<div class="sp-actions">' + a.join('') + '</div>' : '';
@@ -202,13 +203,13 @@
   }
 
   /* Cardápio sob demanda: enquanto data/menus/<id>.json chega, a página mostra a estrutura do cardápio (sem conteúdo
-     inventado); se a rede falhar, oferece tentar de novo e o cardápio online oficial. */
+     inventado); se a rede falhar, oferece tentar de novo. */
   function pendingMenuHtml(s) {
     var failed = state.loading[s.id] === 'erro';
     return '<section class="sp-menu" aria-labelledby="storeMenuTitle" aria-busy="' + !failed + '"><div class="sp-menu-head">' + eyebrow('Escolha seus itens') + '<h2 id="storeMenuTitle">Cardápio</h2></div>' +
       (failed
         ? '<div class="sp-card sp-empty"><h3>Não foi possível carregar o cardápio</h3><p>Verifique sua conexão e tente de novo.</p><div class="sp-empty-actions"><button class="sp-btn sp-btn--primary" type="button" data-menu-retry>Tentar de novo</button>' +
-          (s.orderUrl ? '<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '') + '</div></div>'
+          '</div></div>'
         : '<div class="sp-skel" aria-hidden="true">' + '<span class="sp-skel-cats"><i></i><i></i><i></i></span>' + new Array(5).join('<span class="sp-skel-item"><i></i><i></i><i></i><b></b></span>') + '</div><p class="sr-only">Carregando o cardápio…</p>') +
       '</section>';
   }
@@ -237,11 +238,11 @@
   function menuHtml(s) {
     if (s.menuFile && !s.menu.length) return pendingMenuHtml(s);
     if (!s.menu.length) {
-      var actions = (s.whatsapp ? '<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Pedir pelo WhatsApp</a>' : '') +
-        (s.orderUrl ? '<a class="sp-btn" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + icon(I.menu) + 'Ver cardápio online</a>' : '');
-      return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head">' + eyebrow(s.whatsapp ? 'Peça direto' : 'Em breve') + '<h2 id="storeMenuTitle">Cardápio</h2></div>' +
+      var waHref = s.whatsapp ? C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.') : s.orderUrl;
+      var actions = waHref ? '<a class="sp-btn sp-btn--primary" href="' + esc(waHref) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Pedir pelo WhatsApp</a>' : '';
+      return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head">' + eyebrow(s.whatsapp || s.orderUrl ? 'Peça direto' : 'Em breve') + '<h2 id="storeMenuTitle">Cardápio</h2></div>' +
         '<div class="sp-card sp-empty menu-pending"><img class="sp-empty-art" src="assets/pedeai-courier-3d-v2.webp" width="160" height="149" alt="" loading="lazy" decoding="async"><h3>Cardápio em preparação</h3><p>Ainda não temos um cardápio com preços confirmados para ' + esc(s.name) + '.' +
-        (s.whatsapp ? ' Você pode fazer seu pedido direto pelo WhatsApp.' : s.orderUrl ? ' Consulte o cardápio online oficial.' : ' Assim que o estabelecimento confirmar as informações, o pedido online é liberado aqui.') + '</p>' +
+        (s.whatsapp || s.orderUrl ? ' Você pode fazer seu pedido direto pelo WhatsApp.' : ' Assim que o estabelecimento confirmar as informações, o pedido online é liberado aqui.') + '</p>' +
         (actions ? '<div class="sp-empty-actions">' + actions + '</div>' : '') + '</div></section>';
     }
     var secs = sectionsOf(s.menu), many = s.menu.length >= 12;

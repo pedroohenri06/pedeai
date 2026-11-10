@@ -5,6 +5,13 @@ const Schedule = require('../js/schedule.js');
 
 const URL_RE = /^https:\/\/[^\s]+$/;
 
+/* Regra do Pedro (10/11/2026): nenhuma loja leva para cardápio externo. O cardápio digital da loja é importado e
+   mostrado no PedeAi, com o nosso brand; o link da plataforma de origem fica só em data/research/cardapios/fontes.json.
+   orderUrl só pode ser WhatsApp; website não pode ser plataforma de cardápio/pedido, iFood, app, Canva, Drive ou PDF. */
+const WHATSAPP_URL = /^https:\/\/(wa\.me|wa\.link|api\.whatsapp\.com|(www\.)?whatsapp\.com)\/|^https:\/\/bit\.ly\/(taliasirena|SaboritosBurguerWhats)$/i;
+const EXTERNAL_MENU = /ifood\.com|aiqfome\.com|anota\.ai|menudino|cardapioweb|goomer|brendi\.com|yooga\.app|saipos\.com|vendanozap|bigd\.im|pedir\.delivery|foodsapp|gynfood|beefood|maisdeliveryapp|zionpdv|wabiz|ola\.click|olaclick|takeat|meucardapio|zapdelivery|compraqui|vemmenu|godly|deeliv|bidudelivery|grandchef|comercio\.net\.br|expressodelivery|play\.google\.com|apps\.apple\.com|canva\.|drive\.google|docs\.google|\.pdf(\?|$)|clique-aqui\.net|owziburger\.com\.br|goldenhamburgueria\.com|pizzariacoqueiros\.com|is\.gd\/|linktr\.ee|bio\.site|abre\.bio|contate\.me|beacons\.ai|lnk\.bio|linkbio|taplink/i;
+const isExternalMenu = u => !!u && EXTERNAL_MENU.test(u);
+
 function validateEstablishments(list) {
   const errors = [];
   const ids = new Set();
@@ -29,6 +36,8 @@ function validateEstablishments(list) {
       if (!core.isValidWhatsApp(s.whatsapp)) err(`whatsapp inválido: ${s.whatsapp}`);
       if (!s.whatsappSource || !URL_RE.test(s.whatsappSource)) err('whatsapp sem fonte verificável');
     }
+    if (s.orderUrl != null && !WHATSAPP_URL.test(s.orderUrl)) err(`orderUrl só pode ser WhatsApp (cardápio externo não): ${s.orderUrl}`);
+    if (s.website != null && isExternalMenu(s.website)) err(`website aponta para cardápio externo: ${s.website}`);
     if (s.phone != null && !/^55\d{10,11}$/.test(s.phone)) err(`telefone inválido: ${s.phone}`);
     if (s.hoursEstimated != null && (s.hoursEstimated !== true || !s.hours)) err('hoursEstimated só com horário preenchido');
     if (s.schedule != null) {
@@ -72,4 +81,4 @@ function validateEstablishments(list) {
   return errors;
 }
 
-module.exports = { validateEstablishments };
+module.exports = { validateEstablishments, isExternalMenu, WHATSAPP_URL };

@@ -52,3 +52,6 @@ Para **atualizar** um registro existente (por exemplo, confirmar um WhatsApp), e
 
 ## Limitações do ambiente em nuvem
 Já vimos o proxy bloquear o WebFetch para iFood, Instagram, Facebook e diretórios, e a cota de WebSearch é compartilhada entre os agentes da mesma rodada. Se isso acontecer, trabalhe com os trechos da busca, marque a confiança como `media` ou `baixa` e registre o que falta em `notes`. Peça ao dono do projeto que libere os domínios em Network access do ambiente.
+
+## Nunca link para cardápio externo (regra do Pedro, 10/11/2026)
+O cardápio digital da loja (anota.ai, aiqfome, iFood, Linktree, Canva, Drive, site de pedidos…) é **importado e mostrado no PedeAi** com o nosso brand (`scripts/menus`), nunca como botão ou link. A URL de origem fica só em `data/research/cardapios/fontes.json` e em `sources`. `orderUrl` só aceita link de WhatsApp da própria loja (exibido como "Falar no WhatsApp"); `website` não aceita plataforma de cardápio/pedido nem página de links (Linktree, bio.site…). `scripts/validate.js` barra os dois, e `import-instagram.js`/`import-research.js` descartam esses links. Cardápio que não dá para importar (bloqueio anti-robô, iFood): pedir prints/link ao Pedro e transcrever (skill cardapio-visual).

@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/cardapios/fontes.json`.
 
-**160 cardápios importados** de 184 links de cardápio cadastrados · 1393 categorias · 8113 produtos · 5635 grupos de opções · 19052 adicionais (opções opcionais) · 5096 fotos.
+**161 cardápios importados** de 185 links de cardápio cadastrados · 1399 categorias · 8132 produtos · 5659 grupos de opções · 19118 adicionais (opções opcionais) · 5115 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -84,6 +84,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 | OK | Texas Grill - Burger & Churrasco | Barra do Garças | anotaai | 12 | 48 | 104 | 83 | 40 | 0 | 0 |
 | OK | Toa Toa Sanduicheria | Barra do Garças | ifood | 6 | 42 | 25 | 170 | 41 | 0 | 0 |
 | OK | VM Restaurante e Cia | Barra do Garças | ifood | 5 | 22 | 5 | 0 | 22 | 0 | 0 |
+| OK | Creme Mania Sorvetes | Campinápolis | franquia | 6 | 19 | 24 | 66 | 19 | 0 | 3 |
 | OK | Eclipse Lanchonete e Pizzaria | Campinápolis | visual | 8 | 53 | 17 | 0 | 0 | 0 | 0 |
 | OK | Sintonia Hamburgueria e Pizzaria | Campinápolis | saipos | 13 | 40 | 26 | 125 | 36 | 10 | 0 |
 | OK | ALÊ Café & Empório | Canarana | maisdelivery | 10 | 39 | 24 | 22 | 32 | 0 | 0 |
@@ -1015,6 +1016,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 - Categorias: 5 · Produtos: 22 · Grupos de opções: 5 (16 escolhas) · Adicionais: 0 · Fotos: 22
 - Não importados: nenhum
 - Observação: Cardápio do iFood coletado pelo Claude in Chrome em 2026-11-05 (22 itens na loja).
+- Pendências: 0
+
+### Creme Mania Sorvetes (Campinápolis) — OK
+
+- Fonte: https://maisdeliveryapp.com.br/web/loja.php?id=NTA5NjM= (franquia)
+- Categorias: 6 · Produtos: 19 · Grupos de opções: 24 (146 escolhas) · Adicionais: 66 · Fotos: 19
+- Não importados: nenhum
+- Observação: Cardápio universal da Creme Mania (base: unidade de São Félix do Araguaia no Mais Delivery, preços iguais aos de Água Boa e Vila Rica), aplicado a unidade sem cardápio digital próprio a pedido do Pedro (10/11/2026).
 - Pendências: 0
 
 ### Eclipse Lanchonete e Pizzaria (Campinápolis) — OK

@@ -184224,6 +184224,1335 @@
       }
     },
     {
+      "id": "creme-mania-sorvetes-campinapolis",
+      "name": "Creme Mania Sorvetes",
+      "city": "Campinápolis",
+      "category": "Doces",
+      "kind": "Sorveteria e açaí",
+      "address": null,
+      "neighborhood": null,
+      "whatsapp": null,
+      "whatsappSource": null,
+      "phone": null,
+      "instagram": null,
+      "website": null,
+      "orderUrl": null,
+      "hours": null,
+      "deliveryFeeCents": null,
+      "image": null,
+      "menuSource": "https://maisdeliveryapp.com.br/web/loja.php?id=NTA5NjM=",
+      "menu": [
+        {
+          "id": "acai",
+          "section": "Açaí",
+          "name": "Açaí",
+          "description": "Com direito a 3 acompanhamentos grátis.",
+          "priceCents": 2000,
+          "featured": true,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/e7ff66a316d2.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/e7ff66a316d2-sm.webp",
+            "alt": "Açaí — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1421360471_455769127.jpeg"
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 400
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 500
+                },
+                {
+                  "id": "770-ml",
+                  "name": "770 ml",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "escolha-ate-3-acompanhamentos-gratis",
+              "name": "Escolha até 3 acompanhamentos grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "id": "amendoim",
+                  "name": "Amendoim",
+                  "priceCents": 0
+                },
+                {
+                  "id": "calda-de-morango",
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "cereja-artificial",
+                  "name": "Cereja artificial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "disquetes",
+                  "name": "Disquetes",
+                  "priceCents": 0
+                },
+                {
+                  "id": "farinha-lactea",
+                  "name": "Farinha láctea",
+                  "priceCents": 0
+                },
+                {
+                  "id": "granola",
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "id": "leite-condensado",
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "id": "misto",
+                  "name": "Misto",
+                  "priceCents": 0
+                },
+                {
+                  "id": "ovomaltine-em-po",
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "id": "pacoca",
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sorvete",
+                  "name": "Sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sucrilhos",
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais-extras",
+              "name": "Adicionais extras",
+              "min": 0,
+              "max": 20,
+              "choices": [
+                {
+                  "id": "banana",
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "id": "calda-de-morango",
+                  "name": "Calda de morango",
+                  "priceCents": 250
+                },
+                {
+                  "id": "cereja-artificial",
+                  "name": "Cereja artificial",
+                  "priceCents": 250
+                },
+                {
+                  "id": "cereja-fruta",
+                  "name": "Cereja (fruta)",
+                  "priceCents": 600
+                },
+                {
+                  "id": "chantilly",
+                  "name": "Chantilly",
+                  "priceCents": 600
+                },
+                {
+                  "id": "creme-de-doce-de-leite",
+                  "name": "Creme de doce de leite",
+                  "priceCents": 600
+                },
+                {
+                  "id": "creme-de-ninho",
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "id": "creme-de-ovomaltine",
+                  "name": "Creme de Ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "id": "disquete",
+                  "name": "Disquete",
+                  "priceCents": 250
+                },
+                {
+                  "id": "farinha-lactea",
+                  "name": "Farinha láctea",
+                  "priceCents": 250
+                },
+                {
+                  "id": "gotas-de-chocolate",
+                  "name": "Gotas de chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "id": "granola",
+                  "name": "Granola",
+                  "priceCents": 250
+                },
+                {
+                  "id": "leite-condensado",
+                  "name": "Leite condensado",
+                  "priceCents": 250
+                },
+                {
+                  "id": "leite-ninho",
+                  "name": "Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "id": "m-m-s",
+                  "name": "M&M's",
+                  "priceCents": 600
+                },
+                {
+                  "id": "nutella",
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "id": "ovomaltine-em-po",
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 250
+                },
+                {
+                  "id": "pacoca",
+                  "name": "Paçoca",
+                  "priceCents": 250
+                },
+                {
+                  "id": "sorvete",
+                  "name": "Sorvete",
+                  "priceCents": 250
+                },
+                {
+                  "id": "sucrilhos",
+                  "name": "Sucrilhos",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "milk-shake-de-acai",
+          "section": "Açaí",
+          "name": "Milk shake de açaí",
+          "description": "Milk shake de açaí com até 3 acompanhamentos grátis.",
+          "priceCents": 2000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/e425ca369e75-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/e425ca369e75-sm.webp",
+            "alt": "Milk shake de açaí — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1698006410_466033125.jfif",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 400
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 500
+                },
+                {
+                  "id": "770-ml",
+                  "name": "770 ml",
+                  "priceCents": 1500
+                }
+              ]
+            },
+            {
+              "id": "escolha-ate-3-acompanhamentos-gratis",
+              "name": "Escolha até 3 acompanhamentos grátis",
+              "min": 0,
+              "max": 3,
+              "choices": [
+                {
+                  "id": "amendoim",
+                  "name": "Amendoim",
+                  "priceCents": 0
+                },
+                {
+                  "id": "calda-de-morango",
+                  "name": "Calda de morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "cereja-artificial",
+                  "name": "Cereja artificial",
+                  "priceCents": 0
+                },
+                {
+                  "id": "disquetes",
+                  "name": "Disquetes",
+                  "priceCents": 0
+                },
+                {
+                  "id": "farinha-lactea",
+                  "name": "Farinha láctea",
+                  "priceCents": 0
+                },
+                {
+                  "id": "granola",
+                  "name": "Granola",
+                  "priceCents": 0
+                },
+                {
+                  "id": "leite-condensado",
+                  "name": "Leite condensado",
+                  "priceCents": 0
+                },
+                {
+                  "id": "misto",
+                  "name": "Misto",
+                  "priceCents": 0
+                },
+                {
+                  "id": "ovomaltine-em-po",
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 0
+                },
+                {
+                  "id": "pacoca",
+                  "name": "Paçoca",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sorvete",
+                  "name": "Sorvete",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sucrilhos",
+                  "name": "Sucrilhos",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "id": "adicionais-extras",
+              "name": "Adicionais extras",
+              "min": 0,
+              "max": 20,
+              "choices": [
+                {
+                  "id": "banana",
+                  "name": "Banana",
+                  "priceCents": 250
+                },
+                {
+                  "id": "calda-de-morango",
+                  "name": "Calda de morango",
+                  "priceCents": 250
+                },
+                {
+                  "id": "cereja-artificial",
+                  "name": "Cereja artificial",
+                  "priceCents": 250
+                },
+                {
+                  "id": "cereja-fruta",
+                  "name": "Cereja (fruta)",
+                  "priceCents": 600
+                },
+                {
+                  "id": "chantilly",
+                  "name": "Chantilly",
+                  "priceCents": 600
+                },
+                {
+                  "id": "creme-de-doce-de-leite",
+                  "name": "Creme de doce de leite",
+                  "priceCents": 600
+                },
+                {
+                  "id": "creme-de-ninho",
+                  "name": "Creme de ninho",
+                  "priceCents": 600
+                },
+                {
+                  "id": "creme-de-ovomaltine",
+                  "name": "Creme de Ovomaltine",
+                  "priceCents": 600
+                },
+                {
+                  "id": "disquete",
+                  "name": "Disquete",
+                  "priceCents": 250
+                },
+                {
+                  "id": "farinha-lactea",
+                  "name": "Farinha láctea",
+                  "priceCents": 250
+                },
+                {
+                  "id": "gotas-de-chocolate",
+                  "name": "Gotas de chocolate",
+                  "priceCents": 300
+                },
+                {
+                  "id": "granola",
+                  "name": "Granola",
+                  "priceCents": 250
+                },
+                {
+                  "id": "leite-condensado",
+                  "name": "Leite condensado",
+                  "priceCents": 250
+                },
+                {
+                  "id": "leite-ninho",
+                  "name": "Leite Ninho",
+                  "priceCents": 300
+                },
+                {
+                  "id": "m-m-s",
+                  "name": "M&M's",
+                  "priceCents": 600
+                },
+                {
+                  "id": "nutella",
+                  "name": "Nutella",
+                  "priceCents": 600
+                },
+                {
+                  "id": "ovomaltine-em-po",
+                  "name": "Ovomaltine em pó",
+                  "priceCents": 250
+                },
+                {
+                  "id": "pacoca",
+                  "name": "Paçoca",
+                  "priceCents": 250
+                },
+                {
+                  "id": "sorvete",
+                  "name": "Sorvete",
+                  "priceCents": 250
+                },
+                {
+                  "id": "sucrilhos",
+                  "name": "Sucrilhos",
+                  "priceCents": 250
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "acai-1-kg",
+          "section": "Açaí",
+          "name": "Açaí 1 kg",
+          "description": "",
+          "priceCents": 3500,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/0fbf95a6acec.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/0fbf95a6acec-sm.webp",
+            "alt": "Açaí 1 kg — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1903972619_612121174.jpg"
+          }
+        },
+        {
+          "id": "milk-shake",
+          "section": "Milk shakes",
+          "name": "Milk shake",
+          "description": "Escolha o sabor do seu milk shake.",
+          "priceCents": 1200,
+          "featured": true,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/e4156472f9c5-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/e4156472f9c5-sm.webp",
+            "alt": "Milk shake — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/269277330_900930013.png",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 300
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 600
+                },
+                {
+                  "id": "700-ml",
+                  "name": "700 ml",
+                  "priceCents": 1300
+                }
+              ]
+            },
+            {
+              "id": "sabor",
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "abacaxi",
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "id": "amora",
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "id": "cafe-gelado",
+                  "name": "Café gelado",
+                  "priceCents": 0
+                },
+                {
+                  "id": "cereja",
+                  "name": "Cereja",
+                  "priceCents": 0
+                },
+                {
+                  "id": "leite-ninho",
+                  "name": "Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "id": "maracuja",
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "ovomaltine",
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                },
+                {
+                  "id": "pacoquinha",
+                  "name": "Paçoquinha",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "milk-shake-especial",
+          "section": "Milk shakes",
+          "name": "Milk shake especial",
+          "description": "Milk shake no seu sabor preferido, com Nutella e chantilly.",
+          "priceCents": 1800,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/6aac0a01700a-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/6aac0a01700a-sm.webp",
+            "alt": "Milk shake especial — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1872136835_1091871259.jpg",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 450
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 700
+                }
+              ]
+            },
+            {
+              "id": "sabor",
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "amora",
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "id": "cafe-gelado",
+                  "name": "Café gelado",
+                  "priceCents": 0
+                },
+                {
+                  "id": "leite-ninho",
+                  "name": "Leite Ninho",
+                  "priceCents": 0
+                },
+                {
+                  "id": "maracuja",
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "ovomaltine",
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cookies-and-cream-milk-de-colher",
+          "section": "Milk shakes",
+          "name": "Cookies and cream (milk de colher)",
+          "description": "Sorvete, leite Ninho, creme de ninho e biscoito Negresco. 330 ml.",
+          "priceCents": 2000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/e9fd41380bed-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/e9fd41380bed-sm.webp",
+            "alt": "Cookies and cream (milk de colher) — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1761435929_1678913627.jpg",
+            "small": true
+          }
+        },
+        {
+          "id": "sundae",
+          "section": "Sundae",
+          "name": "Sundae",
+          "description": "Sorvete de baunilha com a calda que você escolher, castanhas e canudo de waffer.",
+          "priceCents": 750,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/154359870f55-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/154359870f55-sm.webp",
+            "alt": "Sundae — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1428110158_428503362.png",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "180-ml",
+                  "name": "180 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 250
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 750
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 1050
+                },
+                {
+                  "id": "770-ml",
+                  "name": "770 ml",
+                  "priceCents": 1750
+                }
+              ]
+            },
+            {
+              "id": "cobertura",
+              "name": "Cobertura",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "caramelo",
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "id": "chocolate",
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sundae-creme-de-ninho",
+          "section": "Sundae",
+          "name": "Sundae creme de ninho",
+          "description": "Sorvete de baunilha com creme de ninho, castanhas e canudo de waffer.",
+          "priceCents": 1000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/154359870f55-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/154359870f55-sm.webp",
+            "alt": "Sundae creme de ninho — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1428110158_428503362.png",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "180-ml",
+                  "name": "180 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 250
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 800
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "sundae-morango-trufado",
+          "section": "Sundae",
+          "name": "Sundae morango trufado",
+          "description": "Sorvete de baunilha com morango trufado, castanhas e canudo de waffer.",
+          "priceCents": 1000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/154359870f55-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/154359870f55-sm.webp",
+            "alt": "Sundae morango trufado — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1428110158_428503362.png",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "180-ml",
+                  "name": "180 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 250
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 800
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "top-sundae",
+          "section": "Top sundae",
+          "name": "Top sundae",
+          "description": "Sorvete de baunilha com a cobertura que você escolher, paçoca, canudo de waffer e cereja.",
+          "priceCents": 1000,
+          "featured": true,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "alt": "Top sundae — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1864651320_1349464754.jpg",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "180-ml",
+                  "name": "180 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 250
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 800
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 1000
+                },
+                {
+                  "id": "770-ml",
+                  "name": "770 ml",
+                  "priceCents": 2000
+                }
+              ]
+            },
+            {
+              "id": "cobertura",
+              "name": "Cobertura",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "caramelo",
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "id": "chocolate",
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sundae-kids",
+                  "name": "Sundae kids",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "top-sundae-creme-de-ninho",
+          "section": "Top sundae",
+          "name": "Top sundae creme de ninho",
+          "description": "Sorvete de baunilha com creme de ninho, cobertura à sua escolha, paçoca, canudo de waffer e cereja.",
+          "priceCents": 1000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "alt": "Top sundae creme de ninho — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1864651320_1349464754.jpg",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "180-ml",
+                  "name": "180 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 250
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 1000
+                },
+                {
+                  "id": "550-ml",
+                  "name": "550 ml",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "id": "cobertura",
+              "name": "Cobertura",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "caramelo",
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "id": "chocolate",
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sundae-kids",
+                  "name": "Sundae kids",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "top-sundae-morango-trufado",
+          "section": "Top sundae",
+          "name": "Top sundae morango trufado",
+          "description": "Sorvete de baunilha com morango trufado, cobertura à sua escolha, paçoca, canudo de waffer e cereja.",
+          "priceCents": 1000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "alt": "Top sundae morango trufado — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1864651320_1349464754.jpg",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "180-ml",
+                  "name": "180 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "330-ml",
+                  "name": "330 ml",
+                  "priceCents": 250
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "id": "cobertura",
+              "name": "Cobertura",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "caramelo",
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "id": "chocolate",
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sundae-kids",
+                  "name": "Sundae kids",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "top-sundae-de-morango-550-ml",
+          "section": "Top sundae",
+          "name": "Top sundae de morango 550 ml",
+          "description": "Sorvete de baunilha com paçoca, canudo de waffer e cereja.",
+          "priceCents": 2000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/d675db7ee70c-sm.webp",
+            "alt": "Top sundae de morango 550 ml — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1864651320_1349464754.jpg",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "cobertura",
+              "name": "Cobertura",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "caramelo",
+                  "name": "Caramelo",
+                  "priceCents": 0
+                },
+                {
+                  "id": "chocolate",
+                  "name": "Chocolate",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                },
+                {
+                  "id": "sundae-kids",
+                  "name": "Sundae kids",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "fruit-mix",
+          "section": "Fruit mix e Mix",
+          "name": "Fruit mix",
+          "description": "Sorvete, calda de fruta e chantilly.",
+          "priceCents": 1000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/55c94056db5d-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/55c94056db5d-sm.webp",
+            "alt": "Fruit mix — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1257269932_294895713.png",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "tamanho",
+              "name": "Tamanho",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "200-ml",
+                  "name": "200 ml",
+                  "priceCents": 0
+                },
+                {
+                  "id": "440-ml",
+                  "name": "440 ml",
+                  "priceCents": 1000
+                }
+              ]
+            },
+            {
+              "id": "sabor",
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "abacaxi",
+                  "name": "Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "id": "amora",
+                  "name": "Amora",
+                  "priceCents": 0
+                },
+                {
+                  "id": "maracuja",
+                  "name": "Maracujá",
+                  "priceCents": 0
+                },
+                {
+                  "id": "morango",
+                  "name": "Morango",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "mix-mania-440-ml",
+          "section": "Fruit mix e Mix",
+          "name": "Mix mania 440 ml",
+          "description": "",
+          "priceCents": 2000,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/f8dc9b14d14a-sm.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/f8dc9b14d14a-sm.webp",
+            "alt": "Mix mania 440 ml — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/2130072294_860210775.jpeg",
+            "small": true
+          },
+          "options": [
+            {
+              "id": "sabor",
+              "name": "Sabor",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "id": "m-m-s",
+                  "name": "M&M's",
+                  "priceCents": 0
+                },
+                {
+                  "id": "ovomaltine",
+                  "name": "Ovomaltine",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "pote-1-l-chocolate-trufado",
+          "section": "Potes de 1 litro",
+          "name": "Pote 1 L chocolate trufado",
+          "description": "",
+          "priceCents": 3500,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/64d7c8c769be.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/64d7c8c769be-sm.webp",
+            "alt": "Pote 1 L chocolate trufado — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/465867572_1425102364.jpg"
+          }
+        },
+        {
+          "id": "pote-1-l-maracuja-com-creme-americano",
+          "section": "Potes de 1 litro",
+          "name": "Pote 1 L maracujá com creme americano",
+          "description": "",
+          "priceCents": 3500,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/ace08f000d13.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/ace08f000d13-sm.webp",
+            "alt": "Pote 1 L maracujá com creme americano — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1935849535_1776850961.jpg"
+          }
+        },
+        {
+          "id": "pote-1-l-morango-com-creme-americano",
+          "section": "Potes de 1 litro",
+          "name": "Pote 1 L morango com creme americano",
+          "description": "",
+          "priceCents": 3500,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/023e1dc3d9c9.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/023e1dc3d9c9-sm.webp",
+            "alt": "Pote 1 L morango com creme americano — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/1691566417_1842345091.jpg"
+          }
+        },
+        {
+          "id": "pote-1-l-torta-alema",
+          "section": "Potes de 1 litro",
+          "name": "Pote 1 L torta alemã",
+          "description": "",
+          "priceCents": 3500,
+          "image": {
+            "src": "assets/menu/creme-mania-sorvetes-campinapolis/05f4a965453b.webp",
+            "thumb": "assets/menu/creme-mania-sorvetes-campinapolis/05f4a965453b-sm.webp",
+            "alt": "Pote 1 L torta alemã — Creme Mania Sorvetes",
+            "credit": "Creme Mania Sorvetes",
+            "license": "Uso autorizado pelo estabelecimento parceiro",
+            "sourceUrl": "https://maisdeliveryfranquia.com.br/api/imagens/produtos/546578231_706851451.jpg"
+          }
+        }
+      ],
+      "sources": [
+        "https://maisdeliveryapp.com.br/web/loja.php?id=NTA5NjM="
+      ],
+      "confidence": "media",
+      "verifiedAt": "2026-11-10",
+      "notes": "Unidade da franquia Creme Mania em Campinápolis informada pelo Pedro (10/11/2026); CNPJ, endereço, WhatsApp e Instagram serão enviados por ele. Cardápio universal da franquia (base: unidade de São Félix do Araguaia no Mais Delivery). Logo da franquia.",
+      "logo": {
+        "src": "assets/stores/creme-mania-sorvetes-campinapolis-logo.webp",
+        "thumb": "assets/stores/creme-mania-sorvetes-campinapolis-logo-card.webp",
+        "width": 960,
+        "height": 640,
+        "alt": "Logotipo — Creme Mania Sorvetes",
+        "credit": "Creme Mania Sorvetes",
+        "license": "Uso autorizado pelo estabelecimento parceiro",
+        "kind": "logo",
+        "sourceUrl": "https://www.instagram.com/creme_maniasorvetesnsj/",
+        "tile": "assets/stores/creme-mania-sorvetes-campinapolis-logo-tile.webp"
+      },
+      "brand": {
+        "primary": "#193da3",
+        "deep": "#193da3",
+        "soft": "#e3e8f4",
+        "ink": "#ffffff",
+        "surface": "#193da3"
+      },
+      "schedule": {
+        "week": {
+          "dom": [
+            "13:00-22:00"
+          ],
+          "seg": [
+            "13:00-22:00"
+          ],
+          "ter": [
+            "13:00-22:00"
+          ],
+          "qua": [
+            "13:00-22:00"
+          ],
+          "qui": [
+            "13:00-22:00"
+          ],
+          "sex": [
+            "13:00-22:00"
+          ],
+          "sab": [
+            "13:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "horário típico de sorveteria: 13:00–22:00"
+      },
+      "deliveryTime": {
+        "minMinutes": 20,
+        "maxMinutes": 35,
+        "estimated": true,
+        "basis": "média de açaí e sorveteria nas plataformas da região"
+      },
+      "rank": 4
+    },
+    {
       "id": "buffalos-grill-campinapolis",
       "name": "Buffalos Grill",
       "city": "Campinápolis",
@@ -184258,7 +185587,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única (diretório GP Guia), que também lista a Avenida Benônio José Lourenço, 01. O Instagram @buffalos.grill usa DDD 47 (SC) e NÃO é este estabelecimento. Não foi confirmado que segue ativo.",
-      "rank": 4,
+      "rank": 5,
       "schedule": {
         "week": {
           "dom": [
@@ -185275,7 +186604,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "CNPJ 07.718.019/0001-17, aberto em 24/11/2005 e com situação 'ativa' segundo o trecho do resultado de busca. Não há número do endereço, telefone nem presença online própria. Pode ser só a razão social, com outro nome comercial.",
-      "rank": 5,
+      "rank": 6,
       "schedule": {
         "week": {
           "dom": [
@@ -185335,7 +186664,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Nome fantasia de J. Bento Filho, CNAE 4721-1/02 (padaria e confeitaria), aberta em 28/01/2014 em Campinápolis segundo trecho de busca. Sem endereço nem telefone.",
-      "rank": 6,
+      "rank": 7,
       "schedule": {
         "week": {
           "dom": [
@@ -185395,7 +186724,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Fonte única (diretório). O mesmo telefone fixo aparece para outra empresa (Rf Blocos) no mesmo diretório, então pode estar errado. Não foi confirmado que segue ativa.",
-      "rank": 7,
+      "rank": 8,
       "schedule": {
         "week": {
           "dom": [
@@ -185456,7 +186785,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "Só aparece em diretórios. O telefone está no formato antigo de 8 dígitos. Não há canal próprio nem confirmação de que segue ativa.",
-      "rank": 8,
+      "rank": 9,
       "schedule": {
         "week": {
           "dom": [
@@ -187180,7 +188509,7 @@
       "confidence": "baixa",
       "verifiedAt": "2026-10-25",
       "notes": "O diretório traz endereço incompleto ('Rua, SN - Centro'). Sem telefone e sem confirmação de que segue ativa.",
-      "rank": 9,
+      "rank": 10,
       "schedule": {
         "week": {
           "dom": [

@@ -157,6 +157,7 @@
   Store.onBack = goHome;
 
   function openStore(id) {
+    if (Store.currentId && Store.currentId() === id) return; // mesma loja já aberta (ex.: voltar de uma camada)
     var s = STORES.find(function (x) { return x.id === id; });
     if (!s) { toast('Estabelecimento não encontrado'); history.replaceState(null, '', location.pathname + location.search); return Store.close(true); }
     Store.open(s);
@@ -194,7 +195,7 @@
     route();
   });
   addEventListener('hashchange', route);
-  addEventListener('popstate', route);
+  addEventListener('popstate', function () { if (!(Store.handlePop && Store.handlePop())) route(); });
   /* Busca: filtra a cada tecla (lista leve: um innerHTML por tecla) e mostra os resultados logo abaixo
      do campo — banner e categorias saem de cena enquanto há texto. Enter fecha o teclado. */
   var lastQuery = '';

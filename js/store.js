@@ -305,8 +305,7 @@
   /* Monta a página (de novo quando o cardápio sob demanda chega, mantendo a rolagem). */
   function render(s) {
     var again = state.store === s && page.classList.contains('open'), keep = again && $('storeScroll') ? $('storeScroll').scrollTop : 0;
-    closeSheet(false);
-    closeCart(false);
+    state.quiet = true; closeSheet(false); closeCart(false); state.quiet = false;
     disconnect();
     state.store = s;
     state.cart = loadCart(s);
@@ -339,8 +338,7 @@
   }
 
   function close(silent) {
-    closeSheet(false);
-    closeCart(false);
+    state.quiet = true; closeSheet(false); closeCart(false); state.quiet = false;
     disconnect();
     page.classList.remove('open');
     page.setAttribute('aria-hidden', 'true');
@@ -553,10 +551,32 @@
   }
 
   /* ---------------- Detalhe do produto ---------------- */
+  /* Camadas (detalhe do produto e sacola) entram no histórico: o "voltar" do Android/navegador fecha só a camada
+     de cima, como nos apps nativos, em vez de fechar a loja inteira. Fechar pela interface (X, fundo, adicionar)
+     consome essa entrada com history.back(), sem refazer a página. */
+  var layerPop = false;
+  function pushLayer(kind) {
+    try { if (!history.state || history.state.pedeaiLayer !== kind) history.pushState(Object.assign({}, history.state || {}, { pedeaiLayer: kind }), '', location.href); } catch (e) { /* sem histórico */ }
+  }
+  function popLayer(kind) {
+    if (state.quiet || !history.state || history.state.pedeaiLayer !== kind) return;
+    layerPop = true;
+    history.back();
+  }
+  /* Chamado pelo roteador em todo popstate. true = o evento foi tratado aqui (não rotear). */
+  function handlePop() {
+    if (layerPop) { layerPop = false; return true; }
+    var layer = history.state && history.state.pedeaiLayer;
+    if ($('spSheet') && $('spSheet').classList.contains('open') && layer !== 'sheet') { closeSheet(true, true); return true; }
+    if (drawer.classList.contains('open') && layer !== 'cart') { closeCart(undefined, true); return true; }
+    return false;
+  }
+
   function openSheet(id, opener) {
     var item = findItem(id), sheet = $('spSheet');
     if (!item) return;
     state.sheet = { item: item, qty: 1, opener: opener || null };
+    pushLayer('sheet');
     var groups = (item.options || []).map(function (g) {
       var min = g.min || 0, max = g.max == null ? g.choices.length : g.max, single = max === 1;
       var hint = min > 0 ? (min === max ? 'Escolha ' + min : 'Escolha de ' + min + ' a ' + max) : (single ? 'Escolha até 1' : 'Escolha até ' + max);
@@ -630,9 +650,10 @@
     if (target) target.focus({ preventScroll: true });
   }
 
-  function closeSheet(returnFocus) {
+  function closeSheet(returnFocus, viaHistory) {
     var sheet = $('spSheet');
     if (!sheet || !sheet.classList.contains('open')) return;
+    if (!viaHistory) popLayer('sheet');
     sheet.classList.remove('open');
     sheet.setAttribute('aria-hidden', 'true');
     var opener = state.sheet && state.sheet.opener;
@@ -651,13 +672,15 @@
   /* ---------------- Sacola ---------------- */
   function openCart() {
     renderCart();
+    pushLayer('cart');
     drawer.classList.add('open');
     drawer.setAttribute('aria-hidden', 'false');
     requestAnimationFrame(function () { drawer.querySelector('.cart-close').focus({ preventScroll: true }); });
   }
 
-  function closeCart(returnFocus) {
+  function closeCart(returnFocus, viaHistory) {
     if (!drawer.classList.contains('open')) return;
+    if (!viaHistory) popLayer('cart');
     drawer.classList.remove('open');
     drawer.setAttribute('aria-hidden', 'true');
     if (returnFocus !== false) { var bar = $('cartBar'); if (bar && !bar.hidden) bar.focus({ preventScroll: true }); else { var back = page.querySelector('.store-back'); if (back) back.focus({ preventScroll: true }); } }
@@ -739,7 +762,8 @@
   }, 60000);
 
   window.PedeAiStore = {
-    open: open, close: close, handleEscape: handleEscape,
+    open: open, close: close, handleEscape: handleEscape, handlePop: handlePop,
+    currentId: function () { return page.classList.contains('open') && state.store ? state.store.id : null; },
     isOpen: function () { return page.classList.contains('open'); },
     onBack: function () { /* substituído por app.js */ }
   };

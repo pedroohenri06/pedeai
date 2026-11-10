@@ -1,6 +1,6 @@
 # Relatório de importação dos cardápios
 
-Gerado por `node scripts/menus/report.js` em 2026-11-08. Fontes: `data/research/cardapios/fontes.json`.
+Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/cardapios/fontes.json`.
 
 **158 cardápios importados** de 182 links de cardápio cadastrados · 1382 categorias · 8064 produtos · 5593 grupos de opções · 18908 adicionais (opções opcionais) · 5067 fotos.
 

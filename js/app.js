@@ -39,7 +39,7 @@
      Mostra só as categorias com lugares na cidade, da maior para a menor. */
   var CATEGORY_ICONS = {
     'Hambúrguer': 'hamburguer', 'Pizza': 'pizza', 'Sushi': 'sushi', 'Açaí': 'acai', 'Brasileira': 'brasileira',
-    'Pastel': 'pastel', 'Churrasco': 'churrasco', 'Doces': 'doces', 'Padaria': 'cafe'
+    'Pastel': 'pastel', 'Churrasco': 'churrasco', 'Doces': 'doces', 'Padaria': 'padaria'
   };
   var BRAND_MARK = 'assets/media-eec8624c4b7f.png';
 

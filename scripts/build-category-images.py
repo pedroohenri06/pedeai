@@ -6,7 +6,8 @@ Para cada categoria em data/research/categorias-imagens.json, pega o recorte da 
 (data/research/categorias-recortes/<arquivo>.webp, fundo transparente), centraliza sobre um
 círculo no tom da categoria com luz suave no alto e sombra projetada, e salva
 assets/categories/<arquivo>.webp em 240x240 (nítido no círculo de 68 a 92 px).
-Ilustração 3D ("estilo": "3d" no JSON): fundo off-white em degradê, 70% do disco e sombra de contato (compose_3d).
+Ilustração 3D ("estilo": "3d" no JSON): fundo off-white em degradê, 70% do disco e sombra de contato (compose_3d);
+"escala" opcional para objeto largo e baixo (ex.: prato) ficar com o mesmo peso visual dos outros.
 Recortes novos: foto de licença livre (Wikimedia Commons), fundo removido com
 `rembg` (modelo isnet-general-use); registre autor, licença e fonte no JSON para os créditos.
 """
@@ -95,7 +96,7 @@ def main():
     cfg = json.loads(CONFIG.read_text(encoding="utf-8"))["categorias"]
     for name, c in cfg.items():
         food = Image.open(CUTS / f"{c['arquivo']}.webp").convert("RGBA")
-        img = compose_3d(food) if c.get("estilo") == "3d" else compose(food, c["cor"])
+        img = compose_3d(food, c.get("escala", 0.70)) if c.get("estilo") == "3d" else compose(food, c["cor"])
         dest = OUT / f"{c['arquivo']}.webp"
         img.save(dest, "WEBP", quality=86, method=6)
         print(f"{name:11} -> {dest.relative_to(ROOT)} ({dest.stat().st_size // 1024} KB)")

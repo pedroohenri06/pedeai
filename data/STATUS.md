@@ -12,11 +12,11 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **341**.
 | Ribeirão Cascalheira | 23 | 97 | 3 | 0 | 0 |
 | Canarana | 47 | 73 | 29 | 17 | 11 |
 | Água Boa | 43 | 77 | 19 | 30 | 12 |
-| Novo São Joaquim | 12 | 108 | 2 | 0 | 0 |
+| Novo São Joaquim | 12 | 108 | 2 | 1 | 1 |
 | Campinápolis | 9 | 111 | 1 | 2 | 1 |
 | Nova Xavantina | 34 | 86 | 27 | 21 | 18 |
 | Barra do Garças | 61 | 59 | 20 | 49 | 13 |
-| **Total** | **341** | **859** | **137** | **160** | **68** |
+| **Total** | **341** | **859** | **137** | **161** | **69** |
 
 ## Pendências por estabelecimento
 
@@ -268,7 +268,7 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **341**.
 - **Açaí Delivery** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Diretório Solutudo, categoria Lanches - Lanchonetes, registrada desde 2018. O nome parece genérico (possivelmente nome fantasia de cadastro). Sem contato, e não consegui confirmar se está ativa.
 - **Beliskos Lanchonete e Restaurante** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Listada no Sluurpy (agregador atualizado em abril de 2026) como a mais bem avaliada da cidade. Não há endereço nem contato no trecho obtido. Instagram @beliskos_lanchonete_beliskos_ conferido em 2026-10-28 (pesquisa via Claude no Chrome). Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.
 - **Brancos Lanchonete e Sorveteria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Fonte única: agregador Sluurpy. Sem contato. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.
-- **Creme Mania Sorvetes** — cardápio pendente; O telefone (66) 98129-8424 e o horário aparecem na bio do Instagram do próprio estabelecimento (visto no trecho do resultado de busca; a página não pôde ser aberta). A bio não diz explicitamente que é WhatsApp, por isso o número ficou em phone. Endereço não encontrado. Instagram @creme_maniasorvetesnsj conferido em 2026-10-28 (pesquisa via Claude no Chrome).
+- **Creme Mania Sorvetes** — O telefone (66) 98129-8424 e o horário aparecem na bio do Instagram do próprio estabelecimento (visto no trecho do resultado de busca; a página não pôde ser aberta). A bio não diz explicitamente que é WhatsApp, por isso o número ficou em phone. Endereço não encontrado. Instagram @creme_maniasorvetesnsj conferido em 2026-10-28 (pesquisa via Claude no Chrome).
 - **Fran Pizzaria e Doceria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Dados só de diretórios (trecho do resultado de busca; as páginas não puderam ser abertas). O telefone foi listado como (66) 9915-2811, no formato antigo de 8 dígitos; pode faltar o 9 inicial, mas isso não foi verificado. O endereço está incompleto.
 - **Lanchonete e Restaurante Vereda Tropical** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Fonte única: agregador Sluurpy. Sem contato. A categoria Brasileira foi escolhida por ser também restaurante.
 - **Lanchonete Salgado Filho** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Fonte única: agregador Sluurpy. Sem contato. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.

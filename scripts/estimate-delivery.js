@@ -26,7 +26,7 @@ const SEGMENTS = [ // o primeiro que casar com nome + tipo vale
   { id: 'marmita e restaurante', test: /marmit|restaurante|self.?service|comida|buffet|almo[cç]o|refei[cç]|cozinha|quilo/, min: 25, max: 40 },
   { id: 'doces e confeitaria', test: /confeit|bolo|doce|brigadeir|brownie|cake|pudim|encomenda|pipoca|cookie|chocolate/, min: 25, max: 40 }
 ];
-const BY_CATEGORY = { 'Pizza': 0, 'Açaí': 1, 'Sushi': 2, 'Café': 3, 'Churrasco': 4, 'Pastel': 5, 'Hambúrguer': 6, 'Brasileira': 7, 'Saudável': 7, 'Doces': 8 };
+const BY_CATEGORY = { 'Pizza': 0, 'Açaí': 1, 'Sushi': 2, 'Padaria': 3, 'Churrasco': 4, 'Pastel': 5, 'Hambúrguer': 6, 'Brasileira': 7, 'Saudável': 7, 'Doces': 8 };
 const segmentOf = s => SEGMENTS.find(x => x.test.test(core.normalize([s.name, s.kind].join(' ')))) || SEGMENTS[BY_CATEGORY[s.category] == null ? 5 : BY_CATEGORY[s.category]];
 
 function main() {

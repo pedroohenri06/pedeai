@@ -95,16 +95,13 @@
   /* Rodapé operacional do card (padrão dos grandes apps: 4 linhas — nome, categoria, entrega, status):
      linha de entrega com ícone de relógio (previsão de entrega) e linha de status
      (aberto/fechado calculado pela grade da loja + quando fecha/abre). Sem dado confiável, a linha não aparece. */
-  var CLOCK = window.PEDEAI_CLOCK === 'C2'
-    ? '<svg class="ops-ico ops-ico--soft" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 7v5.2l3.2 1.9"/></svg>'
-    : '<svg class="ops-ico ops-ico--solid" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 7v5.2l3.2 1.9"/></svg>';
-  var ETA_STYLE = (window.PEDEAI_ETA_STYLE || 'A');
+  var CLOCK = '<svg class="ops-ico ops-ico--solid" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 7v5.2l3.2 1.9"/></svg>';
   function opsHtml(s, now) {
     if (isSoon(s)) return '<span class="ops-row store-soon">Aguardando cardápio</span>';
     var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), rows = [];
     var deliv = [];
     if (eta) deliv.push('<b class="store-eta">' + esc(eta.label) + '</b>');
-    if (deliv.length) rows.push('<span class="ops-row ops-delivery">' + (ETA_STYLE === 'B' ? '<span class="ops-label">Entrega</span>' : CLOCK) + deliv.join('') + '</span>');
+    if (deliv.length) rows.push('<span class="ops-row ops-delivery">' + CLOCK + deliv.join('') + '</span>');
     if (st.state !== 'unknown') rows.push('<span class="ops-row store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i><b>' + esc(st.label) + '</b>' + (st.detail ? '<span class="store-next">' + esc(st.detail.replace(/ às /, ' ')) + '</span>' : '') + '</span>');
     if (!rows.length && C.menuSize(s)) rows.push('<span class="ops-row delivery-free">Cardápio</span>');
     return rows.join('');

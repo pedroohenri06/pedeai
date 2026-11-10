@@ -93,16 +93,16 @@
   }
 
   /* Rodapé operacional do card (padrão dos grandes apps: 4 linhas — nome, categoria, entrega, status):
-     linha de entrega com ícone de moto (previsão + pedido mínimo, quando a loja publica) e linha de status
+     linha de entrega com ícone de relógio (previsão de entrega) e linha de status
      (aberto/fechado calculado pela grade da loja + quando fecha/abre). Sem dado confiável, a linha não aparece. */
-  var MOTO = '<svg class="ops-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.5" cy="17" r="2.5"/><circle cx="18.5" cy="17" r="2.5"/><path d="M8 17h7l2.2-5.5H20M15 6h2l1.6 5.5M5.5 14.5 8 9h5l2 3"/></svg>';
+  var CLOCK = '<svg class="ops-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>';
+  var ETA_STYLE = (window.PEDEAI_ETA_STYLE || 'A');
   function opsHtml(s, now) {
     if (isSoon(s)) return '<span class="ops-row store-soon">Aguardando cardápio</span>';
     var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), rows = [];
     var deliv = [];
     if (eta) deliv.push('<b class="store-eta">' + esc(eta.label) + '</b>');
-    if (s.minOrderCents) deliv.push('<span>Mín. ' + esc(C.formatBRL(s.minOrderCents).replace(/,00$/, '').replace(/R\$\s/, 'R$')) + '</span>');
-    if (deliv.length) rows.push('<span class="ops-row ops-delivery">' + MOTO + deliv.join('<i class="dot"></i>') + '</span>');
+    if (deliv.length) rows.push('<span class="ops-row ops-delivery">' + (ETA_STYLE === 'B' ? '<span class="ops-label">Entrega</span>' : CLOCK) + deliv.join('') + '</span>');
     if (st.state !== 'unknown') rows.push('<span class="ops-row store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i><b>' + esc(st.label) + '</b>' + (st.detail ? '<span class="store-next">' + esc(st.detail.replace(/ às /, ' ')) + '</span>' : '') + '</span>');
     if (!rows.length && C.menuSize(s)) rows.push('<span class="ops-row delivery-free">Cardápio</span>');
     return rows.join('');

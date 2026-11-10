@@ -26,6 +26,10 @@
   function readStorage(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
 
   /* Card: logotipo oficial quando existe; senão, a foto da loja; senão, a imagem da categoria. */
+  /* Loja ainda sem logo/foto própria e sem cardápio: em vez de foto ilustrativa de comida, card da marca PedeAi com
+     "Em breve" — o cliente entende que o estabelecimento ainda não está disponível para pedido. */
+  function isSoon(s) { return !s.logo && !s.image && !C.menuSize(s); }
+  var SOON_MEDIA = '<div class="restaurant-media restaurant-media--soon"><span class="soon-mark" aria-hidden="true"><img src="assets/media-eec8624c4b7f.png" alt="" width="44" height="44"></span><span class="soon-word" aria-hidden="true">PedeAi</span><span class="soon-chip">Em breve</span></div>';
   function photoOf(s) { var i = s.logo || s.image; return i ? i.thumb || i.src : CATEGORY_PHOTOS[s.category]; }
 
   /* ---------------- Listagem ---------------- */
@@ -91,6 +95,7 @@
   /* Linha operacional do card: status calculado pela grade da loja (fuso da loja, não do aparelho), previsão de entrega
      quando aberta ou sem status, e a próxima abertura quando fechada. Sem dado confiável, nada é exibido. */
   function opsHtml(s, now) {
+    if (isSoon(s)) return '<span class="store-soon">Cardápio em preparação</span>';
     var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), out = [];
     if (st.state !== 'unknown') out.push('<span class="store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i>' + esc(st.label) + '</span>');
     if (eta) out.push('<span class="store-eta">' + esc(eta.label) + '</span>');
@@ -114,7 +119,7 @@
      Em cada grupo, lojas abertas agora antes das fechadas, mantendo a ordem de destaque (sort estável). */
   function openFirst(list, now, q) {
     var weight = { open: 0, unknown: 1, paused: 2, closed: 2 };
-    return list.map(function (s, i) { return { s: s, i: i, r: C.searchScore(s, q), w: weight[S.status(s.schedule, now).state] }; })
+    return list.map(function (s, i) { return { s: s, i: i, r: C.searchScore(s, q), w: isSoon(s) ? 3 : weight[S.status(s.schedule, now).state] }; })
       .sort(function (a, b) { return a.r - b.r || a.w - b.w || a.i - b.i; }).map(function (x) { return x.s; });
   }
 
@@ -137,7 +142,8 @@
     count.textContent = list.length + ' ' + (list.length === 1 ? 'lugar' : 'lugares');
     grid.innerHTML = list.map(function (s) {
       var meta = [s.category].concat(s.kind && C.normalize(s.kind) !== C.normalize(s.category) ? [s.kind] : []);
-      return '<a class="restaurant reveal visible" href="#/loja/' + s.id + '" data-id="' + s.id + '"><div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div><div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
+      var media = isSoon(s) ? SOON_MEDIA : '<div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div>';
+      return '<a class="restaurant reveal visible' + (isSoon(s) ? ' restaurant--soon' : '') + '" href="#/loja/' + s.id + '" data-id="' + s.id + '">' + media + '<div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
     }).join('');
     empty.style.display = list.length ? 'none' : 'block';
     empty.querySelector('h3').textContent = q ? 'Nada encontrado para “' + q + '”' : inCity ? 'Nada por aqui ainda' : 'Chegando em ' + state.city;

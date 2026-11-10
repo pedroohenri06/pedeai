@@ -13,10 +13,10 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **342**.
 | Canarana | 47 | 73 | 29 | 17 | 11 |
 | Água Boa | 43 | 77 | 19 | 30 | 12 |
 | Novo São Joaquim | 12 | 108 | 2 | 1 | 1 |
-| Campinápolis | 10 | 110 | 1 | 3 | 1 |
+| Campinápolis | 10 | 110 | 2 | 3 | 2 |
 | Nova Xavantina | 34 | 86 | 27 | 21 | 18 |
 | Barra do Garças | 61 | 59 | 20 | 49 | 13 |
-| **Total** | **342** | **858** | **137** | **162** | **69** |
+| **Total** | **342** | **858** | **138** | **162** | **70** |
 
 ## Pendências por estabelecimento
 
@@ -280,7 +280,7 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **342**.
 
 ### Campinápolis
 
-- **Creme Mania Sorvetes** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Unidade da franquia Creme Mania em Campinápolis informada pelo Pedro (10/11/2026); CNPJ, endereço, WhatsApp e Instagram serão enviados por ele. Cardápio universal da franquia (base: unidade de São Félix do Araguaia no Mais Delivery). Logo da franquia.
+- **Creme Mania Sorvetes** — foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Instagram @crememaniacampinapolis (print enviado pelo Pedro, 10/11/2026): bio "Atendimento das 14.00h às 22.00h! Campinapolis MT. Entregas pelo whts 66981187352". Cardápio universal da franquia (base: unidade de São Félix do Araguaia no Mais Delivery). CNPJ e endereço ainda serão enviados.
 - **Buffalos Grill** — WhatsApp não verificado; cardápio pendente; Fonte única (diretório GP Guia), que também lista a Avenida Benônio José Lourenço, 01. O Instagram @buffalos.grill usa DDD 47 (SC) e NÃO é este estabelecimento. Não foi confirmado que segue ativo.
 - **Eclipse Lanchonete e Pizzaria** — Telefone de diretório (Diário Cidade e Pizza Perto de Mim batem), no formato antigo de 8 dígitos, provavelmente hoje (66) 9 8137-2890, mas isso não foi confirmado. A página do Facebook mostra outro número com DDD 27 (+55 27 98810-5379), divergente e não usado. Sem WhatsApp verificado nem cardápio público. Não foi possível abrir as páginas (fetch bloqueado); os dados vêm dos trechos dos resultados de busca. Instagram @eclipse.lanchonete conferido em 2026-10-28 (pesquisa via Claude no Chrome). O perfil informa endereço "Av. Benonio José Lourenço esq. c/ Rua Laudelino D. Araújo (acima da escola Couto Magalhães)", diferente do cadastro.
 - **La Paraguaya Restaurante e Pizzaria** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); CNPJ 07.718.019/0001-17, aberto em 24/11/2005 e com situação 'ativa' segundo o trecho do resultado de busca. Não há número do endereço, telefone nem presença online própria. Pode ser só a razão social, com outro nome comercial.

@@ -92,17 +92,20 @@
     return ''; /* estado interno de cadastro não aparece para o consumidor */
   }
 
-  /* Linha operacional do card: status calculado pela grade da loja (fuso da loja, não do aparelho), previsão de entrega
-     quando aberta ou sem status, e a próxima abertura quando fechada. Sem dado confiável, nada é exibido. */
+  /* Rodapé operacional do card (padrão dos grandes apps: 4 linhas — nome, categoria, entrega, status):
+     linha de entrega com ícone de moto (previsão + pedido mínimo, quando a loja publica) e linha de status
+     (aberto/fechado calculado pela grade da loja + quando fecha/abre). Sem dado confiável, a linha não aparece. */
+  var MOTO = '<svg class="ops-ico" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5.5" cy="17" r="2.5"/><circle cx="18.5" cy="17" r="2.5"/><path d="M8 17h7l2.2-5.5H20M15 6h2l1.6 5.5M5.5 14.5 8 9h5l2 3"/></svg>';
   function opsHtml(s, now) {
-    if (isSoon(s)) return '<span class="store-soon">Aguardando cardápio</span>';
-    var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), out = [];
-    if (st.state !== 'unknown') out.push('<span class="store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i>' + esc(st.label) + '</span>');
-    if (eta) out.push('<span class="store-eta">' + esc(eta.label) + '</span>');
-    // Próxima abertura: cabe no card a partir do tablet; no celular fica na página da loja.
-    if (!out.length && C.menuSize(s)) out.push('<span class="delivery-free">Cardápio</span>');
-    var next = st.state !== 'open' && st.short ? '<span class="store-next"><i class="dot"></i>' + esc(st.short) + '</span>' : '';
-    return out.join('<i class="dot"></i>') + next;
+    if (isSoon(s)) return '<span class="ops-row store-soon">Aguardando cardápio</span>';
+    var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), rows = [];
+    var deliv = [];
+    if (eta) deliv.push('<b class="store-eta">' + esc(eta.label) + '</b>');
+    if (s.minOrderCents) deliv.push('<span>Mín. ' + esc(C.formatBRL(s.minOrderCents).replace(/,00$/, '').replace(/R\$\s/, 'R$')) + '</span>');
+    if (deliv.length) rows.push('<span class="ops-row ops-delivery">' + MOTO + deliv.join('<i class="dot"></i>') + '</span>');
+    if (st.state !== 'unknown') rows.push('<span class="ops-row store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i><b>' + esc(st.label) + '</b>' + (st.detail ? '<span class="store-next">' + esc(st.detail.replace(/ às /, ' ')) + '</span>' : '') + '</span>');
+    if (!rows.length && C.menuSize(s)) rows.push('<span class="ops-row delivery-free">Cardápio</span>');
+    return rows.join('');
   }
 
 

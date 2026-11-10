@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/cardapios/fontes.json`.
 
-**161 cardápios importados** de 185 links de cardápio cadastrados · 1399 categorias · 8132 produtos · 5659 grupos de opções · 19118 adicionais (opções opcionais) · 5115 fotos.
+**162 cardápios importados** de 185 links de cardápio cadastrados · 1407 categorias · 8177 produtos · 5668 grupos de opções · 19124 adicionais (opções opcionais) · 5120 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -145,6 +145,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 | OK | MC Lena | Querência | aiqfome | 7 | 42 | 16 | 143 | 8 | 0 | 4 |
 | OK | Owzi Burger | Querência | saipos | 11 | 59 | 35 | 126 | 45 | 5 | 0 |
 | OK | Picanhas Grill | Querência | foodsapp | 14 | 81 | 19 | 13 | 81 | 0 | 2 |
+| OK | Pizzaria Imperial Delivery | Querência | anotaai | 8 | 45 | 9 | 6 | 5 | 0 | 0 |
 | OK | Restaurante Toque Caseiro | Querência | beefood | 2 | 23 | 0 | 0 | 0 | 0 | 0 |
 | OK | Sabor de Verão | Querência | foodsapp | 13 | 86 | 39 | 72 | 26 | 0 | 0 |
 | OK | Sabor Top 25 | Querência | aiqfome | 12 | 95 | 88 | 95 | 0 | 0 | 0 |
@@ -1561,6 +1562,17 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 - Observação: "Espeto Completo Grande": cada opção de "Escolha até 2 carnes" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
 - Pendências: 0
 
+### Pizzaria Imperial Delivery (Querência) — OK
+
+- Fonte: https://pedido.anota.ai/loja/pizzariasorveteriaimperial (anotaai)
+- Categorias: 8 · Produtos: 45 · Grupos de opções: 9 (131 escolhas) · Adicionais: 6 · Fotos: 5
+- Não importados: nenhum
+- Observação: "Pizza Média": "Escolha até 2 sabores sua Pizza" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pizza Grande": "Escolha até 2 sabores sua Pizza" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.
+- Observação: "Pastéis Salgados": cada opção de "Escolha sua Opção" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Observação: "Pastéis Doces": cada opção de "Escolha sua Opção" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.
+- Pendências: 0
+
 ### Restaurante Toque Caseiro (Querência) — OK
 
 - Fonte: https://menu.beefood.com.br/toquecaseirorestaurante/ (beefood)
@@ -1813,11 +1825,6 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 
 - Fonte: https://wa.link/2ldc6h (whatsapp)
 - Motivo: link de WhatsApp/aplicativo: não é cardápio público
-
-### Pizzaria Imperial Delivery (Querência) — Sem cardápio público
-
-- Fonte: https://pedido.anota.ai/loja/pizzariasorveteriaimperial?from=site (anotaai)
-- Motivo: página protegida por verificação anti-robô (Cloudflare 403); não contornada
 
 ### Sabor na Caixa (Querência) — Sem cardápio público
 

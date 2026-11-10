@@ -8,7 +8,7 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **342**.
 |---|---:|---:|---:|---:|---:|
 | Vila Rica | 38 | 82 | 12 | 14 | 4 |
 | São Félix do Araguaia | 21 | 99 | 1 | 2 | 0 |
-| Querência | 53 | 67 | 23 | 25 | 9 |
+| Querência | 53 | 67 | 24 | 26 | 10 |
 | Ribeirão Cascalheira | 23 | 97 | 3 | 0 | 0 |
 | Canarana | 47 | 73 | 29 | 17 | 11 |
 | Água Boa | 43 | 77 | 19 | 30 | 12 |
@@ -16,7 +16,7 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **342**.
 | Campinápolis | 10 | 110 | 2 | 3 | 2 |
 | Nova Xavantina | 34 | 86 | 27 | 21 | 18 |
 | Barra do Garças | 61 | 59 | 20 | 49 | 13 |
-| **Total** | **342** | **858** | **138** | **162** | **70** |
+| **Total** | **342** | **858** | **139** | **163** | **71** |
 
 ## Pendências por estabelecimento
 
@@ -125,7 +125,7 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **342**.
 - **Owzi Burger** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @owziburger (25 posts, 7709 seguidores, último post 2026-10-24). Bio: "Owzi Burger. Hamburgueria. O Hambúrguer mais Owzado do Vale do Araguaia 📍 Rua Tenente Portela, nº 1021 | Querência-MT 🗓️ Ter á Dom 🕖 Das 19 às 23 [BRT] 🍔 Faça seu pedido 👇". Site próprio (owziburger.com.br) usado para pedidos.
 - **Panificadora Central** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @panificadora_central_ (190 posts, 2603 seguidores, último post 2026-10-19). Bio: "Panificadora Central. 🥖 A padaria favorita de Querência-MT 🍰 Bolos • 🥟 Salgados • ☕️ Café 📲 Pedidos e encomendas no WhatsApp. Av. Central, 1970, Querência 78643000".
 - **Picanhas Grill** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @picanhasgrillmt (28 posts, 2493 seguidores, último post 2026-04-16). Bio: "Picanhas Grill Querencia. Restaurante. 🍔 Picanhas Grill | Querência-MT As melhores pizzas, porções e hambúrgueres da cidade! 📱 Peça agora pelo WhatsApp ou link abaixo 📞 (66) 3529-2808". Último post sem alfinete 2026-04-16 (~6,5 meses); entra por sinais fortes (2,5 mil seguidores, bio com telefone e link de pedidos). Telefone fixo: phone. Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.
-- **Pizzaria Imperial Delivery** — WhatsApp não verificado; cardápio pendente; Empresa registrada em Querência (CNPJ 32.777.491/0001-78, Setor Industrial, segundo diariocidade). O link anota.ai apareceu na mesma busca por Querência, mas não foi confirmado que pertence à unidade de Querência-MT. WebFetch bloqueado pelo proxy nesta sessão; dados vindos apenas de trechos de resultados de busca. Instagram @imperial7530 conferido em 2026-10-28 (pesquisa via Claude no Chrome).
+- **Pizzaria Imperial Delivery** — Empresa registrada em Querência (CNPJ 32.777.491/0001-78, Setor Industrial). Cardápio digital no anota.ai (pizzariasorveteriaimperial) confirmado em Querência pelo endereço da própria plataforma (10/11/2026) e importado; WhatsApp publicado na página do anota.ai (número antigo de 8 dígitos, com o 9). Instagram @imperial7530.
 - **Prii Pipocas Gourmet** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @priipipocas.gourmet (10 posts, 319 seguidores, último post 2026-10-24). Bio: "Prii Pipocas Gourmet - Querência MT 🍿. Loja de doces. 🍿 Mais que Pipoca, é Experiência 📍Querência MT | Delivery 🗓️ Sexta -Sabado-Domingo 👇 Peça a sua".
 - **Quintal Sorveteria** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @quintalsorveteria (13 posts, 242 seguidores, último post 2026-10-24). Bio: "Quintal Sorveteria Querência 🍦. 🍦🌭 Sorvetes + Buffet de Cachorro-Quente ✨ Um lugar para matar a fome e a vontade de doce! 📍 Querência/MT 🗺️ Anexo ao @quintalbebidasquerencia". Anexa ao @quintalbebidasquerencia; pode ter relação com o cadastro 'Churrascaria e Restaurante Quintal Festas' (não confirmado).
 - **Rancho dos Sabores** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @rancho_dos__sabores (24 posts, 455 seguidores, último post 2026-10-17). Bio: "RANCHO DOS SABORES QUERÊNCIA. Restaurante 🍲 E Hamburgueria 🍔 peça aqui 👇🏼". Foto de perfil é um avatar de pessoa: logoTipo foto. WhatsApp via api.whatsapp.com/send?phone=5566992379957.

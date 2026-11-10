@@ -1,0 +1,1062 @@
+{
+  "id": "pizzaria-imperial-delivery-querencia",
+  "platform": "anotaai",
+  "source": "https://pedido.anota.ai/loja/pizzariasorveteriaimperial",
+  "capturedAt": "2026-11-10T02:36:35.932Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Pizza Pequena",
+      "items": [
+        {
+          "sourceId": "63e3f2d518b2d600283203e6",
+          "name": "Pizza Pequena P",
+          "description": "",
+          "priceCents": 4200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha sua Pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza Imperial",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Carioca",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Calabresa",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Mussarela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Quatro Queijos",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Pantaneira",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Frango com Catupiry",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Frango com Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Frango com Milho",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Strogonoff de Frango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Lombo",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Mista",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Alho e Óleo",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Portuguesa",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Baiana Apimentada",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Napolitana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Palmito",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Milho ao Creme",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Carne Seca",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Cupim na Manteiga",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Strogonoff de Carne",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Bacon ao Creme",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Vegetariana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Siciliana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Goiana",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Abacaxi",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Prestígio",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza Banana com Canela",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza de Romeu e Julieta",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza de Morango",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pizza de Brigadeiro",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Bordas Recheadas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Lisa Recheada com Chocolate Branco",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Chocolate ao Leite",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Presunto com Catupiry",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Mussarela com Catupiry",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Cheddar",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Catupiry",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Sem Borda",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pizzas",
+      "items": [
+        {
+          "sourceId": "60a567d5f0cb70f64315cef4",
+          "name": "Pizza Média",
+          "description": "",
+          "priceCents": 8200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha até 2 sabores sua Pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Carioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Bacon ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Carne Seca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Cupim na Manteiga",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Frango com Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Frango com Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Imperial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Lombo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Milho ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Quatro Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Siciliana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Strogonoff de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Goiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Abacaxi",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Banana com Canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza de Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza de Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Prestígio",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Bordas Recheadas",
+              "min": 0,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Borda Lisa Recheada com Catupiry",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Borda Lisa Recheada com Cheddar",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Borda Lisa Recheada com Mussarela com Catupiry",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Borda Lisa Recheada com Presunto com Catupiry",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Borda Lisa Recheada com Chocolate ao Leite",
+                  "priceCents": 800
+                },
+                {
+                  "name": "Borda Lisa Recheada com Chocolate Branco",
+                  "priceCents": 800
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315cef6",
+          "name": "Pizza Grande",
+          "description": "",
+          "priceCents": 9700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha até 2 sabores sua Pizza",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pizza Alho e Óleo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Goiana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Vegetariana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Strogonoff de Frango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Strogonoff de Carne",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Siciliana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Quatro Queijos",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Portuguesa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Pantaneira",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Palmito",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Napolitana",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Mussarela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Mista",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Milho ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Lombo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Imperial",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Frango com Milho",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Frango com Cheddar",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Frango com Catupiry",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Cupim na Manteiga",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Carne Seca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Calabresa",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Baiana Apimentada",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Bacon ao Creme",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Carioca",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Prestígio",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza de Romeu e Julieta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza de Morango",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza de Brigadeiro",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Banana com Canela",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pizza Abacaxi",
+                  "priceCents": 0
+                }
+              ]
+            },
+            {
+              "name": "Bordas Recheadas",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Sem Borda",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Borda Lisa Recheada com Chocolate Branco",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Chocolate ao Leite",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Presunto com Catupiry",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Mussarela com Catupiry",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Cheddar",
+                  "priceCents": 1500
+                },
+                {
+                  "name": "Borda Lisa Recheada com Catupiry",
+                  "priceCents": 1500
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pastéis",
+      "items": [
+        {
+          "sourceId": "60a567d5f0cb70f64315d081",
+          "name": "Pastéis Salgados",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha sua Opção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pastel de Carne e Queijo",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pastel de Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Pastel de Queijo",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Pastel de Pizza",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pastel de Carne com Ovo e Azeitona",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pastel de Carne e Gueroba",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pastel de Calabresa com Queijo",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pastel de Carne Seca com Queijo e Catupiry",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pastel de Queijo e Presunto",
+                  "priceCents": 500
+                },
+                {
+                  "name": "Pastel de Frango com Queijo e Presunto",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pastel de Frango e Gueroba",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pastel de Frango com Catupiry",
+                  "priceCents": 600
+                },
+                {
+                  "name": "Pastel de vento",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d08e",
+          "name": "Pastéis Doces",
+          "description": "",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha sua Opção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Pastel de Chocolate Branco",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pastel de Chocolate Meio Amargo",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pastel de Chocolate ao Leite",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Pastel de Banana com Leite Condensado e Canela",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Saltenhas",
+      "items": [
+        {
+          "sourceId": "60a567d5f0cb70f64315d16b",
+          "name": "Saltenha Tradicional",
+          "description": "Creme, presunto e queijo.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://s3-us-west-2.amazonaws.com/anotaai/produtos/1622581812197blob",
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d175",
+          "name": "Saltenha de Bacon",
+          "description": "Creme, queijo e bacon.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d17a",
+          "name": "Saltenha de Calabresa",
+          "description": "Creme, queijo e calabresa.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://s3-us-west-2.amazonaws.com/anotaai/produtos/1622581909845blob",
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d19b",
+          "name": "Saltenha de Catupiry",
+          "description": "Creme, queijo e catupiry.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d1a1",
+          "name": "Saltenha Goiana",
+          "description": "Creme, queijo e pequi.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d1ab",
+          "name": "Saltenha de Gueroba",
+          "description": "Creme, queijo e gueroba.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d1b8",
+          "name": "Saltenha de Tomate",
+          "description": "Creme, queijo e tomate.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d1c5",
+          "name": "Saltenha de Carne de Sol",
+          "description": "Carne de sol e queijo.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": "https://s3-us-west-2.amazonaws.com/anotaai/produtos/1632996110053blob",
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d1cd",
+          "name": "Saltenha de Carne de Sol com Gueroba",
+          "description": "Carne de sol, queijo e gueroba.",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Caldos",
+      "items": [
+        {
+          "sourceId": "60b4cfd49b95430029448e84",
+          "name": "Caldo de Costela",
+          "description": "Mandioca, costela cozida e temperos",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d235",
+          "name": "Caldo de Frango",
+          "description": "Mandioca, Frango e temperos",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://client-assets.anota.ai/produtos/1680554091873blob",
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d23c",
+          "name": "Caldo de Peixe",
+          "description": "Mandioca, condimentos, Peixe Pintado",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": "https://s3-us-west-2.amazonaws.com/anotaai/produtos/1622715305983blob",
+          "options": []
+        },
+        {
+          "sourceId": "630fda481b5bc8001c01bd22",
+          "name": "Caldo de Kenga",
+          "description": "Frango, calabresa, bacon, mandioca e condimentos",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Porções",
+      "items": [
+        {
+          "sourceId": "60a567d5f0cb70f64315d1ee",
+          "name": "Porção de Batata Frita",
+          "description": "",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d208",
+          "name": "Porção de Batata Frita com Bacon e Mussarela",
+          "description": "",
+          "priceCents": 4000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "60c3b67bba7d370022cb72c3",
+          "name": "Refrigerante Guaraná Lata",
+          "description": "Guaraná Lata",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c3b04a34d32d00298b4b48",
+          "name": "Refrigerante lata - coca cola",
+          "description": "Coca cola - lata",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c7c1e4e2983200298881dc",
+          "name": "Refrigerante Fanta Laranja - lata",
+          "description": "Fanta Laranja - Lata",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c7c185fd47c90022cff1cc",
+          "name": "Agua Tônica Antarctica - Lata",
+          "description": "Água Tônica Antarctica - Lata",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c76b773a20ba0022266177",
+          "name": "Refrigerante Guaraná 1 litro",
+          "description": "Guaraná litro",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c7bea0e2983200298848c5",
+          "name": "Refrigerante Coca Cola 1,5 lt",
+          "description": "Coca Cola 1,5 lt",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c7befefd47c90022cf914f",
+          "name": "Refrigerante de 2 litros - Coca Cola",
+          "description": "Coca cola 2 lts",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c7bf56e298320029886330",
+          "name": "Refrigerante de 2 Lts - Guaraná Antártica",
+          "description": "Guaraná 2 Lts.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c7bf9ffd47c90022cfcf72",
+          "name": "Refrigerante de 2 Lts - Fanta Laranja",
+          "description": "Fanta Laranja de 2 Lts.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60c7bff8fd47c90022cfd0ad",
+          "name": "Refrigerante de 2 Lts - Coca Cola Zero",
+          "description": "Coca Cola Zero de 2 Lts",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d2d5",
+          "name": "Refrigerantes Lata",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d2df",
+          "name": "Refrigerantes 600ml",
+          "description": "Guaraná Antartica",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d2e6",
+          "name": "Refrigerantes 1lts",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d2f0",
+          "name": "Refrigerantes 1,5lts",
+          "description": "",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d30a",
+          "name": "Água Mineral sem Gás - 500ml",
+          "description": "",
+          "priceCents": 300,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d31c",
+          "name": "Cervejas Brahma",
+          "description": "",
+          "priceCents": 600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "60a567d5f0cb70f64315d325",
+          "name": "Cervejas Long Neck",
+          "description": "",
+          "priceCents": 900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Escolha sua Opção",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Cerveja Budweiser - Long Neck",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "X - Lanches",
+      "items": [
+        {
+          "sourceId": "61713b2af5ef6b002a72c719",
+          "name": "X salada",
+          "description": "Pão, molho, alface, tomate, milho, ervilha, hambúrguer, ovo,presunto, mussarela.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "61713df8f5ef6b002a72d103",
+          "name": "X Bacon",
+          "description": "Pão, molho, alface, tomate, milho, bacon, ovo, presunto, mussarela, hambúrguer.",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "61713ea8f5ef6b002a72d2e1",
+          "name": "X Frango",
+          "description": "Pão, molho, alface, tomate, frango, ovo, mussarela.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "61713fac596cae00239d6168",
+          "name": "X Frango com Bacon",
+          "description": "Pão, molho, alface, tomate, milho, frango, bacon, ovo, presunto, mussarela",
+          "priceCents": 2500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6171406ef5ef6b002a72d5f7",
+          "name": "X Tudo",
+          "description": "Pão, molho, alface, tomate, milho, ervilha, batata palha, frango, bacon, calabresa, salsicha, hambúrguer, ovo, presunto, mussarela",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "6171412e596cae00239d63f3",
+          "name": "X Calabresa",
+          "description": "Pão, molho, alface, tomate, milho, calabresa, hambúrguer, ovo, presunto, mussarela.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "617141e2f5ef6b002a72d8c9",
+          "name": "X Frango Catupiry",
+          "description": "Pão, molho, alface, tomate, milho, catupiry, frango, mussarela, presunto.",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "617142a5f5ef6b002a72d8fc",
+          "name": "X cheddar",
+          "description": "Pão, calabresa, catupiry, cheddar, tomate, maionese, Ketchup, mostarda, presunto, mussarela.",
+          "priceCents": 2100,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "\"Pizza Média\": \"Escolha até 2 sabores sua Pizza\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Pizza Grande\": \"Escolha até 2 sabores sua Pizza\" cobra o maior dos sabores na fonte; aqui é escolha de um sabor e os outros vão na observação.",
+    "\"Pastéis Salgados\": cada opção de \"Escolha sua Opção\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador.",
+    "\"Pastéis Doces\": cada opção de \"Escolha sua Opção\" tem preço próprio; aqui vira escolha única e a quantidade vai no contador."
+  ],
+  "ops": {
+    "deliveryMin": 23,
+    "deliveryMax": 42
+  },
+  "city": "Querência",
+  "phones": [
+    "(66) 9 8417-5912"
+  ]
+}

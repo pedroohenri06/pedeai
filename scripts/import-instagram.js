@@ -8,6 +8,7 @@
    Uso: node scripts/import-instagram.js <pasta-ou-arquivo.json> [...]   (depois: node scripts/build-data.js && npm test) */
 'use strict';
 const fs = require('fs');
+const V = require('./validate.js');
 const path = require('path');
 const core = require('../js/core.js');
 const { convert, normPhone, removed } = require('./import-research.js');
@@ -122,6 +123,9 @@ function importCity(db, file, fixes, log) {
       const v = incoming[f];
       if (!v) return;
       if ((f === 'website' || f === 'orderUrl') && !/^https:\/\//.test(v)) return;
+      // Cardápio externo nunca vira botão: o link vai para fontes.json e o cardápio é importado (scripts/menus).
+      if (f === 'orderUrl' && !V.WHATSAPP_URL.test(v)) return;
+      if (f === 'website' && V.isExternalMenu(v)) return;
       if (s[f] == null || s[f] === '') { s[f] = v; filled.push(f); }
       else if (f === 'instagram' || sameValue(f, s[f], v)) return;
       else if (replace.includes(f)) { replaced.push(`${LABEL[f]} "${s[f]}"`); s[f] = v; filled.push(f + '*'); }

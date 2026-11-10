@@ -4,6 +4,7 @@
    Uso: node scripts/import-research.js <pasta-ou-arquivo.json> [...] */
 'use strict';
 const fs = require('fs');
+const V = require('./validate.js');
 const path = require('path');
 const core = require('../js/core.js');
 
@@ -55,7 +56,7 @@ function convert(r) {
     address, neighborhood,
     whatsapp, whatsappSource: whatsapp ? whatsappSource : null, phone: phone && phone !== whatsapp ? phone : null,
     instagram: r.instagram ? String(r.instagram).replace(/^@/, '').trim() : null,
-    website: httpsUrl(r.website), orderUrl: httpsUrl(r.orderUrl), hours: r.hours || null,
+    website: V.isExternalMenu(httpsUrl(r.website)) ? null : httpsUrl(r.website), orderUrl: V.WHATSAPP_URL.test(httpsUrl(r.orderUrl) || '') ? httpsUrl(r.orderUrl) : null, hours: r.hours || null,
     deliveryFeeCents: null, image: null,
     menuSource: menu.length ? menuSource : null, menu,
     sources, confidence: r.confidence || 'media', verifiedAt: r.verifiedAt || new Date().toISOString().slice(0, 10),

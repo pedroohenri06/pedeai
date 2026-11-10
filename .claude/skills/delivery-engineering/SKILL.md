@@ -39,3 +39,6 @@ description: Arquitetura e regras de negócio do PedeAi Delivery (site estático
 3. `node scripts/build-data.js` se o cadastro mudou.
 4. `npm test` (unitários, dados e E2E com Playwright) precisa passar.
 5. Teste visualmente em 390px e 1280px (`npm run serve`).
+
+## Nunca link para cardápio externo (regra do Pedro, 10/11/2026)
+O cardápio digital da loja (anota.ai, aiqfome, iFood, Linktree, Canva, Drive, site de pedidos…) é **importado e mostrado no PedeAi** com o nosso brand (`scripts/menus`), nunca como botão ou link. A URL de origem fica só em `data/research/cardapios/fontes.json` e em `sources`. `orderUrl` só aceita link de WhatsApp da própria loja (exibido como "Falar no WhatsApp"); `website` não aceita plataforma de cardápio/pedido nem página de links (Linktree, bio.site…). `scripts/validate.js` barra os dois, e `import-instagram.js`/`import-research.js` descartam esses links. Cardápio que não dá para importar (bloqueio anti-robô, iFood): pedir prints/link ao Pedro e transcrever (skill cardapio-visual).

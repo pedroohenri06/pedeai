@@ -27,9 +27,9 @@
 
   /* Card: logotipo oficial quando existe; senão, a foto da loja; senão, a imagem da categoria. */
   /* Loja ainda sem logo/foto própria e sem cardápio: em vez de foto ilustrativa de comida, card da marca PedeAi com
-     "Em breve" — o cliente entende que o estabelecimento ainda não está disponível para pedido. */
+     "Em negociação" — o cliente entende que o estabelecimento ainda não está disponível para pedido. */
   function isSoon(s) { return !s.logo && !s.image && !C.menuSize(s); }
-  var SOON_MEDIA = '<div class="restaurant-media restaurant-media--soon"><span class="soon-mark" aria-hidden="true"><img src="assets/media-eec8624c4b7f.png" alt="" width="44" height="44"></span><span class="soon-word" aria-hidden="true">PedeAi</span><span class="soon-chip">Em breve</span></div>';
+  var SOON_MEDIA = '<div class="restaurant-media restaurant-media--soon"><span class="soon-mark" aria-hidden="true"><img src="assets/media-eec8624c4b7f.png" alt="" width="44" height="44"></span><span class="soon-word" aria-hidden="true">PedeAi</span><span class="soon-chip">Em negociação</span></div>';
   function photoOf(s) { var i = s.logo || s.image; return i ? i.thumb || i.src : CATEGORY_PHOTOS[s.category]; }
 
   /* ---------------- Listagem ---------------- */
@@ -95,7 +95,7 @@
   /* Linha operacional do card: status calculado pela grade da loja (fuso da loja, não do aparelho), previsão de entrega
      quando aberta ou sem status, e a próxima abertura quando fechada. Sem dado confiável, nada é exibido. */
   function opsHtml(s, now) {
-    if (isSoon(s)) return '<span class="store-soon">Cardápio em preparação</span>';
+    if (isSoon(s)) return '<span class="store-soon">Aguardando cardápio</span>';
     var st = S.status(s.schedule, now), eta = S.deliveryEstimate(s), out = [];
     if (st.state !== 'unknown') out.push('<span class="store-status is-' + st.state + '"><i class="status-dot" aria-hidden="true"></i>' + esc(st.label) + '</span>');
     if (eta) out.push('<span class="store-eta">' + esc(eta.label) + '</span>');

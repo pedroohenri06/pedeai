@@ -2,7 +2,7 @@
 
 Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/cardapios/fontes.json`.
 
-**159 cardápios importados** de 183 links de cardápio cadastrados · 1387 categorias · 8094 produtos · 5611 grupos de opções · 18986 adicionais (opções opcionais) · 5077 fotos.
+**160 cardápios importados** de 184 links de cardápio cadastrados · 1393 categorias · 8113 produtos · 5635 grupos de opções · 19052 adicionais (opções opcionais) · 5096 fotos.
 
 | Status | Restaurante | Cidade | Plataforma | Categorias | Produtos | Grupos | Adicionais | Fotos | Promoções | Destaques |
 |---|---|---|---|---:|---:|---:|---:|---:|---:|---:|
@@ -124,6 +124,7 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 | OK | SuntZu Sushi | Nova Xavantina | cardapioweb | 16 | 134 | 96 | 853 | 110 | 7 | 5 |
 | OK | Suprema Pizza | Nova Xavantina | meucardapio | 14 | 218 | 205 | 121 | 49 | 0 | 0 |
 | OK | Tribo do Açaí | Nova Xavantina | meucardapio | 13 | 45 | 117 | 954 | 41 | 0 | 0 |
+| OK | Creme Mania Sorvetes | Novo São Joaquim | franquia | 6 | 19 | 24 | 66 | 19 | 0 | 3 |
 | OK | Braseiro Espetinhos | Querência | aiqfome | 3 | 26 | 0 | 0 | 0 | 0 | 0 |
 | OK | Campero Grill | Querência | aiqfome | 7 | 58 | 12 | 0 | 45 | 0 | 7 |
 | OK | Casa da Pizza de Querência | Querência | anotaai | 4 | 23 | 17 | 130 | 23 | 0 | 0 |
@@ -1374,6 +1375,14 @@ Gerado por `node scripts/menus/report.js` em 2026-11-10. Fontes: `data/research/
 - Fonte: https://tribodoacainx.meucardapio.ai/ (meucardapio)
 - Categorias: 13 · Produtos: 45 · Grupos de opções: 117 (1140 escolhas) · Adicionais: 954 · Fotos: 41
 - Não importados: nenhum
+- Pendências: 0
+
+### Creme Mania Sorvetes (Novo São Joaquim) — OK
+
+- Fonte: https://maisdeliveryapp.com.br/web/loja.php?id=NTA5NjM= (franquia)
+- Categorias: 6 · Produtos: 19 · Grupos de opções: 24 (146 escolhas) · Adicionais: 66 · Fotos: 19
+- Não importados: nenhum
+- Observação: Cardápio universal da Creme Mania (base: unidade de São Félix do Araguaia no Mais Delivery, preços iguais aos de Água Boa e Vila Rica), aplicado a unidade sem cardápio digital próprio a pedido do Pedro (10/11/2026).
 - Pendências: 0
 
 ### Braseiro Espetinhos (Querência) — OK

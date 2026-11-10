@@ -1,0 +1,819 @@
+{
+  "id": "magnifico-hot-dog-nx-nova-xavantina",
+  "platform": "visual",
+  "source": "https://www.instagram.com/magnificoburguernx/",
+  "capturedAt": "2026-11-10T01:42:34.113Z",
+  "hours": null,
+  "sections": [
+    {
+      "name": "Hot dog",
+      "items": [
+        {
+          "sourceId": "hot-dog-simples",
+          "name": "Hot dog simples",
+          "description": "Pão, salsicha, molho, milho e batata palha.",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "hot-dog-costela",
+          "name": "Hot dog costela",
+          "description": "Pão, salsicha, molho, mussarela, costela, vinagrete e batata palha.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "hot-dog-kamikaze",
+          "name": "Hot dog Kamikaze",
+          "description": "Pão, salsicha, molho, mussarela, cheddar, frango e batata palha.",
+          "priceCents": 2000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [],
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "Hambúrgueres",
+      "items": [
+        {
+          "sourceId": "kids",
+          "name": "Kids",
+          "description": "Pão brioche, molho especial, 1 hambúrguer de 150 g, cheddar, barbecue, alface e tomate.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "premium",
+          "name": "Premium",
+          "description": "Pão australiano, molho especial, 2 hambúrgueres de 100 g cada, cheddar, bacon, rúcula e cebola roxa.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "4-queijos",
+          "name": "4 Queijos",
+          "description": "Pão brioche, molho especial, 2 hambúrgueres de 100 g cada, cheddar, queijo prato, mussarela, catupiry e alface.",
+          "priceCents": 3300,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/425e2h4haahmenff63gt8/02142ad2d4d1456628e5b2a27549f3c7f3e650d6.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "magnifico",
+          "name": "Magnífico",
+          "description": "Pão brioche, molho especial, 2 hambúrgueres de 100 g cada, cheddar, queijo prato, bacon, barbecue, rúcula, cebola roxa, tomate e picles.",
+          "priceCents": 3500,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/425e2h4haahmenff63gt8/1ea83316583b5985fdb9ef46d4cebd1dfc86b107.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ],
+          "featured": true
+        },
+        {
+          "sourceId": "big-carne",
+          "name": "Big Carne",
+          "description": "Pão brioche, molho especial, 2 hambúrgueres de 200 g cada, cheddar, bacon, barbecue e cebola caramelizada.",
+          "priceCents": 3800,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/425e2h4haahmenff63gt8/cd4601b48334ef6a266348a9f3c1538c2ebfb51d.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "bacon",
+          "name": "Bacon",
+          "description": "Pão brioche, molho especial, 1 hambúrguer de 150 g, bacon duplo, cheddar e cebola caramelizada.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "x-tudo-artesanal",
+          "name": "X-Tudo Artesanal",
+          "description": "Pão brioche, molho especial, 1 hambúrguer de 150 g, mussarela, salsicha, milho, batata palha, ovo, alface, tomate e bacon.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": "https://files.aiqfome.com/itens/425e2h4haahmenff63gt8/31cbdef96968c81092e19a3f6afe5ca5aaac9644.png",
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "magnon",
+          "name": "Magnon",
+          "description": "Pão australiano, molho especial, 2 hambúrgueres de 100 g cada, queijo prato, rúcula e cebola roxa.",
+          "priceCents": 2800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "gold",
+          "name": "Gold",
+          "description": "Pão brioche, molho especial, 2 hambúrgueres de 100 g cada, queijo prato, bacon, alface, tomate, cebola roxa e picles.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "frango",
+          "name": "Frango",
+          "description": "Pão brioche, molho especial, 1 hambúrguer de 150 g de frango, mussarela, alface e tomate.",
+          "priceCents": 2400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "supremo",
+          "name": "Supremo",
+          "description": "Pão brioche, molho especial, 2 hambúrgueres de 150 g cada, cheddar, queijo prato, alface e cebola roxa.",
+          "priceCents": 3600,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "mister",
+          "name": "Mister",
+          "description": "Pão brioche, molho especial, 2 hambúrgueres de 100 g de frango, barbecue, mussarela, catupiry, cebola caramelizada e alface.",
+          "priceCents": 3000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "costela",
+          "name": "Costela",
+          "description": "Pão brioche, molho especial, 2 hambúrgueres de 100 g cada de costela, mussarela e cebola caramelizada.",
+          "priceCents": 2900,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Adicionais",
+              "min": 0,
+              "max": 6,
+              "choices": [
+                {
+                  "name": "Queijo",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Carne",
+                  "priceCents": 400
+                },
+                {
+                  "name": "Bacon",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Abacaxi",
+                  "priceCents": 300
+                },
+                {
+                  "name": "Salsicha",
+                  "priceCents": 200
+                },
+                {
+                  "name": "Molho especial",
+                  "priceCents": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Combos",
+      "items": [
+        {
+          "sourceId": "combo-simples",
+          "name": "Combo simples",
+          "description": "150 g de batata, molho especial e 1 guaraná lata.",
+          "priceCents": 1200,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "combo-especial",
+          "name": "Combo especial",
+          "description": "150 g de batata com cheddar, bacon e molho especial, e 1 guaraná lata.",
+          "priceCents": 1700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [],
+          "featured": true
+        }
+      ]
+    },
+    {
+      "name": "Sobremesa",
+      "items": [
+        {
+          "sourceId": "mousse-de-maracuja",
+          "name": "Mousse de maracujá",
+          "description": "Copo com mousse de maracujá, 140 ml.",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": "file:///home/user/pedeai/data/research/cardapios/visual/magnifico-hot-dog-nx-nova-xavantina/mousse-de-maracuja.png",
+          "options": []
+        }
+      ]
+    },
+    {
+      "name": "Bebidas",
+      "items": [
+        {
+          "sourceId": "guarana-lata",
+          "name": "Guaraná lata",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Normal",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "coca-cola-lata",
+          "name": "Coca-Cola lata",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Tipo",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Normal",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Zero",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "fanta-lata",
+          "name": "Fanta lata",
+          "description": "",
+          "priceCents": 500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "agua-com-gas",
+          "name": "Água com gás",
+          "description": "",
+          "priceCents": 400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "refrigerante-500-ml",
+          "name": "Refrigerante 500 ml",
+          "description": "",
+          "priceCents": 700,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "guarana-1-litro",
+          "name": "Guaraná 1 litro",
+          "description": "",
+          "priceCents": 800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "refrigerante-1-5-l",
+          "name": "Refrigerante 1,5 L",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "refrigerante-2-l",
+          "name": "Refrigerante 2 L",
+          "description": "",
+          "priceCents": 1400,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": [
+            {
+              "name": "Sabor",
+              "min": 1,
+              "max": 1,
+              "choices": [
+                {
+                  "name": "Guaraná",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Coca-Cola",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Fanta",
+                  "priceCents": 0
+                },
+                {
+                  "name": "Sprite",
+                  "priceCents": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "sourceId": "suco-de-laranja-natural-500-ml",
+          "name": "Suco de laranja natural 500 ml",
+          "description": "",
+          "priceCents": 1000,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "suco-de-laranja-natural-1-litro",
+          "name": "Suco de laranja natural 1 litro",
+          "description": "",
+          "priceCents": 1800,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        },
+        {
+          "sourceId": "suco-de-polpa-500-ml",
+          "name": "Suco de polpa 500 ml",
+          "description": "Sabor a consultar com a loja.",
+          "priceCents": 1500,
+          "originalPriceCents": null,
+          "imageUrl": null,
+          "options": []
+        }
+      ]
+    }
+  ],
+  "skipped": {},
+  "notes": [
+    "Transcrito dos prints do catálogo do WhatsApp da Magnífico (enviados pelo Pedro em 10/11/2026): Hambúrgueres, Hot dog + Bebidas, Combo + Sobremesa e card de funcionamento (seg a dom 18h–23h, entrega R$ 8,00, Pix/dinheiro/débito/crédito). Fotos dos 4 lanches: aiqfome da própria Magnífico; mousse: recorte da arte."
+  ]
+}

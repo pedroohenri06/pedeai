@@ -1,6 +1,6 @@
 # Status do cadastro de estabelecimentos
 
-Gerado por `scripts/build-data.js`. Base atualizada em 2026-11-08.
+Gerado por `scripts/build-data.js`. Base atualizada em 2026-11-10.
 
 Meta: 120 por cidade (1200 no total). Cadastrados: **341**.
 
@@ -14,9 +14,9 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **341**.
 | Água Boa | 43 | 77 | 19 | 30 | 12 |
 | Novo São Joaquim | 12 | 108 | 2 | 0 | 0 |
 | Campinápolis | 9 | 111 | 1 | 2 | 1 |
-| Nova Xavantina | 34 | 86 | 27 | 20 | 17 |
+| Nova Xavantina | 34 | 86 | 27 | 21 | 18 |
 | Barra do Garças | 61 | 59 | 20 | 49 | 13 |
-| **Total** | **341** | **859** | **137** | **159** | **67** |
+| **Total** | **341** | **859** | **137** | **160** | **68** |
 
 ## Pendências por estabelecimento
 
@@ -310,7 +310,7 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **341**.
 - **Kanoa Beach** — foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'Kanoa Beach' (print do Instagram, 28/10/2026). Bio: 'Bar e Restaurante Flutuante! Cerveja gelada, comida gostosa e música boa, abertos todos os dias!'. Posts: rodízio de peixe a partir de R$ 79,90 (quartas e sábados); destaque 'Delivery'. Endereço (Av. Beira Rio - Santa Mônica) e (66) 9 9272-3832 com ícone de WhatsApp aparecem em letra pequena no rodapé do post fixado; o mesmo número e endereço aparecem nos posts do Araguaia Sushi NX (provavelmente mesmo local). Número ficou em phone até confirmar. Não confundir com o Flutua Beach (@flutuabeach.nx), outro flutuante da cidade.
 - **Lanchonete e Chopp do Luizão** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; A bio diz 'Delivery pelo Whatsapp', mas o número não aparece no trecho da busca. Veio de uma busca com 'Nova Xavantina', sem confirmação explícita da cidade. Foto do Street View indisponível fora do Google Maps; pendente. Instagram @lanchonete__e_chopp_do_luizao conferido em 2026-10-29 (pesquisa via Claude no Chrome). Horário estimado pelo padrão das hamburguerias da cidade (pedido do Pedro, 31/10/2026); ajustar quando a loja confirmar.
 - **Magnífico Burguer NX** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-29): @magnificoburguernx (74 posts, 1005 seguidores, último post 2026-10-23).
-- **Magnífico Hot Dog NX** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-29): @magnificohotdognx (60 posts, 884 seguidores, último post 2026-10-23). Mesmo grupo do Magnífico Burguer.
+- **Magnífico Hot Dog NX** — foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-29): @magnificohotdognx (60 posts, 884 seguidores, último post 2026-10-23). Mesmo grupo do Magnífico Burguer.
 - **Maia's Brigadeiria Artesanal** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-29): @maiasbrigadeiriaartesanal (694 posts, 3211 seguidores, último post 2026-09-26). Bio "Nova Xavantina-MT", "Encomendas | Sem loja física" — dúvida se serve para delivery. Foto de perfil é da dona (logoTipo foto).
 - **Nexy Açaí** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Perfil 'NEXYAÇAÍ' (print do Instagram, 28/10/2026). Bio: 'Ative sua energia. Nova Xavantina - MT. Delivery hoje 14:00 às 23:00. Acesse nosso cardápio digital' + nexyacai26.ola.click/prod… (link cortado no print: completar orderUrl). Sem WhatsApp e endereço visíveis.
 - **NT Distribuidora** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Perfil 'NT Distribuidora | Nova xavantina MT' (print do Instagram enviado pelo Pedro em 31/10/2026). Bio: 'Bebidas em geral / Espetinho, Jantinha / Refrigerante / Gelo / Entregas', 'Rua ipora, Nova Xavantina'. WhatsApp (66) 99957-7671 no botão WhatsApp do próprio perfil. Cadastrada em Churrasco (espetinho) até existir categoria de distribuidora. Cardápio no destaque 'Cardápio' do perfil (jantinha completa R$ 28,00 visível num post) — não importado: precisa do print do destaque.

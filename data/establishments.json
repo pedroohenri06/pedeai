@@ -184231,13 +184231,13 @@
       "kind": "Sorveteria e açaí",
       "address": null,
       "neighborhood": null,
-      "whatsapp": null,
-      "whatsappSource": null,
-      "phone": null,
-      "instagram": null,
+      "whatsapp": "5566981187352",
+      "whatsappSource": "https://www.instagram.com/crememaniacampinapolis/",
+      "phone": "5566981187352",
+      "instagram": "crememaniacampinapolis",
       "website": null,
       "orderUrl": null,
-      "hours": null,
+      "hours": "Atendimento das 14h às 22h",
       "deliveryFeeCents": null,
       "image": null,
       "menuSource": "https://maisdeliveryapp.com.br/web/loja.php?id=NTA5NjM=",
@@ -185493,11 +185493,12 @@
         }
       ],
       "sources": [
+        "https://www.instagram.com/crememaniacampinapolis/",
         "https://maisdeliveryapp.com.br/web/loja.php?id=NTA5NjM="
       ],
-      "confidence": "media",
+      "confidence": "alta",
       "verifiedAt": "2026-11-10",
-      "notes": "Unidade da franquia Creme Mania em Campinápolis informada pelo Pedro (10/11/2026); CNPJ, endereço, WhatsApp e Instagram serão enviados por ele. Cardápio universal da franquia (base: unidade de São Félix do Araguaia no Mais Delivery). Logo da franquia.",
+      "notes": "Instagram @crememaniacampinapolis (print enviado pelo Pedro, 10/11/2026): bio \"Atendimento das 14.00h às 22.00h! Campinapolis MT. Entregas pelo whts 66981187352\". Cardápio universal da franquia (base: unidade de São Félix do Araguaia no Mais Delivery). CNPJ e endereço ainda serão enviados.",
       "logo": {
         "src": "assets/stores/creme-mania-sorvetes-campinapolis-logo.webp",
         "thumb": "assets/stores/creme-mania-sorvetes-campinapolis-logo-card.webp",
@@ -185507,7 +185508,7 @@
         "credit": "Creme Mania Sorvetes",
         "license": "Uso autorizado pelo estabelecimento parceiro",
         "kind": "logo",
-        "sourceUrl": "https://www.instagram.com/creme_maniasorvetesnsj/",
+        "sourceUrl": "https://www.instagram.com/crememaniacampinapolis/",
         "tile": "assets/stores/creme-mania-sorvetes-campinapolis-logo-tile.webp"
       },
       "brand": {
@@ -185517,40 +185518,40 @@
         "ink": "#ffffff",
         "surface": "#193da3"
       },
-      "schedule": {
-        "week": {
-          "dom": [
-            "13:00-22:00"
-          ],
-          "seg": [
-            "13:00-22:00"
-          ],
-          "ter": [
-            "13:00-22:00"
-          ],
-          "qua": [
-            "13:00-22:00"
-          ],
-          "qui": [
-            "13:00-22:00"
-          ],
-          "sex": [
-            "13:00-22:00"
-          ],
-          "sab": [
-            "13:00-22:00"
-          ]
-        },
-        "estimated": true,
-        "basis": "horário típico de sorveteria: 13:00–22:00"
-      },
       "deliveryTime": {
         "minMinutes": 20,
         "maxMinutes": 35,
         "estimated": true,
         "basis": "média de açaí e sorveteria nas plataformas da região"
       },
-      "rank": 4
+      "rank": 4,
+      "schedule": {
+        "week": {
+          "dom": [
+            "14:00-22:00"
+          ],
+          "seg": [
+            "14:00-22:00"
+          ],
+          "ter": [
+            "14:00-22:00"
+          ],
+          "qua": [
+            "14:00-22:00"
+          ],
+          "qui": [
+            "14:00-22:00"
+          ],
+          "sex": [
+            "14:00-22:00"
+          ],
+          "sab": [
+            "14:00-22:00"
+          ]
+        },
+        "estimated": true,
+        "basis": "texto do horário (\"Atendimento das 14h às 22h\") completado com horário típico de sorveteria: 13:00–22:00"
+      }
     },
     {
       "id": "buffalos-grill-campinapolis",

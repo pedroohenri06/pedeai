@@ -326,6 +326,7 @@
     renderQty(false);
     page.classList.add('open');
     page.setAttribute('aria-hidden', 'false');
+    deferSections(again);
     document.body.classList.add('store-open');
     document.title = s.name + ' em ' + s.city + ' | PedeAi Delivery';
     $('storeScroll').scrollTop = keep;
@@ -336,6 +337,20 @@
     page.setAttribute('tabindex', '-1');
     requestAnimationFrame(function () { page.focus({ preventScroll: true }); });
   }
+
+  /* Cardápio grande em Android de entrada: na abertura, o navegador só calcula layout/pintura das seções perto da
+     tela (content-visibility via .sp-lazy); quando o aparelho fica ocioso, a classe sai e o resto é montado de uma
+     vez, para que posições (rolagem até a categoria, realce da seção) fiquem exatas. */
+  var lazyTimer = null;
+  function deferSections(again) {
+    clearTimeout(lazyTimer);
+    if (again || page.querySelectorAll('.sp-li').length < 40) { page.classList.remove('sp-lazy'); return; }
+    page.classList.add('sp-lazy');
+    lazyTimer = setTimeout(function () {
+      (window.requestIdleCallback || function (f) { return setTimeout(f, 0); })(settleSections, { timeout: 2000 });
+    }, 900);
+  }
+  function settleSections() { clearTimeout(lazyTimer); page.classList.remove('sp-lazy'); }
 
   function close(silent) {
     state.quiet = true; closeSheet(false); closeCart(false); state.quiet = false;
@@ -412,11 +427,24 @@
     links.forEach(function (a) {
       a.onclick = function (e) {
         e.preventDefault();
+        settleSections(); // posições exatas antes de rolar até a seção
         var i = Number(a.dataset.sec), sec = sections[i], sticky = page.querySelector('.sp-sticky');
         locked = Date.now() + 900;
         current = i;
         activate(i);
-        scroller.scrollTo({ top: offsetIn(scroller, sec) - page.querySelector('.sp-top').offsetHeight - (sticky ? sticky.offsetHeight : 0) - 8, behavior: behavior() });
+        var targetOf = function () { var st = page.querySelector('.sp-sticky'); return offsetIn(scroller, sec) - page.querySelector('.sp-top').offsetHeight - (st ? st.offsetHeight : 0) - 8; };
+        scroller.scrollTo({ top: targetOf(), behavior: behavior() });
+        /* Durante a rolagem o topo da loja condensa (muda de altura) e o alvo calculado no toque fica deslocado:
+           quando a rolagem para, confere e faz o ajuste fino. */
+        var last = -1, still = 0, tries = 0;
+        (function settle() {
+          if (++tries > 30) return;
+          var y = scroller.scrollTop;
+          still = Math.abs(y - last) < 1 ? still + 1 : 0; last = y;
+          if (still < 2) return setTimeout(settle, 80);
+          var fix = targetOf();
+          if (Math.abs(fix - y) > 6) { locked = Date.now() + 600; scroller.scrollTo({ top: fix, behavior: behavior() }); }
+        })();
         sec.querySelector('.sp-section-title').setAttribute('tabindex', '-1');
         sec.querySelector('.sp-section-title').focus({ preventScroll: true });
       };

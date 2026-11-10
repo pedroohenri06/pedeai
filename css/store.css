@@ -576,3 +576,6 @@ body.store-open .bottom-nav{display:none}
 /* Carrossel de destaques: o primeiro card alinha na margem da página (16 px), também ao deslizar. */
 .sp-hl-track{scroll-padding-inline:16px}
 @media (min-width:760px){.sp-hl-track{scroll-padding-inline:2px}}
+
+/* Abertura de cardápio grande: seções fora da tela só são montadas quando chegam perto (ver deferSections). */
+.sp-lazy .sp-section{content-visibility:auto;contain-intrinsic-size:auto 900px}

@@ -60,6 +60,18 @@
     return !!(store && store.whatsapp && isValidWhatsApp(store.whatsapp) && store.whatsappSource && menuSize(store));
   }
 
+  /* Texto de busca normalizado, calculado uma vez por loja (e de novo só se o cardápio completo chegar): a busca
+     roda a cada tecla e normalizar centenas de pratos por tecla trava celular fraco. Fica fora do JSON da loja. */
+  var HAY = typeof WeakMap === 'function' ? new WeakMap() : null;
+  function haystack(s) {
+    var n = s.menu ? s.menu.length : 0, c = HAY && HAY.get(s);
+    if (c && c.n === n) return c.text;
+    var dishes = n ? s.menu.map(function (m) { return m.name + ' ' + (m.description || ''); }) : [s.menuSearch || ''];
+    var text = normalize([s.name, s.kind, s.category, s.neighborhood || ''].concat(dishes).join(' '));
+    if (HAY) HAY.set(s, { n: n, text: text });
+    return text;
+  }
+
   function filterStores(stores, opts) {
     opts = opts || {};
     var q = normalize(opts.query);
@@ -67,9 +79,7 @@
       if (opts.city && s.city !== opts.city) return false;
       if (opts.category && opts.category !== 'Todos' && s.category !== opts.category) return false;
       if (!q) return true;
-      var dishes = s.menu && s.menu.length ? s.menu.map(function (m) { return m.name + ' ' + (m.description || ''); }) : [s.menuSearch || ''];
-      var hay = [s.name, s.kind, s.category, s.neighborhood || ''].concat(dishes).join(' ');
-      return normalize(hay).indexOf(q) > -1;
+      return haystack(s).indexOf(q) > -1;
     });
   }
 

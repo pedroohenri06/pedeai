@@ -113,10 +113,14 @@
     return parts.length ? '<li>' + icon(I.bag) + '<div><strong>Entrega</strong><span>' + esc(parts.join(' · ')) + '</span></div></li>' : '';
   }
 
+  /* Loja ainda sem logo/foto e sem cardápio: está em negociação com o PedeAi (regra do Pedro, 10/11/2026). Não mostra
+     aberto/fechado nem previsão de entrega, porque ainda não recebe pedidos pela plataforma. */
+  function isNegotiating(s) { return !s.logo && !s.image && !s.menu.length && !s.menuFile; }
+
   function infoHtml(s) {
     return '<section class="sp-card sp-info" aria-label="Informações do estabelecimento"><ul class="sp-facts">' +
       '<li>' + icon(I.pin) + '<div><strong>' + esc(s.address || s.city + ', MT') + '</strong>' + (s.address ? '<span>' + esc(s.city) + ', MT</span>' : '') + '<a href="' + esc(mapsUrl(s)) + '" target="_blank" rel="noopener">Ver no mapa</a></div></li>' +
-      hoursHtml(s) + deliveryHtml(s) +
+      (isNegotiating(s) ? '<li>' + icon(I.clock) + '<div><strong>Em negociação com o PedeAi</strong><span>Aguardando a confirmação do cardápio, dos preços e dos horários.</span></div></li>' : hoursHtml(s) + deliveryHtml(s)) +
       '</ul>' + actionsHtml(s) +
 
       '</section>';
@@ -240,6 +244,9 @@
     if (!s.menu.length) {
       var waHref = s.whatsapp ? C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery e gostaria de fazer um pedido.') : s.orderUrl;
       var actions = waHref ? '<a class="sp-btn sp-btn--primary" href="' + esc(waHref) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Pedir pelo WhatsApp</a>' : '';
+      if (isNegotiating(s)) return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head">' + eyebrow('Em negociação') + '<h2 id="storeMenuTitle">Cardápio</h2></div>' +
+        '<div class="sp-card sp-empty menu-pending"><img class="sp-empty-art" src="assets/pedeai-courier-3d-v2.webp" width="160" height="149" alt="" loading="lazy" decoding="async"><h3>Em negociação com o restaurante</h3><p>O PedeAi está em negociação com ' + esc(s.name) + '. Assim que o cardápio e os preços forem confirmados, os pedidos ficam disponíveis aqui.</p>' +
+        (actions ? '<div class="sp-empty-actions">' + actions + '</div>' : '') + '</div></section>';
       return '<section class="sp-menu" aria-labelledby="storeMenuTitle"><div class="sp-menu-head">' + eyebrow(s.whatsapp || s.orderUrl ? 'Peça direto' : 'Em breve') + '<h2 id="storeMenuTitle">Cardápio</h2></div>' +
         '<div class="sp-card sp-empty menu-pending"><img class="sp-empty-art" src="assets/pedeai-courier-3d-v2.webp" width="160" height="149" alt="" loading="lazy" decoding="async"><h3>Cardápio em preparação</h3><p>Ainda não temos um cardápio com preços confirmados para ' + esc(s.name) + '.' +
         (s.whatsapp || s.orderUrl ? ' Você pode fazer seu pedido direto pelo WhatsApp.' : ' Assim que o estabelecimento confirmar as informações, o pedido online é liberado aqui.') + '</p>' +

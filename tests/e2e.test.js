@@ -205,9 +205,11 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       await page.keyboard.press('Escape');
     });
 
-    await t.test('loja sem cardápio mostra pendência e não tem sacola', async () => {
+    await t.test('loja sem logo, foto e cardápio aparece em negociação, sem horário/previsão e sem sacola', async () => {
       await page.goto(base + '#/loja/acai-canarana');
-      assert.match(await page.textContent('.menu-pending'), /Cardápio em preparação/);
+      assert.match(await page.textContent('.menu-pending'), /Em negociação com o restaurante/);
+      assert.match(await page.textContent('.sp-info'), /Em negociação com o PedeAi/);
+      assert.equal(await page.locator('.sp-info [data-sp-status]').count(), 0);
       assert.match(await page.getAttribute('.sp-empty-actions a', 'href'), /^https:\/\/wa\.me\/5566999991111/);
       assert.equal(await page.locator('#cartBar').count(), 0);
     });

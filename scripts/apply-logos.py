@@ -27,7 +27,9 @@ def main(folder):
     db = json.loads(DB.read_text(encoding="utf-8"))
     stores = {s["id"]: s for s in db["establishments"]}
     for sid, cfg in json.loads(MAP.read_text(encoding="utf-8"))["logos"].items():
-        s = stores[sid]
+        s = stores.get(sid)
+        if s is None:  # loja removida da plataforma (data/research/removidos.json)
+            continue
         path = Path(folder) / cfg["file"]
         if not path.exists():  # lotes anteriores: arquivo-fonte não está nesta pasta, mantém o logotipo já aplicado
             continue

@@ -579,3 +579,4 @@ body.store-open .bottom-nav{display:none}
 
 /* Abertura de cardápio grande: seções fora da tela só são montadas quando chegam perto (ver deferSections). */
 .sp-lazy .sp-section{content-visibility:auto;contain-intrinsic-size:auto 900px}
+.sp-facts a{position:relative;z-index:2}.sp-facts a::before{content:"";position:absolute;inset:-12px -6px}

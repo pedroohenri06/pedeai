@@ -158,7 +158,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .offerbar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:center;gap:12px 18px;flex-wrap:wrap;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(18,4,6,.96);color:#fff;backdrop-filter:blur(8px);transform:translateY(110%);transition:transform .35s ease}
 .offerbar.show{transform:none}
 .offerbar[hidden]{display:none}
-.offerbar p{font-size:14px}.offerbar p b{color:#ff4a55}
+.offerbar p{font-size:14px}.ob-short{display:none}.offerbar p b{color:#ff4a55}
 .offerbar .clk{font:800 16px var(--display);font-variant-numeric:tabular-nums;letter-spacing:.02em}
 .offerbar a{height:40px;padding:0 16px;border-radius:12px;display:inline-flex;align-items:center;font:800 14px var(--display);color:#fff;text-decoration:none;background:linear-gradient(180deg,#ff4a55,#d0121f)}
 body.has-offerbar{padding-bottom:76px}
@@ -176,6 +176,31 @@ body.has-offerbar{padding-bottom:76px}
 .exit-leave{margin-top:10px;border:0;background:none;color:var(--muted);font:600 14px var(--body);text-decoration:underline;cursor:pointer;padding:8px}
 @media (max-width:760px){.calc{grid-template-columns:1fr;padding:22px}.guar7{flex-direction:column;text-align:center}.offerbar p{font-size:13px}.offerbar{gap:6px 12px}}
 @media (prefers-reduced-motion:reduce){.offerbar{transition:none}.exit-card{animation:none}}
+
+
+/* Tabela comparativa */
+.cmp{margin-top:34px}.cmp h2,.testi h2{font:800 clamp(22px,3vw,28px) var(--display);margin-bottom:12px}
+.cmp-scroll{overflow-x:auto;border-radius:20px;border:1px solid var(--line);background:var(--paper)}
+.cmp table{width:100%;min-width:620px;border-collapse:collapse;font-size:14.5px}
+.cmp th,.cmp td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:center}
+.cmp tbody th{text-align:left;font-weight:600}
+.cmp thead th{font:800 15px var(--display);background:#f6efea;position:sticky;top:0}
+.cmp thead th:first-child{text-align:left}
+.cmp td{color:var(--ok);font-weight:800}.cmp td:only-child{color:inherit}
+.cmp .cmp-pop{background:rgba(229,27,43,.06)}.cmp thead .cmp-pop{background:var(--red);color:#fff}
+.cmp tr:last-child th,.cmp tr:last-child td{border-bottom:0}
+/* Depoimentos */
+.testi{margin-top:34px}
+.testi-empty{position:relative;padding:24px 24px 24px 70px;border-radius:20px;border:1px dashed rgba(51,8,14,.25);background:var(--paper);color:var(--muted);font-size:15.5px}
+.testi-empty b{color:var(--ink)}
+.testi-quote{position:absolute;left:20px;top:6px;font:800 64px/1 var(--display);color:var(--red)}
+/* WhatsApp fixo */
+.wa-float{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:calc(16px + env(safe-area-inset-bottom));z-index:21;display:flex;align-items:center;gap:10px;padding:10px 16px 10px 10px;border-radius:99px;background:#1f9d55;color:#fff;text-decoration:none;box-shadow:0 14px 30px -10px rgba(10,60,30,.6);transition:transform .2s,bottom .35s ease}
+.wa-float svg{width:40px;height:40px;flex:none;background:#25d366;border-radius:50%;padding:8px}
+.wa-float span{display:grid;line-height:1.2}.wa-float b{font-size:14px}.wa-float small{font-size:12px;opacity:.9}
+.wa-float:hover{transform:translateY(-2px)}
+body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))}
+@media (max-width:760px){.ob-long{display:none}.ob-short{display:inline}.offerbar p{font-size:13px}.offerbar a{height:36px;font-size:13px}.wa-float{padding:8px}.wa-float span{display:none}.wa-float svg{width:44px;height:44px}body.has-offerbar .wa-float.lift{bottom:calc(96px + env(safe-area-inset-bottom))}}
 
 /* Entrada suave (blur + descida), em sequência. */
 .rv{opacity:0;filter:blur(10px);transform:translateY(-16px);transition:opacity .55s ease,filter .55s ease,transform .55s ease;transition-delay:calc(var(--i,0) * .12s)}
@@ -228,7 +253,7 @@ body.has-offerbar{padding-bottom:76px}
 
   <section class="tray" id="plans" aria-label="Planos"></section>
 
-  <p class="proof rv" style="--i:6"><span><b data-stores>342</b>estabelecimentos já no PedeAi</span><span><b>10</b>cidades no Vale do Araguaia</span><span><b>0%</b>de comissão por pedido</span></p>
+  <p class="proof rv" style="--i:6"><span><b>+350</b>estabelecimentos no PedeAi</span><span><b>10</b>cidades no Vale do Araguaia</span><span><b>0%</b>de comissão por pedido</span></p>
 
   <section class="calc rv" style="--i:6" aria-labelledby="calcTitle">
     <div>
@@ -252,10 +277,43 @@ body.has-offerbar{padding-bottom:76px}
   </section>
 
   <section class="trust rv" style="--i:6" aria-label="Como funciona">
-    <div><b>Nós montamos tudo</b><span>Cardápio, fotos, horários e página da loja são feitos pela nossa equipe.</span></div>
+    <div><b>No ar no mesmo dia</b><span>Assinou, a nossa equipe monta cardápio, fotos, horários e página da loja no mesmo dia.</span></div>
     <div><b>Time de marketing a seu favor</b><span>Nossos gestores de tráfego e influenciadores enchem a plataforma de clientes, e eles chegam até a sua loja.</span></div>
     <div><b>Zero taxa de plataforma</b><span>Sem comissão por pedido: o valor de cada venda é 100% seu.</span></div>
     <div><b>Preço garantido</b><span>Se o PedeAi reajustar as mensalidades, você continua pagando o preço do seu plano até o fim dele.</span></div>
+  </section>
+
+  <section class="cmp rv" style="--i:6" aria-labelledby="cmpTitle">
+    <h2 id="cmpTitle">Compare os planos</h2>
+    <div class="cmp-scroll"><table>
+      <thead><tr><th scope="col">Benefício</th><th scope="col">Essencial</th><th scope="col" class="cmp-pop">Destaque</th><th scope="col">Premium</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Zero taxa de plataforma e zero comissão</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Clientes das campanhas de tráfego pago e influenciadores do PedeAi</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Cardápio digital montado pela nossa equipe</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Loja no ar no mesmo dia</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Pedido pronto no seu WhatsApp</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">QR Code do cardápio e kit de divulgação</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Atualizações de cardápio e preço</th><td>2 por mês</td><td class="cmp-pop">Ilimitadas</td><td>Ilimitadas</td></tr>
+        <tr><th scope="row">Entre as primeiras lojas da cidade</th><td>–</td><td class="cmp-pop">✓</td><td>✓ (topo)</td></tr>
+        <tr><th scope="row">Selo de Parceiro verificado</th><td>–</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Carrossel de destaques no cardápio</th><td>–</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Promoções com preço de/por</th><td>–</td><td class="cmp-pop">✓</td><td>✓</td></tr>
+        <tr><th scope="row">Banner na página inicial da cidade</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
+        <tr><th scope="row">Primeiras posições da sua categoria</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
+        <tr><th scope="row">Oferta do dia no topo do cardápio</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
+        <tr><th scope="row">Atendimento prioritário</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
+        <tr><th scope="row">Vagas por cidade</th><td>Ilimitadas</td><td class="cmp-pop">Ilimitadas</td><td>Só 3</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="testi rv" style="--i:6" aria-labelledby="testiTitle">
+    <h2 id="testiTitle">Depoimentos dos primeiros parceiros</h2>
+    <div class="testi-empty">
+      <span class="testi-quote" aria-hidden="true">“</span>
+      <p><b>Ainda não temos depoimentos, pois a plataforma ainda não foi lançada oficialmente.</b> Os primeiros parceiros do Vale do Araguaia vão aparecer aqui. Que tal o seu restaurante ser um deles?</p>
+    </div>
   </section>
 </main>
 
@@ -271,7 +329,7 @@ body.has-offerbar{padding-bottom:76px}
 <section class="wrap faq rv" style="--i:8" aria-labelledby="faqTitle">
   <h2 id="faqTitle">Perguntas frequentes</h2>
   <details><summary>Preciso pagar alguma comissão por pedido?</summary><p>Não. O PedeAi não cobra taxa de plataforma nem comissão. Você paga só o plano, e o valor de cada venda é 100% seu.</p></details>
-  <details><summary>Quem monta o meu cardápio?</summary><p>A nossa equipe. Você manda o cardápio (foto, PDF ou link) e a gente monta tudo: itens, preços, tamanhos, adicionais, fotos tratadas, horário e página da loja com a sua marca.</p></details>
+  <details><summary>Quem monta o meu cardápio? Em quanto tempo fica pronto?</summary><p>A nossa equipe, no mesmo dia da assinatura. Você manda o cardápio (foto, PDF ou link) e a gente monta tudo: itens, preços, tamanhos, adicionais, fotos tratadas, horário e página da loja com a sua marca.</p></details>
   <details><summary>Como o cliente faz o pedido?</summary><p>Ele escolhe os itens no PedeAi, sem baixar aplicativo e sem criar conta, e o pedido chega pronto no seu WhatsApp: itens, adicionais, total, endereço e forma de pagamento.</p></details>
   <details><summary>E se o PedeAi aumentar o preço?</summary><p>Seu preço está garantido. Se o PedeAi reajustar as mensalidades, você continua pagando o valor do seu plano até o fim dele.</p></details>
   <details><summary>Posso cancelar?</summary><p>Sim. Em até 7 dias da contratação devolvemos 100% do valor. Depois disso, o plano segue até o fim do período contratado.</p></details>
@@ -279,8 +337,13 @@ body.has-offerbar{padding-bottom:76px}
 
 <footer class="wrap foot">Dúvidas? Fale com a nossa equipe comercial: <a href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20os%20planos%20do%20PedeAi." target="_blank" rel="noopener">+55 12 93629-0045</a></footer>
 
+<a class="wa-float" id="waFloat" target="_blank" rel="noopener" href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Qual%20plano%20do%20PedeAi%20%C3%A9%20melhor%20para%20a%20minha%20loja%3F" aria-label="Qual plano é melhor para a minha loja? Fale com o time comercial no WhatsApp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+  <span><b>Qual plano é melhor para minha loja?</b><small>Fale com o time comercial</small></span>
+</a>
+
 <div class="offerbar" id="offerbar" hidden role="region" aria-label="Oferta de Black Friday">
-  <p><b>Black Friday:</b> até <span id="obOff">36</span>% OFF no anual · acaba em <span class="clk" id="obClock">--</span></p>
+  <p><b>Black Friday:</b> <span class="ob-long">até <span id="obOff">36</span>% OFF no anual · acaba em</span><span class="ob-short">acaba em</span> <span class="clk" id="obClock">--</span></p>
   <a href="#plans">Garantir meu desconto</a>
 </div>
 
@@ -306,21 +369,21 @@ body.has-offerbar{padding-bottom:76px}
     { id: 'essencial', name: 'Essencial', desc: 'Seu restaurante no PedeAi, com cardápio completo e clientes chegando.',
       price: { mensal: 49.90, semestral: 44.90, anual: 39.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Time de marketing trazendo clientes'], ['chat', 'Pedido pronto no seu WhatsApp']],
+      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Time de marketing trazendo clientes'], ['qr', 'QR Code e kit de divulgação']],
       includesTitle: 'O plano inclui:',
-      includes: ['Sem comissão: 100% de cada venda fica com você', 'Time de marketing e gestores de tráfego do PedeAi enchendo a plataforma de clientes com tráfego pago e influenciadores', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'Link próprio do cardápio para a bio do Instagram e o status do WhatsApp', 'Aberto/Fechado, feriados, pausas e tempo de entrega automáticos', 'Cliente encontra sua loja pela busca por prato e por categoria', 'Até 2 atualizações de cardápio ou preço por mês'] },
-    { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras e suas ofertas em evidência.', popular: true,
+      includes: ['Sem comissão: 100% de cada venda fica com você', 'Time de marketing e gestores de tráfego do PedeAi enchendo a plataforma de clientes', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Sua loja no ar no mesmo dia da assinatura', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'QR Code do cardápio para mesa, balcão e sacola, e artes prontas para story, status e feed', 'Link próprio do cardápio para a bio do Instagram', 'Até 2 atualizações de cardápio ou preço por mês'] },
+    { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras da cidade, com selo de verificado e promoções em evidência.', popular: true,
       price: { mensal: 74.90, semestral: 64.90, anual: 54.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['star', 'Destaque na lista da cidade'], ['tag', 'Promoções com preço de/por'], ['refresh', 'Atualizações ilimitadas']],
+      highlights: [['star', 'Entre as primeiras da cidade'], ['badge', 'Selo de Parceiro verificado'], ['tag', 'Promoções com preço de/por']],
       includesTitle: 'Tudo do Essencial, mais:',
-      includes: ['Posição de destaque entre as primeiras lojas da sua cidade', 'Carrossel dos mais pedidos no topo do seu cardápio', 'Promoções com preço riscado (de R$ X por R$ Y) para atrair o cliente', 'Atualizações de cardápio, preço e promoção ilimitadas'] },
-    { id: 'premium', name: 'Premium', badge: 'Mais completo', desc: 'Tudo o que o PedeAi oferece, para ser a referência da sua cidade no delivery.',
+      includes: ['Sua loja entre as primeiras da lista da cidade', 'Selo azul de Parceiro verificado no card da loja', 'Carrossel de destaques no topo do seu cardápio', 'Promoções com preço riscado (de R$ X por R$ Y)', 'Atualizações de cardápio, preço e promoção ilimitadas'] },
+    { id: 'premium', name: 'Premium', badge: 'Só 3 vagas por cidade', desc: 'Tudo o que o PedeAi oferece, para ser a referência da sua cidade no delivery.',
       price: { mensal: 99.90, semestral: 89.90, anual: 79.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['banner', 'Banner na página inicial'], ['trophy', 'Topo da sua categoria'], ['camera', 'Fotos dos pratos tratadas']],
+      highlights: [['banner', 'Banner na página inicial'], ['trophy', 'Topo da sua categoria'], ['fire', 'Oferta do dia']],
       includesTitle: 'Tudo do Destaque, mais:',
-      includes: ['Banner da sua loja na faixa de campanhas da cidade', 'Primeira loja da sua categoria (ex.: a primeira em Hambúrguer)', 'Tratamento profissional das fotos dos pratos', 'Atendimento prioritário pelo WhatsApp'] }
+      includes: ['Banner da sua loja na abertura da cidade', 'Primeiras posições da sua categoria (ex.: Hambúrguer)', 'Oferta do dia em destaque no topo do seu cardápio, você troca quando quiser', 'Atendimento prioritário pelo WhatsApp', 'Apenas 3 lojas Premium por cidade'] },
   ];
   var WHATS = '5512936290045';
 
@@ -337,6 +400,8 @@ body.has-offerbar{padding-bottom:76px}
     menu: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
     chat: '<path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/>',
     zero: '<circle cx="12" cy="12" r="9"/><path d="M15 9l-6 6M9.5 9.5h.01M14.5 14.5h.01"/>',
+    qr: '<path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM14 14h2v2h-2zM18 14h2v2h-2zM14 18h2v2h-2zM18 18h2v2h-2zM6.5 6.5h1v1h-1zM16.5 6.5h1v1h-1zM6.5 16.5h1v1h-1z"/>',
+    badge: '<path d="M12 2l2.4 2.1 3.2-.3.9 3.1 2.8 1.6-1.1 3 1.1 3-2.8 1.6-.9 3.1-3.2-.3L12 22l-2.4-2.1-3.2.3-.9-3.1-2.8-1.6 1.1-3-1.1-3 2.8-1.6.9-3.1 3.2.3Z"/><path d="m8.5 12 2.3 2.3 4.7-4.7"/>',
     tag: '<path d="M3 12V4h8l10 10-8 8L3 12Z"/><circle cx="7.5" cy="7.5" r="1.3"/>',
     star: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9Z"/>',
     fire: '<path d="M12 22c4 0 7-2.8 7-7 0-4.5-4-7-4-11-3 1.5-5 4.5-5 7.5-1.2-.8-2-2-2-3.5C5.5 10 5 12.4 5 15c0 4.2 3 7 7 7Z"/>',
@@ -477,7 +542,8 @@ body.has-offerbar{padding-bottom:76px}
   }
   obTick(); setInterval(obTick, 1000);
   // A barra aparece depois que a pessoa passa do topo (não cobre o título).
-  addEventListener('scroll', function () { ob.classList.toggle('show', scrollY > 420); }, { passive: true });
+  var waF = document.getElementById('waFloat');
+  addEventListener('scroll', function () { var on = scrollY > 420; ob.classList.toggle('show', on); waF.classList.toggle('lift', on); }, { passive: true });
 
   /* ---- Antes de sair: na primeira vez que a pessoa aperta "voltar", mostra a oferta uma única vez.
      "Sair" leva para onde ela ia; não prende ninguém na página. A entrada no histórico só é criada depois de

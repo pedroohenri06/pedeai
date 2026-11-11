@@ -289,7 +289,7 @@ body.has-offerbar{padding-bottom:76px}
     <p class="eyebrow">Antes de sair</p>
     <h2 id="exitTitle">Seu desconto de Black Friday ainda está aqui</h2>
     <p>Plano Essencial anual com preço garantido até o fim do plano e zero comissão por pedido.</p>
-    <p class="exit-price"><s id="exitFrom">R$ 54,90</s><b id="exitTo">R$ 39,90</b>/mês</p>
+    <p class="exit-price"><s id="exitFrom">R$ 49,90</s><b id="exitTo">R$ 39,90</b>/mês</p>
     <p class="exit-clock" id="exitClock"></p>
     <a class="cta" id="exitCta" target="_blank" rel="noopener" href="#">Quero garantir esse preço</a>
     <button class="exit-leave" type="button" id="exitLeave">Sair mesmo assim</button>
@@ -301,10 +301,10 @@ body.has-offerbar{padding-bottom:76px}
   /* ---- Planos: edite aqui preços, benefícios e links de checkout ----
      price = valor mensal equivalente em cada forma de cobrança; checkout = link do pagamento de cada período.
      Enquanto o checkout estiver vazio, o botão abre o WhatsApp comercial com o plano escolhido. */
-  var PERIODS = { mensal: { months: 1, label: 'no plano mensal' }, semestral: { months: 6, label: 'no plano semestral' }, anual: { months: 12, label: 'no plano anual' } };
+  var PERIODS = { mensal: { months: 1, label: 'no plano mensal · sem fidelidade' }, semestral: { months: 6, label: 'no plano semestral' }, anual: { months: 12, label: 'no plano anual' } };
   var PLANS = [
     { id: 'essencial', name: 'Essencial', desc: 'Seu restaurante no PedeAi, com cardápio completo e clientes chegando.',
-      price: { mensal: 54.90, semestral: 49.90, anual: 39.90 },
+      price: { mensal: 49.90, semestral: 44.90, anual: 39.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
       highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Time de marketing trazendo clientes'], ['chat', 'Pedido pronto no seu WhatsApp']],
       includesTitle: 'O plano inclui:',

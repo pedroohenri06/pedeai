@@ -58,6 +58,10 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .lock{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-size:12.5px;font-weight:700;color:var(--ok);background:#e7f5ec;border-radius:99px;padding:5px 10px;transition:opacity .3s,transform .3s}
 .lock svg{width:14px;height:14px}
 .lock[hidden]{display:inline-flex!important;opacity:0;transform:translateY(-4px);height:0;padding:0;margin:0;overflow:hidden}
+.bonus{display:flex;gap:10px;align-items:flex-start;margin-top:16px;padding:12px 14px;border-radius:14px;background:#fff3e0;color:#7a4300;font-size:13.5px;line-height:1.4}
+.bonus svg{width:20px;height:20px;flex:none;color:#e07b00;margin-top:1px}
+.bonus[hidden]{display:none}
+.plan--pop .bonus{background:rgba(255,170,60,.14);color:#ffd9a6}.plan--pop .bonus svg{color:#ffb24d}
 .plan--pop .lock{background:rgba(92,201,139,.16);color:#7fe0a6}
 .plan--pop .billing{color:#e5c9cc}
 .plan h2{font:800 26px/1.15 var(--display);letter-spacing:-.025em;margin-top:14px}
@@ -160,9 +164,9 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras da cidade.', popular: true,
       price: { mensal: 74.90, semestral: 64.90, anual: 54.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['star', 'Destaque na lista da cidade'], ['fire', 'Itens em destaque no cardápio'], ['megaphone', 'Campanhas pagas e influenciadores']],
+      highlights: [['star', 'Destaque na lista da cidade'], ['fire', 'Itens em destaque no cardápio'], ['refresh', 'Atualizações ilimitadas de cardápio']],
       includesTitle: 'Tudo do Essencial, mais:',
-      includes: ['Posição de destaque entre as primeiras lojas da cidade', 'Carrossel de mais pedidos no topo do cardápio', 'Atualizações de cardápio e preço ilimitadas', 'Divulgação nas campanhas do PedeAi na sua cidade'] },
+      includes: ['Posição de destaque entre as primeiras lojas da cidade', 'Carrossel de mais pedidos no topo do cardápio', 'Atualizações de cardápio e preço ilimitadas'] },
     { id: 'premium', name: 'Premium', desc: 'Para ser a referência da sua cidade no delivery.',
       price: { mensal: 99.90, semestral: 89.90, anual: 79.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
@@ -178,6 +182,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     chat: '<path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/>',
     star: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9Z"/>',
     fire: '<path d="M12 22c4 0 7-2.8 7-7 0-4.5-4-7-4-11-3 1.5-5 4.5-5 7.5-1.2-.8-2-2-2-3.5C5.5 10 5 12.4 5 15c0 4.2 3 7 7 7Z"/>',
+    refresh: '<path d="M20 11a8 8 0 0 0-14.6-4.5L4 8M4 4v4h4M4 13a8 8 0 0 0 14.6 4.5L20 16M20 20v-4h-4"/>',
     megaphone: '<path d="M3 10v4h3l7 5V5L6 10H3ZM17 8.5a5 5 0 0 1 0 7M19.5 6a8.5 8.5 0 0 1 0 12"/>',
     banner: '<rect x="3" y="5" width="18" height="12" rx="2"/><path d="m3 14 5-4 4 3 3-2 6 4M8 21h8"/>',
     trophy: '<path d="M8 4h8v5a4 4 0 0 1-8 0V4ZM8 6H4v1a4 4 0 0 0 4 4M16 6h4v1a4 4 0 0 1-4 4M12 13v4M8 21h8M9 17h6"/>',
@@ -204,6 +209,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço congelado enquanto ativo</span>' +
       '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
       '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
+      '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span><b>Bônus do anual:</b> sua loja pode entrar nas campanhas com influenciadores do PedeAi</span></p>' +
       '<div class="inc"><h3>' + esc(p.includesTitle) + '</h3><ul>' + p.includes.map(function (t) { return '<li><span class="chk">' + CHECK + '</span>' + esc(t) + '</li>'; }).join('') + '</ul></div>' +
       '<a class="cta" data-cta target="_blank" rel="noopener">Quero o ' + esc(p.name) + '</a></article>';
   }).join('');
@@ -228,6 +234,8 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       card.querySelector('[data-billing]').textContent = P.months === 1 ? 'cobrado mensalmente' : 'R$ ' + brl(to * P.months) + ' ' + P.label;
       // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
       card.querySelector('[data-lock]').hidden = P.months === 1;
+      // Campanhas com influenciadores são esporádicas e só entram como bônus do plano anual.
+      card.querySelector('[data-bonus]').hidden = period !== 'anual';
       var cta = card.querySelector('[data-cta]'), link = p.checkout[period];
       cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + ') do PedeAi Delivery.');
     });

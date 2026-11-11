@@ -178,6 +178,8 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .vs-line span,.vs-total span{font-size:12px;color:#d9b9bd}
 .vs-line b{font:800 15px var(--display);color:#fff;font-variant-numeric:tabular-nums}
 .vs-line b.nw{white-space:nowrap}
+.vs-brand{display:flex;align-items:center;gap:8px;color:#fff!important}
+.vs-mark{width:28px;height:28px;flex:none;border-radius:9px;background:var(--red) url("/assets/media-eec8624c4b7f.png") center/20px no-repeat;box-shadow:0 6px 14px rgba(229,27,43,.35)}
 .vs-total{border-top:1px solid rgba(255,255,255,.14);padding-top:8px}
 .vs-total b{font:800 clamp(17px,5.2vw,22px) var(--display);white-space:nowrap;font-variant-numeric:tabular-nums}
 .vs-col--bad .vs-total b{color:#ff6b75}.vs-col--good .vs-total b{color:#7fe0a6}
@@ -318,8 +320,8 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   <section class="calc rv" style="--i:6" aria-labelledby="calcTitle">
     <div>
       <p class="eyebrow" style="color:#ff6b75">Faça a conta</p>
-      <h2 id="calcTitle">Aplicativo comum ou PedeAi: quanto sua loja paga por ano?</h2>
-      <p>Nos aplicativos comuns, você paga comissão em <b>cada pedido</b> e ainda uma mensalidade. No PedeAi, a comissão é <b>zero</b> e você paga só um plano a partir de R$ 39,90 por mês.</p>
+      <h2 id="calcTitle">Quanto sua loja paga por ano para vender no delivery?</h2>
+      <p>Nos aplicativos comuns, uma fatia de <b>cada pedido</b> fica com eles, e ainda tem mensalidade. No PedeAi, <b>cada real da venda é seu</b>: comissão zero e um plano fixo a partir de R$ 39,90 por mês.</p>
       <label for="calcSales">Quanto sua loja vende por delivery no mês?</label>
       <output id="calcSalesOut" class="calc-sales">R$ 8.000</output>
       <input type="range" id="calcSales" min="1000" max="60000" step="500" value="8000" aria-describedby="calcSave">
@@ -328,19 +330,19 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
       <div class="vs">
         <div class="vs-col vs-col--bad">
           <p class="vs-name">App comum</p>
-          <p class="vs-line"><span>Comissão 12%</span><b id="vsFee">R$ 960/mês</b></p>
+          <p class="vs-line"><span>Comissão de 12%</span><b id="vsFee">R$ 960/mês</b></p>
           <p class="vs-line"><span>Mensalidade</span><b class="nw">R$ 100+/mês</b></p>
           <p class="vs-total"><span>Por ano</span><b id="vsBadYear">R$ 12.720</b></p>
         </div>
         <div class="vs-col vs-col--good">
-          <p class="vs-name">PedeAi</p>
+          <p class="vs-name vs-brand"><span class="vs-mark" aria-hidden="true"></span><span>PedeAi</span></p>
           <p class="vs-line"><span>Comissão</span><b>0% · R$ 0</b></p>
-          <p class="vs-line"><span>Mensalidade</span><b id="vsPlan">R$ 39,90/mês</b></p>
+          <p class="vs-line"><span>Plano fixo</span><b id="vsPlan">R$ 39,90/mês</b></p>
           <p class="vs-total"><span>Por ano</span><b id="vsGoodYear">R$ 478,80</b></p>
         </div>
       </div>
-      <div class="vs-save" id="calcSave"><span>Com o PedeAi, fica no seu caixa</span><b id="vsSave">R$ 12.241</b><small>a mais por ano</small></div>
-      <a class="calc-cta" href="#planos">Quero comissão zero na minha loja</a>
+      <div class="vs-save" id="calcSave"><span>Com o PedeAi, você deixa de pagar</span><b id="vsSave">R$ 12.241</b><small>por ano. Dinheiro que fica no seu caixa.</small></div>
+      <a class="calc-cta" href="#planos">Quero vender sem comissão</a>
       <small>Cálculo ilustrativo: comissão de 12% sobre o valor vendido e mensalidade de R$ 100 nos aplicativos comuns; no PedeAi, plano Essencial anual. Sem contar taxas de pagamento online.</small>
     </div>
   </section>

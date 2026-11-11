@@ -166,15 +166,30 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .calc small{display:block;color:#c9a7ab;font-size:12px;margin-top:4px}
 .calc label{font-size:15px;margin-top:22px}
 .calc-sales{display:block;font:800 clamp(30px,6vw,40px)/1 var(--display);color:#fff;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin-bottom:6px}
-.calc-loss{padding:16px;border-radius:16px;background:rgba(255,74,85,.14);border:1px solid rgba(255,107,117,.35)}
-.calc-loss span{font-size:14px;color:#ffd0d4;font-weight:700}
-.calc-loss b{display:block;font:800 clamp(34px,7vw,44px)/1.05 var(--display);color:#ff6b75;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin:4px 0}
-.calc-loss small strong{color:#fff}
 .calc-row span small{display:block;margin:2px 0 0;font-size:12px}.calc-row span small i{font-style:normal}
-.calc-hook{font-size:16px!important;color:#fff!important;margin-top:4px!important;line-height:1.4}.calc-hook b{color:#7fe0a6}
-.calc-urg{font-size:14px!important;margin-top:0!important}.calc-urg b{color:#ff8a92}
+.calc p b{color:#fff}
+.vs{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.vs-col{padding:14px 12px;border-radius:16px;display:grid;gap:8px;align-content:start}
+.vs-col--bad{background:rgba(255,74,85,.12);border:1px solid rgba(255,107,117,.35)}
+.vs-col--good{background:rgba(92,201,139,.14);border:1px solid rgba(127,224,166,.45)}
+.calc .vs-name{margin:0;font:800 16px var(--display);color:#fff}
+.vs-col--bad .vs-name{color:#ff9aa1}.vs-col--good .vs-name{color:#7fe0a6}
+.calc .vs-line,.calc .vs-total{margin:0;display:grid;gap:1px}
+.vs-line span,.vs-total span{font-size:12px;color:#d9b9bd}
+.vs-line b{font:800 15px var(--display);color:#fff;font-variant-numeric:tabular-nums}
+.vs-line b.nw{white-space:nowrap}
+.vs-brand{display:flex;align-items:center;gap:8px;color:#fff!important}
+.vs-mark{width:28px;height:28px;flex:none;border-radius:9px;background:var(--red) url("/assets/media-eec8624c4b7f.png") center/20px no-repeat;box-shadow:0 6px 14px rgba(229,27,43,.35)}
+.vs-total{border-top:1px solid rgba(255,255,255,.14);padding-top:8px}
+.vs-total b{font:800 clamp(17px,5.2vw,22px) var(--display);white-space:nowrap;font-variant-numeric:tabular-nums}
+.vs-col--bad .vs-total b{color:#ff6b75}.vs-col--good .vs-total b{color:#7fe0a6}
+.vs-save{text-align:center;padding:16px;border-radius:16px;background:linear-gradient(180deg,rgba(92,201,139,.22),rgba(92,201,139,.1));border:1px solid rgba(127,224,166,.5)}
+.vs-save span{display:block;font-size:14px;font-weight:700;color:#d6f5e2}
+.vs-save b{display:block;font:800 clamp(34px,8vw,46px)/1.05 var(--display);color:#7fe0a6;letter-spacing:-.02em;font-variant-numeric:tabular-nums;margin:4px 0 2px}
+.vs-save small{margin:0!important;color:#bfe8cf!important;font-size:13px!important}
 .calc-cta{display:flex;align-items:center;justify-content:center;min-height:50px;border-radius:14px;background:#e51b2b;color:#fff;font:800 16px var(--display);text-decoration:none;box-shadow:0 12px 26px -12px rgba(229,27,43,.9);margin-top:4px}
 .calc-cta:hover{background:#c8101f}
+.calc-cta{padding:8px 14px;text-align:center}
 @media (max-width:760px){.calc-row{flex-direction:column;align-items:flex-start;gap:2px}.calc-row--good b{font-size:28px}}
 /* Garantia */
 .guar7{margin-top:34px;display:flex;gap:18px;align-items:center;padding:22px 24px;border-radius:22px;background:var(--paper);border:1px solid var(--line)}
@@ -305,20 +320,30 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   <section class="calc rv" style="--i:6" aria-labelledby="calcTitle">
     <div>
       <p class="eyebrow" style="color:#ff6b75">Faça a conta</p>
-      <h2 id="calcTitle">Quanto da sua loja está ficando nos aplicativos de delivery genéricos?</h2>
-      <p>Você compra o ingrediente, prepara, embala e entrega. E, a cada pedido, uma fatia do seu lucro vai embora em comissão. Todo mês. Arraste e descubra quanto.</p>
+      <h2 id="calcTitle">Quanto sua loja paga por ano para vender no delivery?</h2>
+      <p>Nos aplicativos comuns, uma fatia de <b>cada pedido</b> fica com eles, e ainda tem mensalidade. No PedeAi, <b>cada real da venda é seu</b>: comissão zero e um plano fixo a partir de R$ 39,90 por mês.</p>
       <label for="calcSales">Quanto sua loja vende por delivery no mês?</label>
       <output id="calcSalesOut" class="calc-sales">R$ 8.000</output>
-      <input type="range" id="calcSales" min="1000" max="60000" step="500" value="8000" aria-describedby="calcLoss">
+      <input type="range" id="calcSales" min="1000" max="60000" step="500" value="8000" aria-describedby="calcSave">
     </div>
     <div class="calc-res" aria-live="polite">
-      <div class="calc-loss" id="calcLoss"><span>Por ano, você deixa nos aplicativos</span><b id="calcFeeYear">R$ 11.520</b><small>São <strong id="calcFee">R$ 960</strong> todo mês, com comissão a partir de 12% por pedido.</small></div>
-      <div class="calc-row"><span>No PedeAi, comissão zero<small>Essencial anual: <i id="calcPlan">R$ 39,90</i>/mês</small></span><b id="calcPlanYear">R$ 478,80/ano</b></div>
-      <div class="calc-row calc-row--good"><span>Volta para o seu caixa</span><b id="calcYear">R$ 11.041/ano</b></div>
-      <p class="calc-hook" id="calcHook">É como vender <b>1,4 mês a mais</b> de delivery por ano, sem fazer um pedido a mais.</p>
-      <p class="calc-urg">Cada mês sem mudar custa <b id="calcMonth">R$ 920</b> para a sua loja.</p>
-      <a class="calc-cta" href="#planos">Quero comissão zero na minha loja</a>
-      <small>Cálculo ilustrativo: comissão de 12% sobre o valor vendido, sem contar taxas de pagamento online.</small>
+      <div class="vs">
+        <div class="vs-col vs-col--bad">
+          <p class="vs-name">App comum</p>
+          <p class="vs-line"><span>Comissão de 12%</span><b id="vsFee">R$ 960/mês</b></p>
+          <p class="vs-line"><span>Mensalidade</span><b class="nw">R$ 100+/mês</b></p>
+          <p class="vs-total"><span>Por ano</span><b id="vsBadYear">R$ 12.720</b></p>
+        </div>
+        <div class="vs-col vs-col--good">
+          <p class="vs-name vs-brand"><span class="vs-mark" aria-hidden="true"></span><span>PedeAi</span></p>
+          <p class="vs-line"><span>Comissão</span><b>0% · R$ 0</b></p>
+          <p class="vs-line"><span>Plano fixo</span><b id="vsPlan">R$ 39,90/mês</b></p>
+          <p class="vs-total"><span>Por ano</span><b id="vsGoodYear">R$ 478,80</b></p>
+        </div>
+      </div>
+      <div class="vs-save" id="calcSave"><span>Com o PedeAi, você deixa de pagar</span><b id="vsSave">R$ 12.241</b><small>por ano. Dinheiro que fica no seu caixa.</small></div>
+      <a class="calc-cta" href="#planos">Quero vender sem comissão</a>
+      <small>Cálculo ilustrativo: comissão de 12% sobre o valor vendido e mensalidade de R$ 100 nos aplicativos comuns; no PedeAi, plano Essencial anual. Sem contar taxas de pagamento online.</small>
     </div>
   </section>
 
@@ -551,20 +576,17 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   var cs = document.getElementById('calcSales');
   var money = function (v) { return 'R$ ' + v.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.'); };
   var money0 = function (v) { return 'R$ ' + Math.round(v).toString().replace(/\B(?=(\d{3})+(?!\d))/g, '.'); };
+  var APP_MONTHLY = 100; // mensalidade de referência dos aplicativos comuns (informada pelo Pedro: passa de R$ 100)
   function calc() {
-    var v = +cs.value, plan = priceOf(PLANS[0], 'anual'), fee = v * 0.12, save = Math.max(0, (fee - plan) * 12);
+    var v = +cs.value, plan = priceOf(PLANS[0], 'anual'), fee = v * 0.12;
+    var bad = (fee + APP_MONTHLY) * 12, good = plan * 12;
     var $ = function (id) { return document.getElementById(id); };
     $('calcSalesOut').textContent = money0(v);
-    $('calcFeeYear').textContent = money0(fee * 12);
-    $('calcFee').textContent = money0(fee);
-    $('calcPlan').textContent = money(plan);
-    $('calcPlanYear').textContent = money(plan * 12) + '/ano';
-    $('calcYear').textContent = money0(save) + '/ano';
-    $('calcMonth').textContent = money0(Math.max(0, fee - plan));
-    var months = save / v, txt;
-    if (months >= 1) txt = (Math.round(months * 10) / 10).toString().replace('.', ',').replace(/,0$/, '') + (months >= 1.95 ? ' meses' : ' mês');
-    else txt = Math.max(1, Math.round(months * 30)) + ' dias';
-    $('calcHook').innerHTML = 'É como vender <b>' + txt + ' a mais</b> de delivery por ano, sem fazer um pedido a mais.';
+    $('vsFee').textContent = money0(fee) + '/mês';
+    $('vsBadYear').textContent = money0(bad);
+    $('vsPlan').textContent = money(plan) + '/mês';
+    $('vsGoodYear').textContent = money(good);
+    $('vsSave').textContent = money0(Math.max(0, bad - good));
   }
   cs.addEventListener('input', calc); calc();
 

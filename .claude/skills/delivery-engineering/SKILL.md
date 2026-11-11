@@ -14,6 +14,7 @@ description: Arquitetura e regras de negócio do PedeAi Delivery (site estático
 - `data/establishments.json`: **fonte da verdade** do cadastro. `data/establishments.js` e `data/STATUS.md` são gerados por `node scripts/build-data.js`; nunca edite os gerados à mão.
 - `scripts/import-research.js`: importa JSON de pesquisa (ver skill `restaurant-research`) e deduplica por nome+cidade.
 - Vercel serve a raiz como estática; não há `build` no `package.json`. Não crie pasta `public/`, porque a Vercel passaria a servir só ela.
+- O plano gratuito da Vercel tem limite diário de publicações, e o repositório está ligado a dois projetos (`pedeai` e `pedeai-x7c2`): cada commit publicado conta duas vezes. Por isso o `vercel.json` só publica a `main` (`git.deploymentEnabled`); branches `claude/*` não geram prévia na Vercel. Prévias são feitas localmente (Playwright). Junte mudanças aprovadas no mesmo PR quando der, e não faça push de commits só para testar.
 
 ## Regras de negócio
 1. **10 cidades fixas** (`core.CITIES`) e **10 categorias fixas** (`core.CATEGORIES`). Não renomeie: o seletor, os filtros e o `localStorage` (`pedeai-city`) dependem delas.

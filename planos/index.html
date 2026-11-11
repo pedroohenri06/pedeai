@@ -85,15 +85,29 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .cta:hover{transform:translateY(-2px)}
 .cta:focus-visible{outline:3px solid var(--red);outline-offset:3px}
 
-.how{margin-top:34px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:center}
-.how-fig{margin:0}.how-fig img{display:block;width:100%;height:auto;border-radius:24px}
-.how-fig figcaption{margin-top:10px;font-size:13px;color:var(--muted,#6b5b5d);text-align:center;line-height:1.45}
-.how h2{font:800 clamp(24px,3.4vw,32px)/1.12 var(--display);letter-spacing:-.03em;text-wrap:balance;margin-top:6px}
 .how-steps{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:12px;counter-reset:s}
-.how-steps li{counter-increment:s;display:grid;grid-template-columns:36px 1fr;gap:2px 12px;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:14px}
+.how-steps li{counter-increment:s;display:grid;align-content:start;grid-template-columns:36px 1fr;gap:2px 12px;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:14px}
 .how-steps li::before{content:counter(s);grid-row:span 2;width:36px;height:36px;border-radius:50%;background:#e51b2b;color:#fff;font:800 16px var(--display);display:grid;place-items:center}
 .how-steps b{font:800 16px var(--display)}.how-steps span{font-size:14px;color:var(--muted,#6b5b5d)}
-@media (max-width:760px){.how{grid-template-columns:1fr;gap:18px}.how-copy{order:-1}}
+.hero{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:28px;align-items:center;padding:28px 0 8px}
+.hero-kicker{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:99px;background:#170507;color:#fff;font:800 12px var(--display);letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
+.hero-kicker::before{content:"";width:8px;height:8px;border-radius:50%;background:#ff4a55;box-shadow:0 0 0 4px rgba(255,74,85,.25)}
+.hero h1{max-width:13ch}
+.hero-clock{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:20px}
+.hero-clock[hidden]{display:none}
+.hero-clock .bf-ends{font-size:13px;font-weight:700;color:var(--muted);margin-right:4px;width:100%}
+.hero-clock .bf-t{background:#170507;border:0;color:#fff;min-width:58px;padding:8px 4px}
+.hero-clock .bf-t small{color:#d9b9bd}
+.hero-cta{display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 28px;margin-top:22px;border-radius:16px;background:var(--red);color:#fff;font:800 17px var(--display);text-decoration:none;box-shadow:0 14px 30px -12px rgba(229,27,43,.9)}
+.hero-cta:hover{background:#c8101f}
+.hero-fig{margin:0}.hero-fig img{display:block;width:100%;height:auto;border-radius:26px}
+.hero-fig figcaption{margin-top:10px;font-size:13px;color:var(--muted);text-align:center;line-height:1.45}
+.steps{margin-top:30px}
+.steps h2{font:800 clamp(22px,3vw,28px)/1.15 var(--display);letter-spacing:-.03em;text-wrap:balance;max-width:30ch}
+.steps .how-steps{grid-template-columns:repeat(3,minmax(0,1fr))}
+.head-title{font:800 clamp(26px,4vw,38px)/1.08 var(--display);letter-spacing:-.03em;text-wrap:balance}
+.head-sub{color:var(--muted);margin-top:10px;max-width:52ch;font-size:16px}
+@media (max-width:760px){.hero{grid-template-columns:1fr;gap:0;padding-top:18px}.hero-copy{display:contents}.hero-kicker{justify-self:start}.hero-fig{order:1;margin-top:20px}.hero-clock{order:2}.hero-cta{order:3}.hero-cta{width:100%}.steps .how-steps{grid-template-columns:1fr}}
 .trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:34px 0 0}
 .trust div{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}
 .trust b{display:block;font:800 16px var(--display)}
@@ -242,16 +256,38 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 </header>
 
 <main class="wrap">
-  <section class="bf" id="bf" hidden aria-label="Black Friday">
-    <div class="bf-text"><p class="bf-kicker">Black Friday PedeAi</p><p class="bf-head">O PedeAi chegou ao Vale do Araguaia, e com ele a <b>maior Black Friday da nossa história</b>.</p><p class="bf-title">Assine agora e trave a sua mensalidade: <b>se o PedeAi reajustar os preços, você não sofre com isso</b> e continua pagando o valor do seu plano até o fim dele.</p></div>
-    <div class="bf-clock" aria-live="off"><span class="bf-ends">Termina em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-t"><b data-s>00</b><small>seg</small></span></div>
+  <section class="hero" aria-labelledby="title">
+    <div class="hero-copy">
+      <p class="hero-kicker rv" style="--i:0" id="heroKicker">Só até 30 de novembro</p>
+      <h1 id="title">Black Friday para parceiros PedeAi</h1>
+      <p class="lede rv" style="--i:1" id="heroLede">O PedeAi chegou ao Vale do Araguaia, e com ele a <b>maior Black Friday da nossa história</b>. Sua loja com <b>zero comissão</b>: o cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp.</p>
+      <div class="hero-clock rv" style="--i:2" id="bf" hidden aria-live="off"><span class="bf-ends">A oferta termina em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-t"><b data-s>00</b><small>seg</small></span></div>
+      <a class="hero-cta rv" style="--i:3" href="#planos" id="heroCta">Ver planos com desconto</a>
+    </div>
+    <figure class="hero-fig rv" style="--i:2">
+      <img src="/planos/como-funciona-720.webp?v=2" srcset="/planos/como-funciona-720.webp?v=2 720w, /planos/como-funciona.webp?v=2 1254w" sizes="(max-width:760px) 92vw, 540px" width="1254" height="1254" fetchpriority="high" decoding="async" alt="Dois celulares: à esquerda, a página de uma loja no PedeAi com a oferta do dia e o cardápio; à direita, o pedido chegando pronto no WhatsApp da loja.">
+      <figcaption>À esquerda, a página da sua loja no PedeAi, com a oferta do dia em destaque. À direita, o pedido chegando pronto no seu WhatsApp.</figcaption>
+    </figure>
   </section>
 
-  <section class="head">
+  <section class="steps rv" style="--i:4" aria-labelledby="howTitle">
+    <p class="eyebrow">Como funciona</p>
+    <h2 id="howTitle">O cliente escolhe no PedeAi. O pedido cai pronto no seu WhatsApp.</h2>
+    <ol class="how-steps">
+      <li><b>O cliente encontra a sua loja</b><span>Cardápio completo, com fotos, preços e a sua oferta em destaque.</span></li>
+      <li><b>Monta o pedido em segundos</b><span>Sem baixar aplicativo e sem criar conta.</span></li>
+      <li><b>O pedido chega pronto no seu WhatsApp</b><span>Itens, total, endereço e forma de pagamento já escritos. Você confirma e entrega, sem comissão no meio.</span></li>
+    </ol>
+  </section>
+
+  <p class="proof rv" style="--i:6"><span><b>+350</b>estabelecimentos no PedeAi</span><span><b>10</b>cidades no Vale do Araguaia</span><span><b>0%</b>de comissão por pedido</span></p>
+
+
+  <section class="head" id="planos">
     <div>
-      <p class="eyebrow rv" style="--i:0">Planos para restaurantes</p>
-      <h1 id="title" aria-label="Seu restaurante no PedeAi">Seu restaurante no PedeAi</h1>
-      <p class="lede rv" style="--i:1"><b>Zero taxa de plataforma. Zero comissão.</b> Clientes chegando pelas nossas campanhas de tráfego pago e influenciadores, e o pedido cai direto no seu WhatsApp.</p>
+      <p class="eyebrow">Escolha seu plano</p>
+      <h2 class="head-title" id="plansTitle">Planos com preço de Black Friday</h2>
+      <p class="head-sub">Zero taxa de plataforma e zero comissão em todos. Clientes chegando pelas nossas campanhas de tráfego pago e influenciadores.</p>
     </div>
     <div class="switch rv" style="--i:2" role="radiogroup" aria-label="Forma de cobrança" id="switch">
       <span class="pill" aria-hidden="true"></span>
@@ -264,8 +300,6 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   <p class="guarantee rv" style="--i:2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><b>Seu preço está garantido.</b> Se o PedeAi reajustar as mensalidades, você continua pagando o valor do seu plano até o fim dele.</span></p>
 
   <section class="tray" id="plans" aria-label="Planos"></section>
-
-  <p class="proof rv" style="--i:6"><span><b>+350</b>estabelecimentos no PedeAi</span><span><b>10</b>cidades no Vale do Araguaia</span><span><b>0%</b>de comissão por pedido</span></p>
 
   <section class="calc rv" style="--i:6" aria-labelledby="calcTitle">
     <div>
@@ -282,24 +316,8 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
       <div class="calc-row calc-row--good"><span>Volta para o seu caixa</span><b id="calcYear">R$ 11.041/ano</b></div>
       <p class="calc-hook" id="calcHook">É como vender <b>1,4 mês a mais</b> de delivery por ano, sem fazer um pedido a mais.</p>
       <p class="calc-urg">Cada mês sem mudar custa <b id="calcMonth">R$ 920</b> para a sua loja.</p>
-      <a class="calc-cta" href="#plans">Quero comissão zero na minha loja</a>
+      <a class="calc-cta" href="#planos">Quero comissão zero na minha loja</a>
       <small>Cálculo ilustrativo: comissão de 12% sobre o valor vendido, sem contar taxas de pagamento online.</small>
-    </div>
-  </section>
-
-  <section class="how rv" style="--i:6" aria-labelledby="howTitle">
-    <figure class="how-fig">
-      <img src="/planos/como-funciona-720.webp?v=2" srcset="/planos/como-funciona-720.webp?v=2 720w, /planos/como-funciona.webp?v=2 1254w" sizes="(max-width:760px) 92vw, 520px" width="1254" height="1254" loading="lazy" decoding="async" alt="Dois celulares: à esquerda, a página de uma loja no PedeAi com a oferta do dia e o cardápio; à direita, o pedido chegando pronto no WhatsApp da loja.">
-      <figcaption>À esquerda, a página da sua loja no PedeAi, com a oferta do dia em destaque. À direita, o pedido chegando pronto no seu WhatsApp.</figcaption>
-    </figure>
-    <div class="how-copy">
-      <p class="eyebrow">Como funciona</p>
-      <h2 id="howTitle">O cliente escolhe no PedeAi. O pedido cai pronto no seu WhatsApp.</h2>
-      <ol class="how-steps">
-        <li><b>O cliente encontra a sua loja</b><span>Cardápio completo, com fotos, preços e a sua oferta em destaque.</span></li>
-        <li><b>Monta o pedido em segundos</b><span>Sem baixar aplicativo e sem criar conta.</span></li>
-        <li><b>O pedido chega pronto no seu WhatsApp</b><span>Itens, total, endereço e forma de pagamento já escritos. Você confirma e entrega, sem comissão no meio.</span></li>
-      </ol>
     </div>
   </section>
 
@@ -351,7 +369,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
 <div class="offerbar" id="offerbar" hidden role="region" aria-label="Oferta de Black Friday">
   <p><b>Black Friday:</b> <span class="ob-long">até <span id="obOff">36</span>% OFF no anual · acaba em</span><span class="ob-short">acaba em</span> <span class="clk" id="obClock">--</span></p>
-  <a href="#plans">Garantir meu desconto</a>
+  <a href="#planos">Garantir meu desconto</a>
 </div>
 
 <div class="exit" id="exit" hidden role="dialog" aria-modal="true" aria-labelledby="exitTitle">
@@ -500,6 +518,14 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
   /* Título com revelação palavra por palavra (vertical cut reveal). */
   var h1 = document.getElementById('title');
+  if (!promoOn()) {
+    h1.textContent = 'Seu restaurante no PedeAi, com zero comissão';
+    document.getElementById('heroKicker').textContent = 'Para restaurantes';
+    document.getElementById('heroLede').innerHTML = 'O cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp. <b>Zero taxa de plataforma e zero comissão</b>, com clientes chegando pelas nossas campanhas de tráfego pago e influenciadores.';
+    document.getElementById('heroCta').textContent = 'Ver planos';
+    document.getElementById('plansTitle').textContent = 'Escolha o plano da sua loja';
+  }
+  h1.setAttribute('aria-label', h1.textContent);
   h1.innerHTML = h1.textContent.split(' ').map(function (w, i) { return '<span class="w" aria-hidden="true"><span style="animation-delay:' + (i * 0.12) + 's">' + esc(w) + '</span></span>'; }).join(' ');
 
   /* Contagem regressiva da Black Friday (real: quando zera, a faixa some e os preços voltam ao normal). */

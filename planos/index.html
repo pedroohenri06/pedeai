@@ -104,6 +104,11 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .bf-t b{font:800 22px/1 var(--display);font-variant-numeric:tabular-nums}.bf-t small{font-size:10px;color:#d9b9bd;margin-top:3px}
 .anchor{display:flex;align-items:center;gap:8px;min-height:24px;margin-bottom:2px;font-size:14px;flex-wrap:wrap}
 .anchor s{color:var(--muted);font-weight:600}
+.anchor-lbl{font-size:12px;color:var(--muted)}
+.plan--pop .anchor-lbl{color:#c9a7ab}
+.guarantee{display:flex;gap:10px;align-items:flex-start;max-width:720px;margin:-10px 0 22px;padding:12px 16px;border-radius:14px;background:#e7f5ec;color:#145c33;font-size:14.5px}
+.guarantee svg{width:20px;height:20px;flex:none;margin-top:1px}
+.badge--alt{background:var(--ink)}
 .plan--pop .anchor s{color:#c9a7ab}
 .off{font-size:12px;font-weight:800;color:#fff;background:var(--ok);border-radius:99px;padding:2px 8px}
 .anchor .bfchip{font-size:11px;font-weight:800;color:#fff;background:#000;border-radius:99px;padding:2px 8px;letter-spacing:.04em}
@@ -167,21 +172,23 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     </div>
   </section>
 
+  <p class="guarantee rv" style="--i:2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><b>Seu preço está garantido.</b> Se o PedeAi reajustar as mensalidades, você continua pagando o valor do seu plano até o fim dele.</span></p>
+
   <section class="tray" id="plans" aria-label="Planos"></section>
 
   <section class="trust rv" style="--i:6" aria-label="Como funciona">
     <div><b>Nós montamos tudo</b><span>Cardápio, fotos, horários e página da loja são feitos pela nossa equipe.</span></div>
-    <div><b>Clientes chegando</b><span>Tráfego pago e influenciadores do PedeAi levam clientes para a plataforma com frequência.</span></div>
+    <div><b>Time de marketing a seu favor</b><span>Nossos gestores de tráfego e influenciadores enchem a plataforma de clientes, e eles chegam até a sua loja.</span></div>
     <div><b>Zero taxa de plataforma</b><span>Sem comissão por pedido: o valor de cada venda é 100% seu.</span></div>
-    <div><b>Preço congelado</b><span>No semestral e no anual, sua mensalidade não sobe enquanto o plano estiver ativo.</span></div>
+    <div><b>Preço garantido</b><span>Se o PedeAi reajustar as mensalidades, você continua pagando o preço do seu plano até o fim dele.</span></div>
   </section>
 </main>
 
 <section class="wrap amb rv" style="--i:7" aria-labelledby="ambTitle">
   <div class="amb-card">
     <div class="amb-copy"><p class="eyebrow">Programa Embaixador PedeAi</p><h2 id="ambTitle">Indique um restaurante e ganhe 1 mês grátis</h2>
-      <p>Conhece um restaurante na sua cidade que ainda não está no PedeAi? Indique. Quando ele assinar, <b>você ganha 1 mês grátis</b> no seu plano e <b>ele ganha 50% de desconto</b> na primeira mensalidade.</p></div>
-    <ol class="amb-steps"><li><b>1</b><span>Você indica pelo WhatsApp</span></li><li><b>2</b><span>A gente monta a loja dele</span></li><li><b>3</b><span>Ele assina e você ganha 1 mês</span></li></ol>
+      <p>Conhece um restaurante na sua cidade que ainda não está no PedeAi? Indique. <b>Quando ele assinar, você ganha 1 mês grátis:</b> paga uma mensalidade e a próxima sai de graça.</p></div>
+    <ol class="amb-steps"><li><b>1</b><span>Você indica pelo WhatsApp</span></li><li><b>2</b><span>A gente monta a loja dele</span></li><li><b>3</b><span>Ele assina: você paga uma e ganha a próxima</span></li></ol>
     <a class="cta cta--amb" target="_blank" rel="noopener" href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Quero%20ser%20Embaixador%20PedeAi%20e%20indicar%20um%20restaurante.">Quero indicar um restaurante</a>
   </div>
 </section>
@@ -199,16 +206,16 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     { id: 'essencial', name: 'Essencial', desc: 'Seu restaurante no PedeAi, com cardápio completo e clientes chegando.',
       price: { mensal: 54.90, semestral: 49.90, anual: 39.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Clientes das campanhas do PedeAi'], ['chat', 'Pedido pronto no seu WhatsApp']],
+      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Time de marketing trazendo clientes'], ['chat', 'Pedido pronto no seu WhatsApp']],
       includesTitle: 'O plano inclui:',
-      includes: ['Sem comissão: 100% de cada venda fica com você', 'Tráfego pago e influenciadores do PedeAi levando clientes para a plataforma com frequência', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'Link próprio do cardápio para a bio do Instagram e o status do WhatsApp', 'Aberto/Fechado, feriados, pausas e tempo de entrega automáticos', 'Cliente encontra sua loja pela busca por prato e por categoria', 'Até 2 atualizações de cardápio ou preço por mês'] },
+      includes: ['Sem comissão: 100% de cada venda fica com você', 'Time de marketing e gestores de tráfego do PedeAi enchendo a plataforma de clientes com tráfego pago e influenciadores', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'Link próprio do cardápio para a bio do Instagram e o status do WhatsApp', 'Aberto/Fechado, feriados, pausas e tempo de entrega automáticos', 'Cliente encontra sua loja pela busca por prato e por categoria', 'Até 2 atualizações de cardápio ou preço por mês'] },
     { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras e suas ofertas em evidência.', popular: true,
       price: { mensal: 74.90, semestral: 64.90, anual: 54.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
       highlights: [['star', 'Destaque na lista da cidade'], ['tag', 'Promoções com preço de/por'], ['refresh', 'Atualizações ilimitadas']],
       includesTitle: 'Tudo do Essencial, mais:',
       includes: ['Posição de destaque entre as primeiras lojas da sua cidade', 'Carrossel dos mais pedidos no topo do seu cardápio', 'Promoções com preço riscado (de R$ X por R$ Y) para atrair o cliente', 'Atualizações de cardápio, preço e promoção ilimitadas'] },
-    { id: 'premium', name: 'Premium', desc: 'Para ser a referência da sua cidade no delivery.',
+    { id: 'premium', name: 'Premium', badge: 'Mais completo', desc: 'Tudo o que o PedeAi oferece, para ser a referência da sua cidade no delivery.',
       price: { mensal: 99.90, semestral: 89.90, anual: 79.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
       highlights: [['banner', 'Banner na página inicial'], ['trophy', 'Topo da sua categoria'], ['camera', 'Fotos dos pratos tratadas']],
@@ -220,7 +227,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   /* Black Friday: preço promocional do anual até o fim do prazo (horário de Cuiabá). Depois disso a página volta
      sozinha ao preço normal. Para encerrar antes, use ativo: false. */
   var PROMO = { ativo: true, nome: 'Black Friday', fim: '2026-11-30T23:59:59-04:00',
-    anual: { essencial: 34.90, destaque: 47.90, premium: 69.90 },
+    anual: { essencial: 39.90, destaque: 47.90, premium: 69.90 },
     checkout: { essencial: '', destaque: '', premium: '' } };
   function promoOn() { return PROMO.ativo && Date.now() < Date.parse(PROMO.fim); }
   function priceOf(p, per) { return per === 'anual' && promoOn() && PROMO.anual[p.id] ? PROMO.anual[p.id] : p.price[per]; }
@@ -254,11 +261,11 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   var tray = document.getElementById('plans');
   tray.innerHTML = PLANS.map(function (p, i) {
     return '<article class="plan rv' + (p.popular ? ' plan--pop' : '') + '" style="--i:' + (i + 3) + '" data-plan="' + p.id + '">' +
-      (p.popular ? '<span class="badge">Mais escolhido</span>' : '') +
+      (p.popular ? '<span class="badge">Mais escolhido</span>' : p.badge ? '<span class="badge badge--alt">' + esc(p.badge) + '</span>' : '') +
       '<div class="anchor" data-anchor></div>' +
       '<div class="price" aria-live="polite"><span class="cur">R$</span><span class="num" data-num>' + brl(priceOf(p, period)) + '</span><span class="per">/mês</span></div>' +
       '<p class="billing" data-billing></p><p class="econ" data-econ></p>' +
-      '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço congelado enquanto ativo</span>' +
+      '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço garantido até o fim do plano</span>' +
       '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
       '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
       '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span><b>Bônus do anual:</b> sua loja pode ganhar uma campanha própria com influenciador</span></p>' +
@@ -286,7 +293,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       card.querySelector('[data-billing]').textContent = P.label + (promo ? ' · preço de ' + PROMO.nome : ''); // só o valor mensal
       // Ancoragem: no semestral/anual, o preço do mensal aparece riscado com o desconto e a economia no período.
       var off = Math.round((1 - to / p.price.mensal) * 100), saved = (p.price.mensal - to) * P.months;
-      card.querySelector('[data-anchor]').innerHTML = P.months === 1 ? '' : '<s>R$ ' + brl(p.price.mensal) + '</s><span class="off">-' + off + '%</span>' + (promo ? '<span class="bfchip">BLACK FRIDAY</span>' : '');
+      card.querySelector('[data-anchor]').innerHTML = P.months === 1 ? '' : '<span class="anchor-lbl">Preço normal</span><s>R$ ' + brl(p.price.mensal) + '</s><span class="off">-' + off + '%</span>' + (promo ? '<span class="bfchip">BLACK FRIDAY</span>' : '');
       card.querySelector('[data-econ]').textContent = P.months === 1 ? '' : 'Você economiza R$ ' + brl(saved) + (P.months === 12 ? ' por ano' : ' em 6 meses');
       // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
       card.querySelector('[data-lock]').hidden = P.months === 1;

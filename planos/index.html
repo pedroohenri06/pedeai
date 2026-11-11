@@ -92,6 +92,91 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .foot{padding:34px 0 48px;color:var(--muted);font-size:13.5px;text-align:center}
 .foot a{color:var(--wine);font-weight:700}
 
+/* Black Friday: faixa escura com contagem regressiva real (some sozinha quando o prazo acaba). */
+.bf{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:6px;padding:16px 20px;border-radius:20px;background:radial-gradient(120% 140% at 0% 0%,#3a0a10 0%,#120406 60%,#000 100%);color:#fff;box-shadow:0 18px 40px -18px rgba(0,0,0,.6);position:relative;overflow:hidden}
+.bf[hidden]{display:none}
+.bf::after{content:"";position:absolute;right:-40px;top:-60px;width:220px;height:220px;background:url("../assets/media-eec8624c4b7f.png") center/contain no-repeat;opacity:.07;transform:rotate(-12deg)}
+.bf-kicker{font:800 13px var(--display);letter-spacing:.2em;text-transform:uppercase;color:#ff4a55}
+.bf-title{font-size:16px;margin-top:4px;color:#f1dfe1}.bf-title b{color:#fff}
+.bf-clock{display:flex;align-items:center;gap:8px;position:relative;z-index:1}
+.bf-ends{font-size:12px;color:#d9b9bd;margin-right:4px}
+.bf-t{display:grid;justify-items:center;min-width:50px;padding:6px 4px;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}
+.bf-t b{font:800 22px/1 var(--display);font-variant-numeric:tabular-nums}.bf-t small{font-size:10px;color:#d9b9bd;margin-top:3px}
+.anchor{display:flex;align-items:center;gap:8px;min-height:24px;margin-bottom:2px;font-size:14px;flex-wrap:wrap}
+.anchor s{color:var(--muted);font-weight:600}
+.anchor-lbl{font-size:12px;color:var(--muted)}
+.plan--pop .anchor-lbl{color:#c9a7ab}
+.guarantee{display:flex;gap:10px;align-items:flex-start;max-width:720px;margin:-10px 0 22px;padding:12px 16px;border-radius:14px;background:#e7f5ec;color:#145c33;font-size:14.5px}
+.guarantee svg{width:20px;height:20px;flex:none;margin-top:1px}
+.badge--alt{background:var(--ink)}
+.plan--pop .anchor s{color:#c9a7ab}
+.off{font-size:12px;font-weight:800;color:#fff;background:var(--ok);border-radius:99px;padding:2px 8px}
+.anchor .bfchip{font-size:11px;font-weight:800;color:#fff;background:#000;border-radius:99px;padding:2px 8px;letter-spacing:.04em}
+.plan--pop .anchor .bfchip{background:#ff4a55}
+.econ{font-size:13px;font-weight:700;color:var(--ok);margin-top:2px;min-height:18px}
+.plan--pop .econ{color:#7fe0a6}
+.amb{margin-top:34px}
+.amb-card{display:grid;grid-template-columns:1.3fr 1fr;gap:20px 34px;align-items:center;padding:28px;border-radius:24px;background:linear-gradient(135deg,#fff 0%,#fbefe9 100%);border:1px solid var(--line)}
+.amb-card h2{font:800 clamp(24px,3.4vw,32px)/1.12 var(--display);letter-spacing:-.03em;text-wrap:balance}
+.amb-copy p:not(.eyebrow){color:var(--muted);margin-top:10px;font-size:15.5px}.amb-copy b{color:var(--ink)}
+.amb-steps{list-style:none;padding:0;display:grid;gap:10px}
+.amb-steps li{display:flex;align-items:center;gap:12px;font-weight:600;font-size:15px}
+.amb-steps b{width:32px;height:32px;flex:none;border-radius:10px;display:grid;place-items:center;background:var(--red);color:#fff;font-family:var(--display)}
+.cta--amb{grid-column:1/-1;margin-top:4px;background:linear-gradient(180deg,#ff4a55,#d0121f);box-shadow:0 14px 30px -10px rgba(229,27,43,.7),inset 0 1px 0 rgba(255,255,255,.3)}
+@media (max-width:760px){.amb-card{grid-template-columns:1fr;padding:22px}.bf{padding:14px 16px}.bf-t{min-width:44px}.bf-t b{font-size:19px}}
+
+
+/* Prova social logo abaixo dos planos */
+.proof{display:flex;flex-wrap:wrap;gap:10px 26px;justify-content:center;margin:22px 0 0;color:var(--muted);font-size:14.5px}
+.proof b{color:var(--ink);font-family:var(--display);font-size:18px;margin-right:4px}
+/* Calculadora de economia */
+.calc{margin-top:34px;display:grid;grid-template-columns:1.1fr 1fr;gap:22px 34px;align-items:center;padding:28px;border-radius:24px;background:radial-gradient(120% 140% at 0% 0%,#3a0a10 0%,#170507 70%);color:#fff}
+.calc h2{font:800 clamp(24px,3.4vw,32px)/1.12 var(--display);letter-spacing:-.03em;text-wrap:balance}
+.calc p{color:#e5c9cc;margin-top:8px;font-size:15px}
+.calc label{display:block;font-weight:700;font-size:14px;margin:18px 0 8px;color:#f1dfe1}
+.calc output{font:800 22px var(--display);color:#fff}
+.calc input[type=range]{width:100%;accent-color:#ff4a55;height:28px}
+.calc-res{display:grid;gap:10px}
+.calc-row{display:flex;justify-content:space-between;gap:12px;align-items:baseline;padding:12px 14px;border-radius:14px;background:rgba(255,255,255,.07)}
+.calc-row span{font-size:14px;color:#e5c9cc}.calc-row b{font:800 18px var(--display);font-variant-numeric:tabular-nums;white-space:nowrap}
+.calc-row--bad b{color:#ff8a92}.calc-row--good{background:rgba(92,201,139,.16)}.calc-row--good b{color:#7fe0a6;font-size:24px}
+.calc small{display:block;color:#c9a7ab;font-size:12px;margin-top:4px}
+/* Garantia */
+.guar7{margin-top:34px;display:flex;gap:18px;align-items:center;padding:22px 24px;border-radius:22px;background:var(--paper);border:1px solid var(--line)}
+.seal{width:72px;height:72px;flex:none;border-radius:50%;display:grid;place-items:center;text-align:center;background:var(--red);color:#fff;font:800 11px/1.1 var(--display);box-shadow:0 0 0 5px #fbe3e5}
+.seal b{display:block;font-size:24px}
+.guar7 h3{font:800 20px var(--display)}.guar7 p{color:var(--muted);font-size:14.5px;margin-top:4px}
+/* Perguntas */
+.faq{margin-top:34px}.faq h2{font:800 clamp(22px,3vw,28px) var(--display);margin-bottom:12px}
+.faq details{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:0 18px;margin-bottom:10px}
+.faq summary{cursor:pointer;list-style:none;padding:16px 0;font-weight:700;display:flex;justify-content:space-between;gap:12px}
+.faq summary::after{content:"+";font:700 22px/1 var(--display);color:var(--red)}
+.faq details[open] summary::after{content:"−"}
+.faq summary::-webkit-details-marker{display:none}
+.faq details p{color:var(--muted);padding:0 0 16px;font-size:15px}
+/* Barra fixa da oferta (contagem real até o fim da Black Friday) */
+.offerbar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:center;gap:12px 18px;flex-wrap:wrap;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(18,4,6,.96);color:#fff;backdrop-filter:blur(8px);transform:translateY(110%);transition:transform .35s ease}
+.offerbar.show{transform:none}
+.offerbar[hidden]{display:none}
+.offerbar p{font-size:14px}.offerbar p b{color:#ff4a55}
+.offerbar .clk{font:800 16px var(--display);font-variant-numeric:tabular-nums;letter-spacing:.02em}
+.offerbar a{height:40px;padding:0 16px;border-radius:12px;display:inline-flex;align-items:center;font:800 14px var(--display);color:#fff;text-decoration:none;background:linear-gradient(180deg,#ff4a55,#d0121f)}
+body.has-offerbar{padding-bottom:76px}
+/* Antes de sair */
+.exit{position:fixed;inset:0;z-index:40;display:grid;place-items:center;padding:16px;background:rgba(15,4,6,.6);backdrop-filter:blur(4px)}
+.exit[hidden]{display:none}
+.exit-card{width:min(100%,440px);border-radius:24px;background:var(--paper);padding:26px 24px 22px;text-align:center;box-shadow:0 30px 70px rgba(0,0,0,.4);animation:pop .35s cubic-bezier(.2,1.2,.4,1)}
+@keyframes pop{from{transform:scale(.92);opacity:0}}
+.exit-card .eyebrow{margin-bottom:6px}
+.exit-card h2{font:800 26px/1.15 var(--display);letter-spacing:-.02em}
+.exit-card p{color:var(--muted);margin-top:8px}
+.exit-card .exit-price{margin:14px 0 4px;font-family:var(--display);color:var(--ink)}.exit-card .exit-clock{color:var(--red)}.exit-card .cta{background:linear-gradient(180deg,#ff4a55,#d0121f);box-shadow:0 14px 30px -10px rgba(229,27,43,.7)}.exit-price s{color:var(--muted);font-weight:600;margin-right:8px}.exit-price b{font-size:34px;font-weight:800}
+.exit-clock{font:800 15px var(--display);color:var(--red);font-variant-numeric:tabular-nums}
+.exit-card .cta{margin-top:16px}
+.exit-leave{margin-top:10px;border:0;background:none;color:var(--muted);font:600 14px var(--body);text-decoration:underline;cursor:pointer;padding:8px}
+@media (max-width:760px){.calc{grid-template-columns:1fr;padding:22px}.guar7{flex-direction:column;text-align:center}.offerbar p{font-size:13px}.offerbar{gap:6px 12px}}
+@media (prefers-reduced-motion:reduce){.offerbar{transition:none}.exit-card{animation:none}}
+
 /* Entrada suave (blur + descida), em sequência. */
 .rv{opacity:0;filter:blur(10px);transform:translateY(-16px);transition:opacity .55s ease,filter .55s ease,transform .55s ease;transition-delay:calc(var(--i,0) * .12s)}
 .rv.in{opacity:1;filter:none;transform:none}
@@ -102,7 +187,6 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 @media (max-width:900px){
   .tray{grid-template-columns:1fr;padding:10px}
   .plan--pop,.plan--pop.rv.in{transform:none}
-  .plan--pop{order:-1}
   .trust{grid-template-columns:1fr}
   .desc{min-height:0}
 }
@@ -121,6 +205,11 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 </header>
 
 <main class="wrap">
+  <section class="bf" id="bf" hidden aria-label="Black Friday">
+    <div class="bf-text"><p class="bf-kicker">Black Friday PedeAi</p><p class="bf-title">O menor preço do ano no <b>plano anual</b>, com preço congelado por 12 meses.</p></div>
+    <div class="bf-clock" aria-live="off"><span class="bf-ends">Termina em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-t"><b data-s>00</b><small>seg</small></span></div>
+  </section>
+
   <section class="head">
     <div>
       <p class="eyebrow rv" style="--i:0">Planos para restaurantes</p>
@@ -129,24 +218,83 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     </div>
     <div class="switch rv" style="--i:2" role="radiogroup" aria-label="Forma de cobrança" id="switch">
       <span class="pill" aria-hidden="true"></span>
-      <button type="button" role="radio" aria-checked="true" data-period="mensal">Mensal</button>
+      <button type="button" role="radio" aria-checked="true" data-period="anual">Anual <span class="save" id="saveTag"></span></button>
       <button type="button" role="radio" aria-checked="false" data-period="semestral">Semestral</button>
-      <button type="button" role="radio" aria-checked="false" data-period="anual">Anual <span class="save" id="saveTag"></span></button>
+      <button type="button" role="radio" aria-checked="false" data-period="mensal">Mensal</button>
     </div>
   </section>
 
+  <p class="guarantee rv" style="--i:2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><b>Seu preço está garantido.</b> Se o PedeAi reajustar as mensalidades, você continua pagando o valor do seu plano até o fim dele.</span></p>
+
   <section class="tray" id="plans" aria-label="Planos"></section>
+
+  <p class="proof rv" style="--i:6"><span><b data-stores>342</b>estabelecimentos já no PedeAi</span><span><b>10</b>cidades no Vale do Araguaia</span><span><b>0%</b>de comissão por pedido</span></p>
+
+  <section class="calc rv" style="--i:6" aria-labelledby="calcTitle">
+    <div>
+      <p class="eyebrow" style="color:#ff6b75">Faça a conta</p>
+      <h2 id="calcTitle">Quanto a comissão está levando da sua loja?</h2>
+      <p>Apps de delivery costumam cobrar a partir de 12% de comissão por pedido. No PedeAi, a comissão é zero e você paga só o plano.</p>
+      <label for="calcSales">Quanto você vende por delivery em um mês: <output id="calcSalesOut">R$ 8.000</output></label>
+      <input type="range" id="calcSales" min="1000" max="60000" step="500" value="8000">
+    </div>
+    <div class="calc-res" aria-live="polite">
+      <div class="calc-row calc-row--bad"><span>Com 12% de comissão, você pagaria</span><b id="calcFee">R$ 960,00/mês</b></div>
+      <div class="calc-row"><span>No PedeAi (Essencial anual)</span><b id="calcPlan">R$ 39,90/mês</b></div>
+      <div class="calc-row calc-row--good"><span>Fica no seu bolso por ano</span><b id="calcYear">R$ 11.041,20</b></div>
+      <small>Cálculo ilustrativo: comissão de 12% sobre o valor vendido, sem contar taxas de pagamento online.</small>
+    </div>
+  </section>
+
+  <section class="guar7 rv" style="--i:6" aria-label="Garantia">
+    <span class="seal" aria-hidden="true"><span><b>7</b>DIAS</span></span>
+    <div><h3>Garantia de 7 dias</h3><p>Assinou e não gostou? Em até 7 dias da contratação você pede o cancelamento e devolvemos 100% do valor, sem burocracia.</p></div>
+  </section>
 
   <section class="trust rv" style="--i:6" aria-label="Como funciona">
     <div><b>Nós montamos tudo</b><span>Cardápio, fotos, horários e página da loja são feitos pela nossa equipe.</span></div>
-    <div><b>Clientes chegando</b><span>Tráfego pago e influenciadores do PedeAi levam clientes para a plataforma com frequência.</span></div>
+    <div><b>Time de marketing a seu favor</b><span>Nossos gestores de tráfego e influenciadores enchem a plataforma de clientes, e eles chegam até a sua loja.</span></div>
     <div><b>Zero taxa de plataforma</b><span>Sem comissão por pedido: o valor de cada venda é 100% seu.</span></div>
-    <div><b>Preço congelado</b><span>No semestral e no anual, sua mensalidade não sobe enquanto o plano estiver ativo.</span></div>
+    <div><b>Preço garantido</b><span>Se o PedeAi reajustar as mensalidades, você continua pagando o preço do seu plano até o fim dele.</span></div>
   </section>
 </main>
 
+<section class="wrap amb rv" style="--i:7" aria-labelledby="ambTitle">
+  <div class="amb-card">
+    <div class="amb-copy"><p class="eyebrow">Programa Embaixador PedeAi</p><h2 id="ambTitle">Indique um restaurante e ganhe 1 mês grátis</h2>
+      <p>Conhece um restaurante na sua cidade que ainda não está no PedeAi? Indique. <b>Quando ele assinar, você ganha 1 mês grátis:</b> paga uma mensalidade e a próxima sai de graça.</p></div>
+    <ol class="amb-steps"><li><b>1</b><span>Você indica pelo WhatsApp</span></li><li><b>2</b><span>A gente monta a loja dele</span></li><li><b>3</b><span>Ele assina: você paga uma e ganha a próxima</span></li></ol>
+    <a class="cta cta--amb" target="_blank" rel="noopener" href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Quero%20ser%20Embaixador%20PedeAi%20e%20indicar%20um%20restaurante.">Quero indicar um restaurante</a>
+  </div>
+</section>
+
+<section class="wrap faq rv" style="--i:8" aria-labelledby="faqTitle">
+  <h2 id="faqTitle">Perguntas frequentes</h2>
+  <details><summary>Preciso pagar alguma comissão por pedido?</summary><p>Não. O PedeAi não cobra taxa de plataforma nem comissão. Você paga só o plano, e o valor de cada venda é 100% seu.</p></details>
+  <details><summary>Quem monta o meu cardápio?</summary><p>A nossa equipe. Você manda o cardápio (foto, PDF ou link) e a gente monta tudo: itens, preços, tamanhos, adicionais, fotos tratadas, horário e página da loja com a sua marca.</p></details>
+  <details><summary>Como o cliente faz o pedido?</summary><p>Ele escolhe os itens no PedeAi, sem baixar aplicativo e sem criar conta, e o pedido chega pronto no seu WhatsApp: itens, adicionais, total, endereço e forma de pagamento.</p></details>
+  <details><summary>E se o PedeAi aumentar o preço?</summary><p>Seu preço está garantido. Se o PedeAi reajustar as mensalidades, você continua pagando o valor do seu plano até o fim dele.</p></details>
+  <details><summary>Posso cancelar?</summary><p>Sim. Em até 7 dias da contratação devolvemos 100% do valor. Depois disso, o plano segue até o fim do período contratado.</p></details>
+</section>
+
 <footer class="wrap foot">Dúvidas? Fale com a nossa equipe comercial: <a href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20os%20planos%20do%20PedeAi." target="_blank" rel="noopener">+55 12 93629-0045</a></footer>
 
+<div class="offerbar" id="offerbar" hidden role="region" aria-label="Oferta de Black Friday">
+  <p><b>Black Friday:</b> até <span id="obOff">36</span>% OFF no anual · acaba em <span class="clk" id="obClock">--</span></p>
+  <a href="#plans">Garantir meu desconto</a>
+</div>
+
+<div class="exit" id="exit" hidden role="dialog" aria-modal="true" aria-labelledby="exitTitle">
+  <div class="exit-card">
+    <p class="eyebrow">Antes de sair</p>
+    <h2 id="exitTitle">Seu desconto de Black Friday ainda está aqui</h2>
+    <p>Plano Essencial anual com preço garantido até o fim do plano e zero comissão por pedido.</p>
+    <p class="exit-price"><s id="exitFrom">R$ 54,90</s><b id="exitTo">R$ 39,90</b>/mês</p>
+    <p class="exit-clock" id="exitClock"></p>
+    <a class="cta" id="exitCta" target="_blank" rel="noopener" href="#">Quero garantir esse preço</a>
+    <button class="exit-leave" type="button" id="exitLeave">Sair mesmo assim</button>
+  </div>
+</div>
 <script>
 (function () {
   'use strict';
@@ -158,16 +306,16 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     { id: 'essencial', name: 'Essencial', desc: 'Seu restaurante no PedeAi, com cardápio completo e clientes chegando.',
       price: { mensal: 54.90, semestral: 49.90, anual: 39.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Clientes das campanhas do PedeAi'], ['chat', 'Pedido pronto no seu WhatsApp']],
+      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Time de marketing trazendo clientes'], ['chat', 'Pedido pronto no seu WhatsApp']],
       includesTitle: 'O plano inclui:',
-      includes: ['Sem comissão: 100% de cada venda fica com você', 'Tráfego pago e influenciadores do PedeAi levando clientes para a plataforma com frequência', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'Link próprio do cardápio para a bio do Instagram e o status do WhatsApp', 'Aberto/Fechado, feriados, pausas e tempo de entrega automáticos', 'Cliente encontra sua loja pela busca por prato e por categoria', 'Até 2 atualizações de cardápio ou preço por mês'] },
+      includes: ['Sem comissão: 100% de cada venda fica com você', 'Time de marketing e gestores de tráfego do PedeAi enchendo a plataforma de clientes com tráfego pago e influenciadores', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'Link próprio do cardápio para a bio do Instagram e o status do WhatsApp', 'Aberto/Fechado, feriados, pausas e tempo de entrega automáticos', 'Cliente encontra sua loja pela busca por prato e por categoria', 'Até 2 atualizações de cardápio ou preço por mês'] },
     { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras e suas ofertas em evidência.', popular: true,
       price: { mensal: 74.90, semestral: 64.90, anual: 54.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
       highlights: [['star', 'Destaque na lista da cidade'], ['tag', 'Promoções com preço de/por'], ['refresh', 'Atualizações ilimitadas']],
       includesTitle: 'Tudo do Essencial, mais:',
       includes: ['Posição de destaque entre as primeiras lojas da sua cidade', 'Carrossel dos mais pedidos no topo do seu cardápio', 'Promoções com preço riscado (de R$ X por R$ Y) para atrair o cliente', 'Atualizações de cardápio, preço e promoção ilimitadas'] },
-    { id: 'premium', name: 'Premium', desc: 'Para ser a referência da sua cidade no delivery.',
+    { id: 'premium', name: 'Premium', badge: 'Mais completo', desc: 'Tudo o que o PedeAi oferece, para ser a referência da sua cidade no delivery.',
       price: { mensal: 99.90, semestral: 89.90, anual: 79.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
       highlights: [['banner', 'Banner na página inicial'], ['trophy', 'Topo da sua categoria'], ['camera', 'Fotos dos pratos tratadas']],
@@ -175,6 +323,14 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       includes: ['Banner da sua loja na faixa de campanhas da cidade', 'Primeira loja da sua categoria (ex.: a primeira em Hambúrguer)', 'Tratamento profissional das fotos dos pratos', 'Atendimento prioritário pelo WhatsApp'] }
   ];
   var WHATS = '5512936290045';
+
+  /* Black Friday: preço promocional do anual até o fim do prazo (horário de Cuiabá). Depois disso a página volta
+     sozinha ao preço normal. Para encerrar antes, use ativo: false. */
+  var PROMO = { ativo: true, nome: 'Black Friday', fim: '2026-11-30T23:59:59-04:00',
+    anual: { essencial: 39.90, destaque: 47.90, premium: 69.90 },
+    checkout: { essencial: '', destaque: '', premium: '' } };
+  function promoOn() { return PROMO.ativo && Date.now() < Date.parse(PROMO.fim); }
+  function priceOf(p, per) { return per === 'anual' && promoOn() && PROMO.anual[p.id] ? PROMO.anual[p.id] : p.price[per]; }
 
   var ICONS = {
     store: '<path d="M3 9l1.5-5h15L21 9M3 9h18M3 9v11h18V9M9 20v-6h6v6"/>',
@@ -195,20 +351,21 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   var brl = function (v) { return v.toFixed(2).replace('.', ','); };
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  var period = 'mensal';
+  var period = 'anual'; // abre sempre no menor preço
   try { var saved = sessionStorage.getItem('pedeai-plano-periodo'); if (PERIODS[saved]) period = saved; } catch (e) {}
 
   /* Selo "Economize até X%" do anual, calculado contra o mensal. */
-  var maxSave = Math.max.apply(null, PLANS.map(function (p) { return Math.round((1 - p.price.anual / p.price.mensal) * 100); }));
+  var maxSave = Math.max.apply(null, PLANS.map(function (p) { return Math.round((1 - priceOf(p, 'anual') / p.price.mensal) * 100); }));
   document.getElementById('saveTag').textContent = '-' + maxSave + '%';
 
   var tray = document.getElementById('plans');
   tray.innerHTML = PLANS.map(function (p, i) {
     return '<article class="plan rv' + (p.popular ? ' plan--pop' : '') + '" style="--i:' + (i + 3) + '" data-plan="' + p.id + '">' +
-      (p.popular ? '<span class="badge">Mais escolhido</span>' : '') +
-      '<div class="price" aria-live="polite"><span class="cur">R$</span><span class="num" data-num>' + brl(p.price[period]) + '</span><span class="per">/mês</span></div>' +
-      '<p class="billing" data-billing></p>' +
-      '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço congelado enquanto ativo</span>' +
+      (p.popular ? '<span class="badge">Mais escolhido</span>' : p.badge ? '<span class="badge badge--alt">' + esc(p.badge) + '</span>' : '') +
+      '<div class="anchor" data-anchor></div>' +
+      '<div class="price" aria-live="polite"><span class="cur">R$</span><span class="num" data-num>' + brl(priceOf(p, period)) + '</span><span class="per">/mês</span></div>' +
+      '<p class="billing" data-billing></p><p class="econ" data-econ></p>' +
+      '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço garantido até o fim do plano</span>' +
       '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
       '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
       '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span><b>Bônus do anual:</b> sua loja pode ganhar uma campanha própria com influenciador</span></p>' +
@@ -231,15 +388,19 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     var P = PERIODS[period];
     PLANS.forEach(function (p) {
       var card = tray.querySelector('[data-plan="' + p.id + '"]'), num = card.querySelector('[data-num]');
-      var from = parseFloat(num.textContent.replace(',', '.')), to = p.price[period];
+      var from = parseFloat(num.textContent.replace(',', '.')), to = priceOf(p, period), promo = period === 'anual' && promoOn();
       animate ? animateNum(num, from, to) : (num.textContent = brl(to));
-      card.querySelector('[data-billing]').textContent = P.label; // só o valor mensal é exibido, sem total do período
+      card.querySelector('[data-billing]').textContent = P.label + (promo ? ' · preço de ' + PROMO.nome : ''); // só o valor mensal
+      // Ancoragem: no semestral/anual, o preço do mensal aparece riscado com o desconto e a economia no período.
+      var off = Math.round((1 - to / p.price.mensal) * 100), saved = (p.price.mensal - to) * P.months;
+      card.querySelector('[data-anchor]').innerHTML = P.months === 1 ? '' : '<span class="anchor-lbl">Preço normal</span><s>R$ ' + brl(p.price.mensal) + '</s><span class="off">-' + off + '%</span>' + (promo ? '<span class="bfchip">BLACK FRIDAY</span>' : '');
+      card.querySelector('[data-econ]').textContent = P.months === 1 ? '' : 'Você economiza R$ ' + brl(saved) + (P.months === 12 ? ' por ano' : ' em 6 meses');
       // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
       card.querySelector('[data-lock]').hidden = P.months === 1;
       // Campanhas com influenciadores são esporádicas e só entram como bônus do plano anual.
       card.querySelector('[data-bonus]').hidden = period !== 'anual';
-      var cta = card.querySelector('[data-cta]'), link = p.checkout[period];
-      cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + ') do PedeAi Delivery.');
+      var cta = card.querySelector('[data-cta]'), link = promo ? PROMO.checkout[p.id] : p.checkout[period];
+      cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + (promo ? ', ' + PROMO.nome : '') + ') do PedeAi Delivery.');
     });
     var btns = document.querySelectorAll('#switch button'), pill = document.querySelector('#switch .pill');
     btns.forEach(function (b) { b.setAttribute('aria-checked', String(b.dataset.period === period)); b.tabIndex = b.dataset.period === period ? 0 : -1; });
@@ -268,6 +429,84 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   /* Título com revelação palavra por palavra (vertical cut reveal). */
   var h1 = document.getElementById('title');
   h1.innerHTML = h1.textContent.split(' ').map(function (w, i) { return '<span class="w" aria-hidden="true"><span style="animation-delay:' + (i * 0.12) + 's">' + esc(w) + '</span></span>'; }).join(' ');
+
+  /* Contagem regressiva da Black Friday (real: quando zera, a faixa some e os preços voltam ao normal). */
+  var bf = document.getElementById('bf');
+  function tick() {
+    var left = Date.parse(PROMO.fim) - Date.now();
+    if (!PROMO.ativo || left <= 0) { if (!bf.hidden) { bf.hidden = true; update(false); } return; }
+    bf.hidden = false;
+    var s2 = Math.floor(left / 1000), two = function (n) { return (n < 10 ? '0' : '') + n; };
+    bf.querySelector('[data-d]').textContent = two(Math.floor(s2 / 86400));
+    bf.querySelector('[data-h]').textContent = two(Math.floor(s2 % 86400 / 3600));
+    bf.querySelector('[data-m]').textContent = two(Math.floor(s2 % 3600 / 60));
+    bf.querySelector('[data-s]').textContent = two(s2 % 60);
+  }
+  tick(); setInterval(tick, 1000);
+
+  /* ---- Prova social: número real de estabelecimentos, quando disponível ---- */
+  // (fixo na página; atualizar quando o cadastro crescer)
+
+  /* ---- Calculadora de economia (comissão de 12% x plano Essencial anual) ---- */
+  var cs = document.getElementById('calcSales');
+  var money = function (v) { return 'R$ ' + v.toFixed(2).replace('.', ',').replace(/\B(?=(\d{3})+(?!\d))/g, '.'); };
+  function calc() {
+    var v = +cs.value, ess = PLANS[0], plan = priceOf(ess, 'anual'), fee = v * 0.12;
+    document.getElementById('calcSalesOut').textContent = money(v).replace(',00', '');
+    document.getElementById('calcFee').textContent = money(fee) + '/mês';
+    document.getElementById('calcPlan').textContent = money(plan) + '/mês';
+    document.getElementById('calcYear').textContent = money(Math.max(0, (fee - plan) * 12));
+  }
+  cs.addEventListener('input', calc); calc();
+
+  /* ---- Barra fixa da oferta: contagem real até o fim da Black Friday ---- */
+  var ob = document.getElementById('offerbar');
+  document.getElementById('obOff').textContent = String(maxSave);
+  function clockText(ms) {
+    var t = Math.max(0, Math.floor(ms / 1000)), d = Math.floor(t / 86400), h = Math.floor(t % 86400 / 3600), m = Math.floor(t % 3600 / 60), sec = t % 60;
+    var two = function (n) { return (n < 10 ? '0' : '') + n; };
+    return (d ? d + 'd ' : '') + two(h) + 'h ' + two(m) + 'min ' + two(sec) + 's';
+  }
+  function obTick() {
+    var left = Date.parse(PROMO.fim) - Date.now(), on = promoOn();
+    ob.hidden = !on; document.body.classList.toggle('has-offerbar', on);
+    if (!on) return;
+    var txt = clockText(left);
+    document.getElementById('obClock').textContent = txt;
+    document.getElementById('exitClock').textContent = 'Acaba em ' + txt;
+  }
+  obTick(); setInterval(obTick, 1000);
+  // A barra aparece depois que a pessoa passa do topo (não cobre o título).
+  addEventListener('scroll', function () { ob.classList.toggle('show', scrollY > 420); }, { passive: true });
+
+  /* ---- Antes de sair: na primeira vez que a pessoa aperta "voltar", mostra a oferta uma única vez.
+     "Sair" leva para onde ela ia; não prende ninguém na página. A entrada no histórico só é criada depois de
+     um toque/clique real (o Chrome ignora entradas criadas sem interação). ---- */
+  var exitBox = document.getElementById('exit'), guarded = false, shown = false;
+  try { shown = sessionStorage.getItem('pedeai-plano-saida') === '1'; } catch (e) {}
+  function arm() {
+    if (guarded || shown || !promoOn()) return;
+    guarded = true;
+    try { history.pushState({ pedeaiExit: true }, '', location.href); } catch (e) {}
+  }
+  ['pointerdown', 'keydown', 'touchstart'].forEach(function (ev) { addEventListener(ev, arm, { once: true, passive: true }); });
+  function openExit() {
+    shown = true;
+    try { sessionStorage.setItem('pedeai-plano-saida', '1'); } catch (e) {}
+    var ess = PLANS[0];
+    document.getElementById('exitFrom').textContent = 'R$ ' + brl(ess.price.mensal);
+    document.getElementById('exitTo').textContent = 'R$ ' + brl(priceOf(ess, 'anual'));
+    document.getElementById('exitCta').href = PROMO.checkout[ess.id] || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero garantir o plano Essencial anual com o preço de Black Friday do PedeAi.');
+    exitBox.hidden = false;
+    document.getElementById('exitCta').focus({ preventScroll: true });
+  }
+  addEventListener('popstate', function () {
+    if (guarded && !shown && exitBox.hidden) { openExit(); return; }
+  });
+  document.getElementById('exitLeave').onclick = function () { exitBox.hidden = true; history.back(); };
+  exitBox.addEventListener('click', function (e) { if (e.target === exitBox) exitBox.hidden = true; });
+  addEventListener('keydown', function (e) { if (e.key === 'Escape' && !exitBox.hidden) exitBox.hidden = true; });
+
 
   update(false);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { update(false); });

@@ -299,6 +299,18 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 .wa-card-cta:hover{background:#178a49}
 .wa-card-ico{width:22px;height:22px;flex:none}
 @media (prefers-reduced-motion:reduce){.wa-card{animation:none}}
+
+/* Seção de planos centralizada e em destaque */
+.head{flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:22px;margin-top:40px;padding:34px 0 22px;position:relative}
+.head::before{content:"";position:absolute;left:50%;top:0;width:64px;height:4px;border-radius:4px;background:var(--red);transform:translateX(-50%)}
+.head>div:first-child{display:flex;flex-direction:column;align-items:center}
+.head-pill{display:inline-flex;align-items:center;gap:8px;padding:7px 14px;border-radius:99px;background:rgba(229,27,43,.1);color:var(--red);font:800 12px var(--display);letter-spacing:.16em;text-transform:uppercase;margin-bottom:14px}
+.head-pill::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 0 4px rgba(229,27,43,.2)}
+.head-title{font-size:clamp(30px,6.4vw,46px);max-width:16ch;margin:0 auto}
+.head-title span{color:var(--red)}
+.head-sub{margin:12px auto 0;max-width:46ch}
+.head .switch{margin:0 auto}
+.guarantee{margin:-4px auto 24px}
 </style>
 </head>
 <body>
@@ -337,8 +349,8 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
   <section class="head" id="planos">
     <div>
-      <p class="eyebrow">Escolha seu plano</p>
-      <h2 class="head-title" id="plansTitle">Planos com preço de Black Friday</h2>
+      <p class="head-pill">Escolha seu plano</p>
+      <h2 class="head-title" id="plansTitle">Planos com preço de <span>Black Friday</span></h2>
       <p class="head-sub" id="headSub">No plano anual, até <b class="head-off">36% de desconto</b> e preço travado até o fim do plano. Zero taxa de plataforma e zero comissão em todos.</p>
     </div>
     <div class="switch rv" style="--i:2" role="radiogroup" aria-label="Forma de cobrança" id="switch">
@@ -593,7 +605,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
     document.getElementById('heroKicker').textContent = 'Para restaurantes';
     document.getElementById('heroLede').innerHTML = 'O cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp. <b>Zero taxa de plataforma e zero comissão</b>, com clientes chegando pelas nossas campanhas de tráfego pago e influenciadores.';
     document.getElementById('heroCta').textContent = 'Ver planos';
-    document.getElementById('plansTitle').textContent = 'Escolha o plano da sua loja';
+    document.getElementById('plansTitle').innerHTML = 'Escolha o plano da <span>sua loja</span>';
   }
   h1.setAttribute('aria-label', h1.textContent);
   h1.innerHTML = h1.textContent.split(' ').map(function (w, i) { return '<span class="w" aria-hidden="true"><span style="animation-delay:' + (i * 0.12) + 's">' + esc(w) + '</span></span>'; }).join(' ');

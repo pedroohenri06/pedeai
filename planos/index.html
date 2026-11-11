@@ -281,6 +281,24 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   .switch button{gap:4px}
   .head{padding-top:24px}
 }
+
+/* Card do time comercial: abre ao tocar no ícone do WhatsApp */
+.wa-float{border:0;cursor:pointer;font:inherit;text-align:left}
+.wa-card{position:fixed;right:max(16px,env(safe-area-inset-right));bottom:96px;z-index:22;width:min(340px,calc(100vw - 32px));padding:18px;border-radius:22px;background:var(--paper);border:1px solid var(--line);box-shadow:0 24px 60px -12px rgba(30,4,8,.45);transform-origin:bottom right;animation:waIn .22s ease-out}
+.wa-card[hidden]{display:none}
+@keyframes waIn{from{opacity:0;transform:translateY(10px) scale(.96)}to{opacity:1;transform:none}}
+.wa-card-x{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;border-radius:50%;background:transparent;color:var(--muted);font:400 26px/1 var(--display);cursor:pointer}
+.wa-card-x:hover{background:rgba(0,0,0,.05)}
+.wa-card-head{display:flex;align-items:center;gap:10px;padding-right:30px}
+.wa-card-av{width:42px;height:42px;flex:none;border-radius:13px;background:var(--red) url("/assets/media-eec8624c4b7f.png") center/28px no-repeat;position:relative}
+.wa-card-av::after{content:"";position:absolute;right:-3px;bottom:-3px;width:14px;height:14px;border-radius:50%;background:#25d366;border:3px solid var(--paper)}
+.wa-card-head b{display:block;font:800 15px var(--display)}.wa-card-head small{display:block;font-size:12.5px;color:var(--muted)}
+.wa-card-title{font:800 21px/1.2 var(--display);letter-spacing:-.02em;margin-top:14px}
+.wa-card-text{color:var(--muted);font-size:15px;margin-top:6px;line-height:1.45}.wa-card-text b{color:var(--ink)}
+.wa-card-cta{display:flex;align-items:center;justify-content:center;gap:10px;min-height:50px;margin-top:16px;border-radius:14px;background:#1f9d55;color:#fff;font:800 16px var(--display);text-decoration:none;box-shadow:0 12px 26px -12px rgba(31,157,85,.9)}
+.wa-card-cta:hover{background:#178a49}
+.wa-card-ico{width:22px;height:22px;flex:none}
+@media (prefers-reduced-motion:reduce){.wa-card{animation:none}}
 </style>
 </head>
 <body>
@@ -406,10 +424,17 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
 <footer class="wrap foot">Dúvidas? Fale com a nossa equipe comercial: <a href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20os%20planos%20do%20PedeAi." target="_blank" rel="noopener">+55 12 93629-0045</a></footer>
 
-<a class="wa-float" id="waFloat" target="_blank" rel="noopener" href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Qual%20plano%20do%20PedeAi%20%C3%A9%20melhor%20para%20a%20minha%20loja%3F" aria-label="Qual plano é melhor para a minha loja? Fale com o time comercial no WhatsApp">
+<button type="button" class="wa-float" id="waFloat" aria-expanded="false" aria-controls="waCard" aria-label="Dúvida sobre qual plano escolher? Fale com o time comercial">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
   <span><b>Qual plano é melhor para minha loja?</b><small>Fale com o time comercial</small></span>
-</a>
+</button>
+<div class="wa-card" id="waCard" role="dialog" aria-modal="false" aria-labelledby="waCardTitle" hidden>
+  <button type="button" class="wa-card-x" id="waCardX" aria-label="Fechar">×</button>
+  <div class="wa-card-head"><span class="wa-card-av" aria-hidden="true"></span><span><b>Time comercial PedeAi</b><small>Atendimento pelo WhatsApp</small></span></div>
+  <p class="wa-card-title" id="waCardTitle">Em dúvida sobre qual plano escolher?</p>
+  <p class="wa-card-text">Conta pra gente como é o seu restaurante e a gente indica o plano certo para o seu movimento, <b>sem compromisso</b>.</p>
+  <a class="wa-card-cta" id="waCardCta" target="_blank" rel="noopener" href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20um%20restaurante%20e%20estou%20em%20d%C3%BAvida%20sobre%20qual%20plano%20do%20PedeAi%20escolher.%20Pode%20me%20ajudar%3F"><svg viewBox="0 0 24 24" aria-hidden="true" class="wa-card-ico"><path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>Pedir ajuda no WhatsApp</a>
+</div>
 
 <div class="offerbar" id="offerbar" hidden role="region" aria-label="Oferta de Black Friday">
   <p><b>Black Friday:</b> <span class="ob-long">até <span id="obOff">36</span>% OFF no anual · acaba em</span><span class="ob-short">acaba em</span> <span class="clk" id="obClock">--</span></p>
@@ -628,6 +653,21 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   // A barra aparece depois que a pessoa passa do topo (não cobre o título).
   var waF = document.getElementById('waFloat');
   addEventListener('scroll', function () { var on = scrollY > 420; ob.classList.toggle('show', on); waF.classList.toggle('lift', on); }, { passive: true });
+
+  /* Card do time comercial: o ícone abre o card; o botão do card abre o WhatsApp. */
+  var waCard = document.getElementById('waCard');
+  function placeCard() { waCard.style.bottom = (innerHeight - waF.getBoundingClientRect().top + 12) + 'px'; }
+  function setCard(open) {
+    waCard.hidden = !open; waF.setAttribute('aria-expanded', String(open));
+    if (open) { placeCard(); document.getElementById('waCardCta').focus({ preventScroll: true }); }
+  }
+  waF.addEventListener('click', function (e) { e.stopPropagation(); setCard(waCard.hidden); });
+  document.getElementById('waCardX').addEventListener('click', function () { setCard(false); waF.focus(); });
+  document.getElementById('waCardCta').addEventListener('click', function () { setTimeout(function () { setCard(false); }, 300); });
+  document.addEventListener('click', function (e) { if (!waCard.hidden && !waCard.contains(e.target)) setCard(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !waCard.hidden) { setCard(false); waF.focus(); } });
+  addEventListener('scroll', function () { if (!waCard.hidden) placeCard(); }, { passive: true });
+  addEventListener('resize', function () { if (!waCard.hidden) placeCard(); });
 
   /* ---- Antes de sair: na primeira vez que a pessoa aperta "voltar", mostra a oferta uma única vez.
      "Sair" leva para onde ela ia; não prende ninguém na página. A entrada no histórico só é criada depois de

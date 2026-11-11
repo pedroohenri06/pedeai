@@ -312,7 +312,8 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
 /* Prova social: faixa de números lado a lado */
 .proof{margin:28px 0 0;text-align:center}
-.proof-lead{font:800 clamp(20px,5vw,24px)/1.2 var(--display);letter-spacing:-.02em;color:var(--ink);margin:0 auto 14px}
+.proof-lead{font:800 clamp(24px,6vw,34px)/1.12 var(--display);letter-spacing:-.03em;color:var(--ink);margin:0 auto;max-width:20ch;text-wrap:balance}.proof-lead span{color:var(--red)}
+.proof-sub{color:var(--muted);font-size:16px;line-height:1.5;max-width:44ch;margin:12px auto 18px;text-wrap:pretty}.proof-sub b{color:var(--ink)}
 .proof-lead b{color:var(--ink)}
 .proof-stats{list-style:none;padding:0;margin:0 auto;max-width:720px;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));background:var(--paper);border:1px solid var(--line);border-radius:22px;box-shadow:0 14px 34px -22px rgba(51,8,14,.35)}
 .proof-stats li{padding:18px 8px;display:grid;justify-items:center;align-content:start;gap:6px}
@@ -355,7 +356,8 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   </section>
 
   <section class="proof rv" style="--i:6" aria-label="O PedeAi em números">
-    <p class="proof-lead">Você não começa do zero.</p>
+    <h2 class="proof-lead">Sua loja online, pronta para ser vista por <span>milhares de clientes</span>.</h2>
+    <p class="proof-sub">O PedeAi reúne os restaurantes do Vale do Araguaia numa só plataforma, e o nosso time de marketing leva o público até lá. <b>Quem procura onde pedir, encontra você.</b></p>
     <ul class="proof-stats">
       <li><b><i>+</i>350</b><span>lojas já no PedeAi</span></li>
       <li><b>10</b><span>cidades do Vale do Araguaia</span></li>

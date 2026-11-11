@@ -85,6 +85,15 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .cta:hover{transform:translateY(-2px)}
 .cta:focus-visible{outline:3px solid var(--red);outline-offset:3px}
 
+.how{margin-top:34px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:center}
+.how-fig{margin:0}.how-fig img{display:block;width:100%;height:auto;border-radius:24px}
+.how-fig figcaption{margin-top:10px;font-size:13px;color:var(--muted,#6b5b5d);text-align:center;line-height:1.45}
+.how h2{font:800 clamp(24px,3.4vw,32px)/1.12 var(--display);letter-spacing:-.03em;text-wrap:balance;margin-top:6px}
+.how-steps{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:12px;counter-reset:s}
+.how-steps li{counter-increment:s;display:grid;grid-template-columns:36px 1fr;gap:2px 12px;background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:14px}
+.how-steps li::before{content:counter(s);grid-row:span 2;width:36px;height:36px;border-radius:50%;background:#e51b2b;color:#fff;font:800 16px var(--display);display:grid;place-items:center}
+.how-steps b{font:800 16px var(--display)}.how-steps span{font-size:14px;color:var(--muted,#6b5b5d)}
+@media (max-width:760px){.how{grid-template-columns:1fr;gap:18px}.how-copy{order:-1}}
 .trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:34px 0 0}
 .trust div{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}
 .trust b{display:block;font:800 16px var(--display)}
@@ -284,6 +293,22 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
       <p class="calc-urg">Cada mês sem mudar custa <b id="calcMonth">R$ 920</b> para a sua loja.</p>
       <a class="calc-cta" href="#plans">Quero comissão zero na minha loja</a>
       <small>Cálculo ilustrativo: comissão de 12% sobre o valor vendido, sem contar taxas de pagamento online.</small>
+    </div>
+  </section>
+
+  <section class="how rv" style="--i:6" aria-labelledby="howTitle">
+    <figure class="how-fig">
+      <img src="como-funciona-720.webp" srcset="como-funciona-720.webp 720w, como-funciona.webp 1254w" sizes="(max-width:760px) 92vw, 520px" width="1254" height="1254" loading="lazy" decoding="async" alt="Dois celulares: à esquerda, a página de uma loja no PedeAi com a oferta do dia e o cardápio; à direita, o pedido chegando pronto no WhatsApp.">
+      <figcaption>À esquerda, a página da sua loja no PedeAi, com a oferta do dia em destaque. À direita, o pedido chegando pronto no WhatsApp.</figcaption>
+    </figure>
+    <div class="how-copy">
+      <p class="eyebrow">Como funciona</p>
+      <h2 id="howTitle">O cliente escolhe no PedeAi. O pedido cai pronto no seu WhatsApp.</h2>
+      <ol class="how-steps">
+        <li><b>O cliente encontra a sua loja</b><span>Cardápio completo, com fotos, preços e a sua oferta em destaque.</span></li>
+        <li><b>Monta o pedido em segundos</b><span>Sem baixar aplicativo e sem criar conta.</span></li>
+        <li><b>O pedido chega pronto no seu WhatsApp</b><span>Itens, total, endereço e forma de pagamento já escritos. Você confirma e entrega, sem comissão no meio.</span></li>
+      </ol>
     </div>
   </section>
 

@@ -106,7 +106,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .steps h2{font:800 clamp(22px,3vw,28px)/1.15 var(--display);letter-spacing:-.03em;text-wrap:balance;max-width:30ch}
 .steps .how-steps{grid-template-columns:repeat(3,minmax(0,1fr))}
 .head-title{font:800 clamp(26px,4vw,38px)/1.08 var(--display);letter-spacing:-.03em;text-wrap:balance}
-.head-sub{color:var(--muted);margin-top:10px;max-width:52ch;font-size:16px}
+.head-sub{color:var(--muted);margin-top:10px;max-width:52ch;font-size:16px}.head-off{color:var(--ok)}
 @media (max-width:760px){.hero{grid-template-columns:1fr;gap:0;padding-top:18px}.hero-copy{display:contents}.hero-kicker{justify-self:start}.hero-fig{order:1;margin-top:20px}.hero-clock{order:2}.hero-cta{order:3}.hero-cta{width:100%}.steps .how-steps{grid-template-columns:1fr}}
 .trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:34px 0 0}
 .trust div{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}
@@ -244,7 +244,8 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 @media (max-width:420px){
   .switch{width:100%}
   .switch button{flex:1;justify-content:center;padding:0 6px;font-size:13px}
-  .save{display:none}
+  .save{font-size:10px;padding:1px 5px}
+  .switch button{gap:4px}
   .head{padding-top:24px}
 }
 </style>
@@ -287,7 +288,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
     <div>
       <p class="eyebrow">Escolha seu plano</p>
       <h2 class="head-title" id="plansTitle">Planos com preço de Black Friday</h2>
-      <p class="head-sub">Zero taxa de plataforma e zero comissão em todos. Clientes chegando pelas nossas campanhas de tráfego pago e influenciadores.</p>
+      <p class="head-sub" id="headSub">No plano anual, até <b class="head-off">36% de desconto</b> e preço travado até o fim do plano. Zero taxa de plataforma e zero comissão em todos.</p>
     </div>
     <div class="switch rv" style="--i:2" role="radiogroup" aria-label="Forma de cobrança" id="switch">
       <span class="pill" aria-hidden="true"></span>
@@ -447,6 +448,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   /* Selo "Economize até X%" do anual, calculado contra o mensal. */
   var maxSave = Math.max.apply(null, PLANS.map(function (p) { return Math.round((1 - priceOf(p, 'anual') / p.price.mensal) * 100); }));
   document.getElementById('saveTag').textContent = '-' + maxSave + '%';
+  document.querySelector('.head-off').textContent = maxSave + '% de desconto';
 
   var tray = document.getElementById('plans');
   tray.innerHTML = PLANS.map(function (p, i) {

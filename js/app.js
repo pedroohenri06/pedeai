@@ -133,23 +133,10 @@
   }
 
   var CARDS = {};
-  /* Selo dos planos Destaque e Premium (benefício "verified"). */
-  var VERIFIED = '<span class="verified" title="Parceiro verificado"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l2.4 2.1 3.2-.3.9 3.1 2.8 1.6-1.1 3 1.1 3-2.8 1.6-.9 3.1-3.2-.3L12 22l-2.4-2.1-3.2.3-.9-3.1L2.7 15.5l1.1-3-1.1-3 2.8-1.6.9-3.1 3.2.3Z"/><path d="m8.5 12 2.3 2.3 4.7-4.7" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="sr-only">Parceiro verificado</span></span>';
-  /* Banner dos parceiros Premium da cidade (benefício "spotlight"): até 3, só na listagem geral, sem busca. */
-  function renderSpotlight(q) {
-    var box = $('spotlight');
-    if (!box) return;
-    var list = q || state.category !== 'Todos' ? [] : C.rankStores(STORES.filter(function (s) { return s.city === state.city && C.hasPerk(s, 'spotlight'); })).slice(0, C.PREMIUM_PER_CITY);
-    box.hidden = !list.length;
-    box.innerHTML = list.length ? '<p class="spot-kicker">Em destaque em ' + esc(state.city) + '</p><div class="spot-track">' + list.map(function (s) {
-      var img = s.image || s.logo;
-      return '<a class="spot" href="#/loja/' + s.id + '" data-id="' + s.id + '"><img src="' + esc(img ? img.src : CATEGORY_PHOTOS[s.category]) + '" alt="" loading="lazy" decoding="async"><span class="spot-shade"></span><span class="spot-body"><b>' + esc(s.name) + '</b><span>' + esc(s.kind || s.category) + '</span><span class="spot-cta">Ver cardápio</span></span></a>';
-    }).join('') + '</div>' : '';
-  }
   function cardHtml(s, now) {
     var meta = [s.category].concat(s.kind && C.normalize(s.kind) !== C.normalize(s.category) ? [s.kind] : []);
     var media = isSoon(s) ? SOON_MEDIA : '<div class="restaurant-media"><img src="' + photoOf(s) + '"' + (s.logo || s.image ? ' onerror="this.onerror=null;this.src=\'' + CATEGORY_PHOTOS[s.category] + '\'"' : '') + ' alt="' + (s.logo || s.image ? esc((s.logo || s.image).alt || s.name) : '') + '" loading="lazy" decoding="async">' + badgeOf(s) + (s.logo || s.image ? '' : '<span class="photo-tag">Imagem ilustrativa</span>') + '</div>';
-    return '<a class="restaurant reveal visible' + (isSoon(s) ? ' restaurant--soon' : '') + '" href="#/loja/' + s.id + '" data-id="' + s.id + '">' + media + '<div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + (C.hasPerk(s, 'verified') ? VERIFIED : '') + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
+    return '<a class="restaurant reveal visible' + (isSoon(s) ? ' restaurant--soon' : '') + '" href="#/loja/' + s.id + '" data-id="' + s.id + '">' + media + '<div class="restaurant-info"><h3 class="restaurant-name">' + esc(s.name) + '</h3><p class="restaurant-kind">' + esc(meta.join(' · ')) + '</p><div class="restaurant-meta" data-ops="' + esc(s.id) + '">' + opsHtml(s, now) + '</div></div></a>';
   }
   function cardOf(s, now) {
     var el = CARDS[s.id];
@@ -171,7 +158,6 @@
     var list = openFirst(C.rankStores(C.filterStores(STORES, { city: state.city, category: state.category, query: q })), now, q);
     var inCity = storesInCity().length;
     document.body.classList.toggle('is-searching', !!q);
-    renderSpotlight(q);
     title.textContent = q ? 'Resultados para “' + q + '”' : state.category === 'Todos' ? 'Em ' + state.city : state.category + ' em ' + state.city;
     count.textContent = list.length + ' ' + (list.length === 1 ? 'lugar' : 'lugares');
     // Cards montados uma vez por loja e reaproveitados: buscar/filtrar só reordena nós já prontos (sem refazer HTML

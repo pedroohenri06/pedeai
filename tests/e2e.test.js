@@ -23,13 +23,8 @@ FIXTURE.establishments.push({
   whatsapp: null, whatsappSource: null, phone: null, instagram: null, website: null, orderUrl: null, hours: null, deliveryFeeCents: null,
   image: null, menuSource: 'https://exemplo.com/cardapio', menu: [], menuCount: 3, menuSearch: 'Combo da casa · Burger duplo · Água',
   menuFile: 'data/menus/burger-marca-querencia.json?v=teste', sources: ['https://exemplo.com/cardapio'], confidence: 'alta', verifiedAt: '2026-10-30',
-  brand: { primary: '#e98230', deep: '#aa5f23', soft: '#fdf0e6', ink: '#1b1214', surface: '#ffffff' },
-  plan: 'premium', offer: { item: 'burger-duplo' }
+  brand: { primary: '#e98230', deep: '#aa5f23', soft: '#fdf0e6', ink: '#1b1214', surface: '#ffffff' }
 });
-/* Mesma loja sem plano (vitrine): cardápio e pedido funcionam, mas sem carrossel, preço de/por, selo e oferta. */
-FIXTURE.establishments.push(Object.assign({}, FIXTURE.establishments[FIXTURE.establishments.length - 1], {
-  id: 'burger-vitrine-querencia', name: 'Burger Vitrine', menuFile: 'data/menus/burger-vitrine-querencia.json?v=teste', plan: undefined, offer: undefined
-}));
 
 test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' }, async t => {
   const server = createServer().listen(0);
@@ -39,7 +34,6 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
   const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
   await context.route(/\/data\/establishments\.js(\?|$)/, route => route.fulfill({ contentType: 'text/javascript', body: 'window.PEDEAI_DATA=' + JSON.stringify(FIXTURE) + ';' }));
   await context.route(/^https:\/\/fonts\./, route => route.abort());
-  await context.route(/\/data\/menus\/burger-vitrine-querencia\.json/, route => route.fulfill({ contentType: 'application/json', body: JSON.stringify(LAZY_MENU) }));
   await context.route(/\/data\/menus\/burger-marca-querencia\.json/, route => route.fulfill({ contentType: 'application/json', body: JSON.stringify(LAZY_MENU) }));
   const page = await context.newPage();
   const errors = [];
@@ -235,19 +229,6 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       await page.click('.sp-hl >> nth=1');
       assert.equal(await page.textContent('#spSheetTitle'), 'Burger duplo');
       await page.click('.sp-sheet-close');
-      assert.equal(await page.locator('.sp-offer').count(), 1, 'Premium mostra a oferta do dia');
-      assert.match(await page.textContent('.sp-offer-name'), /Burger duplo/);
-    });
-
-    await t.test('loja sem plano (vitrine) não tem carrossel, preço de/por nem oferta do dia', async () => {
-      await page.goto(base + '#/loja/burger-vitrine-querencia');
-      await page.waitForSelector('.sp-item');
-      assert.equal(await page.locator('.sp-li').count(), 3);
-      assert.equal(await page.locator('.sp-hl').count(), 0);
-      assert.equal(await page.locator('.sp-offer').count(), 0);
-      assert.equal(await page.locator('.sp-was').count(), 0);
-      assert.doesNotMatch(await page.textContent('.sp-vitrine-facts'), /promoç/);
-      assert.match(await page.textContent('[data-item="combo-casa"] .sp-item-price'), /R\$ 39,90/);
     });
 
     await t.test('loja inexistente volta para a lista', async () => {

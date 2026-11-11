@@ -16,31 +16,25 @@ sem link a partir do site; o Pedro envia o endereço aos restaurantes. Ao mudar 
 - **Preço garantido:** se o PedeAi reajustar as mensalidades, o parceiro paga o valor do plano dele até o fim do plano.
 - **Garantia de 7 dias:** cancelamento em até 7 dias da contratação, com 100% devolvido (CDC, art. 49).
 
-## Benefícios e onde estão na plataforma
-| Benefício | Planos | Como funciona |
-|---|---|---|
-| Zero taxa de plataforma e zero comissão | todos | — |
-| Campanhas de tráfego pago e influenciadores do PedeAi (para a plataforma) | todos | time de marketing |
-| Cardápio montado pela equipe, no ar no mesmo dia | todos | pipeline `scripts/menus` |
-| Pedido pronto no WhatsApp | todos | `core.buildOrderMessage` |
-| QR Code e kit de divulgação (cartaz de mesa, story, post) | todos | `node scripts/kit-parceiro.js <id>` → `data/research/kits/<id>/` |
-| Atualizações de cardápio/preço | Essencial: 2 por mês · Destaque e Premium: ilimitadas | operação |
-| Entre as primeiras da cidade | Destaque e Premium | `plan` → `scripts/rank-stores.js` (Premium, depois Destaque) |
-| Selo azul "Parceiro verificado" no card | Destaque e Premium | perk `verified` (`js/core.js`) |
-| Carrossel de destaques no cardápio | Destaque e Premium | perk `carousel` |
-| Promoções com preço de/por | Destaque e Premium | perk `promo` |
-| Banner na abertura da cidade | Premium | perk `spotlight` (até 3 por cidade) |
-| Primeiras posições da categoria | Premium | ordem da lista |
-| Oferta do dia | Premium | `offer: { item: "<id do item>", until: "AAAA-MM-DD" }` |
-| Atendimento prioritário | Premium | operação |
-| Bônus do anual: campanha própria com influenciador (esporádica) | anual | marketing |
+## Benefícios
+| Benefício | Planos |
+|---|---|
+| Zero taxa de plataforma e zero comissão | todos |
+| Campanhas de tráfego pago e influenciadores do PedeAi (para a plataforma) | todos |
+| Cardápio montado pela equipe, no ar no mesmo dia | todos |
+| Pedido pronto no WhatsApp | todos |
+| QR Code e kit de divulgação (cartaz de mesa, story, post): `node scripts/kit-parceiro.js <id>` → `data/research/kits/<id>/` | todos |
+| Atualizações de cardápio/preço | Essencial: 2 por mês · Destaque e Premium: ilimitadas |
+| Entre as primeiras da cidade | Destaque e Premium |
+| Selo "Parceiro verificado" no card | Destaque e Premium |
+| Carrossel de destaques e promoções de/por no cardápio | Destaque e Premium |
+| Banner na abertura da cidade · primeiras posições da categoria · oferta do dia | Premium (só 3 por cidade) |
+| Atendimento prioritário | Premium |
+| Bônus do anual: campanha própria com influenciador (esporádica) | anual |
 
-**Ativar um parceiro:**
-1. Em `data/establishments.json`, coloque `"plan": "essencial" | "destaque" | "premium"` na loja.
-2. Para o Premium, se quiser, a `"offer"`.
-3. Rode `node scripts/rank-stores.js && node scripts/build-data.js && npm test`.
-
-O `scripts/validate.js` barra plano inválido, oferta fora do Premium e mais de 3 Premium na mesma cidade. Loja sem plano é vitrine: cardápio e pedido funcionam, sem os benefícios pagos.
+**Plataforma principal (decisão do Pedro, 11/11/2026):** nada muda no site por enquanto. As lojas que já têm carrossel e
+promoção de/por continuam com eles. O selo, o banner, a ordem por plano e a oferta do dia já foram codificados e testados
+no commit `68d138d` (branch de desenvolvimento, não publicado); quando o primeiro parceiro assinar, retomar a partir dele.
 
 ## Programa Embaixador
 O parceiro indica um restaurante. Quando o indicado assinar, o parceiro que indicou paga uma mensalidade e a próxima sai grátis.

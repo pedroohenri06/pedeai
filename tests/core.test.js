@@ -239,22 +239,3 @@ test('searchScore: nome da loja vem antes de categoria e de prato', () => {
   assert.equal(core.searchScore(bolo, 'pizza'), 3);
   assert.equal(core.searchScore(bolo, ''), 0);
 });
-
-test('planos: benefícios por plano e loja sem plano sem benefícios pagos', () => {
-  assert.equal(core.hasPerk({ plan: 'premium' }, 'offer'), true);
-  assert.equal(core.hasPerk({ plan: 'destaque' }, 'offer'), false);
-  assert.equal(core.hasPerk({ plan: 'destaque' }, 'promo'), true);
-  assert.equal(core.hasPerk({ plan: 'essencial' }, 'carousel'), false);
-  assert.equal(core.hasPerk({}, 'verified'), false);
-  assert.equal(core.hasPerk(null, 'promo'), false);
-});
-
-test('validação: plano inválido, oferta fora do Premium e no máximo 3 Premium por cidade', () => {
-  const { validateEstablishments } = require('../scripts/validate.js');
-  const base = { name: 'X', city: 'Querência', category: 'Pizza', kind: 'Pizzaria', sources: ['https://x.com'], menu: [] };
-  const mk = (i, extra) => Object.assign({ id: 'loja-' + i }, base, { name: 'Loja ' + i }, extra);
-  assert.match(validateEstablishments([mk(1, { plan: 'ouro' })]).join(), /plano inválido/);
-  assert.match(validateEstablishments([mk(1, { plan: 'destaque', offer: { item: 'a' } })]).join(), /oferta do dia só no plano Premium/);
-  assert.match(validateEstablishments([1, 2, 3, 4].map(i => mk(i, { plan: 'premium' }))).join(), /mais de 3 lojas Premium/);
-  assert.deepEqual(validateEstablishments([1, 2, 3].map(i => mk(i, { plan: 'premium' }))), []);
-});

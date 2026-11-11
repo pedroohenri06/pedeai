@@ -55,6 +55,10 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .price .per{font-size:15px;font-weight:600;color:var(--muted);font-family:var(--body)}
 .plan--pop .price .per{color:#e5c9cc}
 .billing{font-size:13px;color:var(--muted);min-height:20px;margin-top:2px}
+.lock{display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-size:12.5px;font-weight:700;color:var(--ok);background:#e7f5ec;border-radius:99px;padding:5px 10px;transition:opacity .3s,transform .3s}
+.lock svg{width:14px;height:14px}
+.lock[hidden]{display:inline-flex!important;opacity:0;transform:translateY(-4px);height:0;padding:0;margin:0;overflow:hidden}
+.plan--pop .lock{background:rgba(92,201,139,.16);color:#7fe0a6}
 .plan--pop .billing{color:#e5c9cc}
 .plan h2{font:800 26px/1.15 var(--display);letter-spacing:-.025em;margin-top:14px}
 .desc{font-size:14.5px;color:var(--muted);margin-top:6px;min-height:44px}
@@ -77,7 +81,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .cta:hover{transform:translateY(-2px)}
 .cta:focus-visible{outline:3px solid var(--red);outline-offset:3px}
 
-.trust{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin:34px 0 0}
+.trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:34px 0 0}
 .trust div{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}
 .trust b{display:block;font:800 16px var(--display)}
 .trust span{font-size:14px;color:var(--muted)}
@@ -90,6 +94,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .plan--pop.rv.in{transform:scale(1.04)}
 @media (prefers-reduced-motion:reduce){.rv{transition:none;opacity:1;filter:none;transform:none}.plan--pop.rv{transform:scale(1.04)}h1 .w>span{animation:none;transform:none}.switch .pill{transition:none}}
 
+@media (max-width:1100px){.trust{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:900px){
   .tray{grid-template-columns:1fr;padding:10px}
   .plan--pop,.plan--pop.rv.in{transform:none}
@@ -131,6 +136,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   <section class="trust rv" style="--i:6" aria-label="Como funciona">
     <div><b>Nós montamos tudo</b><span>Cardápio, fotos, horários e página da loja são feitos pela nossa equipe.</span></div>
     <div><b>O pedido é seu</b><span>Chega no seu WhatsApp, sem intermediário e sem comissão por venda.</span></div>
+    <div><b>Preço congelado</b><span>No semestral e no anual, sua mensalidade não sobe enquanto o plano estiver ativo.</span></div>
     <div><b>Feito para o Vale</b><span>Divulgação em 10 cidades do Vale do Araguaia, sem o cliente baixar nada.</span></div>
   </section>
 </main>
@@ -195,6 +201,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       (p.popular ? '<span class="badge">Mais escolhido</span>' : '') +
       '<div class="price" aria-live="polite"><span class="cur">R$</span><span class="num" data-num>' + brl(p.price[period]) + '</span><span class="per">/mês</span></div>' +
       '<p class="billing" data-billing></p>' +
+      '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço congelado enquanto ativo</span>' +
       '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
       '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
       '<div class="inc"><h3>' + esc(p.includesTitle) + '</h3><ul>' + p.includes.map(function (t) { return '<li><span class="chk">' + CHECK + '</span>' + esc(t) + '</li>'; }).join('') + '</ul></div>' +
@@ -219,6 +226,8 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       var from = parseFloat(num.textContent.replace(',', '.')), to = p.price[period];
       animate ? animateNum(num, from, to) : (num.textContent = brl(to));
       card.querySelector('[data-billing]').textContent = P.months === 1 ? 'cobrado mensalmente' : 'R$ ' + brl(to * P.months) + ' ' + P.label;
+      // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
+      card.querySelector('[data-lock]').hidden = P.months === 1;
       var cta = card.querySelector('[data-cta]'), link = p.checkout[period];
       cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + ') do PedeAi Delivery.');
     });

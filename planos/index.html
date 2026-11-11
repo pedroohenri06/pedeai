@@ -322,6 +322,12 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 .proof-stats b i{font-style:normal;color:var(--red)}
 .proof-stats span{font-size:12.5px;line-height:1.3;color:var(--muted);max-width:14ch}
 @media (min-width:761px){.proof-stats li{padding:22px 16px}.proof-stats span{font-size:14px;max-width:18ch}}
+
+/* Etiqueta do topo mais discreta e elegante */
+.hero-kicker{padding:6px 12px 6px 10px;background:var(--paper);color:var(--ink);border:1px solid var(--line);font:600 13px var(--sans,inherit);font-family:inherit;letter-spacing:0;text-transform:none;box-shadow:0 6px 18px -10px rgba(51,8,14,.35)}
+.hero-kicker::before{width:7px;height:7px;box-shadow:0 0 0 3px rgba(229,27,43,.18);animation:kpulse 1.8s ease-in-out infinite}
+@keyframes kpulse{50%{box-shadow:0 0 0 6px rgba(229,27,43,0)}}
+@media (prefers-reduced-motion:reduce){.hero-kicker::before{animation:none}}
 </style>
 </head>
 <body>
@@ -333,7 +339,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 <main class="wrap">
   <section class="hero" aria-labelledby="title">
     <div class="hero-copy">
-      <p class="hero-kicker rv" style="--i:0" id="heroKicker">Só até 30 de novembro</p>
+      <p class="hero-kicker rv" style="--i:0" id="heroKicker">Oferta válida até 30 de novembro</p>
       <h1 id="title">Black Friday para parceiros PedeAi</h1>
       <p class="lede rv" style="--i:1" id="heroLede">O PedeAi chegou ao Vale do Araguaia, e com ele a <b>maior Black Friday da nossa história</b>. Sua loja com <b>zero comissão</b>: o cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp.</p>
       <div class="hero-clock rv" style="--i:2" id="bf" hidden aria-live="off"><span class="bf-ends">A oferta termina em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-t"><b data-s>00</b><small>seg</small></span></div>

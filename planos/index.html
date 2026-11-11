@@ -8,7 +8,7 @@
 <title>Planos para parceiros | PedeAi Delivery</title>
 <meta name="description" content="Planos do PedeAi Delivery para restaurantes do Vale do Araguaia: cardápio digital, pedidos no WhatsApp e sem taxa por pedido.">
 <meta name="theme-color" content="#e51b2b">
-<link rel="icon" href="../assets/media-778d926eb50d.png">
+<link rel="icon" href="/assets/media-778d926eb50d.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@ body{background:var(--cream);color:var(--ink);font:16px/1.5 var(--body);-webkit-
 .wrap{width:min(100% - 32px,1180px);margin:0 auto;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
 .top{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
 .brand{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none}
-.brand-box{width:42px;height:42px;border-radius:13px;background:var(--red) url("../assets/media-eec8624c4b7f.png") center/30px no-repeat;box-shadow:0 10px 26px rgba(229,27,43,.28)}
+.brand-box{width:42px;height:42px;border-radius:13px;background:var(--red) url("/assets/media-eec8624c4b7f.png") center/30px no-repeat;box-shadow:0 10px 26px rgba(229,27,43,.28)}
 .brand b{display:block;font:800 20px/1 var(--display);letter-spacing:-.03em}
 .brand small{display:block;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:3px}
 .tag{font-size:12px;font-weight:700;color:var(--wine);background:#f4e4e2;border-radius:99px;padding:7px 12px}
@@ -104,7 +104,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 /* Black Friday: faixa escura com contagem regressiva real (some sozinha quando o prazo acaba). */
 .bf{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:6px;padding:16px 20px;border-radius:20px;background:radial-gradient(120% 140% at 0% 0%,#3a0a10 0%,#120406 60%,#000 100%);color:#fff;box-shadow:0 18px 40px -18px rgba(0,0,0,.6);position:relative;overflow:hidden}
 .bf[hidden]{display:none}
-.bf::after{content:"";position:absolute;right:-40px;top:-60px;width:220px;height:220px;background:url("../assets/media-eec8624c4b7f.png") center/contain no-repeat;opacity:.07;transform:rotate(-12deg)}
+.bf::after{content:"";position:absolute;right:-40px;top:-60px;width:220px;height:220px;background:url("/assets/media-eec8624c4b7f.png") center/contain no-repeat;opacity:.07;transform:rotate(-12deg)}
 .bf-kicker{font:800 13px var(--display);letter-spacing:.2em;text-transform:uppercase;color:#ff4a55}
 .bf-text{flex:1 1 420px;position:relative;z-index:1}.bf-head{font:800 clamp(19px,2.4vw,24px)/1.2 var(--display);letter-spacing:-.02em;margin-top:6px;text-wrap:balance}.bf-head b{color:#ff4a55}.bf-title{font-size:15px;margin-top:6px;color:#f1dfe1;max-width:62ch}.bf-title b{color:#fff}
 .bf-clock{display:flex;align-items:center;gap:8px;position:relative;z-index:1}
@@ -200,17 +200,8 @@ body.has-offerbar{padding-bottom:76px}
 
 
 /* Tabela comparativa */
-.cmp{margin-top:34px}.cmp h2,.testi h2{font:800 clamp(22px,3vw,28px) var(--display);margin-bottom:12px}
-.cmp-scroll{overflow-x:auto;border-radius:20px;border:1px solid var(--line);background:var(--paper)}
-.cmp table{width:100%;min-width:620px;border-collapse:collapse;font-size:14.5px}
-.cmp th,.cmp td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:center}
-.cmp tbody th{text-align:left;font-weight:600}
-.cmp thead th{font:800 15px var(--display);background:#f6efea;position:sticky;top:0}
-.cmp thead th:first-child{text-align:left}
-.cmp td{color:var(--ok);font-weight:800}.cmp td:only-child{color:inherit}
-.cmp .cmp-pop{background:rgba(229,27,43,.06)}.cmp thead .cmp-pop{background:var(--red);color:#fff}
-.cmp tr:last-child th,.cmp tr:last-child td{border-bottom:0}
 /* Depoimentos */
+.testi h2{font:800 clamp(22px,3vw,28px) var(--display);margin-bottom:12px}
 .testi{margin-top:34px}
 .testi-empty{position:relative;padding:24px 24px 24px 70px;border-radius:20px;border:1px dashed rgba(51,8,14,.25);background:var(--paper);color:var(--muted);font-size:15.5px}
 .testi-empty b{color:var(--ink)}
@@ -246,7 +237,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 </head>
 <body>
 <header class="wrap top">
-  <a class="brand" href="../"><span class="brand-box" aria-hidden="true"></span><span><b>PedeAi</b><small>Delivery</small></span></a>
+  <a class="brand" href="/"><span class="brand-box" aria-hidden="true"></span><span><b>PedeAi</b><small>Delivery</small></span></a>
   <span class="tag">Para parceiros</span>
 </header>
 
@@ -298,7 +289,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
   <section class="how rv" style="--i:6" aria-labelledby="howTitle">
     <figure class="how-fig">
-      <img src="como-funciona-720.webp?v=2" srcset="como-funciona-720.webp?v=2 720w, como-funciona.webp?v=2 1254w" sizes="(max-width:760px) 92vw, 520px" width="1254" height="1254" loading="lazy" decoding="async" alt="Dois celulares: à esquerda, a página de uma loja no PedeAi com a oferta do dia e o cardápio; à direita, o pedido chegando pronto no WhatsApp da loja.">
+      <img src="/planos/como-funciona-720.webp?v=2" srcset="/planos/como-funciona-720.webp?v=2 720w, /planos/como-funciona.webp?v=2 1254w" sizes="(max-width:760px) 92vw, 520px" width="1254" height="1254" loading="lazy" decoding="async" alt="Dois celulares: à esquerda, a página de uma loja no PedeAi com a oferta do dia e o cardápio; à direita, o pedido chegando pronto no WhatsApp da loja.">
       <figcaption>À esquerda, a página da sua loja no PedeAi, com a oferta do dia em destaque. À direita, o pedido chegando pronto no seu WhatsApp.</figcaption>
     </figure>
     <div class="how-copy">
@@ -322,31 +313,6 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
     <div><b>Time de marketing a seu favor</b><span>Nossos gestores de tráfego e influenciadores enchem a plataforma de clientes, e eles chegam até a sua loja.</span></div>
     <div><b>Zero taxa de plataforma</b><span>Sem comissão por pedido: o valor de cada venda é 100% seu.</span></div>
     <div><b>Preço garantido</b><span>Se o PedeAi reajustar as mensalidades, você continua pagando o preço do seu plano até o fim dele.</span></div>
-  </section>
-
-  <section class="cmp rv" style="--i:6" aria-labelledby="cmpTitle">
-    <h2 id="cmpTitle">Compare os planos</h2>
-    <div class="cmp-scroll"><table>
-      <thead><tr><th scope="col">Benefício</th><th scope="col">Essencial</th><th scope="col" class="cmp-pop">Destaque</th><th scope="col">Premium</th></tr></thead>
-      <tbody>
-        <tr><th scope="row">Zero taxa de plataforma e zero comissão</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Clientes das campanhas de tráfego pago e influenciadores do PedeAi</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Cardápio digital montado pela nossa equipe</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Loja no ar no mesmo dia</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Pedido pronto no seu WhatsApp</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">QR Code do cardápio e kit de divulgação</th><td>✓</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Atualizações de cardápio e preço</th><td>2 por mês</td><td class="cmp-pop">Ilimitadas</td><td>Ilimitadas</td></tr>
-        <tr><th scope="row">Entre as primeiras lojas da cidade</th><td>–</td><td class="cmp-pop">✓</td><td>✓ (topo)</td></tr>
-        <tr><th scope="row">Selo de Parceiro verificado</th><td>–</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Carrossel de destaques no cardápio</th><td>–</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Promoções com preço de/por</th><td>–</td><td class="cmp-pop">✓</td><td>✓</td></tr>
-        <tr><th scope="row">Banner na página inicial da cidade</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
-        <tr><th scope="row">Primeiras posições da sua categoria</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
-        <tr><th scope="row">Oferta do dia no topo do cardápio</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
-        <tr><th scope="row">Atendimento prioritário</th><td>–</td><td class="cmp-pop">–</td><td>✓</td></tr>
-        <tr><th scope="row">Vagas por cidade</th><td>Ilimitadas</td><td class="cmp-pop">Ilimitadas</td><td>Só 3</td></tr>
-      </tbody>
-    </table></div>
   </section>
 
   <section class="testi rv" style="--i:6" aria-labelledby="testiTitle">

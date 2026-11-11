@@ -92,6 +92,34 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .foot{padding:34px 0 48px;color:var(--muted);font-size:13.5px;text-align:center}
 .foot a{color:var(--wine);font-weight:700}
 
+/* Black Friday: faixa escura com contagem regressiva real (some sozinha quando o prazo acaba). */
+.bf{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:6px;padding:16px 20px;border-radius:20px;background:radial-gradient(120% 140% at 0% 0%,#3a0a10 0%,#120406 60%,#000 100%);color:#fff;box-shadow:0 18px 40px -18px rgba(0,0,0,.6);position:relative;overflow:hidden}
+.bf[hidden]{display:none}
+.bf::after{content:"";position:absolute;right:-40px;top:-60px;width:220px;height:220px;background:url("../assets/media-eec8624c4b7f.png") center/contain no-repeat;opacity:.07;transform:rotate(-12deg)}
+.bf-kicker{font:800 13px var(--display);letter-spacing:.2em;text-transform:uppercase;color:#ff4a55}
+.bf-title{font-size:16px;margin-top:4px;color:#f1dfe1}.bf-title b{color:#fff}
+.bf-clock{display:flex;align-items:center;gap:8px;position:relative;z-index:1}
+.bf-ends{font-size:12px;color:#d9b9bd;margin-right:4px}
+.bf-t{display:grid;justify-items:center;min-width:50px;padding:6px 4px;border-radius:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12)}
+.bf-t b{font:800 22px/1 var(--display);font-variant-numeric:tabular-nums}.bf-t small{font-size:10px;color:#d9b9bd;margin-top:3px}
+.anchor{display:flex;align-items:center;gap:8px;min-height:24px;margin-bottom:2px;font-size:14px;flex-wrap:wrap}
+.anchor s{color:var(--muted);font-weight:600}
+.plan--pop .anchor s{color:#c9a7ab}
+.off{font-size:12px;font-weight:800;color:#fff;background:var(--ok);border-radius:99px;padding:2px 8px}
+.anchor .bfchip{font-size:11px;font-weight:800;color:#fff;background:#000;border-radius:99px;padding:2px 8px;letter-spacing:.04em}
+.plan--pop .anchor .bfchip{background:#ff4a55}
+.econ{font-size:13px;font-weight:700;color:var(--ok);margin-top:2px;min-height:18px}
+.plan--pop .econ{color:#7fe0a6}
+.amb{margin-top:34px}
+.amb-card{display:grid;grid-template-columns:1.3fr 1fr;gap:20px 34px;align-items:center;padding:28px;border-radius:24px;background:linear-gradient(135deg,#fff 0%,#fbefe9 100%);border:1px solid var(--line)}
+.amb-card h2{font:800 clamp(24px,3.4vw,32px)/1.12 var(--display);letter-spacing:-.03em;text-wrap:balance}
+.amb-copy p:not(.eyebrow){color:var(--muted);margin-top:10px;font-size:15.5px}.amb-copy b{color:var(--ink)}
+.amb-steps{list-style:none;padding:0;display:grid;gap:10px}
+.amb-steps li{display:flex;align-items:center;gap:12px;font-weight:600;font-size:15px}
+.amb-steps b{width:32px;height:32px;flex:none;border-radius:10px;display:grid;place-items:center;background:var(--red);color:#fff;font-family:var(--display)}
+.cta--amb{grid-column:1/-1;margin-top:4px;background:linear-gradient(180deg,#ff4a55,#d0121f);box-shadow:0 14px 30px -10px rgba(229,27,43,.7),inset 0 1px 0 rgba(255,255,255,.3)}
+@media (max-width:760px){.amb-card{grid-template-columns:1fr;padding:22px}.bf{padding:14px 16px}.bf-t{min-width:44px}.bf-t b{font-size:19px}}
+
 /* Entrada suave (blur + descida), em sequência. */
 .rv{opacity:0;filter:blur(10px);transform:translateY(-16px);transition:opacity .55s ease,filter .55s ease,transform .55s ease;transition-delay:calc(var(--i,0) * .12s)}
 .rv.in{opacity:1;filter:none;transform:none}
@@ -102,7 +130,6 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 @media (max-width:900px){
   .tray{grid-template-columns:1fr;padding:10px}
   .plan--pop,.plan--pop.rv.in{transform:none}
-  .plan--pop{order:-1}
   .trust{grid-template-columns:1fr}
   .desc{min-height:0}
 }
@@ -121,6 +148,11 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 </header>
 
 <main class="wrap">
+  <section class="bf" id="bf" hidden aria-label="Black Friday">
+    <div class="bf-text"><p class="bf-kicker">Black Friday PedeAi</p><p class="bf-title">O menor preço do ano no <b>plano anual</b>, com preço congelado por 12 meses.</p></div>
+    <div class="bf-clock" aria-live="off"><span class="bf-ends">Termina em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-t"><b data-s>00</b><small>seg</small></span></div>
+  </section>
+
   <section class="head">
     <div>
       <p class="eyebrow rv" style="--i:0">Planos para restaurantes</p>
@@ -129,9 +161,9 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     </div>
     <div class="switch rv" style="--i:2" role="radiogroup" aria-label="Forma de cobrança" id="switch">
       <span class="pill" aria-hidden="true"></span>
-      <button type="button" role="radio" aria-checked="true" data-period="mensal">Mensal</button>
+      <button type="button" role="radio" aria-checked="true" data-period="anual">Anual <span class="save" id="saveTag"></span></button>
       <button type="button" role="radio" aria-checked="false" data-period="semestral">Semestral</button>
-      <button type="button" role="radio" aria-checked="false" data-period="anual">Anual <span class="save" id="saveTag"></span></button>
+      <button type="button" role="radio" aria-checked="false" data-period="mensal">Mensal</button>
     </div>
   </section>
 
@@ -144,6 +176,15 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     <div><b>Preço congelado</b><span>No semestral e no anual, sua mensalidade não sobe enquanto o plano estiver ativo.</span></div>
   </section>
 </main>
+
+<section class="wrap amb rv" style="--i:7" aria-labelledby="ambTitle">
+  <div class="amb-card">
+    <div class="amb-copy"><p class="eyebrow">Programa Embaixador PedeAi</p><h2 id="ambTitle">Indique um restaurante e ganhe 1 mês grátis</h2>
+      <p>Conhece um restaurante na sua cidade que ainda não está no PedeAi? Indique. Quando ele assinar, <b>você ganha 1 mês grátis</b> no seu plano e <b>ele ganha 50% de desconto</b> na primeira mensalidade.</p></div>
+    <ol class="amb-steps"><li><b>1</b><span>Você indica pelo WhatsApp</span></li><li><b>2</b><span>A gente monta a loja dele</span></li><li><b>3</b><span>Ele assina e você ganha 1 mês</span></li></ol>
+    <a class="cta cta--amb" target="_blank" rel="noopener" href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Quero%20ser%20Embaixador%20PedeAi%20e%20indicar%20um%20restaurante.">Quero indicar um restaurante</a>
+  </div>
+</section>
 
 <footer class="wrap foot">Dúvidas? Fale com a nossa equipe comercial: <a href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20os%20planos%20do%20PedeAi." target="_blank" rel="noopener">+55 12 93629-0045</a></footer>
 
@@ -176,6 +217,14 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   ];
   var WHATS = '5512936290045';
 
+  /* Black Friday: preço promocional do anual até o fim do prazo (horário de Cuiabá). Depois disso a página volta
+     sozinha ao preço normal. Para encerrar antes, use ativo: false. */
+  var PROMO = { ativo: true, nome: 'Black Friday', fim: '2026-11-30T23:59:59-04:00',
+    anual: { essencial: 34.90, destaque: 47.90, premium: 69.90 },
+    checkout: { essencial: '', destaque: '', premium: '' } };
+  function promoOn() { return PROMO.ativo && Date.now() < Date.parse(PROMO.fim); }
+  function priceOf(p, per) { return per === 'anual' && promoOn() && PROMO.anual[p.id] ? PROMO.anual[p.id] : p.price[per]; }
+
   var ICONS = {
     store: '<path d="M3 9l1.5-5h15L21 9M3 9h18M3 9v11h18V9M9 20v-6h6v6"/>',
     menu: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
@@ -195,19 +244,20 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   var brl = function (v) { return v.toFixed(2).replace('.', ','); };
   var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  var period = 'mensal';
+  var period = 'anual'; // abre sempre no menor preço
   try { var saved = sessionStorage.getItem('pedeai-plano-periodo'); if (PERIODS[saved]) period = saved; } catch (e) {}
 
   /* Selo "Economize até X%" do anual, calculado contra o mensal. */
-  var maxSave = Math.max.apply(null, PLANS.map(function (p) { return Math.round((1 - p.price.anual / p.price.mensal) * 100); }));
+  var maxSave = Math.max.apply(null, PLANS.map(function (p) { return Math.round((1 - priceOf(p, 'anual') / p.price.mensal) * 100); }));
   document.getElementById('saveTag').textContent = '-' + maxSave + '%';
 
   var tray = document.getElementById('plans');
   tray.innerHTML = PLANS.map(function (p, i) {
     return '<article class="plan rv' + (p.popular ? ' plan--pop' : '') + '" style="--i:' + (i + 3) + '" data-plan="' + p.id + '">' +
       (p.popular ? '<span class="badge">Mais escolhido</span>' : '') +
-      '<div class="price" aria-live="polite"><span class="cur">R$</span><span class="num" data-num>' + brl(p.price[period]) + '</span><span class="per">/mês</span></div>' +
-      '<p class="billing" data-billing></p>' +
+      '<div class="anchor" data-anchor></div>' +
+      '<div class="price" aria-live="polite"><span class="cur">R$</span><span class="num" data-num>' + brl(priceOf(p, period)) + '</span><span class="per">/mês</span></div>' +
+      '<p class="billing" data-billing></p><p class="econ" data-econ></p>' +
       '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço congelado enquanto ativo</span>' +
       '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
       '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
@@ -231,15 +281,19 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     var P = PERIODS[period];
     PLANS.forEach(function (p) {
       var card = tray.querySelector('[data-plan="' + p.id + '"]'), num = card.querySelector('[data-num]');
-      var from = parseFloat(num.textContent.replace(',', '.')), to = p.price[period];
+      var from = parseFloat(num.textContent.replace(',', '.')), to = priceOf(p, period), promo = period === 'anual' && promoOn();
       animate ? animateNum(num, from, to) : (num.textContent = brl(to));
-      card.querySelector('[data-billing]').textContent = P.label; // só o valor mensal é exibido, sem total do período
+      card.querySelector('[data-billing]').textContent = P.label + (promo ? ' · preço de ' + PROMO.nome : ''); // só o valor mensal
+      // Ancoragem: no semestral/anual, o preço do mensal aparece riscado com o desconto e a economia no período.
+      var off = Math.round((1 - to / p.price.mensal) * 100), saved = (p.price.mensal - to) * P.months;
+      card.querySelector('[data-anchor]').innerHTML = P.months === 1 ? '' : '<s>R$ ' + brl(p.price.mensal) + '</s><span class="off">-' + off + '%</span>' + (promo ? '<span class="bfchip">BLACK FRIDAY</span>' : '');
+      card.querySelector('[data-econ]').textContent = P.months === 1 ? '' : 'Você economiza R$ ' + brl(saved) + (P.months === 12 ? ' por ano' : ' em 6 meses');
       // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
       card.querySelector('[data-lock]').hidden = P.months === 1;
       // Campanhas com influenciadores são esporádicas e só entram como bônus do plano anual.
       card.querySelector('[data-bonus]').hidden = period !== 'anual';
-      var cta = card.querySelector('[data-cta]'), link = p.checkout[period];
-      cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + ') do PedeAi Delivery.');
+      var cta = card.querySelector('[data-cta]'), link = promo ? PROMO.checkout[p.id] : p.checkout[period];
+      cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + (promo ? ', ' + PROMO.nome : '') + ') do PedeAi Delivery.');
     });
     var btns = document.querySelectorAll('#switch button'), pill = document.querySelector('#switch .pill');
     btns.forEach(function (b) { b.setAttribute('aria-checked', String(b.dataset.period === period)); b.tabIndex = b.dataset.period === period ? 0 : -1; });
@@ -268,6 +322,20 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   /* Título com revelação palavra por palavra (vertical cut reveal). */
   var h1 = document.getElementById('title');
   h1.innerHTML = h1.textContent.split(' ').map(function (w, i) { return '<span class="w" aria-hidden="true"><span style="animation-delay:' + (i * 0.12) + 's">' + esc(w) + '</span></span>'; }).join(' ');
+
+  /* Contagem regressiva da Black Friday (real: quando zera, a faixa some e os preços voltam ao normal). */
+  var bf = document.getElementById('bf');
+  function tick() {
+    var left = Date.parse(PROMO.fim) - Date.now();
+    if (!PROMO.ativo || left <= 0) { if (!bf.hidden) { bf.hidden = true; update(false); } return; }
+    bf.hidden = false;
+    var s2 = Math.floor(left / 1000), two = function (n) { return (n < 10 ? '0' : '') + n; };
+    bf.querySelector('[data-d]').textContent = two(Math.floor(s2 / 86400));
+    bf.querySelector('[data-h]').textContent = two(Math.floor(s2 % 86400 / 3600));
+    bf.querySelector('[data-m]').textContent = two(Math.floor(s2 % 3600 / 60));
+    bf.querySelector('[data-s]').textContent = two(s2 % 60);
+  }
+  tick(); setInterval(tick, 1000);
 
   update(false);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { update(false); });

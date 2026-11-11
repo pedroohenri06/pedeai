@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 /* Calcula a ordem da listagem de cada cidade e grava em establishments.json (campo "rank": 1 = primeiro da cidade).
    Critérios (data/research/ordem-da-listagem.json tem os destaques escolhidos à mão):
+   0. Parceiros Premium e depois Destaque (campo "plan").
    1. Destaques (featured), na ordem do arquivo de destaques.
    2. Pontuação = qualidade da imagem + popularidade (seguidores no Instagram) + pedido online.
       As primeiras posições depois dos destaques não aceitam imagem marcada como fraca (imagemFraca); depois elas se
@@ -56,7 +57,15 @@ function main() {
   const weak = new Set(Object.values(curated.imagemFraca || {}).flat());
   core.CITIES.forEach(city => {
     const list = db.establishments.filter(s => s.city === city);
-    const top = (featured[city] || []).map(id => list.find(s => s.id === id)).filter(Boolean);
+    /* Parceiros pagos primeiro: Premium (topo da cidade e da categoria) e depois Destaque, cada grupo pela ordem de
+       destaques escolhida à mão e depois pela pontuação. Em seguida, os destaques à mão sem plano. */
+    const byPlan = plan => list.filter(s => s.plan === plan);
+    const manual = (featured[city] || []).map(id => list.find(s => s.id === id)).filter(Boolean);
+    const paid = ['premium', 'destaque'].flatMap(plan => byPlan(plan).sort((a, b) => {
+      const ia = manual.indexOf(a), ib = manual.indexOf(b);
+      return (ia < 0 ? 1e9 : ia) - (ib < 0 ? 1e9 : ib) || a.name.localeCompare(b.name, 'pt-BR');
+    }));
+    const top = paid.concat(manual.filter(s => !paid.includes(s)));
     const rest = list.filter(s => !top.includes(s)).map(s => {
       const q = quality(s, weak);
       const score = q + 1.3 * popularity(s, fol) + (core.canOrder(s) ? 1 : 0) + (s.whatsapp ? 0.3 : 0) - (s.confidence === 'baixa' ? 1 : 0);

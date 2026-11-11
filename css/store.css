@@ -580,3 +580,16 @@ body.store-open .bottom-nav{display:none}
 /* Abertura de cardápio grande: seções fora da tela só são montadas quando chegam perto (ver deferSections). */
 .sp-lazy .sp-section{content-visibility:auto;contain-intrinsic-size:auto 900px}
 .sp-facts a{position:relative;z-index:2}.sp-facts a::before{content:"";position:absolute;inset:-12px -6px}
+
+/* Oferta do dia (plano Premium): cartão em destaque no topo do cardápio, na cor da marca da loja. */
+.sp-offer{margin:4px 0 18px}
+.sp-offer-card{display:flex;gap:14px;align-items:center;width:100%;text-align:left;border:0;cursor:pointer;padding:12px;border-radius:20px;background:linear-gradient(135deg,var(--b,#e51b2b),var(--b-deep,#8e1220));color:var(--b-ink,#fff);box-shadow:0 16px 34px -18px rgba(60,6,12,.7);font:inherit}
+.sp-offer-media{width:96px;height:96px;flex:none;border-radius:14px;overflow:hidden;background:rgba(255,255,255,.15)}
+.sp-offer-media img{width:100%;height:100%;object-fit:cover}
+.sp-offer-body{display:grid;gap:3px;min-width:0}
+.sp-offer-kicker{display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:800;letter-spacing:.12em;text-transform:uppercase;opacity:.9}
+.sp-offer-kicker svg{width:13px;height:13px}
+.sp-offer-name{font-size:17px;font-weight:800;line-height:1.2}
+.sp-offer-desc{font-size:13px;opacity:.85;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.sp-offer-price{font-size:16px;font-weight:800}.sp-offer-price .sp-was{color:rgba(255,255,255,.7)}
+.sp-offer-price .sp-from{color:inherit;opacity:.85}

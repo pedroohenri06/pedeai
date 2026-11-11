@@ -169,15 +169,18 @@
     return out;
   }
 
+  /* Preço riscado (de/por) só para planos com o benefício "promo"; os demais mostram só o preço atual. */
+  function onSale(m) { return m.originalPriceCents > m.priceCents && C.hasPerk(state.store, 'promo'); }
+
   function priceLabel(item) {
     return (hasPricedOptions(item) ? '<span class="sp-from">a partir de</span> ' : '') +
-      (item.originalPriceCents > item.priceCents ? '<s class="sp-was"><span class="sr-only">de </span>' + C.formatBRL(item.originalPriceCents) + '</s> <span class="sp-now"><span class="sr-only">por </span>' + C.formatBRL(item.priceCents) + '</span>' : C.formatBRL(item.priceCents));
+      (onSale(item) ? '<s class="sp-was"><span class="sr-only">de </span>' + C.formatBRL(item.originalPriceCents) + '</s> <span class="sp-now"><span class="sr-only">por </span>' + C.formatBRL(item.priceCents) + '</span>' : C.formatBRL(item.priceCents));
   }
 
   /* Selos do item: destaque (marcado pela própria loja na plataforma de origem), promoção e opções. */
   function itemTags(m) {
-    return (m.featured ? '<span class="sp-item-tag sp-item-tag--star">' + icon(I.star) + 'Destaque</span>' : '') +
-      (m.originalPriceCents > m.priceCents ? '<span class="sp-item-tag sp-item-tag--promo">-' + Math.round(100 - m.priceCents * 100 / m.originalPriceCents) + '%</span>' : '') +
+    return (m.featured && C.hasPerk(state.store, 'carousel') ? '<span class="sp-item-tag sp-item-tag--star">' + icon(I.star) + 'Destaque</span>' : '') +
+      (onSale(m) ? '<span class="sp-item-tag sp-item-tag--promo">-' + Math.round(100 - m.priceCents * 100 / m.originalPriceCents) + '%</span>' : '') +
       ((m.options || []).length ? '<span class="sp-item-tag">Com opções</span>' : '');
   }
 
@@ -220,7 +223,7 @@
 
   /* Cabeçalho compacto do cardápio (logo e nome já estão no topo da página): título + números do cardápio. */
   function vitrineHtml(s, secs) {
-    var promos = s.menu.filter(function (m) { return m.originalPriceCents > m.priceCents; }).length;
+    var promos = s.menu.filter(onSale).length;
     var facts = [s.menu.length + ' itens', secs.length + (secs.length === 1 ? ' categoria' : ' categorias')];
     if (promos) facts.push(promos + (promos === 1 ? ' promoção' : ' promoções'));
     return '<div class="sp-menu-head sp-menu-title">' + eyebrow('Escolha seus itens') + '<h2 id="storeMenuTitle">Cardápio</h2><p class="sp-vitrine-facts">' + facts.map(function (f) { return '<span>' + esc(f) + '</span>'; }).join(' ') + '</p></div>';
@@ -228,15 +231,29 @@
 
   /* Destaques: só itens que a própria loja marcou como destaque na plataforma de origem; sem marcação, as promoções. */
   function highlightsHtml(s) {
+    if (!C.hasPerk(s, 'carousel')) return '';
     var featured = s.menu.filter(function (m) { return m.featured && m.image; });
     var title = 'Destaques da casa';
-    if (featured.length < 2) { featured = s.menu.filter(function (m) { return m.originalPriceCents > m.priceCents && m.image; }); title = 'Promoções'; }
+    if (featured.length < 2) { featured = s.menu.filter(function (m) { return onSale(m) && m.image; }); title = 'Promoções'; }
     if (featured.length < 2) return '';
     return '<section class="sp-highlights" aria-labelledby="spHlTitle"><h3 class="sp-hl-title" id="spHlTitle">' + icon(I.star) + esc(title) + '</h3><ul class="sp-hl-track" role="list">' +
       featured.slice(0, 10).map(function (m) {
         return '<li><button class="sp-hl" type="button" data-open="' + esc(m.id) + '" aria-haspopup="dialog"><span class="sp-hl-media"><img src="' + esc(thumbOf(m)) + '" alt="" width="320" height="320" loading="lazy" decoding="async"></span>' +
-          '<span class="sp-hl-name">' + esc(m.name) + '</span><span class="sp-hl-price">' + (m.originalPriceCents > m.priceCents ? '<s class="sp-was">' + C.formatBRL(m.originalPriceCents) + '</s> ' : '') + '<span class="sp-now">' + C.formatBRL(m.priceCents) + '</span></span></button></li>';
+          '<span class="sp-hl-name">' + esc(m.name) + '</span><span class="sp-hl-price">' + (onSale(m) ? '<s class="sp-was">' + C.formatBRL(m.originalPriceCents) + '</s> ' : '') + '<span class="sp-now">' + C.formatBRL(m.priceCents) + '</span></span></button></li>';
       }).join('') + '</ul></section>';
+  }
+
+  /* Oferta do dia (Premium): um item escolhido pela loja em destaque no topo do cardápio. s.offer = { item: id, until?: AAAA-MM-DD }. */
+  function offerHtml(s) {
+    if (!s.offer || !C.hasPerk(s, 'offer')) return '';
+    var todayIso = new Date().toLocaleDateString('en-CA', { timeZone: 'America/Cuiaba' });
+    if (s.offer.until && todayIso > s.offer.until) return '';
+    var m = s.menu.find(function (x) { return x.id === s.offer.item; });
+    if (!m) return '';
+    return '<section class="sp-offer" aria-label="Oferta do dia"><button class="sp-offer-card" type="button" data-open="' + esc(m.id) + '" aria-haspopup="dialog">' +
+      (m.image ? '<span class="sp-offer-media"><img src="' + esc(thumbOf(m)) + '" alt="" width="320" height="320" decoding="async"></span>' : '') +
+      '<span class="sp-offer-body"><span class="sp-offer-kicker">' + icon(I.star) + 'Oferta do dia</span><span class="sp-offer-name">' + esc(m.name) + '</span>' +
+      (m.description ? '<span class="sp-offer-desc">' + esc(m.description) + '</span>' : '') + '<span class="sp-offer-price">' + priceLabel(m) + '</span></span></button></section>';
   }
 
   function menuHtml(s) {
@@ -261,7 +278,7 @@
         }).join('') + '<span class="sp-cats-ink" aria-hidden="true"></span></div></nav>' : '') +
         (many ? '<label class="sp-search">' + icon(I.search) + '<span class="sr-only">Buscar no cardápio</span><input type="search" id="spSearch" placeholder="Buscar no cardápio" autocomplete="off" enterkeyhint="search"></label>' : '') +
         '</div>' : '') +
-      highlightsHtml(s) +
+      offerHtml(s) + highlightsHtml(s) +
       secs.map(function (sec, i) {
         return '<section class="sp-section" id="sp-sec-' + i + '" data-sec="' + i + '" aria-labelledby="sp-sec-t-' + i + '"><h3 class="sp-section-title" id="sp-sec-t-' + i + '">' + esc(sec.name) + ' <small>' + sec.items.length + '</small></h3><ul class="sp-items" role="list">' + sec.items.map(itemHtml).join('') + '</ul></section>';
       }).join('') +
@@ -619,7 +636,7 @@
       '<button class="sp-icon-btn sp-sheet-close" type="button" data-sheet-close aria-label="Fechar">' + icon(I.close) + '</button>' +
       '<div class="sp-sheet-scroll">' + (item.image && !item.image.small ? '<figure class="sp-sheet-media"><img class="sp-sheet-bg" src="' + esc(item.image.src) + '" alt="" aria-hidden="true" decoding="async"><img src="' + esc(item.image.src) + '" alt="' + esc(item.image.alt || item.name) + '" width="960" height="600" decoding="async"></figure>' : '') +
       '<div class="sp-sheet-body"><p class="sp-sheet-section">' + esc(item.section) + '</p><h2 id="spSheetTitle">' + esc(item.name) + '</h2>' + (item.description ? '<p class="sp-sheet-desc">' + esc(item.description) + '</p>' : '') +
-      '<p class="sp-sheet-price">' + priceLabel(item) + '</p>' + (item.featured || item.originalPriceCents > item.priceCents ? '<p class="sp-sheet-tags">' + itemTags({ featured: item.featured, originalPriceCents: item.originalPriceCents, priceCents: item.priceCents }) + '</p>' : '') + groups +
+      '<p class="sp-sheet-price">' + priceLabel(item) + '</p>' + ((item.featured && C.hasPerk(state.store, 'carousel')) || onSale(item) ? '<p class="sp-sheet-tags">' + itemTags({ featured: item.featured, originalPriceCents: item.originalPriceCents, priceCents: item.priceCents }) + '</p>' : '') + groups +
       '<label class="sp-note"><span>Alguma observação? <small>Opcional</small></span><textarea id="spNote" rows="2" maxlength="140" placeholder="Ex.: sem cebola, ponto da carne"></textarea></label></div></div>' +
       '<footer class="sp-sheet-foot"><div class="sp-stepper" role="group" aria-label="Quantidade"><button type="button" data-step="-1" aria-label="Diminuir quantidade">' + icon(I.minus) + '</button><output id="spQty" aria-live="polite">1</output><button type="button" data-step="1" aria-label="Aumentar quantidade">' + icon(I.plus) + '</button></div>' +
       '<button class="sp-confirm" type="button" id="spConfirm"></button></footer></div>';

@@ -72,6 +72,23 @@
     return text;
   }
 
+  /* Planos de parceiro (página /planos). Cada benefício pertence a um conjunto de planos; loja sem plano é vitrine
+     (cardápio e pedido funcionam, sem os benefícios pagos). PLAN_GATING = false liga tudo para todos (ex.: testes). */
+  var PLANS = ['essencial', 'destaque', 'premium'];
+  var PREMIUM_PER_CITY = 3;
+  var PERKS = {
+    carousel: ['destaque', 'premium'],   // carrossel de mais pedidos/destaques no topo do cardápio
+    promo: ['destaque', 'premium'],      // preço de/por (riscado) e selo de desconto
+    verified: ['destaque', 'premium'],   // selo "Parceiro verificado" no card
+    spotlight: ['premium'],              // banner da loja na home da cidade
+    offer: ['premium']                   // oferta do dia no topo da loja
+  };
+  var PLAN_GATING = true;
+  function hasPerk(store, perk) {
+    if (!PLAN_GATING) return true;
+    return !!(store && store.plan && PERKS[perk] && PERKS[perk].indexOf(store.plan) > -1);
+  }
+
   function filterStores(stores, opts) {
     opts = opts || {};
     var q = normalize(opts.query);
@@ -265,6 +282,7 @@
     emptyCart: emptyCart, addItem: addItem, setQty: setQty, reconcileCart: reconcileCart, itemQty: itemQty,
     validateSelection: validateSelection, unitPrice: unitPrice, lineKey: lineKey,
     cartCount: cartCount, cartTotals: cartTotals, buildOrderMessage: buildOrderMessage,
-    whatsappUrl: whatsappUrl, parseRoute: parseRoute
+    whatsappUrl: whatsappUrl, parseRoute: parseRoute,
+    PLANS: PLANS, PERKS: PERKS, PREMIUM_PER_CITY: PREMIUM_PER_CITY, hasPerk: hasPerk
   };
 });

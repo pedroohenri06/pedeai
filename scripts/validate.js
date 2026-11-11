@@ -16,6 +16,7 @@ function validateEstablishments(list) {
   const errors = [];
   const ids = new Set();
   const keys = new Set();
+  const premium = {};
   if (!Array.isArray(list)) return ['establishments deve ser um array'];
   list.forEach((s, i) => {
     const at = `#${i} (${s && s.id})`;
@@ -38,6 +39,9 @@ function validateEstablishments(list) {
     }
     if (s.orderUrl != null && !WHATSAPP_URL.test(s.orderUrl)) err(`orderUrl só pode ser WhatsApp (cardápio externo não): ${s.orderUrl}`);
     if (s.website != null && isExternalMenu(s.website)) err(`website aponta para cardápio externo: ${s.website}`);
+    if (s.plan != null && !core.PLANS.includes(s.plan)) err(`plano inválido: ${s.plan} (use ${core.PLANS.join(', ')})`);
+    if (s.offer != null && (!s.offer.item || s.plan !== 'premium')) err('oferta do dia só no plano Premium, com o id do item');
+    if (s.plan === 'premium') { premium[s.city] = (premium[s.city] || 0) + 1; if (premium[s.city] > core.PREMIUM_PER_CITY) err(`mais de ${core.PREMIUM_PER_CITY} lojas Premium em ${s.city}`); }
     if (s.phone != null && !/^55\d{10,11}$/.test(s.phone)) err(`telefone inválido: ${s.phone}`);
     if (s.hoursEstimated != null && (s.hoursEstimated !== true || !s.hours)) err('hoursEstimated só com horário preenchido');
     if (s.schedule != null) {

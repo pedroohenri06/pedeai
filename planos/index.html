@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<!-- Página comercial para parceiros: acessada só pelo link enviado pelo Pedro. Nenhuma página do site aponta para cá. -->
+<meta name="robots" content="noindex,nofollow">
+<title>Planos para parceiros | PedeAi Delivery</title>
+<meta name="description" content="Planos do PedeAi Delivery para restaurantes do Vale do Araguaia: cardápio digital, pedidos no WhatsApp e sem taxa por pedido.">
+<meta name="theme-color" content="#e51b2b">
+<link rel="icon" href="../assets/media-778d926eb50d.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: título à esquerda + chave de cobrança à direita; três cartões numa bandeja em degradê, o do meio em
+   destaque (escuro, maior). No celular tudo empilha. Marca PedeAi: vermelho, vinho e off-white. */
+:root{--red:#e51b2b;--wine:#7d1019;--ink:#221719;--muted:#6f6264;--cream:#f8f5ef;--paper:#fffdfa;--line:rgba(51,8,14,.12);--tray1:#f3ece6;--tray2:#eadfd7;--ok:#1f8a4c;
+  --display:Montserrat,system-ui,sans-serif;--body:"DM Sans",system-ui,sans-serif}
+*{box-sizing:border-box;margin:0}
+html{-webkit-text-size-adjust:100%}
+body{background:var(--cream);color:var(--ink);font:16px/1.5 var(--body);-webkit-font-smoothing:antialiased}
+.wrap{width:min(100% - 32px,1180px);margin:0 auto;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
+.top{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
+.brand{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none}
+.brand-box{width:42px;height:42px;border-radius:13px;background:var(--red) url("../assets/media-eec8624c4b7f.png") center/30px no-repeat;box-shadow:0 10px 26px rgba(229,27,43,.28)}
+.brand b{display:block;font:800 20px/1 var(--display);letter-spacing:-.03em}
+.brand small{display:block;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:3px}
+.tag{font-size:12px;font-weight:700;color:var(--wine);background:#f4e4e2;border-radius:99px;padding:7px 12px}
+
+.head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;padding:40px 0 28px;flex-wrap:wrap}
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--red);margin-bottom:10px}
+h1{font:800 clamp(34px,6vw,54px)/1.05 var(--display);letter-spacing:-.035em;text-wrap:balance;max-width:14ch}
+h1 .w{display:inline-block;overflow:hidden;vertical-align:bottom}
+h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cubic-bezier(.2,.8,.2,1) forwards}
+@keyframes cut{to{transform:none}}
+.lede{color:var(--muted);margin-top:14px;max-width:46ch;font-size:17px}
+.lede b{color:var(--ink)}
+
+.switch{position:relative;display:flex;padding:5px;border-radius:99px;background:var(--paper);border:1px solid var(--line);box-shadow:0 8px 24px rgba(51,8,14,.06)}
+.switch button{position:relative;z-index:1;border:0;background:none;font:700 14px var(--body);color:var(--muted);height:42px;padding:0 16px;border-radius:99px;cursor:pointer;display:flex;align-items:center;gap:6px;white-space:nowrap;transition:color .25s}
+.switch button[aria-checked=true]{color:#fff}
+.switch button:focus-visible{outline:3px solid var(--red);outline-offset:2px}
+.switch .pill{position:absolute;z-index:0;top:5px;left:5px;height:42px;border-radius:99px;background:linear-gradient(180deg,#ef3a47,#c81524);box-shadow:0 8px 18px rgba(229,27,43,.35),inset 0 1px 0 rgba(255,255,255,.25);transition:transform .45s cubic-bezier(.3,1.35,.5,1),width .45s cubic-bezier(.3,1.35,.5,1)}
+.save{font-size:11px;font-weight:800;border-radius:99px;padding:2px 7px;background:#e7f5ec;color:var(--ok)}
+.switch button[aria-checked=true] .save{background:rgba(255,255,255,.22);color:#fff}
+
+.tray{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;padding:14px;border-radius:26px;background:linear-gradient(180deg,var(--tray1),var(--tray2))}
+.plan{position:relative;display:flex;flex-direction:column;border-radius:22px;padding:26px 24px 24px;min-width:0}
+.plan--pop{background:radial-gradient(120% 90% at 0% 0%,#5a0d17 0%,#2a0a0f 55%,#170507 100%);color:#fff;transform:scale(1.04);box-shadow:0 30px 60px -20px rgba(70,8,16,.55),0 0 0 2px #2a0a0f;z-index:1}
+.badge{align-self:flex-start;font-size:12px;font-weight:800;background:var(--red);color:#fff;border-radius:99px;padding:5px 11px;margin-bottom:14px;box-shadow:0 6px 16px rgba(229,27,43,.4)}
+.price{display:flex;align-items:baseline;gap:4px;font-family:var(--display)}
+.price .cur{font-size:22px;font-weight:700}
+.price .num{font-size:46px;font-weight:800;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.price .per{font-size:15px;font-weight:600;color:var(--muted);font-family:var(--body)}
+.plan--pop .price .per{color:#e5c9cc}
+.billing{font-size:13px;color:var(--muted);min-height:20px;margin-top:2px}
+.lock{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;margin-top:10px;font-size:12.5px;font-weight:700;color:var(--ok);background:#e7f5ec;border-radius:99px;padding:5px 10px;transition:opacity .3s,transform .3s}
+.lock svg{width:14px;height:14px}
+.lock[hidden]{display:inline-flex!important;opacity:0;transform:translateY(-4px);height:0;padding:0;margin:0;overflow:hidden}
+.bonus{display:flex;gap:10px;align-items:flex-start;margin-top:16px;padding:12px 14px;border-radius:14px;background:#fff3e0;color:#7a4300;font-size:13.5px;line-height:1.4}
+.bonus svg{width:20px;height:20px;flex:none;color:#e07b00;margin-top:1px}
+.bonus[hidden]{display:none}
+.plan--pop .bonus{background:rgba(255,170,60,.14);color:#ffd9a6}.plan--pop .bonus svg{color:#ffb24d}
+.plan--pop .lock{background:rgba(92,201,139,.16);color:#7fe0a6}
+.plan--pop .billing{color:#e5c9cc}
+.plan h2{font:800 26px/1.15 var(--display);letter-spacing:-.025em;margin-top:14px}
+.desc{font-size:14.5px;color:var(--muted);margin-top:6px;min-height:44px}
+.plan--pop .desc{color:#e5c9cc}
+.hl{display:grid;gap:10px;margin:18px 0 0;padding:0;list-style:none}
+.hl li{display:flex;gap:10px;align-items:center;font-size:14.5px;font-weight:600}
+.hl svg{width:20px;height:20px;flex:none;color:var(--red)}
+.plan--pop .hl svg{color:#ff6b75}
+.inc{border-top:1px solid var(--line);margin-top:20px;padding-top:18px;flex:1}
+.plan--pop .inc{border-color:rgba(255,255,255,.14)}
+.inc h3{font-size:14px;font-weight:700;margin-bottom:12px}
+.inc ul{display:grid;gap:10px;padding:0;list-style:none}
+.inc li{display:flex;gap:10px;align-items:flex-start;font-size:14px;color:#4e4244}
+.plan--pop .inc li{color:#f3e4e5}
+.chk{width:22px;height:22px;flex:none;border-radius:50%;display:grid;place-items:center;background:#fff;border:1.5px solid var(--ink);margin-top:-1px}
+.chk svg{width:13px;height:13px}
+.plan--pop .chk{background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.35)}
+.cta{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:24px;height:54px;border-radius:15px;font:800 16px var(--display);text-decoration:none;color:#fff;background:linear-gradient(180deg,#2c2124,#140c0e);box-shadow:0 12px 24px -10px rgba(20,8,10,.7),inset 0 1px 0 rgba(255,255,255,.12);transition:transform .2s,box-shadow .2s}
+.plan--pop .cta{background:linear-gradient(180deg,#ff4a55,#d0121f);box-shadow:0 14px 30px -10px rgba(229,27,43,.8),inset 0 1px 0 rgba(255,255,255,.3)}
+.cta:hover{transform:translateY(-2px)}
+.cta:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+
+.trust{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin:34px 0 0}
+.trust div{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}
+.trust b{display:block;font:800 16px var(--display)}
+.trust span{font-size:14px;color:var(--muted)}
+.foot{padding:34px 0 48px;color:var(--muted);font-size:13.5px;text-align:center}
+.foot a{color:var(--wine);font-weight:700}
+
+/* Entrada suave (blur + descida), em sequência. */
+.rv{opacity:0;filter:blur(10px);transform:translateY(-16px);transition:opacity .55s ease,filter .55s ease,transform .55s ease;transition-delay:calc(var(--i,0) * .12s)}
+.rv.in{opacity:1;filter:none;transform:none}
+.plan--pop.rv.in{transform:scale(1.04)}
+@media (prefers-reduced-motion:reduce){.rv{transition:none;opacity:1;filter:none;transform:none}.plan--pop.rv{transform:scale(1.04)}h1 .w>span{animation:none;transform:none}.switch .pill{transition:none}}
+
+@media (max-width:1100px){.trust{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:900px){
+  .tray{grid-template-columns:1fr;padding:10px}
+  .plan--pop,.plan--pop.rv.in{transform:none}
+  .plan--pop{order:-1}
+  .trust{grid-template-columns:1fr}
+  .desc{min-height:0}
+}
+@media (max-width:420px){
+  .switch{width:100%}
+  .switch button{flex:1;justify-content:center;padding:0 6px;font-size:13px}
+  .save{display:none}
+  .head{padding-top:24px}
+}
+</style>
+</head>
+<body>
+<header class="wrap top">
+  <a class="brand" href="../"><span class="brand-box" aria-hidden="true"></span><span><b>PedeAi</b><small>Delivery</small></span></a>
+  <span class="tag">Para parceiros</span>
+</header>
+
+<main class="wrap">
+  <section class="head">
+    <div>
+      <p class="eyebrow rv" style="--i:0">Planos para restaurantes</p>
+      <h1 id="title" aria-label="Seu restaurante no PedeAi">Seu restaurante no PedeAi</h1>
+      <p class="lede rv" style="--i:1"><b>Zero taxa de plataforma. Zero comissão.</b> Clientes chegando pelas nossas campanhas de tráfego pago e influenciadores, e o pedido cai direto no seu WhatsApp.</p>
+    </div>
+    <div class="switch rv" style="--i:2" role="radiogroup" aria-label="Forma de cobrança" id="switch">
+      <span class="pill" aria-hidden="true"></span>
+      <button type="button" role="radio" aria-checked="true" data-period="mensal">Mensal</button>
+      <button type="button" role="radio" aria-checked="false" data-period="semestral">Semestral</button>
+      <button type="button" role="radio" aria-checked="false" data-period="anual">Anual <span class="save" id="saveTag"></span></button>
+    </div>
+  </section>
+
+  <section class="tray" id="plans" aria-label="Planos"></section>
+
+  <section class="trust rv" style="--i:6" aria-label="Como funciona">
+    <div><b>Nós montamos tudo</b><span>Cardápio, fotos, horários e página da loja são feitos pela nossa equipe.</span></div>
+    <div><b>Clientes chegando</b><span>Tráfego pago e influenciadores do PedeAi levam clientes para a plataforma com frequência.</span></div>
+    <div><b>Zero taxa de plataforma</b><span>Sem comissão por pedido: o valor de cada venda é 100% seu.</span></div>
+    <div><b>Preço congelado</b><span>No semestral e no anual, sua mensalidade não sobe enquanto o plano estiver ativo.</span></div>
+  </section>
+</main>
+
+<footer class="wrap foot">Dúvidas? Fale com a nossa equipe comercial: <a href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20os%20planos%20do%20PedeAi." target="_blank" rel="noopener">+55 12 93629-0045</a></footer>
+
+<script>
+(function () {
+  'use strict';
+  /* ---- Planos: edite aqui preços, benefícios e links de checkout ----
+     price = valor mensal equivalente em cada forma de cobrança; checkout = link do pagamento de cada período.
+     Enquanto o checkout estiver vazio, o botão abre o WhatsApp comercial com o plano escolhido. */
+  var PERIODS = { mensal: { months: 1, label: 'no plano mensal' }, semestral: { months: 6, label: 'no plano semestral' }, anual: { months: 12, label: 'no plano anual' } };
+  var PLANS = [
+    { id: 'essencial', name: 'Essencial', desc: 'Seu restaurante no PedeAi, com cardápio completo e clientes chegando.',
+      price: { mensal: 54.90, semestral: 49.90, anual: 39.90 },
+      checkout: { mensal: '', semestral: '', anual: '' },
+      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Clientes das campanhas do PedeAi'], ['chat', 'Pedido pronto no seu WhatsApp']],
+      includesTitle: 'O plano inclui:',
+      includes: ['Sem comissão: 100% de cada venda fica com você', 'Tráfego pago e influenciadores do PedeAi levando clientes para a plataforma com frequência', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'Link próprio do cardápio para a bio do Instagram e o status do WhatsApp', 'Aberto/Fechado, feriados, pausas e tempo de entrega automáticos', 'Cliente encontra sua loja pela busca por prato e por categoria', 'Até 2 atualizações de cardápio ou preço por mês'] },
+    { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras e suas ofertas em evidência.', popular: true,
+      price: { mensal: 74.90, semestral: 64.90, anual: 54.90 },
+      checkout: { mensal: '', semestral: '', anual: '' },
+      highlights: [['star', 'Destaque na lista da cidade'], ['tag', 'Promoções com preço de/por'], ['refresh', 'Atualizações ilimitadas']],
+      includesTitle: 'Tudo do Essencial, mais:',
+      includes: ['Posição de destaque entre as primeiras lojas da sua cidade', 'Carrossel dos mais pedidos no topo do seu cardápio', 'Promoções com preço riscado (de R$ X por R$ Y) para atrair o cliente', 'Atualizações de cardápio, preço e promoção ilimitadas'] },
+    { id: 'premium', name: 'Premium', desc: 'Para ser a referência da sua cidade no delivery.',
+      price: { mensal: 99.90, semestral: 89.90, anual: 79.90 },
+      checkout: { mensal: '', semestral: '', anual: '' },
+      highlights: [['banner', 'Banner na página inicial'], ['trophy', 'Topo da sua categoria'], ['camera', 'Fotos dos pratos tratadas']],
+      includesTitle: 'Tudo do Destaque, mais:',
+      includes: ['Banner da sua loja na faixa de campanhas da cidade', 'Primeira loja da sua categoria (ex.: a primeira em Hambúrguer)', 'Tratamento profissional das fotos dos pratos', 'Atendimento prioritário pelo WhatsApp'] }
+  ];
+  var WHATS = '5512936290045';
+
+  var ICONS = {
+    store: '<path d="M3 9l1.5-5h15L21 9M3 9h18M3 9v11h18V9M9 20v-6h6v6"/>',
+    menu: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
+    chat: '<path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/>',
+    zero: '<circle cx="12" cy="12" r="9"/><path d="M15 9l-6 6M9.5 9.5h.01M14.5 14.5h.01"/>',
+    tag: '<path d="M3 12V4h8l10 10-8 8L3 12Z"/><circle cx="7.5" cy="7.5" r="1.3"/>',
+    star: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9Z"/>',
+    fire: '<path d="M12 22c4 0 7-2.8 7-7 0-4.5-4-7-4-11-3 1.5-5 4.5-5 7.5-1.2-.8-2-2-2-3.5C5.5 10 5 12.4 5 15c0 4.2 3 7 7 7Z"/>',
+    refresh: '<path d="M20 11a8 8 0 0 0-14.6-4.5L4 8M4 4v4h4M4 13a8 8 0 0 0 14.6 4.5L20 16M20 20v-4h-4"/>',
+    megaphone: '<path d="M3 10v4h3l7 5V5L6 10H3ZM17 8.5a5 5 0 0 1 0 7M19.5 6a8.5 8.5 0 0 1 0 12"/>',
+    banner: '<rect x="3" y="5" width="18" height="12" rx="2"/><path d="m3 14 5-4 4 3 3-2 6 4M8 21h8"/>',
+    trophy: '<path d="M8 4h8v5a4 4 0 0 1-8 0V4ZM8 6H4v1a4 4 0 0 0 4 4M16 6h4v1a4 4 0 0 1-4 4M12 13v4M8 21h8M9 17h6"/>',
+    camera: '<path d="M4 8h3l2-3h6l2 3h3v11H4Z"/><circle cx="12" cy="13" r="3.5"/>'
+  };
+  var CHECK = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>';
+  var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
+  var brl = function (v) { return v.toFixed(2).replace('.', ','); };
+  var reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var period = 'mensal';
+  try { var saved = sessionStorage.getItem('pedeai-plano-periodo'); if (PERIODS[saved]) period = saved; } catch (e) {}
+
+  /* Selo "Economize até X%" do anual, calculado contra o mensal. */
+  var maxSave = Math.max.apply(null, PLANS.map(function (p) { return Math.round((1 - p.price.anual / p.price.mensal) * 100); }));
+  document.getElementById('saveTag').textContent = '-' + maxSave + '%';
+
+  var tray = document.getElementById('plans');
+  tray.innerHTML = PLANS.map(function (p, i) {
+    return '<article class="plan rv' + (p.popular ? ' plan--pop' : '') + '" style="--i:' + (i + 3) + '" data-plan="' + p.id + '">' +
+      (p.popular ? '<span class="badge">Mais escolhido</span>' : '') +
+      '<div class="price" aria-live="polite"><span class="cur">R$</span><span class="num" data-num>' + brl(p.price[period]) + '</span><span class="per">/mês</span></div>' +
+      '<p class="billing" data-billing></p>' +
+      '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço congelado enquanto ativo</span>' +
+      '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
+      '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
+      '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span><b>Bônus do anual:</b> sua loja pode ganhar uma campanha própria com influenciador</span></p>' +
+      '<div class="inc"><h3>' + esc(p.includesTitle) + '</h3><ul>' + p.includes.map(function (t) { return '<li><span class="chk">' + CHECK + '</span>' + esc(t) + '</li>'; }).join('') + '</ul></div>' +
+      '<a class="cta" data-cta target="_blank" rel="noopener">Quero o ' + esc(p.name) + '</a></article>';
+  }).join('');
+
+  /* Número animado (efeito "number flow"): conta do valor atual até o novo. */
+  function animateNum(el, from, to) {
+    if (reduce || from === to) { el.textContent = brl(to); return; }
+    var t0 = performance.now(), dur = 520;
+    (function step(t) {
+      var k = Math.min(1, (t - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+      el.textContent = brl(from + (to - from) * e);
+      if (k < 1) requestAnimationFrame(step);
+    })(t0);
+  }
+
+  function update(animate) {
+    var P = PERIODS[period];
+    PLANS.forEach(function (p) {
+      var card = tray.querySelector('[data-plan="' + p.id + '"]'), num = card.querySelector('[data-num]');
+      var from = parseFloat(num.textContent.replace(',', '.')), to = p.price[period];
+      animate ? animateNum(num, from, to) : (num.textContent = brl(to));
+      card.querySelector('[data-billing]').textContent = P.label; // só o valor mensal é exibido, sem total do período
+      // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
+      card.querySelector('[data-lock]').hidden = P.months === 1;
+      // Campanhas com influenciadores são esporádicas e só entram como bônus do plano anual.
+      card.querySelector('[data-bonus]').hidden = period !== 'anual';
+      var cta = card.querySelector('[data-cta]'), link = p.checkout[period];
+      cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + ') do PedeAi Delivery.');
+    });
+    var btns = document.querySelectorAll('#switch button'), pill = document.querySelector('#switch .pill');
+    btns.forEach(function (b) { b.setAttribute('aria-checked', String(b.dataset.period === period)); b.tabIndex = b.dataset.period === period ? 0 : -1; });
+    var on = document.querySelector('#switch button[aria-checked=true]');
+    pill.style.width = on.offsetWidth + 'px';
+    pill.style.transform = 'translateX(' + (on.offsetLeft - 5) + 'px)';
+  }
+
+  var sw = document.getElementById('switch');
+  sw.addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-period]');
+    if (!b || b.dataset.period === period) return;
+    period = b.dataset.period;
+    try { sessionStorage.setItem('pedeai-plano-periodo', period); } catch (err) {}
+    update(true);
+  });
+  sw.addEventListener('keydown', function (e) {
+    var keys = Object.keys(PERIODS), i = keys.indexOf(period);
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+      e.preventDefault(); period = keys[(i + (e.key === 'ArrowRight' ? 1 : keys.length - 1)) % keys.length];
+      update(true); sw.querySelector('[aria-checked=true]').focus();
+    }
+  });
+  addEventListener('resize', function () { update(false); });
+
+  /* Título com revelação palavra por palavra (vertical cut reveal). */
+  var h1 = document.getElementById('title');
+  h1.innerHTML = h1.textContent.split(' ').map(function (w, i) { return '<span class="w" aria-hidden="true"><span style="animation-delay:' + (i * 0.12) + 's">' + esc(w) + '</span></span>'; }).join(' ');
+
+  update(false);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { update(false); });
+  requestAnimationFrame(function () { requestAnimationFrame(function () { document.querySelectorAll('.rv').forEach(function (el) { el.classList.add('in'); }); }); });
+})();
+</script>
+</body>
+</html>

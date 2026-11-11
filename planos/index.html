@@ -153,7 +153,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
   /* ---- Planos: edite aqui preços, benefícios e links de checkout ----
      price = valor mensal equivalente em cada forma de cobrança; checkout = link do pagamento de cada período.
      Enquanto o checkout estiver vazio, o botão abre o WhatsApp comercial com o plano escolhido. */
-  var PERIODS = { mensal: { months: 1, label: 'cobrado mensalmente' }, semestral: { months: 6, label: 'a cada 6 meses' }, anual: { months: 12, label: 'por ano' } };
+  var PERIODS = { mensal: { months: 1, label: 'no plano mensal' }, semestral: { months: 6, label: 'no plano semestral' }, anual: { months: 12, label: 'no plano anual' } };
   var PLANS = [
     { id: 'essencial', name: 'Essencial', desc: 'Para colocar seu restaurante no PedeAi, com cardápio digital completo.',
       price: { mensal: 54.90, semestral: 49.90, anual: 39.90 },
@@ -231,7 +231,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       var card = tray.querySelector('[data-plan="' + p.id + '"]'), num = card.querySelector('[data-num]');
       var from = parseFloat(num.textContent.replace(',', '.')), to = p.price[period];
       animate ? animateNum(num, from, to) : (num.textContent = brl(to));
-      card.querySelector('[data-billing]').textContent = P.months === 1 ? 'cobrado mensalmente' : 'R$ ' + brl(to * P.months) + ' ' + P.label;
+      card.querySelector('[data-billing]').textContent = P.label; // só o valor mensal é exibido, sem total do período
       // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
       card.querySelector('[data-lock]').hidden = P.months === 1;
       // Campanhas com influenciadores são esporádicas e só entram como bônus do plano anual.

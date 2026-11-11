@@ -125,7 +125,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     <div>
       <p class="eyebrow rv" style="--i:0">Planos para restaurantes</p>
       <h1 id="title" aria-label="Seu restaurante no PedeAi">Seu restaurante no PedeAi</h1>
-      <p class="lede rv" style="--i:1"><b>Sem taxa por pedido. Sem aplicativo.</b> Seu cliente vê o cardápio completo e pede direto no seu WhatsApp.</p>
+      <p class="lede rv" style="--i:1"><b>Zero taxa de plataforma. Zero comissão.</b> Clientes chegando pelas nossas campanhas de tráfego pago e influenciadores, e o pedido cai direto no seu WhatsApp.</p>
     </div>
     <div class="switch rv" style="--i:2" role="radiogroup" aria-label="Forma de cobrança" id="switch">
       <span class="pill" aria-hidden="true"></span>
@@ -139,9 +139,9 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 
   <section class="trust rv" style="--i:6" aria-label="Como funciona">
     <div><b>Nós montamos tudo</b><span>Cardápio, fotos, horários e página da loja são feitos pela nossa equipe.</span></div>
-    <div><b>O pedido é seu</b><span>Chega no seu WhatsApp, sem intermediário e sem comissão por venda.</span></div>
+    <div><b>Clientes chegando</b><span>Tráfego pago e influenciadores do PedeAi levam clientes para a plataforma com frequência.</span></div>
+    <div><b>Zero taxa de plataforma</b><span>Sem comissão por pedido: o valor de cada venda é 100% seu.</span></div>
     <div><b>Preço congelado</b><span>No semestral e no anual, sua mensalidade não sobe enquanto o plano estiver ativo.</span></div>
-    <div><b>Feito para o Vale</b><span>Divulgação em 10 cidades do Vale do Araguaia, sem o cliente baixar nada.</span></div>
   </section>
 </main>
 
@@ -155,24 +155,24 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
      Enquanto o checkout estiver vazio, o botão abre o WhatsApp comercial com o plano escolhido. */
   var PERIODS = { mensal: { months: 1, label: 'no plano mensal' }, semestral: { months: 6, label: 'no plano semestral' }, anual: { months: 12, label: 'no plano anual' } };
   var PLANS = [
-    { id: 'essencial', name: 'Essencial', desc: 'Para colocar seu restaurante no PedeAi, com cardápio digital completo.',
+    { id: 'essencial', name: 'Essencial', desc: 'Seu restaurante no PedeAi, com cardápio completo e clientes chegando.',
       price: { mensal: 54.90, semestral: 49.90, anual: 39.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['store', 'Página da loja com sua marca'], ['menu', 'Cardápio digital completo'], ['chat', 'Pedidos no seu WhatsApp']],
+      highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Clientes das campanhas do PedeAi'], ['chat', 'Pedido pronto no seu WhatsApp']],
       includesTitle: 'O plano inclui:',
-      includes: ['Cardápio montado pela nossa equipe, com fotos tratadas, tamanhos e adicionais', 'Sem taxa por pedido', 'Aberto/Fechado e tempo de entrega automáticos', 'Até 2 atualizações de cardápio ou preço por mês'] },
-    { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras da cidade.', popular: true,
+      includes: ['Sem comissão: 100% de cada venda fica com você', 'Tráfego pago e influenciadores do PedeAi levando clientes para a plataforma com frequência', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'Link próprio do cardápio para a bio do Instagram e o status do WhatsApp', 'Aberto/Fechado, feriados, pausas e tempo de entrega automáticos', 'Cliente encontra sua loja pela busca por prato e por categoria', 'Até 2 atualizações de cardápio ou preço por mês'] },
+    { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras e suas ofertas em evidência.', popular: true,
       price: { mensal: 74.90, semestral: 64.90, anual: 54.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
-      highlights: [['star', 'Destaque na lista da cidade'], ['fire', 'Itens em destaque no cardápio'], ['refresh', 'Atualizações ilimitadas de cardápio']],
+      highlights: [['star', 'Destaque na lista da cidade'], ['tag', 'Promoções com preço de/por'], ['refresh', 'Atualizações ilimitadas']],
       includesTitle: 'Tudo do Essencial, mais:',
-      includes: ['Posição de destaque entre as primeiras lojas da cidade', 'Carrossel de mais pedidos no topo do cardápio', 'Atualizações de cardápio e preço ilimitadas'] },
+      includes: ['Posição de destaque entre as primeiras lojas da sua cidade', 'Carrossel dos mais pedidos no topo do seu cardápio', 'Promoções com preço riscado (de R$ X por R$ Y) para atrair o cliente', 'Atualizações de cardápio, preço e promoção ilimitadas'] },
     { id: 'premium', name: 'Premium', desc: 'Para ser a referência da sua cidade no delivery.',
       price: { mensal: 99.90, semestral: 89.90, anual: 79.90 },
       checkout: { mensal: '', semestral: '', anual: '' },
       highlights: [['banner', 'Banner na página inicial'], ['trophy', 'Topo da sua categoria'], ['camera', 'Fotos dos pratos tratadas']],
       includesTitle: 'Tudo do Destaque, mais:',
-      includes: ['Banner da loja na faixa de campanhas da cidade', 'Primeira loja da sua categoria (ex.: Hambúrguer)', 'Tratamento profissional das fotos dos pratos', 'Atendimento prioritário pelo WhatsApp'] }
+      includes: ['Banner da sua loja na faixa de campanhas da cidade', 'Primeira loja da sua categoria (ex.: a primeira em Hambúrguer)', 'Tratamento profissional das fotos dos pratos', 'Atendimento prioritário pelo WhatsApp'] }
   ];
   var WHATS = '5512936290045';
 
@@ -180,6 +180,8 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
     store: '<path d="M3 9l1.5-5h15L21 9M3 9h18M3 9v11h18V9M9 20v-6h6v6"/>',
     menu: '<path d="M8 6h12M8 12h12M8 18h12M4 6h.01M4 12h.01M4 18h.01"/>',
     chat: '<path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12Z"/>',
+    zero: '<circle cx="12" cy="12" r="9"/><path d="M15 9l-6 6M9.5 9.5h.01M14.5 14.5h.01"/>',
+    tag: '<path d="M3 12V4h8l10 10-8 8L3 12Z"/><circle cx="7.5" cy="7.5" r="1.3"/>',
     star: '<path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1 6.2L12 17.3 6.5 20.2l1-6.2L3 9.6l6.2-.9Z"/>',
     fire: '<path d="M12 22c4 0 7-2.8 7-7 0-4.5-4-7-4-11-3 1.5-5 4.5-5 7.5-1.2-.8-2-2-2-3.5C5.5 10 5 12.4 5 15c0 4.2 3 7 7 7Z"/>',
     refresh: '<path d="M20 11a8 8 0 0 0-14.6-4.5L4 8M4 4v4h4M4 13a8 8 0 0 0 14.6 4.5L20 16M20 20v-4h-4"/>',
@@ -209,7 +211,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
       '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço congelado enquanto ativo</span>' +
       '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
       '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
-      '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span><b>Bônus do anual:</b> sua loja pode entrar nas campanhas com influenciadores do PedeAi</span></p>' +
+      '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span><b>Bônus do anual:</b> sua loja pode ganhar uma campanha própria com influenciador</span></p>' +
       '<div class="inc"><h3>' + esc(p.includesTitle) + '</h3><ul>' + p.includes.map(function (t) { return '<li><span class="chk">' + CHECK + '</span>' + esc(t) + '</li>'; }).join('') + '</ul></div>' +
       '<a class="cta" data-cta target="_blank" rel="noopener">Quero o ' + esc(p.name) + '</a></article>';
   }).join('');

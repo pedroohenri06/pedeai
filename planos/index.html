@@ -352,7 +352,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
     <div class="hero-copy">
       <p class="hero-kicker rv" style="--i:0" id="heroKicker">Oferta válida até 30 de novembro</p>
       <h1 id="title">Black Friday para parceiros PedeAi</h1>
-      <p class="lede rv" style="--i:1" id="heroLede">O PedeAi chegou ao Vale do Araguaia, e com ele a <b>maior Black Friday da nossa história</b>. Sua loja com <b>zero comissão</b>: o cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp.</p>
+      <p class="lede rv" style="--i:1" id="heroLede">Dia <b>25 de novembro</b> o PedeAi chega ao Vale do Araguaia. Garanta seu restaurante na plataforma <b>desde o primeiro pedido</b>, sem pagar comissão e com preço de Black Friday.</p>
       <div class="hero-clock rv" style="--i:2" id="bf" hidden aria-live="off"><span class="bf-ends">O preço de Black Friday acaba em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-s>00</b><small>seg</small></span><span class="bf-note">Depois disso, os planos voltam ao preço normal.</span></div>
       <a class="hero-cta rv" style="--i:3" href="#planos" id="heroCta">Ver planos com desconto</a>
     </div>
@@ -636,6 +636,11 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
   /* Título com revelação palavra por palavra (vertical cut reveal). */
   var h1 = document.getElementById('title');
+  /* Lançamento da plataforma: antes da data, o topo fala da estreia; depois, que já está no ar. */
+  var LANCAMENTO = '2026-11-25T00:00:00-04:00';
+  if (Date.now() >= Date.parse(LANCAMENTO)) {
+    document.getElementById('heroLede').innerHTML = 'O PedeAi <b>já está no ar</b> no Vale do Araguaia. Até 30 de novembro, seu restaurante entra <b>sem pagar comissão e com preço de Black Friday</b>.';
+  }
   if (!promoOn()) {
     h1.textContent = 'Seu restaurante no PedeAi, com zero comissão';
     document.getElementById('heroKicker').textContent = 'Para restaurantes';

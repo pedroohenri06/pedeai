@@ -13,6 +13,7 @@ sem link a partir do site; o Pedro envia o endereço aos restaurantes. Ao mudar 
 
 - **Ancoragem:** no semestral e no anual, o preço do mensal aparece riscado como "preço normal".
 - **Black Friday:** até 30/11/2026 às 23:59 (horário de Cuiabá). Depois disso, a faixa, a barra e o aviso de saída somem sozinhos e os preços voltam ao anual normal. Para encerrar antes: `PROMO.ativo = false`.
+- **Lançamento da plataforma:** 25/11/2026 (`LANCAMENTO` em `planos/index.html`). Antes da data, o topo fala da estreia ("os restaurantes que assinarem agora estreiam junto com a plataforma"); a partir dela, troca sozinho para "o PedeAi já está no ar".
 - **Preço garantido:** se o PedeAi reajustar as mensalidades, o parceiro paga o valor do plano dele até o fim do plano.
 - **Garantia de 7 dias:** cancelamento em até 7 dias da contratação, com 100% devolvido (CDC, art. 49).
 

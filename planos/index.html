@@ -352,7 +352,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
     <div class="hero-copy">
       <p class="hero-kicker rv" style="--i:0" id="heroKicker">Oferta válida até 30 de novembro</p>
       <h1 id="title">Black Friday para parceiros PedeAi</h1>
-      <p class="lede rv" style="--i:1" id="heroLede">Em <b>5 de dezembro</b>, o PedeAi chega ao Vale do Araguaia. Os restaurantes que assinarem agora <b>estreiam junto com a plataforma</b>, com comissão zero e as condições exclusivas de Black Friday garantidas.</p>
+      <p class="lede rv" style="--i:1" id="heroLede">Em <b>25 de novembro</b>, o PedeAi chega ao Vale do Araguaia. Os restaurantes que assinarem agora <b>estreiam junto com a plataforma</b>, com comissão zero e as condições exclusivas de Black Friday garantidas.</p>
       <div class="hero-clock rv" style="--i:2" id="bf" hidden aria-live="off"><span class="bf-ends">O preço de Black Friday acaba em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-s>00</b><small>seg</small></span><span class="bf-note">Depois disso, os planos voltam ao preço normal.</span></div>
       <a class="hero-cta rv" style="--i:3" href="#planos" id="heroCta">Ver planos com desconto</a>
     </div>
@@ -437,7 +437,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   </section>
 
   <section class="trust rv" style="--i:6" aria-label="Como funciona">
-    <div><b>Loja pronta no mesmo dia</b><span>Assinou, a nossa equipe monta cardápio, fotos, horários e página da loja no mesmo dia, e ela estreia no lançamento.</span></div>
+    <div><b>Loja pronta no mesmo dia</b><span>Assinou, a nossa equipe monta cardápio, fotos, horários e página da loja no mesmo dia, <span id="trustLaunch">e ela estreia no lançamento.</span></span></div>
     <div><b>Time de marketing a seu favor</b><span>Nossos gestores de tráfego e influenciadores enchem a plataforma de clientes, e eles chegam até a sua loja.</span></div>
     <div><b>Zero taxa de plataforma</b><span>Sem comissão por pedido: o valor de cada venda é 100% seu.</span></div>
     <div><b>Preço garantido</b><span>Se o PedeAi reajustar as mensalidades, você continua pagando o preço do seu plano até o fim dele.</span></div>
@@ -636,6 +636,12 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 
   /* Título com revelação palavra por palavra (vertical cut reveal). */
   var h1 = document.getElementById('title');
+  /* Lançamento da plataforma: antes da data, a copy fala da estreia; depois, que já está no ar. */
+  var LANCAMENTO = '2026-11-25T00:00:00-04:00';
+  if (Date.now() >= Date.parse(LANCAMENTO)) {
+    document.getElementById('heroLede').innerHTML = 'O PedeAi <b>já está no ar</b> no Vale do Araguaia. Assine até 30 de novembro e garanta comissão zero e as <b>condições exclusivas de Black Friday</b>.';
+    document.getElementById('trustLaunch').textContent = 'e ela entra no ar.';
+  }
   if (!promoOn()) {
     h1.textContent = 'Seu restaurante no PedeAi, com zero comissão';
     document.getElementById('heroKicker').textContent = 'Para restaurantes';

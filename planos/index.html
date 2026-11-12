@@ -328,6 +328,17 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 .hero-kicker::before{width:7px;height:7px;box-shadow:0 0 0 3px rgba(229,27,43,.18);animation:kpulse 1.8s ease-in-out infinite}
 @keyframes kpulse{50%{box-shadow:0 0 0 6px rgba(229,27,43,0)}}
 @media (prefers-reduced-motion:reduce){.hero-kicker::before{animation:none}}
+
+/* Cronômetro do topo em destaque (escassez) */
+.hero-clock{justify-content:center;gap:6px;margin-top:22px;padding:16px 14px 14px;border-radius:22px;text-align:center;background:radial-gradient(120% 140% at 50% 0%,#4a0a12 0%,#1a0306 70%);color:#fff;box-shadow:0 18px 40px -16px rgba(120,10,20,.65),0 0 0 1px rgba(255,107,117,.25) inset}
+.hero-clock .bf-ends{width:100%;margin:0 0 8px;font:800 clamp(11.5px,3.4vw,13px) var(--display);letter-spacing:.05em;white-space:nowrap;text-transform:uppercase;color:#ff8a92}
+.hero-clock .bf-t{min-width:0;flex:1 1 0;max-width:84px;padding:10px 4px 8px;border-radius:14px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.14)}
+.hero-clock .bf-t b{font-size:clamp(26px,7.5vw,34px)}
+.hero-clock .bf-t small{font-size:11px;color:#e3c2c6;margin-top:4px}
+.hero-clock b[data-s]{color:#ff6b75}
+.bf-sep{font:800 24px var(--display);color:rgba(255,255,255,.4);align-self:center;margin-top:-14px}
+.bf-note{width:100%;margin-top:10px;font-size:12.5px;color:#d9b9bd}
+@media (max-width:760px){.hero-clock{width:100%}}
 </style>
 </head>
 <body>
@@ -342,7 +353,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
       <p class="hero-kicker rv" style="--i:0" id="heroKicker">Oferta válida até 30 de novembro</p>
       <h1 id="title">Black Friday para parceiros PedeAi</h1>
       <p class="lede rv" style="--i:1" id="heroLede">O PedeAi chegou ao Vale do Araguaia, e com ele a <b>maior Black Friday da nossa história</b>. Sua loja com <b>zero comissão</b>: o cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp.</p>
-      <div class="hero-clock rv" style="--i:2" id="bf" hidden aria-live="off"><span class="bf-ends">A oferta termina em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-t"><b data-s>00</b><small>seg</small></span></div>
+      <div class="hero-clock rv" style="--i:2" id="bf" hidden aria-live="off"><span class="bf-ends">O preço de Black Friday acaba em</span><span class="bf-t"><b data-d>00</b><small>dias</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-h>00</b><small>horas</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-m>00</b><small>min</small></span><span class="bf-sep" aria-hidden="true">:</span><span class="bf-t"><b data-s>00</b><small>seg</small></span><span class="bf-note">Depois disso, os planos voltam ao preço normal.</span></div>
       <a class="hero-cta rv" style="--i:3" href="#planos" id="heroCta">Ver planos com desconto</a>
     </div>
     <figure class="hero-fig rv" style="--i:2">

@@ -40,11 +40,11 @@ no commit `68d138d` (branch de desenvolvimento, não publicado); quando o primei
 ## Programa Embaixador
 O parceiro indica um restaurante. Quando o indicado assinar, o parceiro que indicou paga uma mensalidade e a próxima sai grátis.
 
-## Checkouts (preencher em `PLANS[].checkout` e `PROMO.checkout` de `planos/index.html`)
+## Checkouts Appmax (preencher em `PLANS[].checkout` e `PROMO.checkout` de `planos/index.html`)
 Enquanto o link estiver vazio, o botão abre o WhatsApp comercial (+55 12 93629-0045) com o plano e o período escolhidos.
 
 | Plano | Mensal | Semestral | Anual | Anual Black Friday |
 |---|---|---|---|---|
-| Essencial | _aguardando_ | _aguardando_ | _aguardando_ | _aguardando_ |
+| Essencial | https://pay.finaliza.shop/pl/4d26628c0a | _aguardando_ | _aguardando_ | _aguardando_ |
 | Destaque | _aguardando_ | _aguardando_ | _aguardando_ | _aguardando_ |
 | Premium | _aguardando_ | _aguardando_ | _aguardando_ | _aguardando_ |

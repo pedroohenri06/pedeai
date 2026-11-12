@@ -339,6 +339,24 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 .bf-sep{font:800 24px var(--display);color:rgba(255,255,255,.4);align-self:center;margin-top:-14px}
 .bf-note{width:100%;margin-top:10px;font-size:12.5px;color:#d9b9bd}
 @media (max-width:760px){.hero-clock{width:100%}}
+
+/* Rodapé institucional */
+.foot2{margin-top:48px;background:radial-gradient(120% 140% at 0% 0%,#3a0a10 0%,#140306 70%);color:#e9d3d6}
+.foot2-in{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:28px;padding:40px 0 28px}
+.brand--light b{color:#fff}.brand--light small{color:#c9a7ab}
+.foot2-brand p{margin-top:14px;font-size:14.5px;line-height:1.55;color:#d9bcc0;max-width:36ch}
+.foot2-h{font:800 12px var(--display);letter-spacing:.16em;text-transform:uppercase;color:#ff8a92;margin-bottom:12px}
+.foot2-col{display:flex;flex-direction:column;align-items:flex-start;gap:10px}
+.foot2-col>a:not(.foot2-wa){color:#f3e3e5;text-decoration:none;font-size:15px}
+.foot2-col>a:not(.foot2-wa):hover{color:#fff;text-decoration:underline}
+.foot2-wa{display:flex;align-items:center;gap:12px;padding:12px 16px 12px 12px;border-radius:16px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);color:#fff;text-decoration:none}
+.foot2-wa:hover{background:rgba(255,255,255,.1)}
+.foot2-wa svg{width:38px;height:38px;flex:none;padding:8px;border-radius:50%;background:#25d366;color:#fff}
+.foot2-wa b{display:block;font:800 16px var(--display)}.foot2-wa small{display:block;font-size:12.5px;color:#d9bcc0}
+.foot2-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px 20px;padding:18px 0 28px;border-top:1px solid rgba(255,255,255,.1);font-size:12.5px;color:#b9989c}
+body.has-offerbar{padding-bottom:0}
+body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
+@media (max-width:760px){.foot2-in{grid-template-columns:1fr;gap:26px;padding-top:34px}.foot2-bottom{flex-direction:column;align-items:flex-start}body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 110px)}}
 </style>
 </head>
 <body>
@@ -470,7 +488,29 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
   <details><summary>Posso cancelar?</summary><p>Sim. Em até 7 dias da contratação devolvemos 100% do valor. Depois disso, o plano segue até o fim do período contratado.</p></details>
 </section>
 
-<footer class="wrap foot">Dúvidas? Fale com a nossa equipe comercial: <a href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20os%20planos%20do%20PedeAi." target="_blank" rel="noopener">+55 12 93629-0045</a></footer>
+<footer class="foot2">
+  <div class="wrap foot2-in">
+    <div class="foot2-brand">
+      <a class="brand brand--light" href="/"><span class="brand-box" aria-hidden="true"></span><span><b>PedeAi</b><small>Delivery</small></span></a>
+      <p>A plataforma de delivery do Vale do Araguaia. Cardápio online, pedido direto no WhatsApp e zero comissão.</p>
+    </div>
+    <div class="foot2-col">
+      <p class="foot2-h">Atendimento comercial</p>
+      <a class="foot2-wa" href="https://wa.me/5512936290045?text=Ol%C3%A1!%20Tenho%20d%C3%BAvidas%20sobre%20os%20planos%20do%20PedeAi." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.4 5.1 5.2-1.4A9.9 9.9 0 1 0 12.04 2Zm5.8 14.1c-.25.7-1.45 1.33-2 1.4-.52.08-1.17.11-1.88-.12-.44-.14-.99-.32-1.7-.62-2.98-1.29-4.93-4.29-5.08-4.49-.15-.2-1.21-1.61-1.21-3.07 0-1.47.77-2.19 1.04-2.48.27-.3.6-.37.79-.37h.57c.18 0 .43-.07.67.51.25.6.84 2.06.92 2.21.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.45.52-.15.15-.3.31-.13.6.17.3.77 1.27 1.65 2.06 1.14 1.01 2.1 1.33 2.39 1.48.3.15.47.12.64-.07.17-.2.74-.87.94-1.17.2-.3.4-.25.67-.15.27.1 1.73.82 2.03.97.3.15.5.22.57.35.07.12.07.72-.18 1.42Z"/></svg><span><b>+55 12 93629-0045</b><small>Fale com um consultor no WhatsApp</small></span></a>
+    </div>
+    <nav class="foot2-col" aria-label="Nesta página">
+      <p class="foot2-h">Nesta página</p>
+      <a href="#planos">Planos e preços</a>
+      <a href="#howTitle">Como funciona</a>
+      <a href="#faqTitle">Perguntas frequentes</a>
+      <a href="/">Conhecer o PedeAi</a>
+    </nav>
+  </div>
+  <div class="wrap foot2-bottom">
+    <span>© 2026 PedeAi Delivery. Todos os direitos reservados.</span>
+    <span>Garantia de 7 dias · Zero comissão · Preço garantido</span>
+  </div>
+</footer>
 
 <button type="button" class="wa-float" id="waFloat" aria-expanded="false" aria-controls="waCard" aria-label="Qual plano é ideal para o seu restaurante? Fale com a consultoria comercial">
   <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#fff" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>

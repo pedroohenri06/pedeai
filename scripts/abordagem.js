@@ -75,7 +75,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .when{font-size:11.5px;color:var(--muted);margin-top:6px}
 .acts .fup{background:#fff7e6;border-color:#f0c060;color:#7a4b00;flex:1;justify-content:center}.acts .fup svg{width:18px;height:18px}
 .peak{background:#fff1d6;color:#7a4b00;border-radius:12px;padding:10px 14px;font-weight:600;font-size:13.5px;margin-bottom:12px}
-.tags{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.tag.nm-tag{background:#fde7e9;color:#b3121f}
+.tags{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.tag.nm-tag{background:#fde7e9;color:#b3121f}.tag.ok-tag{background:#e2f5ea;color:#1f8a4c}
 .nomenu{margin-top:8px;padding:8px 12px;border-radius:10px;background:#fff4f4;color:#7d1019;font-size:13px}.nomenu a{color:#b3121f;font-weight:700}
 .acts .copy{flex:1;justify-content:center;background:#f7f2ee}
 .script{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
@@ -95,7 +95,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 </header>
 <main>
   <div class="filters" id="filters" role="group" aria-label="Filtro">
-    <button data-f="todos" aria-pressed="true">Todos</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button><button data-f="semcardapio">Sem cardápio</button>
+    <button data-f="todos" aria-pressed="true">Todos</button><button data-f="carrinho">Carrinho ok</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button><button data-f="semcardapio">Sem cardápio</button>
   </div>
   <p class="peak" id="peak" hidden>Agora é horário de pico dos restaurantes. Prefira enviar das 9h às 11h ou das 14h30 às 17h.</p>
   <details class="msg"><summary>Ver as mensagens (abertura e lembretes)</summary><pre id="msgPreview"></pre></details>
@@ -151,19 +151,20 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     list.forEach(function (s) { var x = status(s.id); if (cnt[x] !== undefined) cnt[x]++; });
     var t = sentToday();
     document.getElementById('stats').innerHTML = '<span><b>' + list.filter(function (s) { return s.w; }).length + '</b> com WhatsApp</span><span><b>' +
-      (cnt.enviado + cnt.respondeu + cnt.fechou + cnt.sem) + '</b> abordados</span><span><b>' + list.filter(function (s) { return !s.m && s.w; }).length + '</b> sem cardápio</span><span><b>' + cnt.respondeu + '</b> responderam</span><span><b>' + cnt.fechou + '</b> fecharam</span>' +
+      (cnt.enviado + cnt.respondeu + cnt.fechou + cnt.sem) + '</b> abordados</span><span><b>' + list.filter(function (s) { return s.o && s.w; }).length + '</b> com carrinho ok</span><span><b>' + list.filter(function (s) { return !s.m && s.w; }).length + '</b> sem cardápio</span><span><b>' + cnt.respondeu + '</b> responderam</span><span><b>' + cnt.fechou + '</b> fecharam</span>' +
       '<span class="today' + (t >= META ? ' over' : '') + '">Hoje: <b>' + t + ' de ' + META + '</b></span>';
   }
   function renderList() {
-    var list = S.filter(function (s) { return s.c === city && (filter === 'todos' || (filter === 'semcardapio' ? !s.m : status(s.id) === filter)); });
-    list.sort(function (a, b) { return (b.w ? 1 : 0) - (a.w ? 1 : 0); });
+    var list = S.filter(function (s) { return s.c === city && (filter === 'todos' || (filter === 'semcardapio' ? !s.m : filter === 'carrinho' ? s.o : status(s.id) === filter)); });
+    var rank = function (s) { return (s.w ? 4 : 0) + (s.o ? 2 : s.m ? 1 : 0); };
+    list.sort(function (a, b) { return rank(b) - rank(a); });
     document.getElementById('list').innerHTML = list.length ? list.map(function (s) {
       var x = status(s.id), rec = st[s.id] || {};
       var send = s.w ? '<a class="send" data-send="' + s.id + '" target="_blank" rel="noopener" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(message(s)) + '">' + WA + (x === 'novo' ? 'Enviar mensagem' : 'Abrir conversa') + '</a>'
         : (s.t ? '<a href="tel:+' + (s.t.length > 11 ? s.t : '55' + s.t) + '">Ligar</a>' : '') + (s.ig ? '<a target="_blank" rel="noopener" href="' + esc(s.ig.indexOf('http') === 0 ? s.ig : 'https://instagram.com/' + s.ig.replace('@', '')) + '">Instagram</a>' : '');
       return '<div class="card st-' + x + '"><div class="top"><div><div class="nm">' + esc(s.n) + '</div><div class="meta">' + esc([s.k, s.b].filter(Boolean).join(' · ')) + (s.w ? '' : ' · sem WhatsApp cadastrado') + '</div></div>' +
-        '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : s.o ? '' : '<span class="tag nm-tag">Confirmar WhatsApp</span>') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
-        (s.m && !s.o && s.w ? '<div class="nomenu"><b>Pedido de teste travado:</b> WhatsApp da loja ainda não confirmado. A apresentação já pede a confirmação; quando o dono confirmar, avise o Claude para liberar.</div>' : '') +
+        '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : s.o ? '<span class="tag ok-tag">✓ Carrinho ok</span>' : '<span class="tag nm-tag">Sem WhatsApp no carrinho</span>') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
+        (s.m && !s.o && s.w ? '<div class="nomenu"><b>Sem WhatsApp no carrinho:</b> o pedido de teste não envia até o dono confirmar o número. A apresentação já pede a confirmação; quando o dono confirmar, avise o Claude para liberar.</div>' : '') +
         (s.m ? '' : '<div class="nomenu"><b>Sem cardápio na plataforma.</b> Na apresentação, mostre um exemplo' + (s.ex ? ': <a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.ex.id + '">' + esc(s.ex.n) + (s.ex.c !== s.c ? ' (' + esc(s.ex.c) + ')' : '') + '</a>' : '') + '.</div>') +
         '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' +
         followBtns(s, x, rec) + (s.w ? '<details class="script" data-script="' + s.id + '"><summary>Script da conversa (já com nome e links)</summary><div class="sc-body"></div></details>' : '') +

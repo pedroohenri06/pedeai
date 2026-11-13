@@ -217,30 +217,81 @@
     return { subtotal: subtotal, fee: fee, feeKnown: feeKnown, total: subtotal + fee };
   }
 
+  /* ---------------- Checkout em 3 etapas: sacola → entrega → pagamento ---------------- */
+  /* Endereço estruturado {street, district, reference}; aceita texto livre antigo (vira a rua). */
+  function normalizeAddress(a) {
+    if (!a) return { street: '', district: '', reference: '' };
+    if (typeof a === 'string') return { street: a.trim(), district: '', reference: '' };
+    return { street: String(a.street || '').trim(), district: String(a.district || '').trim(), reference: String(a.reference || '').trim() };
+  }
+  function formatAddress(a) {
+    a = normalizeAddress(a);
+    return [a.street, a.district ? 'Bairro ' + a.district.replace(/^bairro\s+/i, '') : ''].filter(Boolean).join(', ');
+  }
+  /* "R$ 1.234,56", "100", "50,5" → centavos; texto sem número → null. */
+  function parseBRL(text) {
+    var t = String(text == null ? '' : text).replace(/[^\d,.]/g, '');
+    if (!t) return null;
+    if (t.indexOf(',') > -1) t = t.replace(/\./g, '').replace(',', '.');
+    else if (/\.\d{3}$/.test(t)) t = t.replace(/\./g, '');
+    var v = Number(t);
+    return isFinite(v) && v > 0 ? Math.round(v * 100) : null;
+  }
+  var PAYMENTS = ['Pix', 'Cartão na entrega', 'Dinheiro'];
+  /* Erros por campo da etapa de entrega. {} = pode seguir. */
+  function deliveryErrors(d) {
+    d = d || {}; var e = {}, a = normalizeAddress(d.address);
+    if (!String(d.name || '').trim()) e.name = 'Informe seu nome';
+    if (d.mode !== 'retirada') {
+      if (a.street.length < 3) e.street = 'Informe a rua e o número';
+      else if (!/\d|s\/?n/i.test(a.street)) e.street = 'Inclua o número da casa (ou "s/n")';
+      if (!a.district) e.district = 'Informe o bairro';
+    }
+    return e;
+  }
+  /* Erros da etapa de pagamento. totalCents serve para conferir o troco. */
+  function paymentErrors(d, totalCents) {
+    d = d || {}; var e = {};
+    if (PAYMENTS.indexOf(d.payment) < 0) e.payment = 'Escolha a forma de pagamento';
+    else if (d.payment === 'Dinheiro' && !d.noChange) {
+      var c = parseBRL(d.change);
+      if (c == null) e.change = 'Informe para quanto precisa de troco, ou marque que não precisa';
+      else if (totalCents && c < totalCents) e.change = 'O troco precisa ser maior que o total (' + formatBRL(totalCents) + ')';
+    }
+    return e;
+  }
+
   function buildOrderMessage(store, cart, details) {
     details = details || {};
     var mode = details.mode === 'retirada' ? 'retirada' : 'entrega';
-    var t = cartTotals(cart, store, mode);
-    var out = ['Olá, ' + store.name + '! Gostaria de fazer um pedido pelo PedeAi Delivery:', ''];
+    var t = cartTotals(cart, store, mode), a = normalizeAddress(details.address);
+    var out = ['Olá, ' + store.name + '! Gostaria de fazer um pedido pelo PedeAi Delivery:', '', '*Pedido*'];
     cart.lines.forEach(function (l) {
       out.push(l.qty + 'x ' + l.name + ' — ' + formatBRL(l.unitCents * l.qty));
       (l.choices || []).forEach(function (c) { out.push('   • ' + c.group + ': ' + c.name + (c.priceCents ? ' (+' + formatBRL(c.priceCents) + ')' : '')); });
       if (l.note) out.push('   Obs.: ' + l.note);
     });
+    if (details.notes && details.notes.trim()) out.push('Observações: ' + details.notes.trim());
     out.push('');
     out.push('Subtotal: ' + formatBRL(t.subtotal));
     if (mode === 'entrega') {
       out.push(t.feeKnown ? 'Taxa de entrega: ' + formatBRL(t.fee) : 'Taxa de entrega: a combinar');
-      out.push((t.feeKnown ? 'Total: ' : 'Total (sem taxa de entrega): ') + formatBRL(t.total));
+      out.push((t.feeKnown ? '*Total: ' : '*Total (sem taxa de entrega): ') + formatBRL(t.total) + '*');
     } else {
-      out.push('Total: ' + formatBRL(t.total));
+      out.push('*Total: ' + formatBRL(t.total) + '*');
     }
     out.push('');
-    out.push(mode === 'retirada' ? 'Forma de recebimento: retirada no local' : 'Forma de recebimento: entrega');
+    out.push(mode === 'retirada' ? '*Retirada no local*' : '*Entrega*');
     if (details.name) out.push('Nome: ' + details.name.trim());
-    if (mode === 'entrega' && details.address) out.push('Endereço: ' + details.address.trim());
-    if (details.payment) out.push('Pagamento: ' + details.payment + (details.payment === 'Dinheiro' && details.change ? ' (troco para ' + details.change.trim() + ')' : ''));
-    if (details.notes) out.push('Observações: ' + details.notes.trim());
+    if (mode === 'entrega' && (a.street || a.district)) {
+      out.push('Endereço: ' + formatAddress(a));
+      if (a.reference) out.push('Referência: ' + a.reference);
+    }
+    if (details.payment) {
+      var change = details.payment === 'Dinheiro' ? (details.noChange ? ' (não precisa de troco)' : parseBRL(details.change) ? ' (troco para ' + formatBRL(parseBRL(details.change)) + ')' : '') : '';
+      out.push('');
+      out.push('*Pagamento:* ' + details.payment + change);
+    }
     out.push('');
     out.push('Valores conforme o cardápio publicado; aguardo a confirmação de preços e disponibilidade.');
     return out.join('\n');
@@ -265,6 +316,8 @@
     emptyCart: emptyCart, addItem: addItem, setQty: setQty, reconcileCart: reconcileCart, itemQty: itemQty,
     validateSelection: validateSelection, unitPrice: unitPrice, lineKey: lineKey,
     cartCount: cartCount, cartTotals: cartTotals, buildOrderMessage: buildOrderMessage,
+    normalizeAddress: normalizeAddress, formatAddress: formatAddress, parseBRL: parseBRL, PAYMENTS: PAYMENTS,
+    deliveryErrors: deliveryErrors, paymentErrors: paymentErrors,
     whatsappUrl: whatsappUrl, parseRoute: parseRoute
   };
 });

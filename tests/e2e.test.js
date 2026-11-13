@@ -170,15 +170,39 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.match(await page.textContent('#cartBar'), /4.*R\$ 255,80/);
     });
 
-    await t.test('valida dados e envia para o WhatsApp do estabelecimento', async () => {
+    await t.test('checkout em 3 etapas valida cada passo e envia para o WhatsApp do estabelecimento', async () => {
       await page.click('#cartBar');
+      assert.equal(await page.textContent('#cartTitle'), 'Sacola');
       assert.match(await page.textContent('#cartLines'), /Grande \(8 fatias\)[\s\S]*Bacon[\s\S]*Obs\.: bem assada/);
+      assert.match(await page.textContent('#cartSend'), /Continuar · R\$ 255,80/);
+      await page.fill('#cartNotes', 'mandar sachês');
+      await page.click('#cartSend');
+      assert.equal(await page.textContent('#cartTitle'), 'Entrega');
+      assert.equal(await page.isVisible('#cartBack'), true);
       await page.fill('#cartName', '');
+      await page.fill('#cartStreet', '');
       await page.click('#cartSend');
       assert.equal(await page.evaluate(() => document.activeElement.id), 'cartName');
+      assert.match(await page.textContent('#errName'), /Informe seu nome/);
+      assert.match(await page.textContent('#errDistrict'), /bairro/);
       await page.fill('#cartName', 'Maria');
-      await page.fill('#cartAddress', 'Rua das Flores, 10');
-      await page.selectOption('#cartPayment', 'Dinheiro');
+      await page.fill('#cartStreet', 'Rua das Flores');
+      await page.fill('#cartDistrict', 'Centro');
+      await page.click('#cartSend');
+      assert.match(await page.textContent('#errStreet'), /número/);
+      await page.fill('#cartStreet', 'Rua das Flores, 10');
+      await page.fill('#cartRef', 'casa azul');
+      await page.click('#cartSend');
+      assert.equal(await page.textContent('#cartTitle'), 'Pagamento');
+      assert.match(await page.textContent('#cartReview'), /Maria · Rua das Flores, 10, Bairro Centro \(casa azul\)/);
+      await page.goBack();
+      assert.equal(await page.textContent('#cartTitle'), 'Entrega', 'voltar do aparelho volta uma etapa, sem fechar a sacola');
+      await page.click('#cartSend');
+      assert.equal(await page.textContent('#cartTitle'), 'Pagamento');
+      await page.click('#cartPay label:has(input[value="Dinheiro"])');
+      await page.fill('#cartChange', '200');
+      await page.click('#cartSend');
+      assert.match(await page.textContent('#errChange'), /maior que o total/);
       await page.fill('#cartChange', 'R$ 300');
       await page.evaluate(() => { window.open = url => { window.__opened = url; }; });
       await page.click('#cartSend');
@@ -187,9 +211,10 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       const text = decodeURIComponent(href.split('text=')[1]);
       assert.match(text, /2x Calabresa G — R\$ 119,80/);
       assert.match(text, /2x Pizza Monte a Sua — R\$ 136,00\n   • Tamanho: Grande \(8 fatias\) \(\+R\$ 15,00\)\n   • Adicionais: Bacon \(\+R\$ 5,00\)\n   • Adicionais: Borda recheada \(\+R\$ 8,00\)\n   Obs\.: bem assada/);
+      assert.match(text, /Observações: mandar sachês/);
       assert.match(text, /Subtotal: R\$ 255,80/);
-      assert.match(text, /Nome: Maria/);
-      assert.match(text, /troco para R\$ 300/);
+      assert.match(text, /Nome: Maria\nEndereço: Rua das Flores, 10, Bairro Centro\nReferência: casa azul/);
+      assert.match(text, /\*Pagamento:\* Dinheiro \(troco para R\$ 300,00\)/);
       await page.keyboard.press('Escape');
     });
 

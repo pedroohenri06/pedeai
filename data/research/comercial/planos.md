@@ -24,7 +24,7 @@ sem link a partir do site; o Pedro envia o endereço aos restaurantes. Ao mudar 
 | Aquisição de clientes: gestores de tráfego pago e influenciadores regionais (para a plataforma) | ✓ | ✓ | ✓ |
 | Cardápio estruturado pela equipe (o restaurante envia as fotos; nós fazemos design, categorias, tamanhos, adicionais e combos) | ✓ | ✓ | ✓ |
 | Kit de divulgação da equipe de design (QR Code, story, status, feed): `node scripts/kit-parceiro.js <id>` | ✓ | ✓ | ✓ |
-| QR Code de avaliação no Google · cardápio em PDF · link para a bio | ✓ | ✓ | ✓ |
+| Cardápio em PDF · link para a bio | ✓ | ✓ | ✓ |
 | Atualizações de cardápio/preço | 2 por mês | ilimitadas | ilimitadas |
 | Entre as primeiras da cidade · selo de Parceiro Verificado · carrossel · promoções de/por | – | ✓ | ✓ |
 | Posts mensais para o Instagram (equipe de design) | – | 4 | 8 |

@@ -68,7 +68,7 @@
     var c = ['<span class="sp-chip">' + esc(s.category) + '</span>', '<span class="sp-chip">' + icon(I.pin) + esc(s.city) + '</span>'];
     if (C.canOrder(s)) c.push('<span class="sp-chip sp-chip--on">Pedido online</span>');
     else if (C.menuSize(s)) c.push('<span class="sp-chip">' + C.menuSize(s) + (C.menuSize(s) === 1 ? ' item' : ' itens') + ' no cardápio</span>');
-    if (s.confidence === 'baixa') c.push('<span class="sp-chip sp-chip--muted">Em verificação</span>');
+    /* O nível de confiança do cadastro é só interno: não aparece para o consumidor. */
     return '<div class="sp-chips">' + c.join('') + '</div>';
   }
 

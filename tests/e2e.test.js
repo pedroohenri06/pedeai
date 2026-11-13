@@ -228,7 +228,7 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.equal(await page.locator('.store-warning').count(), 0, 'estado interno de cadastro não aparece para o consumidor');
       assert.equal(await page.locator('.sp-source').count(), 0, 'sem aviso de origem dos preços');
       assert.equal(await page.locator('.sp-about').count(), 0, 'sem bloco de origem das informações');
-      assert.doesNotMatch(await page.textContent('#storePage'), /fontes públicas|ifood|aiqfome/i);
+      assert.doesNotMatch(await page.textContent('#storePage'), /fontes públicas|ifood|aiqfome|Em verificação/i);
       assert.equal(await page.locator('.sp-hero--empty').count(), 1, 'sem foto: capa tipográfica, sem imagem inventada');
       await page.keyboard.press('Escape');
     });

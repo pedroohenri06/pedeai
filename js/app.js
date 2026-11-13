@@ -87,7 +87,7 @@
     if (rail) rail.hidden = true;
   }
 
-  /* Nos cards, só o aviso de cadastro em verificação; contatos e pedido ficam na página da loja. */
+  /* Nos cards não há selo de estado do cadastro; contatos e pedido ficam na página da loja. */
   function badgeOf(s) {
     return ''; /* estado interno de cadastro não aparece para o consumidor */
   }

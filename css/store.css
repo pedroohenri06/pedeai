@@ -633,3 +633,56 @@ body.store-open .bottom-nav{display:none}
 .cart-note[hidden]{display:none}
 .cart-drawer.is-empty .ck-more{display:none}
 @media (prefers-reduced-motion:reduce){.ck-steps button span{transition:none}}
+
+/* ---------------- Checkout: acabamento (mobile primeiro) ---------------- */
+.cart-panel{background:#f7f2ee}
+.cart-head{gap:10px;padding:16px 16px 12px;background:var(--paper)}
+.ck-avatar{width:44px;height:44px;flex:none;border-radius:14px;overflow:hidden;background:var(--red);color:#fff;display:grid;place-items:center;box-shadow:0 6px 16px -8px rgba(51,8,14,.45)}
+.ck-avatar img{width:100%;height:100%;object-fit:cover}.ck-avatar b{font:800 18px 'Montserrat',var(--sans)}
+.cart-back{width:40px;height:40px;border-radius:12px}
+.cart-close{width:40px;height:40px;border-radius:12px}
+.cart-head h2{font-size:20px;line-height:1.1}
+.cart-sub{margin-top:2px;font-size:12.5px}
+.ck-steps{background:var(--paper);padding:2px 16px 12px;border-bottom:1px solid var(--line);gap:0}
+.ck-steps li::after{display:none}
+.ck-steps li::before{content:"";position:absolute;top:12px;left:-50%;right:50%;height:2px;background:#e9dfd9;z-index:0}
+.ck-steps li:first-child::before{display:none}
+.ck-steps li.is-done::before,.ck-steps li.is-current::before{background:var(--red)}
+.ck-steps button{position:relative;z-index:1;gap:4px;padding:0;font-size:11.5px}
+.ck-steps button span{width:26px;height:26px;font-size:12px;border:2px solid #e9dfd9;background:var(--paper)}
+.ck-steps li.is-current button span{border-color:var(--red);background:var(--red)}
+.ck-steps li.is-done button span{border-color:var(--red);background:var(--red);color:transparent;position:relative}
+.ck-steps li.is-done button span::after{content:"";position:absolute;width:6px;height:11px;border:solid #fff;border-width:0 2.5px 2.5px 0;transform:rotate(45deg) translate(-1px,-1px)}
+.cart-scroll{padding:14px 16px 18px}
+.ck-sec{font:800 13px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin:2px 2px 8px}
+.ck-sec span{text-transform:none;letter-spacing:0;font-weight:600}
+.cart-lines{background:#fff;border:1px solid var(--line);border-radius:18px;padding:0 14px}
+.cart-line{display:flex;gap:12px;padding:14px 0}
+.cart-line:last-child{border-bottom:0}
+.cart-line-body{flex:1;min-width:0}
+.cart-thumb{width:56px;height:56px;flex:none;border-radius:12px;object-fit:cover;background:#f1e9e3}
+.cart-line-top strong{font-size:14.5px}
+.cart-line b{font-size:14.5px}
+.cart-empty{background:none}
+.ck-more{background:#fff;border-style:solid;border-color:var(--line);height:48px;margin-top:10px;border-radius:14px}
+.cart-field{margin-top:14px;font-size:13.5px}
+.cart-field>span:first-child{display:block}
+.ck-req{font-style:normal;color:var(--red);font-weight:800}
+.ck-req-note{font-size:12px;color:var(--muted);margin:0 2px 4px}
+.cart-field input,.cart-field select,.cart-field textarea{background:#fff!important;border-radius:14px;font-size:16px}
+.cart-field input:focus,.cart-field textarea:focus{outline:none;border-color:var(--red);box-shadow:0 0 0 3px rgba(229,27,43,.14)}
+.cart-mode span{background:#fff!important}
+.cart-mode input:checked+span{background:#fde9ea!important}
+.ck-pay span{background:#fff}
+.ck-pay input:checked+span{background:#fff5f5;box-shadow:0 0 0 1px var(--red) inset}
+.ck-pickup,.ck-review{background:#fff;border:1px solid var(--line)}
+.cart-totals{margin-top:16px;padding:14px;background:#fff;border:1px solid var(--line);border-radius:18px}
+.cart-total{font-size:16px}
+.cart-foot{background:var(--paper);padding:10px 16px max(14px,env(safe-area-inset-bottom));box-shadow:0 -10px 24px -18px rgba(51,8,14,.35)}
+.cart-note{margin-bottom:8px}
+.ck-foot-row{display:flex;align-items:center;gap:12px}
+.ck-foot-total{display:grid;line-height:1.15;flex:none;min-width:96px}
+.ck-foot-total span{font-size:11.5px;color:var(--muted);font-weight:600}
+.ck-foot-total b{font:800 20px 'Montserrat',var(--sans);letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.cart-foot .order-btn{flex:1;height:52px;font-size:15px;gap:8px}
+.cart-drawer.is-empty .ck-sec{display:none}

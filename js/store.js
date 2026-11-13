@@ -716,11 +716,15 @@
   function renderCart() {
     var s = state.store, t = C.cartTotals(state.cart, s, state.mode), ordering = C.canOrder(s), lines = $('cartLines');
     $('cartStore').textContent = s.name;
+    $('cartAvatar').innerHTML = s.logo ? '<img src="' + esc(s.logo.tile || s.logo.thumb || s.logo.src) + '" alt="" width="44" height="44" decoding="async">' : '<b>' + esc((s.name || '?').trim().charAt(0).toUpperCase()) + '</b>';
+    var count = C.cartCount(state.cart);
+    $('cartCount').textContent = count ? '· ' + count + (count === 1 ? ' item' : ' itens') : '';
     lines.innerHTML = state.cart.lines.length ? state.cart.lines.map(function (l) {
-      return '<li class="cart-line"><div class="cart-line-top"><strong><span class="cart-qty">' + l.qty + '×</span> ' + esc(l.name) + '</strong><span class="sp-leader" aria-hidden="true"></span><b>' + C.formatBRL(l.unitCents * l.qty) + '</b></div>' +
+      var it = findItem(l.itemId), th = it && thumbOf(it);
+      return '<li class="cart-line' + (th ? ' has-thumb' : '') + '">' + (th ? '<img class="cart-thumb" src="' + esc(th) + '" alt="" width="56" height="56" loading="lazy" decoding="async">' : '') + '<div class="cart-line-body"><div class="cart-line-top"><strong><span class="cart-qty">' + l.qty + '×</span> ' + esc(l.name) + '</strong><span class="sp-leader" aria-hidden="true"></span><b>' + C.formatBRL(l.unitCents * l.qty) + '</b></div>' +
         ((l.choices || []).length ? '<ul class="cart-line-opts">' + l.choices.map(function (c) { return '<li>' + esc(c.name) + (c.priceCents ? ' <span>+ ' + C.formatBRL(c.priceCents) + '</span>' : '') + '</li>'; }).join('') + '</ul>' : '') +
         (l.note ? '<p class="cart-line-note">Obs.: ' + esc(l.note) + '</p>' : '') +
-        '<div class="cart-line-ctrl"><span>' + C.formatBRL(l.unitCents) + ' cada</span><div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div></div></li>';
+        '<div class="cart-line-ctrl"><span>' + C.formatBRL(l.unitCents) + ' cada</span><div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div></div></div></li>';
     }).join('') : '<li class="cart-empty"><span>' + icon(I.bag) + '</span><strong>Seu pedido está vazio</strong><p>Toque em + nos itens do cardápio para começar.</p><button type="button" class="sp-btn sp-btn--ghost" data-cart-close>Voltar ao cardápio</button></li>';
     lines.querySelectorAll('[data-key]').forEach(function (b) {
       b.onclick = function () {
@@ -746,7 +750,7 @@
   }
 
   /* ---------------- Checkout em 3 etapas: sacola → entrega → pagamento ---------------- */
-  var STEP_TITLES = { 1: 'Sacola', 2: 'Entrega', 3: 'Pagamento' };
+  var STEP_TITLES = { 1: 'Pedido', 2: 'Entrega', 3: 'Pagamento' };
   function val(id) { return ($(id).value || '').trim(); }
   function payment() { var r = drawer.querySelector('[name="payment"]:checked'); return r ? r.value : ''; }
   function delivery() { return { mode: state.mode, name: val('cartName'), address: { street: val('cartStreet'), district: val('cartDistrict'), reference: val('cartRef') } }; }
@@ -797,12 +801,14 @@
       $('cartChangeField').hidden = !cash;
       $('cartChange').disabled = $('cartNoChange').checked;
       $('cartReview').innerHTML = '<p class="ck-review-h">Confira seu pedido</p>' +
-        '<div class="ck-review-row"><span>' + icon(I.bag) + '<b>' + C.cartCount(state.cart) + (C.cartCount(state.cart) === 1 ? ' item' : ' itens') + '</b> · ' + C.formatBRL(t.subtotal) + '</span><button type="button" data-go-step="1">Alterar</button></div>' +
-        '<div class="ck-review-row"><span>' + icon(I.pin) + (state.mode === 'retirada' ? '<b>Retirada no local</b> · ' + esc(d.name) : '<b>' + esc(d.name) + '</b> · ' + esc(C.formatAddress(d.address)) + (d.address.reference ? ' (' + esc(d.address.reference) + ')' : '')) + '</span><button type="button" data-go-step="2">Alterar</button></div>';
+        '<div class="ck-review-row"><span>' + icon(I.bag) + '<span><b>' + C.cartCount(state.cart) + (C.cartCount(state.cart) === 1 ? ' item' : ' itens') + '</b> · ' + C.formatBRL(t.subtotal) + '</span></span><button type="button" data-go-step="1">Alterar</button></div>' +
+        '<div class="ck-review-row"><span>' + icon(I.pin) + '<span>' + (state.mode === 'retirada' ? '<b>Retirada no local</b> · ' + esc(d.name) : '<b>' + esc(d.name) + '</b> · ' + esc(C.formatAddress(d.address)) + (d.address.reference ? ' (' + esc(d.address.reference) + ')' : '')) + '</span></span><button type="button" data-go-step="2">Alterar</button></div>';
     }
     var send = $('cartSend');
     send.disabled = !has || (n === 1 && !ordering);
-    send.innerHTML = n === 3 ? WA_LOGO + 'Enviar pedido · ' + C.formatBRL(t.total) : n === 2 ? 'Ir para o pagamento' : 'Continuar · ' + C.formatBRL(t.total);
+    send.innerHTML = n === 3 ? WA_LOGO + 'Enviar pedido' : n === 2 ? 'Ir para pagamento' : 'Continuar';
+    $('cartFootTotal').textContent = C.formatBRL(t.total);
+    $('cartFootLabel').textContent = t.feeKnown || state.mode === 'retirada' ? 'Total' : 'Total sem entrega';
     $('cartNote').textContent = !ordering ? 'Pedido online indisponível: o WhatsApp deste estabelecimento ainda não foi verificado. Use os contatos da página para confirmar o pedido.'
       : n === 3 ? 'O pedido abre pronto no WhatsApp de ' + s.name + ', ' + C.formatPhone(s.whatsapp) + '. O pagamento é feito diretamente para a loja.'
       : n === 2 ? 'Seus dados ficam salvos neste aparelho para os próximos pedidos.' : '';

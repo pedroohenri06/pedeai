@@ -172,9 +172,10 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
 
     await t.test('checkout em 3 etapas valida cada passo e envia para o WhatsApp do estabelecimento', async () => {
       await page.click('#cartBar');
-      assert.equal(await page.textContent('#cartTitle'), 'Sacola');
+      assert.equal(await page.textContent('#cartTitle'), 'Pedido');
       assert.match(await page.textContent('#cartLines'), /Grande \(8 fatias\)[\s\S]*Bacon[\s\S]*Obs\.: bem assada/);
-      assert.match(await page.textContent('#cartSend'), /Continuar · R\$ 255,80/);
+      assert.equal(await page.textContent('#cartSend'), 'Continuar');
+      assert.equal(await page.textContent('#cartFootTotal'), 'R$ 255,80');
       await page.fill('#cartNotes', 'mandar sachês');
       await page.click('#cartSend');
       assert.equal(await page.textContent('#cartTitle'), 'Entrega');

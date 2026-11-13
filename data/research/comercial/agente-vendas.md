@@ -63,6 +63,10 @@ O botão "Copiar apresentação" da página já entrega a mensagem certa para ca
 tabela, perguntar algo que não está nas instruções, ou estiver pronto para fechar e quiser falar com alguém.
 
 ## Como usar hoje (sem custo)
+**Atalho na página /abordagem:** cada loja tem o "Script da conversa" com todas as mensagens deste fluxo já com o
+nome da loja, a cidade, o link do cardápio (ou do exemplo, quando a loja não tem cardápio) e os links de pagamento.
+Cada mensagem tem "Copiar" e "Enviar no WhatsApp". "Respondeu SAIR" marca a loja como sem interesse.
+
 1. **Abertura e lembretes:** página https://www.pedeaionline.com.br/abordagem (1 toque por loja, contador do dia).
 2. **Respostas:** Projeto no Claude (claude.ai) chamado "Vendas PedeAi", com o bloco abaixo em "Instruções do projeto".
    Para cada resposta de um restaurante, cole o nome da loja, a cidade e a mensagem dele; o Claude devolve a próxima

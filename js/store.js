@@ -8,7 +8,7 @@
   var motion = matchMedia('(prefers-reduced-motion: reduce)');
   var behavior = function () { return motion.matches ? 'instant' : 'smooth'; };
 
-  var state = { store: null, cart: null, mode: 'entrega', lastFocus: null, sheet: null, observers: [], loading: {} };
+  var state = { store: null, cart: null, mode: 'entrega', step: 1, lastFocus: null, sheet: null, observers: [], loading: {} };
 
   function readStorage(k) { try { return localStorage.getItem(k); } catch (e) { return null; } }
   function writeStorage(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch (e) { /* armazenamento indisponível */ } }
@@ -537,14 +537,8 @@
       return '<li><span><b>' + l.qty + '×</b> ' + esc(l.name) + '</span><span>' + C.formatBRL(l.unitCents * l.qty) + '</span></li>';
     }).join('') + '</ul><p class="sp-order-total"><span>Subtotal</span><strong>' + C.formatBRL(t.subtotal) + '</strong></p>' +
       '<div class="sp-order-mode" role="group" aria-label="Como você quer receber?"><button type="button" data-mode="entrega" aria-pressed="' + !pickup + '">Entrega</button><button type="button" data-mode="retirada" aria-pressed="' + pickup + '">Retirar no local</button></div>' +
-      (pickup ? '' : '<label class="sp-order-field"><span>Endereço de entrega</span><textarea id="spAddress" rows="2" maxlength="200" autocomplete="street-address" placeholder="Rua, número, bairro e ponto de referência…"></textarea></label>') +
       '<button class="sp-order-cta" type="button" data-order-finish>' + (ordering ? WA_LOGO + 'Finalizar no WhatsApp' : 'Revisar pedido') + '<strong>' + C.formatBRL(t.total) + '</strong></button>' +
-      '<p class="sp-order-note">' + (ordering ? 'Na próxima etapa você confirma nome e forma de pagamento. Depois, o pedido abre pronto no WhatsApp de ' + esc(s.name) + '.' : 'O envio pelo WhatsApp é liberado quando o estabelecimento confirmar o número.') + '</p>';
-    var addr = $('spAddress');
-    if (addr) {
-      addr.value = $('cartAddress').value;
-      addr.oninput = function () { $('cartAddress').value = addr.value; };
-    }
+      '<p class="sp-order-note">' + (ordering ? 'Em 3 passos rápidos (sacola, entrega e pagamento) o pedido abre pronto no WhatsApp de ' + esc(s.name) + '.' : 'O envio pelo WhatsApp é liberado quando o estabelecimento confirmar o número.') + '</p>';
     box.querySelectorAll('[data-mode]').forEach(function (b) {
       b.onclick = function () { state.mode = b.dataset.mode; renderQty(false); };
     });
@@ -596,7 +590,10 @@
     if (layerPop) { layerPop = false; return true; }
     var layer = history.state && history.state.pedeaiLayer;
     if ($('spSheet') && $('spSheet').classList.contains('open') && layer !== 'sheet') { closeSheet(true, true); return true; }
-    if (drawer.classList.contains('open') && layer !== 'cart') { closeCart(undefined, true); return true; }
+    if (drawer.classList.contains('open') && layer !== 'cart') {
+      if (state.step > 1) { goStep(state.step - 1); pushLayer('cart'); return true; }
+      closeCart(undefined, true); return true;
+    }
     return false;
   }
 
@@ -699,6 +696,8 @@
 
   /* ---------------- Sacola ---------------- */
   function openCart() {
+    state.step = 1;
+    clearErrors();
     renderCart();
     pushLayer('cart');
     drawer.classList.add('open');
@@ -717,11 +716,15 @@
   function renderCart() {
     var s = state.store, t = C.cartTotals(state.cart, s, state.mode), ordering = C.canOrder(s), lines = $('cartLines');
     $('cartStore').textContent = s.name;
+    $('cartAvatar').innerHTML = s.logo ? '<img src="' + esc(s.logo.tile || s.logo.thumb || s.logo.src) + '" alt="" width="44" height="44" decoding="async">' : '<b>' + esc((s.name || '?').trim().charAt(0).toUpperCase()) + '</b>';
+    var count = C.cartCount(state.cart);
+    $('cartCount').textContent = count ? '· ' + count + (count === 1 ? ' item' : ' itens') : '';
     lines.innerHTML = state.cart.lines.length ? state.cart.lines.map(function (l) {
-      return '<li class="cart-line"><div class="cart-line-top"><strong><span class="cart-qty">' + l.qty + '×</span> ' + esc(l.name) + '</strong><span class="sp-leader" aria-hidden="true"></span><b>' + C.formatBRL(l.unitCents * l.qty) + '</b></div>' +
+      var it = findItem(l.itemId), th = it && thumbOf(it);
+      return '<li class="cart-line' + (th ? ' has-thumb' : '') + '">' + (th ? '<img class="cart-thumb" src="' + esc(th) + '" alt="" width="56" height="56" loading="lazy" decoding="async">' : '') + '<div class="cart-line-body"><div class="cart-line-top"><strong><span class="cart-qty">' + l.qty + '×</span> ' + esc(l.name) + '</strong><span class="sp-leader" aria-hidden="true"></span><b>' + C.formatBRL(l.unitCents * l.qty) + '</b></div>' +
         ((l.choices || []).length ? '<ul class="cart-line-opts">' + l.choices.map(function (c) { return '<li>' + esc(c.name) + (c.priceCents ? ' <span>+ ' + C.formatBRL(c.priceCents) + '</span>' : '') + '</li>'; }).join('') + '</ul>' : '') +
         (l.note ? '<p class="cart-line-note">Obs.: ' + esc(l.note) + '</p>' : '') +
-        '<div class="cart-line-ctrl"><span>' + C.formatBRL(l.unitCents) + ' cada</span><div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div></div></li>';
+        '<div class="cart-line-ctrl"><span>' + C.formatBRL(l.unitCents) + ' cada</span><div class="sp-stepper sp-stepper--sm" role="group" aria-label="Quantidade de ' + esc(l.name) + '"><button type="button" data-key="' + esc(l.key) + '" data-delta="-1" aria-label="' + (l.qty === 1 ? 'Remover ' : 'Diminuir ') + esc(l.name) + '">' + icon(l.qty === 1 ? I.close : I.minus) + '</button><output>' + l.qty + '</output><button type="button" data-key="' + esc(l.key) + '" data-delta="1" aria-label="Aumentar ' + esc(l.name) + '"' + (l.qty >= C.MAX_QTY ? ' disabled' : '') + '>' + icon(I.plus) + '</button></div></div></div></li>';
     }).join('') : '<li class="cart-empty"><span>' + icon(I.bag) + '</span><strong>Seu pedido está vazio</strong><p>Toque em + nos itens do cardápio para começar.</p><button type="button" class="sp-btn sp-btn--ghost" data-cart-close>Voltar ao cardápio</button></li>';
     lines.querySelectorAll('[data-key]').forEach(function (b) {
       b.onclick = function () {
@@ -740,36 +743,117 @@
     $('cartTotal').textContent = C.formatBRL(t.total);
     $('cartTotalLabel').textContent = t.feeKnown ? 'Total' : 'Total sem entrega';
     $('cartAddressField').hidden = state.mode === 'retirada';
-    $('cartChangeField').hidden = $('cartPayment').value !== 'Dinheiro';
     drawer.querySelectorAll('[name="cartMode"]').forEach(function (r) { r.checked = r.value === state.mode; });
     drawer.classList.toggle('is-empty', !state.cart.lines.length);
+    if (!state.cart.lines.length) state.step = 1;
+    renderStep();
+  }
+
+  /* ---------------- Checkout em 3 etapas: sacola → entrega → pagamento ---------------- */
+  var STEP_TITLES = { 1: 'Pedido', 2: 'Entrega', 3: 'Pagamento' };
+  function val(id) { return ($(id).value || '').trim(); }
+  function payment() { var r = drawer.querySelector('[name="payment"]:checked'); return r ? r.value : ''; }
+  function delivery() { return { mode: state.mode, name: val('cartName'), address: { street: val('cartStreet'), district: val('cartDistrict'), reference: val('cartRef') } }; }
+  function pay() { return { payment: payment(), change: val('cartChange'), noChange: $('cartNoChange').checked }; }
+  var ERR = { name: 'errName', street: 'errStreet', district: 'errDistrict', payment: 'errPayment', change: 'errChange' };
+  var FIELD = { name: 'cartName', street: 'cartStreet', district: 'cartDistrict', payment: 'cartPay', change: 'cartChange' };
+  function clearErrors() { Object.keys(ERR).forEach(function (k) { $(ERR[k]).textContent = ''; var f = $(FIELD[k]); if (f) f.removeAttribute('aria-invalid'); }); }
+  function showErrors(e) {
+    clearErrors();
+    var first = null;
+    Object.keys(e).forEach(function (k) { $(ERR[k]).textContent = e[k]; var f = $(FIELD[k]); if (f) { f.setAttribute('aria-invalid', 'true'); if (!first) first = f; } });
+    if (first) { (first.matches('fieldset') ? first.querySelector('input') : first).focus(); first.scrollIntoView({ block: 'center', behavior: 'smooth' }); }
+    return !first;
+  }
+  function saveCustomer() {
+    var d = delivery();
+    writeStorage('pedeai-customer', JSON.stringify({ name: d.name, street: d.address.street, district: d.address.district, reference: d.address.reference, payment: payment() }));
+  }
+  function goStep(n) {
+    state.step = n;
+    clearErrors();
+    renderStep();
+    $('cartScroll').scrollTop = 0;
+    $('cartTitle').focus({ preventScroll: true });
+  }
+  function renderStep() {
+    var s = state.store, n = state.step, ordering = C.canOrder(s), has = state.cart.lines.length, t = C.cartTotals(state.cart, s, state.mode);
+    $('cartTitle').textContent = STEP_TITLES[n];
+    $('cartBack').hidden = n === 1;
+    drawer.querySelectorAll('.ck-step').forEach(function (sec) { sec.hidden = Number(sec.dataset.step) !== n; });
+    drawer.querySelectorAll('#ckSteps li').forEach(function (li) {
+      var k = Number(li.dataset.go);
+      li.className = k < n ? 'is-done' : k === n ? 'is-current' : '';
+      li.querySelector('button').disabled = k >= n;
+      if (k === n) li.setAttribute('aria-current', 'step'); else li.removeAttribute('aria-current');
+    });
+    $('ckSteps').hidden = !has;
+    if (n === 2) {
+      var pickup = state.mode === 'retirada';
+      $('cartPickup').hidden = !pickup;
+      if (pickup) $('cartPickup').innerHTML = icon(I.pin) + '<div><b>Retire em ' + esc(s.name) + '</b><span>' + esc(s.address ? s.address + ' · ' + s.city : s.city + ', MT') + '</span></div>';
+      var eta = S.deliveryEstimate(s);
+      $('cartEta').hidden = pickup || !eta;
+      if (eta && !pickup) $('cartEta').innerHTML = icon(I.clock) + 'Previsão de entrega: <b>' + esc(eta.label) + '</b>';
+    }
+    if (n === 3) {
+      var d = delivery(), cash = payment() === 'Dinheiro';
+      $('cartChangeField').hidden = !cash;
+      $('cartChange').disabled = $('cartNoChange').checked;
+      $('cartReview').innerHTML = '<p class="ck-review-h">Confira seu pedido</p>' +
+        '<div class="ck-review-row"><span>' + icon(I.bag) + '<span><b>' + C.cartCount(state.cart) + (C.cartCount(state.cart) === 1 ? ' item' : ' itens') + '</b> · ' + C.formatBRL(t.subtotal) + '</span></span><button type="button" data-go-step="1">Alterar</button></div>' +
+        '<div class="ck-review-row"><span>' + icon(I.pin) + '<span>' + (state.mode === 'retirada' ? '<b>Retirada no local</b> · ' + esc(d.name) : '<b>' + esc(d.name) + '</b> · ' + esc(C.formatAddress(d.address)) + (d.address.reference ? ' (' + esc(d.address.reference) + ')' : '')) + '</span></span><button type="button" data-go-step="2">Alterar</button></div>';
+    }
     var send = $('cartSend');
-    send.disabled = !ordering || !state.cart.lines.length;
-    $('cartNote').textContent = ordering ? 'O pedido será enviado para o WhatsApp de ' + s.name + ' (' + C.formatPhone(s.whatsapp) + '). Pagamento e entrega são combinados diretamente com o estabelecimento.' : 'Pedido online indisponível: o WhatsApp deste estabelecimento ainda não foi verificado. Use os contatos da página para confirmar o pedido.';
+    send.disabled = !has || (n === 1 && !ordering);
+    send.innerHTML = n === 3 ? WA_LOGO + 'Enviar pedido' : n === 2 ? 'Ir para pagamento' : 'Continuar';
+    $('cartFootTotal').textContent = C.formatBRL(t.total);
+    $('cartFootLabel').textContent = t.feeKnown || state.mode === 'retirada' ? 'Total' : 'Total sem entrega';
+    $('cartNote').textContent = !ordering ? 'Pedido online indisponível: o WhatsApp deste estabelecimento ainda não foi verificado. Use os contatos da página para confirmar o pedido.'
+      : n === 3 ? 'O pedido abre pronto no WhatsApp de ' + s.name + ', ' + C.formatPhone(s.whatsapp) + '. O pagamento é feito diretamente para a loja.'
+      : n === 2 ? 'Seus dados ficam salvos neste aparelho para os próximos pedidos.' : '';
+    $('cartNote').hidden = !$('cartNote').textContent;
   }
 
   function sendOrder(e) {
     e.preventDefault();
     var s = state.store;
-    if (!C.canOrder(s) || !state.cart.lines.length) return;
-    var name = $('cartName').value.trim(), address = $('cartAddress').value.trim();
-    if (!name) { $('cartName').focus(); return toast('Informe seu nome'); }
-    if (state.mode === 'entrega' && !address) { $('cartAddress').focus(); return toast('Informe o endereço de entrega'); }
-    writeStorage('pedeai-customer', JSON.stringify({ name: name, address: address }));
-    var msg = C.buildOrderMessage(s, state.cart, { mode: state.mode, name: name, address: address, payment: $('cartPayment').value, change: $('cartChange').value, notes: $('cartNotes').value });
+    if (!state.cart.lines.length) return;
+    if (state.step === 1) { if (C.canOrder(s)) goStep(2); return; }
+    if (state.step === 2) { if (!showErrors(C.deliveryErrors(delivery()))) return; saveCustomer(); goStep(3); return; }
+    if (!C.canOrder(s)) return;
+    if (!showErrors(C.deliveryErrors(delivery()))) { goStep(2); showErrors(C.deliveryErrors(delivery())); return; }
+    var t = C.cartTotals(state.cart, s, state.mode);
+    if (!showErrors(C.paymentErrors(pay(), t.total))) return;
+    saveCustomer();
+    var d = delivery(), p = pay();
+    var msg = C.buildOrderMessage(s, state.cart, { mode: d.mode, name: d.name, address: d.address, payment: p.payment, change: p.change, noChange: p.noChange, notes: $('cartNotes').value });
     window.open(C.whatsappUrl(s.whatsapp, msg), '_blank', 'noopener');
   }
 
   page.addEventListener('click', onPageClick);
   drawer.querySelectorAll('.cart-head [data-cart-close], .cart-backdrop').forEach(function (b) { b.onclick = function () { closeCart(); }; });
   drawer.querySelectorAll('[name="cartMode"]').forEach(function (r) { r.onchange = function () { state.mode = r.value; renderCart(); renderQty(false); }; });
-  $('cartPayment').onchange = renderCart;
   $('cartForm').onsubmit = sendOrder;
   drawer.onkeydown = trapFocus;
-  $('cartAddress').addEventListener('input', function () { var a = $('spAddress'); if (a) a.value = $('cartAddress').value; });
-  $('cartSend').insertAdjacentHTML('afterbegin', WA_LOGO);
+  $('cartBack').onclick = function () { if (state.step > 1) goStep(state.step - 1); };
+  $('ckSteps').addEventListener('click', function (e) { var li = e.target.closest('li[data-go]'); if (li && Number(li.dataset.go) < state.step) goStep(Number(li.dataset.go)); });
+  $('cartReview').addEventListener('click', function (e) { var b = e.target.closest('[data-go-step]'); if (b) goStep(Number(b.dataset.goStep)); });
+  drawer.querySelectorAll('[name="payment"]').forEach(function (r) { r.onchange = function () { $('errPayment').textContent = ''; $('cartPay').removeAttribute('aria-invalid'); renderStep(); if (r.value === 'Dinheiro' && !$('cartNoChange').checked) $('cartChange').focus(); }; });
+  $('cartNoChange').onchange = function () { $('errChange').textContent = ''; $('cartChange').removeAttribute('aria-invalid'); if (this.checked) $('cartChange').value = ''; renderStep(); };
+  [['cartName', 'errName'], ['cartStreet', 'errStreet'], ['cartDistrict', 'errDistrict'], ['cartChange', 'errChange']].forEach(function (x) {
+    $(x[0]).addEventListener('input', function () { $(x[1]).textContent = ''; $(x[0]).removeAttribute('aria-invalid'); });
+  });
   (function restoreCustomer() {
-    try { var c = JSON.parse(readStorage('pedeai-customer') || 'null'); if (c) { $('cartName').value = c.name || ''; $('cartAddress').value = c.address || ''; } } catch (e) { /* ignora */ }
+    try {
+      var c = JSON.parse(readStorage('pedeai-customer') || 'null');
+      if (!c) return;
+      $('cartName').value = c.name || '';
+      $('cartStreet').value = c.street || c.address || '';
+      $('cartDistrict').value = c.district || '';
+      $('cartRef').value = c.reference || '';
+      var r = c.payment && drawer.querySelector('[name="payment"][value="' + c.payment + '"]'); if (r) r.checked = true;
+    } catch (e) { /* ignora */ }
   })();
 
   /* Esc fecha a camada mais alta: detalhe do produto, sacola e, por fim, a página. */

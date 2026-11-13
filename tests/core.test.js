@@ -85,19 +85,43 @@ test('reconcileCart atualiza preços e descarta itens removidos/quantidades inv�
 test('mensagem do WhatsApp lista itens, totais e dados do cliente', () => {
   let cart = core.addItem(core.emptyCart(store.id), store, 'calabresa', 2);
   cart = core.addItem(cart, store, 'refri');
-  const msg = core.buildOrderMessage(store, cart, { mode: 'entrega', name: 'Ana', address: 'Rua 1, 10', payment: 'Dinheiro', change: 'R$ 150', notes: 'Sem cebola' });
+  const msg = core.buildOrderMessage(store, cart, { mode: 'entrega', name: 'Ana', address: { street: 'Rua 1, 10', district: 'Centro', reference: 'Casa azul' }, payment: 'Dinheiro', change: 'R$ 150', notes: 'Sem cebola' });
   assert.match(msg, /^Olá, Pizzaria Teste!/);
-  assert.match(msg, /2x Calabresa G — R\$ 119,80/);
+  assert.match(msg, /\*Pedido\*\n2x Calabresa G — R\$ 119,80/);
   assert.match(msg, /1x Refrigerante 2L — R\$ 12,50/);
+  assert.match(msg, /Observações: Sem cebola/);
   assert.match(msg, /Subtotal: R\$ 132,30/);
   assert.match(msg, /Taxa de entrega: a combinar/);
-  assert.match(msg, /Total \(sem taxa de entrega\): R\$ 132,30/);
-  assert.match(msg, /Endereço: Rua 1, 10/);
-  assert.match(msg, /Pagamento: Dinheiro \(troco para R\$ 150\)/);
-  assert.match(msg, /Observações: Sem cebola/);
-  const pickup = core.buildOrderMessage(store, cart, { mode: 'retirada', address: 'não deve aparecer' });
-  assert.match(pickup, /retirada no local/);
+  assert.match(msg, /\*Total \(sem taxa de entrega\): R\$ 132,30\*/);
+  assert.match(msg, /\*Entrega\*\nNome: Ana\nEndereço: Rua 1, 10, Bairro Centro\nReferência: Casa azul/);
+  assert.match(msg, /\*Pagamento:\* Dinheiro \(troco para R\$ 150,00\)/);
+  const pickup = core.buildOrderMessage(store, cart, { mode: 'retirada', address: 'não deve aparecer', payment: 'Pix' });
+  assert.match(pickup, /\*Retirada no local\*/);
   assert.doesNotMatch(pickup, /Endereço/);
+  assert.match(pickup, /\*Pagamento:\* Pix/);
+  const noChange = core.buildOrderMessage(store, cart, { mode: 'entrega', address: 'Rua 2, 5', payment: 'Dinheiro', noChange: true });
+  assert.match(noChange, /Dinheiro \(não precisa de troco\)/);
+  assert.match(noChange, /Endereço: Rua 2, 5\n/, 'endereço antigo em texto livre continua funcionando');
+});
+
+test('checkout: endereço, troco e validação de cada etapa', () => {
+  assert.equal(core.formatAddress({ street: 'Av. Brasil, 120', district: 'bairro Jardim', reference: '' }), 'Av. Brasil, 120, Bairro Jardim');
+  assert.equal(core.parseBRL('R$ 100'), 10000);
+  assert.equal(core.parseBRL('50,50'), 5050);
+  assert.equal(core.parseBRL('1.200'), 120000);
+  assert.equal(core.parseBRL('R$ 1.234,56'), 123456);
+  assert.equal(core.parseBRL('troco'), null);
+  assert.deepEqual(core.deliveryErrors({ mode: 'entrega', name: 'Ana', address: { street: 'Rua 1, 10', district: 'Centro' } }), {});
+  assert.deepEqual(Object.keys(core.deliveryErrors({ mode: 'entrega', name: '', address: {} })).sort(), ['district', 'name', 'street']);
+  assert.match(core.deliveryErrors({ mode: 'entrega', name: 'Ana', address: { street: 'Rua das Flores', district: 'Centro' } }).street, /número/);
+  assert.deepEqual(core.deliveryErrors({ mode: 'entrega', name: 'Ana', address: { street: 'Rua das Flores, s/n', district: 'Centro' } }), {});
+  assert.deepEqual(core.deliveryErrors({ mode: 'retirada', name: 'Ana' }), {}, 'retirada não pede endereço');
+  assert.deepEqual(core.paymentErrors({ payment: 'Pix' }, 5000), {});
+  assert.ok(core.paymentErrors({}, 5000).payment);
+  assert.ok(core.paymentErrors({ payment: 'Dinheiro', change: '' }, 5000).change);
+  assert.match(core.paymentErrors({ payment: 'Dinheiro', change: '40' }, 5000).change, /maior que o total/);
+  assert.deepEqual(core.paymentErrors({ payment: 'Dinheiro', change: '100' }, 5000), {});
+  assert.deepEqual(core.paymentErrors({ payment: 'Dinheiro', noChange: true }, 5000), {});
 });
 
 test('whatsappUrl usa o número do estabelecimento e codifica o texto', () => {

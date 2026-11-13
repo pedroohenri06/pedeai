@@ -9,7 +9,7 @@ sem link a partir do site; o Pedro envia o endereço aos restaurantes. Ao mudar 
 |---|---|---|---|---|
 | Essencial | R$ 49,90 | R$ 44,90 | R$ 39,90 | R$ 39,90 |
 | Destaque (mais escolhido) | R$ 74,90 | R$ 64,90 | R$ 54,90 | R$ 47,90 |
-| Premium (só 3 por cidade) | R$ 99,90 | R$ 89,90 | R$ 79,90 | R$ 69,90 |
+| Premium (só 5 por cidade) | R$ 99,90 | R$ 89,90 | R$ 79,90 | R$ 69,90 |
 
 - **Ancoragem:** no semestral e no anual, o preço do mensal aparece riscado como "preço normal".
 - **Black Friday:** até 30/11/2026 às 23:59 (horário de Cuiabá). Depois disso, a faixa, a barra e o aviso de saída somem sozinhos e os preços voltam ao anual normal. Para encerrar antes: `PROMO.ativo = false`.
@@ -36,7 +36,7 @@ sem link a partir do site; o Pedro envia o endereço aos restaurantes. Ao mudar 
 | 1 campanha com influenciador regional por ano (custo ~R$ 100) | – | – | só no anual |
 | Placa de avaliação do Google com tecnologia NFC para o balcão (fornecedor local) | – | – | semestral e anual |
 
-Premium: no máximo 3 por cidade (10 cidades → até 30 campanhas de influenciador por ano).
+Premium: no máximo 5 por cidade (10 cidades → até 50 lojas Premium: até 50 placas NFC e até 50 campanhas de influenciador por ano, cerca de R$ 5.000).
 
 Os benefícios de plano na plataforma principal (selo, banner, ordem por plano, oferta do dia) foram codificados no commit `68d138d` e não estão publicados; retomar quando o primeiro parceiro assinar.
 

@@ -47,7 +47,7 @@ O botão "Copiar apresentação" da página já entrega a mensagem certa para ca
 
 **Etapa 4 · Recomendação de UM plano** (com o motivo, ligado ao que o dono respondeu)
 - Começando ou poucos pedidos → Essencial · quer aparecer e vender mais → Destaque · quer ser referência e ter
-  atendimento com IA → Premium (só 3 por cidade).
+  atendimento com IA → Premium (só 5 por cidade).
 - Puxar para o anual com o preço de Black Friday (até 30/11) e a garantia de 7 dias.
 - Oferecer o especialista: "Quer que eu te passe para um especialista do nosso time comercial para tirar as dúvidas?"
 
@@ -110,7 +110,7 @@ Essencial: mensal R$ 49,90 · semestral R$ 44,90 · anual R$ 39,90
   Comissão zero; cardápio estruturado pela equipe; pedidos organizados no WhatsApp; kit de divulgação da equipe de design (QR Code para mesa, balcão e sacola, artes para story, status e feed); cardápio em PDF; link para a bio do Instagram; até 2 atualizações de cardápio ou preço por mês.
 Destaque (o mais escolhido): mensal R$ 74,90 · semestral R$ 64,90 · anual R$ 54,90
   Tudo do Essencial + posicionamento entre as primeiras lojas da cidade; selo de Parceiro Verificado; 4 posts mensais para o Instagram feitos pela equipe de design; carrossel de destaques; promoções com preço de/por; relatório mensal de desempenho; atualizações ilimitadas.
-Premium (só 3 vagas por cidade): mensal R$ 99,90 · semestral R$ 89,90 · anual R$ 79,90
+Premium (só 5 vagas por cidade): mensal R$ 99,90 · semestral R$ 89,90 · anual R$ 79,90
   Tudo do Destaque + atendente virtual com IA no WhatsApp da loja (a partir do lançamento, 25/11); banner na página inicial da cidade; primeiras posições da categoria; oferta do dia; 8 posts mensais; campanhas sazonais nas datas de maior venda; gerente de conta dedicado. Bônus: Premium SEMESTRAL e ANUAL ganham uma placa de avaliação do Google com tecnologia NFC para o balcão; o Premium ANUAL também ganha 1 campanha com influenciador regional por ano. O Premium mensal não tem bônus.
 
 BLACK FRIDAY (até 30/11/2026, só no plano anual)

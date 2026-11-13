@@ -27,10 +27,14 @@
 <meta name="twitter:image" content="https://www.pedeaionline.com.br/planos/og-parceiros.jpg?v=1">
 <meta name="theme-color" content="#e51b2b">
 <link rel="icon" href="/assets/media-778d926eb50d.png">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+<!-- Fontes servidas pelo próprio site (subconjunto latino, licença SIL OFL): sem CSS externo bloqueando a primeira pintura. -->
+<link rel="preload" href="/planos/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/planos/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/planos/como-funciona-540.webp?v=3" as="image" imagesrcset="/planos/como-funciona-540.webp?v=3 540w, /planos/como-funciona-900.webp?v=3 900w, /planos/como-funciona-1254.webp?v=3 1254w" imagesizes="(max-width:760px) 92vw, 540px" fetchpriority="high">
+<script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__planosOk)document.documentElement.classList.add('rv-safe')},2500)</script>
 <style>
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400 700;font-display:swap;src:url(/planos/fonts/dm-sans-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Montserrat';font-style:normal;font-weight:600 900;font-display:swap;src:url(/planos/fonts/montserrat-latin.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 /* Layout: título à esquerda + chave de cobrança à direita; três cartões numa bandeja em degradê, o do meio em
    destaque (escuro, maior). No celular tudo empilha. Marca PedeAi: vermelho, vinho e off-white. */
 :root{--red:#e51b2b;--wine:#7d1019;--ink:#221719;--muted:#6f6264;--cream:#f8f5ef;--paper:#fffdfa;--line:rgba(51,8,14,.12);--tray1:#f3ece6;--tray2:#eadfd7;--ok:#1f8a4c;
@@ -41,7 +45,7 @@ body{background:var(--cream);color:var(--ink);font:16px/1.5 var(--body);-webkit-
 .wrap{width:min(100% - 32px,1180px);margin:0 auto;padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
 .top{display:flex;align-items:center;justify-content:space-between;padding:20px 0}
 .brand{display:flex;align-items:center;gap:10px;color:inherit;text-decoration:none}
-.brand-box{width:42px;height:42px;border-radius:13px;background:var(--red) url("/assets/media-eec8624c4b7f.png") center/30px no-repeat;box-shadow:0 10px 26px rgba(229,27,43,.28)}
+.brand-box{width:42px;height:42px;border-radius:13px;background:var(--red) url("/planos/marca.webp") center/30px no-repeat;box-shadow:0 10px 26px rgba(229,27,43,.28)}
 .brand b{display:block;font:800 20px/1 var(--display);letter-spacing:-.03em}
 .brand small{display:block;font-size:10px;letter-spacing:.24em;text-transform:uppercase;color:var(--muted);margin-top:3px}
 .tag{font-size:12px;font-weight:700;color:var(--wine);background:#f4e4e2;border-radius:99px;padding:7px 12px}
@@ -136,7 +140,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 /* Black Friday: faixa escura com contagem regressiva real (some sozinha quando o prazo acaba). */
 .bf{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;margin-top:6px;padding:16px 20px;border-radius:20px;background:radial-gradient(120% 140% at 0% 0%,#3a0a10 0%,#120406 60%,#000 100%);color:#fff;box-shadow:0 18px 40px -18px rgba(0,0,0,.6);position:relative;overflow:hidden}
 .bf[hidden]{display:none}
-.bf::after{content:"";position:absolute;right:-40px;top:-60px;width:220px;height:220px;background:url("/assets/media-eec8624c4b7f.png") center/contain no-repeat;opacity:.07;transform:rotate(-12deg)}
+.bf::after{content:"";position:absolute;right:-40px;top:-60px;width:220px;height:220px;background:url("/planos/marca.webp") center/contain no-repeat;opacity:.07;transform:rotate(-12deg)}
 .bf-kicker{font:800 13px var(--display);letter-spacing:.2em;text-transform:uppercase;color:#ff4a55}
 .bf-text{flex:1 1 420px;position:relative;z-index:1}.bf-head{font:800 clamp(19px,2.4vw,24px)/1.2 var(--display);letter-spacing:-.02em;margin-top:6px;text-wrap:balance}.bf-head b{color:#ff4a55}.bf-title{font-size:15px;margin-top:6px;color:#f1dfe1;max-width:62ch}.bf-title b{color:#fff}
 .bf-clock{display:flex;align-items:center;gap:8px;position:relative;z-index:1}
@@ -195,7 +199,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .vs-line b{font:800 15px var(--display);color:#fff;font-variant-numeric:tabular-nums}
 .vs-line b.nw{white-space:nowrap}
 .vs-brand{display:flex;align-items:center;gap:8px;color:#fff!important}
-.vs-mark{width:28px;height:28px;flex:none;border-radius:9px;background:var(--red) url("/assets/media-eec8624c4b7f.png") center/20px no-repeat;box-shadow:0 6px 14px rgba(229,27,43,.35)}
+.vs-mark{width:28px;height:28px;flex:none;border-radius:9px;background:var(--red) url("/planos/marca.webp") center/20px no-repeat;box-shadow:0 6px 14px rgba(229,27,43,.35)}
 .vs-total{border-top:1px solid rgba(255,255,255,.14);padding-top:8px}
 .vs-total b{font:800 clamp(17px,5.2vw,22px) var(--display);white-space:nowrap;font-variant-numeric:tabular-nums}
 .vs-col--bad .vs-total b{color:#ff6b75}.vs-col--good .vs-total b{color:#7fe0a6}
@@ -221,7 +225,7 @@ h1 .w>span{display:inline-block;transform:translateY(-105%);animation:cut .7s cu
 .faq summary::-webkit-details-marker{display:none}
 .faq details p{color:var(--muted);padding:0 0 16px;font-size:15px}
 /* Barra fixa da oferta (contagem real até o fim da Black Friday) */
-.offerbar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:center;gap:12px 18px;flex-wrap:wrap;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgba(18,4,6,.96);color:#fff;backdrop-filter:blur(8px);transform:translateY(110%);transition:transform .35s ease}
+.offerbar{position:fixed;left:0;right:0;bottom:0;z-index:20;display:flex;align-items:center;justify-content:center;gap:12px 18px;flex-wrap:wrap;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:rgb(18,4,6);color:#fff;will-change:transform;transform:translateY(110%);transition:transform .35s ease}
 .offerbar.show{transform:none}
 .offerbar[hidden]{display:none}
 .offerbar p{font-size:14px}.ob-short{display:none}.offerbar p b{color:#ff4a55}
@@ -260,15 +264,15 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 @media (max-width:760px){.ob-long{display:none}.ob-short{display:inline}.offerbar p{font-size:13px}.offerbar a{height:36px;font-size:13px}.wa-float{padding:8px}.wa-float span{display:none}.wa-float svg{width:44px;height:44px}body.has-offerbar .wa-float.lift{bottom:calc(96px + env(safe-area-inset-bottom))}}
 
 /* Entrada suave (blur + descida), em sequência. */
-.rv{opacity:0;filter:blur(10px);transform:translateY(-16px);transition:opacity .55s ease,filter .55s ease,transform .55s ease;transition-delay:calc(var(--i,0) * .12s)}
-.rv.in{opacity:1;filter:none;transform:none}
-.plan--pop.rv.in{transform:scale(1.04)}
-@media (prefers-reduced-motion:reduce){.rv{transition:none;opacity:1;filter:none;transform:none}.plan--pop.rv{transform:scale(1.04)}h1 .w>span{animation:none;transform:none}.switch .pill{transition:none}}
+.js .rv{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s cubic-bezier(.2,.7,.2,1);transition-delay:calc(min(var(--i,0),4) * .07s)}
+.js .rv.in{opacity:1;transform:none}
+.js .plan--pop.rv.in{transform:scale(1.04)}
+@media (prefers-reduced-motion:reduce){.js .rv{transition:none;opacity:1;transform:none}.js .plan--pop.rv{transform:scale(1.04)}h1 .w>span{animation:none;transform:none}.switch .pill{transition:none}}
 
 @media (max-width:1100px){.trust{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:900px){
   .tray{grid-template-columns:1fr;padding:10px}
-  .plan--pop,.plan--pop.rv.in{transform:none}
+  .plan--pop,.js .plan--pop.rv.in,.js .plan--pop.rv{transform:none}
   .trust{grid-template-columns:1fr}
   .desc{min-height:0}
 }
@@ -288,7 +292,7 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 .wa-card-x{position:absolute;top:8px;right:8px;width:36px;height:36px;border:0;border-radius:50%;background:transparent;color:var(--muted);font:400 26px/1 var(--display);cursor:pointer}
 .wa-card-x:hover{background:rgba(0,0,0,.05)}
 .wa-card-head{display:flex;align-items:center;gap:10px;padding-right:30px}
-.wa-card-av{width:42px;height:42px;flex:none;border-radius:13px;background:var(--red) url("/assets/media-eec8624c4b7f.png") center/28px no-repeat;position:relative}
+.wa-card-av{width:42px;height:42px;flex:none;border-radius:13px;background:var(--red) url("/planos/marca.webp") center/28px no-repeat;position:relative}
 .wa-card-av::after{content:"";position:absolute;right:-3px;bottom:-3px;width:14px;height:14px;border-radius:50%;background:#25d366;border:3px solid var(--paper)}
 .wa-card-head b{display:block;font:800 15px var(--display)}.wa-card-head small{display:block;font-size:12.5px;color:var(--muted)}
 .wa-card-title{font:800 21px/1.2 var(--display);letter-spacing:-.02em;margin-top:14px}
@@ -357,6 +361,13 @@ body.has-offerbar .wa-float.lift{bottom:calc(84px + env(safe-area-inset-bottom))
 body.has-offerbar{padding-bottom:0}
 body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
 @media (max-width:760px){.foot2-in{grid-template-columns:1fr;gap:26px;padding-top:34px}.foot2-bottom{flex-direction:column;align-items:flex-start}body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 110px)}}
+
+/* Auditoria: áreas de toque mínimas de 44 px */
+.foot2-col>a:not(.foot2-wa){padding:10px 0;margin:-6px 0}
+.calc input[type=range]{height:44px}
+.wa-card-x{width:44px;height:44px;top:4px;right:4px}
+@media (max-width:760px){.offerbar a{height:44px}}
+.rv-safe .rv{opacity:1!important;transform:none!important}
 </style>
 </head>
 <body>
@@ -375,7 +386,7 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
       <a class="hero-cta rv" style="--i:3" href="#planos" id="heroCta">Ver planos com desconto</a>
     </div>
     <figure class="hero-fig rv" style="--i:2">
-      <img src="/planos/como-funciona-720.webp?v=2" srcset="/planos/como-funciona-720.webp?v=2 720w, /planos/como-funciona.webp?v=2 1254w" sizes="(max-width:760px) 92vw, 540px" width="1254" height="1254" fetchpriority="high" decoding="async" alt="Dois celulares: à esquerda, a página de uma loja no PedeAi com a oferta do dia e o cardápio; à direita, o pedido chegando pronto no WhatsApp da loja.">
+      <img src="/planos/como-funciona-540.webp?v=3" srcset="/planos/como-funciona-540.webp?v=3 540w, /planos/como-funciona-900.webp?v=3 900w, /planos/como-funciona-1254.webp?v=3 1254w" sizes="(max-width:760px) 92vw, 540px" width="1254" height="1254" fetchpriority="high" decoding="async" alt="Dois celulares: à esquerda, a página de uma loja no PedeAi com a oferta do dia e o cardápio; à direita, o pedido chegando pronto no WhatsApp da loja.">
       <figcaption>À esquerda, a página da sua loja no PedeAi, com a oferta do dia em destaque. À direita, o pedido chegando pronto no seu WhatsApp.</figcaption>
     </figure>
   </section>
@@ -417,7 +428,7 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
 
   <p class="guarantee rv" style="--i:2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg><span><b>Seu preço está garantido.</b> Se o PedeAi reajustar as mensalidades, você continua pagando o valor do seu plano até o fim dele.</span></p>
 
-  <section class="tray" id="plans" aria-label="Planos"></section>
+  <section class="tray" id="plans" aria-label="Planos"><noscript><p style="padding:24px;text-align:center">Para ver os planos, ative o JavaScript ou <a href="https://wa.me/5512936290045">fale com um consultor no WhatsApp</a>.</p></noscript></section>
 
   <section class="calc rv" style="--i:6" aria-labelledby="calcTitle">
     <div>
@@ -703,7 +714,7 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
     bf.querySelector('[data-m]').textContent = two(Math.floor(s2 % 3600 / 60));
     bf.querySelector('[data-s]').textContent = two(s2 % 60);
   }
-  tick(); setInterval(tick, 1000);
+  tick();
 
   /* ---- Prova social: número real de estabelecimentos, quando disponível ---- */
   // (fixo na página; atualizar quando o cadastro crescer)
@@ -742,10 +753,21 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
     document.getElementById('obClock').textContent = txt;
     document.getElementById('exitClock').textContent = 'Acaba em ' + txt;
   }
-  obTick(); setInterval(obTick, 1000);
+  obTick();
+  var clockTimer = 0;
+  function startClocks() { if (!clockTimer) clockTimer = setInterval(function () { tick(); obTick(); }, 1000); }
+  function stopClocks() { clearInterval(clockTimer); clockTimer = 0; }
+  document.addEventListener('visibilitychange', function () { if (document.hidden) stopClocks(); else { tick(); obTick(); startClocks(); } });
+  startClocks();
   // A barra aparece depois que a pessoa passa do topo (não cobre o título).
   var waF = document.getElementById('waFloat');
-  addEventListener('scroll', function () { var on = scrollY > 420; ob.classList.toggle('show', on); waF.classList.toggle('lift', on); }, { passive: true });
+  var heroCta = document.getElementById('heroCta');
+  function setBar(on) { ob.classList.toggle('show', on); waF.classList.toggle('lift', on); }
+  if ('IntersectionObserver' in window && heroCta) {
+    new IntersectionObserver(function (es) { var e = es[0]; setBar(!e.isIntersecting && e.boundingClientRect.top < 0); }).observe(heroCta);
+  } else {
+    addEventListener('scroll', function () { setBar(scrollY > 420); }, { passive: true });
+  }
 
   /* Card do time comercial: o ícone abre o card; o botão do card abre o WhatsApp. */
   var waCard = document.getElementById('waCard');
@@ -759,7 +781,8 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
   document.getElementById('waCardCta').addEventListener('click', function () { setTimeout(function () { setCard(false); }, 300); });
   document.addEventListener('click', function (e) { if (!waCard.hidden && !waCard.contains(e.target)) setCard(false); });
   document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !waCard.hidden) { setCard(false); waF.focus(); } });
-  addEventListener('scroll', function () { if (!waCard.hidden) placeCard(); }, { passive: true });
+  var cardRaf = 0;
+  addEventListener('scroll', function () { if (!waCard.hidden && !cardRaf) cardRaf = requestAnimationFrame(function () { cardRaf = 0; placeCard(); }); }, { passive: true });
   addEventListener('resize', function () { if (!waCard.hidden) placeCard(); });
 
   /* ---- Antes de sair: na primeira vez que a pessoa aperta "voltar", mostra a oferta uma única vez.
@@ -793,7 +816,16 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
 
   update(false);
   if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { update(false); });
-  requestAnimationFrame(function () { requestAnimationFrame(function () { document.querySelectorAll('.rv').forEach(function (el) { el.classList.add('in'); }); }); });
+  var rvs = document.querySelectorAll('.rv');
+  if (reduce || !('IntersectionObserver' in window)) {
+    rvs.forEach(function (el) { el.classList.add('in'); });
+  } else {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -6% 0px' });
+    requestAnimationFrame(function () { rvs.forEach(function (el) { io.observe(el); }); });
+  }
+  window.__planosOk = true;
 })();
 </script>
 </body>

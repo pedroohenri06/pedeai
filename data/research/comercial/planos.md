@@ -17,25 +17,27 @@ sem link a partir do site; o Pedro envia o endereço aos restaurantes. Ao mudar 
 - **Preço garantido:** se o PedeAi reajustar as mensalidades, o parceiro paga o valor do plano dele até o fim do plano.
 - **Garantia de 7 dias:** cancelamento em até 7 dias da contratação, com 100% devolvido (CDC, art. 49).
 
-## Benefícios
-| Benefício | Planos |
-|---|---|
-| Zero taxa de plataforma e zero comissão | todos |
-| Campanhas de tráfego pago e influenciadores do PedeAi (para a plataforma) | todos |
-| Cardápio montado pela equipe, no ar no mesmo dia | todos |
-| Pedido pronto no WhatsApp | todos |
-| QR Code e kit de divulgação (cartaz de mesa, story, post): `node scripts/kit-parceiro.js <id>` → `data/research/kits/<id>/` | todos |
-| Atualizações de cardápio/preço | Essencial: 2 por mês · Destaque e Premium: ilimitadas |
-| Entre as primeiras da cidade | Destaque e Premium |
-| Selo "Parceiro verificado" no card | Destaque e Premium |
-| Carrossel de destaques e promoções de/por no cardápio | Destaque e Premium |
-| Banner na abertura da cidade · primeiras posições da categoria · oferta do dia | Premium (só 3 por cidade) |
-| Atendimento prioritário | Premium |
-| Bônus do anual: campanha própria com influenciador (esporádica) | anual |
+## Benefícios (13/11/2026)
+| Benefício | Essencial | Destaque | Premium |
+|---|---|---|---|
+| Comissão zero e pedido organizado no WhatsApp | ✓ | ✓ | ✓ |
+| Aquisição de clientes: gestores de tráfego pago e influenciadores regionais (para a plataforma) | ✓ | ✓ | ✓ |
+| Cardápio estruturado pela equipe (o restaurante envia as fotos; nós fazemos design, categorias, tamanhos, adicionais e combos) | ✓ | ✓ | ✓ |
+| Kit de divulgação da equipe de design (QR Code, story, status, feed): `node scripts/kit-parceiro.js <id>` | ✓ | ✓ | ✓ |
+| QR Code de avaliação no Google · cardápio em PDF · link para a bio | ✓ | ✓ | ✓ |
+| Atualizações de cardápio/preço | 2 por mês | ilimitadas | ilimitadas |
+| Entre as primeiras da cidade · selo de Parceiro Verificado · carrossel · promoções de/por | – | ✓ | ✓ |
+| Posts mensais para o Instagram (equipe de design) | – | 4 | 8 |
+| Relatório mensal de desempenho (visualizações e cliques para pedir) — depende da medição de acessos no site | – | ✓ | ✓ |
+| Banner na cidade · topo da categoria · oferta do dia | – | – | ✓ |
+| Campanhas sazonais nas datas de maior venda | – | – | ✓ |
+| Gerente de conta dedicado | – | – | ✓ |
+| Atendente virtual com IA no WhatsApp (a partir do lançamento, 25/11; piloto em desenvolvimento) | – | – | ✓ |
+| 1 campanha com influenciador regional por ano (custo ~R$ 100) | – | – | só no anual |
 
-**Plataforma principal (decisão do Pedro, 11/11/2026):** nada muda no site por enquanto. As lojas que já têm carrossel e
-promoção de/por continuam com eles. O selo, o banner, a ordem por plano e a oferta do dia já foram codificados e testados
-no commit `68d138d` (branch de desenvolvimento, não publicado); quando o primeiro parceiro assinar, retomar a partir dele.
+Premium: no máximo 3 por cidade (10 cidades → até 30 campanhas de influenciador por ano).
+
+Os benefícios de plano na plataforma principal (selo, banner, ordem por plano, oferta do dia) foram codificados no commit `68d138d` e não estão publicados; retomar quando o primeiro parceiro assinar.
 
 ## Programa Embaixador
 O parceiro indica um restaurante. Quando o indicado assinar, o parceiro que indicou paga uma mensalidade e a próxima sai grátis.

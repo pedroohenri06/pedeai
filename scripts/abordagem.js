@@ -120,23 +120,18 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 
   // Etapa 1 do fluxo (data/research/comercial/agente-vendas.md): curta, sem link, pergunta pelo responsável.
   function message(s) {
-    return 'Olá, tudo bem? Aqui é do PedeAi Delivery, a nova plataforma de delivery de ' + s.c + '. Falo com o responsável pela loja ' + s.n + '?';
+    return 'Olá, tudo bem? Aqui é do PedeAi Delivery. Estamos trazendo mais pedidos de delivery para os restaurantes de ' + s.c + ', sem cobrar comissão. Falo com o responsável pela loja ' + s.n + '?';
   }
   function followUp(s, n) {
     var launched = Date.now() >= LANCAMENTO;
     return n === 1
-      ? 'Olá, tudo bem? Retomando meu contato do PedeAi Delivery: a loja ' + s.n + ' já está cadastrada na nossa plataforma, que ' + (launched ? 'já está no ar em ' + s.c : 'estreia em ' + s.c + ' no dia 25/11') + '. Com quem posso falar sobre a ativação da loja?'
-      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se em algum momento fizer sentido conhecer o PedeAi Delivery, fico à disposição por aqui. Desejo ótimas vendas!';
+      ? 'Olá, tudo bem? Retomando meu contato do PedeAi Delivery: ' + (launched ? 'estamos no ar em ' + s.c : 'estreamos em ' + s.c + ' no dia 25/11') + ', com campanhas de tráfego pago e influenciadores locais levando clientes para os restaurantes da cidade' + (s.m ? ', e a loja ' + s.n + ' já tem o cardápio cadastrado na plataforma' : '') + '. Com quem posso falar sobre a ativação da loja ' + s.n + '?'
+      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se em algum momento quiser receber mais pedidos de delivery sem pagar comissão, é só me chamar por aqui. Desejo ótimas vendas!';
   }
   // Etapa 2A: apresentação para quem respondeu que é o responsável. Sem cardápio: mostra um exemplo bem feito.
   function intro(s) {
-    var launched = Date.now() >= LANCAMENTO, when = launched ? 'que já está no ar em ' + s.c : 'que estreia em ' + s.c + ' no dia 25/11';
-    var close = '\\n\\nPosso te mostrar como funciona? Responda:\\n1) Pode mandar\\n2) Prefiro falar com um especialista\\n3) Agora não';
-    if (s.m) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery. A loja ' + s.n + ' já aparece na nossa plataforma, ' + when + ': ' + SITE + '#/loja/' + s.id +
-      '\\n\\nAqui o restaurante não paga comissão: o cliente monta o pedido no cardápio online e ele chega pronto no seu WhatsApp.' + close;
-    return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery, a plataforma de delivery ' + when + '.' +
-      (s.ex ? '\\n\\nVeja como fica um restaurante na plataforma: ' + SITE + '#/loja/' + s.ex.id : '') +
-      '\\n\\nA loja ' + s.n + ' pode ficar assim também: você nos envia as fotos dos pratos e a nossa equipe monta todo o cardápio. O cliente faz o pedido online e ele chega pronto no seu WhatsApp, sem comissão.' + close;
+    if (s.m) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nVou direto ao ponto: o nosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nO cardápio de vocês já está pronto na plataforma: ' + SITE + '#/loja/' + s.id + '\\n\\nFaça um teste agora, como se fosse um cliente: escolha os itens, coloque seu nome e endereço, complete as 3 etapas e envie o pedido. Ele vai chegar pronto no WhatsApp da loja, exatamente como os seus clientes vão mandar. Leva menos de 1 minuto.\\n\\nDepois me conta o que achou!';
+    return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nVou direto ao ponto: o nosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nVeja como fica um restaurante na plataforma: ' + (s.ex ? SITE + '#/loja/' + s.ex.id : SITE) + '\\n\\nFaça o teste como se fosse um cliente: escolha os itens e passe pelas 3 etapas (pedido, entrega e pagamento) para sentir a experiência. Só não precisa enviar no final, porque esse cardápio é de outro restaurante.\\n\\nA loja ' + s.n + ' pode ficar assim também: você nos envia as fotos dos pratos e a nossa equipe monta todo o cardápio. Me conta o que achou!';
   }
   function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
   function today() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
@@ -194,18 +189,14 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
         'Assim que o pagamento for confirmado, você nos envia as fotos dos pratos e o cardápio, e a nossa equipe deixa a loja ' + s.n + ' pronta no mesmo dia. Qualquer dúvida, estou à disposição.';
     };
     return [
-      { g: 'Se for o responsável', t: 'Apresentação', m: intro(s) },
+      { g: 'Se for o responsável', t: 'Apresentação + teste do cardápio', m: intro(s) },
+      { g: 'Se for o responsável', t: 'Depois do teste: como vamos levar clientes', m: 'Agora imagina isso acontecendo com os seus clientes todos os dias. É assim que vamos levar pedidos até a loja ' + s.n + ':\\n\\n• Um time de gestores de tráfego rodando campanhas pagas intensas em ' + s.c + ' e nas 10 cidades do Vale do Araguaia, levando o público direto para a plataforma\\n• Campanhas com influenciadores locais divulgando o PedeAi para a cidade inteira\\n• Cada cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp: sem comissão, 100% da venda é sua\\n• Nossa equipe monta e atualiza o seu cardápio; você só envia as fotos\\n\\nEnquanto os aplicativos comuns ficam com uma fatia de cada pedido, aqui você paga um plano fixo que começa em R$ 39,90 por mês.\\n\\nPosso te mostrar as condições de lançamento?' },
       { g: 'Se NÃO for o responsável', t: 'Pedir o contato do responsável', m: 'Sem problema, obrigado pelo retorno! Você consegue me passar o contato do responsável pela loja ' + s.n + '? Se preferir, posso deixar uma mensagem curta para você repassar.' },
-      { g: 'Se NÃO for o responsável', t: 'Recado para repassar', m: 'Perfeito! Segue a mensagem para repassar ao responsável:' + N + N +
-        'O PedeAi Delivery é a nova plataforma de delivery de ' + s.c + ', ' + when + '. O restaurante não paga comissão: o cliente faz o pedido no cardápio online e ele chega pronto no WhatsApp da loja.' + N + N +
-        lojaLink(s) + N + N + 'Planos' + (bf ? ' e condições de Black Friday (até 30/11)' : '') + ': ' + SITE + 'planos' + N + N + 'Para falar com o nosso time comercial, é só responder esta mensagem. Obrigado!' },
+      { g: 'Se NÃO for o responsável', t: 'Recado para repassar', m: 'Perfeito! Segue a mensagem para repassar ao responsável:\\n\\nO PedeAi Delivery está trazendo mais pedidos de delivery para os restaurantes de ' + s.c + ', sem cobrar comissão. Nosso time de tráfego pago e influenciadores locais leva clientes para a plataforma, e cada pedido chega pronto no WhatsApp da loja.\\n\\n' + lojaLink(s) + '\\n\\nPlanos a partir de R$ 39,90 por mês' + (bf ? ', com condições de Black Friday até 30/11' : '') + ': ' + SITE + 'planos\\n\\nPara falar com o nosso time comercial, é só responder esta mensagem. Obrigado!' },
       { g: 'Entender o restaurante', t: 'Pergunta 1 · como recebe pedidos', m: 'Para eu te indicar o plano ideal: hoje vocês já trabalham com delivery? Os pedidos chegam por WhatsApp, telefone ou aplicativo?' },
-      { g: 'Entender o restaurante', t: 'Pergunta 2 · volume', m: 'E, em média, quantos pedidos de delivery vocês fazem por dia?' },
+      { g: 'Entender o restaurante', t: 'Pergunta 2 · volume', m: 'E, em média, quantos pedidos de delivery vocês fazem por dia? Quanto gostaria de fazer?' },
       { g: 'Entender o restaurante', t: 'Pergunta 3 · comissão', m: 'Vocês usam hoje algum aplicativo de delivery que cobra comissão por pedido?' },
-      { g: 'Oferta', t: 'Apresentar os planos', m: 'Nossos planos começam em *R$ 39,90 por mês*, com comissão zero em todos os pedidos e o cardápio montado pela nossa equipe.' + N + N +
-        'Também temos planos *sem fidelidade*, para você começar sem compromisso.' + (bf ? ' E, até 30/11, o plano anual está com condições especiais de Black Friday.' : '') + N + N +
-        'Veja todos os planos e benefícios: ' + SITE + 'planos' + N + N +
-        'Quer que eu te indique o plano ideal para a loja ' + s.n + ', ou prefere falar com um especialista do nosso time comercial?' },
+      { g: 'Oferta', t: 'Condições de lançamento', m: 'Essas são as condições de lançamento para a loja ' + s.n + ':\\n\\n✅ Comissão zero em todos os pedidos\\n✅ Cardápio montado pela nossa equipe e loja pronta no mesmo dia\\n✅ Tráfego pago e influenciadores levando clientes para a plataforma\\n✅ Planos a partir de *R$ 39,90 por mês*, inclusive *sem fidelidade*\\n✅ Garantia de 7 dias: se não gostar, devolvemos 100%\\n✅ Preço travado: se o PedeAi reajustar, você continua pagando o mesmo até o fim do plano' + (bf ? '\\n\\n⏳ No plano anual, os preços de Black Friday valem só até 30/11.' : '') + '\\n\\nVeja os planos: ' + SITE + 'planos\\n\\nQuer que eu te indique o plano ideal para a loja ' + s.n + ', ou prefere falar com um especialista do nosso time comercial?' },
       { g: 'Fechamento', t: 'Fechar Essencial anual · R$ ' + pr('essencial') + '/mês', m: close('essencial') },
       { g: 'Fechamento', t: 'Fechar Destaque anual · R$ ' + pr('destaque') + '/mês', m: close('destaque') },
       { g: 'Fechamento', t: 'Fechar Premium anual · R$ ' + pr('premium') + '/mês', m: close('premium') },

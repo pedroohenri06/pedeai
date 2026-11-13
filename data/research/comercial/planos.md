@@ -45,6 +45,8 @@ Enquanto o link estiver vazio, o botão abre o WhatsApp comercial (+55 12 93629-
 
 | Plano | Mensal | Semestral | Anual | Anual Black Friday |
 |---|---|---|---|---|
-| Essencial | https://pay.finaliza.shop/pl/4d26628c0a | _aguardando_ | _aguardando_ | _aguardando_ |
-| Destaque | _aguardando_ | _aguardando_ | _aguardando_ | _aguardando_ |
-| Premium | _aguardando_ | _aguardando_ | _aguardando_ | _aguardando_ |
+| Essencial | [4d26628c0a](https://pay.finaliza.shop/pl/4d26628c0a) R$ 49,90 | [f9c43d8f9e](https://pay.finaliza.shop/pl/f9c43d8f9e) R$ 269,40 | [fb9a7d84b9](https://pay.finaliza.shop/pl/fb9a7d84b9) R$ 478,80 | mesmo do anual (R$ 478,80) |
+| Destaque | [6cb9a0bf23](https://pay.finaliza.shop/pl/6cb9a0bf23) R$ 74,90 | [f1e5b36871](https://pay.finaliza.shop/pl/f1e5b36871) R$ 389,40 | [e207b309b9](https://pay.finaliza.shop/pl/e207b309b9) R$ 658,80 | [7e291424ba](https://pay.finaliza.shop/pl/7e291424ba) R$ 574,80 |
+| Premium | [d4c56037ef](https://pay.finaliza.shop/pl/d4c56037ef) R$ 99,90 | [d76ea4e17f](https://pay.finaliza.shop/pl/d76ea4e17f) R$ 539,40 | [3619cd3240](https://pay.finaliza.shop/pl/3619cd3240) R$ 958,80 | [d891342cf4](https://pay.finaliza.shop/pl/d891342cf4) R$ 838,80 |
+
+Configuração (Appmax, 13/11/2026): produto digital; Pix e cartão (links 1 e 2 também com boleto, porque a Appmax não edita link criado); mensal 1x, semestral até 6x e anual até 12x sem juros para o cliente (juros por conta do PedeAi). A Appmax não tem desconto para Pix em link de pagamento. Link criado não pode ser editado: para mudar, exclua e crie outro, e troque a URL aqui e na página.

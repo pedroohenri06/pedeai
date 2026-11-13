@@ -6,5 +6,25 @@
       "claude/*": false,
       "claude/**": false
     }
-  }
+  },
+  "headers": [
+    {
+      "source": "/planos/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/planos/(.*)\\.(webp|jpg)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
+  ]
 }

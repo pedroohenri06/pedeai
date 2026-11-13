@@ -9,7 +9,7 @@ const pw = require('playwright');
 const ROOT = path.join(__dirname, '..');
 const uri = (f, t) => 'data:' + t + ';base64,' + fs.readFileSync(path.join(ROOT, f)).toString('base64');
 const mark = uri('assets/media-eec8624c4b7f.png', 'image/png');
-const phones = uri('planos/como-funciona.webp', 'image/webp');
+const phones = uri('planos/como-funciona-1254.webp', 'image/webp');
 
 const html = `<!doctype html><html><head><meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">

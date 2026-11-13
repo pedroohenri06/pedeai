@@ -83,7 +83,7 @@
 
   function actionsHtml(s) {
     var a = [];
-    if (s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Encontrei vocês no PedeAi Delivery.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Falar no WhatsApp</a>');
+    if (s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(C.whatsappUrl(s.whatsapp, 'Olá, ' + s.name + '! Vim pelo PedeAi Delivery e gostaria de tirar uma dúvida.')) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Falar no WhatsApp</a>');
     if (s.phone) a.push('<a class="sp-btn" href="tel:+' + esc(s.phone) + '">' + icon(I.phone) + 'Ligar</a>');
     // orderUrl só é link de WhatsApp da própria loja (wa.me/message, sem número aberto): nunca cardápio externo.
     if (s.orderUrl && !s.whatsapp) a.push('<a class="sp-btn sp-btn--primary" href="' + esc(s.orderUrl) + '" target="_blank" rel="noopener">' + WA_LOGO + 'Falar no WhatsApp</a>');

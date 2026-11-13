@@ -77,6 +77,13 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .tags{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.tag.nm-tag{background:#fde7e9;color:#b3121f}
 .nomenu{margin-top:8px;padding:8px 12px;border-radius:10px;background:#fff4f4;color:#7d1019;font-size:13px}.nomenu a{color:#b3121f;font-weight:700}
 .acts .copy{flex:1;justify-content:center;background:#f7f2ee}
+.script{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
+.script summary{font-weight:800;font-size:14px;cursor:pointer;color:var(--red);padding:8px 0;list-style:none}.script summary::-webkit-details-marker{display:none}.script summary::before{content:'▸ '}.script[open] summary::before{content:'▾ '}
+.sg{font:800 11.5px 'DM Sans';letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:12px 0 6px}
+.si{background:#faf6f2;border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+.st-t{font-weight:800;font-size:13.5px}.st-m{white-space:pre-wrap;font-size:13.5px;color:#4a3b3d;margin-top:4px}
+.st-a{display:flex;gap:8px;margin-top:8px}.st-a button,.st-a a{flex:1;height:40px;border-radius:10px;border:1px solid var(--line);background:#fff;font:700 13px 'DM Sans';color:var(--ink);display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
+.st-a a{background:#1f9d55;border-color:#1f9d55;color:#fff}
 .empty{padding:30px;text-align:center;color:var(--muted)}
 .note{font-size:12.5px;color:var(--muted);margin:16px 0 0;text-align:center}
 </style></head><body>
@@ -161,12 +168,61 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
         '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : '') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
         (s.m ? '' : '<div class="nomenu"><b>Sem cardápio na plataforma.</b> Na apresentação, mostre um exemplo' + (s.ex ? ': <a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.ex.id + '">' + esc(s.ex.n) + (s.ex.c !== s.c ? ' (' + esc(s.ex.c) + ')' : '') + '</a>' : '') + '.</div>') +
         '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' +
-        (x !== 'novo' && s.w ? '<div class="acts"><button class="copy" data-copy="' + s.id + '">Copiar apresentação (quando responder)</button></div>' : '') + followBtns(s, x, rec) +
+        followBtns(s, x, rec) + (s.w ? '<details class="script" data-script="' + s.id + '"><summary>Script da conversa (já com nome e links)</summary><div class="sc-body"></div></details>' : '') +
         (x !== 'novo' ? '<div class="st" data-id="' + s.id + '">' + ['enviado', 'respondeu', 'fechou', 'sem'].map(function (k) { return '<button data-s="' + k + '" aria-pressed="' + (x === k) + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[k] + '</button>'; }).join('') + '<button data-s="novo">Desfazer</button></div>' : '') +
         (rec.at ? '<div class="when">Enviado em ' + new Date(rec.at).toLocaleDateString('pt-BR') + '</div>' : '') + '</div>';
     }).join('') : '<p class="empty">Nenhuma loja neste filtro.</p>';
     var first = S.filter(function (s) { return s.c === city && s.w; })[0];
     document.getElementById('msgPreview').textContent = first ? '1) Abertura\\n' + message(first) + '\\n\\n2) Lembrete (2 dias sem resposta)\\n' + followUp(first, 1) + '\\n\\n3) Último lembrete (5 dias)\\n' + followUp(first, 2) : '';
+  }
+
+  /* ---- Script completo da conversa, já com nome, cidade e links de cada loja ---- */
+  var BF_FIM = Date.parse('2026-11-30T23:59:59-04:00');
+  var PAY = {
+    essencial: { nome: 'Essencial', anual: 'https://pay.finaliza.shop/pl/fb9a7d84b9', bf: 'https://pay.finaliza.shop/pl/fb9a7d84b9', preco: '39,90', precoBf: '39,90' },
+    destaque: { nome: 'Destaque', anual: 'https://pay.finaliza.shop/pl/e207b309b9', bf: 'https://pay.finaliza.shop/pl/7e291424ba', preco: '54,90', precoBf: '47,90' },
+    premium: { nome: 'Premium', anual: 'https://pay.finaliza.shop/pl/3619cd3240', bf: 'https://pay.finaliza.shop/pl/d891342cf4', preco: '79,90', precoBf: '69,90' }
+  };
+  function bfOn() { return Date.now() < BF_FIM; }
+  function lojaLink(s) { return s.m ? 'Veja como a loja ' + s.n + ' aparece: ' + SITE + '#/loja/' + s.id : (s.ex ? 'Veja como fica um restaurante na plataforma: ' + SITE + '#/loja/' + s.ex.id : ''); }
+  function script(s) {
+    var launched = Date.now() >= LANCAMENTO, bf = bfOn(), N = '\\n';
+    var when = launched ? 'que já está no ar' : 'que estreia no dia 25/11';
+    var pr = function (k) { return bf ? PAY[k].precoBf : PAY[k].preco; };
+    var close = function (k) {
+      return 'Excelente escolha! Para ativar o plano ' + PAY[k].nome + ' anual' + (bf ? ' com o preço de Black Friday' : '') + ', é só concluir por aqui: ' + (bf ? PAY[k].bf : PAY[k].anual) + N + N +
+        'Assim que o pagamento for confirmado, você nos envia as fotos dos pratos e o cardápio, e a nossa equipe deixa a loja ' + s.n + ' pronta no mesmo dia. Qualquer dúvida, estou à disposição.';
+    };
+    return [
+      { g: 'Se for o responsável', t: 'Apresentação', m: intro(s) },
+      { g: 'Se NÃO for o responsável', t: 'Pedir o contato do responsável', m: 'Sem problema, obrigado pelo retorno! Você consegue me passar o contato do responsável pela loja ' + s.n + '? Se preferir, posso deixar uma mensagem curta para você repassar.' },
+      { g: 'Se NÃO for o responsável', t: 'Recado para repassar', m: 'Perfeito! Segue a mensagem para repassar ao responsável:' + N + N +
+        'O PedeAi Delivery é a nova plataforma de delivery de ' + s.c + ', ' + when + '. O restaurante não paga comissão: o cliente faz o pedido no cardápio online e ele chega pronto no WhatsApp da loja.' + N + N +
+        lojaLink(s) + N + N + 'Planos' + (bf ? ' e condições de Black Friday (até 30/11)' : '') + ': ' + SITE + 'planos' + N + N + 'Para falar com o nosso time comercial, é só responder esta mensagem. Obrigado!' },
+      { g: 'Entender o restaurante', t: 'Pergunta 1 · como recebe pedidos', m: 'Para eu te indicar o plano ideal: hoje vocês já trabalham com delivery? Os pedidos chegam por WhatsApp, telefone ou aplicativo?' },
+      { g: 'Entender o restaurante', t: 'Pergunta 2 · volume', m: 'E, em média, quantos pedidos de delivery vocês fazem por dia?' },
+      { g: 'Entender o restaurante', t: 'Pergunta 3 · comissão', m: 'Vocês usam hoje algum aplicativo de delivery que cobra comissão por pedido?' },
+      { g: 'Oferta', t: 'Apresentar os planos', m: 'Temos três planos, todos com comissão zero e cardápio montado pela nossa equipe:' + N + N +
+        '• Essencial: a estrutura completa para vender no delivery, a partir de R$ ' + pr('essencial') + '/mês' + N +
+        '• Destaque (o mais escolhido): mais visibilidade, selo de Parceiro Verificado e 4 posts mensais feitos pela nossa equipe de design, a partir de R$ ' + pr('destaque') + '/mês' + N +
+        '• Premium: atendente virtual com IA no seu WhatsApp, banner na página inicial da cidade e topo da categoria. Só 3 vagas por cidade, a partir de R$ ' + pr('premium') + '/mês' + N + N +
+        (bf ? 'Valores no plano anual com o preço de Black Friday, válido até 30/11, e garantia de 7 dias.' : 'Valores no plano anual, com garantia de 7 dias.') + N +
+        'Detalhes de cada plano: ' + SITE + 'planos' + N + N + 'Quer que eu te indique o melhor para a loja ' + s.n + ', ou prefere falar com um especialista do nosso time comercial?' },
+      { g: 'Fechamento', t: 'Fechar Essencial anual · R$ ' + pr('essencial') + '/mês', m: close('essencial') },
+      { g: 'Fechamento', t: 'Fechar Destaque anual · R$ ' + pr('destaque') + '/mês', m: close('destaque') },
+      { g: 'Fechamento', t: 'Fechar Premium anual · R$ ' + pr('premium') + '/mês', m: close('premium') },
+      { g: 'A qualquer momento', t: 'Passar para o especialista (você)', m: 'Perfeito! Vou passar o seu atendimento para o Pedro Henrique, especialista do nosso time comercial. Ele continua a conversa com você por aqui em instantes.' },
+      { g: 'A qualquer momento', t: 'Respondeu SAIR / sem interesse', m: 'Tudo certo, obrigado pelo retorno! Não vou enviar mais mensagens. Se um dia quiser conhecer o PedeAi Delivery, é só chamar por aqui. Boas vendas!', sem: true }
+    ].map(function (x) { x.m = x.m.split(N).join('\\n'); return x; });
+  }
+  function scriptHtml(s) {
+    var last = '';
+    return script(s).map(function (x, i) {
+      var head = x.g !== last ? '<p class="sg">' + esc(x.g) + '</p>' : ''; last = x.g;
+      return head + '<div class="si"><div class="st-t">' + esc(x.t) + '</div><div class="st-m">' + esc(x.m) + '</div><div class="st-a">' +
+        '<button type="button" data-cp="' + s.id + '|' + i + '">Copiar</button>' +
+        '<a target="_blank" rel="noopener" data-sc="' + s.id + '|' + i + '" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(x.m) + '">Enviar no WhatsApp</a></div></div>';
+    }).join('');
   }
   function followBtns(s, x, rec) {
     if (x !== 'enviado' || !s.w || !rec.at) return '';
@@ -177,6 +233,10 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     return '<div class="acts"><a class="fup" data-fup="' + s.id + '" data-n="' + next + '" target="_blank" rel="noopener" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(followUp(s, next)) + '">' + WA + (next === 1 ? 'Enviar lembrete (2 dias)' : 'Enviar último lembrete (5 dias)') + '</a></div>';
   }
   function all() { renderCities(); renderStats(); renderList(); }
+  document.getElementById('list').addEventListener('toggle', function (e) {
+    var d = e.target; if (!d.matches || !d.matches('details.script') || !d.open) return;
+    var b = d.querySelector('.sc-body'); if (!b.innerHTML) b.innerHTML = scriptHtml(S.filter(function (z) { return z.id === d.dataset.script; })[0]);
+  }, true);
 
   document.getElementById('cities').addEventListener('click', function (e) {
     var b = e.target.closest('button'); if (!b) return; city = b.dataset.c; try { localStorage.setItem(KEY + '-cidade', city); } catch (er) {} all(); scrollTo(0, 0);
@@ -186,6 +246,17 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     [].forEach.call(this.children, function (x) { x.setAttribute('aria-pressed', String(x === b)); }); renderList();
   });
   document.getElementById('list').addEventListener('click', function (e) {
+    var sc = e.target.closest('[data-cp],[data-sc]');
+    if (sc) {
+      var parts = (sc.dataset.cp || sc.dataset.sc).split('|'), so2 = S.filter(function (z) { return z.id === parts[0]; })[0], it = script(so2)[+parts[1]];
+      if (it.sem) { st[so2.id] = st[so2.id] || { at: Date.now(), sentDay: today() }; st[so2.id].s = 'sem'; save(); }
+      if (sc.dataset.cp) {
+        var ok = function () { sc.textContent = 'Copiado!'; setTimeout(function () { sc.textContent = 'Copiar'; }, 1800); };
+        if (navigator.clipboard) navigator.clipboard.writeText(it.m).then(ok, function () { prompt('Copie a mensagem:', it.m); }); else prompt('Copie a mensagem:', it.m);
+      }
+      if (it.sem) setTimeout(all, 400);
+      return;
+    }
     var cp = e.target.closest('[data-copy]');
     if (cp) {
       var so = S.filter(function (z) { return z.id === cp.dataset.copy; })[0], txt = intro(so);

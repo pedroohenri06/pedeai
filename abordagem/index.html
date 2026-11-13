@@ -166,12 +166,10 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
       { g: 'Entender o restaurante', t: 'Pergunta 1 · como recebe pedidos', m: 'Para eu te indicar o plano ideal: hoje vocês já trabalham com delivery? Os pedidos chegam por WhatsApp, telefone ou aplicativo?' },
       { g: 'Entender o restaurante', t: 'Pergunta 2 · volume', m: 'E, em média, quantos pedidos de delivery vocês fazem por dia?' },
       { g: 'Entender o restaurante', t: 'Pergunta 3 · comissão', m: 'Vocês usam hoje algum aplicativo de delivery que cobra comissão por pedido?' },
-      { g: 'Oferta', t: 'Apresentar os planos', m: 'Temos três planos, todos com comissão zero e cardápio montado pela nossa equipe:' + N + N +
-        '• Essencial: a estrutura completa para vender no delivery, a partir de R$ ' + pr('essencial') + '/mês' + N +
-        '• Destaque (o mais escolhido): mais visibilidade, selo de Parceiro Verificado e 4 posts mensais feitos pela nossa equipe de design, a partir de R$ ' + pr('destaque') + '/mês' + N +
-        '• Premium: atendente virtual com IA no seu WhatsApp, banner na página inicial da cidade e topo da categoria. Só 3 vagas por cidade, a partir de R$ ' + pr('premium') + '/mês' + N + N +
-        (bf ? 'Valores no plano anual com o preço de Black Friday, válido até 30/11, e garantia de 7 dias.' : 'Valores no plano anual, com garantia de 7 dias.') + N +
-        'Detalhes de cada plano: ' + SITE + 'planos' + N + N + 'Quer que eu te indique o melhor para a loja ' + s.n + ', ou prefere falar com um especialista do nosso time comercial?' },
+      { g: 'Oferta', t: 'Apresentar os planos', m: 'Nossos planos começam em *R$ 39,90 por mês*, com comissão zero em todos os pedidos e o cardápio montado pela nossa equipe.' + N + N +
+        'Também temos planos *sem fidelidade*, para você começar sem compromisso.' + (bf ? ' E, até 30/11, o plano anual está com condições especiais de Black Friday.' : '') + N + N +
+        'Veja todos os planos e benefícios: ' + SITE + 'planos' + N + N +
+        'Quer que eu te indique o plano ideal para a loja ' + s.n + ', ou prefere falar com um especialista do nosso time comercial?' },
       { g: 'Fechamento', t: 'Fechar Essencial anual · R$ ' + pr('essencial') + '/mês', m: close('essencial') },
       { g: 'Fechamento', t: 'Fechar Destaque anual · R$ ' + pr('destaque') + '/mês', m: close('destaque') },
       { g: 'Fechamento', t: 'Fechar Premium anual · R$ ' + pr('premium') + '/mês', m: close('premium') },

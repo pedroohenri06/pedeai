@@ -34,6 +34,7 @@ sem link a partir do site; o Pedro envia o endereço aos restaurantes. Ao mudar 
 | Gerente de conta dedicado | – | – | ✓ |
 | Atendente virtual com IA no WhatsApp (a partir do lançamento, 25/11; piloto em desenvolvimento) | – | – | ✓ |
 | 1 campanha com influenciador regional por ano (custo ~R$ 100) | – | – | só no anual |
+| Placa NFC de avaliação no Google para o balcão (custo e prazo de entrega a cotar) | – | – | semestral e anual |
 
 Premium: no máximo 3 por cidade (10 cidades → até 30 campanhas de influenciador por ano).
 

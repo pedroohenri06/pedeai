@@ -107,7 +107,7 @@ O QUE É O PEDEAI (fatos; use só estes)
 
 PLANOS (valor por mês)
 Essencial: mensal R$ 49,90 · semestral R$ 44,90 · anual R$ 39,90
-  Comissão zero; cardápio estruturado pela equipe; pedidos organizados no WhatsApp; kit de divulgação da equipe de design (QR Code para mesa, balcão e sacola, artes para story, status e feed); QR Code de avaliação no Google; cardápio em PDF; link para a bio do Instagram; até 2 atualizações de cardápio ou preço por mês.
+  Comissão zero; cardápio estruturado pela equipe; pedidos organizados no WhatsApp; kit de divulgação da equipe de design (QR Code para mesa, balcão e sacola, artes para story, status e feed); cardápio em PDF; link para a bio do Instagram; até 2 atualizações de cardápio ou preço por mês.
 Destaque (o mais escolhido): mensal R$ 74,90 · semestral R$ 64,90 · anual R$ 54,90
   Tudo do Essencial + posicionamento entre as primeiras lojas da cidade; selo de Parceiro Verificado; 4 posts mensais para o Instagram feitos pela equipe de design; carrossel de destaques; promoções com preço de/por; relatório mensal de desempenho; atualizações ilimitadas.
 Premium (só 3 vagas por cidade): mensal R$ 99,90 · semestral R$ 89,90 · anual R$ 79,90

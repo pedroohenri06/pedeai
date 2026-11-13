@@ -661,8 +661,8 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
       var bonus = card.querySelector('[data-bonus]'), bonusOn = p.id === 'premium' && (period === 'anual' || period === 'semestral');
       bonus.hidden = !bonusOn;
       if (bonusOn) bonus.querySelector('[data-bonus-txt]').innerHTML = period === 'anual'
-        ? '<b>Bônus do Premium anual:</b> placa NFC de avaliação no Google para o seu balcão e 1 campanha por ano com influenciador regional, conduzida pelo nosso time de marketing'
-        : '<b>Bônus do Premium semestral:</b> placa NFC de avaliação no Google para o seu balcão: o cliente aproxima o celular e avalia a sua loja em segundos';
+        ? '<b>Bônus do Premium anual:</b> placa de avaliação do Google com tecnologia NFC para o seu balcão e 1 campanha por ano com influenciador regional, conduzida pelo nosso time de marketing'
+        : '<b>Bônus do Premium semestral:</b> placa de avaliação do Google com tecnologia NFC para o seu balcão: o cliente aproxima o celular e avalia a sua loja em segundos';
       var cta = card.querySelector('[data-cta]'), link = promo ? PROMO.checkout[p.id] : p.checkout[period];
       cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + (promo ? ', ' + PROMO.nome : '') + ') do PedeAi Delivery.');
     });

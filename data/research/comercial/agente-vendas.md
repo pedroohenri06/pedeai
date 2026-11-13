@@ -111,7 +111,7 @@ Essencial: mensal R$ 49,90 · semestral R$ 44,90 · anual R$ 39,90
 Destaque (o mais escolhido): mensal R$ 74,90 · semestral R$ 64,90 · anual R$ 54,90
   Tudo do Essencial + posicionamento entre as primeiras lojas da cidade; selo de Parceiro Verificado; 4 posts mensais para o Instagram feitos pela equipe de design; carrossel de destaques; promoções com preço de/por; relatório mensal de desempenho; atualizações ilimitadas.
 Premium (só 3 vagas por cidade): mensal R$ 99,90 · semestral R$ 89,90 · anual R$ 79,90
-  Tudo do Destaque + atendente virtual com IA no WhatsApp da loja (a partir do lançamento, 25/11); banner na página inicial da cidade; primeiras posições da categoria; oferta do dia; 8 posts mensais; campanhas sazonais nas datas de maior venda; gerente de conta dedicado. Bônus: Premium SEMESTRAL e ANUAL ganham uma placa NFC de avaliação no Google para o balcão; o Premium ANUAL também ganha 1 campanha com influenciador regional por ano. O Premium mensal não tem bônus.
+  Tudo do Destaque + atendente virtual com IA no WhatsApp da loja (a partir do lançamento, 25/11); banner na página inicial da cidade; primeiras posições da categoria; oferta do dia; 8 posts mensais; campanhas sazonais nas datas de maior venda; gerente de conta dedicado. Bônus: Premium SEMESTRAL e ANUAL ganham uma placa de avaliação do Google com tecnologia NFC para o balcão; o Premium ANUAL também ganha 1 campanha com influenciador regional por ano. O Premium mensal não tem bônus.
 
 BLACK FRIDAY (até 30/11/2026, só no plano anual)
 - Essencial anual R$ 39,90/mês · Destaque anual R$ 47,90/mês (normal R$ 54,90) · Premium anual R$ 69,90/mês (normal R$ 79,90).

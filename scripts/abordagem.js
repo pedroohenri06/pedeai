@@ -85,6 +85,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .st-t{font-weight:800;font-size:13.5px}.st-m{white-space:pre-wrap;font-size:13.5px;color:#4a3b3d;margin-top:4px}
 .st-a{display:flex;gap:8px;margin-top:8px}.st-a button,.st-a a{flex:1;height:40px;border-radius:10px;border:1px solid var(--line);background:#fff;font:700 13px 'DM Sans';color:var(--ink);display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
 .st-a a{background:#1f9d55;border-color:#1f9d55;color:#fff}
+.cnt-ok{color:#7fe0a6;font-weight:800}.bar button[aria-pressed=true] .cnt-ok{color:#1f8a4c}
 .empty{padding:30px;text-align:center;color:var(--muted)}
 .note{font-size:12.5px;color:var(--muted);margin:16px 0 0;text-align:center}
 </style></head><body>
@@ -95,7 +96,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 </header>
 <main>
   <div class="filters" id="filters" role="group" aria-label="Filtro">
-    <button data-f="todos" aria-pressed="true">Todos</button><button data-f="carrinho">Carrinho ok</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button><button data-f="semcardapio">Sem cardápio</button>
+    <button data-f="carrinho" aria-pressed="true">✓ Carrinho ok</button><button data-f="todos">Todos</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button><button data-f="semcardapio">Sem cardápio</button>
   </div>
   <p class="peak" id="peak" hidden>Agora é horário de pico dos restaurantes. Prefira enviar das 9h às 11h ou das 14h30 às 17h.</p>
   <details class="msg"><summary>Ver as mensagens (abertura e lembretes)</summary><pre id="msgPreview"></pre></details>
@@ -114,10 +115,11 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   function save() { try { localStorage.setItem(KEY, JSON.stringify(st)); } catch (e) {} }
   var esc = function (s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); };
   var cities = []; S.forEach(function (s) { if (cities.indexOf(s.c) < 0) cities.push(s.c); });
-  cities.sort(function (a, b) { return S.filter(function (s) { return s.c === b && s.w; }).length - S.filter(function (s) { return s.c === a && s.w; }).length; });
+  var ready = function (c) { return S.filter(function (s) { return s.c === c && s.w && s.o; }).length; };
+  cities.sort(function (a, b) { return ready(b) - ready(a); });
   var city; try { city = localStorage.getItem(KEY + '-cidade'); } catch (e) {}
   if (cities.indexOf(city) < 0) city = cities[0];
-  var filter = 'todos';
+  var filter = 'carrinho'; // foco do dia: lojas com o carrinho funcionando
 
   // Etapa 1 do fluxo (data/research/comercial/agente-vendas.md): curta, sem link, pergunta pelo responsável.
   function message(s) {
@@ -142,8 +144,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 
   function renderCities() {
     document.getElementById('cities').innerHTML = cities.map(function (c) {
-      var n = S.filter(function (s) { return s.c === c && s.w; }).length;
-      return '<button data-c="' + esc(c) + '" aria-pressed="' + (c === city) + '">' + esc(c) + ' · ' + n + '</button>';
+      return '<button data-c="' + esc(c) + '" aria-pressed="' + (c === city) + '">' + esc(c) + ' · <span class="cnt-ok">' + ready(c) + ' ✓</span></button>';
     }).join('');
   }
   function renderStats() {

@@ -15,10 +15,23 @@ function mobile(n) { // celular brasileiro com DDD: 11 dígitos, terceiro dígit
   n = digits(n); if (n.startsWith('55')) n = n.slice(2);
   return n.length === 11 && n[2] === '9' ? '55' + n : '';
 }
+const quality = s => {
+  const m = Array.isArray(s.menu) ? s.menu : [], img = m.filter(i => i.image).length;
+  if (m.length < 15 || img / m.length < 0.8 || !s.logo) return 0;
+  return img * 2 + Math.min(m.length, 60) + (s.image ? 10 : 0);
+};
+const good = db.filter(quality).sort((a, b) => quality(b) - quality(a));
+// Exemplo para quem ainda não tem cardápio: mesma categoria na mesma cidade, senão o melhor da cidade,
+// senão a mesma categoria em outra cidade, senão o melhor de todos.
+function exampleFor(s) {
+  const e = good.find(g => g.city === s.city && g.category === s.category) || good.find(g => g.city === s.city) ||
+    good.find(g => g.category === s.category) || good[0];
+  return e ? { id: e.id, n: e.name, c: e.city } : null;
+}
 const stores = db.map(s => {
   const wa = mobile(s.whatsapp) || mobile(s.phone);
   return { id: s.id, n: s.name, c: s.city, k: s.category || '', b: s.neighborhood || '', w: wa,
-    t: wa ? '' : digits(s.phone), ig: s.instagram || '', m: !!(s.menu && (s.menu.sections || s.menu.length)) };
+    t: wa ? '' : digits(s.phone), ig: s.instagram || '', m: Array.isArray(s.menu) && s.menu.length > 0, ex: (Array.isArray(s.menu) && s.menu.length) ? null : exampleFor(s) };
 }).sort((a, b) => a.c.localeCompare(b.c, 'pt') || a.n.localeCompare(b.n, 'pt'));
 
 const html = `<!doctype html>
@@ -61,6 +74,9 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .when{font-size:11.5px;color:var(--muted);margin-top:6px}
 .acts .fup{background:#fff7e6;border-color:#f0c060;color:#7a4b00;flex:1;justify-content:center}.acts .fup svg{width:18px;height:18px}
 .peak{background:#fff1d6;color:#7a4b00;border-radius:12px;padding:10px 14px;font-weight:600;font-size:13.5px;margin-bottom:12px}
+.tags{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.tag.nm-tag{background:#fde7e9;color:#b3121f}
+.nomenu{margin-top:8px;padding:8px 12px;border-radius:10px;background:#fff4f4;color:#7d1019;font-size:13px}.nomenu a{color:#b3121f;font-weight:700}
+.acts .copy{flex:1;justify-content:center;background:#f7f2ee}
 .empty{padding:30px;text-align:center;color:var(--muted)}
 .note{font-size:12.5px;color:var(--muted);margin:16px 0 0;text-align:center}
 </style></head><body>
@@ -71,7 +87,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 </header>
 <main>
   <div class="filters" id="filters" role="group" aria-label="Filtro">
-    <button data-f="todos" aria-pressed="true">Todos</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button>
+    <button data-f="todos" aria-pressed="true">Todos</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button><button data-f="semcardapio">Sem cardápio</button>
   </div>
   <p class="peak" id="peak" hidden>Agora é horário de pico dos restaurantes. Prefira enviar das 9h às 11h ou das 14h30 às 17h.</p>
   <details class="msg"><summary>Ver as mensagens (abertura e lembretes)</summary><pre id="msgPreview"></pre></details>
@@ -97,13 +113,23 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 
   // Etapa 1 do fluxo (data/research/comercial/agente-vendas.md): curta, sem link, pergunta pelo responsável.
   function message(s) {
-    return 'Olá, tudo bem? Aqui é do PedeAi Delivery, a nova plataforma de delivery de ' + s.c + '. Falo com o responsável pelo ' + s.n + '?';
+    return 'Olá, tudo bem? Aqui é do PedeAi Delivery, a nova plataforma de delivery de ' + s.c + '. Falo com o responsável pela loja ' + s.n + '?';
   }
   function followUp(s, n) {
     var launched = Date.now() >= LANCAMENTO;
     return n === 1
-      ? 'Olá, tudo bem? Retomando meu contato do PedeAi Delivery: o ' + s.n + ' já está cadastrado na nossa plataforma, que ' + (launched ? 'já está no ar em ' + s.c : 'estreia em ' + s.c + ' no dia 25/11') + '. Com quem posso falar sobre a ativação da loja?'
-      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se em algum momento fizer sentido conhecer o PedeAi Delivery, fico à disposição por aqui. Desejo ótimas vendas ao ' + s.n + '!';
+      ? 'Olá, tudo bem? Retomando meu contato do PedeAi Delivery: a loja ' + s.n + ' já está cadastrada na nossa plataforma, que ' + (launched ? 'já está no ar em ' + s.c : 'estreia em ' + s.c + ' no dia 25/11') + '. Com quem posso falar sobre a ativação da loja?'
+      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se em algum momento fizer sentido conhecer o PedeAi Delivery, fico à disposição por aqui. Desejo ótimas vendas!';
+  }
+  // Etapa 2A: apresentação para quem respondeu que é o responsável. Sem cardápio: mostra um exemplo bem feito.
+  function intro(s) {
+    var launched = Date.now() >= LANCAMENTO, when = launched ? 'que já está no ar em ' + s.c : 'que estreia em ' + s.c + ' no dia 25/11';
+    var close = '\\n\\nPosso te mostrar como funciona? Responda:\\n1) Pode mandar\\n2) Prefiro falar com um especialista\\n3) Agora não';
+    if (s.m) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery. A loja ' + s.n + ' já aparece na nossa plataforma, ' + when + ': ' + SITE + '#/loja/' + s.id +
+      '\\n\\nAqui o restaurante não paga comissão: o cliente monta o pedido no cardápio online e ele chega pronto no seu WhatsApp.' + close;
+    return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery, a plataforma de delivery ' + when + '.' +
+      (s.ex ? '\\n\\nVeja como fica um restaurante na plataforma: ' + SITE + '#/loja/' + s.ex.id : '') +
+      '\\n\\nA loja ' + s.n + ' pode ficar assim também: você nos envia as fotos dos pratos e a nossa equipe monta todo o cardápio. O cliente faz o pedido online e ele chega pronto no seu WhatsApp, sem comissão.' + close;
   }
   function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
   function today() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
@@ -121,19 +147,21 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     list.forEach(function (s) { var x = status(s.id); if (cnt[x] !== undefined) cnt[x]++; });
     var t = sentToday();
     document.getElementById('stats').innerHTML = '<span><b>' + list.filter(function (s) { return s.w; }).length + '</b> com WhatsApp</span><span><b>' +
-      (cnt.enviado + cnt.respondeu + cnt.fechou + cnt.sem) + '</b> abordados</span><span><b>' + cnt.respondeu + '</b> responderam</span><span><b>' + cnt.fechou + '</b> fecharam</span>' +
+      (cnt.enviado + cnt.respondeu + cnt.fechou + cnt.sem) + '</b> abordados</span><span><b>' + list.filter(function (s) { return !s.m && s.w; }).length + '</b> sem cardápio</span><span><b>' + cnt.respondeu + '</b> responderam</span><span><b>' + cnt.fechou + '</b> fecharam</span>' +
       '<span class="today' + (t >= META ? ' over' : '') + '">Hoje: <b>' + t + ' de ' + META + '</b></span>';
   }
   function renderList() {
-    var list = S.filter(function (s) { return s.c === city && (filter === 'todos' || status(s.id) === filter); });
+    var list = S.filter(function (s) { return s.c === city && (filter === 'todos' || (filter === 'semcardapio' ? !s.m : status(s.id) === filter)); });
     list.sort(function (a, b) { return (b.w ? 1 : 0) - (a.w ? 1 : 0); });
     document.getElementById('list').innerHTML = list.length ? list.map(function (s) {
       var x = status(s.id), rec = st[s.id] || {};
       var send = s.w ? '<a class="send" data-send="' + s.id + '" target="_blank" rel="noopener" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(message(s)) + '">' + WA + (x === 'novo' ? 'Enviar mensagem' : 'Abrir conversa') + '</a>'
         : (s.t ? '<a href="tel:+' + (s.t.length > 11 ? s.t : '55' + s.t) + '">Ligar</a>' : '') + (s.ig ? '<a target="_blank" rel="noopener" href="' + esc(s.ig.indexOf('http') === 0 ? s.ig : 'https://instagram.com/' + s.ig.replace('@', '')) + '">Instagram</a>' : '');
       return '<div class="card st-' + x + '"><div class="top"><div><div class="nm">' + esc(s.n) + '</div><div class="meta">' + esc([s.k, s.b].filter(Boolean).join(' · ')) + (s.w ? '' : ' · sem WhatsApp cadastrado') + '</div></div>' +
-        (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</div>' +
-        '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' + followBtns(s, x, rec) +
+        '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : '') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
+        (s.m ? '' : '<div class="nomenu"><b>Sem cardápio na plataforma.</b> Na apresentação, mostre um exemplo' + (s.ex ? ': <a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.ex.id + '">' + esc(s.ex.n) + (s.ex.c !== s.c ? ' (' + esc(s.ex.c) + ')' : '') + '</a>' : '') + '.</div>') +
+        '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' +
+        (x !== 'novo' && s.w ? '<div class="acts"><button class="copy" data-copy="' + s.id + '">Copiar apresentação (quando responder)</button></div>' : '') + followBtns(s, x, rec) +
         (x !== 'novo' ? '<div class="st" data-id="' + s.id + '">' + ['enviado', 'respondeu', 'fechou', 'sem'].map(function (k) { return '<button data-s="' + k + '" aria-pressed="' + (x === k) + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[k] + '</button>'; }).join('') + '<button data-s="novo">Desfazer</button></div>' : '') +
         (rec.at ? '<div class="when">Enviado em ' + new Date(rec.at).toLocaleDateString('pt-BR') + '</div>' : '') + '</div>';
     }).join('') : '<p class="empty">Nenhuma loja neste filtro.</p>';
@@ -158,6 +186,14 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     [].forEach.call(this.children, function (x) { x.setAttribute('aria-pressed', String(x === b)); }); renderList();
   });
   document.getElementById('list').addEventListener('click', function (e) {
+    var cp = e.target.closest('[data-copy]');
+    if (cp) {
+      var so = S.filter(function (z) { return z.id === cp.dataset.copy; })[0], txt = intro(so);
+      var done = function () { cp.textContent = 'Copiado! Cole no WhatsApp'; setTimeout(function () { cp.textContent = 'Copiar apresentação (quando responder)'; }, 2200); };
+      if (navigator.clipboard) navigator.clipboard.writeText(txt).then(done, function () { prompt('Copie a mensagem:', txt); });
+      else prompt('Copie a mensagem:', txt);
+      return;
+    }
     var f = e.target.closest('[data-fup]');
     if (f) { var r = st[f.dataset.fup]; r.f = +f.dataset.n; r.fupAt = Date.now(); save(); setTimeout(all, 300); return; }
     var a = e.target.closest('[data-send]');

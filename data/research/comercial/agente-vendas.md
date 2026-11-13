@@ -48,8 +48,8 @@ aparecem de forma consistente nas fontes de vendas B2B por WhatsApp e foram adap
   cardápio, e a equipe monta a loja no mesmo dia.
 
 **Lembretes (se não responder à abertura)**
-- 2 dias depois: "Oi, tudo bem? Só para não deixar passar: falo com o responsável pelo {loja}? É sobre o delivery sem comissão em {cidade}."
-- 5 dias depois (último): "Vou encerrar por aqui para não incomodar. Se um dia quiser conhecer o PedeAi, é só me chamar. Boas vendas!"
+- 2 dias depois: "Olá, tudo bem? Retomando meu contato do PedeAi Delivery: o {loja} já está cadastrado na nossa plataforma, que estreia em {cidade} no dia 25/11. Com quem posso falar sobre a ativação da loja?"
+- 5 dias depois (último): "Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se em algum momento fizer sentido conhecer o PedeAi Delivery, fico à disposição por aqui. Desejo ótimas vendas ao {loja}!"
 
 **Passar para o Pedro (humano) sempre que:** o dono pedir, escolher a opção 2, reclamar, negociar preço fora da
 tabela, perguntar algo que não está nas instruções, ou estiver pronto para fechar e quiser falar com alguém.

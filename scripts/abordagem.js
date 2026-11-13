@@ -100,9 +100,10 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     return 'Olá, tudo bem? Aqui é do PedeAi Delivery, a nova plataforma de delivery de ' + s.c + '. Falo com o responsável pelo ' + s.n + '?';
   }
   function followUp(s, n) {
+    var launched = Date.now() >= LANCAMENTO;
     return n === 1
-      ? 'Oi, tudo bem? Só para não deixar passar: falo com o responsável pelo ' + s.n + '? É sobre o delivery sem comissão em ' + s.c + '.'
-      : 'Vou encerrar por aqui para não incomodar. Se um dia quiser conhecer o PedeAi, é só me chamar. Boas vendas!';
+      ? 'Olá, tudo bem? Retomando meu contato do PedeAi Delivery: o ' + s.n + ' já está cadastrado na nossa plataforma, que ' + (launched ? 'já está no ar em ' + s.c : 'estreia em ' + s.c + ' no dia 25/11') + '. Com quem posso falar sobre a ativação da loja?'
+      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se em algum momento fizer sentido conhecer o PedeAi Delivery, fico à disposição por aqui. Desejo ótimas vendas ao ' + s.n + '!';
   }
   function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
   function today() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }

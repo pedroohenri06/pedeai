@@ -8,6 +8,7 @@
 const fs = require('fs');
 const path = require('path');
 const ROOT = path.join(__dirname, '..');
+const C = require(path.join(ROOT, 'js', 'core.js'));
 const db = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'establishments.json'), 'utf8')).establishments;
 
 const digits = s => String(s || '').replace(/\D/g, '');
@@ -31,7 +32,7 @@ function exampleFor(s) {
 const stores = db.map(s => {
   const wa = mobile(s.whatsapp) || mobile(s.phone);
   return { id: s.id, n: s.name, c: s.city, k: s.category || '', b: s.neighborhood || '', w: wa,
-    t: wa ? '' : digits(s.phone), ig: s.instagram || '', m: Array.isArray(s.menu) && s.menu.length > 0, ex: (Array.isArray(s.menu) && s.menu.length) ? null : exampleFor(s) };
+    t: wa ? '' : digits(s.phone), ig: s.instagram || '', m: Array.isArray(s.menu) && s.menu.length > 0, ex: (Array.isArray(s.menu) && s.menu.length) ? null : exampleFor(s), o: C.canOrder(s) };
 }).sort((a, b) => a.c.localeCompare(b.c, 'pt') || a.n.localeCompare(b.n, 'pt'));
 
 const html = `<!doctype html>
@@ -130,7 +131,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   }
   // Etapa 2A: apresentação para quem respondeu que é o responsável. Sem cardápio: mostra um exemplo bem feito.
   function intro(s) {
-    if (s.m) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nVou direto ao ponto: o nosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nO cardápio de vocês já está pronto na plataforma: ' + SITE + '#/loja/' + s.id + '\\n\\nFaça um teste agora, como se fosse um cliente: escolha os itens, coloque seu nome e endereço, complete as 3 etapas e envie o pedido. Ele vai chegar pronto no WhatsApp da loja, exatamente como os seus clientes vão mandar. Leva menos de 1 minuto.\\n\\nDepois me conta o que achou!';
+    if (s.m && s.o) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nNosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nO cardápio de vocês já está pronto na plataforma: ' + SITE + '#/loja/' + s.id + '\\n\\nFaça um pedido de teste como cliente: escolha os itens, complete as 3 etapas e envie. Ele chega pronto no WhatsApp da loja, como os seus clientes vão mandar.\\n\\nSe algum item estiver sem foto, é só nos enviar que a nossa equipe atualiza o cardápio.\\n\\nDepois me conta o que achou!';
+    if (s.m) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nNosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nO cardápio de vocês já está pronto na plataforma: ' + SITE + '#/loja/' + s.id + '\\n\\nPara liberar o envio dos pedidos, só preciso confirmar: este número é o WhatsApp que recebe os pedidos da loja? Confirmando, liberamos na hora e você já faz um pedido de teste como cliente.\\n\\nSe algum item estiver sem foto, é só nos enviar que a nossa equipe atualiza o cardápio.';
     return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nVou direto ao ponto: o nosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nVeja como fica um restaurante na plataforma: ' + (s.ex ? SITE + '#/loja/' + s.ex.id : SITE) + '\\n\\nFaça o teste como se fosse um cliente: escolha os itens e passe pelas 3 etapas (pedido, entrega e pagamento) para sentir a experiência. Só não precisa enviar no final, porque esse cardápio é de outro restaurante.\\n\\nA loja ' + s.n + ' pode ficar assim também: você nos envia as fotos dos pratos e a nossa equipe monta todo o cardápio. Me conta o que achou!';
   }
   function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
@@ -160,7 +162,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
       var send = s.w ? '<a class="send" data-send="' + s.id + '" target="_blank" rel="noopener" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(message(s)) + '">' + WA + (x === 'novo' ? 'Enviar mensagem' : 'Abrir conversa') + '</a>'
         : (s.t ? '<a href="tel:+' + (s.t.length > 11 ? s.t : '55' + s.t) + '">Ligar</a>' : '') + (s.ig ? '<a target="_blank" rel="noopener" href="' + esc(s.ig.indexOf('http') === 0 ? s.ig : 'https://instagram.com/' + s.ig.replace('@', '')) + '">Instagram</a>' : '');
       return '<div class="card st-' + x + '"><div class="top"><div><div class="nm">' + esc(s.n) + '</div><div class="meta">' + esc([s.k, s.b].filter(Boolean).join(' · ')) + (s.w ? '' : ' · sem WhatsApp cadastrado') + '</div></div>' +
-        '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : '') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
+        '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : s.o ? '' : '<span class="tag nm-tag">Confirmar WhatsApp</span>') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
+        (s.m && !s.o && s.w ? '<div class="nomenu"><b>Pedido de teste travado:</b> WhatsApp da loja ainda não confirmado. A apresentação já pede a confirmação; quando o dono confirmar, avise o Claude para liberar.</div>' : '') +
         (s.m ? '' : '<div class="nomenu"><b>Sem cardápio na plataforma.</b> Na apresentação, mostre um exemplo' + (s.ex ? ': <a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.ex.id + '">' + esc(s.ex.n) + (s.ex.c !== s.c ? ' (' + esc(s.ex.c) + ')' : '') + '</a>' : '') + '.</div>') +
         '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' +
         followBtns(s, x, rec) + (s.w ? '<details class="script" data-script="' + s.id + '"><summary>Script da conversa (já com nome e links)</summary><div class="sc-body"></div></details>' : '') +
@@ -190,6 +193,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     };
     return [
       { g: 'Se for o responsável', t: 'Apresentação + teste do cardápio', m: intro(s) },
+      s.m && !s.o ? { g: 'Se for o responsável', t: 'Número confirmado: pedido liberado (avise o Claude antes)', m: 'Obrigado pela confirmação! O envio de pedidos da loja ' + s.n + ' está liberado.\\n\\nFaça o teste como cliente: ' + SITE + '#/loja/' + s.id + '\\nEscolha os itens, complete as 3 etapas e envie. O pedido chega pronto aqui no WhatsApp da loja.\\n\\nDepois me conta o que achou!' } : null,
       { g: 'Se for o responsável', t: 'Depois do teste: como vamos levar clientes', m: 'Agora imagina isso acontecendo com os seus clientes todos os dias. É assim que vamos levar pedidos até a loja ' + s.n + ':\\n\\n• Um time de gestores de tráfego rodando campanhas pagas intensas em ' + s.c + ' e nas 10 cidades do Vale do Araguaia, levando o público direto para a plataforma\\n• Campanhas com influenciadores locais divulgando o PedeAi para a cidade inteira\\n• Cada cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp: sem comissão, 100% da venda é sua\\n• Nossa equipe monta e atualiza o seu cardápio; você só envia as fotos\\n\\nEnquanto os aplicativos comuns ficam com uma fatia de cada pedido, aqui você paga um plano fixo que começa em R$ 39,90 por mês.\\n\\nPosso te mostrar as condições de lançamento?' },
       { g: 'Se NÃO for o responsável', t: 'Pedir o contato do responsável', m: 'Sem problema, obrigado pelo retorno! Você consegue me passar o contato do responsável pela loja ' + s.n + '? Se preferir, posso deixar uma mensagem curta para você repassar.' },
       { g: 'Se NÃO for o responsável', t: 'Recado para repassar', m: 'Perfeito! Segue a mensagem para repassar ao responsável:\\n\\nO PedeAi Delivery está trazendo mais pedidos de delivery para os restaurantes de ' + s.c + ', sem cobrar comissão. Nosso time de tráfego pago e influenciadores locais leva clientes para a plataforma, e cada pedido chega pronto no WhatsApp da loja.\\n\\n' + lojaLink(s) + '\\n\\nPlanos a partir de R$ 39,90 por mês' + (bf ? ', com condições de Black Friday até 30/11' : '') + ': ' + SITE + 'planos\\n\\nPara falar com o nosso time comercial, é só responder esta mensagem. Obrigado!' },
@@ -202,7 +206,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
       { g: 'Fechamento', t: 'Fechar Premium anual · R$ ' + pr('premium') + '/mês', m: close('premium') },
       { g: 'A qualquer momento', t: 'Passar para o especialista (você)', m: 'Perfeito! Vou passar o seu atendimento para o Pedro Henrique, especialista do nosso time comercial. Ele continua a conversa com você por aqui em instantes.' },
       { g: 'A qualquer momento', t: 'Respondeu SAIR / sem interesse', m: 'Tudo certo, obrigado pelo retorno! Não vou enviar mais mensagens. Se um dia quiser conhecer o PedeAi Delivery, é só chamar por aqui. Boas vendas!', sem: true }
-    ].map(function (x) { x.m = x.m.split(N).join('\\n'); return x; });
+    ].filter(Boolean).map(function (x) { x.m = x.m.split(N).join('\\n'); return x; });
   }
   function scriptHtml(s) {
     var last = '';

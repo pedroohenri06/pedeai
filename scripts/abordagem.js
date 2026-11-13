@@ -59,11 +59,13 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .st button{height:34px;padding:0 10px;border-radius:10px;border:1px solid var(--line);background:#fff;font:600 12.5px 'DM Sans';color:var(--muted)}
 .st button[aria-pressed=true]{background:var(--ink);color:#fff;border-color:var(--ink)}
 .when{font-size:11.5px;color:var(--muted);margin-top:6px}
+.acts .fup{background:#fff7e6;border-color:#f0c060;color:#7a4b00;flex:1;justify-content:center}.acts .fup svg{width:18px;height:18px}
+.peak{background:#fff1d6;color:#7a4b00;border-radius:12px;padding:10px 14px;font-weight:600;font-size:13.5px;margin-bottom:12px}
 .empty{padding:30px;text-align:center;color:var(--muted)}
 .note{font-size:12.5px;color:var(--muted);margin:16px 0 0;text-align:center}
 </style></head><body>
 <header>
-  <h1>Abordagem de parceiros<small>Uma cidade por vez · 30 a 50 por dia · uso interno</small></h1>
+  <h1>Abordagem de parceiros<small>Uma cidade por vez · 30 a 50 por dia · 9h–11h e 14h30–17h</small></h1>
   <div class="bar" id="cities" role="group" aria-label="Cidade"></div>
   <div class="stats" id="stats"></div>
 </header>
@@ -71,7 +73,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   <div class="filters" id="filters" role="group" aria-label="Filtro">
     <button data-f="todos" aria-pressed="true">Todos</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button>
   </div>
-  <details class="msg"><summary>Ver a mensagem que vai ser enviada</summary><pre id="msgPreview"></pre></details>
+  <p class="peak" id="peak" hidden>Agora é horário de pico dos restaurantes. Prefira enviar das 9h às 11h ou das 14h30 às 17h.</p>
+  <details class="msg"><summary>Ver as mensagens (abertura e lembretes)</summary><pre id="msgPreview"></pre></details>
   <div id="list"></div>
   <p class="note">O progresso fica salvo neste celular. Use sempre o mesmo aparelho para a abordagem.</p>
 </main>
@@ -92,15 +95,16 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   if (cities.indexOf(city) < 0) city = cities[0];
   var filter = 'todos';
 
+  // Etapa 1 do fluxo (data/research/comercial/agente-vendas.md): curta, sem link, pergunta pelo responsável.
   function message(s) {
-    var launched = Date.now() >= LANCAMENTO;
-    return 'Olá! Tudo bem? Aqui é o Pedro, do PedeAi Delivery.\\n\\n' +
-      'O ' + s.n + ' já está cadastrado no PedeAi, a plataforma de delivery de ' + s.c + ' e do Vale do Araguaia, que ' +
-      (launched ? 'já está no ar.' : 'estreia dia 25 de novembro.') + '\\n\\n' +
-      'Aqui o restaurante não paga comissão: o cliente monta o pedido no cardápio online e ele chega pronto no seu WhatsApp.\\n\\n' +
-      'Veja como a sua loja aparece: ' + SITE + '#/loja/' + s.id + '\\n\\n' +
-      'Posso te explicar em 2 minutos como ativar? Se não tiver interesse, é só responder SAIR.';
+    return 'Olá, tudo bem? Aqui é do PedeAi Delivery, a nova plataforma de delivery de ' + s.c + '. Falo com o responsável pelo ' + s.n + '?';
   }
+  function followUp(s, n) {
+    return n === 1
+      ? 'Oi, tudo bem? Só para não deixar passar: falo com o responsável pelo ' + s.n + '? É sobre o delivery sem comissão em ' + s.c + '.'
+      : 'Vou encerrar por aqui para não incomodar. Se um dia quiser conhecer o PedeAi, é só me chamar. Boas vendas!';
+  }
+  function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
   function today() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
   function sentToday() { var t = today(); return Object.keys(st).filter(function (k) { return st[k].sentDay === t; }).length; }
   function status(id) { return (st[id] && st[id].s) || 'novo'; }
@@ -128,12 +132,20 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
         : (s.t ? '<a href="tel:+' + (s.t.length > 11 ? s.t : '55' + s.t) + '">Ligar</a>' : '') + (s.ig ? '<a target="_blank" rel="noopener" href="' + esc(s.ig.indexOf('http') === 0 ? s.ig : 'https://instagram.com/' + s.ig.replace('@', '')) + '">Instagram</a>' : '');
       return '<div class="card st-' + x + '"><div class="top"><div><div class="nm">' + esc(s.n) + '</div><div class="meta">' + esc([s.k, s.b].filter(Boolean).join(' · ')) + (s.w ? '' : ' · sem WhatsApp cadastrado') + '</div></div>' +
         (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</div>' +
-        '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' +
+        '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' + followBtns(s, x, rec) +
         (x !== 'novo' ? '<div class="st" data-id="' + s.id + '">' + ['enviado', 'respondeu', 'fechou', 'sem'].map(function (k) { return '<button data-s="' + k + '" aria-pressed="' + (x === k) + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[k] + '</button>'; }).join('') + '<button data-s="novo">Desfazer</button></div>' : '') +
         (rec.at ? '<div class="when">Enviado em ' + new Date(rec.at).toLocaleDateString('pt-BR') + '</div>' : '') + '</div>';
     }).join('') : '<p class="empty">Nenhuma loja neste filtro.</p>';
     var first = S.filter(function (s) { return s.c === city && s.w; })[0];
-    document.getElementById('msgPreview').textContent = first ? message(first) : '';
+    document.getElementById('msgPreview').textContent = first ? '1) Abertura\\n' + message(first) + '\\n\\n2) Lembrete (2 dias sem resposta)\\n' + followUp(first, 1) + '\\n\\n3) Último lembrete (5 dias)\\n' + followUp(first, 2) : '';
+  }
+  function followBtns(s, x, rec) {
+    if (x !== 'enviado' || !s.w || !rec.at) return '';
+    var d = daysSince(rec.at), n = rec.f || 0, next = n + 1;
+    if (next > 2) return '<div class="when">Abordagem encerrada (3 mensagens sem resposta).</div>';
+    var wait = next === 1 ? 2 : 5;
+    if (d < wait) return '<div class="when">Sem resposta? Lembrete ' + (next === 1 ? '1' : 'final') + ' liberado em ' + (wait - d) + ' dia(s).</div>';
+    return '<div class="acts"><a class="fup" data-fup="' + s.id + '" data-n="' + next + '" target="_blank" rel="noopener" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(followUp(s, next)) + '">' + WA + (next === 1 ? 'Enviar lembrete (2 dias)' : 'Enviar último lembrete (5 dias)') + '</a></div>';
   }
   function all() { renderCities(); renderStats(); renderList(); }
 
@@ -145,6 +157,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     [].forEach.call(this.children, function (x) { x.setAttribute('aria-pressed', String(x === b)); }); renderList();
   });
   document.getElementById('list').addEventListener('click', function (e) {
+    var f = e.target.closest('[data-fup]');
+    if (f) { var r = st[f.dataset.fup]; r.f = +f.dataset.n; r.fupAt = Date.now(); save(); setTimeout(all, 300); return; }
     var a = e.target.closest('[data-send]');
     if (a && status(a.dataset.send) === 'novo') { st[a.dataset.send] = { s: 'enviado', at: Date.now(), sentDay: today() }; save(); setTimeout(all, 300); return; }
     var b = e.target.closest('.st button'); if (!b) return;
@@ -152,6 +166,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     if (b.dataset.s === 'novo') delete st[id]; else { st[id] = st[id] || {}; st[id].s = b.dataset.s; }
     save(); all();
   });
+  var hr = new Date().getHours() + new Date().getMinutes() / 60;
+  document.getElementById('peak').hidden = !((hr >= 11 && hr < 14.5) || hr >= 17.5 || hr < 8);
   all();
 })();
 </script></body></html>`;

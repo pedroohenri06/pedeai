@@ -550,19 +550,19 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
   var PLANS = [
     { id: 'essencial', name: 'Essencial', desc: 'Seu restaurante no PedeAi, com cardápio completo e clientes chegando.',
       price: { mensal: 49.90, semestral: 44.90, anual: 39.90 },
-      checkout: { mensal: 'https://pay.finaliza.shop/pl/4d26628c0a', semestral: '', anual: '' },
+      checkout: { mensal: 'https://pay.finaliza.shop/pl/4d26628c0a', semestral: 'https://pay.finaliza.shop/pl/f9c43d8f9e', anual: 'https://pay.finaliza.shop/pl/fb9a7d84b9' },
       highlights: [['zero', 'Zero taxa de plataforma'], ['megaphone', 'Time de marketing trazendo clientes'], ['qr', 'QR Code e kit de divulgação']],
       includesTitle: 'O plano inclui:',
       includes: ['Sem comissão: 100% de cada venda fica com você', 'Time de marketing e gestores de tráfego do PedeAi enchendo a plataforma de clientes', 'Cardápio digital montado pela nossa equipe, com fotos tratadas, tamanhos, adicionais e combos', 'Sua loja no ar no mesmo dia da assinatura', 'Pedido chega no seu WhatsApp já organizado: itens, adicionais, total, endereço e pagamento', 'QR Code do cardápio para mesa, balcão e sacola, e artes prontas para story, status e feed', 'Link próprio do cardápio para a bio do Instagram', 'Até 2 atualizações de cardápio ou preço por mês'] },
     { id: 'destaque', name: 'Destaque', desc: 'Para vender mais: sua loja entre as primeiras da cidade, com selo de verificado e promoções em evidência.', popular: true,
       price: { mensal: 74.90, semestral: 64.90, anual: 54.90 },
-      checkout: { mensal: '', semestral: '', anual: '' },
+      checkout: { mensal: 'https://pay.finaliza.shop/pl/6cb9a0bf23', semestral: 'https://pay.finaliza.shop/pl/f1e5b36871', anual: 'https://pay.finaliza.shop/pl/e207b309b9' },
       highlights: [['star', 'Entre as primeiras da cidade'], ['badge', 'Selo de Parceiro verificado'], ['tag', 'Promoções com preço de/por']],
       includesTitle: 'Tudo do Essencial, mais:',
       includes: ['Sua loja entre as primeiras da lista da cidade', 'Selo azul de Parceiro verificado no card da loja', 'Carrossel de destaques no topo do seu cardápio', 'Promoções com preço riscado (de R$ X por R$ Y)', 'Atualizações de cardápio, preço e promoção ilimitadas'] },
     { id: 'premium', name: 'Premium', badge: 'Só 3 vagas por cidade', desc: 'Tudo o que o PedeAi oferece, para ser a referência da sua cidade no delivery.',
       price: { mensal: 99.90, semestral: 89.90, anual: 79.90 },
-      checkout: { mensal: '', semestral: '', anual: '' },
+      checkout: { mensal: 'https://pay.finaliza.shop/pl/d4c56037ef', semestral: 'https://pay.finaliza.shop/pl/d76ea4e17f', anual: 'https://pay.finaliza.shop/pl/3619cd3240' },
       highlights: [['banner', 'Banner na página inicial'], ['trophy', 'Topo da sua categoria'], ['fire', 'Oferta do dia']],
       includesTitle: 'Tudo do Destaque, mais:',
       includes: ['Banner da sua loja na abertura da cidade', 'Primeiras posições da sua categoria (ex.: Hambúrguer)', 'Oferta do dia em destaque no topo do seu cardápio, você troca quando quiser', 'Atendimento prioritário pelo WhatsApp', 'Apenas 3 lojas Premium por cidade'] },
@@ -573,7 +573,7 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
      sozinha ao preço normal. Para encerrar antes, use ativo: false. */
   var PROMO = { ativo: true, nome: 'Black Friday', fim: '2026-11-30T23:59:59-04:00',
     anual: { essencial: 39.90, destaque: 47.90, premium: 69.90 },
-    checkout: { essencial: '', destaque: '', premium: '' } };
+    checkout: { essencial: 'https://pay.finaliza.shop/pl/fb9a7d84b9', destaque: 'https://pay.finaliza.shop/pl/7e291424ba', premium: 'https://pay.finaliza.shop/pl/d891342cf4' } };
   function promoOn() { return PROMO.ativo && Date.now() < Date.parse(PROMO.fim); }
   function priceOf(p, per) { return per === 'anual' && promoOn() && PROMO.anual[p.id] ? PROMO.anual[p.id] : p.price[per]; }
 

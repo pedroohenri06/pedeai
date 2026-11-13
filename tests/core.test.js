@@ -96,6 +96,8 @@ test('mensagem do WhatsApp lista itens, totais e dados do cliente', () => {
   assert.match(msg, /\*Total: R\$ 139,30\*/);
   assert.match(msg, /\*Entrega\*\nNome: Ana\nEndereço: Rua 1, 10, Bairro Centro\nReferência: Casa azul/);
   assert.match(msg, /\*Pagamento:\* Dinheiro \(troco para R\$ 150,00\)/);
+  assert.match(msg, /Aguardo a confirmação do pedido e do tempo de entrega\. Obrigado!\n\n_Pedido enviado pelo PedeAi Delivery · pedeaionline\.com\.br_$/);
+  assert.doesNotMatch(msg, /cardápio publicado/);
   const pickup = core.buildOrderMessage(store, cart, { mode: 'retirada', address: 'não deve aparecer', payment: 'Pix' });
   assert.match(pickup, /\*Retirada no local\*/);
   assert.doesNotMatch(pickup, /Endereço/);

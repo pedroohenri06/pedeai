@@ -68,7 +68,7 @@
     var c = ['<span class="sp-chip">' + esc(s.category) + '</span>', '<span class="sp-chip">' + icon(I.pin) + esc(s.city) + '</span>'];
     if (C.canOrder(s)) c.push('<span class="sp-chip sp-chip--on">Pedido online</span>');
     else if (C.menuSize(s)) c.push('<span class="sp-chip">' + C.menuSize(s) + (C.menuSize(s) === 1 ? ' item' : ' itens') + ' no cardápio</span>');
-    if (s.confidence === 'baixa') c.push('<span class="sp-chip sp-chip--muted">Em verificação</span>');
+    /* O nível de confiança do cadastro é só interno: não aparece para o consumidor. */
     return '<div class="sp-chips">' + c.join('') + '</div>';
   }
 
@@ -269,9 +269,6 @@
       '<section class="sp-order" id="spOrder" aria-labelledby="spOrderTitle"></section></section>';
   }
 
-  function aboutHtml(s) {
-    return '<details class="sp-about store-sources"><summary>Sobre este cadastro</summary><p>Informações verificadas em ' + esc(formatDate(s.verifiedAt)) + ' a partir de fontes públicas. Alguma informação errada? <a href="https://wa.me/5512936290045?text=' + encodeURIComponent('Olá! Quero corrigir as informações de ' + s.name + ' (' + s.city + ') no PedeAi.') + '" target="_blank" rel="noopener">Avise a equipe</a>.</p><ul>' + s.sources.map(function (u) { return '<li><a href="' + esc(u) + '" target="_blank" rel="noopener nofollow">' + esc(hostOf(u)) + '</a></li>'; }).join('') + '</ul></details>';
-  }
 
   /* ---------------- Abertura e fechamento ---------------- */
   /* Estado do carregamento por loja: 'carregando' ou 'erro' (sem entrada = ainda não pedido ou já carregado). */
@@ -318,7 +315,7 @@
     page.innerHTML = '<div class="sp-scroll" id="storeScroll">' + topHtml(s) +
       '<div class="sp-page">' + coverHtml(s) +
       '<div class="sp-layout"><aside class="sp-aside">' + infoHtml(s) + summaryHtml(s) + '</aside>' +
-      '<div class="sp-main">' + menuHtml(s) + aboutHtml(s) + '</div></div></div><div id="spFooter"></div></div>' +
+      '<div class="sp-main">' + menuHtml(s) + '</div></div></div><div id="spFooter"></div></div>' +
       (s.menu.length ? '<button class="sp-cartbar" id="cartBar" type="button" hidden aria-haspopup="dialog"></button>' : '') +
       '<p class="sr-only" id="spLive" aria-live="polite"></p><div class="sp-sheet" id="spSheet" aria-hidden="true"></div>';
     mountFooter();

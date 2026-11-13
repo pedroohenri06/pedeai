@@ -143,7 +143,7 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.match(await page.textContent('#cartBar'), /3.*R\$ 132,30/);
       await page.click('#cartBar');
       assert.equal(await page.textContent('#cartSubtotal'), 'R$ 132,30');
-      assert.equal(await page.textContent('#cartFee'), 'A combinar');
+      assert.equal(await page.textContent('#cartFee'), 'R$ 7,00', 'sem taxa cadastrada: taxa padrão da região');
       await page.click('#cartLines [data-key="refri"][data-delta="-1"]');
       assert.equal(await page.textContent('#cartSubtotal'), 'R$ 119,80');
       await page.keyboard.press('Escape');
@@ -175,7 +175,7 @@ test('fluxo no navegador', { skip: !playwright && 'Playwright não disponível' 
       assert.equal(await page.textContent('#cartTitle'), 'Pedido');
       assert.match(await page.textContent('#cartLines'), /Grande \(8 fatias\)[\s\S]*Bacon[\s\S]*Obs\.: bem assada/);
       assert.equal(await page.textContent('#cartSend'), 'Continuar');
-      assert.equal(await page.textContent('#cartFootTotal'), 'R$ 255,80');
+      assert.equal(await page.textContent('#cartFootTotal'), 'R$ 262,80');
       await page.fill('#cartNotes', 'mandar sachês');
       await page.click('#cartSend');
       assert.equal(await page.textContent('#cartTitle'), 'Entrega');

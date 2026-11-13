@@ -36,16 +36,17 @@ test('soma do carrinho é exata em centavos', () => {
   cart = core.addItem(cart, store, 'refri');
   const t = core.cartTotals(cart, store, 'entrega');
   assert.equal(t.subtotal, 5990 * 2 + 1250 + 30);
-  assert.equal(t.feeKnown, false);
-  assert.equal(t.total, t.subtotal);
+  assert.equal(t.fee, core.DEFAULT_DELIVERY_FEE_CENTS, 'sem taxa cadastrada usa a taxa padrão da região (R$ 7,00)');
+  assert.equal(t.feeDefault, true);
+  assert.equal(t.total, t.subtotal + 700);
   assert.equal(core.cartCount(cart), 6);
 });
 
 test('taxa de entrega conhecida entra no total; retirada zera taxa', () => {
   const s = Object.assign({}, store, { deliveryFeeCents: 500 });
   const cart = core.addItem(core.emptyCart(s.id), s, 'calabresa');
-  assert.deepEqual(core.cartTotals(cart, s, 'entrega'), { subtotal: 5990, fee: 500, feeKnown: true, total: 6490 });
-  assert.deepEqual(core.cartTotals(cart, s, 'retirada'), { subtotal: 5990, fee: 0, feeKnown: true, total: 5990 });
+  assert.deepEqual(core.cartTotals(cart, s, 'entrega'), { subtotal: 5990, fee: 500, feeKnown: true, feeDefault: false, total: 6490 });
+  assert.deepEqual(core.cartTotals(cart, s, 'retirada'), { subtotal: 5990, fee: 0, feeKnown: true, feeDefault: false, total: 5990 });
 });
 
 test('setQty altera, limita e remove itens', () => {
@@ -91,8 +92,8 @@ test('mensagem do WhatsApp lista itens, totais e dados do cliente', () => {
   assert.match(msg, /1x Refrigerante 2L — R\$ 12,50/);
   assert.match(msg, /Observações: Sem cebola/);
   assert.match(msg, /Subtotal: R\$ 132,30/);
-  assert.match(msg, /Taxa de entrega: a combinar/);
-  assert.match(msg, /\*Total \(sem taxa de entrega\): R\$ 132,30\*/);
+  assert.match(msg, /Taxa de entrega: R\$ 7,00/);
+  assert.match(msg, /\*Total: R\$ 139,30\*/);
   assert.match(msg, /\*Entrega\*\nNome: Ana\nEndereço: Rua 1, 10, Bairro Centro\nReferência: Casa azul/);
   assert.match(msg, /\*Pagamento:\* Dinheiro \(troco para R\$ 150,00\)/);
   const pickup = core.buildOrderMessage(store, cart, { mode: 'retirada', address: 'não deve aparecer', payment: 'Pix' });

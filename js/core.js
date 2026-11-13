@@ -210,11 +210,13 @@
     return cart.lines.reduce(function (n, l) { return n + l.qty; }, 0);
   }
 
+  var DEFAULT_DELIVERY_FEE_CENTS = 700;
   function cartTotals(cart, store, mode) {
     var subtotal = cart.lines.reduce(function (sum, l) { return sum + l.unitCents * l.qty; }, 0);
-    var feeKnown = mode === 'retirada' || (store && Number.isInteger(store.deliveryFeeCents));
-    var fee = mode === 'retirada' ? 0 : (feeKnown ? store.deliveryFeeCents : 0);
-    return { subtotal: subtotal, fee: fee, feeKnown: feeKnown, total: subtotal + fee };
+    /* Taxa de entrega: a da loja quando cadastrada; senão, a taxa padrão da região (R$ 7,00, definida pelo Pedro em 13/11/2026). */
+    var own = store && Number.isInteger(store.deliveryFeeCents);
+    var fee = mode === 'retirada' ? 0 : (own ? store.deliveryFeeCents : DEFAULT_DELIVERY_FEE_CENTS);
+    return { subtotal: subtotal, fee: fee, feeKnown: true, feeDefault: mode !== 'retirada' && !own, total: subtotal + fee };
   }
 
   /* ---------------- Checkout em 3 etapas: sacola → entrega → pagamento ---------------- */
@@ -316,6 +318,7 @@
     emptyCart: emptyCart, addItem: addItem, setQty: setQty, reconcileCart: reconcileCart, itemQty: itemQty,
     validateSelection: validateSelection, unitPrice: unitPrice, lineKey: lineKey,
     cartCount: cartCount, cartTotals: cartTotals, buildOrderMessage: buildOrderMessage,
+    DEFAULT_DELIVERY_FEE_CENTS: DEFAULT_DELIVERY_FEE_CENTS,
     normalizeAddress: normalizeAddress, formatAddress: formatAddress, parseBRL: parseBRL, PAYMENTS: PAYMENTS,
     deliveryErrors: deliveryErrors, paymentErrors: paymentErrors,
     whatsappUrl: whatsappUrl, parseRoute: parseRoute

@@ -10,13 +10,13 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **342**.
 | São Félix do Araguaia | 21 | 99 | 1 | 2 | 0 |
 | Querência | 53 | 67 | 24 | 26 | 10 |
 | Ribeirão Cascalheira | 23 | 97 | 3 | 0 | 0 |
-| Canarana | 47 | 73 | 29 | 17 | 11 |
+| Canarana | 47 | 73 | 30 | 17 | 12 |
 | Água Boa | 43 | 77 | 19 | 30 | 12 |
 | Novo São Joaquim | 12 | 108 | 2 | 1 | 1 |
 | Campinápolis | 10 | 110 | 2 | 3 | 2 |
 | Nova Xavantina | 34 | 86 | 27 | 21 | 18 |
 | Barra do Garças | 61 | 59 | 20 | 49 | 13 |
-| **Total** | **342** | **858** | **139** | **163** | **71** |
+| **Total** | **342** | **858** | **140** | **163** | **72** |
 
 ## Pendências por estabelecimento
 
@@ -203,7 +203,7 @@ Meta: 120 por cidade (1200 no total). Cadastrados: **342**.
 - **Pastelaria e Pizzaria Mexicana** — WhatsApp não verificado; cardápio pendente; Só há fonte de diretório, com o bairro Centro e o telefone fixo (66) 3478-1245. Rua não encontrada.
 - **Paulus Café Central** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @pauluscafecentral (558 posts, 10600 seguidores, último post 2026-10-20). Bio: fazemos entregas. wa.me/556681362505 sem o 9 → phone. Seguidores "10,6 mil".
 - **Pizzaria D'Italia** — Existe o CNPJ ativo DTALIA PIZZARIA CANARANA LTDA (42.454.643/0001-55), com endereço na Rua Miraguai, 201, Centro, e telefone (66) 99710-3330, segundo o cnpj.biz. Provavelmente é a mesma empresa, mas o endereço é diferente do da Rua Três Passos, 904. O telefone vem só de diretório e não está confirmado, por isso não foi usado como phone. Instagram @dtalia.canarana conferido em 2026-10-28 (pesquisa via Claude no Chrome). Atualizado pelo perfil; antes: endereço "Rua Três Passos, 904". O endereço da bio (Rua Miraguai, 201) é o mesmo do CNPJ da D'talia Pizzaria Canarana.
-- **POKE² Poke ao Quadrado** — WhatsApp não verificado; foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @pokeriacanarana (28 posts, 1088 seguidores, último post 2026-10-15).
+- **POKE² Poke ao Quadrado** — foto de capa pendente (página usa o logotipo sobre o degradê da marca); endereço pendente; Pesquisa Instagram via Claude no Chrome (2026-10-28): @pokeriacanarana (28 posts, 1088 seguidores, último post 2026-10-15). WhatsApp (66) 99208-5259 do cardápio oficial da loja no Yooga (campo whatsappPhone), 13/11/2026.
 - **Primus Pizzaria** — WhatsApp não verificado; cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Só há fontes de diretório: CNPJ PRIMUS PIZZARIA LTDA, aberto em 26/03/2018, e o telefone (66) 99654-4037. O WhatsApp não foi verificado num canal próprio e o número do endereço não foi encontrado.
 - **Real Gelados Canarana** — cardápio pendente; foto de capa pendente (página usa o logotipo sobre o degradê da marca); Pesquisa Instagram via Claude no Chrome (2026-10-28): @realgeladoscanarana (18 posts, 809 seguidores, último post 2026-09-15). Mesmo WhatsApp da Real Gelados de Querência (rede).
 - **Restaurante e Lanchonete Kalifa's** — WhatsApp não verificado; cardápio pendente; foto própria pendente (usa imagem ilustrativa da categoria); Só há fontes de diretório (nota 3,8 em 71 avaliações). Sem telefone confirmado. Foto do Street View indisponível fora do Google Maps; pendente.

@@ -295,7 +295,9 @@
       out.push('*Pagamento:* ' + details.payment + change);
     }
     out.push('');
-    out.push('Valores conforme o cardápio publicado; aguardo a confirmação de preços e disponibilidade.');
+    out.push('Aguardo a confirmação do pedido e do tempo de entrega. Obrigado!');
+    out.push('');
+    out.push('_Pedido enviado pelo PedeAi Delivery · pedeaionline.com.br_');
     return out.join('\n');
   }
 

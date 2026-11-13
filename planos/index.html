@@ -627,7 +627,7 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
       '<span class="lock" data-lock hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Preço garantido até o fim do plano</span>' +
       '<h2>' + esc(p.name) + '</h2><p class="desc">' + esc(p.desc) + '</p>' +
       '<ul class="hl">' + p.highlights.map(function (h) { return '<li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS[h[0]] + '</svg>' + esc(h[1]) + '</li>'; }).join('') + '</ul>' +
-      '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span><b>Bônus do Premium anual:</b> 1 campanha com influenciador regional por ano, conduzida pelo nosso time de marketing</span></p>' +
+      '<p class="bonus" data-bonus hidden><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICONS.megaphone + '</svg><span data-bonus-txt></span></p>' +
       '<div class="inc"><h3>' + esc(p.includesTitle) + '</h3><ul>' + p.includes.map(function (t) { return '<li><span class="chk">' + CHECK + '</span>' + esc(t) + '</li>'; }).join('') + '</ul></div>' +
       '<a class="cta" data-cta target="_blank" rel="noopener">Quero o ' + esc(p.name) + '</a></article>';
   }).join('');
@@ -657,7 +657,12 @@ body.has-offerbar .foot2-bottom{padding-bottom:calc(28px + 76px)}
       // Semestral e anual: o valor não sobe enquanto o plano estiver ativo (reajustes só valem para o mensal).
       card.querySelector('[data-lock]').hidden = P.months === 1;
       // Campanha com influenciador: 1 garantida por ano, só no Premium anual (custo ~R$ 100 por campanha).
-      card.querySelector('[data-bonus]').hidden = !(period === 'anual' && p.id === 'premium');
+      // Bônus só no Premium de 6 e 12 meses: placa NFC (semestral e anual) e campanha com influenciador (só anual).
+      var bonus = card.querySelector('[data-bonus]'), bonusOn = p.id === 'premium' && (period === 'anual' || period === 'semestral');
+      bonus.hidden = !bonusOn;
+      if (bonusOn) bonus.querySelector('[data-bonus-txt]').innerHTML = period === 'anual'
+        ? '<b>Bônus do Premium anual:</b> placa de avaliação do Google com tecnologia NFC para o seu balcão e 1 campanha por ano com influenciador regional, conduzida pelo nosso time de marketing'
+        : '<b>Bônus do Premium semestral:</b> placa de avaliação do Google com tecnologia NFC para o seu balcão: o cliente aproxima o celular e avalia a sua loja em segundos';
       var cta = card.querySelector('[data-cta]'), link = promo ? PROMO.checkout[p.id] : p.checkout[period];
       cta.href = link || 'https://wa.me/' + WHATS + '?text=' + encodeURIComponent('Olá! Quero assinar o plano ' + p.name + ' (' + period + (promo ? ', ' + PROMO.nome : '') + ') do PedeAi Delivery.');
     });

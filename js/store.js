@@ -78,7 +78,7 @@
     return '<section class="sp-cover' + (photo ? ' sp-cover--photo' : ' sp-cover--brand sp-hero--empty') + '" aria-labelledby="storeName">' +
       (photo ? '<img class="sp-cover-img" src="' + esc(s.image.src) + '" alt="' + esc(s.image.alt || s.name) + '" width="' + (s.image.width || 960) + '" height="' + (s.image.height || 640) + '" fetchpriority="high" decoding="async" onerror="this.remove()">' : '<span class="sp-cover-mark" aria-hidden="true"></span>') +
       '<div class="sp-cover-body">' + badgeTile(s) + '<div class="sp-cover-text"><h1 id="storeName" class="sp-name">' + esc(s.name) + '</h1><p class="sp-lede">' + esc(lede(s)) + '</p>' + chips(s) + '</div></div>' +
-      (photo && s.image.credit ? '<span class="sp-credit">Foto: ' + esc(s.image.credit) + '</span>' : '') + '</section>';
+      '</section>'; /* sem crédito na capa: a origem da foto é dado interno (regra do Pedro, 14/11/2026) */
   }
 
   function actionsHtml(s) {

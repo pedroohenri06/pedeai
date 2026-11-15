@@ -1,5 +1,5 @@
 const {chromium}=require('playwright');const IDS=['maromba','tropical','old-school'];const O=process.argv[2];const fs=require('fs');
-(async()=>{const b=await chromium.launch();const ctx=await b.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true});const p=await ctx.newPage();
+(async()=>{const b=await chromium.launch();const ctx=await b.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true,timezoneId:'America/Cuiaba'});await ctx.clock.setFixedTime(new Date('2026-11-14T20:30:00-04:00'));const p=await ctx.newPage();
 const pos={};const box=async(sel,k)=>{const r=await p.locator(sel).first().boundingBox();pos[k]={x:r.x+r.width/2,y:r.y+r.height/2,w:r.width,h:r.height};};
 const shot=async n=>{await p.waitForTimeout(600);await p.screenshot({path:O+'/'+n+'.png'});};
 await p.goto('http://localhost:4174/');await p.waitForTimeout(2500);await shot('home');

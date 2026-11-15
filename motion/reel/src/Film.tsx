@@ -3,6 +3,7 @@ import {
   AbsoluteFill, Audio, Img, Sequence, staticFile, useCurrentFrame, useVideoConfig,
   interpolate, spring, Easing, random,
 } from 'remotion';
+import fpos from '../public/shots/flow/pos.json';
 
 /* =====================================================================================
    PedeAi · Filme de lançamento (Reels 1080×1920, 30 fps, 24,5 s)
@@ -257,22 +258,102 @@ const S1: React.FC = () => {
   );
 };
 
-/* 02 · Chegada do PedeAi: o produto entra como produto */
+/* 02 · Descoberta, com a navegação real da plataforma (capturas em public/shots/flow):
+   o celular chega → toque na cidade → a folha de cidades sobe → a lista rola até Barra do Garças →
+   a página rola até "O que bateu vontade?" → toque em Hambúrguer → rolagem até a Dantes → toque e mergulho na loja. */
+const flow = (n: string) => staticFile('shots/flow/' + n);
+// Página rolando: conteúdo alto deslocado + cabeçalho e barra inferior fixos por cima (como no celular).
+const ScrollPage: React.FC<{tall: string; y: number; y0?: number; v?: number; header?: string}> = ({tall, y, y0 = 0, v = 0, header = 'home_barra.png'}) => {
+  const top = -(y - y0) * CSS;
+  return (
+    <AbsoluteFill style={{background: '#f7f1ea'}}>
+      <Img src={flow(tall)} style={{position: 'absolute', left: 0, top, width: PW}} />
+      {v > 6 && [1, 2, 3].map((i) => <Img key={i} src={flow(tall)} style={{position: 'absolute', left: 0, top: top + i * v * 0.3, width: PW, opacity: 0.14}} />)}
+      <div style={{position: 'absolute', left: 0, top: 0, width: PW, height: fpos.header.h * CSS, overflow: 'hidden'}}>
+        <Img src={flow(header)} style={{position: 'absolute', left: 0, top: 0, width: PW}} />
+      </div>
+      <div style={{position: 'absolute', left: fpos.nav.x * CSS, top: fpos.nav.y * CSS, width: fpos.nav.w * CSS, height: fpos.nav.h * CSS, overflow: 'hidden', borderRadius: 22 * CSS}}>
+        <Img src={flow(header)} style={{position: 'absolute', left: -fpos.nav.x * CSS, top: -fpos.nav.y * CSS, width: PW}} />
+      </div>
+    </AbsoluteFill>
+  );
+};
 const S2: React.FC = () => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const enter = spring({frame: f - 2, fps, config: {damping: 18, stiffness: 60, mass: 1.1}});
-  const dive = lerp(f, [70, 90], [0, 1], IN);
+  // linha do tempo da navegação (quadros locais)
+  const T = {pill: 44, open: 48, list0: 70, list1: 96, barra: 104, close: 110, home: 124, sc0: 132, sc1: 160, hamb: 170, au0: 176, au1: 200, dantes: 208, dive: 212};
+  const sheet = f < T.close ? lerp(f, [T.open, T.open + 14], [0, 1], OUT) : lerp(f, [T.close, T.close + 12], [1, 0], IN);
+  const listV = lerp(f, [T.list0, T.list1], [0, fpos.listParts[2]], IO);
+  const listVel = Math.abs(lerp(f + 1, [T.list0, T.list1], [0, fpos.listParts[2]], IO) - listV) * CSS;
+  const sc = f < T.hamb ? lerp(f, [T.sc0, T.sc1], [0, fpos.scrollCats], IO) : lerp(f, [T.au0, T.au1], [fpos.scrollCats, fpos.scrollHamb], IO);
+  const scN = f < T.hamb ? lerp(f + 1, [T.sc0, T.sc1], [0, fpos.scrollCats], IO) : lerp(f + 1, [T.au0, T.au1], [fpos.scrollCats, fpos.scrollHamb], IO);
+  const vel = Math.abs(scN - sc) * CSS;
+  // câmera: aproxima onde o dedo está agindo, sempre com a mesma curva
+  const keys = [0, 56, 70, 100, 116, 140, 158, 172, 196, 206, T.dive, 225];
+  const cs = interpolate(f, keys, [1, 1, 1.24, 1.24, 1, 1, 1.22, 1.22, 1.16, 1.16, 1.16, 2.9], {...cl, easing: IO});
+  const cfy = interpolate(f, keys, [422, 422, 600, 640, 422, 422, 380, 380, 380, 380, 380, 356], {...cl, easing: IO});
+  const cfx = interpolate(f, keys, [195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 195, 102], {...cl, easing: IO});
+  const dive = lerp(f, [T.dive, 225], [0, 1], IN);
+  // posição do toque em Barra do Garças (lista rolada até o fim)
+  const barraY = fpos.list.y + fpos.barraInList.y + fpos.barraInList.h / 2 - fpos.listParts[2];
+  const dY = fpos.dantes.y + fpos.dantes.h / 2 + (fpos.scrollDantes - fpos.scrollHamb);
+  const press = lerp(f, [T.dantes - 3, T.dantes, T.dantes + 6], [1, 0.965, 1], Easing.linear);
   return (
     <AbsoluteFill>
-      <Stage sway={lerp(f, [0, 90], [-40, 20], Easing.linear)} />
+      <Stage sway={lerp(f, [0, 225], [-40, 20], Easing.linear)} />
       <Dust camY={enter * 200} />
-      <Phone rx={interpolate(enter, [0, 1], [24, 6]) * (1 - dive)} ry={interpolate(enter, [0, 1], [-34, -12]) * (1 - dive)} rz={interpolate(enter, [0, 1], [-8, 0])}
-        y={interpolate(enter, [0, 1], [1300, 0]) - dive * 150} s={1 + dive * 1.25} glare={lerp(f, [14, 56], [-0.3, 1.4], IO)} blur={dive * 6}>
-        <Screen src={shot('home.png')} y={-lerp(f, [30, 72], [0, 240], IO)} />
-        <AbsoluteFill style={{background: '#fff', opacity: dive}} />
-      </Phone>
-      <Headline kicker="Chegou ao Vale do Araguaia" lines={[{t: 'Todo o delivery'}, {t: 'da sua cidade.', c: HOT}]} at={10} out={66} y={230} size={92} />
+      <Cam s={cs} fx={cfx} fy={cfy}>
+        <Phone rx={interpolate(enter, [0, 1], [24, 0])} ry={interpolate(enter, [0, 1], [-34, 0])} rz={interpolate(enter, [0, 1], [-8, 0])}
+          y={interpolate(enter, [0, 1], [1300, 0])} glare={lerp(f, [14, 56], [-0.3, 1.4], IO)} blur={dive * 8}>
+          {/* 1 · início em Nova Xavantina, até a folha cobrir a tela */}
+          {f < T.barra && <Screen src={flow('home_nx.png')} />}
+          {/* 2 · depois da escolha: página de Barra do Garças rolando (antes e depois do toque em Hambúrguer) */}
+          {f >= T.barra && f < T.hamb + 2 && <ScrollPage tall="home_tall.jpg" y={sc} v={vel} />}
+          {f >= T.hamb && <AbsoluteFill style={{opacity: lerp(f, [T.hamb, T.hamb + 3], [0, 1], Easing.linear)}}><ScrollPage tall="hamb_tall.jpg" y={sc} y0={fpos.hambTall.y0} v={vel} header="hamb.png" /></AbsoluteFill>}
+          {/* cartão da Dantes afundando no toque */}
+          {f >= T.dantes - 3 && (
+            <div style={{position: 'absolute', left: fpos.dantes.x * CSS, top: (dY - fpos.dantes.h / 2) * CSS, width: fpos.dantes.w * CSS, height: fpos.dantes.h * CSS, overflow: 'hidden', borderRadius: 18 * CSS, transform: `scale(${press})`, boxShadow: press < 1 ? '0 0 0 3px rgba(229,27,43,.35)' : 'none'}}>
+              <Img src={flow('hamb_tall.jpg')} style={{position: 'absolute', width: PW, left: -fpos.dantes.x * CSS, top: -(dY - fpos.dantes.h / 2 + fpos.scrollHamb - fpos.hambTall.y0) * CSS}} />
+            </div>
+          )}
+          {/* toast real de confirmação da cidade */}
+          {f >= T.home - 2 && f < T.home + 28 && (
+            <div style={{position: 'absolute', left: fpos.toast.x * CSS, top: fpos.toast.y * CSS, width: fpos.toast.w * CSS, height: fpos.toast.h * CSS, overflow: 'hidden', borderRadius: 12 * CSS,
+              opacity: lerp(f, [T.home - 2, T.home + 2, T.home + 22, T.home + 28], [0, 1, 1, 0], Easing.linear), transform: `translateY(${lerp(f, [T.home - 2, T.home + 4], [10, 0])}px)`}}>
+              <Img src={flow('home_barra_toast.png')} style={{position: 'absolute', width: PW, left: -fpos.toast.x * CSS, top: -fpos.toast.y * CSS}} />
+            </div>
+          )}
+          {/* folha de cidades: fundo escurecido real + folha subindo; a lista rola dentro dela */}
+          {sheet > 0 && (
+            <>
+              <div style={{position: 'absolute', left: 0, top: 0, width: PW, height: fpos.menu.y * CSS, overflow: 'hidden', opacity: sheet}}>
+                <Img src={flow('menu.png')} style={{position: 'absolute', left: 0, top: 0, width: PW}} />
+              </div>
+              <AbsoluteFill style={{background: 'rgba(30,8,10,.35)', opacity: sheet, clipPath: `inset(${fpos.menu.y * CSS}px 0 0 0)`}} />
+              <div style={{position: 'absolute', left: 0, top: (fpos.menu.y - 6) * CSS + (1 - sheet) * (PH * 0.9), width: PW, height: PH, overflow: 'hidden'}}>
+                <Img src={flow('menu.png')} style={{position: 'absolute', left: 0, top: -(fpos.menu.y - 6) * CSS, width: PW}} />
+                <div style={{position: 'absolute', left: fpos.list.x * CSS, top: (fpos.list.y - fpos.menu.y + 6) * CSS, width: fpos.list.w * CSS, height: fpos.list.h * CSS, overflow: 'hidden', background: '#fff'}}>
+                  <Img src={flow('list_tall.png')} style={{position: 'absolute', left: 0, top: -listV * CSS, width: fpos.list.w * CSS}} />
+                  {listVel > 6 && [1, 2].map((i) => <Img key={i} src={flow('list_tall.png')} style={{position: 'absolute', left: 0, top: -listV * CSS + i * listVel * 0.3, width: fpos.list.w * CSS, opacity: 0.15}} />)}
+                </div>
+              </div>
+            </>
+          )}
+          <Tap x={fpos.locationBtn.x + fpos.locationBtn.w / 2} y={fpos.locationBtn.y + fpos.locationBtn.h / 2} at={T.pill} />
+          <Tap x={fpos.barra.x + fpos.barra.w / 2} y={barraY} at={T.barra} />
+          <Tap x={fpos.hamb.x + fpos.hamb.w / 2} y={fpos.hamb.y + fpos.hamb.h / 2 - 12} at={T.hamb} />
+          <Tap x={fpos.dantes.x + fpos.dantes.w / 2} y={dY} at={T.dantes} />
+          <AbsoluteFill style={{background: '#7a0f18', opacity: lerp(f, [218, 225], [0, 1], Easing.linear)}} />
+        </Phone>
+      </Cam>
+      {/* faixa de leitura para as legendas quando a câmera aproxima */}
+      <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.96) 0%, rgba(10,2,3,.88) 22%, transparent 31%)', opacity: lerp(f, [56, 70], [0, 1])}} />
+      <Headline kicker="Chegou ao Vale do Araguaia" lines={[{t: 'Todo o delivery'}, {t: 'da sua cidade.', c: HOT}]} at={10} out={54} y={230} size={92} />
+      <Headline kicker="01 · Cidade" lines={[{t: 'Escolha'}, {t: 'sua cidade.', c: HOT}]} at={66} out={118} y={230} size={92} />
+      <Headline kicker="02 · Categoria" lines={[{t: 'O que bateu'}, {t: 'vontade?', c: HOT}]} at={126} out={174} y={230} size={92} />
+      <Headline kicker="03 · Restaurante" lines={[{t: 'Escolha onde'}, {t: 'pedir.', c: HOT}]} at={180} out={214} y={230} size={92} />
     </AbsoluteFill>
   );
 };
@@ -296,7 +377,7 @@ const S3: React.FC<{pos: any}> = ({pos}) => {
           {f < 62 && v > 8 && [1, 2, 3].map(i => <Img key={i} src={shot('store_tall.jpg')} style={{position: 'absolute', left: 0, top: -scroll * CSS + i * v * 0.35, width: PW, opacity: 0.16}} />)}
           {f >= 58 && <Screen src={shot('store_menu.png')} o={lerp(f, [58, 62], [0, 1])} />}
         </div>
-        <AbsoluteFill style={{background: '#fff', opacity: lerp(f, [0, 10], [1, 0])}} />
+        <AbsoluteFill style={{background: '#7a0f18', opacity: lerp(f, [0, 8], [1, 0])}} />
       </Phone>
       {/* cartões reais do cardápio saindo da tela em profundidade */}
       {lift > 0 && ids.map((id, i) => {
@@ -312,7 +393,7 @@ const S3: React.FC<{pos: any}> = ({pos}) => {
           </div>
         );
       })}
-      <Headline kicker="Descubra" lines={[{t: 'Cardápios que'}, {t: 'dão vontade.', c: HOT}]} at={64} y={230} size={96} />
+      <Headline kicker="04 · Cardápio" lines={[{t: 'Cardápios que'}, {t: 'dão vontade.', c: HOT}]} at={64} y={230} size={96} />
     </AbsoluteFill>
   );
 };
@@ -354,7 +435,7 @@ const S4: React.FC<{pos: any}> = ({pos}) => {
           );
         })}
       </Cam>
-      <Headline kicker="Escolha" lines={[{t: 'Um toque.'}, {t: 'Já está no pedido.', c: HOT}]} at={-30} out={78} y={230} size={84} />
+      <Headline kicker="05 · Pedido" lines={[{t: 'Um toque.'}, {t: 'Já está no pedido.', c: HOT}]} at={-30} out={78} y={230} size={84} />
     </AbsoluteFill>
   );
 };
@@ -401,7 +482,7 @@ const S5: React.FC<{pos: any}> = ({pos}) => {
       {/* faixa escura para a legenda ficar legível sobre o celular aproximado */}
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.97) 0%, rgba(10,2,3,.93) 29%, transparent 37%)'}} />
       <div style={{position: 'absolute', left: 84, top: 236, font: '700 25px DM Sans', letterSpacing: '0.34em', color: '#ff8f97', display: 'flex', alignItems: 'center', gap: 18}}>
-        <span style={{width: 64, height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`}} />FINALIZE
+        <span style={{width: 64, height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`}} />06 · FINALIZE
       </div>
       <div style={{position: 'absolute', left: 84, top: 290, display: 'flex', flexDirection: 'column', gap: 4}}>
         {steps.map((s, i) => {
@@ -477,7 +558,7 @@ const S6: React.FC<{pos: any}> = ({pos}) => {
       </Cam>
       <AbsoluteFill style={{background: '#7dffb0', opacity: bloom, mixBlendMode: 'screen'}} />
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.95) 0%, rgba(10,2,3,.85) 20%, transparent 28%)'}} />
-      <Headline kicker="Pedido enviado" lines={[{t: 'Chega pronto'}, {t: 'no WhatsApp.', c: GREEN}]} at={20} y={230} size={92} />
+      <Headline kicker="07 · WhatsApp" lines={[{t: 'Chega pronto'}, {t: 'no WhatsApp.', c: GREEN}]} at={20} y={230} size={92} />
     </AbsoluteFill>
   );
 };
@@ -543,7 +624,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
 };
 
 /* ================================== MONTAGEM ================================== */
-export const SCENES = [210, 90, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
+export const SCENES = [210, 225, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
 export const TOTAL = SCENES.reduce((a, b) => a + b, 0);
 const AT = (i: number) => SCENES.slice(0, i).reduce((a, b) => a + b, 0);
 
@@ -565,7 +646,13 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       <Sfx at={150} s="impacto" v={0.55} />
       <Sfx at={198} s="whoosh" v={0.55} />
       <Sfx at={s(1) + 2} s="whoosh-grave" v={0.45} />
-      <Sfx at={s(1) + 68} s="whoosh-grave" v={0.6} />
+      {[44, 104, 170, 208].map((t) => <Sfx key={'t' + t} at={s(1) + t} s="toque" v={0.6} />)}
+      <Sfx at={s(1) + 48} s="whoosh" v={0.3} />
+      <Sfx at={s(1) + 70} s="whoosh" v={0.18} />
+      <Sfx at={s(1) + 110} s="whoosh" v={0.25} />
+      <Sfx at={s(1) + 132} s="whoosh" v={0.2} />
+      <Sfx at={s(1) + 176} s="whoosh" v={0.2} />
+      <Sfx at={s(1) + 210} s="whoosh-grave" v={0.55} />
       <Sfx at={s(2) + 22} s="whoosh" v={0.4} />
       <Sfx at={s(2) + 66} s="whoosh" v={0.35} />
       <Sfx at={s(3) + 24} s="adicionado" v={0.6} />

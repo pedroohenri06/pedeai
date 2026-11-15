@@ -173,6 +173,14 @@ const Dish: React.FC<{src: string; w: number; h?: number; x: number; y: number; 
   );
 };
 
+/* Rastro de luz anamórfico: só nos dois impactos do filme (abertura e marca) */
+const Streak: React.FC<{y: number; o: number}> = ({y, o}) => o <= 0 ? null : (
+  <>
+    <div style={{position: 'absolute', left: -200, right: -200, top: y - 3, height: 6, background: `linear-gradient(90deg, transparent, ${HOT} 30%, #fff 50%, ${HOT} 70%, transparent)`, opacity: o, filter: 'blur(1.5px)', transform: `scaleX(${0.3 + o * 0.9})`, mixBlendMode: 'screen'}} />
+    <div style={{position: 'absolute', left: -200, right: -200, top: y - 60, height: 120, background: `radial-gradient(50% 50% at 50% 50%, ${HOT}aa, transparent)`, opacity: o * 0.8, filter: 'blur(16px)', mixBlendMode: 'screen'}} />
+  </>
+);
+
 /* ================================== CENAS ================================== */
 
 /* 01 · Impacto da marca: a comida surge do escuro, foco puxado para o hero */
@@ -180,17 +188,24 @@ const S1: React.FC = () => {
   const f = useCurrentFrame();
   const focus = lerp(f, [6, 30], [16, 0], IO);
   const whip = lerp(f, [60, 75], [0, 1], IN);
+  // speed ramp: a câmera avança rápido nos 10 primeiros quadros e entra em câmera lenta
+  const ramp = interpolate(f, [0, 10, 75], [1.32, 1.08, 1.0], {...cl, easing: Easing.bezier(0.05, 0.7, 0.1, 1)});
+  const heroY = lerp(f, [0, 75], [1150, 1080], Easing.linear);
+  const streak = lerp(f, [2, 6, 22], [0, 1, 0], Easing.linear);
   return (
     <AbsoluteFill>
       <Stage beam={lerp(f, [0, 20], [0, 1])} floor={0.6} />
       <AbsoluteFill style={{transform: `translateY(${-whip * 1500}px)`, filter: `blur(${whip * 18}px)`}}>
         <Dish src={img('ab75743d87d7.webp')} w={560} x={lerp(f, [0, 75], [180, 240], Easing.linear)} y={760} s={0.9} blur={7 - focus * 0.1} o={0.65} />
         <Dish src={img('103b63cca62c.webp')} w={520} x={lerp(f, [0, 75], [930, 880], Easing.linear)} y={1270} blur={5} o={0.75} r={4} />
-        <Dish src={img('6f1c5240bee3.webp')} w={760} h={1013} x={540} y={lerp(f, [0, 75], [1150, 1080], Easing.linear)} s={lerp(f, [0, 75], [1.1, 1.0], Easing.linear)} blur={focus} sweep={lerp(f, [18, 52], [-0.2, 1.3], IO)} steam={lerp(f, [20, 40], [0, 1])} />
+        {/* contraluz quente atrás do lanche: separa o prato do fundo como numa foto de estúdio */}
+        <div style={{position: 'absolute', left: 540 - 520, top: heroY - 560, width: 1040, height: 900, borderRadius: '50%', background: 'radial-gradient(closest-side, rgba(255,120,60,.55), rgba(229,27,43,.25) 55%, transparent)', filter: 'blur(20px)', transform: `scale(${ramp})`, mixBlendMode: 'screen'}} />
+        <Dish src={img('6f1c5240bee3.webp')} w={760} h={1013} x={540} y={heroY} s={ramp} blur={focus} sweep={lerp(f, [18, 52], [-0.2, 1.3], IO)} steam={lerp(f, [20, 40], [0, 1])} />
         <Dish src={img('c47e150f5325.webp')} w={760} x={lerp(f, [0, 34], [-160, 260], Easing.bezier(0.2, 0.9, 0.4, 1))} y={1750} s={1.2} blur={22} o={lerp(f, [0, 8, 26, 40], [0, 0.9, 0.9, 0])} />
       </AbsoluteFill>
       <Dust amount={lerp(f, [0, 20], [0, 1])} />
       <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 10], [1, 0])}} />
+      <Streak y={1000} o={streak} />
       <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={12} out={58} y={230} size={132} />
     </AbsoluteFill>
   );
@@ -448,14 +463,15 @@ const Logo: React.FC<{f: number}> = ({f}) => {
 const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
   const f = useCurrentFrame();
   const away = lerp(f, [0, 24], [0, 1], IN);
-  const L = 18; // instante da marca
+  const L = 15; // instante da marca (batida 41 da trilha)
   const beams = lerp(f, [L - 12, L + 6], [0.4, 1.6], OUT);
+  const converge = lerp(f, [0, L], [0, 1], IN);
   const lines = variant === 'cliente'
     ? [{t: 'Peça sem baixar aplicativo.', s: 56, c: '#fff'}, {t: 'Estreia 25/11 no Vale do Araguaia.', s: 40, c: '#ff9aa2'}]
     : [{t: 'Seu cardápio online.', s: 56, c: '#fff'}, {t: 'Pedido pronto no seu WhatsApp.', s: 44, c: '#fff'}, {t: 'Sem comissão.', s: 44, c: '#ff9aa2'}];
   return (
     <AbsoluteFill>
-      <Stage beam={beams} floor={1.3} />
+      <Stage beam={beams} floor={1.3} sway={(1 - converge) * -60} />
       <Dust amount={1.4} />
       <AbsoluteFill style={{opacity: 1 - lerp(f, [12, 22], [0, 1], Easing.linear)}}>
         <Phone s={1 - away * 0.45} y={away * 520} rx={away * 38} ry={4 - away * 10} rim={GREEN} blur={away * 8}>
@@ -468,6 +484,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
           <Logo f={f - L} />
         </div>
       )}
+      <Streak y={725} o={lerp(f, [L - 1, L + 2, L + 26], [0, 1, 0], Easing.linear)} />
       {lines.map((l, i) => {
         const at = L + 40 + i * 7, o = lerp(f, [at, at + 12], [0, 1]);
         return <div key={i} style={{position: 'absolute', left: 60, right: 60, top: 930 + i * 78, textAlign: 'center', font: `900 ${l.s}px/1.1 Montserrat`, letterSpacing: '-0.03em', textTransform: 'uppercase', color: l.c, opacity: o, transform: `translateY(${(1 - o) * 24}px)`, filter: `blur(${(1 - o) * 6}px)`}}>{l.t}</div>;
@@ -480,7 +497,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
 };
 
 /* ================================== MONTAGEM ================================== */
-export const SCENES = [75, 90, 98, 90, 135, 105, 142];
+export const SCENES = [75, 90, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
 export const TOTAL = SCENES.reduce((a, b) => a + b, 0);
 const AT = (i: number) => SCENES.slice(0, i).reduce((a, b) => a + b, 0);
 
@@ -510,9 +527,10 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       <Sfx at={s(5) + 4} s="toque" v={0.7} />
       <Sfx at={s(5) + 8} s="whoosh" v={0.6} />
       <Sfx at={s(5) + 18} s="mensagem" v={0.7} />
-      <Sfx at={s(6) - 40} s="subida" v={0.45} />
-      <Sfx at={s(6) + 18} s="impacto" v={0.6} />
-      <Sfx at={s(6) + 20} s="assinatura" v={0.45} />
+      <Sfx at={s(6) - 45} s="subida" v={0.4} />
+      <Sfx at={s(6) + 15} s="impacto" v={0.6} />
+      <Sfx at={s(6) + 16} s="assinatura" v={0.4} />
+      <Audio src={staticFile('sfx/trilha.wav')} volume={0.55} />
     </AbsoluteFill>
   );
 };

@@ -86,7 +86,7 @@ const Headline: React.FC<{kicker?: string; lines: Line[]; at: number; out?: numb
   const bar = lerp(f, [at, at + 14], [0, 1]);
   return (
     <div style={{position: 'absolute', left: 84, right: 60, top: y, opacity: 1 - exit, transform: `translateY(${-exit * 60}px)`, filter: `blur(${exit * 8}px)`}}>
-      {kicker && (
+      {kicker && bar > 0.01 && (
         <div style={{display: 'flex', alignItems: 'center', gap: 18, marginBottom: 22, font: '700 25px DM Sans', letterSpacing: '0.34em', color: '#ff8f97', textTransform: 'uppercase'}}>
           <span style={{width: 64 * bar, height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`}} />
           <span style={{opacity: bar, transform: `translateX(${(1 - bar) * -20}px)`}}>{kicker}</span>
@@ -97,7 +97,7 @@ const Headline: React.FC<{kicker?: string; lines: Line[]; at: number; out?: numb
         return (
           <div key={i} style={{overflow: 'hidden', paddingBottom: 6}}>
             <div style={{font: `900 ${size}px/0.94 Montserrat`, letterSpacing: '-0.045em', color: l.c || '#fff', textTransform: 'uppercase',
-              transform: `translateY(${(1 - s) * 135}%) skewY(${(1 - s) * 6}deg)`, textShadow: l.c ? `0 0 50px ${l.c}66` : '0 10px 40px rgba(0,0,0,.6)'}}>
+              transform: `translateY(${(1 - s) * 135}%) skewY(${(1 - s) * 6}deg)`, opacity: s < 0.02 ? 0 : 1, textShadow: l.c ? `0 0 50px ${l.c}66` : '0 10px 40px rgba(0,0,0,.6)'}}>
               {l.t}
             </div>
           </div>
@@ -391,7 +391,7 @@ const S6: React.FC<{pos: any}> = ({pos}) => {
   const f = useCurrentFrame();
   const whip = lerp(f, [8, 20], [0, 1], IO);
   const trail = Math.sin(whip * Math.PI);
-  const bloom = lerp(f, [14, 18, 34], [0, 0.6, 0], Easing.linear);
+  const bloom = lerp(f, [14, 18, 34], [0, 0.32, 0], Easing.linear);
   const push = lerp(f, [30, 100], [1.0, 1.16], IO);
   const fy = lerp(f, [0, 22, 60], [700, 420, 360], IO);
   return (
@@ -493,7 +493,7 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       {scenes.map((el, i) => <Sequence key={i} from={AT(i)} durationInFrames={SCENES[i]} premountFor={15}>{el}</Sequence>)}
       <Grain />
       {/* desenho de som */}
-      <Sfx at={0} s="impacto" v={0.9} />
+      <Sfx at={0} s="impacto" v={0.75} />
       <Sfx at={60} s="whoosh" v={0.55} />
       <Sfx at={s(1) + 2} s="whoosh-grave" v={0.45} />
       <Sfx at={s(1) + 68} s="whoosh-grave" v={0.6} />
@@ -510,9 +510,9 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       <Sfx at={s(5) + 4} s="toque" v={0.7} />
       <Sfx at={s(5) + 8} s="whoosh" v={0.6} />
       <Sfx at={s(5) + 18} s="mensagem" v={0.7} />
-      <Sfx at={s(6) - 30} s="subida" v={0.6} />
-      <Sfx at={s(6) + 30} s="impacto" v={1} />
-      <Sfx at={s(6) + 30} s="assinatura" v={0.7} />
+      <Sfx at={s(6) - 40} s="subida" v={0.45} />
+      <Sfx at={s(6) + 18} s="impacto" v={0.6} />
+      <Sfx at={s(6) + 20} s="assinatura" v={0.45} />
     </AbsoluteFill>
   );
 };

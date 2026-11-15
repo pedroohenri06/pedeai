@@ -183,30 +183,76 @@ const Streak: React.FC<{y: number; o: number}> = ({y, o}) => o <= 0 ? null : (
 
 /* ================================== CENAS ================================== */
 
-/* 01 · Impacto da marca: a comida surge do escuro, foco puxado para o hero */
-const S1: React.FC = () => {
+/* 01 · Abertura gastronômica com as fotos autorizadas (public/ref).
+   Montagem macro na batida → queijo esticando (as metades se afastam) → bacon caindo →
+   a câmera desce acompanhando o fio de molho → revelação do lanche na luz vermelha, com a manchete. */
+const ref = (n: string) => staticFile('ref/' + n + '.jpg');
+// Foto em tela cheia com movimento de câmera próprio (push, deriva, foco) e saída em "zoom-through".
+const Shot: React.FC<{src: string; from: number; dur: number; s0?: number; s1?: number; x0?: number; x1?: number; y0?: number; y1?: number; focus?: number; pos?: string; sweep?: boolean; children?: React.ReactNode}> =
+  ({src, from, dur, s0 = 1.0, s1 = 1.1, x0 = 0, x1 = 0, y0 = 0, y1 = 0, focus = 8, pos = '50% 50%', sweep = false, children}) => {
   const f = useCurrentFrame();
-  const focus = lerp(f, [6, 30], [16, 0], IO);
-  const whip = lerp(f, [60, 75], [0, 1], IN);
-  // speed ramp: a câmera avança rápido nos 10 primeiros quadros e entra em câmera lenta
-  const ramp = interpolate(f, [0, 10, 75], [1.32, 1.08, 1.0], {...cl, easing: Easing.bezier(0.05, 0.7, 0.1, 1)});
-  const heroY = lerp(f, [0, 75], [1150, 1080], Easing.linear);
-  const streak = lerp(f, [2, 6, 22], [0, 1, 0], Easing.linear);
+  if (f < from || f >= from + dur) return null;
+  const l = f - from;
+  const k = lerp(l, [0, dur], [0, 1], Easing.bezier(0.25, 0.1, 0.25, 1));
+  const out = lerp(l, [dur - 3, dur], [0, 1], IN); // zoom-through para o próximo corte
+  const sc = s0 + (s1 - s0) * k + out * 0.12;
+  const blur = lerp(l, [0, 5], [focus, 0], OUT) + out * 10;
+  const sw = lerp(l, [2, dur - 2], [-0.3, 1.3], IO);
+  return (
+    <AbsoluteFill style={{overflow: 'hidden'}}>
+      <AbsoluteFill style={{transform: `translate(${x0 + (x1 - x0) * k}px, ${y0 + (y1 - y0) * k}px) scale(${sc})`, filter: `blur(${blur}px)`}}>
+        {children || <Img src={ref(src)} style={{width: 1080, height: 1920, objectFit: 'cover', objectPosition: pos, filter: 'contrast(1.08) saturate(1.08)'}} />}
+        {sweep && <AbsoluteFill style={{background: `linear-gradient(115deg, transparent ${sw * 100 - 18}%, rgba(255,220,180,.22) ${sw * 100}%, transparent ${sw * 100 + 18}%)`, mixBlendMode: 'screen'}} />}
+      </AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+// Queijo esticando: as metades se afastam e a faixa central (os fios) estica junto.
+const Pull: React.FC<{d: number}> = ({d}) => {
+  const W = 1080, a = 0.38, b = 0.62; // faixa dos fios de queijo
+  const mid = (b - a) * W, k = (mid + 2 * d) / mid, cx = ((a + b) / 2) * 100;
+  const img = <Img src={ref('queijo-esticando')} style={{position: 'absolute', inset: 0, width: 1080, height: 1920, objectFit: 'cover'}} />;
   return (
     <AbsoluteFill>
-      <Stage beam={lerp(f, [0, 20], [0, 1])} floor={0.6} />
+      <AbsoluteFill style={{clipPath: `inset(0 ${(1 - b) * 100 - 0.2}% 0 ${a * 100 - 0.2}%)`, transform: `scaleX(${k})`, transformOrigin: `${cx}% 50%`}}>{img}</AbsoluteFill>
+      <AbsoluteFill style={{clipPath: `inset(0 ${(1 - a) * 100}% 0 0)`, transform: `translateX(${-d}px)`}}>{img}</AbsoluteFill>
+      <AbsoluteFill style={{clipPath: `inset(0 0 0 ${b * 100}%)`, transform: `translateX(${d}px)`}}>{img}</AbsoluteFill>
+    </AbsoluteFill>
+  );
+};
+const S1: React.FC = () => {
+  const f = useCurrentFrame();
+  const H = 150; // revelação do lanche
+  const whip = lerp(f, [198, 210], [0, 1], IN);
+  const reveal = lerp(f, [H, H + 14], [0, 1], OUT);
+  return (
+    <AbsoluteFill style={{background: '#000'}}>
       <AbsoluteFill style={{transform: `translateY(${-whip * 1500}px)`, filter: `blur(${whip * 18}px)`}}>
-        <Dish src={img('ab75743d87d7.webp')} w={560} x={lerp(f, [0, 75], [180, 240], Easing.linear)} y={760} s={0.9} blur={7 - focus * 0.1} o={0.65} />
-        <Dish src={img('103b63cca62c.webp')} w={520} x={lerp(f, [0, 75], [930, 880], Easing.linear)} y={1270} blur={5} o={0.75} r={4} />
-        {/* contraluz quente atrás do lanche: separa o prato do fundo como numa foto de estúdio */}
-        <div style={{position: 'absolute', left: 540 - 520, top: heroY - 560, width: 1040, height: 900, borderRadius: '50%', background: 'radial-gradient(closest-side, rgba(255,120,60,.55), rgba(229,27,43,.25) 55%, transparent)', filter: 'blur(20px)', transform: `scale(${ramp})`, mixBlendMode: 'screen'}} />
-        <Dish src={img('6f1c5240bee3.webp')} w={760} h={1013} x={540} y={heroY} s={ramp} blur={focus} sweep={lerp(f, [18, 52], [-0.2, 1.3], IO)} steam={lerp(f, [20, 40], [0, 1])} />
-        <Dish src={img('c47e150f5325.webp')} w={760} x={lerp(f, [0, 34], [-160, 260], Easing.bezier(0.2, 0.9, 0.4, 1))} y={1750} s={1.2} blur={22} o={lerp(f, [0, 8, 26, 40], [0, 0.9, 0.9, 0])} />
+        {/* montagem macro: cada corte numa batida, cada foto com direção de movimento própria */}
+        <Shot src="macro-bacon" from={0} dur={15} s0={1.18} s1={1.06} focus={14} sweep />
+        <Shot src="macro-molho-laranja" from={15} dur={15} s0={1.0} s1={1.08} x0={30} x1={-20} />
+        <Shot src="macro-bacon-molho" from={30} dur={15} s0={1.05} s1={1.14} y0={20} y1={-30} />
+        <Shot src="triplo" from={45} dur={15} s0={1.12} s1={1.02} x0={-30} x1={10} pos="35% 50%" sweep />
+        {/* queijo esticando: as duas metades se afastam devagar e os fios acompanham */}
+        <Shot src="queijo-esticando" from={60} dur={30} s0={1.12} s1={1.18} focus={4}>
+          <Pull d={lerp(f, [60, 90], [0, 46], Easing.bezier(0.3, 0, 0.2, 1))} />
+        </Shot>
+        <Shot src="bacon-caindo" from={90} dur={15} s0={1.0} s1={1.08} y0={-40} y1={10} focus={6} />
+        {/* molho: a câmera desce acompanhando o fio até o lanche */}
+        <Shot src="molho-caindo" from={105} dur={30} s0={1.32} s1={1.04} y0={300} y1={-30} focus={4} sweep />
+        <Shot src="fundo-vermelho" from={135} dur={15} s0={1.16} s1={1.05} focus={10} />
+        {/* revelação: luz vermelha da própria foto encontra a luz da marca */}
+        <Shot src="heroi-luva" from={H} dur={60} s0={1.14} s1={1.02} y0={60} y1={0} focus={12} />
+        {f >= H && <AbsoluteFill style={{background: `radial-gradient(60% 40% at 30% 62%, ${RED}55, transparent 70%)`, mixBlendMode: 'screen', opacity: reveal * (0.7 + 0.3 * Math.sin(f / 7))}} />}
+        {/* faixa escura para a manchete */}
+        {f >= H && <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,.85) 0%, rgba(0,0,0,.5) 22%, transparent 36%)', opacity: reveal}} />}
       </AbsoluteFill>
-      <Dust amount={lerp(f, [0, 20], [0, 1])} />
-      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 10], [1, 0])}} />
-      <Streak y={1000} o={streak} />
-      <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={12} out={58} y={230} size={132} />
+      <AbsoluteFill style={{boxShadow: 'inset 0 0 360px 50px rgba(0,0,0,.85)', pointerEvents: 'none'}} />
+      <Dust amount={reveal} />
+      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 4], [1, 0])}} />
+      <AbsoluteFill style={{background: HOT, opacity: lerp(f, [H, H + 2, H + 10], [0, 0.3, 0], Easing.linear), mixBlendMode: 'screen'}} />
+      <Streak y={1100} o={lerp(f, [H, H + 3, H + 22], [0, 1, 0], Easing.linear)} />
+      <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={H + 8} out={195} y={230} size={132} />
     </AbsoluteFill>
   );
 };
@@ -497,7 +543,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
 };
 
 /* ================================== MONTAGEM ================================== */
-export const SCENES = [75, 90, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
+export const SCENES = [210, 90, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
 export const TOTAL = SCENES.reduce((a, b) => a + b, 0);
 const AT = (i: number) => SCENES.slice(0, i).reduce((a, b) => a + b, 0);
 
@@ -510,8 +556,14 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       {scenes.map((el, i) => <Sequence key={i} from={AT(i)} durationInFrames={SCENES[i]} premountFor={15}>{el}</Sequence>)}
       <Grain />
       {/* desenho de som */}
-      <Sfx at={0} s="impacto" v={0.75} />
-      <Sfx at={60} s="whoosh" v={0.55} />
+      <Sfx at={0} s="impacto" v={0.7} />
+      <Sfx at={0} s="chiado" v={0.35} />
+      <Sfx at={30} s="chiado" v={0.3} />
+      <Sfx at={60} s="whoosh-grave" v={0.4} />
+      <Sfx at={90} s="chiado" v={0.3} />
+      <Sfx at={105} s="whoosh" v={0.35} />
+      <Sfx at={150} s="impacto" v={0.55} />
+      <Sfx at={198} s="whoosh" v={0.55} />
       <Sfx at={s(1) + 2} s="whoosh-grave" v={0.45} />
       <Sfx at={s(1) + 68} s="whoosh-grave" v={0.6} />
       <Sfx at={s(2) + 22} s="whoosh" v={0.4} />

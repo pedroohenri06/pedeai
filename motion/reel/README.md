@@ -27,3 +27,8 @@ Música: escolher um áudio liberado para uso comercial na biblioteca do Instagr
 - Composição em `src/Film.tsx` (7 cenas, 735 quadros, 24,5 s, 1080×1920, 30 fps).
 - Efeitos sonoros gerados por `python3 gerar-sons.py` em `public/sfx/`.
 - Telas: capturas reais (`capturar-telas.cjs`); as posições dos cartões e botões ficam em `public/shots/pos.json`.
+
+## Abertura gastronômica (v4)
+
+- Fotos de referência enviadas e autorizadas pelo dono do projeto, em `public/ref/` (a `macro-molho-laranja.jpg` foi recortada para tirar marca d'água e ícones).
+- Sons de comida (`chiado`, `labareda`) e trilha com a abertura de 7 s: `python3 gerar-sons.py public/sfx`.

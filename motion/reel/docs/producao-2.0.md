@@ -57,9 +57,9 @@ As outras fotos continuam com movimento de câmera (montagem macro), sem simular
 - Produção (B, C, D com até 2 tentativas cada + finais em 1080p no modelo escolhido): ~US$ 10–15.
 - Teto total sugerido: US$ 20. Cada geração é registrada em `docs/gastos.md`.
 
-## Rota escolhida: Kling (gerado no app/site pelo dono do projeto)
+## Rota escolhida: Seedance 2.5 no Dreamina (CapCut), gerado pelo dono do projeto
 
-Configuração para todos os takes: Image to Video · modelo mais recente disponível (Kling 3.0, ou 2.x) · modo Professional/alta qualidade · 5 s · som desligado · proporção da própria foto.
+Seedance 2.5 lidera o ranking de imagem para vídeo em novembro de 2026 (Kling 3.0 fica como alternativa). Configuração: dreamina.capcut.com → AI Video → envio da foto como primeiro quadro · Seedance 2.5 · 5 s · maior resolução disponível · proporção da própria foto · som desligado. Se o Dreamina oferecer Seedance 2.0 em 1080p, gerar o Take A nos dois para comparar nitidez.
 
 Negative prompt (todos):
 `deformed burger, changing ingredients, extra ingredients, new food appearing, morphing, warping bun, melting bread, plastic look, cartoon, blurry, flicker, jitter, fast camera, text, watermark, logo`

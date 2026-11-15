@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  AbsoluteFill, Audio, Img, Sequence, staticFile, useCurrentFrame, useVideoConfig,
+  AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig,
   interpolate, spring, Easing, random,
 } from 'remotion';
 
@@ -183,30 +183,56 @@ const Streak: React.FC<{y: number; o: number}> = ({y, o}) => o <= 0 ? null : (
 
 /* ================================== CENAS ================================== */
 
-/* 01 · Impacto da marca: a comida surge do escuro, foco puxado para o hero */
+/* 01 · Abertura gastronômica: tomadas reais em câmera lenta, cortadas na batida.
+   Fogo → carne na grelha → bacon (match cut das linhas horizontais da grelha) → batatas caindo →
+   revelação do lanche no escuro, com a manchete da marca. */
+const Clip: React.FC<{src: string; from: number; dur: number; rate?: number; scale?: number; y?: number; push?: number; feather?: boolean; grade?: string}> =
+  ({src, from, dur, rate = 1, scale = 2.3, y = 960, push = 0.08, feather = true, grade = 'contrast(1.18) saturate(1.15) brightness(.92)'}) => {
+  const f = useCurrentFrame();
+  if (f < from || f >= from + dur) return null;
+  const k = (f - from) / dur;
+  const w = 1280 * scale, h = 720 * scale;
+  return (
+    <Sequence from={from} durationInFrames={dur} layout="none">
+      <div style={{position: 'absolute', left: 540 - w / 2, top: y - h / 2, width: w, height: h, transform: `scale(${1 + push * k})`,
+        WebkitMaskImage: feather ? 'linear-gradient(180deg, transparent 0%, #000 12%, #000 88%, transparent 100%)' : 'radial-gradient(50% 50% at 50% 50%, #000 55%, transparent 100%)',
+        maskImage: feather ? 'linear-gradient(180deg, transparent 0%, #000 12%, #000 88%, transparent 100%)' : 'radial-gradient(50% 50% at 50% 50%, #000 55%, transparent 100%)'}}>
+        <OffthreadVideo src={staticFile('food/' + src + '.mp4')} muted playbackRate={rate} style={{width: '100%', height: '100%', filter: grade}} />
+      </div>
+    </Sequence>
+  );
+};
 const S1: React.FC = () => {
   const f = useCurrentFrame();
-  const focus = lerp(f, [6, 30], [16, 0], IO);
-  const whip = lerp(f, [60, 75], [0, 1], IN);
-  // speed ramp: a câmera avança rápido nos 10 primeiros quadros e entra em câmera lenta
-  const ramp = interpolate(f, [0, 10, 75], [1.32, 1.08, 1.0], {...cl, easing: Easing.bezier(0.05, 0.7, 0.1, 1)});
-  const heroY = lerp(f, [0, 75], [1150, 1080], Easing.linear);
-  const streak = lerp(f, [2, 6, 22], [0, 1, 0], Easing.linear);
+  const H = 105; // corte para o lanche (revelação)
+  const whip = lerp(f, [152, 165], [0, 1], IN);
+  const reveal = lerp(f, [H, H + 14], [0, 1], OUT);
   return (
     <AbsoluteFill>
-      <Stage beam={lerp(f, [0, 20], [0, 1])} floor={0.6} />
+      <Stage beam={lerp(f, [H - 6, H + 10], [0.15, 1])} floor={lerp(f, [H, H + 20], [0, 0.7])} />
+      <AbsoluteFill style={{background: '#000', opacity: 1 - reveal}} />
       <AbsoluteFill style={{transform: `translateY(${-whip * 1500}px)`, filter: `blur(${whip * 18}px)`}}>
-        <Dish src={img('ab75743d87d7.webp')} w={560} x={lerp(f, [0, 75], [180, 240], Easing.linear)} y={760} s={0.9} blur={7 - focus * 0.1} o={0.65} />
-        <Dish src={img('103b63cca62c.webp')} w={520} x={lerp(f, [0, 75], [930, 880], Easing.linear)} y={1270} blur={5} o={0.75} r={4} />
-        {/* contraluz quente atrás do lanche: separa o prato do fundo como numa foto de estúdio */}
-        <div style={{position: 'absolute', left: 540 - 520, top: heroY - 560, width: 1040, height: 900, borderRadius: '50%', background: 'radial-gradient(closest-side, rgba(255,120,60,.55), rgba(229,27,43,.25) 55%, transparent)', filter: 'blur(20px)', transform: `scale(${ramp})`, mixBlendMode: 'screen'}} />
-        <Dish src={img('6f1c5240bee3.webp')} w={760} h={1013} x={540} y={heroY} s={ramp} blur={focus} sweep={lerp(f, [18, 52], [-0.2, 1.3], IO)} steam={lerp(f, [20, 40], [0, 1])} />
-        <Dish src={img('c47e150f5325.webp')} w={760} x={lerp(f, [0, 34], [-160, 260], Easing.bezier(0.2, 0.9, 0.4, 1))} y={1750} s={1.2} blur={22} o={lerp(f, [0, 8, 26, 40], [0, 0.9, 0.9, 0])} />
+        {/* fogo: tomada vertical, ocupa a tela */}
+        {f < 15 && (
+          <AbsoluteFill style={{transform: `scale(${1.06 - f * 0.002})`}}>
+            <OffthreadVideo src={staticFile('food/fogo.mp4')} muted playbackRate={0.6} style={{width: 1080, height: 1920, objectFit: 'cover', filter: 'contrast(1.2) saturate(1.2) brightness(.9) hue-rotate(-8deg)'}} />
+          </AbsoluteFill>
+        )}
+        <Clip src="grelha" from={15} dur={22} rate={0.7} />
+        <Clip src="bacon" from={37} dur={23} rate={0.6} push={0.06} />
+        <Clip src="batatas" from={60} dur={45} rate={0.75} scale={2.2} y={980} push={0.1} />
+        <Clip src="heroi" from={H} dur={60} rate={0.8} scale={1.45} y={1170} push={0.05} feather={false} grade="contrast(1.2) saturate(1.12) brightness(.95)" />
+        {/* contraluz vermelha atrás do lanche na revelação */}
+        {f >= H && <div style={{position: 'absolute', left: 90, right: 90, top: 760, height: 620, borderRadius: '50%', background: `radial-gradient(closest-side, ${RED}66, transparent)`, filter: 'blur(40px)', mixBlendMode: 'screen', opacity: reveal}} />}
       </AbsoluteFill>
-      <Dust amount={lerp(f, [0, 20], [0, 1])} />
-      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 10], [1, 0])}} />
-      <Streak y={1000} o={streak} />
-      <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={12} out={58} y={230} size={132} />
+      {/* vinheta cinematográfica comum a todas as tomadas */}
+      <AbsoluteFill style={{boxShadow: 'inset 0 0 380px 60px rgba(0,0,0,.9)', pointerEvents: 'none'}} />
+      <Dust amount={lerp(f, [H, H + 20], [0.2, 1])} />
+      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 5], [1, 0])}} />
+      {/* flash de luz no corte da revelação */}
+      <AbsoluteFill style={{background: HOT, opacity: lerp(f, [H, H + 2, H + 10], [0, 0.35, 0], Easing.linear), mixBlendMode: 'screen'}} />
+      <Streak y={1000} o={lerp(f, [H, H + 3, H + 22], [0, 1, 0], Easing.linear)} />
+      <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={H + 8} out={150} y={230} size={132} />
     </AbsoluteFill>
   );
 };
@@ -497,7 +523,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
 };
 
 /* ================================== MONTAGEM ================================== */
-export const SCENES = [75, 90, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
+export const SCENES = [165, 90, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
 export const TOTAL = SCENES.reduce((a, b) => a + b, 0);
 const AT = (i: number) => SCENES.slice(0, i).reduce((a, b) => a + b, 0);
 
@@ -510,8 +536,13 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       {scenes.map((el, i) => <Sequence key={i} from={AT(i)} durationInFrames={SCENES[i]} premountFor={15}>{el}</Sequence>)}
       <Grain />
       {/* desenho de som */}
-      <Sfx at={0} s="impacto" v={0.75} />
-      <Sfx at={60} s="whoosh" v={0.55} />
+      <Sfx at={0} s="impacto" v={0.7} />
+      <Sfx at={0} s="labareda" v={0.5} />
+      <Sfx at={15} s="chiado" v={0.45} />
+      <Sfx at={37} s="chiado" v={0.4} />
+      <Sfx at={60} s="whoosh" v={0.4} />
+      <Sfx at={105} s="impacto" v={0.55} />
+      <Sfx at={152} s="whoosh" v={0.55} />
       <Sfx at={s(1) + 2} s="whoosh-grave" v={0.45} />
       <Sfx at={s(1) + 68} s="whoosh-grave" v={0.6} />
       <Sfx at={s(2) + 22} s="whoosh" v={0.4} />

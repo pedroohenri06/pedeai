@@ -27,3 +27,13 @@ Música: escolher um áudio liberado para uso comercial na biblioteca do Instagr
 - Composição em `src/Film.tsx` (7 cenas, 735 quadros, 24,5 s, 1080×1920, 30 fps).
 - Efeitos sonoros gerados por `python3 gerar-sons.py` em `public/sfx/`.
 - Telas: capturas reais (`capturar-telas.cjs`); as posições dos cartões e botões ficam em `public/shots/pos.json`.
+
+## Abertura gastronômica (v4)
+
+- Tomadas reais em `public/food/`, recortadas de vídeos do Mixkit (licença Mixkit Stock Video Free License: uso comercial permitido, sem atribuição obrigatória; não redistribuir os arquivos isolados):
+  - `fogo.mp4` ← mixkit 2780 (flames burning inside a bbq grill)
+  - `grelha.mp4` ← mixkit 12041 (burgers fired on a grill)
+  - `bacon.mp4` ← mixkit 16538 (cooking bacon on the grill)
+  - `batatas.mp4` ← mixkit 47159 (french fries falling in slow motion next to a burger)
+  - `heroi.mp4` ← mixkit 47191 (cheeseburger with dark background)
+- Sons de comida (`chiado`, `labareda`) e trilha com a abertura de 5,5 s: `python3 gerar-sons.py public/sfx`.

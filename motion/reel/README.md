@@ -21,3 +21,9 @@ em localhost:4174: `node capturar-telas.cjs public/shots` e `node capturar-carda
 `pos.json` guarda as coordenadas dos botões usadas nos toques.
 
 Música: escolher um áudio liberado para uso comercial na biblioteca do Instagram.
+
+## Filme de lançamento (v2)
+
+- Composição em `src/Film.tsx` (7 cenas, 735 quadros, 24,5 s, 1080×1920, 30 fps).
+- Efeitos sonoros gerados por `python3 gerar-sons.py` em `public/sfx/`.
+- Telas: capturas reais (`capturar-telas.cjs`); as posições dos cartões e botões ficam em `public/shots/pos.json`.

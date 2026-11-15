@@ -56,3 +56,17 @@ As outras fotos continuam com movimento de câmera (montagem macro), sem simular
 - Piloto (Take A em 3 modelos, 5 s, 720p): ~US$ 2.
 - Produção (B, C, D com até 2 tentativas cada + finais em 1080p no modelo escolhido): ~US$ 10–15.
 - Teto total sugerido: US$ 20. Cada geração é registrada em `docs/gastos.md`.
+
+## Rota escolhida: Kling (gerado no app/site pelo dono do projeto)
+
+Configuração para todos os takes: Image to Video · modelo mais recente disponível (Kling 3.0, ou 2.x) · modo Professional/alta qualidade · 5 s · som desligado · proporção da própria foto.
+
+Negative prompt (todos):
+`deformed burger, changing ingredients, extra ingredients, new food appearing, morphing, warping bun, melting bread, plastic look, cartoon, blurry, flicker, jitter, fast camera, text, watermark, logo`
+
+| Take | Foto | Prompt |
+|---|---|---|
+| A | queijo-esticando | Macro food commercial. The hands slowly pull the two halves of the burger further apart. The melted cheese between them stretches into long glossy elastic strings that thin out, sag under gravity and a few strings snap and drip onto the grilled beef. Very slow motion, gentle macro push-in, shallow depth of field, warm studio light. The bun, beef, tomato, onion and lettuce stay exactly the same. |
+| B | triplo | Macro food commercial. Thick melted cheddar slowly flows down the sides of the stacked grilled patties, heavy glossy drops form at the edges, grow and drip down. Slow vertical camera glide down along the cheese surface, shallow depth of field, specular highlights moving on the cheese, deep red background. Same burger, same patties. |
+| C | molho-caindo | Food commercial on black background. A thin continuous stream of creamy sauce keeps pouring from above onto the burger, coiling and piling up on top of the patty, slowly spreading at the edges. Slow motion, locked camera with a very slow tilt down toward the burger, dramatic side light. The burger and the wooden board stay exactly the same. |
+| D | heroi-luva | Hero food shot. The black-gloved hand holds the burger still toward the camera, delicate wisps of steam rise from the hot beef and melted cheese, the red rim light gently pulses on the bun. Slow cinematic dolly-in with a slight lateral arc, background stays softly out of focus. Same burger, same glove, same red light. |

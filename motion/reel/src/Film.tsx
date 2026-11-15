@@ -38,11 +38,8 @@ const Sfx: React.FC<{at: number; s: string; v?: number}> = ({at, s, v = 1}) => (
 const Grain: React.FC = () => {
   const f = useCurrentFrame();
   return (
-    <AbsoluteFill style={{pointerEvents: 'none', mixBlendMode: 'overlay', opacity: 0.16}}>
-      <svg width="1080" height="1920">
-        <filter id={'g' + (f % 12)}><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" seed={f % 12} /><feColorMatrix type="saturate" values="0" /></filter>
-        <rect width="1080" height="1920" filter={`url(#g${f % 12})`} />
-      </svg>
+    <AbsoluteFill style={{pointerEvents: 'none', mixBlendMode: 'overlay', opacity: 0.22}}>
+      <Img src={staticFile('grain/g' + (f % 8) + '.png')} style={{width: 1080, height: 1920, imageRendering: 'pixelated'}} />
     </AbsoluteFill>
   );
 };

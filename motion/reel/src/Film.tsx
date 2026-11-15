@@ -13,10 +13,13 @@ import fpos from '../public/shots/flow/pos.json';
    ===================================================================================== */
 
 const RED = '#e51b2b', HOT = '#ff2b3d', WINE = '#7d1019', INK = '#0a0203', GREEN = '#3ddc84';
-const SW = 1170, SH = 2532;               // capturas: 390×844 css @3×
+const SW = 1170, SH = 2532;               // tela do iPhone: 390×844 pt @3× (barra de status 54 pt + página 790 pt)
+const SB = 54;                            // altura da barra de status (pt); as capturas da página começam abaixo dela
 const PW = 560;                           // largura da tela do celular no quadro
 const K = PW / SW, CSS = 3 * K, PH = SH * K;
-const BEZ = 20;
+const BZ = 12, FR = 9, RS = 78;           // borda preta, moldura de titânio e raio da tela
+const BEZ = BZ + FR;
+const CREAM = '#f9f5ef', SHEET = '#867d7b', WA = '#1d2b24';
 const PCX = 540, PCY = 1175;              // centro do celular no quadro (camera neutra)
 const cl = {extrapolateLeft: 'clamp' as const, extrapolateRight: 'clamp' as const};
 const OUT = Easing.bezier(0.16, 1, 0.3, 1);       // chegada suave
@@ -25,6 +28,11 @@ const IN = Easing.bezier(0.7, 0, 0.84, 0);        // saída acelerada
 const shot = (n: string) => staticFile('shots/' + n);
 const img = (n: string) => staticFile('img/' + n);
 const lerp = (f: number, a: number[], b: number[], e: any = OUT) => interpolate(f, a, b, {...cl, easing: e});
+const mix = (c1: string, c2: string, t: number) => {
+  const p = (c: string) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
+  const a = p(c1), b = p(c2);
+  return '#' + a.map((v, i) => Math.round(v + (b[i] - v) * t).toString(16).padStart(2, '0')).join('');
+};
 
 export const fontFaces = `
 @font-face{font-family:'Montserrat';font-weight:600 900;src:url(${staticFile('fonts/montserrat-latin.woff2')}) format('woff2')}
@@ -108,25 +116,78 @@ const Headline: React.FC<{kicker?: string; lines: Line[]; at: number; out?: numb
   );
 };
 
-/* ---------------- Celular com luz de produto ---------------- */
-const Phone: React.FC<{children: React.ReactNode; rx?: number; ry?: number; rz?: number; s?: number; x?: number; y?: number; glare?: number; dim?: number; blur?: number; rim?: string}> =
-  ({children, rx = 0, ry = 0, rz = 0, s = 1, x = 0, y = 0, glare = -1, dim = 0, blur = 0, rim = RED}) => (
-  <div style={{position: 'absolute', left: PCX - (PW + BEZ * 2) / 2, top: PCY - (PH + BEZ * 2) / 2, perspective: 2600, filter: blur ? `blur(${blur}px)` : undefined}}>
-    <div style={{transform: `translate(${x}px, ${y}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${s})`, transformOrigin: '50% 50%'}}>
-      <div style={{position: 'relative', width: PW + BEZ * 2, height: PH + BEZ * 2, borderRadius: 104, padding: BEZ,
-        background: 'linear-gradient(150deg,#4a4a50 0%,#111114 30%,#050506 60%,#2d2d32 100%)',
-        boxShadow: `0 0 0 2px #5c5c64, inset 0 0 0 2px #000, 0 90px 160px -50px rgba(0,0,0,.95), 0 0 140px -20px ${rim}88, ${-ry * 1.2}px 0 60px -30px ${rim}`}}>
-        <div style={{position: 'relative', width: PW, height: PH, borderRadius: 86, overflow: 'hidden', background: '#fff'}}>
-          {children}
-          <div style={{position: 'absolute', inset: 0, background: `rgba(10,2,3,${dim})`}} />
-          <div style={{position: 'absolute', inset: 0, pointerEvents: 'none', background: `linear-gradient(118deg, transparent ${glare * 100 - 26}%, rgba(255,255,255,.26) ${glare * 100 - 10}%, rgba(255,255,255,.04) ${glare * 100}%, transparent ${glare * 100 + 8}%)`}} />
-          <div style={{position: 'absolute', inset: 0, boxShadow: 'inset 0 0 30px rgba(0,0,0,.25)', borderRadius: 86}} />
-          <div style={{position: 'absolute', top: 16, left: '50%', width: 176, height: 48, marginLeft: -88, borderRadius: 26, background: '#000'}} />
+/* ---------------- iPhone realista ----------------
+   Moldura de titânio escovado com reflexo que acompanha a rotação, bandas de antena, botões laterais,
+   borda preta, Dynamic Island com lente, barra de status do iOS, indicador de início, vidro com reflexo
+   e sombra de contato. A página (captura real) começa abaixo da barra de status, como no aparelho. */
+const StatusBar: React.FC<{bg: string; dark?: boolean}> = ({bg, dark}) => {
+  const c = dark ? '#fff' : '#111';
+  const u = CSS; // 1 pt
+  return (
+    <div style={{position: 'absolute', left: 0, top: 0, width: PW, height: SB * u, background: bg, zIndex: 5}}>
+      <div style={{position: 'absolute', left: 52 * u, top: 18 * u, font: `600 ${17 * u}px DM Sans`, letterSpacing: '-0.01em', color: c}}>20:30</div>
+      <svg style={{position: 'absolute', right: 26 * u, top: 20 * u}} width={78 * u} height={14 * u} viewBox="0 0 78 14">
+        {[0, 1, 2, 3].map((i) => <rect key={i} x={i * 5.2} y={9 - i * 2.6} width={3.4} height={3.4 + i * 2.6} rx={0.9} fill={c} />)}
+        <path d="M30.5 4.2a9.5 9.5 0 0 1 13 0l-1.5 1.6a7.3 7.3 0 0 0-10 0Z M33.2 7a5.6 5.6 0 0 1 7.6 0l-1.6 1.6a3.3 3.3 0 0 0-4.4 0Z M35.6 9.8a2 2 0 0 1 2.8 0L37 11.3Z" fill={c} />
+        <rect x={51} y={1.5} width={23} height={11} rx={3.4} fill="none" stroke={c} strokeOpacity={0.4} strokeWidth={1} />
+        <rect x={53} y={3.5} width={17} height={7} rx={1.8} fill={c} />
+        <path d="M75.4 5.3v3.4a1.8 1.8 0 0 0 0-3.4Z" fill={c} fillOpacity={0.45} />
+      </svg>
+    </div>
+  );
+};
+const Phone: React.FC<{children: React.ReactNode; rx?: number; ry?: number; rz?: number; s?: number; x?: number; y?: number; glare?: number; dim?: number; blur?: number; rim?: string; bar?: string; darkBar?: boolean; frameO?: number}> =
+  ({children, rx = 0, ry = 0, rz = 0, s = 1, x = 0, y = 0, glare = -1, dim = 0, blur = 0, rim = RED, bar = CREAM, darkBar = false, frameO = 1}) => {
+  const W = PW + BEZ * 2, H = PH + BEZ * 2;
+  const la = 118 + ry * 2.2; // o reflexo do titânio corre com a rotação
+  const ti = `linear-gradient(${la}deg, #2b2b2e 0%, #a9a9ae 7%, #5b5b60 13%, #1f1f22 26%, #6d6d72 44%, #e3e3e6 50%, #6a6a6f 56%, #232326 72%, #8e8e93 88%, #3a3a3e 100%)`;
+  const btn = (side: 'l' | 'r', top: number, h: number) => (
+    <div style={{position: 'absolute', [side === 'l' ? 'left' : 'right']: -5, top: H * top, width: 8, height: H * h, borderRadius: 3,
+      background: `linear-gradient(${side === 'l' ? 90 : 270}deg, #1c1c1e, #8e8e93 45%, #3a3a3c)`, boxShadow: 'inset 0 0 0 0.5px rgba(255,255,255,.25)', opacity: frameO}} />
+  );
+  const band = (side: 'l' | 'r', top: number) => (
+    <div style={{position: 'absolute', [side === 'l' ? 'left' : 'right']: 0, top: H * top, width: FR, height: 7, background: '#3a3a3e', opacity: 0.9 * frameO}} />
+  );
+  return (
+    <div style={{position: 'absolute', left: PCX - W / 2, top: PCY - H / 2, perspective: 2600, filter: blur ? `blur(${blur}px)` : undefined}}>
+      <div style={{transform: `translate(${x}px, ${y}px) rotateX(${rx}deg) rotateY(${ry}deg) rotateZ(${rz}deg) scale(${s})`, transformOrigin: '50% 50%'}}>
+        <div style={{position: 'relative', width: W, height: H}}>
+          {/* sombra de contato e ambiente */}
+          <div style={{position: 'absolute', left: '8%', right: '8%', bottom: -40, height: 80, borderRadius: '50%', background: 'rgba(0,0,0,.75)', filter: 'blur(30px)', opacity: frameO}} />
+          {btn('l', 0.175, 0.04)}{btn('l', 0.245, 0.075)}{btn('l', 0.335, 0.075)}{btn('r', 0.27, 0.115)}
+          {/* moldura de titânio */}
+          <div style={{position: 'absolute', inset: 0, borderRadius: RS + BEZ, background: ti, opacity: frameO,
+            boxShadow: `0 70px 140px -40px rgba(0,0,0,.95), 0 24px 50px -16px rgba(0,0,0,.7), 0 0 120px -30px ${rim}aa, ${-ry * 1.4}px 0 50px -26px ${rim}, inset 0 0 0 1px rgba(255,255,255,.35), inset 0 0 0 2.5px rgba(0,0,0,.45), inset 0 2px 3px rgba(255,255,255,.4)`}}>
+            <div style={{position: 'absolute', inset: 0, borderRadius: RS + BEZ, background: 'repeating-linear-gradient(90deg, rgba(255,255,255,.035) 0 1px, transparent 1px 3px)', mixBlendMode: 'overlay'}} />
+            {band('l', 0.1)}{band('r', 0.1)}{band('l', 0.9)}{band('r', 0.9)}
+          </div>
+          {/* borda preta */}
+          <div style={{position: 'absolute', inset: FR, borderRadius: RS + BZ, background: '#050506', boxShadow: 'inset 0 0 0 1.5px #1d1d20', opacity: frameO}} />
+          {/* tela */}
+          <div style={{position: 'absolute', left: BEZ, top: BEZ, width: PW, height: PH, borderRadius: RS, overflow: 'hidden', background: bar}}>
+            <StatusBar bg={bar} dark={darkBar} />
+            <div style={{position: 'absolute', left: 0, top: SB * CSS, width: PW, height: PH - SB * CSS, overflow: 'hidden'}}>
+              {children}
+            </div>
+            <div style={{position: 'absolute', inset: 0, background: `rgba(10,2,3,${dim})`, zIndex: 6}} />
+            {/* indicador de início */}
+            <div style={{position: 'absolute', left: '50%', bottom: 8 * CSS, width: 134 * CSS, height: 5 * CSS, marginLeft: -67 * CSS, borderRadius: 3 * CSS, background: darkBar ? 'rgba(255,255,255,.85)' : 'rgba(0,0,0,.82)', zIndex: 7}} />
+            {/* Dynamic Island com lente */}
+            <div style={{position: 'absolute', top: 11 * CSS, left: '50%', width: 125 * CSS, height: 36 * CSS, marginLeft: -62.5 * CSS, borderRadius: 18 * CSS, background: '#000', zIndex: 8, boxShadow: '0 0 0 0.5px rgba(255,255,255,.06)'}}>
+              <div style={{position: 'absolute', right: 11 * CSS, top: 9 * CSS, width: 18 * CSS, height: 18 * CSS, borderRadius: '50%', background: 'radial-gradient(circle at 35% 35%, #3b4a6b 0%, #121826 35%, #05070c 70%)', boxShadow: 'inset 0 0 0 1.5px #0d0f14'}}>
+                <div style={{position: 'absolute', left: '28%', top: '26%', width: '18%', height: '18%', borderRadius: '50%', background: 'rgba(150,180,255,.55)', filter: 'blur(0.6px)'}} />
+              </div>
+            </div>
+            {/* vidro: reflexo fixo + reflexo que passa */}
+            <div style={{position: 'absolute', inset: 0, zIndex: 9, pointerEvents: 'none', background: 'linear-gradient(160deg, rgba(255,255,255,.10) 0%, rgba(255,255,255,0) 32%, rgba(255,255,255,0) 78%, rgba(255,255,255,.05) 100%)'}} />
+            <div style={{position: 'absolute', inset: 0, zIndex: 9, pointerEvents: 'none', background: `linear-gradient(118deg, transparent ${glare * 100 - 26}%, rgba(255,255,255,.22) ${glare * 100 - 10}%, rgba(255,255,255,.04) ${glare * 100}%, transparent ${glare * 100 + 8}%)`}} />
+            <div style={{position: 'absolute', inset: 0, zIndex: 9, borderRadius: RS, boxShadow: 'inset 0 0 18px rgba(0,0,0,.22)'}} />
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
 
 const Screen: React.FC<{src: string; o?: number; y?: number; x?: number}> = ({src, o = 1, y = 0, x = 0}) => (
   <Img src={src} style={{position: 'absolute', left: x, top: y, width: PW, opacity: o}} />
@@ -135,7 +196,7 @@ const Screen: React.FC<{src: string; o?: number; y?: number; x?: number}> = ({sr
 /* Câmera: move o "mundo" (celular e o que estiver preso a ele) para enquadrar uma região da tela. */
 const Cam: React.FC<{children: React.ReactNode; s: number; fx: number; fy: number}> = ({children, s, fx, fy}) => (
   // fx/fy: ponto da tela (css da página) que fica no centro óptico (540, 1000)
-  <AbsoluteFill style={{transform: `translate(${540 - (PCX + (fx - 195) * CSS) * s + (s - 1) * 0}px, ${PCY - (PCY + (fy - 422) * CSS) * s}px) scale(${s})`, transformOrigin: '0 0'}}>
+  <AbsoluteFill style={{transform: `translate(${540 - (PCX + (fx - 195) * CSS) * s}px, ${PCY - (PCY + (fy + SB - 422) * CSS) * s}px) scale(${s})`, transformOrigin: '0 0'}}>
     {children}
   </AbsoluteFill>
 );
@@ -306,7 +367,7 @@ const S2: React.FC = () => {
       <Dust camY={enter * 200} />
       <Cam s={cs} fx={cfx} fy={cfy}>
         <Phone rx={interpolate(enter, [0, 1], [24, 0])} ry={interpolate(enter, [0, 1], [-34, 0])} rz={interpolate(enter, [0, 1], [-8, 0])}
-          y={interpolate(enter, [0, 1], [1300, 0])} glare={lerp(f, [14, 56], [-0.3, 1.4], IO)} blur={dive * 8}>
+          y={interpolate(enter, [0, 1], [1300, 0])} glare={lerp(f, [14, 56], [-0.3, 1.4], IO)} blur={dive * 8} bar={mix(CREAM, '#8a7f7d', sheet)}>
           {/* 1 · início em Nova Xavantina, até a folha cobrir a tela */}
           {f < T.barra && <Screen src={flow('home_nx.png')} />}
           {/* 2 · depois da escolha: página de Barra do Garças rolando (antes e depois do toque em Hambúrguer) */}
@@ -382,14 +443,14 @@ const S3: React.FC<{pos: any}> = ({pos}) => {
       {/* cartões reais do cardápio saindo da tela em profundidade */}
       {lift > 0 && ids.map((id, i) => {
         const c = pos['card_' + id];
-        const cx = PCX + (c.x + c.w / 2 - 195) * CSS, cy = PCY + 60 * 0 + (c.y + c.h / 2 - 422) * CSS;
+        const cx = PCX + (c.x + c.w / 2 - 195) * CSS, cy = PCY + (c.y + c.h / 2 + SB - 422) * CSS;
         const l = lerp(f, [66 + i * 4, 92 + i * 4], [0, 1], OUT);
         const sc = 1 + l * 0.32;
         return (
           <div key={id} style={{position: 'absolute', left: cx - c.w * CSS / 2, top: cy - c.h * CSS / 2, width: c.w * CSS, height: c.h * CSS, borderRadius: 26, overflow: 'hidden',
             transform: `translate(${fan[i].dx * l}px, ${fan[i].dy * l}px) rotate(${fan[i].r * l}deg) scale(${sc})`,
             boxShadow: `0 ${30 + l * 50}px ${60 + l * 60}px -20px rgba(0,0,0,.85), 0 0 ${l * 60}px -10px ${RED}`}}>
-            <Img src={shot('store_menu.png')} style={{position: 'absolute', width: PW, left: -c.x * CSS, top: -c.y * CSS}} />
+            <Img src={shot('card_' + id + '.png')} style={{position: 'absolute', inset: 0, width: '100%', height: '100%'}} />
           </div>
         );
       })}
@@ -425,12 +486,12 @@ const S4: React.FC<{pos: any}> = ({pos}) => {
         </Phone>
         {back > 0 && ids.map((id, i) => {
           const c = pos['card_' + id];
-          const cx = PCX + (c.x + c.w / 2 - 195) * CSS, cy = PCY + (c.y + c.h / 2 - 422) * CSS;
+          const cx = PCX + (c.x + c.w / 2 - 195) * CSS, cy = PCY + (c.y + c.h / 2 + SB - 422) * CSS;
           return (
             <div key={id} style={{position: 'absolute', left: cx - c.w * CSS / 2, top: cy - c.h * CSS / 2, width: c.w * CSS, height: c.h * CSS, borderRadius: 26, overflow: 'hidden',
-              transform: `translate(${fan[i].dx * back}px, ${fan[i].dy * back}px) rotate(${fan[i].r * back}deg) scale(${1 + back * 0.32})`, opacity: back > 0.02 ? 1 : 0,
+              transform: `translate(${fan[i].dx * back}px, ${fan[i].dy * back}px) rotate(${fan[i].r * back}deg) scale(${1 + back * 0.32})`, opacity: Math.min(1, back * 4),
               boxShadow: `0 ${30 + back * 50}px ${60 + back * 60}px -20px rgba(0,0,0,.85)`}}>
-              <Img src={shot('store_menu.png')} style={{position: 'absolute', width: PW, left: -c.x * CSS, top: -c.y * CSS}} />
+              <Img src={shot('card_' + id + '.png')} style={{position: 'absolute', inset: 0, width: '100%', height: '100%'}} />
             </div>
           );
         })}
@@ -462,7 +523,7 @@ const S5: React.FC<{pos: any}> = ({pos}) => {
       <Stage />
       <Dust />
       <Cam s={sc} fx={195} fy={fy}>
-        <Phone glare={lerp(f, [T.s2, T.s2 + 30], [-0.3, 1.4], IO)}>
+        <Phone glare={lerp(f, [T.s2, T.s2 + 30], [-0.3, 1.4], IO)} bar={SHEET}>
           <div style={{position: 'absolute', inset: 0, transform: `translateX(${offX}px)`}}>
             <Screen src={shot(src)} />
             {f >= T.s2 && f < T.s3 && fields.map((k, i) => {
@@ -515,12 +576,12 @@ const Chat: React.FC<{start?: number; full?: boolean}> = ({start = 0, full}) => 
   const pop = full ? 1 : spring({frame: f - start, fps: 30, config: {damping: 14, stiffness: 140}});
   return (
     <AbsoluteFill style={{background: '#ece5dc'}}>
-      <div style={{height: 150, background: '#1d2b24', display: 'flex', alignItems: 'flex-end', padding: '0 26px 20px', gap: 16}}>
+      <div style={{height: 100, background: WA, display: 'flex', alignItems: 'center', padding: '0 26px', gap: 16}}>
         <Img src={img('dantes-logo.webp')} style={{width: 70, height: 70, borderRadius: '50%'}} />
         <div style={{color: '#fff', font: '700 32px DM Sans', lineHeight: 1.1}}>Dantes<div style={{font: '400 21px DM Sans', opacity: 0.75}}>online</div></div>
       </div>
       {f >= start && (
-        <div style={{position: 'absolute', right: 20, top: 186, width: PW - 80, background: '#dcf5e3', borderRadius: '28px 28px 8px 28px', padding: '20px 24px 30px', font: '400 23px/1.36 DM Sans', color: '#16241b',
+        <div style={{position: 'absolute', right: 20, top: 128, width: PW - 80, background: '#dcf5e3', borderRadius: '28px 28px 8px 28px', padding: '20px 24px 30px', font: '400 23px/1.36 DM Sans', color: '#16241b',
           transform: `scale(${0.6 + pop * 0.4})`, opacity: Math.min(1, pop * 1.5), transformOrigin: '100% 100%', boxShadow: '0 6px 16px rgba(0,0,0,.1)'}}>
           {LINES.slice(0, Math.max(1, n)).map((l, i) => <div key={i} style={{minHeight: l ? 0 : 12}}>{fmt(l)}</div>)}
           <div style={{position: 'absolute', right: 16, bottom: 8, font: '400 17px DM Sans', color: '#5d7a66'}}>19:42 ✓✓</div>
@@ -541,7 +602,7 @@ const S6: React.FC<{pos: any}> = ({pos}) => {
       <Stage hue={f > 16 ? '#1f9e57' : RED} />
       <Dust tint={f > 16 ? '140,255,190' : '255,120,110'} />
       <Cam s={push} fx={195} fy={fy}>
-        <Phone ry={lerp(f, [8, 20, 105], [0, 10, 4], IO)} rim={f > 16 ? GREEN : RED} glare={lerp(f, [22, 56], [-0.3, 1.4], IO)}>
+        <Phone ry={lerp(f, [8, 20, 105], [0, 10, 4], IO)} rim={f > 16 ? GREEN : RED} glare={lerp(f, [22, 56], [-0.3, 1.4], IO)} bar={f < 14 ? SHEET : WA} darkBar={f >= 14}>
           {f < 20 && [0, 1, 2, 3].map(i => (
             <div key={i} style={{position: 'absolute', inset: 0, transform: `translateX(${-whip * PW * 1.1 + i * trail * 50}px)`, opacity: i ? 0.2 : 1}}>
               <Screen src={shot('step3_pix.png')} />
@@ -563,68 +624,132 @@ const S6: React.FC<{pos: any}> = ({pos}) => {
   );
 };
 
-/* 07 · Assinatura: a marca nasce da luz */
-const Logo: React.FC<{f: number}> = ({f}) => {
-  const {fps} = useVideoConfig();
-  const tile = spring({frame: f, fps, config: {damping: 13, stiffness: 90}});
-  const wipe = lerp(f, [4, 22], [0, 100], IO);
-  const sweep = lerp(f, [10, 34], [-0.3, 1.4], IO);
-  const word = lerp(f, [12, 28], [0, 1], OUT);
-  const tag = lerp(f, [22, 40], [0, 1], OUT);
+/* 07 · Assinatura: a tela vira a marca (ui-to-brand-morph).
+   O celular volta ao centro, a conversa se apaga e a tela fica vermelha; a moldura sai e o retângulo vermelho
+   da tela se contrai, com uma única mola, até virar o ícone oficial (raio 32%, marca a 82%, como no site).
+   No impacto a marca branca entra por varredura; o ícone abre espaço e o nome "PedeAi" pousa letra a letra
+   (escala + desfoque), "DELIVERY" fecha o espaçamento. Linhas de velocidade, tiradas do próprio símbolo,
+   atravessam o fundo como grafismo de marca. Depois a mensagem, a data em destaque e o endereço. */
+const SpeedLines: React.FC<{o: number}> = ({o}) => {
+  const f = useCurrentFrame();
   return (
-    <div style={{display: 'flex', alignItems: 'center', gap: 34}}>
-      <div style={{position: 'relative', width: 210, height: 210, borderRadius: 66, background: RED, transform: `scale(${tile})`, overflow: 'hidden',
-        boxShadow: `0 40px 90px -20px ${RED}, 0 0 ${120 * tile}px -10px ${HOT}`}}>
-        <Img src={img('pedeai-mark.png')} style={{position: 'absolute', left: 31, top: 31, width: 148, clipPath: `inset(0 ${100 - wipe}% 0 0)`}} />
-        <div style={{position: 'absolute', inset: 0, background: `linear-gradient(115deg, transparent ${sweep * 100 - 20}%, rgba(255,255,255,.55) ${sweep * 100}%, transparent ${sweep * 100 + 18}%)`}} />
-      </div>
-      <div style={{display: 'flex', flexDirection: 'column', lineHeight: 1}}>
-        <div style={{overflow: 'hidden'}}>
-          <div style={{font: '800 168px Montserrat', letterSpacing: '-0.04em', color: '#fff', transform: `translateY(${(1 - word) * 105}%)`}}>PedeAi</div>
-        </div>
-        <div style={{font: '700 30px DM Sans', textTransform: 'uppercase', letterSpacing: `${0.9 - tag * 0.5}em`, color: '#ffb3b9', opacity: tag, marginTop: 12, paddingLeft: 6}}>Delivery</div>
-      </div>
-    </div>
+    <AbsoluteFill style={{opacity: o, overflow: 'hidden'}}>
+      {new Array(9).fill(0).map((_, i) => {
+        const y = 180 + random('sy' + i) * 1500, w = 260 + random('sw' + i) * 520, h = 6 + Math.round(random('sh' + i) * 3) * 4;
+        const sp = 9 + random('sv' + i) * 14;
+        const x = 1300 - ((f * sp + random('sx' + i) * 2400) % 2600);
+        return <div key={i} style={{position: 'absolute', left: x, top: y, width: w, height: h, borderRadius: h, background: `linear-gradient(90deg, transparent, rgba(255,70,85,${0.18 + random('so' + i) * 0.22}) 40%, rgba(255,255,255,${0.10 + random('sq' + i) * 0.12}))`, filter: 'blur(1px)'}} />;
+      })}
+    </AbsoluteFill>
   );
 };
 const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
   const f = useCurrentFrame();
-  const away = lerp(f, [0, 24], [0, 1], IN);
-  const L = 15; // instante da marca (batida 41 da trilha)
-  const beams = lerp(f, [L - 12, L + 6], [0.4, 1.6], OUT);
-  const converge = lerp(f, [0, L], [0, 1], IN);
-  const lines = variant === 'cliente'
-    ? [{t: 'Peça sem baixar aplicativo.', s: 56, c: '#fff'}, {t: 'Estreia 25/11 no Vale do Araguaia.', s: 40, c: '#ff9aa2'}]
-    : [{t: 'Seu cardápio online.', s: 56, c: '#fff'}, {t: 'Pedido pronto no seu WhatsApp.', s: 44, c: '#fff'}, {t: 'Sem comissão.', s: 44, c: '#ff9aa2'}];
+  const {fps} = useVideoConfig();
+  const L = 45;                       // impacto da marca (cai na batida da trilha)
+  const T = 236, TR = T * 11 / 34;    // ícone: proporção do site (34 px, raio 11)
+  const LY = 560;                     // linha central do lockup
+  // 1 · a conversa some e a tela fica vermelha
+  const red = lerp(f, [6, 18], [0, 1], Easing.inOut(Easing.quad));
+  const frameO = 1 - lerp(f, [18, 30], [0, 1], IN);
+  // 2 · a tela vira o ícone: uma única mola para x, y, largura, altura e raio
+  const m = spring({frame: f - 22, fps, config: {damping: 15, stiffness: 120, mass: 0.9}, durationInFrames: L - 22});
+  const brake = f >= L ? Math.sin(Math.min(1, (f - L) / 8) * Math.PI) * 0.06 : 0;
+  // 3 · o ícone abre espaço para o nome
+  const shift = lerp(f, [L + 6, L + 22], [0, 1], IO);
+  const word = 'PedeAi';
+  const wordW = 530, gap = 34, lockW = T + gap + wordW;
+  const tileCx = interpolate(shift, [0, 1], [540, 540 - lockW / 2 + T / 2]);
+  const w = interpolate(m, [0, 1], [PW, T]), h = interpolate(m, [0, 1], [PH, T]);
+  const cx = interpolate(m, [0, 1], [PCX, tileCx]), cy = interpolate(m, [0, 1], [PCY, LY]);
+  const r = interpolate(m, [0, 1], [RS, TR]);
+  const sc = 1 + brake + (f > L + 60 ? Math.sin((f - L - 60) / 16) * 0.012 : 0);
+  const wipe = lerp(f, [L, L + 9], [0, 100], OUT);
+  const sweep = lerp(f, [L + 70, L + 96], [-0.4, 1.4], IO);
+  const field = lerp(f, [L - 2, L + 3, L + 40], [0, 1, 0.55]);
+  const loja = variant === 'loja';
+  const reveal = (at: number) => spring({frame: f - at, fps, config: {damping: 200}, durationInFrames: 16});
   return (
     <AbsoluteFill>
-      <Stage beam={beams} floor={1.3} sway={(1 - converge) * -60} />
-      <Dust amount={1.4} />
-      <AbsoluteFill style={{opacity: 1 - lerp(f, [12, 22], [0, 1], Easing.linear)}}>
-        <Phone s={1 - away * 0.45} y={away * 520} rx={away * 38} ry={4 - away * 10} rim={GREEN} blur={away * 8}>
+      <Stage beam={lerp(f, [L - 14, L + 4], [0.5, 1.5], OUT)} floor={1.2} sway={(1 - lerp(f, [0, L], [0, 1], IN)) * -60} />
+      {/* campo de cor da marca que se abre no impacto */}
+      <AbsoluteFill style={{background: `radial-gradient(70% 38% at 50% ${LY / 19.2}%, ${RED}cc 0%, ${WINE}88 45%, transparent 75%)`, opacity: field, mixBlendMode: 'screen'}} />
+      <SpeedLines o={lerp(f, [L, L + 20], [0, 1])} />
+      <Dust amount={1.2} />
+      {/* celular da cena anterior, voltando ao centro e sumindo */}
+      {f < 32 && (
+        <Phone ry={lerp(f, [0, 16], [4, 0], IO)} rim={GREEN} bar={mix(WA, RED, red)} darkBar frameO={frameO} s={lerp(f, [0, 22], [1, 0.97], IO)}>
           <Chat full />
+          <AbsoluteFill style={{background: RED, opacity: red}} />
         </Phone>
-      </AbsoluteFill>
-      <AbsoluteFill style={{background: `radial-gradient(40% 25% at 50% 42%, ${HOT}55, transparent 70%)`, opacity: lerp(f, [L - 2, L + 4, L + 40], [0, 1, 0.45]), mixBlendMode: 'screen'}} />
-      {f >= L && (
-        <div style={{position: 'absolute', left: 0, right: 0, top: 620, display: 'flex', justifyContent: 'center'}}>
-          <Logo f={f - L} />
+      )}
+      {/* o retângulo vermelho da tela vira o ícone oficial */}
+      {f >= 22 && (
+        <div style={{position: 'absolute', left: cx - w / 2, top: cy - h / 2, width: w, height: h, borderRadius: r, background: RED, overflow: 'hidden', transform: `scale(${sc})`,
+          boxShadow: `0 ${30 + 20 * m}px ${80 * m}px -20px rgba(0,0,0,.8), 0 0 ${f >= L ? 140 : 40}px -10px ${HOT}`}}>
+          <AbsoluteFill style={{background: 'linear-gradient(160deg, rgba(255,255,255,.16), transparent 45%, rgba(0,0,0,.12))'}} />
+          {f >= L && <Img src={img('pedeai-mark.png')} style={{position: 'absolute', left: T * 0.09, top: T * 0.09, width: T * 0.82, height: T * 0.82, clipPath: `inset(0 ${100 - wipe}% 0 0)`}} />}
+          <div style={{position: 'absolute', inset: 0, background: `linear-gradient(115deg, transparent ${sweep * 100 - 20}%, rgba(255,255,255,.5) ${sweep * 100}%, transparent ${sweep * 100 + 16}%)`}} />
         </div>
       )}
-      <Streak y={725} o={lerp(f, [L - 1, L + 2, L + 26], [0, 1, 0], Easing.linear)} />
-      {lines.map((l, i) => {
-        const at = L + 40 + i * 7, o = lerp(f, [at, at + 12], [0, 1]);
-        return <div key={i} style={{position: 'absolute', left: 60, right: 60, top: 930 + i * 78, textAlign: 'center', font: `900 ${l.s}px/1.1 Montserrat`, letterSpacing: '-0.03em', textTransform: 'uppercase', color: l.c, opacity: o, transform: `translateY(${(1 - o) * 24}px)`, filter: `blur(${(1 - o) * 6}px)`}}>{l.t}</div>;
-      })}
-      <div style={{position: 'absolute', left: 0, right: 0, top: 930 + lines.length * 78 + 34, display: 'flex', justifyContent: 'center', opacity: lerp(f, [L + 62, L + 74], [0, 1])}}>
-        <div style={{padding: '14px 34px', borderRadius: 99, border: '2px solid rgba(255,255,255,.35)', font: '700 38px DM Sans', color: '#fff', letterSpacing: '0.01em'}}>pedeaionline.com.br</div>
+      {/* nome: cada letra pousa grande e desfocada até ficar nítida */}
+      <div style={{position: 'absolute', left: 540 - lockW / 2 + T + gap, top: LY - 98, width: wordW, display: 'flex', font: '800 150px/1 Montserrat', letterSpacing: '-0.04em', color: '#fff'}}>
+        {word.split('').map((ch, i) => {
+          const k = spring({frame: f - (L + 16 + i * 3), fps, config: {damping: 16, stiffness: 140}});
+          return <span key={i} style={{display: 'inline-block', opacity: Math.min(1, k * 1.4), transform: `scale(${interpolate(k, [0, 1], [1.4, 1])})`, filter: `blur(${(1 - k) * 12}px)`, transformOrigin: '50% 80%'}}>{ch}</span>;
+        })}
       </div>
+      <div style={{position: 'absolute', left: 540 - lockW / 2 + T + gap + 6, top: LY + 58, font: '700 28px DM Sans', textTransform: 'uppercase', color: '#ffb3b9',
+        letterSpacing: `${interpolate(lerp(f, [L + 30, L + 48], [0, 1]), [0, 1], [1.1, 0.5])}em`, opacity: lerp(f, [L + 30, L + 42], [0, 1])}}>Delivery</div>
+      <Streak y={LY} o={lerp(f, [L - 1, L + 2, L + 24], [0, 1, 0], Easing.linear)} />
+      {/* mensagem */}
+      {(() => {
+        const t1 = reveal(L + 44);
+        return (
+          <div style={{position: 'absolute', left: 0, right: 0, top: LY + 190, textAlign: 'center', overflow: 'hidden', paddingBottom: 8}}>
+            <div style={{font: '900 58px/1 Montserrat', letterSpacing: '-0.035em', color: '#fff', textTransform: 'uppercase', transform: `translateY(${(1 - t1) * 110}%)`}}>
+              {loja ? 'Seu cardápio online.' : 'Peça sem baixar aplicativo.'}
+            </div>
+          </div>
+        );
+      })()}
+      {/* bloco de destaque: data de estreia (cliente) ou "sem comissão" (restaurante) */}
+      <div style={{position: 'absolute', left: 0, right: 0, top: LY + 286, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+        <div style={{width: 120 * lerp(f, [L + 52, L + 64], [0, 1]), height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`, marginBottom: 26}} />
+        <div style={{font: '700 26px DM Sans', letterSpacing: '0.42em', color: '#ff8f97', textTransform: 'uppercase', opacity: lerp(f, [L + 56, L + 66], [0, 1]), paddingLeft: '0.42em'}}>
+          {loja ? 'Pedido pronto no seu WhatsApp' : 'Estreia'}
+        </div>
+        <div style={{display: 'flex', overflow: 'hidden', marginTop: 6}}>
+          {(loja ? 'SEM COMISSÃO.' : '25/11').split('').map((ch, i) => {
+            const k = reveal(L + 60 + i * 2);
+            return <span key={i} style={{display: 'inline-block', font: `900 ${loja ? 100 : 196}px/1.02 Montserrat`, letterSpacing: '-0.045em', color: i === 2 && !loja ? HOT : '#fff', transform: `translateY(${(1 - k) * 105}%)`, whiteSpace: 'pre'}}>{ch}</span>;
+          })}
+        </div>
+        {!loja && (
+          <div style={{font: '800 42px Montserrat', letterSpacing: '-0.01em', color: '#fff', textTransform: 'uppercase', opacity: lerp(f, [L + 72, L + 84], [0, 1]), transform: `translateY(${(1 - lerp(f, [L + 72, L + 84], [0, 1])) * 18}px)`}}>
+            No Vale do Araguaia.
+          </div>
+        )}
+      </div>
+      {/* endereço */}
+      {(() => {
+        const k = spring({frame: f - (L + 84), fps, config: {damping: 14, stiffness: 120}});
+        const sh = lerp(f, [L + 104, L + 124], [-0.4, 1.4], IO);
+        return (
+          <div style={{position: 'absolute', left: 0, right: 0, top: LY + (loja ? 590 : 660), display: 'flex', justifyContent: 'center', opacity: Math.min(1, k * 1.5)}}>
+            <div style={{position: 'relative', overflow: 'hidden', padding: '18px 44px', borderRadius: 99, background: '#fff', font: '800 40px Montserrat', letterSpacing: '-0.02em', color: RED, transform: `scale(${interpolate(k, [0, 1], [0.8, 1])})`, boxShadow: `0 20px 60px -10px ${RED}aa`}}>
+              pedeaionline.com.br
+              <div style={{position: 'absolute', inset: 0, background: `linear-gradient(110deg, transparent ${sh * 100 - 20}%, rgba(255,140,150,.35) ${sh * 100}%, transparent ${sh * 100 + 20}%)`}} />
+            </div>
+          </div>
+        );
+      })()}
     </AbsoluteFill>
   );
 };
 
 /* ================================== MONTAGEM ================================== */
-export const SCENES = [210, 225, 105, 90, 135, 105, 135]; // cada corte cai numa batida da trilha (15 quadros)
+export const SCENES = [210, 225, 105, 90, 135, 105, 180]; // cada corte cai numa batida da trilha (15 quadros)
 export const TOTAL = SCENES.reduce((a, b) => a + b, 0);
 const AT = (i: number) => SCENES.slice(0, i).reduce((a, b) => a + b, 0);
 
@@ -666,9 +791,11 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       <Sfx at={s(5) + 4} s="toque" v={0.7} />
       <Sfx at={s(5) + 8} s="whoosh" v={0.6} />
       <Sfx at={s(5) + 18} s="mensagem" v={0.7} />
-      <Sfx at={s(6) - 45} s="subida" v={0.4} />
-      <Sfx at={s(6) + 15} s="impacto" v={0.6} />
-      <Sfx at={s(6) + 16} s="assinatura" v={0.4} />
+      <Sfx at={s(6) + 6} s="whoosh-grave" v={0.4} />
+      <Sfx at={s(6) + 45 - 60} s="subida" v={0.4} />
+      <Sfx at={s(6) + 45} s="impacto" v={0.65} />
+      <Sfx at={s(6) + 46} s="assinatura" v={0.42} />
+      <Sfx at={s(6) + 45 + 84} s="adicionado" v={0.35} />
       <Audio src={staticFile('sfx/trilha.wav')} volume={0.55} />
     </AbsoluteFill>
   );

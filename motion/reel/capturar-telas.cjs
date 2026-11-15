@@ -1,5 +1,5 @@
 const {chromium}=require('playwright');const IDS=['maromba','tropical','old-school'];const O=process.argv[2];const fs=require('fs');
-(async()=>{const b=await chromium.launch();const ctx=await b.newContext({viewport:{width:390,height:844},deviceScaleFactor:3,isMobile:true,hasTouch:true,timezoneId:'America/Cuiaba'});await ctx.clock.setFixedTime(new Date('2026-11-14T20:30:00-04:00'));const p=await ctx.newPage();
+(async()=>{const b=await chromium.launch();const ctx=await b.newContext({viewport:{width:390,height:790},deviceScaleFactor:3,isMobile:true,hasTouch:true,timezoneId:'America/Cuiaba'});await ctx.clock.setFixedTime(new Date('2026-11-14T20:30:00-04:00'));const p=await ctx.newPage();
 const pos={};const box=async(sel,k)=>{const r=await p.locator(sel).first().boundingBox();pos[k]={x:r.x+r.width/2,y:r.y+r.height/2,w:r.width,h:r.height};};
 const shot=async n=>{await p.waitForTimeout(600);await p.screenshot({path:O+'/'+n+'.png'});};
 await p.goto('http://localhost:4174/');await p.waitForTimeout(2500);await shot('home');
@@ -9,6 +9,10 @@ await p.goto('http://localhost:4174/#/loja/dantes-barra-do-garcas');await p.wait
 const sc=await p.evaluate(()=>{const el=document.querySelector('[data-add="maromba"]').closest('.sp-item');const sp=document.getElementById('storeScroll');const r=el.getBoundingClientRect();sp.scrollTop+=r.top-170;return {y:sp.scrollTop};});
 await p.waitForTimeout(800);pos.scroll=sc;await shot('store_menu');
 for(const id of IDS) await box('[data-add="'+id+'"]','add_'+id);
+// cartões isolados (sem a barra fixa de busca por cima), para saírem da tela no filme
+await p.evaluate(()=>{window.__fx=[...document.querySelectorAll('#storeScroll *')].filter(e=>['sticky','fixed'].includes(getComputedStyle(e).position));window.__fx.forEach(e=>e.style.visibility='hidden');});
+for(const id of IDS){const h=await p.evaluateHandle(i=>document.querySelector('[data-add="'+i+'"]').closest('.sp-item'),id);await h.asElement().screenshot({path:O+'/card_'+id+'.png'});}
+await p.evaluate(()=>window.__fx.forEach(e=>e.style.visibility=''));
 for(const id of IDS){const r=await p.evaluate(i=>{const e=document.querySelector('[data-add="'+i+'"]').closest('.sp-item').getBoundingClientRect();return {x:e.x,y:e.y,w:e.width,h:e.height}},id);pos['card_'+id]=r;}
 {const r=await p.evaluate(()=>{const e=document.getElementById('cartBar');return null});}
 for(const id of IDS){await p.click('[data-add="'+id+'"]');await p.waitForTimeout(450);if(await p.locator('#spSheet.open').count()){console.log('abriu folha',id);await p.keyboard.press('Escape');}await shot('store_menu_'+id);const y=await p.evaluate(()=>document.getElementById('storeScroll').scrollTop);console.log(id,'scroll',y);}

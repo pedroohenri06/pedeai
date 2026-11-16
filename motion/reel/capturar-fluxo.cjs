@@ -6,7 +6,7 @@ const O = process.argv[2];
 fs.mkdirSync(O, {recursive: true});
 (async () => {
   const b = await chromium.launch();
-  const ctx = await b.newContext({viewport: {width: 390, height: 844}, deviceScaleFactor: 3, isMobile: true, hasTouch: true, timezoneId: 'America/Cuiaba'});
+  const ctx = await b.newContext({viewport: {width: 390, height: 790}, deviceScaleFactor: 3, isMobile: true, hasTouch: true, timezoneId: 'America/Cuiaba'});
   // horário fixo de funcionamento (20h30 em MT) para as lojas aparecerem abertas
   await ctx.clock.setFixedTime(new Date('2026-11-14T20:30:00-04:00'));
   await ctx.addInitScript(() => { try { if (!sessionStorage.getItem('cap')) { localStorage.setItem('pedeai-city', 'Nova Xavantina'); sessionStorage.setItem('cap', '1'); } } catch (e) {} });

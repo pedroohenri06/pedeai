@@ -20,15 +20,19 @@ const brl = (v: number, dec = 0) => 'R$ ' + v.toFixed(dec).replace('.', ',').rep
 /* 01 · Gancho: o restaurante faz o lanche — e quanto fica com ele? (filmagem original, sem efeitos) */
 const P1: React.FC = () => {
   const f = useCurrentFrame();
-  const whip = lerp(f, [138, 150], [0, 1], IN);
+  const whip = lerp(f, [168, 180], [0, 1], IN);
+  const full: React.CSSProperties = {position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, objectFit: 'cover', filter: 'contrast(1.06) saturate(1.04)'};
   return (
     <AbsoluteFill style={{background: '#000'}}>
       <AbsoluteFill style={{transform: `translateY(${-whip * 1500}px)`, filter: `blur(${whip * 18}px)`}}>
-        <Sequence durationInFrames={150} layout="none">
-          <OffthreadVideo src={staticFile('motim/original.mp4')} muted style={{position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, objectFit: 'cover', filter: 'contrast(1.06) saturate(1.04)'}} />
-        </Sequence>
+        <AbsoluteFill style={{transform: `scale(${1 + 0.05 * lerp(f, [150, 180], [0, 1], IO)})`, transformOrigin: '560px 990px'}}>
+          <Sequence durationInFrames={156} layout="none">
+            <OffthreadVideo src={staticFile('motim/original.mp4')} muted style={full} />
+          </Sequence>
+          {f >= 154 && <Img src={staticFile('motim/ultimo-quadro.png')} style={full} />}
+        </AbsoluteFill>
         <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,.88) 0%, rgba(0,0,0,.55) 24%, transparent 38%)', opacity: lerp(f, [90, 102], [0, 1])}} />
-        <Headline kicker="Para restaurantes" lines={[{t: 'O lanche é seu.'}, {t: 'E o lucro?', c: HOT}]} at={98} y={230} size={92} />
+        <Headline kicker="Para quem vende no delivery" lines={[{t: 'O produto é seu.'}, {t: 'E o lucro?', c: HOT}]} at={98} y={230} size={92} />
       </AbsoluteFill>
       <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 3], [1, 0])}} />
     </AbsoluteFill>
@@ -36,8 +40,8 @@ const P1: React.FC = () => {
 };
 
 /* 02 · A conta (números e premissas da própria página de planos) */
-const Row: React.FC<{y: number; at: number; label: string; sub: string; value: number; dec?: number; color: string; strike?: number; o?: number}> =
-  ({y, at, label, sub, value, dec = 0, color, strike = 0, o = 1}) => {
+const Row: React.FC<{y: number; at: number; label: string; sub: string; value: number; dec?: number; color: string; strike?: number; o?: number; pre?: string; unit?: string}> =
+  ({y, at, label, sub, value, dec = 0, color, strike = 0, o = 1, pre, unit = 'por ano'}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const k = spring({frame: f - at, fps, config: {damping: 200}, durationInFrames: 16});
@@ -50,9 +54,10 @@ const Row: React.FC<{y: number; at: number; label: string; sub: string; value: n
         <div style={{font: '500 26px DM Sans', color: 'rgba(255,255,255,.62)', marginTop: 6}}>{sub}</div>
       </div>
       <div style={{position: 'relative', textAlign: 'right'}}>
+        {pre && <div style={{font: '600 22px DM Sans', color: 'rgba(255,255,255,.6)'}}>{pre}</div>}
         <div style={{font: '900 62px Montserrat', color: '#fff', letterSpacing: '-0.03em'}}>{brl(n, dec)}</div>
-        <div style={{font: '600 22px DM Sans', color: 'rgba(255,255,255,.6)'}}>por ano</div>
-        {strike > 0 && <div style={{position: 'absolute', left: -10, top: 36, height: 7, width: `${strike * 108}%`, background: HOT, borderRadius: 4, boxShadow: `0 0 18px ${HOT}`, transform: 'rotate(-6deg)'}} />}
+        <div style={{font: '600 22px DM Sans', color: 'rgba(255,255,255,.6)'}}>{unit}</div>
+        {strike > 0 && <div style={{position: 'absolute', left: -10, top: pre ? 62 : 36, height: 7, width: `${strike * 108}%`, background: HOT, borderRadius: 4, boxShadow: `0 0 18px ${HOT}`, transform: 'rotate(-6deg)'}} />}
       </div>
     </div>
   );
@@ -60,26 +65,26 @@ const Row: React.FC<{y: number; at: number; label: string; sub: string; value: n
 const P2: React.FC = () => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
-  const out = lerp(f, [86, 100], [1, 0], IN);
-  const big = spring({frame: f - 98, fps, config: {damping: 15, stiffness: 110}});
-  const save = interpolate(f, [100, 134], [0, 12241], {...cl, easing: Easing.out(Easing.cubic)});
+  const out = lerp(f, [318, 334], [1, 0], IN);
+  const big = spring({frame: f - 336, fps, config: {damping: 15, stiffness: 110}});
+  const save = interpolate(f, [338, 376], [0, 12241], {...cl, easing: Easing.out(Easing.cubic)});
   return (
     <AbsoluteFill>
       <Stage />
       <Dust />
-      <Headline kicker="Faça a conta" lines={[{t: 'Quanto custa vender'}, {t: 'no delivery?', c: HOT}]} at={4} out={86} y={230} size={72} />
-      <div style={{position: 'absolute', left: 74, top: 560, font: '700 36px DM Sans', color: '#ffb3b9', opacity: lerp(f, [14, 26], [0, 1]) * out}}>Vendendo R$ 8.000 por mês:</div>
-      <Row y={640} at={22} label="Aplicativos comuns" sub="Comissão de 12% + mensalidade" value={12720} color="#fff" strike={lerp(f, [68, 78], [0, 1])} o={out} />
-      <Row y={820} at={42} label="PedeAi" sub="Comissão 0% + plano fixo" value={478.8} dec={2} color={HOT} o={out} />
+      <Headline kicker="Faça a conta" lines={[{t: 'Quanto custa vender'}, {t: 'no delivery?', c: HOT}]} at={4} out={318} y={230} size={72} />
+      <div style={{position: 'absolute', left: 74, top: 560, font: '700 36px DM Sans', color: '#ffb3b9', opacity: lerp(f, [24, 36], [0, 1]) * out}}>Vendendo R$ 8.000 por mês:</div>
+      <Row y={640} at={50} label="Aplicativos comuns" sub="Comissão de 12% + mensalidade" value={1060} unit="por mês" color="#fff" strike={lerp(f, [196, 208], [0, 1])} o={out} />
+      <Row y={820} at={222} label="PedeAi" sub="Comissão 0% + plano fixo" value={39.9} dec={2} pre="a partir de" unit="por mês" color={HOT} o={out} />
       {/* economia */}
       <div style={{position: 'absolute', left: 0, right: 0, top: 600, textAlign: 'center', opacity: Math.min(1, big * 1.4), transform: `scale(${interpolate(big, [0, 1], [1.25, 1])})`}}>
         <div style={{font: '700 38px DM Sans', color: '#ffb3b9'}}>Com o PedeAi, você deixa de pagar</div>
         <div style={{font: '900 170px/1.05 Montserrat', letterSpacing: '-0.05em', color: HOT, textShadow: `0 0 70px ${RED}88`, marginTop: 10}}>{brl(save)}</div>
         <div style={{font: '900 70px Montserrat', letterSpacing: '-0.03em', color: '#fff', textTransform: 'uppercase'}}>por ano.</div>
       </div>
-      <Streak y={760} o={lerp(f, [98, 101, 120], [0, 1, 0], Easing.linear)} />
-      <div style={{position: 'absolute', left: 90, right: 90, top: 1060, textAlign: 'center', font: '500 22px/1.4 DM Sans', color: 'rgba(255,255,255,.5)', opacity: lerp(f, [110, 122], [0, 1])}}>
-        Cálculo ilustrativo: comissão de 12% e mensalidade de R$ 100 nos aplicativos comuns; no PedeAi, plano Essencial anual.
+      <Streak y={760} o={lerp(f, [336, 339, 358], [0, 1, 0], Easing.linear)} />
+      <div style={{position: 'absolute', left: 90, right: 90, top: 1060, textAlign: 'center', font: '500 22px/1.4 DM Sans', color: 'rgba(255,255,255,.5)', opacity: lerp(f, [350, 362], [0, 1])}}>
+        Cálculo ilustrativo: R$ 8.000 de vendas por mês, comissão de 12% e mensalidade de R$ 100 nos aplicativos comuns; no PedeAi, plano Essencial anual.
       </div>
     </AbsoluteFill>
   );
@@ -117,29 +122,29 @@ const P4: React.FC<{pos: any}> = ({pos}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const enter = spring({frame: f - 2, fps, config: {damping: 18, stiffness: 60, mass: 1.1}});
-  const taps = [{id: 'maromba', at: 34}, {id: 'tropical', at: 50}, {id: 'old-school', at: 66}];
+  const taps = [{id: 'maromba', at: 40}, {id: 'tropical', at: 62}, {id: 'old-school', at: 84}];
   let src = 'store_menu.png';
   taps.forEach((t) => { if (f >= t.at + 1) src = 'store_menu_' + t.id + '.png'; });
-  const whip = lerp(f, [84, 96], [0, 1], IO);
+  const whip = lerp(f, [120, 132], [0, 1], IO);
   const trail = Math.sin(whip * Math.PI);
-  const push = lerp(f, [100, 178], [1.0, 1.12], IO);
-  const fy = lerp(f, [96, 120], [368, 300], IO);
-  const wa = f > 90;
+  const push = lerp(f, [136, 236], [1.0, 1.12], IO);
+  const fy = lerp(f, [132, 156], [368, 300], IO);
+  const wa = f > 126;
   return (
     <AbsoluteFill>
       <Stage hue={wa ? '#1f9e57' : RED} />
       <Dust tint={wa ? '140,255,190' : '255,120,110'} />
       <Cam s={push} fx={195} fy={fy}>
-        <Phone y={interpolate(enter, [0, 1], [1300, 0])} rx={interpolate(enter, [0, 1], [20, 0])} ry={lerp(f, [84, 96, 178], [0, 8, 3], IO)} rim={wa ? GREEN : RED}
+        <Phone y={interpolate(enter, [0, 1], [1300, 0])} rx={interpolate(enter, [0, 1], [20, 0])} ry={lerp(f, [120, 132, 236], [0, 8, 3], IO)} rim={wa ? GREEN : RED}
           glare={lerp(f, [10, 50], [-0.3, 1.4], IO)} bar={wa ? WA : CREAM} darkBar={wa}>
-          {f < 96 && [0, 1, 2, 3].map((i) => (
+          {f < 132 && [0, 1, 2, 3].map((i) => (
             <div key={i} style={{position: 'absolute', inset: 0, transform: `translateX(${-whip * PW * 1.1 + i * trail * 50}px)`, opacity: i ? 0.2 : 1}}>
               <Screen src={shot(src)} />
             </div>
           ))}
-          {f >= 84 && [0, 1, 2, 3].map((i) => (
+          {f >= 120 && [0, 1, 2, 3].map((i) => (
             <div key={'c' + i} style={{position: 'absolute', inset: 0, transform: `translateX(${(1 - whip) * PW * 1.1 - i * trail * 50}px)`, opacity: i ? 0.2 : 1}}>
-              <Chat start={98} />
+              <Chat start={134} />
             </div>
           ))}
           {taps.map((t) => <Tap key={t.id} x={pos['add_' + t.id].x} y={pos['add_' + t.id].y} at={t.at} />)}
@@ -149,8 +154,8 @@ const P4: React.FC<{pos: any}> = ({pos}) => {
         </Phone>
       </Cam>
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.95) 0%, rgba(10,2,3,.82) 20%, transparent 29%)'}} />
-      <Headline kicker="Como funciona" lines={[{t: 'O cliente escolhe'}, {t: 'no seu cardápio.', c: HOT}]} at={8} out={84} y={230} size={84} />
-      <Headline kicker="Sem comissão no meio" lines={[{t: 'O pedido cai pronto'}, {t: 'no seu WhatsApp.', c: GREEN}]} at={98} y={230} size={80} />
+      <Headline kicker="Como funciona" lines={[{t: 'O cliente escolhe'}, {t: 'no seu cardápio.', c: HOT}]} at={8} out={120} y={230} size={84} />
+      <Headline kicker="Sem comissão no meio" lines={[{t: 'O pedido cai pronto'}, {t: 'no seu WhatsApp.', c: GREEN}]} at={134} y={230} size={80} />
     </AbsoluteFill>
   );
 };
@@ -160,10 +165,10 @@ const P5: React.FC = () => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const rows = [
-    {t: 'Tráfego pago', d: 'Nossos gestores de tráfego enchem a plataforma de clientes.', at: 34},
-    {t: 'Influenciadores regionais', d: 'Campanhas que levam a cidade inteira para o PedeAi.', at: 46},
+    {t: 'Tráfego pago', d: 'Nossos gestores de tráfego enchem a plataforma de clientes.', at: 70},
+    {t: 'Influenciadores regionais', d: 'Campanhas que levam a cidade inteira para o PedeAi.', at: 112},
   ];
-  const stats = [{v: 350, pre: '+', l: 'lojas no PedeAi', at: 64}, {v: 10, pre: '', l: 'cidades do Vale do Araguaia', at: 72}];
+  const stats = [{v: 350, pre: '+', l: 'lojas no PedeAi', at: 160}, {v: 10, pre: '', l: 'cidades do Vale do Araguaia', at: 176}];
   return (
     <AbsoluteFill>
       <Stage />
@@ -204,12 +209,12 @@ const P6: React.FC = () => {
   const {fps} = useVideoConfig();
   const enter = spring({frame: f - 2, fps, config: {damping: 18, stiffness: 60, mass: 1.1}});
   const lift = (i: number) => lerp(f, [30 + i * 5, 58 + i * 5], [0, 1], OUT);
-  const away = lerp(f, [104, 122], [0, 1], IO);
+  const away = lerp(f, [150, 168], [0, 1], IO);
   const fan = [{dx: -300, dy: 40, r: -9, z: 1}, {dx: 300, dy: 40, r: 9, z: 1}, {dx: 0, dy: -60, r: 0, z: 2}]; // Essencial, Premium, Destaque (na frente)
   const order = [0, 2, 1]; // índice do cartão → posição no leque
   const W = 338 * CSS;
   const checks = ['Zero comissão e zero taxa de plataforma', 'Cardápio montado pela nossa equipe, loja no ar no mesmo dia', 'Garantia de 7 dias: não gostou, devolvemos 100%', 'Preço garantido até o fim do plano', 'Premium: só 5 vagas por cidade'];
-  const chip = spring({frame: f - 176, fps, config: {damping: 13, stiffness: 120}});
+  const chip = spring({frame: f - 280, fps, config: {damping: 13, stiffness: 120}});
   return (
     <AbsoluteFill>
       <Stage />
@@ -231,10 +236,10 @@ const P6: React.FC = () => {
         })}
       </AbsoluteFill>
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.95) 0%, rgba(10,2,3,.8) 20%, transparent 30%)'}} />
-      <Headline kicker="Black Friday para parceiros" lines={[{t: 'Planos a partir de'}, {t: 'R$ 39,90/mês.', c: HOT}]} at={16} out={104} y={230} size={86} />
-      <Headline kicker="Oferta de lançamento" lines={[{t: 'Sem comissão.'}, {t: 'Sem risco.', c: HOT}]} at={116} y={230} size={104} />
+      <Headline kicker="Black Friday para parceiros" lines={[{t: 'Planos a partir de'}, {t: 'R$ 39,90/mês.', c: HOT}]} at={16} out={150} y={230} size={86} />
+      <Headline kicker="Oferta de lançamento" lines={[{t: 'Sem comissão.'}, {t: 'Sem risco.', c: HOT}]} at={162} y={230} size={104} />
       {checks.map((c, i) => {
-        const k = spring({frame: f - (126 + i * 9), fps, config: {damping: 14, stiffness: 140}});
+        const k = spring({frame: f - (176 + i * 18), fps, config: {damping: 14, stiffness: 140}});
         return (
           <div key={i} style={{position: 'absolute', left: 84, right: 60, top: 600 + i * 112, display: 'flex', alignItems: 'center', gap: 26, opacity: Math.min(1, k * 1.5), transform: `translateX(${(1 - Math.min(1, k)) * -50}px)`}}>
             <div style={{flex: '0 0 62px', height: 62, borderRadius: 31, background: HOT, display: 'flex', alignItems: 'center', justifyContent: 'center', transform: `scale(${k})`, boxShadow: `0 0 24px ${RED}`}}>
@@ -254,7 +259,7 @@ const P6: React.FC = () => {
 };
 
 /* ================================== MONTAGEM ================================== */
-export const P_SCENES = [150, 180, 120, 180, 150, 210, 180]; // cortes na batida da trilha (15 quadros)
+export const P_SCENES = [180, 450, 180, 240, 255, 360, 180]; // tempo para a narração; cortes na batida da trilha (15 quadros)
 export const P_TOTAL = P_SCENES.reduce((a, b) => a + b, 0);
 const PAT = (i: number) => P_SCENES.slice(0, i).reduce((a, b) => a + b, 0);
 
@@ -272,32 +277,32 @@ export const Parceiros: React.FC<{pos: any}> = ({pos}) => {
       <Sfx at={55} s="farelo" v={0.5} />
       <Sfx at={79} s="pressao" v={0.42} />
       <Sfx at={100} s="impacto" v={0.4} />
-      <Sfx at={138} s="whoosh" v={0.5} />
-      <Sfx at={s(1) + 28} s="adicionado" v={0.4} />
-      <Sfx at={s(1) + 48} s="adicionado" v={0.4} />
-      <Sfx at={s(1) + 68} s="whoosh" v={0.3} />
-      <Sfx at={s(1) + 98} s="impacto" v={0.5} />
+      <Sfx at={168} s="whoosh" v={0.5} />
+      <Sfx at={s(1) + 56} s="adicionado" v={0.4} />
+      <Sfx at={s(1) + 196} s="whoosh" v={0.3} />
+      <Sfx at={s(1) + 228} s="adicionado" v={0.4} />
+      <Sfx at={s(1) + 336} s="impacto" v={0.5} />
       <Sfx at={s(2) + 2} s="whoosh-grave" v={0.4} />
       <Sfx at={s(2) + 4} s="impacto" v={0.55} />
       <Sfx at={s(3) + 2} s="whoosh-grave" v={0.4} />
-      {[34, 50, 66].map((t) => <Sfx key={'a' + t} at={s(3) + t} s="adicionado" v={0.5} />)}
-      <Sfx at={s(3) + 84} s="whoosh" v={0.55} />
-      <Sfx at={s(3) + 98} s="mensagem" v={0.6} />
-      <Sfx at={s(4) + 34} s="whoosh" v={0.3} />
-      <Sfx at={s(4) + 46} s="whoosh" v={0.3} />
-      <Sfx at={s(4) + 64} s="toque" v={0.4} />
-      <Sfx at={s(4) + 72} s="toque" v={0.4} />
+      {[40, 62, 84].map((t) => <Sfx key={'a' + t} at={s(3) + t} s="adicionado" v={0.5} />)}
+      <Sfx at={s(3) + 120} s="whoosh" v={0.55} />
+      <Sfx at={s(3) + 134} s="mensagem" v={0.6} />
+      <Sfx at={s(4) + 70} s="whoosh" v={0.3} />
+      <Sfx at={s(4) + 112} s="whoosh" v={0.3} />
+      <Sfx at={s(4) + 160} s="toque" v={0.4} />
+      <Sfx at={s(4) + 176} s="toque" v={0.4} />
       <Sfx at={s(5) + 2} s="whoosh-grave" v={0.4} />
       <Sfx at={s(5) + 30} s="whoosh" v={0.45} />
-      {[0, 1, 2, 3, 4].map((i) => <Sfx key={'c' + i} at={s(5) + 126 + i * 9} s="adicionado" v={0.4} />)}
-      <Sfx at={s(5) + 176} s="impacto" v={0.4} />
+      {[0, 1, 2, 3, 4].map((i) => <Sfx key={'c' + i} at={s(5) + 176 + i * 18} s="adicionado" v={0.4} />)}
+      <Sfx at={s(5) + 280} s="impacto" v={0.4} />
       {/* encerramento (mesma construção do filme dos clientes) */}
       <Sfx at={s(6) + 6} s="whoosh-grave" v={0.4} />
       <Sfx at={s(6) + 45 - 60} s="subida" v={0.4} />
       <Sfx at={s(6) + 45} s="impacto" v={0.6} />
       <Sfx at={s(6) + 46} s="assinatura" v={0.42} />
       <Sfx at={s(6) + 45 + 84} s="adicionado" v={0.35} />
-      <Audio src={staticFile('sfx/trilha-parceiros.wav')} volume={0.55} />
+      <Audio src={staticFile('sfx/trilha-parceiros.wav')} volume={0.4} />
     </AbsoluteFill>
   );
 };

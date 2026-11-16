@@ -1,5 +1,5 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Img, OffthreadVideo, Sequence, staticFile, useCurrentFrame, useVideoConfig, interpolate, spring, Easing} from 'remotion';
+import {AbsoluteFill, Audio, Img, Sequence, staticFile, useCurrentFrame, useVideoConfig, interpolate, spring, Easing} from 'remotion';
 import {
   RED, HOT, GREEN, CSS, PW, CREAM, WA, PCX, PCY, cl, OUT, IO, IN, shot, lerp, fontFaces,
   Sfx, Grain, Dust, Stage, Headline, Phone, Screen, Cam, Tap, Streak, Chat, SpeedLines, S7,
@@ -24,23 +24,52 @@ export const P_SCENES = START.slice(1).map((v, i) => v - START[i]);
 export const P_TOTAL = T.end;
 const r = (mark: number, i: number) => mark - START[i];    // marca relativa à cena i
 
-/* 01 · Gancho: quanto do seu delivery fica com os aplicativos? (filmagem original, sem efeitos) */
+/* 01 · Gancho: a sua venda (anel completo) e a fatia de 12% que sai com a comissão dos aplicativos.
+   Vale para qualquer negócio de comida: nenhum produto específico na tela. */
 const P1: React.FC = () => {
   const f = useCurrentFrame();
+  const {fps} = useVideoConfig();
   const D = P_SCENES[0];
   const whip = lerp(f, [D - 10, D], [0, 1], IN);
-  const full: React.CSSProperties = {position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, objectFit: 'cover', filter: 'contrast(1.06) saturate(1.04)'};
+  const R = 290, SW_ = 92, CX = 540, CY = 1060, C = 2 * Math.PI * R;
+  const draw = lerp(f, [8, 44], [0, 1], Easing.bezier(0.65, 0, 0.35, 1));
+  const cut = spring({frame: f - 74, fps, config: {damping: 14, stiffness: 90}});   // a fatia se solta na pergunta
+  const keep = 0.88;
+  const mid = (keep + 1) / 2 * 2 * Math.PI - Math.PI / 2;                              // ângulo do meio da fatia (topo = -90°)
+  const out = cut * 150;
+  const lab = spring({frame: f - 84, fps, config: {damping: 200}, durationInFrames: 14});
   return (
-    <AbsoluteFill style={{background: '#000'}}>
+    <AbsoluteFill>
+      <Stage beam={lerp(f, [0, 20], [0.3, 1])} />
+      <Dust />
       <AbsoluteFill style={{transform: `translateY(${-whip * 1500}px)`, filter: `blur(${whip * 18}px)`}}>
-        <Sequence durationInFrames={156} layout="none">
-          <OffthreadVideo src={staticFile('motim/original.mp4')} muted style={full} />
-        </Sequence>
-        {f >= 154 && <Img src={staticFile('motim/ultimo-quadro.png')} style={full} />}
-        <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,.88) 0%, rgba(0,0,0,.55) 26%, transparent 40%)', opacity: lerp(f, [6, 18], [0, 1])}} />
-        <Headline kicker="Para quem vende no delivery" lines={[{t: 'Quanto do seu delivery'}, {t: 'fica com os aplicativos?', c: HOT}]} at={12} y={220} size={64} />
+        <svg width="1080" height="1920" style={{position: 'absolute', inset: 0}}>
+          <defs>
+            <filter id="glow"><feGaussianBlur stdDeviation="14" /></filter>
+          </defs>
+          {/* sua venda: 88% que deveria ficar com você */}
+          <circle cx={CX} cy={CY} r={R} fill="none" stroke="rgba(255,255,255,.08)" strokeWidth={SW_} />
+          <circle cx={CX} cy={CY} r={R} fill="none" stroke="#f9f5ef" strokeWidth={SW_} strokeDasharray={`${C * keep * draw} ${C}`} transform={`rotate(-90 ${CX} ${CY})`} />
+          {/* a fatia da comissão: desenha junto e depois sai */}
+          <g transform={`translate(${Math.cos(mid) * out} ${Math.sin(mid) * out})`} opacity={1 - cut * 0.15}>
+            <circle cx={CX} cy={CY} r={R} fill="none" stroke={HOT} strokeWidth={SW_} filter="url(#glow)" opacity={0.6 * Math.min(1, cut * 2)} strokeDasharray={`${C * (1 - keep) * (draw > 0.98 ? 1 : 0)} ${C}`} transform={`rotate(${-90 + 360 * keep} ${CX} ${CY})`} />
+            <circle cx={CX} cy={CY} r={R} fill="none" stroke={HOT} strokeWidth={SW_} strokeDasharray={`${C * (1 - keep) * lerp(f, [40, 50], [0, 1])} ${C}`} transform={`rotate(${-90 + 360 * keep} ${CX} ${CY})`} />
+          </g>
+        </svg>
+        {/* centro do anel */}
+        <div style={{position: 'absolute', left: CX - 230, width: 460, top: CY - 90, textAlign: 'center', opacity: lerp(f, [20, 34], [0, 1])}}>
+          <div style={{font: '700 30px DM Sans', letterSpacing: '0.3em', color: '#ffb3b9', textTransform: 'uppercase', paddingLeft: '0.3em'}}>Sua venda</div>
+          <div style={{font: '900 120px/1.05 Montserrat', letterSpacing: '-0.05em', color: '#fff'}}>{Math.round(interpolate(cut, [0, 1], [100, 88]))}%</div>
+          <div style={{font: '600 26px DM Sans', color: 'rgba(255,255,255,.6)', opacity: lab}}>é o que sobra para você</div>
+        </div>
+        {/* etiqueta da fatia */}
+        <div style={{position: 'absolute', left: CX + Math.cos(mid) * (R + out + 40) - 40, top: CY + Math.sin(mid) * (R + out + 40) - 150, opacity: lab, transform: `translateY(${(1 - lab) * 20}px)`}}>
+          <div style={{font: '900 72px/1 Montserrat', letterSpacing: '-0.04em', color: HOT, textShadow: `0 0 40px ${RED}`}}>−12%</div>
+          <div style={{font: '700 28px DM Sans', color: '#fff'}}>comissão dos aplicativos</div>
+        </div>
+        <Headline kicker="Para quem vende no delivery" lines={[{t: 'Quanto do seu delivery'}, {t: 'fica com os aplicativos?', c: HOT}]} at={10} y={230} size={64} />
       </AbsoluteFill>
-      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 3], [1, 0])}} />
+      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 4], [1, 0])}} />
     </AbsoluteFill>
   );
 };
@@ -302,10 +331,10 @@ export const Parceiros: React.FC<{pos: any}> = ({pos}) => {
       {/* narração editada + trilha com ducking (−9 dB nas pausas, −19 dB sob a voz) + efeitos nos eventos da imagem */}
       <Audio src={staticFile('voz/narracao-parceiros.wav')} volume={1} />
       <Audio src={staticFile('sfx/trilha-parceiros.wav')} volume={(fr) => dbToGain(T.duck[Math.min(T.duck.length - 1, Math.max(0, fr))] + 3)} />
-      <Sfx at={0} s="impacto" v={0.3} />
-      {[7, 11, 14, 17, 22, 28, 31, 35].map((t) => <Sfx key={'m' + t} at={t} s="toque" v={0.1} />)}
-      <Sfx at={55} s="farelo" v={0.3} />
-      <Sfx at={79} s="pressao" v={0.3} />
+      <Sfx at={0} s="impacto" v={0.35} />
+      <Sfx at={8} s="whoosh" v={0.25} />
+      <Sfx at={74} s="whoosh-grave" v={0.35} />
+      <Sfx at={76} s="impacto" v={0.3} />
       <Sfx at={s(1) - 10} s="whoosh" v={0.35} />
       <Sfx at={T.centenas - 6} s="adicionado" v={0.3} />
       <Sfx at={T.noPedeai + 8} s="whoosh" v={0.22} />

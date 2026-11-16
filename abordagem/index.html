@@ -39,7 +39,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .acts .fup{background:#fff7e6;border-color:#f0c060;color:#7a4b00;flex:1;justify-content:center}.acts .fup svg{width:18px;height:18px}
 .peak{background:#fff1d6;color:#7a4b00;border-radius:12px;padding:10px 14px;font-weight:600;font-size:13.5px;margin-bottom:12px}
 .tags{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.tag.nm-tag{background:#fde7e9;color:#b3121f}.tag.ok-tag{background:#e2f5ea;color:#1f8a4c}
-.nomenu{margin-top:8px;padding:8px 12px;border-radius:10px;background:#fff4f4;color:#7d1019;font-size:13px}.nomenu a{color:#b3121f;font-weight:700}
+.nomenu{margin-top:8px;padding:8px 12px;border-radius:10px;background:#fff4f4;color:#7d1019;font-size:13px}.nomenu.filme{background:#fff7e0;color:#6b4a00}.nomenu a{color:#b3121f;font-weight:700}
 .acts .copy{flex:1;justify-content:center;background:#f7f2ee}
 .script{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
 .script summary{font-weight:800;font-size:14px;cursor:pointer;color:var(--red);padding:8px 0;list-style:none}.script summary::-webkit-details-marker{display:none}.script summary::before{content:'▸ '}.script[open] summary::before{content:'▾ '}
@@ -129,6 +129,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
       return '<div class="card st-' + x + '"><div class="top"><div><div class="nm">' + esc(s.n) + '</div><div class="meta">' + esc([s.k, s.b].filter(Boolean).join(' · ')) + (s.w ? '' : ' · sem WhatsApp cadastrado') + '</div></div>' +
         '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : s.o ? '<span class="tag ok-tag">✓ Carrinho ok</span>' : '<span class="tag nm-tag">Sem WhatsApp no carrinho</span>') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
         (s.m && !s.o && s.w ? '<div class="nomenu"><b>Sem WhatsApp no carrinho:</b> o pedido de teste não envia até o dono confirmar o número. A apresentação já pede a confirmação; quando o dono confirmar, avise o Claude para liberar.</div>' : '') +
+        (FILME[s.id] ? '<div class="nomenu filme"><b>Loja do filme de lançamento:</b> ofereça <b>1 mês grátis</b> em qualquer plano (mensagens em "Condição especial", no script)' + (FILME[s.id].aut ? '.' : '. <b>Peça a autorização do vídeo antes de publicar.</b>') + '</div>' : '') +
         (s.m ? '' : '<div class="nomenu"><b>Sem cardápio na plataforma.</b> Na apresentação, mostre um exemplo' + (s.ex ? ': <a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.ex.id + '">' + esc(s.ex.n) + (s.ex.c !== s.c ? ' (' + esc(s.ex.c) + ')' : '') + '</a>' : '') + '.</div>') +
         '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' +
         followBtns(s, x, rec) + (s.w ? '<details class="script" data-script="' + s.id + '"><summary>Script da conversa (já com nome e links)</summary><div class="sc-body"></div></details>' : '') +
@@ -146,6 +147,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     destaque: { nome: 'Destaque', anual: 'https://pay.finaliza.shop/pl/e207b309b9', bf: 'https://pay.finaliza.shop/pl/7e291424ba', preco: '54,90', precoBf: '47,90' },
     premium: { nome: 'Premium', anual: 'https://pay.finaliza.shop/pl/3619cd3240', bf: 'https://pay.finaliza.shop/pl/d891342cf4', preco: '79,90', precoBf: '69,90' }
   };
+  // Lojas que aparecem no filme de lançamento: 1 mês grátis em qualquer plano (a Le Monde ainda precisa autorizar).
+  var FILME = { 'dantes-barra-do-garcas': { aut: true }, 'le-monde-burguer-hamburgueria-barra-do-garcas': { aut: false } };
   function bfOn() { return Date.now() < BF_FIM; }
   function lojaLink(s) { return s.m ? 'Veja como a loja ' + s.n + ' aparece: ' + SITE + '#/loja/' + s.id : (s.ex ? 'Veja como fica um restaurante na plataforma: ' + SITE + '#/loja/' + s.ex.id : ''); }
   function script(s) {
@@ -156,7 +159,12 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
       return 'Excelente escolha! Para ativar o plano ' + PAY[k].nome + ' anual' + (bf ? ' com o preço de Black Friday' : '') + ', é só concluir por aqui: ' + (bf ? PAY[k].bf : PAY[k].anual) + N + N +
         'Assim que o pagamento for confirmado, você nos envia as fotos dos pratos e o cardápio, e a nossa equipe deixa a loja ' + s.n + ' pronta no mesmo dia. Qualquer dúvida, estou à disposição.';
     };
+    var fm = FILME[s.id], mes = 'Como forma de agradecimento por fazerem parte da campanha, preparamos uma condição especial: independente do plano que vocês assinarem, vocês ganham *um mês grátis*. Os planos começam em R$ 39,90 e não têm fidelidade.';
     return [
+      fm ? { g: 'Condição especial · loja do filme', t: fm.aut ? 'Abertura · visibilidade nos anúncios' : 'Abertura · pedir autorização do vídeo', m: fm.aut
+        ? 'Olá, tudo bem? Aqui é do PedeAi Delivery. A ' + s.n + ' faz parte do filme de lançamento do PedeAi, e vamos impulsionar esse vídeo com anúncios pagos em ' + s.c + ' e em todo o Vale do Araguaia. Isso coloca a marca de vocês na frente de milhares de pessoas da região, todos os dias.'
+        : 'Olá, tudo bem? Aqui é do PedeAi Delivery. A ' + s.n + ' aparece no filme de lançamento do PedeAi, ao lado da Dantes, na tela das hamburguerias de ' + s.c + '. Vamos impulsionar esse vídeo com anúncios pagos em toda a região, o que leva a marca de vocês para milhares de pessoas. Antes de publicar, queremos a autorização de vocês. Posso te mandar o vídeo?' } : null,
+      fm ? { g: 'Condição especial · loja do filme', t: 'Condição: 1 mês grátis em qualquer plano', m: mes } : null,
       { g: 'Se for o responsável', t: 'Apresentação + teste do cardápio', m: intro(s) },
       s.m && !s.o ? { g: 'Se for o responsável', t: 'Número confirmado: pedido liberado (avise o Claude antes)', m: 'Obrigado pela confirmação! O envio de pedidos da loja ' + s.n + ' está liberado.\n\nFaça o teste como cliente: ' + SITE + '#/loja/' + s.id + '\nEscolha os itens, complete as 3 etapas e envie. O pedido chega pronto aqui no WhatsApp da loja.\n\nDepois me conta o que achou!' } : null,
       { g: 'Se for o responsável', t: 'Depois do teste: como vamos levar clientes', m: 'Agora imagina isso acontecendo com os seus clientes todos os dias. É assim que vamos levar pedidos até a loja ' + s.n + ':\n\n• Um time de gestores de tráfego rodando campanhas pagas intensas em ' + s.c + ' e nas 10 cidades do Vale do Araguaia, levando o público direto para a plataforma\n• Campanhas com influenciadores locais divulgando o PedeAi para a cidade inteira\n• Cada cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp: sem comissão, 100% da venda é sua\n• Nossa equipe monta e atualiza o seu cardápio; você só envia as fotos\n\nEnquanto os aplicativos comuns ficam com uma fatia de cada pedido, aqui você paga um plano fixo que começa em R$ 39,90 por mês.\n\nPosso te mostrar as condições de lançamento?' },

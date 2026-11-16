@@ -818,14 +818,14 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       {scenes.map((el, i) => <Sequence key={i} from={AT(i)} durationInFrames={SCENES[i]} premountFor={15}>{el}</Sequence>)}
       <Grain />
       {/* desenho de som */}
-      <Sfx at={0} s="impacto" v={0.6} />
+      <Sfx at={0} s="impacto" v={0.5} />
       {[0, 4, 8, 12, 16].map((t) => <Sfx key={'m' + t} at={t} s="toque" v={0.22} />)}
       <Sfx at={20} s="whoosh" v={0.25} />
       <Sfx at={40} s="farelo" v={0.55} />
       <Sfx at={76} s="pressao" v={0.7} />
       <Sfx at={105} s="whoosh" v={0.2} />
-      <Sfx at={128} s="whoosh-grave" v={0.55} />
-      <Sfx at={150} s="impacto" v={0.75} />
+      <Sfx at={128} s="whoosh-grave" v={0.35} />
+      <Sfx at={150} s="impacto" v={0.45} />
       <Sfx at={198} s="whoosh" v={0.55} />
       <Sfx at={s(1) + 2} s="whoosh-grave" v={0.45} />
       {[44, 104, 170, 208].map((t) => <Sfx key={'t' + t} at={s(1) + t} s="toque" v={0.6} />)}

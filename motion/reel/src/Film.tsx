@@ -619,7 +619,8 @@ export const SpeedLines: React.FC<{o: number}> = ({o}) => {
     </AbsoluteFill>
   );
 };
-export const S7: React.FC<{variant: 'cliente' | 'loja' | 'parceiro'; screen?: React.ReactNode}> = ({variant, screen}) => {
+export const S7: React.FC<{variant: 'cliente' | 'loja' | 'parceiro'; screen?: React.ReactNode; adiant?: number}> = ({variant, screen, adiant = 0}) => {
+  const ad = adiant; // antecipa a copy (quadros) para casar com a narração
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const L = 45;                       // impacto da marca (cai na batida da trilha)
@@ -680,7 +681,7 @@ export const S7: React.FC<{variant: 'cliente' | 'loja' | 'parceiro'; screen?: Re
       <Streak y={LY} o={lerp(f, [L - 1, L + 2, L + 24], [0, 1, 0], Easing.linear)} />
       {/* mensagem */}
       {(() => {
-        const t1 = reveal(L + 44);
+        const t1 = reveal(L + 44 - ad);
         return (
           <div style={{position: 'absolute', left: 0, right: 0, top: LY + 190, textAlign: 'center', overflow: 'hidden', paddingBottom: 8}}>
             <div style={{font: '900 58px/1 Montserrat', letterSpacing: '-0.035em', color: '#fff', textTransform: 'uppercase', transform: `translateY(${(1 - t1) * 110}%)`}}>
@@ -691,26 +692,26 @@ export const S7: React.FC<{variant: 'cliente' | 'loja' | 'parceiro'; screen?: Re
       })()}
       {/* bloco de destaque: data de estreia (cliente) ou "sem comissão" (restaurante) */}
       <div style={{position: 'absolute', left: 0, right: 0, top: LY + 286, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
-        <div style={{width: 120 * lerp(f, [L + 52, L + 64], [0, 1]), height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`, marginBottom: 26}} />
-        <div style={{font: '700 26px DM Sans', letterSpacing: '0.42em', color: '#ff8f97', textTransform: 'uppercase', opacity: lerp(f, [L + 56, L + 66], [0, 1]), paddingLeft: '0.42em'}}>
+        <div style={{width: 120 * lerp(f, [L + 52 - ad, L + 64 - ad], [0, 1]), height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`, marginBottom: 26}} />
+        <div style={{font: '700 26px DM Sans', letterSpacing: '0.42em', color: '#ff8f97', textTransform: 'uppercase', opacity: lerp(f, [L + 56 - ad, L + 66 - ad], [0, 1]), paddingLeft: '0.42em'}}>
           {parc ? 'Planos a partir de' : loja ? 'Pedido pronto no seu WhatsApp' : 'Estreia'}
         </div>
         <div style={{display: 'flex', overflow: 'hidden', marginTop: 6}}>
           {(parc ? 'R$ 39,90' : loja ? 'SEM COMISSÃO.' : '25/11').split('').map((ch, i) => {
-            const k = reveal(L + 60 + i * 2);
+            const k = reveal(L + 60 - ad + i * 2);
             return <span key={i} style={{display: 'inline-block', font: `900 ${parc ? 170 : loja ? 100 : 196}px/1.02 Montserrat`, letterSpacing: '-0.045em', color: (i === 2 && !loja && !parc) || (parc && i < 2) ? HOT : '#fff', transform: `translateY(${(1 - k) * 105}%)`, whiteSpace: 'pre'}}>{ch}</span>;
           })}
         </div>
         {!loja && (
-          <div style={{font: '800 42px Montserrat', letterSpacing: '-0.01em', color: '#fff', textTransform: 'uppercase', opacity: lerp(f, [L + 72, L + 84], [0, 1]), transform: `translateY(${(1 - lerp(f, [L + 72, L + 84], [0, 1])) * 18}px)`}}>
+          <div style={{font: '800 42px Montserrat', letterSpacing: '-0.01em', color: '#fff', textTransform: 'uppercase', opacity: lerp(f, [L + 72 - ad, L + 84 - ad], [0, 1]), transform: `translateY(${(1 - lerp(f, [L + 72 - ad, L + 84 - ad], [0, 1])) * 18}px)`}}>
             {parc ? 'por mês · Black Friday até 30/11.' : 'No Vale do Araguaia.'}
           </div>
         )}
       </div>
       {/* endereço */}
       {(() => {
-        const k = spring({frame: f - (L + 84), fps, config: {damping: 14, stiffness: 120}});
-        const sh = lerp(f, [L + 104, L + 124], [-0.4, 1.4], IO);
+        const k = spring({frame: f - (L + 84 - ad), fps, config: {damping: 14, stiffness: 120}});
+        const sh = lerp(f, [L + 104 - ad, L + 124 - ad], [-0.4, 1.4], IO);
         return (
           <div style={{position: 'absolute', left: 0, right: 0, top: LY + (loja ? 590 : 660), display: 'flex', justifyContent: 'center', opacity: Math.min(1, k * 1.5)}}>
             <div style={{position: 'relative', overflow: 'hidden', padding: '18px 44px', borderRadius: 99, background: '#fff', font: '800 40px Montserrat', letterSpacing: '-0.02em', color: RED, transform: `scale(${interpolate(k, [0, 1], [0.8, 1])})`, boxShadow: `0 20px 60px -10px ${RED}aa`}}>

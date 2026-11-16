@@ -245,76 +245,132 @@ const Streak: React.FC<{y: number; o: number}> = ({y, o}) => o <= 0 ? null : (
 
 /* ================================== CENAS ================================== */
 
-/* 01 · Abertura gastronômica com as fotos autorizadas (public/ref).
-   Montagem macro na batida → queijo esticando (as metades se afastam) → bacon caindo →
-   a câmera desce acompanhando o fio de molho → revelação do lanche na luz vermelha, com a manchete. */
-const ref = (n: string) => staticFile('ref/' + n + '.jpg');
-// Foto em tela cheia com movimento de câmera próprio (push, deriva, foco) e saída em "zoom-through".
-const Shot: React.FC<{src: string; from: number; dur: number; s0?: number; s1?: number; x0?: number; x1?: number; y0?: number; y1?: number; focus?: number; pos?: string; sweep?: boolean; children?: React.ReactNode}> =
-  ({src, from, dur, s0 = 1.0, s1 = 1.1, x0 = 0, x1 = 0, y0 = 0, y1 = 0, focus = 8, pos = '50% 50%', sweep = false, children}) => {
-  const f = useCurrentFrame();
-  if (f < from || f >= from + dur) return null;
-  const l = f - from;
-  const k = lerp(l, [0, dur], [0, 1], Easing.bezier(0.25, 0.1, 0.25, 1));
-  const out = lerp(l, [dur - 3, dur], [0, 1], IN); // zoom-through para o próximo corte
-  const sc = s0 + (s1 - s0) * k + out * 0.12;
-  const blur = lerp(l, [0, 5], [focus, 0], OUT) + out * 10;
-  const sw = lerp(l, [2, dur - 2], [-0.3, 1.3], IO);
+/* 01 · Abertura: a montagem do lanche (filmagem autorizada, public/motim — 132 quadros a 25 qps).
+   Cada quadro do filme escolhe o instante exato da filmagem (remapeamento de tempo): o stop motion é
+   reordenado como montagem (molho → folhas → carne → carne dupla), a espátula pousa as carnes, a cebola
+   crispy cai em câmera lenta com farelos em primeiro plano, a mão pressiona o pão e sai. Então a câmera
+   mergulha na cúpula do pão; o dourado vira o vermelho do PedeAi e "BATEU A FOME?" nasce no campo
+   vermelho com o próprio hambúrguer dentro das letras, encolhe até a posição da manchete e assume as cores
+   da marca. */
+const mo = (i: number) => staticFile('motim/' + String(Math.max(1, Math.min(132, i))).padStart(3, '0') + '.jpg');
+// tempo da filmagem (em quadros de origem, fracionário) para cada quadro do filme
+const srcAt = (f: number) => {
+  const stop = [15, 13, 10, 7, 30];                       // stop motion reordenado, 4 quadros cada
+  if (f < 20) return stop[Math.floor(f / 4)];
+  if (f < 40) return interpolate(f, [20, 40], [32, 46]);  // espátula
+  if (f < 75) return interpolate(f, [40, 75], [47, 66], {easing: Easing.bezier(0.3, 0, 0.6, 1)}); // cebola caindo, desacelerando
+  if (f < 105) return interpolate(f, [75, 105], [67, 100], {easing: Easing.bezier(0.2, 0.6, 0.4, 1)}); // mão pressiona: rápido e assenta
+  if (f < 117) return interpolate(f, [105, 117], [112, 121], {easing: Easing.bezier(0.5, 0, 0.8, 0.6)}); // mão sai
+  return Math.min(131, interpolate(f, [117, 135], [122, 131]));
+};
+// quadro da filmagem com mistura do quadro seguinte (desfoque de movimento entre quadros)
+const Footage: React.FC<{t: number; blend?: boolean}> = ({t, blend = true}) => {
+  const a = Math.floor(t), k = t - a;
+  const st: React.CSSProperties = {position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, objectFit: 'cover', filter: 'contrast(1.12) saturate(1.06) brightness(.97)'};
   return (
-    <AbsoluteFill style={{overflow: 'hidden'}}>
-      <AbsoluteFill style={{transform: `translate(${x0 + (x1 - x0) * k}px, ${y0 + (y1 - y0) * k}px) scale(${sc})`, filter: `blur(${blur}px)`}}>
-        {children || <Img src={ref(src)} style={{width: 1080, height: 1920, objectFit: 'cover', objectPosition: pos, filter: 'contrast(1.08) saturate(1.08)'}} />}
-        {sweep && <AbsoluteFill style={{background: `linear-gradient(115deg, transparent ${sw * 100 - 18}%, rgba(255,220,180,.22) ${sw * 100}%, transparent ${sw * 100 + 18}%)`, mixBlendMode: 'screen'}} />}
-      </AbsoluteFill>
-    </AbsoluteFill>
+    <>
+      <Img src={mo(a)} style={st} />
+      {blend && k > 0.02 && <Img src={mo(a + 1)} style={{...st, opacity: k}} />}
+    </>
   );
 };
-// Queijo esticando: as metades se afastam e a faixa central (os fios) estica junto.
-const Pull: React.FC<{d: number}> = ({d}) => {
-  const W = 1080, a = 0.38, b = 0.62; // faixa dos fios de queijo
-  const mid = (b - a) * W, k = (mid + 2 * d) / mid, cx = ((a + b) / 2) * 100;
-  const img = <Img src={ref('queijo-esticando')} style={{position: 'absolute', inset: 0, width: 1080, height: 1920, objectFit: 'cover'}} />;
+// farelos em primeiro plano durante a queda da cebola (profundidade, gravidade, desfoque de movimento)
+const Crumbs: React.FC<{from: number; to: number}> = ({from, to}) => {
+  const f = useCurrentFrame();
+  if (f < from || f > to + 20) return null;
   return (
-    <AbsoluteFill>
-      <AbsoluteFill style={{clipPath: `inset(0 ${(1 - b) * 100 - 0.2}% 0 ${a * 100 - 0.2}%)`, transform: `scaleX(${k})`, transformOrigin: `${cx}% 50%`}}>{img}</AbsoluteFill>
-      <AbsoluteFill style={{clipPath: `inset(0 ${(1 - a) * 100}% 0 0)`, transform: `translateX(${-d}px)`}}>{img}</AbsoluteFill>
-      <AbsoluteFill style={{clipPath: `inset(0 0 0 ${b * 100}%)`, transform: `translateX(${d}px)`}}>{img}</AbsoluteFill>
+    <AbsoluteFill style={{pointerEvents: 'none'}}>
+      {new Array(16).fill(0).map((_, i) => {
+        const d = 0.6 + random('cd' + i) * 1.6;           // profundidade: >1 = mais perto da câmera
+        const t0 = from + random('ct' + i) * (to - from);
+        const tt = (f - t0) / 30;
+        if (tt < 0) return null;
+        const y = -60 + 0.5 * 2600 * tt * tt * d * 0.55 + 300 * tt;
+        if (y > 2000) return null;
+        const x = 380 + random('cx' + i) * 380 + Math.sin(tt * 3 + i) * 12 * d;
+        const sz = (5 + random('cs' + i) * 9) * d;
+        const vel = (2600 * tt * d * 0.55 + 300) / 30;
+        return <div key={i} style={{position: 'absolute', left: x, top: y, width: sz, height: sz + Math.min(40, vel * 0.5), borderRadius: sz,
+          background: 'linear-gradient(180deg, rgba(196,120,60,0), #c97a3c 60%, #8a4a22)', opacity: 0.85, filter: `blur(${d > 1.4 ? 4 : d < 0.9 ? 1.5 : 0.6}px)`}} />;
+      })}
     </AbsoluteFill>
   );
 };
 const S1: React.FC = () => {
   const f = useCurrentFrame();
-  const H = 150; // revelação do lanche
+  const {fps} = useVideoConfig();
+  const H = 150;                                      // impacto: a tela vira vermelho
+  const t = srcAt(f);
+  // câmera digital: cada trecho com seu movimento, sempre com curva
+  const cam = (() => {
+    if (f < 20) return {s: interpolate(f, [0, 20], [1.16, 1.1]), x: 0, y: 40};
+    if (f < 40) return {s: interpolate(f, [20, 40], [1.12, 1.18], {easing: OUT}), x: interpolate(f, [20, 40], [-30, 10]), y: 60};
+    if (f < 75) return {s: interpolate(f, [40, 75], [1.3, 1.22], {easing: OUT}), x: 0, y: interpolate(f, [40, 75], [260, 80], {easing: IO})};
+    if (f < 105) return {s: interpolate(f, [75, 105], [1.08, 1.16], {easing: OUT}), x: 0, y: interpolate(f, [75, 105], [-30, 10], {easing: OUT})};
+    if (f < 125) return {s: interpolate(f, [105, 125], [1.16, 1.2]), x: 0, y: 10};
+    // mergulho na cúpula do pão, acelerando
+    const k = interpolate(f, [125, H], [0, 1], {...cl, easing: Easing.bezier(0.6, 0, 0.9, 0.4)});
+    return {s: 1.2 + k * 5.2, x: 0, y: 10 - k * 40};
+  })();
+  const FX = 540, FY = 700;                           // centro da cúpula do pão no quadro
+  // impacto da mão no pão
+  const press = lerp(f, [77, 80, 90], [0, 1, 0], Easing.linear);
+  // virada de cor: dourado do pão → vermelho PedeAi
+  const toRed = lerp(f, [133, H], [0, 1], Easing.inOut(Easing.cubic));
+  const redOut = lerp(f, [178, 192], [1, 0], Easing.inOut(Easing.cubic));
+  const showRed = f >= 133 ? (f < 178 ? toRed : redOut) : 0;
+  // texto: nasce enorme com o hambúrguer dentro das letras e assenta na posição da manchete
+  const tk = spring({frame: f - (H + 2), fps, config: {damping: 15, stiffness: 95, mass: 0.9}});
+  const fill = lerp(f, [176, 190], [0, 1], Easing.inOut(Easing.cubic));   // imagem → cores da marca
   const whip = lerp(f, [198, 210], [0, 1], IN);
-  const reveal = lerp(f, [H, H + 14], [0, 1], OUT);
+  const line = (txt: string, red: boolean, i: number) => {
+    const sp = spring({frame: f - (H + 2 + i * 3), fps, config: {damping: 200, mass: 0.6}, durationInFrames: 14});
+    const base: React.CSSProperties = {font: '900 132px/0.94 Montserrat', letterSpacing: '-0.045em', textTransform: 'uppercase', display: 'block', transform: `translateY(${(1 - sp) * 60}%)`};
+    return (
+      <div key={i} style={{position: 'relative', paddingBottom: 6}}>
+        {/* letras preenchidas com o hambúrguer */}
+        <span style={{...base, backgroundImage: `url(${mo(131)})`, backgroundSize: '520px 924px', backgroundPosition: `${-60 - i * 40}px ${-420 - i * 120}px`, WebkitBackgroundClip: 'text', backgroundClip: 'text', color: 'transparent', opacity: 1 - fill, filter: 'contrast(1.25) saturate(1.2) brightness(1.15)'}}>{txt}</span>
+        {/* letras nas cores da marca */}
+        <span style={{...base, position: 'absolute', left: 0, top: 0, color: red ? HOT : '#fff', opacity: fill, textShadow: red ? `0 0 50px ${HOT}66` : '0 10px 40px rgba(0,0,0,.6)'}}>{txt}</span>
+      </div>
+    );
+  };
   return (
     <AbsoluteFill style={{background: '#000'}}>
+      <Stage beam={lerp(f, [176, 192], [0, 1])} floor={lerp(f, [176, 192], [0, 0.8])} />
       <AbsoluteFill style={{transform: `translateY(${-whip * 1500}px)`, filter: `blur(${whip * 18}px)`}}>
-        {/* montagem macro: cada corte numa batida, cada foto com direção de movimento própria */}
-        <Shot src="macro-bacon" from={0} dur={15} s0={1.18} s1={1.06} focus={14} sweep />
-        <Shot src="macro-molho-laranja" from={15} dur={15} s0={1.0} s1={1.08} x0={30} x1={-20} />
-        <Shot src="macro-bacon-molho" from={30} dur={15} s0={1.05} s1={1.14} y0={20} y1={-30} />
-        <Shot src="triplo" from={45} dur={15} s0={1.12} s1={1.02} x0={-30} x1={10} pos="35% 50%" sweep />
-        {/* queijo esticando: as duas metades se afastam devagar e os fios acompanham */}
-        <Shot src="queijo-esticando" from={60} dur={30} s0={1.12} s1={1.18} focus={4}>
-          <Pull d={lerp(f, [60, 90], [0, 46], Easing.bezier(0.3, 0, 0.2, 1))} />
-        </Shot>
-        <Shot src="bacon-caindo" from={90} dur={15} s0={1.0} s1={1.08} y0={-40} y1={10} focus={6} />
-        {/* molho: a câmera desce acompanhando o fio até o lanche */}
-        <Shot src="molho-caindo" from={105} dur={30} s0={1.32} s1={1.04} y0={300} y1={-30} focus={4} sweep />
-        <Shot src="fundo-vermelho" from={135} dur={15} s0={1.16} s1={1.05} focus={10} />
-        {/* revelação: luz vermelha da própria foto encontra a luz da marca */}
-        <Shot src="heroi-luva" from={H} dur={60} s0={1.14} s1={1.02} y0={60} y1={0} focus={12} />
-        {f >= H && <AbsoluteFill style={{background: `radial-gradient(60% 40% at 30% 62%, ${RED}55, transparent 70%)`, mixBlendMode: 'screen', opacity: reveal * (0.7 + 0.3 * Math.sin(f / 7))}} />}
-        {/* faixa escura para a manchete */}
-        {f >= H && <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,.85) 0%, rgba(0,0,0,.5) 22%, transparent 36%)', opacity: reveal}} />}
+        {/* filmagem */}
+        {f < 178 && (
+          <AbsoluteFill style={{opacity: f < 176 ? 1 : 0}}>
+            <AbsoluteFill style={{transform: `translate(${cam.x}px, ${cam.y}px) scale(${cam.s})`, transformOrigin: `${FX}px ${FY}px`, filter: `blur(${lerp(f, [140, H], [0, 10], IN)}px)`}}>
+              <Footage t={t} blend={f >= 20} />
+            </AbsoluteFill>
+            {/* luz vermelha de recorte nas bordas + vinheta */}
+            <AbsoluteFill style={{background: `radial-gradient(60% 45% at 0% 55%, ${RED}55, transparent 70%), radial-gradient(60% 45% at 100% 45%, ${RED}44, transparent 70%)`, mixBlendMode: 'screen'}} />
+            <AbsoluteFill style={{boxShadow: 'inset 0 0 360px 60px rgba(0,0,0,.85)'}} />
+            {/* brilho do impacto da mão */}
+            <AbsoluteFill style={{background: `radial-gradient(40% 25% at 50% 58%, rgba(255,190,140,.55), transparent 70%)`, opacity: press * 0.6, mixBlendMode: 'screen'}} />
+          </AbsoluteFill>
+        )}
+        <Crumbs from={40} to={70} />
+        {/* o dourado do pão vira o vermelho da marca */}
+        <AbsoluteFill style={{background: RED, opacity: showRed}} />
+        <AbsoluteFill style={{background: `radial-gradient(70% 50% at 50% 50%, ${HOT}, ${RED} 45%, ${WINE} 100%)`, opacity: showRed * lerp(f, [H, H + 10], [0, 1])}} />
+        {/* manchete */}
+        {f >= H && (
+          <div style={{position: 'absolute', left: 84, width: 760, top: 230, transformOrigin: '330px 190px', transform: `translate(${interpolate(tk, [0, 1], [126, 0])}px, ${interpolate(tk, [0, 1], [580, 0])}px) scale(${interpolate(tk, [0, 1], [1.75, 1])})`}}>
+            <div style={{display: 'flex', alignItems: 'center', gap: 18, marginBottom: 22, font: '700 25px DM Sans', letterSpacing: '0.34em', color: '#ff8f97', textTransform: 'uppercase', opacity: lerp(f, [184, 194], [0, 1])}}>
+              <span style={{width: 64 * lerp(f, [184, 196], [0, 1]), height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`}} />PedeAi Delivery
+            </div>
+            {line('Bateu a', false, 0)}
+            {line('fome?', true, 1)}
+          </div>
+        )}
       </AbsoluteFill>
-      <AbsoluteFill style={{boxShadow: 'inset 0 0 360px 50px rgba(0,0,0,.85)', pointerEvents: 'none'}} />
-      <Dust amount={reveal} />
-      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 4], [1, 0])}} />
-      <AbsoluteFill style={{background: HOT, opacity: lerp(f, [H, H + 2, H + 10], [0, 0.3, 0], Easing.linear), mixBlendMode: 'screen'}} />
-      <Streak y={1100} o={lerp(f, [H, H + 3, H + 22], [0, 1, 0], Easing.linear)} />
-      <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={H + 8} out={195} y={230} size={132} />
+      <Dust amount={lerp(f, [176, 192], [0, 1])} />
+      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 3], [1, 0])}} />
+      {/* clarão do impacto */}
+      <AbsoluteFill style={{background: '#fff', opacity: lerp(f, [H, H + 1, H + 6], [0, 0.35, 0], Easing.linear), mixBlendMode: 'screen'}} />
     </AbsoluteFill>
   );
 };
@@ -762,13 +818,14 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       {scenes.map((el, i) => <Sequence key={i} from={AT(i)} durationInFrames={SCENES[i]} premountFor={15}>{el}</Sequence>)}
       <Grain />
       {/* desenho de som */}
-      <Sfx at={0} s="impacto" v={0.7} />
-      <Sfx at={0} s="chiado" v={0.35} />
-      <Sfx at={30} s="chiado" v={0.3} />
-      <Sfx at={60} s="whoosh-grave" v={0.4} />
-      <Sfx at={90} s="chiado" v={0.3} />
-      <Sfx at={105} s="whoosh" v={0.35} />
-      <Sfx at={150} s="impacto" v={0.55} />
+      <Sfx at={0} s="impacto" v={0.6} />
+      {[0, 4, 8, 12, 16].map((t) => <Sfx key={'m' + t} at={t} s="toque" v={0.22} />)}
+      <Sfx at={20} s="whoosh" v={0.25} />
+      <Sfx at={40} s="farelo" v={0.55} />
+      <Sfx at={76} s="pressao" v={0.7} />
+      <Sfx at={105} s="whoosh" v={0.2} />
+      <Sfx at={128} s="whoosh-grave" v={0.55} />
+      <Sfx at={150} s="impacto" v={0.75} />
       <Sfx at={198} s="whoosh" v={0.55} />
       <Sfx at={s(1) + 2} s="whoosh-grave" v={0.45} />
       {[44, 104, 170, 208].map((t) => <Sfx key={'t' + t} at={s(1) + t} s="toque" v={0.6} />)}

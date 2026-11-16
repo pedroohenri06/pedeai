@@ -743,8 +743,8 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
       {[7, 11, 14, 17, 22, 28, 31, 35].map((t) => <Sfx key={'m' + t} at={t} s="toque" v={0.16} />)}
       <Sfx at={36} s="whoosh" v={0.2} />
       <Sfx at={55} s="farelo" v={0.5} />
-      <Sfx at={79} s="pressao" v={0.6} />
-      <Sfx at={79} s="impacto" v={0.3} />
+      <Sfx at={79} s="pressao" v={0.42} />
+      <Sfx at={79} s="impacto" v={0.18} />
       <Sfx at={133} s="whoosh" v={0.16} />
       <Sfx at={150} s="whoosh-grave" v={0.3} />
       <Sfx at={170} s="impacto" v={0.42} />

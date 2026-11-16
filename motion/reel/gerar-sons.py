@@ -81,7 +81,7 @@ def trilha(dur=35.0):
     x += drone * 0.18 * np.clip(tt / 2, 0, 1) * (tt < 29.9)
     # bumbo macio em cada batida (a partir de 0) — só tempo 1 e 3 no início
     kd = t(0.35); kick = np.sin(2*np.pi*np.cumsum(48 + 90*np.exp(-kd*30))/SR) * np.exp(-kd*9)
-    for s in [0, 55/30, 79/30, 170/30]:  # abertura: bumbo na cebola caindo, no pão e na manchete
+    for s in [0, 55/30, 170/30]:  # abertura: bumbo na cebola caindo e na manchete (o pão já tem o próprio baque)
         at(s, kick, 0.75)
     for k in range(int(7.0 / beat), int(29.9 / beat)):
         s = k * beat

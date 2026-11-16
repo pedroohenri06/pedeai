@@ -81,7 +81,7 @@ def trilha(dur=35.0):
     x += drone * 0.18 * np.clip(tt / 2, 0, 1) * (tt < 29.9)
     # bumbo macio em cada batida (a partir de 0) — só tempo 1 e 3 no início
     kd = t(0.35); kick = np.sin(2*np.pi*np.cumsum(48 + 90*np.exp(-kd*30))/SR) * np.exp(-kd*9)
-    for s in [0, 0.5, 1.0, 1.5, 2.0, 3.0, 3.5, 4.5, 5.0]:  # abertura: bumbo nos cortes das fotos
+    for s in [0, 20/30, 40/30, 2.5, 3.5, 5.0]:  # abertura: bumbo nos cortes da montagem do lanche
         at(s, kick, 0.75)
     for k in range(int(7.0 / beat), int(29.9 / beat)):
         s = k * beat
@@ -124,3 +124,15 @@ for _ in range(90):
 env = np.clip(d / 0.08, 0, 1) * np.clip((1.4 - d) / 0.4, 0, 1)
 save('chiado', (hiss + lowpass(pops, 9000)) * env, 0.55)
 print('comida ok')
+
+# 11. Farelo: cebola crispy caindo (chuva de estalos secos e curtos, descendo de densidade)
+d = t(1.3); x = np.zeros(len(d))
+for _ in range(260):
+    i = int(rng.uniform(0, 1) ** 1.6 * (len(d) - 600)); L = int(rng.integers(40, 160))
+    x[i:i + L] += rng.standard_normal(L) * np.exp(-np.arange(L) / (L / 5)) * rng.uniform(0.2, 1)
+save('farelo', bandsweep(x, 3500, 2500) * np.clip((1.3 - d) / 0.5, 0, 1), 0.5)
+# 12. Pressão: a mão assenta o pão (baque grave e macio + compressão de ar)
+d = t(0.9); thump = np.sin(2 * np.pi * np.cumsum(70 + 60 * np.exp(-d * 25)) / SR) * np.exp(-d * 9)
+squish = lowpass(rng.standard_normal(len(d)), 900) * np.exp(-((d - 0.06) / 0.07) ** 2) * 0.6
+save('pressao', thump + squish, 0.7)
+print('abertura ok')

@@ -255,7 +255,8 @@ const P5: React.FC = () => {
       <Stage />
       <SpeedLines o={0.4 + 0.4 * mais} />
       <Dust />
-      <Headline kicker="Pode contar com a gente" lines={[{t: 'Nós levamos'}, {t: 'os clientes'}, {t: 'até você.', c: HOT}]} at={r(T.nos, i) - 4} y={230} size={96} />
+      <Headline kicker="Marketing a seu favor" lines={[{t: 'Pode contar'}, {t: 'com a gente.', c: HOT}]} at={r(T.C0, i)} out={r(T.nos, i) - 10} y={230} size={104} />
+      <Headline kicker="Pode contar com a gente" lines={[{t: 'Nós levamos'}, {t: 'os clientes'}, {t: 'até você.', c: HOT}]} at={r(T.nos, i) - 2} y={230} size={96} />
       {rows.map((row, j) => {
         const k = spring({frame: f - row.at, fps, config: {damping: 200}, durationInFrames: 16});
         return (
@@ -325,7 +326,7 @@ const P6: React.FC = () => {
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.95) 0%, rgba(10,2,3,.8) 20%, transparent 30%)'}} />
       <Headline kicker="Já está valendo" lines={[{t: 'Black Friday'}, {t: 'para parceiros.', c: HOT}]} at={r(T.D0, i)} out={PL - 6} y={230} size={100} />
       <Headline kicker="Black Friday para parceiros" lines={[{t: 'Planos a partir de'}, {t: 'R$ 39,90/mês.', c: HOT}]} at={PL} out={GA - 16} y={230} size={86} />
-      <Headline kicker="Oferta de lançamento" lines={[{t: 'Sem comissão.'}, {t: 'Sem risco.', c: HOT}]} at={GA - 6} out={AT - 4} y={230} size={104} />
+      <Headline kicker="Oferta de lançamento" lines={[{t: 'Sem comissão.'}, {t: 'Sem risco.', c: HOT}]} at={GA - 14} out={AT - 4} y={230} size={104} />
       <Headline kicker="Mas atenção" lines={[{t: 'Condição especial'}, {t: 'só até 30/11.', c: HOT}]} at={AT} y={230} size={90} />
       {checks.map(([c, at], j) => {
         const k = spring({frame: f - at, fps, config: {damping: 14, stiffness: 140}});

@@ -138,6 +138,6 @@ squish = lowpass(rng.standard_normal(len(d)), 900) * np.exp(-((d - 0.06) / 0.07)
 save('pressao', thump + squish, 0.7)
 print('abertura ok')
 
-# 13. Trilha do filme dos parceiros (61,5 s, com espaço para narração): abertura até 6 s, chimbal e baixo na oferta (43,5 s), respiro e marca em 57 s
-save('trilha-parceiros', trilha(61.5, 6.0, 43.5, 56.4, 57.0, (0, 100/30, 180/30)), 0.8)
+# 13. Trilha do filme dos parceiros (78 s, guiada pela narração): abertura até a conta, chimbal e baixo na oferta, respiro e marca no 'pede aí'
+save('trilha-parceiros', trilha(78.0, 135/30, 1667/30, 2164/30 - 0.6, 2164/30, (0, 135/30, 504/30)), 0.8)
 print('trilha parceiros ok')

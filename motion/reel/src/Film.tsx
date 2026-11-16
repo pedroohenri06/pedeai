@@ -651,7 +651,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
   const LY = 560;                     // linha central do lockup
   // 1 · a conversa some e a tela fica vermelha
   const red = lerp(f, [6, 18], [0, 1], Easing.inOut(Easing.quad));
-  const frameO = 1 - lerp(f, [18, 30], [0, 1], IN);
+  const frameO = 1 - lerp(f, [12, 22], [0, 1], IN);
   // 2 · a tela vira o ícone: uma única mola para x, y, largura, altura e raio
   const m = spring({frame: f - 22, fps, config: {damping: 15, stiffness: 120, mass: 0.9}, durationInFrames: L - 22});
   const brake = f >= L ? Math.sin(Math.min(1, (f - L) / 8) * Math.PI) * 0.06 : 0;
@@ -677,8 +677,8 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
       <SpeedLines o={lerp(f, [L, L + 20], [0, 1])} />
       <Dust amount={1.2} />
       {/* celular da cena anterior, voltando ao centro e sumindo */}
-      {f < 32 && (
-        <Phone ry={lerp(f, [0, 16], [4, 0], IO)} rim={GREEN} bar={mix(WA, RED, red)} darkBar frameO={frameO} s={lerp(f, [0, 22], [1, 0.97], IO)}>
+      {f < 23 && (
+        <Phone ry={lerp(f, [0, 16], [4, 0], IO)} rim={GREEN} bar={mix(WA, RED, red)} darkBar frameO={frameO}>
           <Chat full />
           <AbsoluteFill style={{background: RED, opacity: red}} />
         </Phone>

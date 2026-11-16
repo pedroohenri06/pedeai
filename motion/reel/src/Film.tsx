@@ -298,9 +298,9 @@ const S1: React.FC = () => {
 /* 02 · Descoberta, com a navegação real da plataforma (capturas em public/shots/flow):
    o celular chega → toque na cidade → a folha de cidades sobe → a lista rola até Barra do Garças →
    a página rola até "O que bateu vontade?" → toque em Hambúrguer → rolagem até a Dantes → toque e mergulho na loja. */
-const flow = (n: string) => staticFile('shots/flow/' + n);
+export const flow = (n: string) => staticFile('shots/flow/' + n);
 // Página rolando: conteúdo alto deslocado + cabeçalho e barra inferior fixos por cima (como no celular).
-const ScrollPage: React.FC<{tall: string; y: number; y0?: number; v?: number; header?: string}> = ({tall, y, y0 = 0, v = 0, header = 'home_barra.png'}) => {
+export const ScrollPage: React.FC<{tall: string; y: number; y0?: number; v?: number; header?: string}> = ({tall, y, y0 = 0, v = 0, header = 'home_barra.png'}) => {
   const top = -(y - y0) * CSS;
   return (
     <AbsoluteFill style={{background: '#f7f1ea'}}>

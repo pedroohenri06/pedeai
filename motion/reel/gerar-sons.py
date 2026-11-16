@@ -70,7 +70,8 @@ print('ok')
 # 9. Trilha original (120 BPM, sol menor), alinhada aos cortes do filme (1 batida = 15 quadros).
 #    0–7 s: abertura gastronômica (bumbo nos cortes) · 7–21 s: pulso + arpejo com filtro abrindo (navegação e cardápio)
 #    21–29,9 s: entra o chimbal e o baixo (checkout e WhatsApp) · 29,9–30,5 s: respiro · 30,5 s: marca (acorde final).
-def trilha(dur=35.0):
+def trilha(dur=35.0, A=7.0, B=21.0, C=29.9, HIT=30.5, KICKS=(0, 55/30, 170/30)):
+    # A: fim da abertura · B: entra chimbal e baixo · C: respiro antes da marca · HIT: acorde da marca
     n = int(SR * dur); x = np.zeros(n); tt = np.arange(n) / SR
     beat = 0.5
     def at(s, sig, g=1.0):
@@ -78,36 +79,36 @@ def trilha(dur=35.0):
         if i < n: x[i:j] += sig[:j - i] * g
     # drone (sol 49 Hz + quinta), cresce até o respiro
     drone = (np.sin(2*np.pi*49*tt) + 0.5*np.sin(2*np.pi*73.4*tt) + 0.25*np.sin(2*np.pi*98*tt))
-    x += drone * 0.18 * np.clip(tt / 2, 0, 1) * (tt < 29.9)
+    x += drone * 0.18 * np.clip(tt / 2, 0, 1) * (tt < C)
     # bumbo macio em cada batida (a partir de 0) — só tempo 1 e 3 no início
     kd = t(0.35); kick = np.sin(2*np.pi*np.cumsum(48 + 90*np.exp(-kd*30))/SR) * np.exp(-kd*9)
-    for s in [0, 55/30, 170/30]:  # abertura: bumbo na cebola caindo e na manchete (o pão já tem o próprio baque)
+    for s in KICKS:  # abertura: bumbo nos momentos-chave da filmagem
         at(s, kick, 0.75)
-    for k in range(int(7.0 / beat), int(29.9 / beat)):
+    for k in range(int(A / beat), int(C / beat)):
         s = k * beat
-        if s < 21.0 and k % 2: continue
+        if s < B and k % 2: continue
         at(s, kick, 0.55 + 0.25 * (s / 20))
     # arpejo (colcheias) com progressão sol–mi♭–si♭–ré, filtro abrindo
     prog = [[196, 233.1, 293.7], [155.6, 196, 233.1], [233.1, 293.7, 349.2], [146.8, 185, 220]]
     ad = t(0.24)
-    for k in range(int((29.9 - 7.0) / 0.25)):
-        s = 7.0 + k * 0.25; chord = prog[int(s / 2) % 4]; fq = chord[k % 3] * (2 if k % 4 == 3 else 1)
-        bright = 1 + 6 * ((s - 7.0) / 22.9) ** 1.5
+    for k in range(int((C - A) / 0.25)):
+        s = A + k * 0.25; chord = prog[int(s / 2) % 4]; fq = chord[k % 3] * (2 if k % 4 == 3 else 1)
+        bright = 1 + 6 * ((s - A) / (C - A)) ** 1.5
         note = sum(np.sin(2*np.pi*fq*h*ad) / h**(2.2 - bright*0.15) for h in range(1, 6)) * np.exp(-ad*10)
-        at(s, note, 0.07 + 0.05 * (s - 7.0) / 22.9)
+        at(s, note, 0.07 + 0.05 * (s - A) / (C - A))
     # baixo (semínimas) a partir de 12 s
     bd = t(0.45)
-    for k in range(int((29.9 - 21.0) / beat)):
-        s = 21.0 + k * beat; fq = prog[int(s / 2) % 4][0] / 4
+    for k in range(int((C - B) / beat)):
+        s = B + k * beat; fq = prog[int(s / 2) % 4][0] / 4
         at(s, (np.sin(2*np.pi*fq*bd) + 0.3*np.sin(4*np.pi*fq*bd)) * np.exp(-bd*4), 0.35)
     # chimbal (semicolcheias) a partir de 12 s
     hd = t(0.05); hat = bandsweep(rng.standard_normal(len(hd) + 2048), 7000, 9000)[:len(hd)] * np.exp(-hd*90)
-    for k in range(int((29.9 - 21.0) / 0.125)):
-        at(21.0 + k * 0.125, hat, 0.10 if k % 2 else 0.16)
+    for k in range(int((C - B) / 0.125)):
+        at(B + k * 0.125, hat, 0.10 if k % 2 else 0.16)
     # acorde final da marca (pad longo) a partir de 20,5 s
     pd = t(4.5); env = (1 - np.exp(-pd*12)) * np.exp(-pd*0.7)
     pad = sum(np.sin(2*np.pi*fq*pd + 0.3*np.sin(2*np.pi*0.3*pd)) * g for fq, g in [(98, .8), (146.8, .6), (196, .6), (233.1, .35), (293.7, .3)])
-    at(30.5, pad * env, 0.35)
+    at(HIT, pad * env, 0.35)
     # fade final suave
     x *= np.clip((dur - tt) / 0.6, 0, 1)
     return np.tanh(x * 1.4)
@@ -136,3 +137,7 @@ d = t(0.9); thump = np.sin(2 * np.pi * np.cumsum(70 + 60 * np.exp(-d * 25)) / SR
 squish = lowpass(rng.standard_normal(len(d)), 900) * np.exp(-((d - 0.06) / 0.07) ** 2) * 0.6
 save('pressao', thump + squish, 0.7)
 print('abertura ok')
+
+# 13. Trilha do filme dos parceiros (39 s): abertura até 5 s, chimbal e baixo na oferta (26 s), respiro e marca em 34,5 s
+save('trilha-parceiros', trilha(39.0, 5.0, 26.0, 33.9, 34.5, (0, 100/30, 150/30)), 0.8)
+print('trilha parceiros ok')

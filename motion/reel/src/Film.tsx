@@ -12,23 +12,23 @@ import fpos from '../public/shots/flow/pos.json';
    com marcador (kicker) em DM Sans espaçada. Telas: capturas reais da plataforma (3×).
    ===================================================================================== */
 
-const RED = '#e51b2b', HOT = '#ff2b3d', WINE = '#7d1019', INK = '#0a0203', GREEN = '#3ddc84';
+export const RED = '#e51b2b', HOT = '#ff2b3d', WINE = '#7d1019', INK = '#0a0203', GREEN = '#3ddc84';
 const SW = 1170, SH = 2532;               // tela do iPhone: 390×844 pt @3× (barra de status 54 pt + página 790 pt)
-const SB = 54;                            // altura da barra de status (pt); as capturas da página começam abaixo dela
-const PW = 560;                           // largura da tela do celular no quadro
-const K = PW / SW, CSS = 3 * K, PH = SH * K;
-const BZ = 12, FR = 9, RS = 78;           // borda preta, moldura de titânio e raio da tela
+export const SB = 54;                            // altura da barra de status (pt); as capturas da página começam abaixo dela
+export const PW = 560;                           // largura da tela do celular no quadro
+export const K = PW / SW, CSS = 3 * K, PH = SH * K;
+export const BZ = 12, FR = 9, RS = 78;           // borda preta, moldura de titânio e raio da tela
 const BEZ = BZ + FR;
-const CREAM = '#f9f5ef', SHEET = '#867d7b', WA = '#1d2b24';
-const PCX = 540, PCY = 1175;              // centro do celular no quadro (camera neutra)
-const cl = {extrapolateLeft: 'clamp' as const, extrapolateRight: 'clamp' as const};
-const OUT = Easing.bezier(0.16, 1, 0.3, 1);       // chegada suave
-const IO = Easing.bezier(0.76, 0, 0.24, 1);       // movimento de câmera
-const IN = Easing.bezier(0.7, 0, 0.84, 0);        // saída acelerada
-const shot = (n: string) => staticFile('shots/' + n);
-const img = (n: string) => staticFile('img/' + n);
-const lerp = (f: number, a: number[], b: number[], e: any = OUT) => interpolate(f, a, b, {...cl, easing: e});
-const mix = (c1: string, c2: string, t: number) => {
+export const CREAM = '#f9f5ef', SHEET = '#867d7b', WA = '#1d2b24';
+export const PCX = 540, PCY = 1175;              // centro do celular no quadro (camera neutra)
+export const cl = {extrapolateLeft: 'clamp' as const, extrapolateRight: 'clamp' as const};
+export const OUT = Easing.bezier(0.16, 1, 0.3, 1);       // chegada suave
+export const IO = Easing.bezier(0.76, 0, 0.24, 1);       // movimento de câmera
+export const IN = Easing.bezier(0.7, 0, 0.84, 0);        // saída acelerada
+export const shot = (n: string) => staticFile('shots/' + n);
+export const img = (n: string) => staticFile('img/' + n);
+export const lerp = (f: number, a: number[], b: number[], e: any = OUT) => interpolate(f, a, b, {...cl, easing: e});
+export const mix = (c1: string, c2: string, t: number) => {
   const p = (c: string) => [1, 3, 5].map((i) => parseInt(c.slice(i, i + 2), 16));
   const a = p(c1), b = p(c2);
   return '#' + a.map((v, i) => Math.round(v + (b[i] - v) * t).toString(16).padStart(2, '0')).join('');
@@ -39,12 +39,12 @@ export const fontFaces = `
 @font-face{font-family:'DM Sans';font-weight:400 700;src:url(${staticFile('fonts/dm-sans-latin.woff2')}) format('woff2')}`;
 
 /* ---------------- Som ---------------- */
-const Sfx: React.FC<{at: number; s: string; v?: number}> = ({at, s, v = 1}) => (
+export const Sfx: React.FC<{at: number; s: string; v?: number}> = ({at, s, v = 1}) => (
   <Sequence from={at} layout="none"><Audio src={staticFile('sfx/' + s + '.wav')} volume={v} /></Sequence>
 );
 
 /* ---------------- Atmosfera: a assinatura visual do filme ---------------- */
-const Grain: React.FC = () => {
+export const Grain: React.FC = () => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{pointerEvents: 'none', mixBlendMode: 'overlay', opacity: 0.22}}>
@@ -53,7 +53,7 @@ const Grain: React.FC = () => {
   );
 };
 
-const Dust: React.FC<{camX?: number; camY?: number; tint?: string; amount?: number}> = ({camX = 0, camY = 0, tint = '255,120,110', amount = 1}) => {
+export const Dust: React.FC<{camX?: number; camY?: number; tint?: string; amount?: number}> = ({camX = 0, camY = 0, tint = '255,120,110', amount = 1}) => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{pointerEvents: 'none'}}>
@@ -70,7 +70,7 @@ const Dust: React.FC<{camX?: number; camY?: number; tint?: string; amount?: numb
 };
 
 /* Palco: preto com feixes volumétricos vermelhos vindos do alto e brilho no chão. */
-const Stage: React.FC<{beam?: number; hue?: string; floor?: number; sway?: number}> = ({beam = 1, hue = RED, floor = 1, sway = 0}) => {
+export const Stage: React.FC<{beam?: number; hue?: string; floor?: number; sway?: number}> = ({beam = 1, hue = RED, floor = 1, sway = 0}) => {
   const f = useCurrentFrame();
   const b = (x: number, w: number, o: number, sk: number) => (
     <div style={{position: 'absolute', left: x + Math.sin(f / 60 + x) * 20 + sway, top: -200, width: w, height: 1700, transform: `skewX(${sk}deg)`, filter: 'blur(46px)', opacity: o * beam,
@@ -88,7 +88,7 @@ const Stage: React.FC<{beam?: number; hue?: string; floor?: number; sway?: numbe
 
 /* ---------------- Tipografia da campanha ---------------- */
 type Line = {t: string; c?: string};
-const Headline: React.FC<{kicker?: string; lines: Line[]; at: number; out?: number; y?: number; size?: number}> = ({kicker, lines, at, out = 99999, y = 250, size = 98}) => {
+export const Headline: React.FC<{kicker?: string; lines: Line[]; at: number; out?: number; y?: number; size?: number}> = ({kicker, lines, at, out = 99999, y = 250, size = 98}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const exit = lerp(f, [out, out + 10], [0, 1], IN);
@@ -120,7 +120,7 @@ const Headline: React.FC<{kicker?: string; lines: Line[]; at: number; out?: numb
    Moldura de titânio escovado com reflexo que acompanha a rotação, bandas de antena, botões laterais,
    borda preta, Dynamic Island com lente, barra de status do iOS, indicador de início, vidro com reflexo
    e sombra de contato. A página (captura real) começa abaixo da barra de status, como no aparelho. */
-const StatusBar: React.FC<{bg: string; dark?: boolean}> = ({bg, dark}) => {
+export const StatusBar: React.FC<{bg: string; dark?: boolean}> = ({bg, dark}) => {
   const c = dark ? '#fff' : '#111';
   const u = CSS; // 1 pt
   return (
@@ -136,7 +136,7 @@ const StatusBar: React.FC<{bg: string; dark?: boolean}> = ({bg, dark}) => {
     </div>
   );
 };
-const Phone: React.FC<{children: React.ReactNode; rx?: number; ry?: number; rz?: number; s?: number; x?: number; y?: number; glare?: number; dim?: number; blur?: number; rim?: string; bar?: string; darkBar?: boolean; frameO?: number}> =
+export const Phone: React.FC<{children: React.ReactNode; rx?: number; ry?: number; rz?: number; s?: number; x?: number; y?: number; glare?: number; dim?: number; blur?: number; rim?: string; bar?: string; darkBar?: boolean; frameO?: number}> =
   ({children, rx = 0, ry = 0, rz = 0, s = 1, x = 0, y = 0, glare = -1, dim = 0, blur = 0, rim = RED, bar = CREAM, darkBar = false, frameO = 1}) => {
   const W = PW + BEZ * 2, H = PH + BEZ * 2;
   const la = 118 + ry * 2.2; // o reflexo do titânio corre com a rotação
@@ -189,12 +189,12 @@ const Phone: React.FC<{children: React.ReactNode; rx?: number; ry?: number; rz?:
   );
 };
 
-const Screen: React.FC<{src: string; o?: number; y?: number; x?: number}> = ({src, o = 1, y = 0, x = 0}) => (
+export const Screen: React.FC<{src: string; o?: number; y?: number; x?: number}> = ({src, o = 1, y = 0, x = 0}) => (
   <Img src={src} style={{position: 'absolute', left: x, top: y, width: PW, opacity: o}} />
 );
 
 /* Câmera: move o "mundo" (celular e o que estiver preso a ele) para enquadrar uma região da tela. */
-const Cam: React.FC<{children: React.ReactNode; s: number; fx: number; fy: number}> = ({children, s, fx, fy}) => (
+export const Cam: React.FC<{children: React.ReactNode; s: number; fx: number; fy: number}> = ({children, s, fx, fy}) => (
   // fx/fy: ponto da tela (css da página) que fica no centro óptico (540, 1000)
   <AbsoluteFill style={{transform: `translate(${540 - (PCX + (fx - 195) * CSS) * s}px, ${PCY - (PCY + (fy + SB - 422) * CSS) * s}px) scale(${s})`, transformOrigin: '0 0'}}>
     {children}
@@ -202,7 +202,7 @@ const Cam: React.FC<{children: React.ReactNode; s: number; fx: number; fy: numbe
 );
 
 /* Toque na tela (coordenadas css da página) */
-const Tap: React.FC<{x: number; y: number; at: number}> = ({x, y, at}) => {
+export const Tap: React.FC<{x: number; y: number; at: number}> = ({x, y, at}) => {
   const f = useCurrentFrame();
   if (f < at - 5 || f > at + 16) return null;
   const press = lerp(f, [at - 5, at], [0, 1]);
@@ -236,7 +236,7 @@ const Dish: React.FC<{src: string; w: number; h?: number; x: number; y: number; 
 };
 
 /* Rastro de luz anamórfico: só nos dois impactos do filme (abertura e marca) */
-const Streak: React.FC<{y: number; o: number}> = ({y, o}) => o <= 0 ? null : (
+export const Streak: React.FC<{y: number; o: number}> = ({y, o}) => o <= 0 ? null : (
   <>
     <div style={{position: 'absolute', left: -200, right: -200, top: y - 3, height: 6, background: `linear-gradient(90deg, transparent, ${HOT} 30%, #fff 50%, ${HOT} 70%, transparent)`, opacity: o, filter: 'blur(1.5px)', transform: `scaleX(${0.3 + o * 0.9})`, mixBlendMode: 'screen'}} />
     <div style={{position: 'absolute', left: -200, right: -200, top: y - 60, height: 120, background: `radial-gradient(50% 50% at 50% 50%, ${HOT}aa, transparent)`, opacity: o * 0.8, filter: 'blur(16px)', mixBlendMode: 'screen'}} />
@@ -538,7 +538,7 @@ const S5: React.FC<{pos: any}> = ({pos}) => {
 };
 
 /* 06 · Confirmação: o botão vira a mensagem pronta na conversa da loja */
-const LINES = [
+export const LINES = [
   'Olá, Dantes! Gostaria de fazer um pedido pelo PedeAi Delivery:', '',
   '*Pedido*', '1x Maromba — R$ 29,90', '1x Tropical — R$ 29,90', '1x Old School — R$ 29,90', '',
   'Subtotal: R$ 89,70', 'Taxa de entrega: R$ 7,00', '*Total: R$ 96,70*', '',
@@ -546,7 +546,7 @@ const LINES = [
   '*Pagamento:* Pix',
 ];
 const fmt = (t: string) => t.split('*').map((p, i) => i % 2 ? <b key={i}>{p}</b> : <span key={i}>{p}</span>);
-const Chat: React.FC<{start?: number; full?: boolean}> = ({start = 0, full}) => {
+export const Chat: React.FC<{start?: number; full?: boolean}> = ({start = 0, full}) => {
   const f = useCurrentFrame();
   const n = full ? LINES.length : Math.floor(lerp(f, [start + 4, start + 44], [0, LINES.length], Easing.linear));
   const pop = full ? 1 : spring({frame: f - start, fps: 30, config: {damping: 14, stiffness: 140}});
@@ -606,7 +606,7 @@ const S6: React.FC<{pos: any}> = ({pos}) => {
    No impacto a marca branca entra por varredura; o ícone abre espaço e o nome "PedeAi" pousa letra a letra
    (escala + desfoque), "DELIVERY" fecha o espaçamento. Linhas de velocidade, tiradas do próprio símbolo,
    atravessam o fundo como grafismo de marca. Depois a mensagem, a data em destaque e o endereço. */
-const SpeedLines: React.FC<{o: number}> = ({o}) => {
+export const SpeedLines: React.FC<{o: number}> = ({o}) => {
   const f = useCurrentFrame();
   return (
     <AbsoluteFill style={{opacity: o, overflow: 'hidden'}}>
@@ -619,7 +619,7 @@ const SpeedLines: React.FC<{o: number}> = ({o}) => {
     </AbsoluteFill>
   );
 };
-const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
+export const S7: React.FC<{variant: 'cliente' | 'loja' | 'parceiro'; screen?: React.ReactNode}> = ({variant, screen}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const L = 45;                       // impacto da marca (cai na batida da trilha)
@@ -643,7 +643,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
   const wipe = lerp(f, [L, L + 9], [0, 100], OUT);
   const sweep = lerp(f, [L + 70, L + 96], [-0.4, 1.4], IO);
   const field = lerp(f, [L - 2, L + 3, L + 40], [0, 1, 0.55]);
-  const loja = variant === 'loja';
+  const loja = variant === 'loja', parc = variant === 'parceiro';
   const reveal = (at: number) => spring({frame: f - at, fps, config: {damping: 200}, durationInFrames: 16});
   return (
     <AbsoluteFill>
@@ -655,7 +655,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
       {/* celular da cena anterior, voltando ao centro e sumindo */}
       {f < 23 && (
         <Phone ry={lerp(f, [0, 16], [4, 0], IO)} rim={GREEN} bar={mix(WA, RED, red)} darkBar frameO={frameO}>
-          <Chat full />
+          {screen || <Chat full />}
           <AbsoluteFill style={{background: RED, opacity: red}} />
         </Phone>
       )}
@@ -684,7 +684,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
         return (
           <div style={{position: 'absolute', left: 0, right: 0, top: LY + 190, textAlign: 'center', overflow: 'hidden', paddingBottom: 8}}>
             <div style={{font: '900 58px/1 Montserrat', letterSpacing: '-0.035em', color: '#fff', textTransform: 'uppercase', transform: `translateY(${(1 - t1) * 110}%)`}}>
-              {loja ? 'Seu cardápio online.' : 'Peça sem baixar aplicativo.'}
+              {parc ? 'Venda mais. Sem comissão.' : loja ? 'Seu cardápio online.' : 'Peça sem baixar aplicativo.'}
             </div>
           </div>
         );
@@ -693,17 +693,17 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
       <div style={{position: 'absolute', left: 0, right: 0, top: LY + 286, display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
         <div style={{width: 120 * lerp(f, [L + 52, L + 64], [0, 1]), height: 4, background: HOT, borderRadius: 2, boxShadow: `0 0 18px ${HOT}`, marginBottom: 26}} />
         <div style={{font: '700 26px DM Sans', letterSpacing: '0.42em', color: '#ff8f97', textTransform: 'uppercase', opacity: lerp(f, [L + 56, L + 66], [0, 1]), paddingLeft: '0.42em'}}>
-          {loja ? 'Pedido pronto no seu WhatsApp' : 'Estreia'}
+          {parc ? 'Planos a partir de' : loja ? 'Pedido pronto no seu WhatsApp' : 'Estreia'}
         </div>
         <div style={{display: 'flex', overflow: 'hidden', marginTop: 6}}>
-          {(loja ? 'SEM COMISSÃO.' : '25/11').split('').map((ch, i) => {
+          {(parc ? 'R$ 39,90' : loja ? 'SEM COMISSÃO.' : '25/11').split('').map((ch, i) => {
             const k = reveal(L + 60 + i * 2);
-            return <span key={i} style={{display: 'inline-block', font: `900 ${loja ? 100 : 196}px/1.02 Montserrat`, letterSpacing: '-0.045em', color: i === 2 && !loja ? HOT : '#fff', transform: `translateY(${(1 - k) * 105}%)`, whiteSpace: 'pre'}}>{ch}</span>;
+            return <span key={i} style={{display: 'inline-block', font: `900 ${parc ? 170 : loja ? 100 : 196}px/1.02 Montserrat`, letterSpacing: '-0.045em', color: (i === 2 && !loja && !parc) || (parc && i < 2) ? HOT : '#fff', transform: `translateY(${(1 - k) * 105}%)`, whiteSpace: 'pre'}}>{ch}</span>;
           })}
         </div>
         {!loja && (
           <div style={{font: '800 42px Montserrat', letterSpacing: '-0.01em', color: '#fff', textTransform: 'uppercase', opacity: lerp(f, [L + 72, L + 84], [0, 1]), transform: `translateY(${(1 - lerp(f, [L + 72, L + 84], [0, 1])) * 18}px)`}}>
-            No Vale do Araguaia.
+            {parc ? 'por mês · Black Friday até 30/11.' : 'No Vale do Araguaia.'}
           </div>
         )}
       </div>
@@ -714,7 +714,7 @@ const S7: React.FC<{variant: 'cliente' | 'loja'}> = ({variant}) => {
         return (
           <div style={{position: 'absolute', left: 0, right: 0, top: LY + (loja ? 590 : 660), display: 'flex', justifyContent: 'center', opacity: Math.min(1, k * 1.5)}}>
             <div style={{position: 'relative', overflow: 'hidden', padding: '18px 44px', borderRadius: 99, background: '#fff', font: '800 40px Montserrat', letterSpacing: '-0.02em', color: RED, transform: `scale(${interpolate(k, [0, 1], [0.8, 1])})`, boxShadow: `0 20px 60px -10px ${RED}aa`}}>
-              pedeaionline.com.br
+              {parc ? 'pedeaionline.com.br/planos' : 'pedeaionline.com.br'}
               <div style={{position: 'absolute', inset: 0, background: `linear-gradient(110deg, transparent ${sh * 100 - 20}%, rgba(255,140,150,.35) ${sh * 100}%, transparent ${sh * 100 + 20}%)`}} />
             </div>
           </div>

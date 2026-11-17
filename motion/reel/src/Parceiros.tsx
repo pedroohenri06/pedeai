@@ -2,8 +2,9 @@ import React from 'react';
 import {AbsoluteFill, Audio, Img, Sequence, staticFile, useCurrentFrame, useVideoConfig, interpolate, spring, Easing} from 'remotion';
 import {
   RED, HOT, GREEN, CSS, PW, CREAM, WA, PCX, PCY, cl, OUT, IO, IN, shot, lerp, fontFaces,
-  Sfx, Grain, Dust, Stage, Headline, Phone, Screen, Cam, Tap, Streak, Chat, SpeedLines, S7,
+  Sfx, Dust, Stage, Headline, Phone, Screen, Cam, Tap, Streak, Chat, SpeedLines, S7, ScrollPage, flow,
 } from './Film';
+import fpos from '../public/shots/flow/pos.json';
 import T from './tempos-parceiros.json';
 
 /* =====================================================================================
@@ -146,13 +147,23 @@ const P3: React.FC = () => {
   );
 };
 
-/* 04 · Como funciona: o cliente acessa pelo link, escolhe, monta, envia — e o pedido chega no seu WhatsApp */
+/* 04 · Como funciona, navegando rápido pela plataforma real: categorias → toque em Hambúrguer → a página rola até a
+   Dantes → o cartão da loja se expande e vira a página dela → rola até os lanches → escolhe, monta e envia →
+   o pedido chega pronto no WhatsApp. */
 const P4: React.FC<{pos: any}> = ({pos}) => {
   const f = useCurrentFrame();
   const {fps} = useVideoConfig();
   const i = 3;
   const enter = spring({frame: f - 2, fps, config: {damping: 18, stiffness: 60, mass: 1.1}});
-  const sc0 = r(T.semBaixar, i) + 20, sc1 = r(T.escolhe, i) - 8;               // rola até os lanches antes do "escolhe"
+  // navegação até a loja
+  const tapH = 40, au0 = 46, au1 = 68, tapD = 82, ex0 = 88, ex1 = 104;
+  const sy = f < tapH + 2 ? fpos.scrollCats : lerp(f, [au0, au1], [fpos.scrollCats, fpos.scrollHamb], IO);
+  const syN = f < tapH + 2 ? fpos.scrollCats : lerp(f + 1, [au0, au1], [fpos.scrollCats, fpos.scrollHamb], IO);
+  const dY = fpos.dantes.y + fpos.dantes.h / 2 + (fpos.scrollDantes - fpos.scrollHamb);
+  const press = lerp(f, [tapD - 3, tapD, tapD + 6], [1, 0.965, 1], Easing.linear);
+  const ex = lerp(f, [ex0, ex1], [0, 1], Easing.bezier(0.3, 0, 0.1, 1));
+  // dentro da loja: rola até os lanches antes do "escolhe"
+  const sc0 = Math.max(ex1 + 14, r(T.semBaixar, i) + 4), sc1 = r(T.escolhe, i) - 8;
   const scroll = lerp(f, [sc0, sc1], [0, 3928], IO);
   const v = Math.abs(lerp(f + 1, [sc0, sc1], [0, 3928], IO) - scroll);
   const taps = [{id: 'maromba', at: r(T.escolhe, i) + 4}, {id: 'tropical', at: r(T.produtos, i) + 6}, {id: 'old-school', at: r(T.monta, i) + 4}];
@@ -162,10 +173,23 @@ const P4: React.FC<{pos: any}> = ({pos}) => {
   const W0 = r(T.chega, i) - 6;
   const whip = lerp(f, [W0, W0 + 12], [0, 1], IO);
   const trail = Math.sin(whip * Math.PI);
-  const push = lerp(f, [W0 + 14, P_SCENES[i]], [1.0, 1.12], IO);
+  const push = lerp(f, [W0 + 14, P_SCENES[i]], [1.0, 1.1], IO);
   const fy = lerp(f, [W0 + 12, W0 + 36], [368, 300], IO);
   const wa = f > W0 + 6;
   const pill = spring({frame: f - r(T.semBaixar, i), fps, config: {damping: 14, stiffness: 140}});
+  const store = (
+    <>
+      {f < sc1 + 4 ? (
+        <>
+          <Img src={shot('store_tall.jpg')} style={{position: 'absolute', left: 0, top: -scroll * CSS, width: PW}} />
+          {v > 8 && [1, 2, 3].map((j) => <Img key={j} src={shot('store_tall.jpg')} style={{position: 'absolute', left: 0, top: -scroll * CSS + j * v * 0.35, width: PW, opacity: 0.16}} />)}
+        </>
+      ) : <Screen src={shot(src)} />}
+    </>
+  );
+  // retângulo do cartão da Dantes (css da página) → tela inteira
+  const cx0 = fpos.dantes.x, cy0 = dY - fpos.dantes.h / 2, cw = fpos.dantes.w, ch = fpos.dantes.h;
+  const clip = `inset(${cy0 * CSS * (1 - ex)}px ${(390 - cx0 - cw) * CSS * (1 - ex)}px ${(790 - cy0 - ch) * CSS * (1 - ex)}px ${cx0 * CSS * (1 - ex)}px round ${18 * CSS * (1 - ex) + 2}px)`;
   return (
     <AbsoluteFill>
       <Stage hue={wa ? '#1f9e57' : RED} />
@@ -173,21 +197,28 @@ const P4: React.FC<{pos: any}> = ({pos}) => {
       <Cam s={push} fx={195} fy={fy}>
         <Phone y={interpolate(enter, [0, 1], [1300, 0])} rx={interpolate(enter, [0, 1], [20, 0])} ry={lerp(f, [W0, W0 + 12, P_SCENES[i]], [0, 8, 3], IO)} rim={wa ? GREEN : RED}
           glare={lerp(f, [10, 50], [-0.3, 1.4], IO)} bar={wa ? WA : CREAM} darkBar={wa}>
-          {f < W0 + 12 && [0, 1, 2, 3].map((k) => (
+          {f < W0 + 12 && [0, 1, 2, 3].map((k) => (k && f < sc1 + 4 ? null : (
             <div key={k} style={{position: 'absolute', inset: 0, transform: `translateX(${-whip * PW * 1.1 + k * trail * 50}px)`, opacity: k ? 0.2 : 1}}>
-              {f < sc1 + 4 ? (
-                <>
-                  <Img src={shot('store_tall.jpg')} style={{position: 'absolute', left: 0, top: -scroll * CSS, width: PW}} />
-                  {k === 0 && v > 8 && [1, 2, 3].map((j) => <Img key={j} src={shot('store_tall.jpg')} style={{position: 'absolute', left: 0, top: -scroll * CSS + j * v * 0.35, width: PW, opacity: 0.16}} />)}
-                </>
-              ) : <Screen src={shot(src)} />}
+              {k === 0 && f < ex1 && (
+                f < tapH + 2
+                  ? <ScrollPage tall="home_tall.jpg" y={sy} />
+                  : <ScrollPage tall="hamb_tall.jpg" y={sy} y0={fpos.hambTall.y0} v={Math.abs(syN - sy) * CSS} header="hamb.png" />
+              )}
+              {k === 0 && f >= tapD - 3 && f < ex0 && (
+                <div style={{position: 'absolute', left: cx0 * CSS, top: cy0 * CSS, width: cw * CSS, height: ch * CSS, overflow: 'hidden', borderRadius: 18 * CSS, transform: `scale(${press})`, boxShadow: '0 0 0 3px rgba(229,27,43,.35)'}}>
+                  <Img src={flow('hamb_tall.jpg')} style={{position: 'absolute', width: PW, left: -cx0 * CSS, top: -(cy0 + fpos.scrollHamb - fpos.hambTall.y0) * CSS}} />
+                </div>
+              )}
+              {f >= ex0 && <AbsoluteFill style={{clipPath: clip, background: '#f8f5ee'}}>{store}</AbsoluteFill>}
             </div>
-          ))}
+          )))}
           {f >= W0 && [0, 1, 2, 3].map((k) => (
             <div key={'c' + k} style={{position: 'absolute', inset: 0, transform: `translateX(${(1 - whip) * PW * 1.1 - k * trail * 50}px)`, opacity: k ? 0.2 : 1}}>
               <Chat start={W0 + 14} />
             </div>
           ))}
+          <Tap x={fpos.hamb.x + fpos.hamb.w / 2} y={fpos.hamb.y + fpos.hamb.h / 2 - 12} at={tapH} />
+          <Tap x={fpos.dantes.x + fpos.dantes.w / 2} y={dY} at={tapD} />
           {taps.map((t) => <Tap key={t.id} x={pos['add_' + t.id].x} y={pos['add_' + t.id].y} at={t.at} />)}
           {taps.map((t) => f >= t.at && f < t.at + 20 ? (
             <div key={'p' + t.id} style={{position: 'absolute', left: pos['add_' + t.id].x * CSS - 120, top: pos['add_' + t.id].y * CSS - 40 - lerp(f, [t.at, t.at + 20], [0, 60]), padding: '8px 16px', borderRadius: 99, background: HOT, color: '#fff', font: '800 26px Montserrat', opacity: lerp(f, [t.at, t.at + 4, t.at + 14, t.at + 20], [0, 1, 1, 0])}}>+ adicionado</div>
@@ -199,7 +230,6 @@ const P4: React.FC<{pos: any}> = ({pos}) => {
       <Headline kicker="Como funciona" lines={[{t: 'Seu cliente acessa'}, {t: 'pelo link.', c: HOT}]} at={r(T.B0, i)} out={r(T.escolhe, i) - 14} y={230} size={84} />
       <Headline kicker="Como funciona" lines={[{t: 'Escolhe, monta'}, {t: 'e envia.', c: HOT}]} at={r(T.escolhe, i) - 2} out={W0} y={230} size={84} />
       <Headline kicker="Sem comissão no meio" lines={[{t: 'O pedido chega'}, {t: 'no seu WhatsApp.', c: GREEN}]} at={W0 + 14} y={230} size={84} />
-      {/* selo "sem baixar aplicativo" */}
       {f >= r(T.semBaixar, i) && f < r(T.escolhe, i) && (
         <div style={{position: 'absolute', left: 0, right: 0, top: 1700, display: 'flex', justifyContent: 'center', opacity: Math.min(1, pill * 1.5) * lerp(f, [r(T.escolhe, i) - 10, r(T.escolhe, i)], [1, 0])}}>
           <div style={{padding: '16px 34px', borderRadius: 99, background: '#fff', color: RED, font: '800 34px Montserrat', transform: `scale(${interpolate(pill, [0, 1], [0.7, 1])})`, boxShadow: `0 20px 60px -10px ${RED}`}}>Sem baixar aplicativo</div>
@@ -215,7 +245,7 @@ const P5: React.FC = () => {
   const {fps} = useVideoConfig();
   const i = 4;
   const rows = [
-    {t: 'Tráfego pago', d: 'Time especializado em campanhas pagas na região.', at: r(T.trafego, i) - 4},
+    {t: 'Tráfego pago', d: 'Time especializado em campanhas pagas na região.', at: r(T.temos, i)},
     {t: 'Influenciadores regionais', d: 'Parcerias que levam a cidade inteira para o PedeAi.', at: r(T.influ, i) - 4},
   ];
   const mais = spring({frame: f - (r(T.consumidores, i) - 40), fps, config: {damping: 200}, durationInFrames: 16});
@@ -225,7 +255,8 @@ const P5: React.FC = () => {
       <Stage />
       <SpeedLines o={0.4 + 0.4 * mais} />
       <Dust />
-      <Headline kicker="Pode contar com a gente" lines={[{t: 'Nós levamos'}, {t: 'os clientes'}, {t: 'até você.', c: HOT}]} at={r(T.nos, i) - 4} y={230} size={96} />
+      <Headline kicker="Marketing a seu favor" lines={[{t: 'Pode contar'}, {t: 'com a gente.', c: HOT}]} at={r(T.C0, i)} out={r(T.nos, i) - 10} y={230} size={104} />
+      <Headline kicker="Pode contar com a gente" lines={[{t: 'Nós levamos'}, {t: 'os clientes'}, {t: 'até você.', c: HOT}]} at={r(T.nos, i) - 2} y={230} size={96} />
       {rows.map((row, j) => {
         const k = spring({frame: f - row.at, fps, config: {damping: 200}, durationInFrames: 16});
         return (
@@ -295,7 +326,7 @@ const P6: React.FC = () => {
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.95) 0%, rgba(10,2,3,.8) 20%, transparent 30%)'}} />
       <Headline kicker="Já está valendo" lines={[{t: 'Black Friday'}, {t: 'para parceiros.', c: HOT}]} at={r(T.D0, i)} out={PL - 6} y={230} size={100} />
       <Headline kicker="Black Friday para parceiros" lines={[{t: 'Planos a partir de'}, {t: 'R$ 39,90/mês.', c: HOT}]} at={PL} out={GA - 16} y={230} size={86} />
-      <Headline kicker="Oferta de lançamento" lines={[{t: 'Sem comissão.'}, {t: 'Sem risco.', c: HOT}]} at={GA - 6} out={AT - 4} y={230} size={104} />
+      <Headline kicker="Oferta de lançamento" lines={[{t: 'Sem comissão.'}, {t: 'Sem risco.', c: HOT}]} at={GA - 14} out={AT - 4} y={230} size={104} />
       <Headline kicker="Mas atenção" lines={[{t: 'Condição especial'}, {t: 'só até 30/11.', c: HOT}]} at={AT} y={230} size={90} />
       {checks.map(([c, at], j) => {
         const k = spring({frame: f - at, fps, config: {damping: 14, stiffness: 140}});
@@ -327,7 +358,7 @@ export const Parceiros: React.FC<{pos: any}> = ({pos}) => {
     <AbsoluteFill style={{background: '#000'}}>
       <style>{fontFaces}</style>
       {scenes.map((el, i) => <Sequence key={i} from={START[i]} durationInFrames={P_SCENES[i]} premountFor={15}>{el}</Sequence>)}
-      <Grain />
+      <AbsoluteFill style={{pointerEvents: 'none', mixBlendMode: 'overlay', opacity: 0.12}}><Img src={staticFile('grain/g0.png')} style={{width: 1080, height: 1920}} /></AbsoluteFill>
       {/* narração editada + trilha com ducking (−9 dB nas pausas, −19 dB sob a voz) + efeitos nos eventos da imagem */}
       <Audio src={staticFile('voz/narracao-parceiros.wav')} volume={1} />
       <Audio src={staticFile('sfx/trilha-parceiros.wav')} volume={(fr) => dbToGain(T.duck[Math.min(T.duck.length - 1, Math.max(0, fr))] + 3)} />
@@ -343,6 +374,10 @@ export const Parceiros: React.FC<{pos: any}> = ({pos}) => {
       <Sfx at={T.maisDinheiro} s="toque" v={0.2} />
       <Sfx at={T.maisControle} s="toque" v={0.2} />
       <Sfx at={s(3) + 2} s="whoosh-grave" v={0.3} />
+      <Sfx at={s(3) + 40} s="toque" v={0.35} />
+      <Sfx at={s(3) + 46} s="whoosh" v={0.18} />
+      <Sfx at={s(3) + 82} s="toque" v={0.35} />
+      <Sfx at={s(3) + 88} s="whoosh" v={0.25} />
       <Sfx at={T.semBaixar + 20} s="whoosh" v={0.2} />
       <Sfx at={T.escolhe + 4} s="adicionado" v={0.35} />
       <Sfx at={T.produtos + 6} s="adicionado" v={0.35} />
@@ -351,7 +386,7 @@ export const Parceiros: React.FC<{pos: any}> = ({pos}) => {
       <Sfx at={T.chega - 6} s="whoosh" v={0.4} />
       <Sfx at={T.chega + 8} s="mensagem" v={0.45} />
       <Sfx at={s(4) + 2} s="whoosh-grave" v={0.3} />
-      <Sfx at={T.trafego - 4} s="whoosh" v={0.2} />
+      <Sfx at={T.temos} s="whoosh" v={0.2} />
       <Sfx at={T.influ - 4} s="whoosh" v={0.2} />
       <Sfx at={T.lojas350 - 10} s="toque" v={0.3} />
       <Sfx at={s(5) + 2} s="whoosh-grave" v={0.3} />

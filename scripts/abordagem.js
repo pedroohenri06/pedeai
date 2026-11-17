@@ -76,7 +76,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .acts .fup{background:#fff7e6;border-color:#f0c060;color:#7a4b00;flex:1;justify-content:center}.acts .fup svg{width:18px;height:18px}
 .peak{background:#fff1d6;color:#7a4b00;border-radius:12px;padding:10px 14px;font-weight:600;font-size:13.5px;margin-bottom:12px}
 .tags{display:flex;gap:4px;flex-wrap:wrap;justify-content:flex-end}.tag.nm-tag{background:#fde7e9;color:#b3121f}.tag.ok-tag{background:#e2f5ea;color:#1f8a4c}
-.nomenu{margin-top:8px;padding:8px 12px;border-radius:10px;background:#fff4f4;color:#7d1019;font-size:13px}.nomenu.filme{background:#fff7e0;color:#6b4a00}.nomenu a{color:#b3121f;font-weight:700}
+.passos{margin:0 0 14px;padding:12px 14px;border-radius:12px;background:#fff7e0;color:#6b4a00;font-size:14px;line-height:1.45}.nomenu{margin-top:8px;padding:8px 12px;border-radius:10px;background:#fff4f4;color:#7d1019;font-size:13px}.nomenu.filme{background:#fff7e0;color:#6b4a00}.nomenu a{color:#b3121f;font-weight:700}
 .acts .copy{flex:1;justify-content:center;background:#f7f2ee}
 .script{margin-top:10px;border-top:1px dashed var(--line);padding-top:8px}
 .script summary{font-weight:800;font-size:14px;cursor:pointer;color:var(--red);padding:8px 0;list-style:none}.script summary::-webkit-details-marker{display:none}.script summary::before{content:'▸ '}.script[open] summary::before{content:'▾ '}
@@ -99,7 +99,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     <button data-f="carrinho" aria-pressed="true">✓ Carrinho ok</button><button data-f="todos">Todos</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button><button data-f="semcardapio">Sem cardápio</button>
   </div>
   <p class="peak" id="peak" hidden>Agora é horário de pico dos restaurantes. Prefira enviar das 9h às 11h ou das 14h30 às 17h.</p>
-  <details class="msg"><summary>Ver as mensagens (abertura e lembretes)</summary><pre id="msgPreview"></pre></details>
+  <div class="passos"><b>Como abordar:</b> 1) envie o <b>vídeo dos parceiros</b> (versão WhatsApp, em HD) · 2) toque em <b>Enviar mensagem</b> · 3) com o responsável, use o <b>Script da conversa</b>.</div>
+  <details class="msg"><summary>Ver as mensagens (primeiro contato e lembretes)</summary><pre id="msgPreview"></pre></details>
   <div id="list"></div>
   <p class="note">O progresso fica salvo neste celular. Use sempre o mesmo aparelho para a abordagem.</p>
 </main>
@@ -121,21 +122,28 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   if (cities.indexOf(city) < 0) city = cities[0];
   var filter = 'carrinho'; // foco do dia: lojas com o carrinho funcionando
 
-  // Etapa 1 do fluxo (data/research/comercial/agente-vendas.md): curta, sem link, pergunta pelo responsável.
+  // Abordagem curta: o vídeo dos parceiros explica o PedeAi; o texto só diz quem somos, mostra a prévia e pede o responsável.
+  function linkLoja(s) { return SITE + '#/loja/' + s.id; }
+  function exemplo(s) { return s.ex ? SITE + '#/loja/' + s.ex.id : SITE; }
+  function quando() { return Date.now() >= LANCAMENTO ? 'que já está no ar' : 'que estreia dia 25/11'; }
+  // 1º contato: enviar logo depois do vídeo dos parceiros.
   function message(s) {
-    return 'Olá, tudo bem? Aqui é do PedeAi Delivery. Estamos trazendo mais pedidos de delivery para os restaurantes de ' + s.c + ', sem cobrar comissão. Falo com o responsável pela loja ' + s.n + '?';
+    return 'Olá! Somos o PedeAi Delivery, a nova plataforma de delivery do Vale do Araguaia, ' + quando() + '.\\n\\n' +
+      (s.m ? 'Já deixamos uma prévia do cardápio da ' + s.n + ' na plataforma: ' + linkLoja(s) + '\\n\\nPara alinhar a parceria, consigo falar com o responsável?'
+           : 'Veja como fica uma loja na nossa plataforma: ' + exemplo(s) + '\\n\\nPara colocar a ' + s.n + ' no PedeAi, consigo falar com o responsável?') +
+      ' Se preferir, me passa o contato dele.';
   }
   function followUp(s, n) {
-    var launched = Date.now() >= LANCAMENTO;
     return n === 1
-      ? 'Olá, tudo bem? Retomando meu contato do PedeAi Delivery: ' + (launched ? 'estamos no ar em ' + s.c : 'estreamos em ' + s.c + ' no dia 25/11') + ', com campanhas de tráfego pago e influenciadores locais levando clientes para os restaurantes da cidade' + (s.m ? ', e a loja ' + s.n + ' já tem o cardápio cadastrado na plataforma' : '') + '. Com quem posso falar sobre a ativação da loja ' + s.n + '?'
-      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se em algum momento quiser receber mais pedidos de delivery sem pagar comissão, é só me chamar por aqui. Desejo ótimas vendas!';
+      ? 'Oi! Conseguiu ver ' + (s.m ? 'a prévia do cardápio da ' + s.n : 'como fica uma loja no PedeAi') + '? 😊 Com quem posso falar para alinhar a parceria?'
+      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se quiser vender no delivery sem pagar comissão, é só me chamar por aqui. Ótimas vendas!';
   }
-  // Etapa 2A: apresentação para quem respondeu que é o responsável. Sem cardápio: mostra um exemplo bem feito.
+  // Com o responsável (contato passado pela loja): curta, com a prévia e o pedido de teste.
   function intro(s) {
-    if (s.m && s.o) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nNosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nO cardápio de vocês já está pronto na plataforma: ' + SITE + '#/loja/' + s.id + '\\n\\nFaça um pedido de teste como cliente: escolha os itens, complete as 3 etapas e envie. Ele chega pronto no WhatsApp da loja, como os seus clientes vão mandar.\\n\\nSe algum item estiver sem foto, é só nos enviar que a nossa equipe atualiza o cardápio.\\n\\nDepois me conta o que achou!';
-    if (s.m) return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nNosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nO cardápio de vocês já está pronto na plataforma: ' + SITE + '#/loja/' + s.id + '\\n\\nPara liberar o envio dos pedidos, só preciso confirmar: este número é o WhatsApp que recebe os pedidos da loja? Confirmando, liberamos na hora e você já faz um pedido de teste como cliente.\\n\\nSe algum item estiver sem foto, é só nos enviar que a nossa equipe atualiza o cardápio.';
-    return 'Que bom falar com você! Sou a assistente virtual do PedeAi Delivery.\\n\\nVou direto ao ponto: o nosso trabalho é colocar mais clientes pedindo no delivery da loja ' + s.n + ', *sem cobrar comissão de nenhum pedido*.\\n\\nVeja como fica um restaurante na plataforma: ' + (s.ex ? SITE + '#/loja/' + s.ex.id : SITE) + '\\n\\nFaça o teste como se fosse um cliente: escolha os itens e passe pelas 3 etapas (pedido, entrega e pagamento) para sentir a experiência. Só não precisa enviar no final, porque esse cardápio é de outro restaurante.\\n\\nA loja ' + s.n + ' pode ficar assim também: você nos envia as fotos dos pratos e a nossa equipe monta todo o cardápio. Me conta o que achou!';
+    var oi = 'Olá! Aqui é do PedeAi Delivery. A equipe da ' + s.n + ' me passou seu contato.\\n\\n';
+    if (s.m && s.o) return oi + 'Já deixamos uma prévia do cardápio de vocês na nossa plataforma: ' + linkLoja(s) + '\\nFaz um pedido de teste e vê ele chegando no WhatsApp da loja. 😉';
+    if (s.m) return oi + 'Já deixamos uma prévia do cardápio de vocês na nossa plataforma: ' + linkLoja(s) + '\\n\\nSó preciso confirmar: este é o WhatsApp que recebe os pedidos da loja? Confirmando, já liberamos o envio dos pedidos.';
+    return oi + 'Veja como fica uma loja na nossa plataforma: ' + exemplo(s) + '\\nA ' + s.n + ' pode ficar assim também: você nos envia o cardápio e as fotos, e a nossa equipe monta tudo.';
   }
   function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
   function today() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
@@ -165,61 +173,47 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
         : (s.t ? '<a href="tel:+' + (s.t.length > 11 ? s.t : '55' + s.t) + '">Ligar</a>' : '') + (s.ig ? '<a target="_blank" rel="noopener" href="' + esc(s.ig.indexOf('http') === 0 ? s.ig : 'https://instagram.com/' + s.ig.replace('@', '')) + '">Instagram</a>' : '');
       return '<div class="card st-' + x + '"><div class="top"><div><div class="nm">' + esc(s.n) + '</div><div class="meta">' + esc([s.k, s.b].filter(Boolean).join(' · ')) + (s.w ? '' : ' · sem WhatsApp cadastrado') + '</div></div>' +
         '<span class="tags">' + (!s.m ? '<span class="tag nm-tag">Sem cardápio</span>' : s.o ? '<span class="tag ok-tag">✓ Carrinho ok</span>' : '<span class="tag nm-tag">Sem WhatsApp no carrinho</span>') + (x !== 'novo' ? '<span class="tag ' + x + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[x] + '</span>' : '') + '</span></div>' +
-        (s.m && !s.o && s.w ? '<div class="nomenu"><b>Sem WhatsApp no carrinho:</b> o pedido de teste não envia até o dono confirmar o número. A apresentação já pede a confirmação; quando o dono confirmar, avise o Claude para liberar.</div>' : '') +
-        (FILME[s.id] ? '<div class="nomenu filme"><b>Loja da campanha de lançamento:</b> ofereça <b>1 mês grátis</b> em qualquer plano (mensagens em "Condição especial", no script)' + (FILME[s.id].aut ? '.' : '. <b>Peça a autorização do vídeo antes de publicar.</b>') + '</div>' : '') +
-        (s.m ? '' : '<div class="nomenu"><b>Sem cardápio na plataforma.</b> Na apresentação, mostre um exemplo' + (s.ex ? ': <a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.ex.id + '">' + esc(s.ex.n) + (s.ex.c !== s.c ? ' (' + esc(s.ex.c) + ')' : '') + '</a>' : '') + '.</div>') +
+        (s.m && !s.o && s.w ? '<div class="nomenu"><b>Sem WhatsApp no carrinho:</b> o pedido de teste não envia até o dono confirmar o número. A mensagem para o responsável já pede a confirmação; quando ele confirmar, avise o Claude para liberar.</div>' : '') +
+        (FILME[s.id] ? '<div class="nomenu filme"><b>Loja da campanha de lançamento:</b> ofereça <b>1 mês grátis</b> em qualquer plano' + (FILME[s.id].aut ? '.' : '. <b>Peça a autorização do vídeo antes de publicar.</b>') + '</div>' : '') +
+        (s.m ? '' : '<div class="nomenu"><b>Sem cardápio na plataforma.</b> As mensagens mostram um exemplo' + (s.ex ? ': <a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.ex.id + '">' + esc(s.ex.n) + (s.ex.c !== s.c ? ' (' + esc(s.ex.c) + ')' : '') + '</a>' : '') + '.</div>') +
         '<div class="acts">' + send + '<a target="_blank" rel="noopener" href="' + SITE + '#/loja/' + s.id + '">Ver loja</a></div>' +
         followBtns(s, x, rec) + (s.w ? '<details class="script" data-script="' + s.id + '"><summary>Script da conversa (já com nome e links)</summary><div class="sc-body"></div></details>' : '') +
         (x !== 'novo' ? '<div class="st" data-id="' + s.id + '">' + ['enviado', 'respondeu', 'fechou', 'sem'].map(function (k) { return '<button data-s="' + k + '" aria-pressed="' + (x === k) + '">' + { enviado: 'Enviado', respondeu: 'Respondeu', fechou: 'Fechou', sem: 'Sem interesse' }[k] + '</button>'; }).join('') + '<button data-s="novo">Desfazer</button></div>' : '') +
         (rec.at ? '<div class="when">Enviado em ' + new Date(rec.at).toLocaleDateString('pt-BR') + '</div>' : '') + '</div>';
     }).join('') : '<p class="empty">Nenhuma loja neste filtro.</p>';
     var first = S.filter(function (s) { return s.c === city && s.w; })[0];
-    document.getElementById('msgPreview').textContent = first ? '1) Abertura\\n' + message(first) + '\\n\\n2) Lembrete (2 dias sem resposta)\\n' + followUp(first, 1) + '\\n\\n3) Último lembrete (5 dias)\\n' + followUp(first, 2) : '';
+    document.getElementById('msgPreview').textContent = first ? '1) Primeiro contato (depois do vídeo)\\n' + message(first) + '\\n\\n2) Lembrete (2 dias sem resposta)\\n' + followUp(first, 1) + '\\n\\n3) Último lembrete (5 dias)\\n' + followUp(first, 2) : '';
   }
 
   /* ---- Script completo da conversa, já com nome, cidade e links de cada loja ---- */
   var BF_FIM = Date.parse('2026-11-30T23:59:59-04:00');
   var PAY = {
-    essencial: { nome: 'Essencial', anual: 'https://pay.finaliza.shop/pl/fb9a7d84b9', bf: 'https://pay.finaliza.shop/pl/fb9a7d84b9', preco: '39,90', precoBf: '39,90' },
-    destaque: { nome: 'Destaque', anual: 'https://pay.finaliza.shop/pl/e207b309b9', bf: 'https://pay.finaliza.shop/pl/7e291424ba', preco: '54,90', precoBf: '47,90' },
-    premium: { nome: 'Premium', anual: 'https://pay.finaliza.shop/pl/3619cd3240', bf: 'https://pay.finaliza.shop/pl/d891342cf4', preco: '79,90', precoBf: '69,90' }
+    essencial: { nome: 'Essencial', anual: 'https://pay.finaliza.shop/pl/fb9a7d84b9', bf: 'https://pay.finaliza.shop/pl/fb9a7d84b9', preco: '39,90', precoBf: '39,90', mensal: 'https://pay.finaliza.shop/pl/4d26628c0a', precoMensal: '49,90' },
+    destaque: { nome: 'Destaque', anual: 'https://pay.finaliza.shop/pl/e207b309b9', bf: 'https://pay.finaliza.shop/pl/7e291424ba', preco: '54,90', precoBf: '47,90', mensal: 'https://pay.finaliza.shop/pl/6cb9a0bf23', precoMensal: '74,90' },
+    premium: { nome: 'Premium', anual: 'https://pay.finaliza.shop/pl/3619cd3240', bf: 'https://pay.finaliza.shop/pl/d891342cf4', preco: '79,90', precoBf: '69,90', mensal: 'https://pay.finaliza.shop/pl/d4c56037ef', precoMensal: '99,90' }
   };
   // Lojas que aparecem no vídeo da campanha de lançamento: 1 mês grátis em qualquer plano (a Le Monde ainda precisa autorizar).
   var FILME = { 'dantes-barra-do-garcas': { aut: true }, 'le-monde-burguer-hamburgueria-barra-do-garcas': { aut: false } };
   function bfOn() { return Date.now() < BF_FIM; }
-  function lojaLink(s) { return s.m ? 'Veja como a loja ' + s.n + ' aparece: ' + SITE + '#/loja/' + s.id : (s.ex ? 'Veja como fica um restaurante na plataforma: ' + SITE + '#/loja/' + s.ex.id : ''); }
   function script(s) {
-    var launched = Date.now() >= LANCAMENTO, bf = bfOn(), N = '\\n';
-    var when = launched ? 'que já está no ar' : 'que estreia no dia 25/11';
+    var bf = bfOn(), N = '\\n';
     var pr = function (k) { return bf ? PAY[k].precoBf : PAY[k].preco; };
-    var close = function (k) {
-      return 'Excelente escolha! Para ativar o plano ' + PAY[k].nome + ' anual' + (bf ? ' com o preço de Black Friday' : '') + ', é só concluir por aqui: ' + (bf ? PAY[k].bf : PAY[k].anual) + N + N +
-        'Assim que o pagamento for confirmado, você nos envia as fotos dos pratos e o cardápio, e a nossa equipe deixa a loja ' + s.n + ' pronta no mesmo dia. Qualquer dúvida, estou à disposição.';
-    };
+    var anual = function (k) { return 'Ótima escolha! Segue o link para ativar o plano ' + PAY[k].nome + ' anual' + (bf ? ' com preço de Black Friday' : '') + ' (R$ ' + pr(k) + '/mês): ' + (bf ? PAY[k].bf : PAY[k].anual) + N + N + 'Assim que o pagamento for confirmado, a ' + s.n + ' fica pronta para o lançamento.'; };
+    var mensal = function (k) { return 'Ótima escolha! Segue o link para ativar o plano ' + PAY[k].nome + ' mensal, sem fidelidade (R$ ' + PAY[k].precoMensal + '/mês): ' + PAY[k].mensal + N + N + 'Assim que o pagamento for confirmado, a ' + s.n + ' fica pronta para o lançamento.'; };
     var fm = FILME[s.id];
-    var abertura = fm ? 'Olá, tudo bem? Aqui é do PedeAi Delivery, a nova plataforma de delivery do Vale do Araguaia, ' + when + ' em ' + s.c + ' e em mais 9 cidades da região.\\n\\n' +
-      'Estamos preparando a nossa campanha de lançamento, e a ' + s.n + ' foi uma das hamburguerias selecionadas para aparecer no vídeo oficial' + (fm.aut ? '' : ', ao lado da Dantes') + '. Escolhemos vocês pela qualidade do cardápio: fotos caprichadas, pratos muito bem apresentados e uma marca forte, exatamente o que queremos mostrar para a cidade.\\n\\n' +
-      'Esse vídeo vai rodar em anúncios pagos em ' + s.c + ' e em todo o Vale do Araguaia, levando a marca de vocês para milhares de pessoas da região.\\n\\n' +
-      'Veja como a ' + s.n + ' já aparece na plataforma: ' + SITE + '#/loja/' + s.id + '\\n\\n' +
-      (fm.aut ? 'Posso te mandar o vídeo para você ver como ficou?' : 'Antes de publicar, queremos a autorização de vocês. Posso te mandar o vídeo?') : '';
-    var mes = 'Como agradecimento por fazerem parte da nossa campanha de lançamento, preparamos uma condição especial para a ' + s.n + ': independente do plano que vocês assinarem, vocês ganham *um mês grátis*. Os planos começam em R$ 39,90 por mês, sem fidelidade e sem comissão sobre os pedidos.';
     return [
-      fm ? { g: 'Condição especial · campanha de lançamento', t: fm.aut ? 'Abertura · quem somos e por que vocês' : 'Abertura · quem somos, por que vocês e autorização', m: abertura } : null,
-      fm ? { g: 'Condição especial · campanha de lançamento', t: 'Condição: 1 mês grátis em qualquer plano', m: mes } : null,
-      { g: 'Se for o responsável', t: 'Apresentação + teste do cardápio', m: intro(s) },
-      s.m && !s.o ? { g: 'Se for o responsável', t: 'Número confirmado: pedido liberado (avise o Claude antes)', m: 'Obrigado pela confirmação! O envio de pedidos da loja ' + s.n + ' está liberado.\\n\\nFaça o teste como cliente: ' + SITE + '#/loja/' + s.id + '\\nEscolha os itens, complete as 3 etapas e envie. O pedido chega pronto aqui no WhatsApp da loja.\\n\\nDepois me conta o que achou!' } : null,
-      { g: 'Se for o responsável', t: 'Depois do teste: como vamos levar clientes', m: 'Agora imagina isso acontecendo com os seus clientes todos os dias. É assim que vamos levar pedidos até a loja ' + s.n + ':\\n\\n• Um time de gestores de tráfego rodando campanhas pagas intensas em ' + s.c + ' e nas 10 cidades do Vale do Araguaia, levando o público direto para a plataforma\\n• Campanhas com influenciadores locais divulgando o PedeAi para a cidade inteira\\n• Cada cliente escolhe no cardápio e o pedido cai pronto no seu WhatsApp: sem comissão, 100% da venda é sua\\n• Nossa equipe monta e atualiza o seu cardápio; você só envia as fotos\\n\\nEnquanto os aplicativos comuns ficam com uma fatia de cada pedido, aqui você paga um plano fixo que começa em R$ 39,90 por mês.\\n\\nPosso te mostrar as condições de lançamento?' },
-      { g: 'Se NÃO for o responsável', t: 'Pedir o contato do responsável', m: 'Sem problema, obrigado pelo retorno! Você consegue me passar o contato do responsável pela loja ' + s.n + '? Se preferir, posso deixar uma mensagem curta para você repassar.' },
-      { g: 'Se NÃO for o responsável', t: 'Recado para repassar', m: 'Perfeito! Segue a mensagem para repassar ao responsável:\\n\\nO PedeAi Delivery está trazendo mais pedidos de delivery para os restaurantes de ' + s.c + ', sem cobrar comissão. Nosso time de tráfego pago e influenciadores locais leva clientes para a plataforma, e cada pedido chega pronto no WhatsApp da loja.\\n\\n' + lojaLink(s) + '\\n\\nPlanos a partir de R$ 39,90 por mês' + (bf ? ', com condições de Black Friday até 30/11' : '') + ': ' + SITE + 'planos\\n\\nPara falar com o nosso time comercial, é só responder esta mensagem. Obrigado!' },
-      { g: 'Entender o restaurante', t: 'Pergunta 1 · como recebe pedidos', m: 'Para eu te indicar o plano ideal: hoje vocês já trabalham com delivery? Os pedidos chegam por WhatsApp, telefone ou aplicativo?' },
-      { g: 'Entender o restaurante', t: 'Pergunta 2 · volume', m: 'E, em média, quantos pedidos de delivery vocês fazem por dia? Quanto gostaria de fazer?' },
-      { g: 'Entender o restaurante', t: 'Pergunta 3 · comissão', m: 'Vocês usam hoje algum aplicativo de delivery que cobra comissão por pedido?' },
-      { g: 'Oferta', t: 'Condições de lançamento', m: 'Essas são as condições de lançamento para a loja ' + s.n + ':\\n\\n✅ Comissão zero em todos os pedidos\\n✅ Cardápio montado pela nossa equipe e loja pronta no mesmo dia\\n✅ Tráfego pago e influenciadores levando clientes para a plataforma\\n✅ Planos a partir de *R$ 39,90 por mês*, inclusive *sem fidelidade*\\n✅ Garantia de 7 dias: se não gostar, devolvemos 100%\\n✅ Preço travado: se o PedeAi reajustar, você continua pagando o mesmo até o fim do plano' + (bf ? '\\n\\n⏳ No plano anual, os preços de Black Friday valem só até 30/11.' : '') + '\\n\\nVeja os planos: ' + SITE + 'planos\\n\\nQuer que eu te indique o plano ideal para a loja ' + s.n + ', ou prefere falar com um especialista do nosso time comercial?' },
-      { g: 'Fechamento', t: 'Fechar Essencial anual · R$ ' + pr('essencial') + '/mês', m: close('essencial') },
-      { g: 'Fechamento', t: 'Fechar Destaque anual · R$ ' + pr('destaque') + '/mês', m: close('destaque') },
-      { g: 'Fechamento', t: 'Fechar Premium anual · R$ ' + pr('premium') + '/mês', m: close('premium') },
-      { g: 'A qualquer momento', t: 'Passar para o especialista (você)', m: 'Perfeito! Vou passar o seu atendimento para o Pedro Henrique, especialista do nosso time comercial. Ele continua a conversa com você por aqui em instantes.' },
-      { g: 'A qualquer momento', t: 'Respondeu SAIR / sem interesse', m: 'Tudo certo, obrigado pelo retorno! Não vou enviar mais mensagens. Se um dia quiser conhecer o PedeAi Delivery, é só chamar por aqui. Boas vendas!', sem: true }
+      { g: '1 · Primeiro contato (envie logo depois do vídeo dos parceiros)', t: 'Quem somos + prévia + pedir o responsável', m: message(s) },
+      { g: '1 · Primeiro contato (envie logo depois do vídeo dos parceiros)', t: 'Se perguntarem "como assim?"', m: 'Para o lançamento, a nossa equipe montou uma prévia do cardápio de várias lojas de ' + s.c + ' na plataforma' + (s.m ? ', inclusive da ' + s.n : '') + '. Agora queremos alinhar a parceria com o responsável. Consegue me passar o contato dele?' },
+      { g: '2 · Com o responsável', t: 'Apresentação + prévia', m: intro(s) },
+      s.m && !s.o ? { g: '2 · Com o responsável', t: 'Número confirmado: pedidos liberados (avise o Claude antes)', m: 'Obrigado! O envio de pedidos da ' + s.n + ' está liberado. Faz um pedido de teste e vê ele chegando aqui: ' + linkLoja(s) } : null,
+      fm ? { g: '2 · Com o responsável', t: fm.aut ? 'Loja da campanha: o vídeo' : 'Loja da campanha: o vídeo + autorização', m: 'A ' + s.n + ' foi uma das lojas escolhidas para aparecer no vídeo da nossa campanha de lançamento, que mostra na prática como a plataforma funciona.' + (fm.aut ? '' : ' Antes de publicar, precisamos da autorização de vocês. Podemos manter a loja no vídeo?') } : null,
+      { g: '3 · Oferta', t: fm ? 'Planos + 1 mês grátis (loja da campanha)' : 'Planos', m: (fm ? 'Por fazerem parte da campanha, vocês ganham *1 mês grátis* em qualquer plano 🎁' + N + N : '') + 'Planos a partir de *R$ 39,90/mês*, sem comissão e com opção sem fidelidade. Garantia de 7 dias.' + N + N + 'Veja os planos: ' + SITE + 'planos' },
+      { g: '4 · Fechamento', t: 'Essencial mensal · R$ ' + PAY.essencial.precoMensal, m: mensal('essencial') },
+      { g: '4 · Fechamento', t: 'Essencial anual · R$ ' + pr('essencial') + '/mês', m: anual('essencial') },
+      { g: '4 · Fechamento', t: 'Destaque anual · R$ ' + pr('destaque') + '/mês', m: anual('destaque') },
+      { g: '4 · Fechamento', t: 'Premium anual · R$ ' + pr('premium') + '/mês', m: anual('premium') },
+      { g: 'A qualquer momento', t: 'Passar para o especialista (você)', m: 'Perfeito! Vou passar o seu atendimento para o Pedro Henrique, do nosso time comercial. Ele continua com você por aqui em instantes.' },
+      { g: 'A qualquer momento', t: 'Respondeu SAIR / sem interesse', m: 'Tudo certo, obrigado pelo retorno! Não vou enviar mais mensagens. Se quiser conhecer o PedeAi Delivery, é só chamar por aqui. Boas vendas!', sem: true }
     ].filter(Boolean).map(function (x) { x.m = x.m.split(N).join('\\n'); return x; });
   }
   function scriptHtml(s) {

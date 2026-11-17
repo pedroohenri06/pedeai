@@ -49,11 +49,12 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
 .st-a{display:flex;gap:8px;margin-top:8px}.st-a button,.st-a a{flex:1;height:40px;border-radius:10px;border:1px solid var(--line);background:#fff;font:700 13px 'DM Sans';color:var(--ink);display:inline-flex;align-items:center;justify-content:center;text-decoration:none}
 .st-a a{background:#1f9d55;border-color:#1f9d55;color:#fff}
 .cnt-ok{color:#7fe0a6;font-weight:800}.bar button[aria-pressed=true] .cnt-ok{color:#1f8a4c}
+.passos ul{margin:6px 0 0;padding-left:18px}.passos li{margin:2px 0}.si.au{background:#fff7e0;border-color:#f0c060}.mic{display:inline-block;font:800 10.5px 'DM Sans';letter-spacing:.06em;background:#7a4b00;color:#fff;border-radius:6px;padding:2px 6px;margin-right:6px;vertical-align:1px}.card>.si.au{margin-top:10px}
 .empty{padding:30px;text-align:center;color:var(--muted)}
 .note{font-size:12.5px;color:var(--muted);margin:16px 0 0;text-align:center}
 </style></head><body>
 <header>
-  <h1>Abordagem de parceiros<small>Uma cidade por vez · 30 a 50 por dia · 9h–11h e 14h30–17h</small></h1>
+  <h1>Abordagem de parceiros<small>Uma cidade por vez · 30 a 50 por dia · 9h–11h e 14h30–17h · no máximo 4 contatos por loja</small></h1>
   <div class="bar" id="cities" role="group" aria-label="Cidade"></div>
   <div class="stats" id="stats"></div>
 </header>
@@ -62,8 +63,9 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     <button data-f="carrinho" aria-pressed="true">✓ Carrinho ok</button><button data-f="todos">Todos</button><button data-f="novo">A enviar</button><button data-f="enviado">Enviados</button><button data-f="respondeu">Responderam</button><button data-f="fechou">Fecharam</button><button data-f="sem">Sem interesse</button><button data-f="semcardapio">Sem cardápio</button>
   </div>
   <p class="peak" id="peak" hidden>Agora é horário de pico dos restaurantes. Prefira enviar das 9h às 11h ou das 14h30 às 17h.</p>
-  <div class="passos"><b>Como abordar:</b> 1) envie o <b>vídeo dos parceiros</b> (versão WhatsApp, em HD) · 2) toque em <b>Enviar mensagem</b> · 3) com o responsável, use o <b>Script da conversa</b>.</div>
-  <details class="msg"><summary>Ver as mensagens (primeiro contato e lembretes)</summary><pre id="msgPreview"></pre></details>
+  <div class="passos"><b>Cadência (máximo 4 contatos sem resposta):</b> dia 0 vídeo dos parceiros + texto · dia 1 <b>áudio</b> · dia 3 texto curto · dia 6 encerramento. Depois, pare.
+<ul><li>Responda em até 5 minutos. Quem responde rápido fecha mais.</li><li>Toda mensagem termina com uma pergunta.</li><li>Na oferta, dê duas opções (mensal ou anual), nunca "quer?".</li><li>Objeção: concorde, pergunte o motivo e responda curto.</li><li>Áudio: até 30 s, nome da loja no começo, voz animada.</li><li>Fechou? Peça as fotos e uma indicação na hora.</li></ul></div>
+  <details class="msg"><summary>Ver a cadência completa (4 contatos)</summary><pre id="msgPreview"></pre></details>
   <div id="list"></div>
   <p class="note">O progresso fica salvo neste celular. Use sempre o mesmo aparelho para a abordagem.</p>
 </main>
@@ -85,28 +87,43 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   if (cities.indexOf(city) < 0) city = cities[0];
   var filter = 'carrinho'; // foco do dia: lojas com o carrinho funcionando
 
-  // Abordagem curta: o vídeo dos parceiros explica o PedeAi; o texto só diz quem somos, mostra a prévia e pede o responsável.
+  // Cadência fixa: no máximo 4 contatos por loja sem resposta. O 2º contato é sempre por áudio.
+  // Mensagens curtas, sem emoji, sempre terminando em pergunta.
+  var NLOJAS = 340, NCID = 10;
   function linkLoja(s) { return SITE + '#/loja/' + s.id; }
   function exemplo(s) { return s.ex ? SITE + '#/loja/' + s.ex.id : SITE; }
-  function quando() { return Date.now() >= LANCAMENTO ? 'que já está no ar' : 'que estreia dia 25/11'; }
-  // 1º contato: enviar logo depois do vídeo dos parceiros.
+  function lancou() { return Date.now() >= LANCAMENTO; }
+  function quando() { return lancou() ? 'que já está no ar' : 'que estreia dia 25/11'; }
+  function previa(s) { return s.m ? 'Montamos uma prévia do cardápio da ' + s.n + ': ' + linkLoja(s) : 'Veja como fica uma loja na plataforma: ' + exemplo(s); }
+  // Contato 1 (dia 0): logo depois do vídeo dos parceiros.
   function message(s) {
-    return 'Olá! Somos o PedeAi Delivery, a nova plataforma de delivery do Vale do Araguaia, ' + quando() + '.\n\n' +
-      (s.m ? 'Já deixamos uma prévia do cardápio da ' + s.n + ' na plataforma: ' + linkLoja(s) + '\n\nPara alinhar a parceria, consigo falar com o responsável?'
-           : 'Veja como fica uma loja na nossa plataforma: ' + exemplo(s) + '\n\nPara colocar a ' + s.n + ' no PedeAi, consigo falar com o responsável?') +
-      ' Se preferir, me passa o contato dele.';
+    return 'Olá! Aqui é o Pedro Henrique, do PedeAi Delivery, a nova plataforma de delivery do Vale do Araguaia, ' + quando() + '.\n\n' +
+      previa(s) + '\n\nQuem é o responsável pela loja? Quero mostrar como vender no delivery sem pagar comissão.';
+  }
+  // Contatos 2 a 4, só se não houver resposta. n = 1 (áudio, dia 1), 2 (texto, dia 3), 3 (encerramento, dia 6).
+  var CAD = [
+    { d: 1, tipo: 'audio', nome: 'Contato 2 · Áudio (dia 1)' },
+    { d: 3, tipo: 'texto', nome: 'Contato 3 · Texto curto (dia 3)' },
+    { d: 6, tipo: 'texto', nome: 'Contato 4 · Encerramento (dia 6)' }
+  ];
+  function audio1(s) {
+    return 'Oi, pessoal da ' + s.n + ', tudo bem? Aqui é o Pedro Henrique, do PedeAi Delivery. ' +
+      'Mandei pra vocês ' + (s.m ? 'a prévia do cardápio da loja' : 'como fica uma loja na plataforma') + '. A ideia é simples: o cliente pede pelo link, o pedido chega pronto no WhatsApp de vocês e não tem comissão nenhuma. ' +
+      (lancou() ? 'A gente já está no ar em ' + s.c : 'Dia 25 a gente estreia em ' + s.c) + ', com tráfego pago e influenciadores trazendo cliente. ' +
+      'Quem é a pessoa certa pra eu explicar em dois minutinhos?';
   }
   function followUp(s, n) {
-    return n === 1
-      ? 'Oi! Conseguiu ver ' + (s.m ? 'a prévia do cardápio da ' + s.n : 'como fica uma loja no PedeAi') + '? 😊 Com quem posso falar para alinhar a parceria?'
-      : 'Olá! Esta é a minha última mensagem, para não tomar o seu tempo. Se quiser vender no delivery sem pagar comissão, é só me chamar por aqui. Ótimas vendas!';
+    if (n === 1) return audio1(s);
+    if (n === 2) return (lancou() ? 'O PedeAi já está no ar em ' + s.c + ', com campanhas de tráfego pago e influenciadores.' : 'A estreia do PedeAi em ' + s.c + ' é dia 25/11, com campanhas de tráfego pago e influenciadores.') +
+      '\n\nFaz sentido a ' + s.n + ' entrar? Pode responder só sim ou não.';
+    return 'Como não tive retorno, vou encerrar por aqui para não incomodar. Se quiser vender no delivery sem pagar comissão, é só me chamar neste número.';
   }
-  // Com o responsável (contato passado pela loja): curta, com a prévia e o pedido de teste.
+  // Com o responsável: apresentação + prévia + pergunta de diagnóstico.
   function intro(s) {
-    var oi = 'Olá! Aqui é do PedeAi Delivery. A equipe da ' + s.n + ' me passou seu contato.\n\n';
-    if (s.m && s.o) return oi + 'Já deixamos uma prévia do cardápio de vocês na nossa plataforma: ' + linkLoja(s) + '\nFaz um pedido de teste e vê ele chegando no WhatsApp da loja. 😉';
-    if (s.m) return oi + 'Já deixamos uma prévia do cardápio de vocês na nossa plataforma: ' + linkLoja(s) + '\n\nSó preciso confirmar: este é o WhatsApp que recebe os pedidos da loja? Confirmando, já liberamos o envio dos pedidos.';
-    return oi + 'Veja como fica uma loja na nossa plataforma: ' + exemplo(s) + '\nA ' + s.n + ' pode ficar assim também: você nos envia o cardápio e as fotos, e a nossa equipe monta tudo.';
+    var oi = 'Olá! Aqui é o Pedro Henrique, do PedeAi Delivery. A equipe da ' + s.n + ' me passou seu contato.\n\n' + previa(s) + '\n\n';
+    if (s.m && s.o) return oi + 'Faz um pedido de teste e veja ele chegando no WhatsApp da loja. Hoje vocês vendem no delivery por aplicativo, pelo WhatsApp ou pelos dois?';
+    if (s.m) return oi + 'Só preciso confirmar: este é o WhatsApp que recebe os pedidos da loja? Confirmando, já liberamos o envio dos pedidos.';
+    return oi + 'A ' + s.n + ' pode ficar assim também: você manda o cardápio e as fotos, e a nossa equipe monta tudo no mesmo dia. Hoje vocês vendem no delivery por aplicativo, pelo WhatsApp ou pelos dois?';
   }
   function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
   function today() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
@@ -145,7 +162,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
         (rec.at ? '<div class="when">Enviado em ' + new Date(rec.at).toLocaleDateString('pt-BR') + '</div>' : '') + '</div>';
     }).join('') : '<p class="empty">Nenhuma loja neste filtro.</p>';
     var first = S.filter(function (s) { return s.c === city && s.w; })[0];
-    document.getElementById('msgPreview').textContent = first ? '1) Primeiro contato (depois do vídeo)\n' + message(first) + '\n\n2) Lembrete (2 dias sem resposta)\n' + followUp(first, 1) + '\n\n3) Último lembrete (5 dias)\n' + followUp(first, 2) : '';
+    document.getElementById('msgPreview').textContent = first ? 'Contato 1 · Texto (dia 0, depois do vídeo)\n' + message(first) + '\n\nContato 2 · ÁUDIO (dia 1)\n' + followUp(first, 1) + '\n\nContato 3 · Texto (dia 3)\n' + followUp(first, 2) + '\n\nContato 4 · Encerramento (dia 6)\n' + followUp(first, 3) : '';
   }
 
   /* ---- Script completo da conversa, já com nome, cidade e links de cada loja ---- */
@@ -159,42 +176,73 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   var FILME = { 'dantes-barra-do-garcas': { aut: true }, 'le-monde-burguer-hamburgueria-barra-do-garcas': { aut: false } };
   function bfOn() { return Date.now() < BF_FIM; }
   function script(s) {
-    var bf = bfOn(), N = '\n';
+    var bf = bfOn(), N = '\n', fm = FILME[s.id];
     var pr = function (k) { return bf ? PAY[k].precoBf : PAY[k].preco; };
-    var anual = function (k) { return 'Ótima escolha! Segue o link para ativar o plano ' + PAY[k].nome + ' anual' + (bf ? ' com preço de Black Friday' : '') + ' (R$ ' + pr(k) + '/mês): ' + (bf ? PAY[k].bf : PAY[k].anual) + N + N + 'Assim que o pagamento for confirmado, a ' + s.n + ' fica pronta para o lançamento.'; };
-    var mensal = function (k) { return 'Ótima escolha! Segue o link para ativar o plano ' + PAY[k].nome + ' mensal, sem fidelidade (R$ ' + PAY[k].precoMensal + '/mês): ' + PAY[k].mensal + N + N + 'Assim que o pagamento for confirmado, a ' + s.n + ' fica pronta para o lançamento.'; };
-    var fm = FILME[s.id];
+    var pos = N + N + 'Assim que o pagamento confirmar, me avisa aqui que a nossa equipe já monta a loja no mesmo dia.';
+    var anual = function (k) { return 'Perfeito. Segue o link do ' + PAY[k].nome + ' anual' + (bf ? ' com preço de Black Friday' : '') + ', R$ ' + pr(k) + '/mês:' + N + (bf ? PAY[k].bf : PAY[k].anual) + pos; };
+    var mensal = function (k) { return 'Perfeito. Segue o link do ' + PAY[k].nome + ' mensal, sem fidelidade, R$ ' + PAY[k].precoMensal + '/mês:' + N + PAY[k].mensal + pos; };
+    var precos = 'Planos a partir de R$ 49,90 no mensal, sem fidelidade.' + N +
+      (bf ? 'No anual, preço de Black Friday a partir de R$ 39,90/mês, só até 30/11.' : 'No anual, a partir de R$ 39,90/mês, com preço garantido até o fim do plano.') + N +
+      'Garantia de 7 dias: se não gostar, devolvemos o valor.';
+    var G1 = '1 · Primeiro contato e cadência (máximo 4 contatos)', G2 = '2 · Com o responsável', G3 = '3 · Oferta e fechamento',
+      G4 = '4 · Pagou ou travou no pagamento', G5 = '5 · Objeções (concorde, pergunte, responda)', G6 = 'A qualquer momento';
     return [
-      { g: '1 · Primeiro contato (envie logo depois do vídeo dos parceiros)', t: 'Quem somos + prévia + pedir o responsável', m: message(s) },
-      { g: '1 · Primeiro contato (envie logo depois do vídeo dos parceiros)', t: 'Se perguntarem "como assim?"', m: 'Para o lançamento, a nossa equipe montou uma prévia do cardápio de várias lojas de ' + s.c + ' na plataforma' + (s.m ? ', inclusive da ' + s.n : '') + '. Agora queremos alinhar a parceria com o responsável. Consegue me passar o contato dele?' },
-      { g: '2 · Com o responsável', t: 'Apresentação + prévia', m: intro(s) },
-      s.m && !s.o ? { g: '2 · Com o responsável', t: 'Número confirmado: pedidos liberados (avise o Claude antes)', m: 'Obrigado! O envio de pedidos da ' + s.n + ' está liberado. Faz um pedido de teste e vê ele chegando aqui: ' + linkLoja(s) } : null,
-      fm ? { g: '2 · Com o responsável', t: fm.aut ? 'Loja da campanha: o vídeo' : 'Loja da campanha: o vídeo + autorização', m: 'A ' + s.n + ' foi uma das lojas escolhidas para aparecer no vídeo da nossa campanha de lançamento, que mostra na prática como a plataforma funciona.' + (fm.aut ? '' : ' Antes de publicar, precisamos da autorização de vocês. Podemos manter a loja no vídeo?') } : null,
-      { g: '3 · Oferta', t: fm ? 'Planos + 1 mês grátis (loja da campanha)' : 'Planos', m: (fm ? 'Por fazerem parte da campanha, vocês ganham *1 mês grátis* em qualquer plano 🎁' + N + N : '') + 'Planos a partir de *R$ 39,90/mês*, sem comissão e com opção sem fidelidade. Garantia de 7 dias.' + N + N + 'Veja os planos: ' + SITE + 'planos' },
-      { g: '4 · Fechamento', t: 'Essencial mensal · R$ ' + PAY.essencial.precoMensal, m: mensal('essencial') },
-      { g: '4 · Fechamento', t: 'Essencial anual · R$ ' + pr('essencial') + '/mês', m: anual('essencial') },
-      { g: '4 · Fechamento', t: 'Destaque anual · R$ ' + pr('destaque') + '/mês', m: anual('destaque') },
-      { g: '4 · Fechamento', t: 'Premium anual · R$ ' + pr('premium') + '/mês', m: anual('premium') },
-      { g: 'A qualquer momento', t: 'Passar para o especialista (você)', m: 'Perfeito! Vou passar o seu atendimento para o Pedro Henrique, do nosso time comercial. Ele continua com você por aqui em instantes.' },
-      { g: 'A qualquer momento', t: 'Respondeu SAIR / sem interesse', m: 'Tudo certo, obrigado pelo retorno! Não vou enviar mais mensagens. Se quiser conhecer o PedeAi Delivery, é só chamar por aqui. Boas vendas!', sem: true }
+      { g: G1, t: 'Contato 1 · Texto (dia 0, logo depois do vídeo)', m: message(s) },
+      { g: G1, t: 'Contato 2 · Áudio de até 30 s (dia 1, sem resposta)', m: audio1(s), a: true },
+      { g: G1, t: 'Contato 3 · Texto curto (dia 3)', m: followUp(s, 2) },
+      { g: G1, t: 'Contato 4 · Encerramento (dia 6). Depois disso, pare.', m: followUp(s, 3) },
+      { g: G1, t: 'Se perguntarem "como assim?"', m: 'Para o lançamento, a nossa equipe montou uma prévia do cardápio de várias lojas de ' + s.c + (s.m ? ', inclusive da ' + s.n : '') + '. Agora queremos alinhar a parceria com o responsável. Consegue me passar o contato dele?' },
+      { g: G2, t: 'Texto · Apresentação + prévia + pergunta', m: intro(s) },
+      s.m && !s.o ? { g: G2, t: 'Número confirmado: pedidos liberados (avise o Claude antes)', m: 'Obrigado! O envio de pedidos da ' + s.n + ' está liberado. Faz um pedido de teste e veja ele chegando aqui: ' + linkLoja(s) } : null,
+      fm ? { g: G2, t: fm.aut ? 'Loja da campanha: o vídeo' : 'Loja da campanha: o vídeo + autorização', m: 'A ' + s.n + ' foi uma das lojas escolhidas para aparecer no vídeo da nossa campanha de lançamento, que mostra na prática como a plataforma funciona.' + (fm.aut ? '' : ' Antes de publicar, precisamos da autorização de vocês. Podemos manter a loja no vídeo?') } : null,
+      { g: G2, t: 'Áudio de até 40 s · Apresentação para o dono', a: true, m: 'Prazer, aqui é o Pedro Henrique, do PedeAi Delivery. Vou ser rápido. No aplicativo comum, a cada pedido uma parte da venda fica com eles. No PedeAi não tem comissão: o cliente pede pelo link, o pedido chega pronto no seu WhatsApp e você paga só um plano fixo, a partir de quarenta e nove e noventa no mensal. A gente traz o cliente com tráfego pago e influenciadores, monta o seu cardápio no mesmo dia e, se em sete dias não gostar, devolve o valor. Você prefere começar no mensal ou garantir o anual' + (bf ? ' com o preço de Black Friday' : '') + '?' },
+      { g: G2, t: 'Pergunta de diagnóstico', m: 'Para eu te mostrar a conta certinha: quanto o aplicativo cobra de comissão de vocês hoje, e quanto vocês vendem no delivery por mês, mais ou menos?' },
+      { g: G2, t: 'A conta (preencha os números que ele passou)', m: 'Então hoje, vendendo R$ ____ por mês, ficam R$ ____ com o aplicativo todo mês.' + N + N + 'No PedeAi esse valor fica com vocês: é só o plano fixo, a partir de R$ 49,90. Quer que eu te mande as opções?' },
+      { g: G3, t: 'Oferta com duas opções (mensal ou anual)', m: (fm ? 'Por fazerem parte da campanha, vocês ganham 1 mês grátis em qualquer plano.' + N + N : '') + precos + N + N + 'Os planos estão aqui: ' + SITE + 'planos' + N + N + 'Vocês preferem começar no mensal ou garantir o anual?' },
+      { g: G3, t: 'Escassez real · Premium', m: 'O Premium tem só 5 vagas por cidade e é o único com o atendente virtual com IA no WhatsApp (no anual). Quer garantir a vaga da ' + s.n + ' em ' + s.c + '?' },
+      { g: G3, t: 'Essencial mensal · R$ ' + PAY.essencial.precoMensal, m: mensal('essencial') },
+      { g: G3, t: 'Destaque mensal · R$ ' + PAY.destaque.precoMensal, m: mensal('destaque') },
+      { g: G3, t: 'Premium mensal · R$ ' + PAY.premium.precoMensal, m: mensal('premium') },
+      { g: G3, t: 'Essencial anual · R$ ' + pr('essencial') + '/mês', m: anual('essencial') },
+      { g: G3, t: 'Destaque anual · R$ ' + pr('destaque') + '/mês', m: anual('destaque') },
+      { g: G3, t: 'Premium anual · R$ ' + pr('premium') + '/mês', m: anual('premium') },
+      { g: G4, t: 'Pagamento confirmado + pedir as fotos', m: 'Pagamento confirmado. Bem-vindos ao PedeAi!' + N + N + 'Agora me manda as fotos dos produtos e o horário de funcionamento, que a nossa equipe deixa a loja pronta hoje.' },
+      { g: G4, t: 'Indicação (logo depois de fechar)', m: 'Uma última coisa: conhece outro dono de loja em ' + s.c + ' que também quer vender sem pagar comissão? Me passa o contato que eu falo em seu nome.' },
+      { g: G4, t: 'Recebeu o link e não pagou · 2 horas depois', m: 'Conseguiu ativar? Se travou em alguma parte do pagamento, me fala que eu te ajudo agora.' },
+      { g: G4, t: 'Recebeu o link e não pagou · Áudio no dia seguinte', a: true, m: 'Oi, aqui é o Pedro Henrique, do PedeAi. Vi que ficou faltando só a ativação da ' + s.n + '. Lembrando que tem garantia de sete dias: se não gostar, a gente devolve o valor, então o risco é zero. ' + (bf ? 'E o preço de Black Friday do anual vai só até o dia trinta. ' : '') + 'Consigo te ajudar a ativar agora?' },
+      { g: G5, t: '"Vou pensar"', m: 'Claro. Só para eu te ajudar: o que falta para decidir, o valor ou saber se vai vender?' },
+      { g: G5, t: '"Está caro" / "agora não dá"', m: 'Entendo. O mensal é R$ 49,90, sem fidelidade: um pedido de R$ 50 no mês já paga o plano. E se em 7 dias não gostar, devolvemos o valor. Quer começar no mensal?' },
+      { g: G5, t: '"Já uso aplicativo"', m: 'Pode continuar com ele. O PedeAi é um canal a mais, sem comissão: cada cliente que pedir por aqui deixa a venda inteira com vocês. Quer testar no mensal, sem fidelidade?' },
+      { g: G5, t: '"Já vendo pelo WhatsApp"', m: 'Perfeito, o pedido continua chegando no seu WhatsApp, só que já montado, com itens, adicionais e endereço. E a gente traz cliente novo com tráfego pago e influenciadores. Quer ver as opções?' },
+      { g: G5, t: '"Vai ter cliente?" / "ninguém conhece"', m: (lancou() ? 'O PedeAi está no ar em ' + s.c : 'A estreia em ' + s.c + ' é dia 25/11') + ', com tráfego pago e influenciadores regionais. Já são mais de ' + NLOJAS + ' lojas na plataforma, em ' + NCID + ' cidades. Quem entra agora aparece desde o primeiro dia. Garantimos a ' + s.n + '?' },
+      { g: G5, t: '"Não tenho tempo para montar"', m: 'Não precisa: a nossa equipe monta cardápio, fotos e horários no mesmo dia. Vocês só mandam as fotos. Prefere o mensal ou o anual?' },
+      { g: G5, t: '"Integra com meu sistema / impressora?"', m: 'Para sair na impressora, o pedido precisa passar por um sistema. Estamos fazendo um estudo com os parceiros para integrar os mais usados. Hoje o pedido chega completo no WhatsApp. Qual sistema vocês usam?' },
+      { g: G5, t: '"Preciso falar com o sócio"', m: 'Claro. Quer que eu mande um áudio curto explicando para ele? Se preferir, me passa o contato que eu falo direto.' },
+      { g: G5, t: '"Tem atendente com IA / chatbot?"', m: 'Tem: o atendente virtual com IA no WhatsApp faz parte do Premium anual. Quer o link?' },
+      { g: G5, t: 'Última carta (use uma vez, só se travar)', m: 'Consigo uma condição só para hoje: ativando o mensal agora, vocês ganham 1 mês grátis e a próxima mensalidade fica só para janeiro de 2027. Sem fidelidade e com 7 dias de garantia. Fechamos?' },
+      { g: G6, t: 'Passar para o especialista (você)', m: 'Perfeito! Vou passar o seu atendimento para o Pedro Henrique, do nosso time comercial. Ele continua com você por aqui em instantes.' },
+      { g: G6, t: 'Respondeu SAIR / sem interesse', m: 'Tudo certo, obrigado pelo retorno! Não vou enviar mais mensagens. Se quiser conhecer o PedeAi Delivery, é só chamar por aqui. Boas vendas!', sem: true }
     ].filter(Boolean).map(function (x) { x.m = x.m.split(N).join('\n'); return x; });
   }
   function scriptHtml(s) {
     var last = '';
     return script(s).map(function (x, i) {
       var head = x.g !== last ? '<p class="sg">' + esc(x.g) + '</p>' : ''; last = x.g;
-      return head + '<div class="si"><div class="st-t">' + esc(x.t) + '</div><div class="st-m">' + esc(x.m) + '</div><div class="st-a">' +
+      return head + '<div class="si' + (x.a ? ' au' : '') + '"><div class="st-t">' + (x.a ? '<span class="mic">ÁUDIO</span>' : '') + esc(x.t) + '</div><div class="st-m">' + esc(x.m) + '</div><div class="st-a">' +
         '<button type="button" data-cp="' + s.id + '|' + i + '">Copiar</button>' +
-        '<a target="_blank" rel="noopener" data-sc="' + s.id + '|' + i + '" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(x.m) + '">Enviar no WhatsApp</a></div></div>';
+        '<a target="_blank" rel="noopener" data-sc="' + s.id + '|' + i + '" href="https://wa.me/' + s.w + (x.a ? '' : '?text=' + encodeURIComponent(x.m)) + '">' + (x.a ? 'Abrir conversa para gravar' : 'Enviar no WhatsApp') + '</a></div></div>';
     }).join('');
   }
+  // Próximo contato da cadência (só para quem não respondeu).
   function followBtns(s, x, rec) {
     if (x !== 'enviado' || !s.w || !rec.at) return '';
-    var d = daysSince(rec.at), n = rec.f || 0, next = n + 1;
-    if (next > 2) return '<div class="when">Abordagem encerrada (3 mensagens sem resposta).</div>';
-    var wait = next === 1 ? 2 : 5;
-    if (d < wait) return '<div class="when">Sem resposta? Lembrete ' + (next === 1 ? '1' : 'final') + ' liberado em ' + (wait - d) + ' dia(s).</div>';
-    return '<div class="acts"><a class="fup" data-fup="' + s.id + '" data-n="' + next + '" target="_blank" rel="noopener" href="https://wa.me/' + s.w + '?text=' + encodeURIComponent(followUp(s, next)) + '">' + WA + (next === 1 ? 'Enviar lembrete (2 dias)' : 'Enviar último lembrete (5 dias)') + '</a></div>';
+    var d = daysSince(rec.at), n = rec.f || 0;
+    if (n >= CAD.length) return '<div class="when">Cadência encerrada: 4 contatos sem resposta. Não envie mais nada.</div>';
+    var c = CAD[n];
+    if (d < c.d) return '<div class="when">Sem resposta? ' + c.nome.split(' (')[0] + ' liberado em ' + (c.d - d) + ' dia(s).</div>';
+    var au = c.tipo === 'audio';
+    return (au ? '<div class="si au"><div class="st-t"><span class="mic">ÁUDIO</span>Grave este áudio (até 30 s, falando o nome da loja)</div><div class="st-m">' + esc(followUp(s, n + 1)) + '</div></div>' : '') +
+      '<div class="acts"><a class="fup" data-fup="' + s.id + '" data-n="' + (n + 1) + '" target="_blank" rel="noopener" href="https://wa.me/' + s.w + (au ? '' : '?text=' + encodeURIComponent(followUp(s, n + 1))) + '">' + WA + (au ? 'Abrir conversa e gravar o áudio' : 'Enviar o ' + c.nome.split(' (')[0].toLowerCase()) + '</a></div>';
   }
   function all() { renderCities(); renderStats(); renderList(); }
   document.getElementById('list').addEventListener('toggle', function (e) {

@@ -64,7 +64,7 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   </div>
   <p class="peak" id="peak" hidden>Agora é horário de pico dos restaurantes. Prefira enviar das 9h às 11h ou das 14h30 às 17h.</p>
   <div class="passos"><b>Cadência (máximo 4 contatos sem resposta):</b> dia 0 vídeo dos parceiros + texto · dia 1 <b>áudio</b> · dia 3 texto curto · dia 6 encerramento. Depois, pare.
-<ul><li>Responda em até 5 minutos. Quem responde rápido fecha mais.</li><li>Toda mensagem termina com uma pergunta.</li><li>Na oferta, dê duas opções (mensal ou anual), nunca "quer?".</li><li>Objeção: concorde, pergunte o motivo e responda curto.</li><li>Áudio: até 30 s, nome da loja no começo, voz animada.</li><li>Fechou? Peça as fotos e uma indicação na hora.</li></ul></div>
+<ul><li>Responda em até 5 minutos. Quem responde rápido fecha mais.</li><li>Toda mensagem termina com uma pergunta.</li><li>Na oferta, dê duas opções (mensal ou anual), nunca "quer?".</li><li>Objeção: concorde, pergunte o motivo e responda curto.</li><li>Fale como gente daqui: simpatia primeiro, venda depois. Áudio de até 30 s, nome da loja no começo, voz animada.</li><li>Fechou? Peça as fotos e uma indicação na hora.</li></ul></div>
   <details class="msg"><summary>Ver a cadência completa (4 contatos)</summary><pre id="msgPreview"></pre></details>
   <div id="list"></div>
   <p class="note">O progresso fica salvo neste celular. Use sempre o mesmo aparelho para a abordagem.</p>
@@ -94,11 +94,11 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   function exemplo(s) { return s.ex ? SITE + '#/loja/' + s.ex.id : SITE; }
   function lancou() { return Date.now() >= LANCAMENTO; }
   function quando() { return lancou() ? 'que já está no ar' : 'que estreia dia 25/11'; }
-  function previa(s) { return s.m ? 'Montamos uma prévia do cardápio da ' + s.n + ': ' + linkLoja(s) : 'Veja como fica uma loja na plataforma: ' + exemplo(s); }
+  function previa(s) { return s.m ? 'Montamos uma prévia do cardápio da ' + s.n + ', dá uma olhada: ' + linkLoja(s) : 'Veja como fica uma loja na plataforma: ' + exemplo(s); }
   // Contato 1 (dia 0): logo depois do vídeo dos parceiros.
   function message(s) {
-    return 'Olá! Aqui é o Pedro Henrique, do PedeAi Delivery, a nova plataforma de delivery do Vale do Araguaia, ' + quando() + '.\n\n' +
-      previa(s) + '\n\nQuem é o responsável pela loja? Quero mostrar como vender no delivery sem pagar comissão.';
+    return 'Opa, tudo bem? Aqui é o Pedro Henrique, do PedeAi Delivery, a nova plataforma de delivery do Vale do Araguaia, ' + quando() + '.\n\n' +
+      previa(s) + '\n\nQuem é o responsável aí pela loja? Queria bater um papo rápido com ele sobre vender no delivery sem pagar comissão.';
   }
   // Contatos 2 a 4, só se não houver resposta. n = 1 (áudio, dia 1), 2 (texto, dia 3), 3 (encerramento, dia 6).
   var CAD = [
@@ -107,22 +107,22 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
     { d: 6, tipo: 'texto', nome: 'Contato 4 · Encerramento (dia 6)' }
   ];
   function audio1(s) {
-    return 'Oi, pessoal da ' + s.n + ', tudo bem? Aqui é o Pedro Henrique, do PedeAi Delivery. ' +
-      'Preciso de dois minutinhos com o responsável pela loja para alinhar a parceria' + (lancou() ? '' : ' antes da estreia do dia 25') + '. ' +
-      'Quem é a pessoa, e qual o melhor horário pra eu falar com ela hoje?';
+    return 'Opa, pessoal da ' + s.n + ', tudo bem com vocês? Aqui é o Pedro Henrique, do PedeAi. ' +
+      'Queria trocar uma ideia rapidinho com o responsável pela loja, coisa de dois minutinhos, pra alinhar a parceria' + (lancou() ? '' : ' antes da estreia do dia 25') + '. ' +
+      'Quem que é a pessoa, e que horário fica bom pra eu falar com ela hoje?';
   }
   function followUp(s, n) {
     if (n === 1) return audio1(s);
-    if (n === 2) return (lancou() ? 'O PedeAi já está no ar em ' + s.c + ', com campanhas de tráfego pago e influenciadores.' : 'A estreia do PedeAi em ' + s.c + ' é dia 25/11, com campanhas de tráfego pago e influenciadores.') +
-      '\n\nFaz sentido a ' + s.n + ' entrar? Pode responder só sim ou não.';
-    return 'Como não tive retorno, vou encerrar por aqui para não incomodar. Se quiser vender no delivery sem pagar comissão, é só me chamar neste número.';
+    if (n === 2) return (lancou() ? 'Opa, tudo certo? O PedeAi já está no ar em ' + s.c + ', com tráfego pago e influenciadores da região.' : 'Opa, tudo certo? A estreia do PedeAi em ' + s.c + ' é dia 25/11, com tráfego pago e influenciadores da região.') +
+      '\n\nBora colocar a ' + s.n + ' junto? Me responde só com um sim ou não, sem compromisso.';
+    return 'Não quero ficar te incomodando, então vou parar por aqui. Mas a porta fica aberta: quando quiser vender no delivery sem pagar comissão, é só me chamar. Boas vendas pra vocês!';
   }
   // Com o responsável: apresentação + prévia + pergunta de diagnóstico.
   function intro(s) {
-    var oi = 'Olá! Aqui é o Pedro Henrique, do PedeAi Delivery. A equipe da ' + s.n + ' me passou seu contato.\n\n' + previa(s) + '\n\n';
-    if (s.m && s.o) return oi + 'Faz um pedido de teste e veja ele chegando no WhatsApp da loja. Hoje vocês vendem no delivery por aplicativo, pelo WhatsApp ou pelos dois?';
-    if (s.m) return oi + 'Só preciso confirmar: este é o WhatsApp que recebe os pedidos da loja? Confirmando, já liberamos o envio dos pedidos.';
-    return oi + 'A ' + s.n + ' pode ficar assim também: você manda o cardápio e as fotos, e a nossa equipe monta tudo no mesmo dia. Hoje vocês vendem no delivery por aplicativo, pelo WhatsApp ou pelos dois?';
+    var oi = 'Opa, tudo bem? Aqui é o Pedro Henrique, do PedeAi Delivery. O pessoal da ' + s.n + ' me passou seu contato.\n\n' + previa(s) + '\n\n';
+    if (s.m && s.o) return oi + 'Faz um pedido de teste aí e vê ele chegando no WhatsApp da loja. Me conta: hoje vocês vendem no delivery por aplicativo, pelo WhatsApp ou pelos dois?';
+    if (s.m) return oi + 'Só me confirma uma coisa: este é o WhatsApp que recebe os pedidos da loja? Confirmando, já libero o envio dos pedidos.';
+    return oi + 'A ' + s.n + ' pode ficar assim também: você manda o cardápio e as fotos, e a nossa equipe monta tudo no mesmo dia. Me conta: hoje vocês vendem no delivery por aplicativo, pelo WhatsApp ou pelos dois?';
   }
   function daysSince(t) { return Math.floor((Date.now() - t) / 86400000); }
   function today() { var d = new Date(); return d.getFullYear() + '-' + (d.getMonth() + 1) + '-' + d.getDate(); }
@@ -177,12 +177,12 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   function script(s) {
     var bf = bfOn(), N = '\n', fm = FILME[s.id];
     var pr = function (k) { return bf ? PAY[k].precoBf : PAY[k].preco; };
-    var pos = N + N + 'Assim que o pagamento confirmar, me avisa aqui que a nossa equipe já monta a loja no mesmo dia.';
-    var anual = function (k) { return 'Perfeito. Segue o link do ' + PAY[k].nome + ' anual' + (bf ? ' com preço de Black Friday' : '') + ', R$ ' + pr(k) + '/mês:' + N + (bf ? PAY[k].bf : PAY[k].anual) + pos; };
-    var mensal = function (k) { return 'Perfeito. Segue o link do ' + PAY[k].nome + ' mensal, sem fidelidade, R$ ' + PAY[k].precoMensal + '/mês:' + N + PAY[k].mensal + pos; };
+    var pos = N + N + 'Assim que o pagamento confirmar, me dá um toque aqui que a nossa equipe já monta a loja no mesmo dia.';
+    var anual = function (k) { return 'Show! Segue o link do ' + PAY[k].nome + ' anual' + (bf ? ' com preço de Black Friday' : '') + ', R$ ' + pr(k) + '/mês:' + N + (bf ? PAY[k].bf : PAY[k].anual) + pos; };
+    var mensal = function (k) { return 'Show! Segue o link do ' + PAY[k].nome + ' mensal, sem fidelidade, R$ ' + PAY[k].precoMensal + '/mês:' + N + PAY[k].mensal + pos; };
     var precos = 'Planos a partir de R$ 49,90 no mensal, sem fidelidade.' + N +
       (bf ? 'No anual, preço de Black Friday a partir de R$ 39,90/mês, só até 30/11.' : 'No anual, a partir de R$ 39,90/mês, com preço garantido até o fim do plano.') + N +
-      'Garantia de 7 dias: se não gostar, devolvemos o valor.';
+      'E tem garantia de 7 dias: não curtiu, a gente devolve o dinheiro.';
     var G1 = '1 · Primeiro contato e cadência (máximo 4 contatos)', G2 = '2 · Com o responsável', G3 = '3 · Oferta e fechamento',
       G4 = '4 · Pagou ou travou no pagamento', G5 = '5 · Objeções (concorde, pergunte, responda)', G6 = 'A qualquer momento';
     return [
@@ -194,10 +194,10 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
       { g: G2, t: 'Texto · Apresentação + prévia + pergunta', m: intro(s) },
       s.m && !s.o ? { g: G2, t: 'Número confirmado: pedidos liberados (avise o Claude antes)', m: 'Obrigado! O envio de pedidos da ' + s.n + ' está liberado. Faz um pedido de teste e veja ele chegando aqui: ' + linkLoja(s) } : null,
       fm ? { g: G2, t: fm.aut ? 'Loja da campanha: o vídeo' : 'Loja da campanha: o vídeo + autorização', m: 'A ' + s.n + ' foi uma das lojas escolhidas para aparecer no vídeo da nossa campanha de lançamento, que mostra na prática como a plataforma funciona.' + (fm.aut ? '' : ' Antes de publicar, precisamos da autorização de vocês. Podemos manter a loja no vídeo?') } : null,
-      { g: G2, t: 'Áudio de até 40 s · Apresentação para o dono', a: true, m: 'Prazer, aqui é o Pedro Henrique, do PedeAi Delivery. Vou ser rápido. No aplicativo comum, a cada pedido uma parte da venda fica com eles. No PedeAi não tem comissão: o cliente pede pelo link, o pedido chega pronto no seu WhatsApp e você paga só um plano fixo, a partir de quarenta e nove e noventa no mensal. A gente traz o cliente com tráfego pago e influenciadores, monta o seu cardápio no mesmo dia e, se em sete dias não gostar, devolve o valor. Você prefere começar no mensal ou garantir o anual' + (bf ? ' com o preço de Black Friday' : '') + '?' },
-      { g: G2, t: 'Pergunta de diagnóstico', m: 'Para eu te mostrar a conta certinha: quanto o aplicativo cobra de comissão de vocês hoje, e quanto vocês vendem no delivery por mês, mais ou menos?' },
+      { g: G2, t: 'Áudio de até 40 s · Apresentação para o dono', a: true, m: 'Opa, prazer! Aqui é o Pedro Henrique, do PedeAi Delivery. Vou ser rapidinho. No aplicativo comum, a cada pedido uma parte da venda fica com eles. No PedeAi não tem comissão: o cliente pede pelo link, o pedido chega pronto no seu WhatsApp e você paga só um plano fixo, a partir de quarenta e nove e noventa no mensal. A gente traz o cliente com tráfego pago e influenciadores, monta o seu cardápio no mesmo dia e, se em sete dias você não curtir, devolve o dinheiro. Você prefere começar no mensal ou garantir o anual' + (bf ? ' com o preço de Black Friday' : '') + '?' },
+      { g: G2, t: 'Pergunta de diagnóstico', m: 'Me conta uma coisa, pra eu te mostrar a conta certinha: quanto o aplicativo cobra de comissão de vocês hoje, e quanto vocês vendem no delivery por mês, mais ou menos?' },
       { g: G2, t: 'A conta (preencha os números que ele passou)', m: 'Então hoje, vendendo R$ ____ por mês, ficam R$ ____ com o aplicativo todo mês.' + N + N + 'No PedeAi esse valor fica com vocês: é só o plano fixo, a partir de R$ 49,90. Quer que eu te mande as opções?' },
-      { g: G3, t: 'Oferta com duas opções (mensal ou anual)', m: (fm ? 'Por fazerem parte da campanha, vocês ganham 1 mês grátis em qualquer plano.' + N + N : '') + precos + N + N + 'Os planos estão aqui: ' + SITE + 'planos' + N + N + 'Vocês preferem começar no mensal ou garantir o anual?' },
+      { g: G3, t: 'Oferta com duas opções (mensal ou anual)', m: (fm ? 'Por fazerem parte da campanha, vocês ganham 1 mês grátis em qualquer plano.' + N + N : '') + precos + N + N + 'Os planos estão aqui: ' + SITE + 'planos' + N + N + 'E aí, vocês preferem começar no mensal ou já garantir o anual?' },
       { g: G3, t: 'Escassez real · Premium', m: 'O Premium tem só 5 vagas por cidade e é o único com o atendente virtual com IA no WhatsApp (no anual). Quer garantir a vaga da ' + s.n + ' em ' + s.c + '?' },
       { g: G3, t: 'Essencial mensal · R$ ' + PAY.essencial.precoMensal, m: mensal('essencial') },
       { g: G3, t: 'Destaque mensal · R$ ' + PAY.destaque.precoMensal, m: mensal('destaque') },
@@ -205,22 +205,22 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
       { g: G3, t: 'Essencial anual · R$ ' + pr('essencial') + '/mês', m: anual('essencial') },
       { g: G3, t: 'Destaque anual · R$ ' + pr('destaque') + '/mês', m: anual('destaque') },
       { g: G3, t: 'Premium anual · R$ ' + pr('premium') + '/mês', m: anual('premium') },
-      { g: G4, t: 'Pagamento confirmado + pedir as fotos', m: 'Pagamento confirmado. Bem-vindos ao PedeAi!' + N + N + 'Agora me manda as fotos dos produtos e o horário de funcionamento, que a nossa equipe deixa a loja pronta hoje.' },
-      { g: G4, t: 'Indicação (logo depois de fechar)', m: 'Uma última coisa: conhece outro dono de loja em ' + s.c + ' que também quer vender sem pagar comissão? Me passa o contato que eu falo em seu nome.' },
-      { g: G4, t: 'Recebeu o link e não pagou · 2 horas depois', m: 'Conseguiu ativar? Se travou em alguma parte do pagamento, me fala que eu te ajudo agora.' },
-      { g: G4, t: 'Recebeu o link e não pagou · Áudio no dia seguinte', a: true, m: 'Oi, aqui é o Pedro Henrique, do PedeAi. Vi que ficou faltando só a ativação da ' + s.n + '. Lembrando que tem garantia de sete dias: se não gostar, a gente devolve o valor, então o risco é zero. ' + (bf ? 'E o preço de Black Friday do anual vai só até o dia trinta. ' : '') + 'Consigo te ajudar a ativar agora?' },
-      { g: G5, t: '"Vou pensar"', m: 'Claro. Só para eu te ajudar: o que falta para decidir, o valor ou saber se vai vender?' },
-      { g: G5, t: '"Está caro" / "agora não dá"', m: 'Entendo. O mensal é R$ 49,90, sem fidelidade: um pedido de R$ 50 no mês já paga o plano. E se em 7 dias não gostar, devolvemos o valor. Quer começar no mensal?' },
-      { g: G5, t: '"Já uso aplicativo"', m: 'Pode continuar com ele. O PedeAi é um canal a mais, sem comissão: cada cliente que pedir por aqui deixa a venda inteira com vocês. Quer testar no mensal, sem fidelidade?' },
-      { g: G5, t: '"Já vendo pelo WhatsApp"', m: 'Perfeito, o pedido continua chegando no seu WhatsApp, só que já montado, com itens, adicionais e endereço. E a gente traz cliente novo com tráfego pago e influenciadores. Quer ver as opções?' },
-      { g: G5, t: '"Vai ter cliente?" / "ninguém conhece"', m: (lancou() ? 'O PedeAi está no ar em ' + s.c : 'A estreia em ' + s.c + ' é dia 25/11') + ', com tráfego pago e influenciadores regionais. Já são mais de ' + NLOJAS + ' lojas na plataforma, em ' + NCID + ' cidades. Quem entra agora aparece desde o primeiro dia. Garantimos a ' + s.n + '?' },
-      { g: G5, t: '"Não tenho tempo para montar"', m: 'Não precisa: a nossa equipe monta cardápio, fotos e horários no mesmo dia. Vocês só mandam as fotos. Prefere o mensal ou o anual?' },
+      { g: G4, t: 'Pagamento confirmado + pedir as fotos', m: 'Pagamento confirmado, sejam muito bem-vindos ao PedeAi!' + N + N + 'Agora me manda as fotos dos produtos e o horário de funcionamento, que a nossa equipe deixa a loja prontinha hoje.' },
+      { g: G4, t: 'Indicação (logo depois de fechar)', m: 'Ah, e uma coisa: conhece mais algum dono de loja aí em ' + s.c + ' que ia gostar de vender sem pagar comissão? Me passa o contato que eu falo em seu nome.' },
+      { g: G4, t: 'Recebeu o link e não pagou · 2 horas depois', m: 'E aí, conseguiu ativar? Se travou alguma coisa no pagamento, me chama que eu te ajudo agora.' },
+      { g: G4, t: 'Recebeu o link e não pagou · Áudio no dia seguinte', a: true, m: 'Opa, tudo bem? Aqui é o Pedro Henrique, do PedeAi. Vi que ficou faltando só a ativação da ' + s.n + '. Se travou alguma coisa no pagamento, me fala que eu resolvo contigo agora. E fica tranquilo que tem garantia de sete dias: não curtiu, a gente devolve o dinheiro. ' + (bf ? 'Só lembrando que o preço de Black Friday do anual vai até o dia trinta. ' : '') + 'Bora ativar?' },
+      { g: G5, t: '"Vou pensar"', m: 'Claro, fica à vontade! Só me ajuda numa coisa: o que tá pegando mais, o valor ou a dúvida se vai vender?' },
+      { g: G5, t: '"Está caro" / "agora não dá"', m: 'Entendo total. O mensal é R$ 49,90, sem fidelidade: um pedido de R$ 50 no mês já paga o plano. E se em 7 dias não curtir, a gente devolve o dinheiro. Bora testar no mensal?' },
+      { g: G5, t: '"Já uso aplicativo"', m: 'Pode continuar com ele, tranquilo! O PedeAi entra como mais um canal, só que sem comissão: cada pedido que vier por aqui é venda inteira no bolso de vocês. Bora testar no mensal, sem fidelidade?' },
+      { g: G5, t: '"Já vendo pelo WhatsApp"', m: 'Show! O pedido continua chegando no seu WhatsApp, só que já montadinho, com itens, adicionais e endereço. E a gente ainda traz cliente novo com tráfego pago e influenciadores. Quer ver as opções?' },
+      { g: G5, t: '"Vai ter cliente?" / "ninguém conhece"', m: (lancou() ? 'O PedeAi está no ar em ' + s.c : 'A estreia em ' + s.c + ' é dia 25/11') + ', com tráfego pago e influenciadores regionais. Já são mais de ' + NLOJAS + ' lojas na plataforma, em ' + NCID + ' cidades. Quem entra agora já aparece desde o primeiro dia. Bora garantir a ' + s.n + '?' },
+      { g: G5, t: '"Não tenho tempo para montar"', m: 'Fica tranquilo, isso é com a gente: a nossa equipe monta cardápio, fotos e horários no mesmo dia. Vocês só mandam as fotos. Preferem o mensal ou o anual?' },
       { g: G5, t: '"Integra com meu sistema / impressora?"', m: 'Para sair na impressora, o pedido precisa passar por um sistema. Estamos fazendo um estudo com os parceiros para integrar os mais usados. Hoje o pedido chega completo no WhatsApp. Qual sistema vocês usam?' },
-      { g: G5, t: '"Podemos conversar pessoalmente?"', m: 'O nosso atendimento comercial é todo pelo WhatsApp, para atender as ' + NCID + ' cidades com agilidade. Vocês escolhem o formato:' + N + N + '1. Reunião rápida pelo Google Meet com alguém do time comercial, das 9h às 18h.' + N + '2. Conversa por aqui mesmo, com um especialista tirando as dúvidas em tempo real.' + N + N + 'Qual fica melhor para vocês?' },
-      { g: G5, t: '"De onde vocês são?"', m: 'Somos de São Paulo e já temos representantes aqui no Vale do Araguaia, em Mato Grosso. O PedeAi foi criado para a região: atendemos as ' + NCID + ' cidades, com campanhas de tráfego pago e influenciadores locais.' + N + N + 'Conseguimos alinhar a parceria da ' + s.n + ' hoje?' },
-      { g: G5, t: '"Preciso falar com o sócio"', m: 'Claro. Quer que eu mande um áudio curto explicando para ele? Se preferir, me passa o contato que eu falo direto.' },
-      { g: G5, t: '"Tem atendente com IA / chatbot?"', m: 'Tem: o atendente virtual com IA no WhatsApp faz parte do Premium anual. Quer o link?' },
-      { g: G5, t: 'Última carta (use uma vez, só se travar)', m: 'Consigo uma condição só para hoje: ativando o mensal agora, vocês ganham 1 mês grátis e a próxima mensalidade fica só para janeiro de 2027. Sem fidelidade e com 7 dias de garantia. Fechamos?' },
+      { g: G5, t: '"Podemos conversar pessoalmente?"', m: 'Claro! O nosso comercial roda todo pelo WhatsApp, pra dar conta das ' + NCID + ' cidades. Mas fica do jeito que for melhor pra vocês:' + N + N + '1. Um Meet rapidinho com alguém do nosso time comercial, das 9h às 18h.' + N + '2. Ou a gente segue por aqui mesmo, com um especialista tirando as dúvidas na hora.' + N + N + 'Qual vocês preferem?' },
+      { g: G5, t: '"De onde vocês são?"', m: 'Somos de São Paulo, mas já temos representantes nossos aqui no Vale do Araguaia, em Mato Grosso. O PedeAi nasceu pra região: são ' + NCID + ' cidades, com tráfego pago e influenciadores daqui mesmo.' + N + N + 'Bora alinhar a parceria da ' + s.n + ' hoje?' },
+      { g: G5, t: '"Preciso falar com o sócio"', m: 'Claro, decisão boa é tomada junto. Quer que eu mande um áudio curtinho explicando pra ele? Ou me passa o contato que eu falo direto.' },
+      { g: G5, t: '"Tem atendente com IA / chatbot?"', m: 'Tem sim! O atendente virtual com IA no WhatsApp vem no Premium anual. Te mando o link?' },
+      { g: G5, t: 'Última carta (use uma vez, só se travar)', m: 'Olha, consigo uma condição só pra hoje: ativando o mensal agora, vocês ganham 1 mês grátis e a próxima mensalidade fica só para janeiro de 2027. Sem fidelidade e com 7 dias de garantia. Fechamos?' },
       { g: G6, t: 'Passar para o especialista (você)', m: 'Perfeito! Vou passar o seu atendimento para o Pedro Henrique, do nosso time comercial. Ele continua com você por aqui em instantes.' },
       { g: G6, t: 'Respondeu SAIR / sem interesse', m: 'Tudo certo, obrigado pelo retorno! Não vou enviar mais mensagens. Se quiser conhecer o PedeAi Delivery, é só chamar por aqui. Boas vendas!', sem: true }
     ].filter(Boolean).map(function (x) { x.m = x.m.split(N).join('\n'); return x; });

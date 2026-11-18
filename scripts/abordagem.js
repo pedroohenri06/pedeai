@@ -145,9 +145,8 @@ details.msg summary{font-weight:700;cursor:pointer}details.msg pre{white-space:p
   ];
   function audio1(s) {
     return 'Oi, pessoal da ' + s.n + ', tudo bem? Aqui é o Pedro Henrique, do PedeAi Delivery. ' +
-      'Mandei pra vocês ' + (s.m ? 'a prévia do cardápio da loja' : 'como fica uma loja na plataforma') + '. A ideia é simples: o cliente pede pelo link, o pedido chega pronto no WhatsApp de vocês e não tem comissão nenhuma. ' +
-      (lancou() ? 'A gente já está no ar em ' + s.c : 'Dia 25 a gente estreia em ' + s.c) + ', com tráfego pago e influenciadores trazendo cliente. ' +
-      'Quem é a pessoa certa pra eu explicar em dois minutinhos?';
+      'Preciso de dois minutinhos com o responsável pela loja para alinhar a parceria' + (lancou() ? '' : ' antes da estreia do dia 25') + '. ' +
+      'Quem é a pessoa, e qual o melhor horário pra eu falar com ela hoje?';
   }
   function followUp(s, n) {
     if (n === 1) return audio1(s);

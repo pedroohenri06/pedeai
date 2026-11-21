@@ -245,52 +245,27 @@ export const Streak: React.FC<{y: number; o: number}> = ({y, o}) => o <= 0 ? nul
 
 /* ================================== CENAS ================================== */
 
-/* 01 · Abertura: a filmagem original da montagem do lanche (public/motim/original.mp4, 5,28 s), na ordem e
-   na velocidade originais, sem zoom e sem nada por cima — só uma correção leve de contraste.
-   Transição nascida do próprio vídeo: quando a mão sai, a câmera se aproxima do lanche; com a máscara do
-   próprio hambúrguer (recortado do último quadro da filmagem), o ambiente escuro da cena vira o palco bordô e
-   vermelho do PedeAi ao redor dele, e a luz vermelha nasce no contorno do pão. O lanche real continua no centro,
-   agora dentro da identidade da marca, e "BATEU A FOME?" entra uma única vez. */
+/* 01 · Abertura: a filmagem original da montagem do lanche, intacta (ordem, velocidade e enquadramento).
+   Os quadros vêm da versão com super-resolução (public/motim/sr, gerada por scripts/super-resolucao.py a partir de
+   public/motim/original.mp4); sem eles, usa o vídeo original. Quando a luva sai do quadro, "Bateu a fome?" entra
+   no espaço escuro do topo, sem mexer na imagem. O último quadro segura com uma aproximação lenta de câmera e a
+   cena sai por um fade para o preto, de onde nasce a cena 2. */
+const SR = true;                                      // quadros com super-resolução disponíveis em public/motim/sr
 const S1: React.FC = () => {
   const f = useCurrentFrame();
-  const END = 156;                                    // fim útil da filmagem (5,2 s; o último quadro da fonte pula para outra cena e é cortado)
-  const T0 = 146;                                     // a mão já saiu: começa a transição
-  const push = 1 + 0.14 * lerp(f, [T0, 196], [0, 1], IO);              // aproximação controlada
-  const env = lerp(f, [150, 178], [0, 1], Easing.inOut(Easing.cubic)); // ambiente da filmagem → palco da marca
-  const rim = lerp(f, [158, 186], [0, 1], OUT);
-  const whip = lerp(f, [198, 210], [0, 1], IN);
-  const grade = 'contrast(1.06) saturate(1.04)';
+  const END = 156;                                    // fim útil da filmagem (o último quadro da fonte pula para outra cena)
+  const push = 1 + 0.035 * lerp(f, [120, 210], [0, 1], Easing.inOut(Easing.sin));   // câmera respirando, quase imperceptível
+  const out = lerp(f, [194, 210], [0, 1], Easing.inOut(Easing.cubic));            // fade para o preto
+  const idx = Math.min(131, Math.floor(Math.min(f, END - 1) * 25 / 30) + 1);       // 25 qps da fonte → 30 qps
   const full: React.CSSProperties = {position: 'absolute', left: 0, top: 0, width: 1080, height: 1920, objectFit: 'cover'};
   return (
     <AbsoluteFill style={{background: '#000'}}>
-      <AbsoluteFill style={{transform: `translateY(${-whip * 1500}px)`, filter: `blur(${whip * 18}px)`}}>
-        {/* palco da marca, que surge atrás do lanche */}
-        <AbsoluteFill style={{opacity: env}}>
-          <Stage beam={0.4 + 0.6 * env} floor={0} />
-          <Dust amount={env} />
-        </AbsoluteFill>
-        <AbsoluteFill style={{transform: `scale(${push})`, transformOrigin: '560px 990px'}}>
-          {/* sombra de contato e brilho vermelho no chão, sob o lanche */}
-          <div style={{position: 'absolute', left: 150, width: 780, top: 1340, height: 120, borderRadius: '50%', background: 'radial-gradient(closest-side, rgba(0,0,0,.85), transparent)', filter: 'blur(14px)', opacity: env}} />
-          <div style={{position: 'absolute', left: 60, width: 960, top: 1300, height: 300, borderRadius: '50%', background: `radial-gradient(closest-side, ${RED}88, transparent)`, filter: 'blur(40px)', opacity: env * 0.9}} />
-          {/* filmagem original */}
-          {f < 182 && (
-            <AbsoluteFill style={{opacity: 1 - env}}>
-              <Sequence durationInFrames={END} layout="none">
-                <OffthreadVideo src={staticFile('motim/original.mp4')} muted style={{...full, filter: grade}} />
-              </Sequence>
-              {f >= END - 2 && <Img src={staticFile('motim/ultimo-quadro.png')} style={{...full, filter: grade}} />}
-            </AbsoluteFill>
-          )}
-          {/* o mesmo lanche, recortado do último quadro: fica enquanto o ambiente muda */}
-          {f >= 150 && (
-            <Img src={staticFile('motim/hamburguer-recorte.png')} style={{...full, filter: `${grade} drop-shadow(0 0 ${4 + rim * 10}px rgba(255,43,61,${0.42 * rim})) drop-shadow(0 30px 40px rgba(0,0,0,${0.6 * env}))`}} />
-          )}
-        </AbsoluteFill>
-        <AbsoluteFill style={{boxShadow: 'inset 0 0 360px 60px rgba(0,0,0,.8)', opacity: env}} />
-        <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={170} y={230} size={132} />
+      <AbsoluteFill style={{transform: `scale(${push})`, transformOrigin: '540px 1100px'}}>
+        {SR ? <Img src={staticFile('motim/sr/' + String(idx).padStart(4, '0') + '.jpg')} style={full} />
+          : f < END ? <OffthreadVideo src={staticFile('motim/original.mp4')} muted style={full} /> : <Img src={staticFile('motim/ultimo-quadro.png')} style={full} />}
       </AbsoluteFill>
-      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 3], [1, 0])}} />
+      <Headline kicker="PedeAi Delivery" lines={[{t: 'Bateu a'}, {t: 'fome?', c: HOT}]} at={150} out={192} y={250} size={132} />
+      <AbsoluteFill style={{background: '#000', opacity: Math.max(lerp(f, [0, 4], [1, 0]), out)}} />
     </AbsoluteFill>
   );
 };
@@ -387,6 +362,7 @@ const S2: React.FC = () => {
       </Cam>
       {/* faixa de leitura para as legendas quando a câmera aproxima */}
       <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(10,2,3,.96) 0%, rgba(10,2,3,.88) 22%, transparent 31%)', opacity: lerp(f, [56, 70], [0, 1])}} />
+      <AbsoluteFill style={{background: '#000', opacity: lerp(f, [0, 14], [1, 0], Easing.out(Easing.quad))}} />
       <Headline kicker="Chegou ao Vale do Araguaia" lines={[{t: 'Todo o delivery'}, {t: 'da sua cidade.', c: HOT}]} at={10} out={54} y={230} size={92} />
       <Headline kicker="01 · Cidade" lines={[{t: 'Escolha'}, {t: 'sua cidade.', c: HOT}]} at={66} out={118} y={230} size={92} />
       <Headline kicker="02 · Categoria" lines={[{t: 'O que bateu'}, {t: 'vontade?', c: HOT}]} at={126} out={174} y={230} size={92} />
@@ -737,46 +713,9 @@ export const Film: React.FC<{variant: 'cliente' | 'loja'; pos: any}> = ({variant
     <AbsoluteFill style={{background: INK}}>
       <style>{fontFaces}</style>
       {scenes.map((el, i) => <Sequence key={i} from={AT(i)} durationInFrames={SCENES[i]} premountFor={15}>{el}</Sequence>)}
-      <Grain />
-      {/* desenho de som */}
-      {/* abertura: cada som nasce de um evento real da filmagem (25 qps → 30 qps) */}
-      <Sfx at={0} s="impacto" v={0.35} />
-      {[7, 11, 14, 17, 22, 28, 31, 35].map((t) => <Sfx key={'m' + t} at={t} s="toque" v={0.16} />)}
-      <Sfx at={36} s="whoosh" v={0.2} />
-      <Sfx at={55} s="farelo" v={0.5} />
-      <Sfx at={79} s="pressao" v={0.42} />
-      <Sfx at={79} s="impacto" v={0.18} />
-      <Sfx at={133} s="whoosh" v={0.16} />
-      <Sfx at={150} s="whoosh-grave" v={0.3} />
-      <Sfx at={170} s="impacto" v={0.42} />
-      <Sfx at={198} s="whoosh" v={0.5} />
-      <Sfx at={s(1) + 2} s="whoosh-grave" v={0.45} />
-      {[44, 104, 170, 208].map((t) => <Sfx key={'t' + t} at={s(1) + t} s="toque" v={0.6} />)}
-      <Sfx at={s(1) + 48} s="whoosh" v={0.3} />
-      <Sfx at={s(1) + 70} s="whoosh" v={0.18} />
-      <Sfx at={s(1) + 110} s="whoosh" v={0.25} />
-      <Sfx at={s(1) + 132} s="whoosh" v={0.2} />
-      <Sfx at={s(1) + 176} s="whoosh" v={0.2} />
-      <Sfx at={s(1) + 210} s="whoosh-grave" v={0.55} />
-      <Sfx at={s(2) + 22} s="whoosh" v={0.4} />
-      <Sfx at={s(2) + 66} s="whoosh" v={0.35} />
-      <Sfx at={s(3) + 24} s="adicionado" v={0.6} />
-      <Sfx at={s(3) + 40} s="adicionado" v={0.6} />
-      <Sfx at={s(3) + 56} s="adicionado" v={0.6} />
-      <Sfx at={s(3) + 80} s="toque" v={0.6} />
-      <Sfx at={s(4) + 26} s="toque" v={0.6} />
-      {[44, 54, 64, 74].map(t => <Sfx key={t} at={s(4) + t} s="toque" v={0.25} />)}
-      <Sfx at={s(4) + 88} s="toque" v={0.6} />
-      <Sfx at={s(4) + 106} s="toque" v={0.6} />
-      <Sfx at={s(5) + 4} s="toque" v={0.7} />
-      <Sfx at={s(5) + 8} s="whoosh" v={0.6} />
-      <Sfx at={s(5) + 18} s="mensagem" v={0.7} />
-      <Sfx at={s(6) + 6} s="whoosh-grave" v={0.4} />
-      <Sfx at={s(6) + 45 - 60} s="subida" v={0.4} />
-      <Sfx at={s(6) + 45} s="impacto" v={0.65} />
-      <Sfx at={s(6) + 46} s="assinatura" v={0.42} />
-      <Sfx at={s(6) + 45 + 84} s="adicionado" v={0.35} />
-      <Audio src={staticFile('sfx/trilha.wav')} volume={0.55} />
+      {/* grão estático: funciona como dither contra faixas nos degradês escuros e não pesa na compressão do Instagram */}
+      <AbsoluteFill style={{pointerEvents: 'none', mixBlendMode: 'overlay', opacity: 0.1}}><Img src={staticFile('grain/g0.png')} style={{width: 1080, height: 1920}} /></AbsoluteFill>
+      {/* sem trilha e sem efeitos: a música (Industry Baby) entra por cima na publicação */}
     </AbsoluteFill>
   );
 };
